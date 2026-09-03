@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Particle Model of Matter</title>
+<style>
+  :root{
+    --panel:#ffffff;
+    --text:#0f172a;
+    --muted:#475569;
+    --accent:#0284c7;
+    --accent2:#dc2626;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    background:linear-gradient(180deg,#f8fafc,#eef2f7 55%,#f8fafc);
+    color:var(--text);
+    font-family:Inter,system-ui,"Segoe UI",Roboto,Arial,sans-serif;
+    font-size:19px;
+    min-height:100vh; display:flex; flex-direction:column;
+  }
+  header{padding:16px 22px; border-bottom:2px solid rgba(15,23,42,.10)}
+  header h1{margin:0; font-size:clamp(26px,3vw,40px); font-weight:700; letter-spacing:-0.5px}
+
+  .wrap{flex:1; min-height:0; display:grid; grid-template-columns:1fr; gap:16px; padding:16px}
+  @media(min-width:1000px){ .wrap{grid-template-columns:400px 1fr} }
+
+  .panel{
+    background:var(--panel);
+    border:1px solid rgba(15,23,42,.12);
+    border-radius:16px; padding:20px;
+    box-shadow:0 8px 26px rgba(0,0,0,.07);
+  }
+  .controls{align-self:start}
+
+  .group{margin:0 0 24px 0}
+  .group:last-child{margin-bottom:0}
+  .glabel{display:block; font-size:20px; font-weight:700; margin:0 0 10px 0}
+
+  select{
+    width:100%; font-size:24px; font-weight:600; padding:12px 14px;
+    border-radius:12px; border:2px solid rgba(15,23,42,.18);
+    background:#fff; color:var(--text); cursor:pointer;
+  }
+  select:focus{outline:3px solid rgba(2,132,199,.35); border-color:var(--accent)}
+
+  input[type="range"]{width:100%; accent-color:var(--accent); height:34px; cursor:pointer}
+
+  .readout{display:flex; align-items:baseline; gap:12px; margin:2px 0 6px 0}
+  .readout .val{font-size:40px; font-weight:800; letter-spacing:-1px; line-height:1}
+  .readout .hint{font-size:18px; color:var(--muted)}
+
+  .tempbar{
+    height:14px; border-radius:999px; margin-top:6px;
+    background:linear-gradient(90deg,#60a5fa,#22d3ee,#22c55e,#f59e0b,#ef4444);
+    box-shadow: inset 0 0 0 1px rgba(15,23,42,.10)
+  }
+  .ends{display:flex; justify-content:space-between; font-size:16px; color:var(--muted); margin-top:4px}
+
+  .seg{display:flex; gap:10px}
+  .seg button{
+    flex:1; font-size:19px; font-weight:700; padding:14px 8px;
+    border-radius:12px; cursor:pointer; color:var(--text);
+    border:2px solid rgba(15,23,42,.16); background:#fff;
+  }
+  .seg button.active{
+    border-color:var(--accent); color:#075985;
+    background:linear-gradient(180deg, rgba(2,132,199,.18), rgba(2,132,199,.07));
+  }
+  .subhint{font-size:17px; color:var(--muted); margin-top:10px; line-height:1.45}
+
+  .btnrow{display:flex; gap:10px; flex-wrap:wrap}
+  .btn{
+    flex:1; min-width:150px;
+    display:inline-flex; align-items:center; justify-content:center;
+    font-size:19px; font-weight:700; padding:14px 12px; border-radius:12px;
+    color:#0f172a; cursor:pointer;
+    border:2px solid rgba(2,132,199,.35);
+    background:linear-gradient(180deg, rgba(2,132,199,.16), rgba(2,132,199,.06));
+  }
+  .btn.secondary{
+    border-color:rgba(220,38,38,.35);
+    background:linear-gradient(180deg, rgba(220,38,38,.16), rgba(220,38,38,.06));
+  }
+  .btn:active{transform:translateY(1px)}
+
+  .stage{display:flex; min-height:0; padding:14px}
+  canvas{
+    width:100%; flex:1; min-height:420px; border-radius:16px;
+    background:
+      radial-gradient(1200px 60% at 20% 0%, rgba(14,165,233,.08), transparent),
+      radial-gradient(1200px 60% at 80% 100%, rgba(239,68,68,.08), transparent),
+      #ffffff;
+    border:1px solid rgba(15,23,42,.10);
+    display:block;
+  }
+  .legend{display:flex; gap:26px; flex-wrap:wrap; margin-top:14px; font-size:18px; color:var(--muted)}
+  .legend > div{display:flex; align-items:center; gap:9px}
+  .dot{width:16px; height:16px; border-radius:50%; flex:none}
+  .dot.normal{background:radial-gradient(circle at 35% 32%, #e6f4ff, #6bb4e7)}
+  .dot.light{background:radial-gradient(circle at 35% 32%, #fff2de, #f0a34a)}
+</style>
+</head>
+<body>
+<header><h1>Particle Model of Matter</h1></header>
+
+<div class="wrap">
+  <div class="panel controls">
+
+    <div class="group">
+      <label class="glabel" for="state">State of matter</label>
+      <select id="state">
+        <option value="solid" selected>Solid</option>
+        <option value="liquid">Liquid</option>
+        <option value="gas">Gas</option>
+      </select>
+    </div>
+
+    <div class="group">
+      <span class="glabel">Temperature</span>
+      <div class="readout">
+        <span class="val" id="tempVal">20 °C</span>
+        <span class="hint" id="tempHint">room temperature</span>
+      </div>
+      <input id="temp" type="range" min="-273" max="300" value="20" />
+      <div class="tempbar" aria-hidden="true"></div>
+      <div class="ends"><span id="tminLbl">−273 °C</span><span>300 °C</span></div>
+    </div>
+
+    <div class="group" id="speedGroup" style="display:none">
+      <span class="glabel">Molecule speeds</span>
+      <div class="seg" id="speedMode">
+        <button type="button" data-mode="same" class="active">Same speeds</button>
+        <button type="button" data-mode="random">Random motion</button>
+      </div>
+      <div class="subhint" id="speedHint"></div>
+    </div>
+
+    <div class="group" id="gasExtras" style="display:none">
+      <span class="glabel">Lighter molecules</span>
+      <div class="btnrow">
+        <button class="btn" id="addLight">Add 10</button>
+        <button class="btn secondary" id="clear">Remove all</button>
+      </div>
+    </div>
+
+    <div class="legend">
+      <div><span class="dot normal"></span> Normal molecule</div>
+      <div id="legendLight" style="display:none"><span class="dot light"></span> Lighter molecule (¼ the mass)</div>
+    </div>
+  </div>
+
+  <div class="panel stage">
+    <canvas id="sim" aria-label="Particle model simulation"></canvas>
+  </div>
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  const canvas    = document.getElementById('sim');
+  const ctx       = canvas.getContext('2d', { alpha: true });
+  const stateSel  = document.getElementById('state');
+  const tempRange = document.getElementById('temp');
+  const tempVal   = document.getElementById('tempVal');
+  const tempHint  = document.getElementById('tempHint');
+  const tminLbl   = document.getElementById('tminLbl');
+  const speedGroup= document.getElementById('speedGroup');
+  const speedMode = document.getElementById('speedMode');
+  const speedHint = document.getElementById('speedHint');
+  const gasExtras = document.getElementById('gasExtras');
+  const legendLight = document.getElementById('legendLight');
+  const addLightBtn = document.getElementById('addLight');
+  const clearBtn  = document.getElementById('clear');
+
+  // ---------------------------------------------------------------- config
+  const T_MIN = { solid: -273, liquid: -180, gas: -180 };  // lowest the slider goes
+  const T_MAX = 300;
+  const T_REF = 293.15;                                    // 20 °C in kelvin
+
+  // Speed vs temperature. True physics is v ∝ T^0.5; a larger exponent
+  // exaggerates the hot end so the change is obvious on a projector.
+  const TEMP_EXP = 0.78;
+
+  const V_GAS = 0.26;      // css px per ms, normal molecule at 20 °C
+  const V_LIQ = 0.135;
+  const SOLID_PERIOD = 560;// ms, one vibration cycle
+
+  const R_GAS_NORMAL = 10; // css px
+  const R_GAS_LIGHT  = 6.5;
+  const R_LIQ        = 13;
+
+  const TAU = Math.PI * 2;
+
+  // ---------------------------------------------------------------- world
+  const world = {
+    particles: [],
+    state: 'solid',
+    tempC: 20,
+    random: false,          // false = "same speeds", true = "random motion"
+    liquidFill: 0.45,
+    solid: null,            // {cell, cols, rows, left, top, maxAmp, sprite}
+    clock: 0,
+    baseSpeed: 0,           // device px/ms for a normal molecule right now
+    refMass: 1
+  };
+
+  let W = 0, H = 0, DPR = 1;
+
+  function rand(a,b){ return Math.random()*(b-a)+a; }
+  function clamp(v,a,b){ return v<a?a:(v>b?b:v); }
+
+  // ---------------------------------------------------------------- sizing
+  function applySize(){
+    const cw = canvas.clientWidth, ch = canvas.clientHeight;
+    if(cw <= 0 || ch <= 0) return false;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const nw = Math.round(cw * dpr), nh = Math.round(ch * dpr);
+    if(nw === W && nh === H && dpr === DPR) return false;
+    DPR = dpr; W = nw; H = nh;
+    canvas.width = W; canvas.height = H;
+    return true;
+  }
+
+  // The canvas grows and shrinks whenever the control panel changes height,
+  // which does NOT fire a window resize event — watch the element itself so
+  // the backing store always matches, otherwise everything looks stretched.
+  const ro = new ResizeObserver(() => {
+    if(applySize()) rebuild();
+  });
+  ro.observe(canvas);
+  window.addEventListener('orientationchange', () => { if(applySize()) rebuild(); });
+
+  // ------------------------------------------------------- sprite caching
+  // Pre-render each molecule once; drawing then costs one blit per particle.
+  const spriteCache = new Map();
+  function sprite(type, r){
+    const key = type + '|' + Math.round(r);
+    let s = spriteCache.get(key);
+    if(s) return s;
+    const pad = 2;
+    const size = Math.ceil(2*r + 2*pad);
+    const c = document.createElement('canvas');
+    c.width = size; c.height = size;
+    const g = c.getContext('2d');
+    const cx = size/2, cy = size/2;
+    const grad = g.createRadialGradient(cx - r*0.3, cy - r*0.3, r*0.1, cx, cy, r);
+    if(type === 'light'){ grad.addColorStop(0,'#fff6e8'); grad.addColorStop(1,'#ef9a34'); }
+    else                { grad.addColorStop(0,'#eaf6ff'); grad.addColorStop(1,'#5aa8de'); }
+    g.fillStyle = grad;
+    g.beginPath(); g.arc(cx, cy, r, 0, TAU); g.fill();
+    g.globalAlpha = 0.35;
+    g.fillStyle = '#ffffff';
+    g.beginPath(); g.ellipse(cx - r*0.32, cy - r*0.34, r*0.34, r*0.24, -0.6, 0, TAU); g.fill();
+    s = { canvas: c, half: size/2 };
+    spriteCache.set(key, s);
+    return s;
+  }
+
+  // ---------------------------------------------------------- temperature
+  function describeTemp(c){
+    if (c <= -270) return 'absolute zero — motion stops';
+    if (c <= -100) return 'extremely cold';
+    if (c < 0)     return 'below freezing';
+    if (c < 15)    return 'cold';
+    if (c < 28)    return 'room temperature';
+    if (c < 60)    return 'warm';
+    if (c < 100)   return 'hot';
+    return 'very hot';
+  }
+  function fmtC(c){ return (c < 0 ? '−' : '') + Math.abs(c) + ' °C'; }
+
+  function effectiveTempC(){
+    return clamp(world.tempC, T_MIN[world.state], T_MAX);
+  }
+  function tempFactor(){
+    const K = effectiveTempC() + 273.15;
+    if(K <= 0) return 0;
+    return Math.pow(K / T_REF, TEMP_EXP);
+  }
+
+  // Speed a molecule of mass m should have: heavier = slower, at the same
+  // temperature every molecule carries the same average kinetic energy.
+  function targetSpeed(p){
+    return world.baseSpeed * Math.sqrt(world.refMass / p.m);
+  }
+
+  function refreshSpeeds(instant){
+    const base = (world.state === 'liquid' ? V_LIQ : V_GAS) * DPR * tempFactor();
+    const old = world.baseSpeed;
+    world.baseSpeed = base;
+    if(world.state === 'solid') return;
+    if(instant || old <= 0){
+      // Re-scale everything so the change is felt immediately
+      const k = old > 0 ? base / old : 0;
+      for(const p of world.particles){
+        if(old > 0){ p.vx *= k; p.vy *= k; }
+        else { const s = targetSpeed(p), a = Math.random()*TAU; p.vx = Math.cos(a)*s; p.vy = Math.sin(a)*s; }
+      }
+    }
+  }
+
+  // ------------------------------------------------------------ particles
+  function makeParticle(x, y, r, m, type){
+    return { x, y, vx:0, vy:0, r, m, type };
+  }
+
+  function seed(p){
+    // Random motion: inverse-CDF sample so the starting spread already has the
+    // right root-mean-square speed; collisions then maintain it on their own.
+    const s = targetSpeed(p) * (world.random ? Math.sqrt(-Math.log(1 - Math.random())) : 1);
+    const a = Math.random()*TAU;
+    p.vx = Math.cos(a)*s;
+    p.vy = Math.sin(a)*s;
+  }
+
+  function reseedAll(){
+    for(const p of world.particles) seed(p);
+  }
+
+  // ------------------------------------------------------------- building
+  function rebuild(){
+    world.particles.length = 0;
+    world.solid = null;
+    world.clock = 0;
+    world.baseSpeed = 0;
+    if(W <= 0 || H <= 0) return;
+
+    const pad = 16*DPR;
+
+    if(world.state === 'solid'){
+      buildSolid();
+      return;
+    }
+
+    if(world.state === 'liquid'){
+      const r = R_LIQ * DPR;
+      world.refMass = r*r;
+      const top = H - H*world.liquidFill;
+      const areaW = W - 2*pad, areaH = H - top - pad;
+      const count = clamp(Math.floor((areaW*areaH*0.58) / (Math.PI*r*r)), 60, 460);
+      placeNoOverlap(count, r, world.refMass, 'normal', pad, top + r, W - pad, H - pad);
+    }
+
+    if(world.state === 'gas'){
+      const r = R_GAS_NORMAL * DPR;
+      world.refMass = r*r;
+      placeNoOverlap(110, r, world.refMass, 'normal', pad, pad, W - pad, H - pad);
+    }
+
+    refreshSpeeds(true);
+    reseedAll();
+  }
+
+  function placeNoOverlap(count, r, m, type, x0, y0, x1, y1){
+    let placed = 0, guard = count * 60;
+    while(placed < count && guard-- > 0){
+      const x = rand(x0 + r, x1 - r);
+      const y = rand(y0 + r, y1 - r);
+      let ok = true;
+      for(const q of world.particles){
+        const dx = q.x - x, dy = q.y - y, rr = q.r + r;
+        if(dx*dx + dy*dy < rr*rr){ ok = false; break; }
+      }
+      if(!ok) continue;
+      world.particles.push(makeParticle(x, y, r, m, type));
+      placed++;
+    }
+  }
+
+  function buildSolid(){
+    const margin = 30*DPR;
+    const innerW = Math.max(10, W - 2*margin);
+    const innerH = Math.max(10, H - 2*margin);
+
+    const targetCols = 16;
+    let cell = innerW / targetCols;
+    let rows = Math.max(2, Math.floor(innerH / cell));
+    cell = Math.min(innerW / targetCols, innerH / rows);
+    const cols = Math.max(2, Math.floor(innerW / cell));
+    rows = Math.max(2, Math.floor(innerH / cell));
+    const left = (W - cols*cell) / 2;
+    const top  = (H - rows*cell) / 2;
+
+    const r = Math.max(3*DPR, cell * 0.28);
+    const maxAmp = Math.max(0, cell/2 - r - 1.5*DPR);
+    const w0 = TAU / SOLID_PERIOD;
+
+    world.refMass = r*r;
+    for(let j=0;j<rows;j++){
+      for(let i=0;i<cols;i++){
+        const ax = left + (i + 0.5)*cell;
+        const ay = top  + (j + 0.5)*cell;
+        const p = makeParticle(ax, ay, r, world.refMass, 'normal');
+        p.ax = ax; p.ay = ay;
+        p.phx = Math.random()*TAU;
+        p.phy = Math.random()*TAU;
+        p.w = w0 * (0.82 + 0.36*Math.random());
+        world.particles.push(p);
+      }
+    }
+
+    // Springs never move, so draw them once into an offscreen canvas and
+    // blit that each frame instead of re-tracing thousands of curve segments.
+    const s = document.createElement('canvas');
+    s.width = W; s.height = H;
+    const g = s.getContext('2d');
+    const amp = clamp(cell*0.12, 3*DPR, 8*DPR);
+    const trim = Math.max(8*DPR, cell*0.18);
+    g.strokeStyle = 'rgba(100,116,139,0.85)';
+    g.lineWidth = 1.5*DPR;
+    g.lineCap = 'round';
+    for(let j=0;j<rows;j++){
+      for(let i=0;i<cols;i++){
+        const x1 = left + (i + 0.5)*cell, y1 = top + (j + 0.5)*cell;
+        if(i+1 < cols) coil(g, x1, y1, x1 + cell, y1, amp, trim);
+        if(j+1 < rows) coil(g, x1, y1, x1, y1 + cell, amp, trim);
+      }
+    }
+
+    world.solid = { cell, cols, rows, left, top, maxAmp, sprite: s };
+  }
+
+  function coil(g, x1, y1, x2, y2, amplitude, endTrim){
+    const dx = x2-x1, dy = y2-y1;
+    const dist = Math.hypot(dx,dy);
+    if(dist < 1) return;
+    const ux = dx/dist, uy = dy/dist;
+    const nx = -uy, ny = ux;
+    const s = Math.min(endTrim, dist/3);
+    const ax = x1 + ux*s, ay = y1 + uy*s;
+    const bx = x2 - ux*s, by = y2 - uy*s;
+    const turns = 6, segs = 96;
+    g.beginPath();
+    for(let i=0;i<=segs;i++){
+      const t = i/segs;
+      const px = ax + (bx-ax)*t, py = ay + (by-ay)*t;
+      const off = Math.sin(t*turns*TAU) * amplitude * Math.sin(Math.PI*Math.min(t,1-t));
+      const cx = px + nx*off, cy = py + ny*off;
+      if(i===0) g.moveTo(cx,cy); else g.lineTo(cx,cy);
+    }
+    g.stroke();
+  }
+
+  // ------------------------------------------------ collision broad phase
+  let gHead = null, gNext = null, gCols = 0, gRows = 0, gCell = 0;
+
+  function buildGrid(){
+    const P = world.particles;
+    const n = P.length;
+    let maxR = 1;
+    for(let i=0;i<n;i++) if(P[i].r > maxR) maxR = P[i].r;
+    gCell = 2.05 * maxR;
+    gCols = Math.max(1, Math.ceil(W / gCell));
+    gRows = Math.max(1, Math.ceil(H / gCell));
+    const cells = gCols * gRows;
+    if(!gHead || gHead.length !== cells) gHead = new Int32Array(cells);
+    gHead.fill(-1);
+    if(!gNext || gNext.length < n) gNext = new Int32Array(n + 64);
+    for(let i=0;i<n;i++){
+      const p = P[i];
+      const cx = clamp((p.x / gCell) | 0, 0, gCols-1);
+      const cy = clamp((p.y / gCell) | 0, 0, gRows-1);
+      const c = cy*gCols + cx;
+      gNext[i] = gHead[c];
+      gHead[c] = i;
+    }
+  }
+
+  // Half-neighbourhood so every pair is tested exactly once
+  const NBX = [1,-1,0,1], NBY = [0,1,1,1];
+
+  function resolvePairs(){
+    const P = world.particles;
+    const same = !world.random;
+    for(let cy=0; cy<gRows; cy++){
+      for(let cx=0; cx<gCols; cx++){
+        for(let i = gHead[cy*gCols+cx]; i !== -1; i = gNext[i]){
+          for(let j = gNext[i]; j !== -1; j = gNext[j]) pair(P[i], P[j], same);
+          for(let k=0;k<4;k++){
+            const nx = cx + NBX[k], ny = cy + NBY[k];
+            if(nx < 0 || ny < 0 || nx >= gCols || ny >= gRows) continue;
+            for(let j = gHead[ny*gCols+nx]; j !== -1; j = gNext[j]) pair(P[i], P[j], same);
+          }
+        }
+      }
+    }
+  }
+
+  function pair(a, b, same){
+    let dx = b.x - a.x, dy = b.y - a.y;
+    const rs = a.r + b.r;
+    let d2 = dx*dx + dy*dy;
+    if(d2 >= rs*rs) return;
+    let d = Math.sqrt(d2);
+    if(d < 1e-6){ d = 1e-6; dx = rs; dy = 0; }
+    const nx = dx/d, ny = dy/d;
+
+    // push apart, weighted by mass
+    const ima = 1/a.m, imb = 1/b.m, ims = ima + imb;
+    const overlap = (rs - d);
+    a.x -= nx*overlap*(ima/ims); a.y -= ny*overlap*(ima/ims);
+    b.x += nx*overlap*(imb/ims); b.y += ny*overlap*(imb/ims);
+
+    // elastic impulse along the line of centres
+    const vn = (b.vx - a.vx)*nx + (b.vy - a.vy)*ny;
+    if(vn > 0) return;                       // already separating
+    const jimp = -(2*vn) / ims;
+    a.vx -= jimp*nx*ima; a.vy -= jimp*ny*ima;
+    b.vx += jimp*nx*imb; b.vy += jimp*ny*imb;
+
+    if(same){ fixSpeed(a); fixSpeed(b); }
+  }
+
+  function fixSpeed(p){
+    const s = Math.hypot(p.vx, p.vy);
+    if(s < 1e-9){ const a = Math.random()*TAU; p.vx = Math.cos(a); p.vy = Math.sin(a); }
+    const t = targetSpeed(p) / (s < 1e-9 ? 1 : s);
+    p.vx *= t; p.vy *= t;
+  }
+
+  // ------------------------------------------------------------- stepping
+  function walls(p, wallTop){
+    const pad = 14*DPR;
+    if(p.x < pad + p.r){ p.x = pad + p.r; p.vx = Math.abs(p.vx); }
+    else if(p.x > W - pad - p.r){ p.x = W - pad - p.r; p.vx = -Math.abs(p.vx); }
+    if(p.y < wallTop + p.r){ p.y = wallTop + p.r; p.vy = Math.abs(p.vy); }
+    else if(p.y > H - pad - p.r){ p.y = H - pad - p.r; p.vy = -Math.abs(p.vy); }
+  }
+
+  let thermoTick = 0;
+
+  function step(dt){
+    world.clock += dt;
+
+    if(world.state === 'solid'){
+      const S = world.solid;
+      if(!S) return;
+      const amp = S.maxAmp * Math.min(1, tempFactor() / 1.75);
+      const t = world.clock;
+      for(const p of world.particles){
+        if(amp === 0){ p.x = p.ax; p.y = p.ay; continue; }
+        p.x = p.ax + amp * Math.sin(p.w*t + p.phx);
+        p.y = p.ay + amp * Math.sin(p.w*t + p.phy);
+      }
+      return;
+    }
+
+    const P = world.particles;
+    const n = P.length;
+    if(n === 0) return;
+
+    const pad = 14*DPR;
+    const wallTop = world.state === 'liquid'
+      ? Math.max(pad, H - H*world.liquidFill)
+      : pad;
+
+    // keep the fast tail from tunnelling through neighbours
+    let vmax = 0, rmin = 1e9;
+    for(let i=0;i<n;i++){
+      const p = P[i];
+      const s2 = p.vx*p.vx + p.vy*p.vy;
+      if(s2 > vmax) vmax = s2;
+      if(p.r < rmin) rmin = p.r;
+    }
+    vmax = Math.sqrt(vmax);
+
+    const steps = clamp(Math.ceil((vmax*dt) / (0.35*rmin)), 1, 6);
+    const h = dt / steps;
+
+    for(let s=0; s<steps; s++){
+      for(let i=0;i<n;i++){
+        const p = P[i];
+        p.x += p.vx*h;
+        p.y += p.vy*h;
+        walls(p, wallTop);
+      }
+      buildGrid();
+      resolvePairs();
+    }
+
+    // Gentle thermostat: collisions and overlap pushes leak a little energy,
+    // so nudge the average kinetic energy back to what the temperature says.
+    if(world.random && (++thermoTick % 20 === 0)){
+      let ke = 0;
+      for(let i=0;i<n;i++){ const p = P[i]; ke += p.m*(p.vx*p.vx + p.vy*p.vy); }
+      ke /= n;
+      const want = world.refMass * world.baseSpeed * world.baseSpeed;
+      if(ke > 1e-12 && want > 0){
+        const k = 1 + 0.25*(Math.sqrt(want/ke) - 1);
+        for(let i=0;i<n;i++){ P[i].vx *= k; P[i].vy *= k; }
+      }
+    }
+  }
+
+  // -------------------------------------------------------------- drawing
+  function roundRect(c, x, y, w, h, r){
+    const rc = Math.min(r, w/2, h/2);
+    c.beginPath();
+    c.moveTo(x+rc, y);
+    c.arcTo(x+w, y, x+w, y+h, rc);
+    c.arcTo(x+w, y+h, x, y+h, rc);
+    c.arcTo(x, y+h, x, y, rc);
+    c.arcTo(x, y, x+w, y, rc);
+    c.closePath();
+  }
+
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    const pad = 14*DPR;
+
+    ctx.save();
+    ctx.strokeStyle = 'rgba(15,23,42,0.45)';
+    ctx.lineWidth = 3*DPR;
+    roundRect(ctx, pad, pad, W-2*pad, H-2*pad, 22*DPR);
+    ctx.stroke();
+    ctx.restore();
+
+    if(world.state === 'liquid'){
+      const top = Math.max(pad, H - H*world.liquidFill);
+      ctx.save();
+      ctx.fillStyle = 'rgba(59,130,246,0.10)';
+      roundRect(ctx, pad, top, W-2*pad, H - top - pad, 18*DPR);
+      ctx.fill();
+      ctx.strokeStyle = 'rgba(37,99,235,0.5)';
+      ctx.lineWidth = 2*DPR;
+      ctx.beginPath();
+      ctx.moveTo(pad + 8*DPR, top);
+      ctx.lineTo(W - pad - 8*DPR, top);
+      ctx.stroke();
+      ctx.restore();
+    }
+
+    if(world.state === 'solid' && world.solid){
+      ctx.drawImage(world.solid.sprite, 0, 0);
+    }
+
+    for(const p of world.particles){
+      const s = sprite(p.type, p.r);
+      ctx.drawImage(s.canvas, p.x - s.half, p.y - s.half);
+    }
+
+    if(world.random && world.state !== 'solid') drawSpeedChart();
+  }
+
+  // ------------------------------------------------------- speed spectrum
+  const BINS = 24;
+  const chart = { hist: new Float64Array(BINS), theory: new Float64Array(BINS), peak: 1, ready: false };
+  let chartTick = 0;
+
+  function computeChart(){
+    const P = world.particles;
+    const n = P.length;
+    if(n === 0){ chart.ready = false; return; }
+
+    // group by mass so a mixture gets the right reference curve
+    const sum = new Map();   // mass -> {n, sv2}
+    let vmax = 0;
+    for(let i=0;i<n;i++){
+      const p = P[i];
+      const v2 = p.vx*p.vx + p.vy*p.vy;
+      const v = Math.sqrt(v2);
+      if(v > vmax) vmax = v;
+      let g = sum.get(p.m);
+      if(!g){ g = {n:0, sv2:0}; sum.set(p.m, g); }
+      g.n++; g.sv2 += v2;
+    }
+    let sigMax = 0;
+    for(const g of sum.values()){
+      g.sigma = Math.sqrt(g.sv2 / g.n / 2);
+      if(g.sigma > sigMax) sigMax = g.sigma;
+    }
+    if(sigMax <= 0){ chart.ready = false; return; }
+
+    const top = Math.max(3.4*sigMax, vmax*1.02);
+    const bw = top / BINS;
+
+    chart.hist.fill(0);
+    chart.theory.fill(0);
+    for(let i=0;i<n;i++){
+      const p = P[i];
+      const v = Math.hypot(p.vx, p.vy);
+      chart.hist[clamp((v/bw)|0, 0, BINS-1)]++;
+    }
+    for(const g of sum.values()){
+      const s2 = g.sigma*g.sigma;
+      for(let b=0;b<BINS;b++){
+        const v = (b + 0.5)*bw;
+        chart.theory[b] += g.n * (v/s2) * Math.exp(-(v*v)/(2*s2)) * bw;
+      }
+    }
+    let peak = 1;
+    for(let b=0;b<BINS;b++) peak = Math.max(peak, chart.hist[b], chart.theory[b]);
+    chart.peak = peak;
+    chart.ready = true;
+  }
+
+  function drawSpeedChart(){
+    if((chartTick++ % 5) === 0) computeChart();
+    if(!chart.ready) return;
+
+    const m = 24*DPR;
+    const pw = Math.min(300*DPR, W*0.34);
+    const ph = Math.min(180*DPR, H*0.27);
+    const px = W - m - pw, py = m;
+
+    ctx.save();
+    ctx.fillStyle = 'rgba(255,255,255,0.93)';
+    ctx.strokeStyle = 'rgba(15,23,42,0.18)';
+    ctx.lineWidth = 1.5*DPR;
+    roundRect(ctx, px, py, pw, ph, 12*DPR);
+    ctx.fill(); ctx.stroke();
+
+    ctx.fillStyle = '#0f172a';
+    ctx.font = `700 ${16*DPR}px system-ui, sans-serif`;
+    ctx.textBaseline = 'top';
+    ctx.fillText('How many move this fast', px + 14*DPR, py + 11*DPR);
+
+    const plotX = px + 14*DPR, plotY = py + 40*DPR;
+    const plotW = pw - 28*DPR, plotH = ph - 66*DPR;
+    const barW = plotW / BINS;
+
+    ctx.fillStyle = 'rgba(56,145,206,0.55)';
+    for(let b=0;b<BINS;b++){
+      const hgt = (chart.hist[b]/chart.peak) * plotH;
+      if(hgt <= 0) continue;
+      ctx.fillRect(plotX + b*barW + 0.5*DPR, plotY + plotH - hgt, barW - 1*DPR, hgt);
+    }
+
+    ctx.strokeStyle = '#dc2626';
+    ctx.lineWidth = 2.6*DPR;
+    ctx.beginPath();
+    for(let b=0;b<BINS;b++){
+      const cx = plotX + (b + 0.5)*barW;
+      const cy = plotY + plotH - (chart.theory[b]/chart.peak)*plotH;
+      if(b===0) ctx.moveTo(cx,cy); else ctx.lineTo(cx,cy);
+    }
+    ctx.stroke();
+
+    ctx.strokeStyle = 'rgba(15,23,42,0.35)';
+    ctx.lineWidth = 1.5*DPR;
+    ctx.beginPath();
+    ctx.moveTo(plotX, plotY + plotH);
+    ctx.lineTo(plotX + plotW, plotY + plotH);
+    ctx.stroke();
+
+    ctx.fillStyle = '#475569';
+    ctx.font = `600 ${14*DPR}px system-ui, sans-serif`;
+    ctx.fillText('slow', plotX, plotY + plotH + 7*DPR);
+    ctx.textAlign = 'right';
+    ctx.fillText('fast', plotX + plotW, plotY + plotH + 7*DPR);
+    ctx.restore();
+  }
+
+  // ------------------------------------------------------------------ UI
+  function syncTemp(){
+    const min = T_MIN[world.state];
+    tempRange.min = min;
+    tminLbl.textContent = fmtC(min);
+    if(world.tempC < min){ world.tempC = min; tempRange.value = String(min); }
+    tempVal.textContent = fmtC(world.tempC);
+    tempHint.textContent = describeTemp(world.tempC);
+  }
+
+  function syncState(){
+    const isGas = world.state === 'gas';
+    const isSolid = world.state === 'solid';
+    gasExtras.style.display   = isGas ? 'block' : 'none';
+    legendLight.style.display = isGas ? 'flex' : 'none';
+    speedGroup.style.display  = isSolid ? 'none' : 'block';
+  }
+
+  stateSel.addEventListener('change', () => {
+    world.state = stateSel.value;
+    syncState();
+    syncTemp();
+    applySize();
+    rebuild();
+  });
+
+  tempRange.addEventListener('input', () => {
+    world.tempC = Math.round(+tempRange.value);
+    tempVal.textContent = fmtC(world.tempC);
+    tempHint.textContent = describeTemp(world.tempC);
+    refreshSpeeds(true);
+  });
+
+  speedMode.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-mode]');
+    if(!btn) return;
+    for(const b of speedMode.querySelectorAll('button')) b.classList.remove('active');
+    btn.classList.add('active');
+    world.random = btn.dataset.mode === 'random';
+    speedHint.textContent = ""
+    reseedAll();
+  });
+
+  addLightBtn.addEventListener('click', () => {
+    if(world.state !== 'gas') return;
+    const r = R_GAS_LIGHT * DPR;
+    const m = world.refMass / 4;         // quarter the mass -> twice the speed
+    const pad = 16*DPR;
+    let added = 0, guard = 800;
+    while(added < 10 && guard-- > 0){
+      const x = rand(pad + r, W - pad - r);
+      const y = rand(pad + r, H - pad - r);
+      let ok = true;
+      for(const q of world.particles){
+        const dx = q.x-x, dy = q.y-y, rr = q.r + r;
+        if(dx*dx + dy*dy < rr*rr){ ok = false; break; }
+      }
+      if(!ok) continue;
+      const p = makeParticle(x, y, r, m, 'light');
+      seed(p);
+      world.particles.push(p);
+      added++;
+    }
+  });
+
+  clearBtn.addEventListener('click', () => {
+    if(world.state !== 'gas') return;
+    world.particles = world.particles.filter(p => p.type !== 'light');
+  });
+
+  // ---------------------------------------------------------------- start
+  world.state = stateSel.value;
+  world.tempC = Math.round(+tempRange.value);
+  syncState();
+  syncTemp();
+  applySize();
+  rebuild();
+
+  let last = performance.now();
+  function loop(now){
+    let dt = now - last;
+    last = now;
+    if(dt > 34) dt = 34;          // don't let a stalled tab explode the physics
+    if(dt < 1) dt = 1;
+    step(dt);
+    draw();
+    requestAnimationFrame(loop);
+  }
+  requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>
