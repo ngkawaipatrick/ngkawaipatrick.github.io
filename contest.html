@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>搶答計分板</title>
+<title>Inter-House Motherland Knowledge Quiz 社際祖國常識問答比賽</title>
 <style>
   * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
   html,body { height:100%; font-family:-apple-system,"PingFang HK","Helvetica Neue",Arial,sans-serif; background:#020617; color:#fff; overflow:hidden; }
@@ -23,12 +23,12 @@
   @keyframes bump { 0%{transform:scale(1);} 40%{transform:scale(1.18);} 100%{transform:scale(1);} }
 
   /* ---------- HOST / ALL VIEW ---------- */
-  #hostView { min-height:100vh; display:flex; flex-direction:column; padding:16px; }
+  #hostView { height:100vh; display:flex; flex-direction:column; padding:16px; overflow-y:auto; }
   body.single #hostView { display:none; }
   .header { display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
   .title { font-size:clamp(20px,4vw,34px); font-weight:900; display:flex; align-items:center; gap:8px; }
   .status { font-size:12px; padding:4px 10px; border-radius:999px; background:#1e293b; cursor:pointer; }
-  .status.on { background:#059669; }
+  .status.on { background:#334155; }
   .toolbar { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; align-items:center; margin-bottom:14px; }
   .toolbar span { font-size:13px; color:#94a3b8; }
   .chip { padding:8px 16px; border-radius:10px; background:#1e293b; color:#fff; font-weight:800; border:none; font-size:14px; cursor:pointer; }
@@ -36,8 +36,8 @@
   .chip.reset { background:#334155; }
   .chip.reset:active { background:#dc2626; }
   #customAmt { width:70px; padding:8px; border-radius:10px; background:#1e293b; color:#fff; text-align:center; font-weight:800; border:none; font-size:14px; }
-  .grid { flex:1; display:grid; grid-template-columns:1fr; gap:12px; }
-  @media(min-width:640px){ .grid{ grid-template-columns:1fr 1fr; gap:18px; } }
+  .grid { flex:1 1 auto; min-height:0; display:grid; grid-template-columns:1fr; gap:12px; }
+  @media(min-width:640px){ .grid{ grid-template-columns:1fr 1fr; grid-auto-rows:1fr; gap:18px; } }
   .card { position:relative; border-radius:26px; padding:20px; display:flex; flex-direction:column; justify-content:space-between; overflow:hidden; box-shadow:0 20px 40px rgba(0,0,0,.4); }
   .ruby     { background:linear-gradient(135deg,#dc2626,#7f1d1d); }
   .topaz    { background:linear-gradient(135deg,#f59e0b,#b45309); }
@@ -74,27 +74,27 @@
 
 <div id="hostView">
   <div class="header">
-    <div class="title">🏆 搶答計分板</div>
+    <div class="title">🇨🇳Inter-House Motherland Knowledge Quiz 社際祖國常識問答比賽 🏆</div>
     <div id="modeBtn" class="status" onclick="toggleMode()">顯示模式</div>
   </div>
   <div class="toolbar" id="toolbar">
-    <span>每次加減：</span>
+    <span>Score increment:</span>
     <button class="chip amt" data-v="1">1</button>
     <button class="chip amt" data-v="5">5</button>
     <button class="chip amt active" data-v="10">10</button>
     <button class="chip amt" data-v="20">20</button>
-    <input id="customAmt" type="number" placeholder="其他">
-    <button class="chip reset" onclick="resetAll()">↺ 清零</button>
+    <input id="customAmt" type="number" placeholder="Other values">
+    <button class="chip reset" onclick="resetAll()">↺ Reset</button>
   </div>
   <div class="grid" id="grid"></div>
 </div>
 
 <div class="modal" id="modal">
   <div class="box">
-    <h2>主持登入</h2>
-    <p>輸入密碼開啟改分功能</p>
+    <h2>Login</h2>
+    <p>Please enter password to change score:</p>
     <input id="pw" type="password" placeholder="••••" inputmode="numeric">
-    <button onclick="tryUnlock()">解鎖</button>
+    <button onclick="tryUnlock()">Unlock</button>
   </div>
 </div>
 
@@ -175,7 +175,7 @@
 
   function updateHostChrome() {
     const btn = document.getElementById("modeBtn");
-    btn.textContent = isHost ? "🔓 主持模式" : "🔒 顯示模式";
+    btn.textContent = isHost ? "🔓" : "🔒";
     btn.classList.toggle("on", isHost);
     document.getElementById("toolbar").style.display = isHost ? "flex" : "none";
     document.querySelectorAll(".btns").forEach(b => b.style.display = isHost ? "flex" : "none");
