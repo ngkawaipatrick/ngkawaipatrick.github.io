@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>HAP Midterm Kit</title>
+<style>
+:root{
+  --bg:#F2F4F6; --surface:#FFFFFF; --surface-2:#E9EDF1; --line:#D3DAE1;
+  --ink:#1A2430; --muted:#5A6978; --accent:#0E6C79; --accent-ink:#FFFFFF; --accent-soft:#D9EEF0;
+  --good:#237A4B; --good-soft:#DDF1E4; --bad:#B0402D; --bad-soft:#F6E1DC; --warn:#9A6A12; --warn-soft:#F7ECD2;
+  --shadow:0 1px 2px rgba(20,30,40,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0F1519; --surface:#171F26; --surface-2:#1F2931; --line:#2E3A45;
+    --ink:#E7ECF0; --muted:#9AA8B5; --accent:#5FBFCB; --accent-ink:#0B1A1D; --accent-soft:#163238;
+    --good:#7ED3A0; --good-soft:#173324; --bad:#F09A88; --bad-soft:#3A1F19; --warn:#E8C067; --warn-soft:#3A2F14;
+    --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0F1519; --surface:#171F26; --surface-2:#1F2931; --line:#2E3A45;
+  --ink:#E7ECF0; --muted:#9AA8B5; --accent:#5FBFCB; --accent-ink:#0B1A1D; --accent-soft:#163238;
+  --good:#7ED3A0; --good-soft:#173324; --bad:#F09A88; --bad-soft:#3A1F19; --warn:#E8C067; --warn-soft:#3A2F14;
+  --shadow:none;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15.5px;line-height:1.55;margin:0}
+h1,h2,h3{font-family:"IBM Plex Serif",Georgia,serif;font-weight:600;line-height:1.2;text-wrap:balance;margin:0}
+h1{font-size:1.75rem}h2{font-size:1.35rem;margin-top:.4rem}h3{font-size:1.08rem}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+.eyebrow{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.wrap{max-width:860px;margin:0 auto;padding-inline:16px;padding-block:20px 60px}
+header.top{display:flex;flex-direction:column;gap:6px;margin-bottom:14px}
+header.top p{margin:0;color:var(--muted);max-width:62ch}
+nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:8px;margin-inline:-16px;padding-inline:16px;border-bottom:1px solid var(--line);display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs button{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:7px 13px;border-radius:999px;font:inherit;font-size:.88rem;font-weight:500;cursor:pointer}
+nav.tabs button[aria-selected="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+nav.tabs button:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section.panel{padding-top:18px;display:flex;flex-direction:column;gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;box-shadow:var(--shadow)}
+.card p{margin:.35rem 0}
+.callout{border-left:4px solid var(--accent);background:var(--accent-soft);border-radius:6px;padding:10px 14px}
+.callout.warn{border-left-color:var(--warn);background:var(--warn-soft)}
+.callout.bad{border-left-color:var(--bad);background:var(--bad-soft)}
+.callout.good{border-left-color:var(--good);background:var(--good-soft)}
+ul,ol{margin:.3rem 0 .3rem 1.2rem;padding:0}li{margin:.15rem 0}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+.tablewrap{overflow-x:auto}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;background:var(--surface-2)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+/* plan */
+.block{display:grid;grid-template-columns:auto 1fr;gap:10px 14px;align-items:start}
+.block .when{font-family:"IBM Plex Mono",monospace;font-size:.8rem;color:var(--muted);padding-top:3px;white-space:nowrap}
+.task{display:flex;gap:10px;align-items:flex-start}
+.task input{margin-top:5px;accent-color:var(--accent)}
+.task label{cursor:pointer}
+.task.done label{color:var(--muted);text-decoration:line-through}
+/* quiz */
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.toolbar select,.toolbar button{font:inherit;font-size:.88rem;padding:7px 11px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.toolbar button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.score{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.q{display:flex;flex-direction:column;gap:10px}
+.q .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;border-radius:999px;background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+.chip.missed{background:var(--bad-soft);color:var(--bad);border-color:transparent}
+.chip.pred{background:var(--warn-soft);color:var(--warn);border-color:transparent}
+.chip.quiz{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.q .stem{font-weight:500;font-size:1.02rem}
+.opts{display:flex;flex-direction:column;gap:6px}
+.opts button{text-align:left;font:inherit;padding:9px 12px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.opts button:hover{border-color:var(--accent)}
+.opts button.right{background:var(--good-soft);border-color:var(--good)}
+.opts button.wrong{background:var(--bad-soft);border-color:var(--bad)}
+.opts button:disabled{cursor:default}
+.fill{display:flex;gap:8px;flex-wrap:wrap}
+.fill input{flex:1 1 200px;font:inherit;padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.fill button{font:inherit;padding:8px 12px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);cursor:pointer}
+.fill button.ghost{background:transparent;color:var(--accent)}
+.verdict{border-radius:8px;padding:9px 12px;font-size:.93rem}
+.verdict.right{background:var(--good-soft)}.verdict.wrong{background:var(--bad-soft)}.verdict.show{background:var(--surface-2)}
+.verdict b{font-weight:600}
+.empty{color:var(--muted);padding:20px;text-align:center}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+kbd{font-family:"IBM Plex Mono",monospace;font-size:.85em;background:var(--surface-2);border:1px solid var(--line);border-radius:4px;padding:0 5px}
+details{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:0 16px}
+details summary{cursor:pointer;padding:12px 0;font-family:"IBM Plex Serif",Georgia,serif;font-weight:600;font-size:1.08rem;list-style:none;display:flex;justify-content:space-between;align-items:center}
+details summary::after{content:"+";font-family:"IBM Plex Mono",monospace;color:var(--muted)}
+details[open] summary::after{content:"–"}
+details .body{padding-bottom:14px;display:flex;flex-direction:column;gap:10px}
+.small{font-size:.86rem;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){.opts button,.verdict{transition:background .15s,border-color .15s}}
+</style>
+<style id="ipad">
+button, select, input[type=text]{min-height:44px;font-size:16px}
+.opts button{padding:10px 14px;text-align:left;line-height:1.35}
+.fill input{font-size:16px;min-height:44px}
+nav.tabs button{min-height:44px;padding:8px 14px}
+.toolbar{gap:8px;flex-wrap:wrap}
+body{-webkit-text-size-adjust:100%;padding-bottom:env(safe-area-inset-bottom)}
+.tablewrap{-webkit-overflow-scrolling:touch}
+</style>
+</head>
+
+
+<div class="wrap">
+<header class="top">
+  <span class="eyebrow">HTI5001 · Human Anatomy & Physiology · Short test 1 (Weeks 1–4)</span>
+  <h1>HAP Midterm Kit</h1>
+  <p>Built from your four lecture decks and the three self-assessment quizzes. Half the test comes from those quizzes, so the quiz bank is the core; the rest is condensed notes and predicted questions in the same style.</p>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button role="tab" aria-selected="true" data-tab="plan">48-hour plan</button>
+  <button role="tab" aria-selected="false" data-tab="quiz">Quiz bank</button>
+  <button role="tab" aria-selected="false" data-tab="notes">Notes</button>
+  <button role="tab" aria-selected="false" data-tab="fixes">Quiz keys</button>
+</nav>
+
+<!-- ============ PLAN ============ -->
+<section class="panel" id="tab-plan">
+  <div class="callout">
+    <b>Test format (updated):</b> <b>60 questions in 60 minutes</b>, in class, no entry after 10 min. Lecturer's words: "textbook-proof". Roughly half the questions come from the self-assessments (all seven Canvas quizzes, Weeks 1–4 and 6–8: 97 distinct questions, all in the bank below — the 34 from the 23 Oct re-attempts were added on 23 Oct). The other half are written from the slides in the same style: numbers, "which one is NOT", "which structure", single-term fill-ins, "put in order".
+  </div>
+  <div class="callout warn">
+    <b>One minute per question means open-book is a fiction.</b> You will not open anything. Every mark comes from recall. Treat the vocab and process documents as tonight's revision material, not as something you'll consult in the room. In the test: answer every question first pass, flag the 5–8 you're unsure of, come back to those with whatever time is left.
+  </div>
+  <div class="callout">
+    <b>What "textbook-proof" means for you:</b> the examiner expects AI/textbook users and has written around them. Expect (1) facts stated on the slides that a textbook words differently (hyoid at C3, skeletal functions list including "detoxification", 9 laryngeal cartilages, Type 2 = "great" alveolar cell, "bundle of His"); (2) "NOT" questions; (3) ordering; (4) numbers from the slides (0.16 s, 758/762 mmHg, 70/23/7 %); (5) application questions from Week 5 (which disease shows X on a chest film, which shunt causes cyanosis). All of that is in the bank.
+  </div>
+
+  <div class="card">
+    <h2>Tonight (the evening before)</h2>
+    <div class="block">
+      <span class="when">Block A · 45 min</span><div class="task"><input type="checkbox" id="p0a"><label for="p0a">Do the <b>Week 4 self-assessment on Canvas</b> yourself, then check against the key in <b>Quiz keys</b>. Fix anything you got wrong, in the bank, immediately.</label></div>
+      <span class="when">Block B · 60 min</span><div class="task"><input type="checkbox" id="p0b"><label for="p0b">Quiz bank → <b>Self-assessment only</b>, all weeks, <b>Shuffle</b>. 63 questions. Anything you miss, redo until it's automatic. These are the guaranteed half.</label></div>
+      <span class="when">Block C · 45 min</span><div class="task"><input type="checkbox" id="p0c"><label for="p0c"><b>Week 5 notes</b> (pathology) once, then Quiz bank → Week 5. It's new, it's short, and it's the most likely source of "application" questions.</label></div>
+      <span class="when">Block D · 60 min</span><div class="task"><input type="checkbox" id="p0d"><label for="p0d">Quiz bank → <b>Predicted only</b> → the week you are weakest on (for you: Week 4). Then the Cardiac Cycle Stepper check questions.</label></div>
+      <span class="when">Block E · 30 min</span><div class="task"><input type="checkbox" id="p0e"><label for="p0e">Processes document: read only the <b>Exam angle</b> line under each of the 40 tables. That's the "put in order" insurance.</label></div>
+      <span class="when">then</span><div class="task"><input type="checkbox" id="p0f"><label for="p0f">Sleep. Not optional.</label></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Test day, before class (60–90 min)</h2>
+    <div class="block">
+      <span class="when">30 min</span><div class="task"><input type="checkbox" id="p1a"><label for="p1a">Quiz bank → Self-assessment only → Shuffle → all 63 again. You should be at 100%.</label></div>
+      <span class="when">20 min</span><div class="task"><input type="checkbox" id="p1b"><label for="p1b">Label Drill: skull anterior, typical vertebra, humerus, pelvis, femur, larynx, lungs, heart anterior, heart interior, coronary anterior. Ten diagrams, fast.</label></div>
+      <span class="when">15 min</span><div class="task"><input type="checkbox" id="p1c"><label for="p1c">Notes tab → skim only the <b>bold</b> items in each week. Numbers and single terms.</label></div>
+      <span class="when">last 10</span><div class="task"><input type="checkbox" id="p1d"><label for="p1d">Fill-in rules (Quiz keys tab). Arrive early.</label></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>In the room: 60 questions, 60 minutes</h2>
+    <ul>
+      <li><b>Pass 1 (40 min):</b> answer everything you know instantly. Skip and flag anything that takes more than 30 seconds of thought.</li>
+      <li><b>Pass 2 (15 min):</b> flagged questions. For "NOT" questions, eliminate the three you can place. For fill-ins, write the slide term, singular, no brackets.</li>
+      <li><b>Pass 3 (5 min):</b> check you haven't left blanks. A guess on a 4-option MCQ is worth 25%; a blank is worth nothing.</li>
+      <li>If a question quotes a number, it's from a slide: 206/80/126, 8/14, 7/12/5, C3, T4/5, 9 cartilages, 16–20 rings, 23 generations, 300 million, 0.5 L, 70/23/7 %, 0.8 s, 75 bpm, 0.16 s, 80/120 mmHg, 70 mL, 5 L/min, HR &gt;100 / &lt;60, atrial fib 300–600.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ QUIZ ============ -->
+<section class="panel" id="tab-quiz" hidden>
+  <div class="card">
+    <div class="toolbar">
+      <select id="fWeek" aria-label="Week">
+        <option value="all">All weeks</option>
+        <option value="1">Week 1 · Intro & axial skeleton</option>
+        <option value="2">Week 2 · Appendicular & muscle</option>
+        <option value="3">Week 3 · Respiratory</option>
+        <option value="4">Week 4 · Cardiovascular</option>
+        <option value="5">Week 5 · Pathology (practical applications)</option>
+        <option value="6">Week 6 · Digestive</option>
+        <option value="7">Week 7 · Urinary</option>
+        <option value="8">Week 8 · Reproductive</option>
+      </select>
+      <select id="fSrc" aria-label="Source">
+        <option value="all">Self-assessment + predicted</option>
+        <option value="quiz">Self-assessment only</option>
+        <option value="pred">Predicted only</option>
+        <option value="missed">Ones you got wrong</option>
+      </select>
+      <button id="btnShuffle">Shuffle</button>
+      <button id="btnReset" class="primary">Reset answers</button>
+      <span class="score" id="score">0 / 0</span>
+    </div>
+    <p class="small" style="margin:10px 0 0">Fill-in answers are checked loosely (case and spacing ignored, common synonyms accepted). On Canvas the check is stricter: type the single term exactly as the slides spell it, no brackets, no extra words.</p>
+  </div>
+  <div id="qlist" style="display:flex;flex-direction:column;gap:14px"></div>
+</section>
+
+<!-- ============ NOTES ============ -->
+<section class="panel" id="tab-notes" hidden>
+  <p class="small">Condensed from the slides. Bold items are the ones most likely to be asked as a number or a single term.</p>
+
+  <details open>
+    <summary>Week 1 · Cell basics (not on the slides, but in the self-assessment)</summary>
+    <div class="body">
+      <p class="small">Nine of the eighteen Week 1 self-assessment questions are on cells. The slides never cover it, so this section is built from the textbook at the depth those questions use: definitions, stage names, and pairs of opposites. That is all you need.</p>
+      <h3>Cell parts</h3>
+      <ul>
+        <li><b>Plasma membrane</b>: phospholipid bilayer that controls what enters and leaves.</li>
+        <li><b>Cytoplasm</b>: everything between membrane and nucleus. <b>Organelles</b> ("little organs") are the structures inside it.</li>
+        <li><b>Nucleus</b> holds DNA (chromatin → condenses to chromosomes). <b>Nucleolus</b> makes ribosomes.</li>
+        <li><b>Ribosomes</b> make protein. <b>Rough ER</b> (with ribosomes) processes protein; <b>smooth ER</b> makes lipids. <b>Golgi</b> packages and ships. <b>Mitochondria</b> make ATP ("powerhouse"). <b>Lysosomes</b> digest ("suicide sacs"). <b>Centrioles</b> organise the spindle in division. <b>Cilia/flagella</b> move things.</li>
+      </ul>
+      <h3>DNA → protein (two steps, two words)</h3>
+      <ul>
+        <li><b>Transcription</b>: DNA → mRNA, in the <b>nucleus</b>, by RNA polymerase.</li>
+        <li><b>Translation</b>: mRNA → protein, at the <b>ribosome</b>, using transfer RNA (tRNA) to bring amino acids. "Protein synthesis by ribosomes begins with translation."</li>
+        <li>Complementary base pairing: A–T (A–U in RNA), C–G.</li>
+      </ul>
+      <h3>Moving things across the membrane</h3>
+      <div class="tablewrap"><table>
+        <tr><th>Term</th><th>Energy?</th><th>Meaning</th></tr>
+        <tr><td><b>Passive transport</b></td><td>No</td><td>Umbrella term: substance moves down its gradient. Includes diffusion, facilitated diffusion, osmosis, filtration.</td></tr>
+        <tr><td><b>Diffusion</b></td><td>No</td><td>High → low concentration until even. (Likely key for "movement across a membrane without cell energy".)</td></tr>
+        <tr><td><b>Facilitated diffusion</b></td><td>No</td><td>Diffusion through a carrier or channel protein (glucose).</td></tr>
+        <tr><td><b>Osmosis</b></td><td>No</td><td>Diffusion of <i>water</i> through a selectively permeable membrane.</td></tr>
+        <tr><td><b>Filtration</b></td><td>No (uses pressure)</td><td>Fluid pushed through a membrane by hydrostatic pressure (kidney).</td></tr>
+        <tr><td><b>Active transport</b></td><td>Yes (ATP)</td><td>Umbrella term: substance moved <i>against</i> its gradient, e.g. Na⁺/K⁺ pump.</td></tr>
+        <tr><td><b>Endocytosis</b></td><td>Yes</td><td>Membrane traps material and pulls it in. <b>Phagocytosis</b> = solids ("cell eating"); <b>pinocytosis</b> = fluids/dissolved molecules ("cell drinking").</td></tr>
+        <tr><td><b>Exocytosis</b></td><td>Yes</td><td>Vesicle fuses with membrane and releases contents out.</td></tr>
+      </table></div>
+      <h3>Mitosis: one word per stage</h3>
+      <div class="tablewrap"><table>
+        <tr><th>Stage</th><th>One-line cue</th></tr>
+        <tr><td><b>Interphase</b></td><td>Not dividing; DNA replicates. Longest phase.</td></tr>
+        <tr><td><b>Prophase</b></td><td>Chromatin <b>condenses</b> into chromosomes; nuclear envelope breaks down; spindle forms.</td></tr>
+        <tr><td><b>Metaphase</b></td><td>Chromosomes <b>align in the middle</b> (metaphase plate).</td></tr>
+        <tr><td><b>Anaphase</b></td><td>Chromatids pulled <b>apart / away</b> to opposite poles.</td></tr>
+        <tr><td><b>Telophase</b></td><td>Nuclear envelopes and nuclei <b>reappear</b>; cytokinesis splits the cytoplasm.</td></tr>
+      </table></div>
+      <p class="small">Mnemonic: <b>I-P-M-A-T</b> ("I Passed My Anatomy Test"). Meiosis (for gametes) halves the chromosome number, 46 → 23.</p>
+      <h3>Cell size and fate</h3>
+      <ul>
+        <li><b>Hypertrophy</b> = increase in cell <i>size</i>. <b>Hyperplasia</b> = increase in cell <i>number</i>. <b>Atrophy</b> = decrease in size (disuse). <b>Anaplasia</b> = loss of differentiation (cancer). <b>Metaplasia</b> = one cell type replaced by another.</li>
+        <li><b>Apoptosis</b> = programmed cell death ("cell suicide"). <b>Necrosis</b> = death from injury.</li>
+        <li>Four tissue types: epithelial, connective (includes bone, blood), muscle, nervous.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details>
+    <summary>Week 1 · Terminology, homeostasis, axial skeleton</summary>
+    <div class="body">
+      <h3>Orientation</h3>
+      <ul>
+        <li><b>Coronal</b> plane → anterior/posterior. <b>Transverse</b> → superior/inferior. <b>Median (mid-sagittal)</b> → equal left/right; <b>sagittal</b> → any left/right cut.</li>
+        <li>Anatomical position: upright, facing forward, palms forward, feet flat and forward. So the forearm is in <b>supination</b> and the elbow in <b>extension</b>.</li>
+        <li>Body cavities: <b>dorsal</b> (cranial cavity + vertebral canal) and <b>ventral</b> (thoracic; abdominopelvic = abdominal + pelvic). <b>Diaphragm</b> separates thoracic from abdominal.</li>
+        <li>9 abdominal regions: <b>transpyloric line = L1</b>, <b>intertubercular line = L5</b>, mid-clavicular lines. Epigastric / R+L hypochondriac; umbilical / R+L lumbar (flank); pubic (hypogastric) / R+L inguinal (iliac).</li>
+        <li>Proximal = closer to attachment; distal = farther. Superficial/deep. Cephalic/caudal.</li>
+        <li><b>Negative feedback</b> reverses the stimulus (temperature, pH, O₂). <b>Positive feedback</b> amplifies it: <b>childbirth</b> (oxytocin), ends with an external event.</li>
+        <li>11 organ systems; anatomy = structure seen without a microscope (gross anatomy).</li>
+      </ul>
+      <h3>Skeleton basics</h3>
+      <ul>
+        <li>Functions (slide list): support, movement, protection, <b>blood formation</b>, electrolyte balance, acid–base balance, detoxification, triglyceride storage. <b>Not</b> heat production (that is muscle).</li>
+        <li><b>206</b> adult bones, <b>~270</b> at birth. <b>Axial 80</b>, <b>appendicular 126</b>.</li>
+        <li>Axial 80: cranium 8, face 14, ossicles 6, hyoid 1, C7, T12, L5, sacrum 1, coccyx 1, sternum 1, ribs 24.</li>
+        <li>Shapes: long (humerus), short (carpals), flat (sternum), irregular (vertebra), <b>sesamoid (patella)</b>.</li>
+        <li>Long bone: diaphysis (shaft), epiphyses (ends), metaphyses, articular (hyaline) cartilage, periosteum, <b>medullary cavity = yellow marrow</b>.</li>
+        <li>Cells: osteoprogenitor → <b>osteoblast</b> (builds) → <b>osteocyte</b> (mature, maintains). <b>Osteoclast</b> = multinucleated, resorbs bone, from white-cell lineage.</li>
+        <li><b>Haemopoiesis</b> in red bone marrow: pluripotent stem cell → myeloid and lymphoid lines.</li>
+      </ul>
+      <h3>Skull</h3>
+      <div class="tablewrap"><table>
+        <tr><th>8 cranial</th><th>14 facial</th></tr>
+        <tr><td>1 frontal, 2 parietal, 2 temporal, 1 occipital, 1 sphenoid, 1 ethmoid</td><td>2 maxillae, 2 zygomatic, 2 nasal, 2 lacrimal, 2 palatine, 2 inferior nasal conchae, 1 vomer, 1 <b>mandible</b> (only movable skull bone; TMJ)</td></tr>
+      </table></div>
+      <ul>
+        <li>Sutures = <b>fibrous</b>, immovable (synarthrosis). <b>Coronal</b>: frontal–parietals. <b>Sagittal</b>: parietal–parietal. <b>Lambdoid</b> (Λ): parietals–occipital. <b>Squamous</b>: temporal–parietal.</li>
+        <li><b>Parietal</b> forms most of the superior skull; <b>temporal</b> has the external auditory (acoustic) meatus; occipital has the <b>foramen magnum</b>.</li>
+        <li>Fontanelles: <b>anterior is largest</b>, closes 18–24 months; others by ~12 months. Anterior, posterior, sphenoid, mastoid.</li>
+        <li>Paranasal sinuses: frontal, ethmoid, sphenoid, maxillary.</li>
+        <li>Orbit = 7 bones. Roof frontal + sphenoid; floor maxilla + zygomatic + palatine; medial wall maxilla, lacrimal, ethmoid, sphenoid; lateral zygomatic + sphenoid.</li>
+        <li><b>Hyoid</b>: anterior neck, level of <b>C3</b>, <b>articulates with no other bone</b>, suspended by muscles/ligaments.</li>
+        <li>Facial expression muscles = <b>CN VII, facial nerve</b>.</li>
+      </ul>
+      <h3>Vertebral column</h3>
+      <ul>
+        <li>33 in development → adult 26: <b>7 C, 12 T, 5 L, 1 sacrum (5 fused), 1 coccyx (4 fused)</b>.</li>
+        <li>Curves: cervical & lumbar convex (anteriorly), thoracic & sacral concave.</li>
+        <li>Parts: body, pedicle, lamina, spinous process, transverse process, vertebral foramen. Opening between adjacent vertebrae for the spinal nerve = <b>intervertebral foramen</b>.</li>
+        <li><b>Cervical</b>: small, <b>3 foramina</b> (1 vertebral + 2 transverse), <b>bifid</b> spinous process (C7 not bifid, large). C1 <b>atlas</b> (no body), C2 <b>axis</b> with <b>dens</b>; anterior arch of atlas + dens = <b>median atlanto-axial joint</b>.</li>
+        <li><b>Thoracic</b>: long spinous processes pointing inferiorly, <b>costal facets</b> for ribs (vertebrocostal joints).</li>
+        <li><b>Lumbar</b>: largest, short blunt spinous processes pointing posteriorly, thickest discs.</li>
+        <li>Facet joints between articular processes of adjacent vertebrae = <b>apophyseal (zygapophyseal)</b> joints, synovial.</li>
+        <li>Disorders: <b>scoliosis</b> lateral; <b>kyphosis</b> thoracic (hunchback); <b>lordosis</b> lumbar. Herniated disc: nucleus pulposus through annulus fibrosus, <b>most common lumbar</b>. Spina bifida: laminae of <b>L5/S1</b> fail to close.</li>
+      </ul>
+      <h3>Thorax & joints</h3>
+      <ul>
+        <li>Sternum: <b>manubrium</b>, body, <b>xiphoid process</b>; sternal angle at rib 2. Rib–sternum = <b>sternocostal</b> joint (via costal cartilage).</li>
+        <li>Rib: head, neck, tubercle, body, <b>costal groove</b> carrying <b>V-A-N</b> (vein, artery, nerve, top to bottom).</li>
+        <li>Structural: <b>fibrous</b> (sutures), <b>cartilaginous</b> (pubic symphysis), <b>synovial</b> (finger joint, cavity + capsule). Functional: <b>synarthrosis</b> immovable, <b>amphiarthrosis</b> slightly, <b>diarthrosis</b> freely.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details>
+    <summary>Week 2 · Appendicular skeleton, bone growth, muscle</summary>
+    <div class="body">
+      <h3>Counts (126)</h3>
+      <div class="tablewrap"><table>
+        <tr><th>Region</th><th>Bones (per side)</th><th class="n">Total</th></tr>
+        <tr><td>Pectoral girdle</td><td><b>clavicle + scapula</b></td><td class="n">4</td></tr>
+        <tr><td>Upper limb</td><td>humerus, ulna, radius, <b>8 carpals</b>, 5 metacarpals, 14 phalanges</td><td class="n">60</td></tr>
+        <tr><td>Pelvic girdle</td><td>hip bone (ilium + ischium + pubis)</td><td class="n">2</td></tr>
+        <tr><td>Lower limb</td><td>femur, patella, tibia, fibula, <b>7 tarsals</b>, 5 metatarsals, 14 phalanges</td><td class="n">60</td></tr>
+      </table></div>
+      <h3>Upper limb landmarks</h3>
+      <ul>
+        <li><b>Clavicle</b>: medial (sternal) end → <b>sternoclavicular joint</b>; lateral (acromial) end → acromioclavicular joint.</li>
+        <li><b>Scapula</b>: acromion, <b>coracoid process</b> (arises from costal/anterior surface), spine, <b>glenoid cavity/fossa</b> (+ head of humerus = shoulder joint), supra/infraspinous fossae. Rotator cuff <b>SITS</b>: supraspinatus, infraspinatus, teres minor, subscapularis.</li>
+        <li><b>Humerus</b>: head, anatomical neck (below head) vs <b>surgical neck</b> (common fracture site), greater/lesser tubercles with <b>bicipital (intertubercular) groove</b>, deltoid tuberosity. Distal: <b>capitulum (lateral, round) → radius</b>; <b>trochlea (medial, pulley/saddle) → ulna</b>; medial & lateral epicondyles; supracondylar ridges; olecranon fossa.</li>
+        <li><b>Ulna</b> (medial): <b>olecranon</b> + <b>coronoid</b> processes grip the trochlea (wrench); radial notch takes the head of radius. <b>Radius</b> (lateral): head, radial tuberosity, styloid. Proximal & distal <b>radioulnar joints</b>; interosseous membrane.</li>
+        <li>Elbow movements: <b>flexion/extension</b>. Radioulnar: pronation/supination.</li>
+        <li>Carpals proximal <b>S L T P</b> (scaphoid, lunate, triquetrum, <b>pisiform</b>); distal <b>T T C H</b> (trapezium, trapezoid, capitate, hamate). "She Looks Too Pretty, Try To Catch Her". Proximal row + radius/ulna = wrist joint.</li>
+      </ul>
+      <h3>Lower limb landmarks</h3>
+      <ul>
+        <li>Pelvis: iliac crest, <b>ASIS/AIIS</b>, <b>ischial tuberosity</b>, pubic symphysis (cartilaginous), <b>acetabulum</b> (its <b>lunate surface</b> articulates with head of femur = hip joint), obturator foramen, sacroiliac joint (auricular surfaces). True pelvis below pelvic brim.</li>
+        <li><b>Femur</b>: head with <b>fovea</b> (ligamentum teres), neck, greater/lesser trochanters, linea aspera, medial/lateral condyles, patellar surface.</li>
+        <li><b>Patella</b> = largest <b>sesamoid</b> bone. Knee = femur + tibia + patella.</li>
+        <li><b>Tibia</b>: medial, larger, <b>weight-bearing</b>, tibial tuberosity, medial malleolus. <b>Fibula</b>: lateral, non-weight-bearing, stabilises ankle, lateral malleolus. Ankle joint = tibia + fibula + <b>talus</b>.</li>
+        <li>7 tarsals: <b>calcaneus (heel)</b>, <b>talus (ankle)</b>, navicular, cuboid, 3 cuneiforms. Arches: medial & lateral longitudinal, transverse.</li>
+      </ul>
+      <h3>Bone formation & repair</h3>
+      <ul>
+        <li><b>Intramembranous</b> ossification: flat skull bones, mandible (4 steps: ossification centre, calcification, trabeculae, periosteum).</li>
+        <li><b>Endochondral</b>: cartilage model → primary ossification centre → medullary cavity → secondary centre → articular cartilage + epiphyseal plate. Most bones, all long bones.</li>
+        <li>Epiphyseal plate zones: resting → proliferating → hypertrophic → calcified cartilage. Growth in thickness by periosteal osteoblasts (circumferential lamellae).</li>
+        <li>Fracture repair: reactive (haematoma) → reparative (fibrocartilaginous callus → bony callus) → remodeling.</li>
+        <li>Fractures: <b>greenstick</b> (children, incomplete), comminuted (fragments), impacted, open, <b>Colles</b> (distal radius), <b>Pott</b> (ankle/fibula).</li>
+        <li><b>Osteoporosis</b>: resorption &gt; formation; more common in women.</li>
+        <li><b>PTH</b> ↑ blood Ca²⁺ (↑ resorption, ↓ renal loss). <b>Calcitonin</b> ↓ blood Ca²⁺ (↓ osteoclasts). cAMP messenger.</li>
+        <li>Limbs from <b>mesoderm</b>, limb buds weeks 4–8, then endochondral ossification.</li>
+      </ul>
+      <h3>Muscle & movement</h3>
+      <ul>
+        <li>&gt;600 skeletal muscles. Functions include <b>heat production</b>, stability, glucose regulation. Origin = stationary bone; insertion = movable bone.</li>
+        <li>Lever: bone = lever, joint = <b>fulcrum</b>, muscle = effort.</li>
+        <li>Movements: gliding; angular (flexion/extension/hyperextension, abduction/adduction, circumduction); rotation (medial/lateral); special (protraction/retraction at TMJ, pronation/supination).</li>
+        <li>Motor unit: more fibres per unit → <b>less precise</b> control.</li>
+        <li>Integument: Rule of 9s (adult: head 9, each arm 9, anterior trunk 18, posterior trunk 18, each leg 18, perineum 1). Vitamin D₃ in epidermis.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details>
+    <summary>Week 3 · Respiratory system</summary>
+    <div class="body">
+      <h3>Anatomy</h3>
+      <ul>
+        <li>Conducting division (airflow) vs respiratory division (gas exchange). <b>URT = nostrils to larynx</b>; <b>LRT = trachea to lungs</b>.</li>
+        <li>Functions: gas exchange, communication, olfaction, acid–base balance, <b>BP regulation (angiotensin II production)</b>.</li>
+        <li>Nose warms, filters, humidifies. Pharyngeal tonsil in nasopharynx.</li>
+        <li><b>Larynx</b>: ~4 cm, <b>9 cartilages</b>: epiglottis 1, <b>thyroid 1 (largest, Adam's apple)</b>, cricoid 1, arytenoid 2, corniculate 2, cuneiform 2. Vocal cords adduct via <b>lateral</b> cricoarytenoid (sound), abduct via <b>posterior</b> cricoarytenoid (breathing).</li>
+        <li><b>Trachea</b>: <b>16–20 C-shaped hyaline rings</b>, open side posterior (oesophagus); mucus + cilia escalator; bifurcates at <b>T4/5</b> (carina) into main bronchi.</li>
+        <li>Airway generations: trachea 0 → main bronchi 1 → … → alveolar sacs <b>23</b>. ~<b>300 million</b> alveoli.</li>
+        <li>Alveolus: <b>Type I squamous</b> = gas exchange; <b>Type II great</b> = surfactant + repair; alveolar macrophages. Respiratory membrane = alveolar epithelium + fused basement membrane + capillary endothelium.</li>
+        <li><b>Right lung 3 lobes, 2 fissures</b> (oblique, horizontal); <b>left 2 lobes, 1 fissure</b>, <b>cardiac notch</b>. Hilum/root; apex above clavicle; base on diaphragm.</li>
+        <li>Pleura: <b>visceral</b> (on lung) inner, <b>parietal</b> (chest wall) outer; pleural fluid.</li>
+        <li>Development: pulmonary groove ~3 wk, lung buds wk 4, diaphragm wk 8–9, fetal breathing ~11 wk, alveoli after 6 months, adult number by age 8–10.</li>
+      </ul>
+      <h3>Ventilation (physics you already know)</h3>
+      <ul>
+        <li><b>Boyle</b>: P₁V₁ = P₂V₂. <b>Dalton</b>: partial pressures add. <b>Henry</b>: dissolved gas ∝ partial pressure × solubility.</li>
+        <li>Inspiration: diaphragm contracts and descends, thoracic volume ↑, alveolar pressure ~<b>758 mmHg</b> (atm 760) → air in. Expiration: relax, ~762 → air out.</li>
+        <li><b>Intrapleural pressure always negative</b> (≈ −4 mmHg; −5 to −8 cmH₂O), from lung recoil inward vs chest wall recoil outward. Transpulmonary P = P<sub>alveolar</sub> − P<sub>intrapleural</sub>.</li>
+        <li>Other factors: surface tension (reduced by <b>surfactant</b>), compliance, airway resistance.</li>
+        <li>Volumes: <b>tidal ~0.5 L</b>, IRV, ERV, residual volume (never expelled). Capacities: inspiratory capacity, <b>FRC</b> (air left after quiet expiration), <b>vital capacity</b> (max in/out in one cycle), total lung capacity.</li>
+      </ul>
+      <h3>Gas transport & control</h3>
+      <ul>
+        <li>Three phases: pulmonary ventilation → external respiration (lung) → internal respiration (tissue).</li>
+        <li>Shunt flow ~2% → arterial PO₂ ~95 mmHg. Lungs PO₂ ~100 (Hb ~100% saturated); tissues 20–40.</li>
+        <li>O₂: <b>&gt;98% on haemoglobin</b> (4 hemes, Fe), &lt;2% dissolved.</li>
+        <li>CO₂: <b>70% bicarbonate</b>, <b>23% carbaminohaemoglobin</b>, <b>7% dissolved</b>. <b>Carbonic anhydrase</b> in RBC; <b>chloride shift</b> (Cl⁻ in at tissues, out at lungs).</li>
+        <li><b>Bohr effect</b>: ↑CO₂/↑H⁺ shifts the curve right → more O₂ unloaded. BPG (hypoxia) also right shift.</li>
+        <li>Control: <b>medulla oblongata</b> DRG (inspiration) + VRG (forced); pons <b>pneumotaxic</b> centre inhibits apneustic centre. Motor output via <b>phrenic</b> nerve. <b>Central chemoreceptors</b> in medulla sense <b>CSF pH</b>; <b>peripheral</b> in <b>carotid bodies & aortic arch</b> sense O₂, CO₂, pH, signal via CN <b>IX and X</b>. Stretch receptors → CN X → prevent over-inflation. Irritant receptors → cough.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details>
+    <summary>Week 4 · Cardiovascular system</summary>
+    <div class="body">
+      <h3>Anatomy</h3>
+      <ul>
+        <li>Heart in the <b>middle mediastinum</b>; oesophagus and descending aorta in the <b>posterior</b> mediastinum. Apex toward left, PMI ~5th intercostal space.</li>
+        <li>Pericardium: <b>fibrous</b> (outer) → <b>parietal</b> serous → pericardial cavity → <b>visceral</b> serous (epicardium). Wall: epicardium, <b>myocardium</b>, endocardium.</li>
+        <li>Aortic arch branches: <b>brachiocephalic, left common carotid, left subclavian</b>. Ligamentum arteriosum = remnant of ductus arteriosus.</li>
+        <li>Valves: right AV = <b>tricuspid</b>; left AV = <b>bicuspid/mitral</b>; semilunar = <b>pulmonary</b> and <b>aortic</b>. AV valves anchored by <b>chordae tendineae</b> to <b>papillary muscles</b>. Fibrous skeleton holds valve rings.</li>
+        <li><b>S1 "lub" = AV valves close</b> (start of ventricular systole). <b>S2 "dub" = semilunar valves close</b>. S3 early diastole (normal in children, volume overload in adults); S4 late diastole, stiff ventricle.</li>
+        <li><b>Left ventricle wall is thickest</b> (systemic pressure).</li>
+        <li>Lungs: <b>2 pulmonary arteries carry deoxygenated blood</b>; <b>4 pulmonary veins</b> carry oxygenated blood to the <b>left atrium</b>. Bronchial arteries feed lung tissue; bronchial veins → right atrium.</li>
+        <li>Blood path: SVC/IVC/coronary sinus → RA → tricuspid → RV → pulmonary valve → pulmonary trunk → lungs → pulmonary veins → LA → mitral → LV → aortic valve → aorta.</li>
+        <li>Coronary arteries from aortic root. <b>LCA → anterior interventricular (LAD) + circumflex (→ left marginal)</b>. <b>RCA → right marginal + posterior interventricular</b>. Veins: great, middle, small, anterior cardiac → <b>coronary sinus → right atrium</b>. Anastomoses = collateral circulation.</li>
+        <li>Fetal shunts: <b>foramen ovale</b> (RA → LA) and <b>ductus arteriosus</b> (pulmonary trunk → aorta); close at first breath.</li>
+        <li>Cardiac muscle: branched, <b>one nucleus</b>, striated, involuntary, <b>intercalated discs</b> (gap junctions + desmosomes).</li>
+      </ul>
+      <h3>Electrical</h3>
+      <ul>
+        <li>Conducting order: <b>SA node</b> (pacemaker, RA) → <b>AV node</b> → <b>bundle of His</b> (AV bundle) → bundle branches → <b>Purkinje fibres</b>.</li>
+        <li>Pacemaker potential: no stable resting potential; at <b>−60 mV</b> "funny" <b>Na⁺</b> channels open (slow ramp) → threshold → <b>Ca²⁺</b> influx (spike) → <b>K⁺</b> efflux (repolarise). Cycle <b>0.8 s → 75 bpm</b>.</li>
+        <li>Contractile fibre: fast Na⁺ depolarisation → <b>plateau (Ca²⁺ in, K⁺ out)</b> → K⁺ repolarisation; ~0.3 s; long refractory period.</li>
+        <li>ECG: <b>P = atrial depolarisation</b>; <b>QRS = ventricular depolarisation</b> (atrial repolarisation hidden); <b>T = ventricular repolarisation</b>. <b>PR interval 0.16 s</b>; ST segment = plateau; QT = whole ventricular depol + repol; <b>RR interval → heart rate</b>.</li>
+      </ul>
+      <h3>Mechanical (Wiggers)</h3>
+      <ul>
+        <li>Atrial systole tops up ventricle (~20%) → <b>EDV</b>. Mitral closes (S1) → <b>isovolumetric contraction</b> (all valves closed, volume flat). Aortic valve opens when LV &gt; <b>80 mmHg</b> → ejection, peak <b>120 mmHg</b>. Aortic valve closes (S2, <b>dicrotic notch</b>) → <b>isovolumetric relaxation</b> → mitral opens → rapid filling → diastasis. Lowest volume = <b>ESV</b>.</li>
+        <li><b>CO = SV × HR</b>. <b>SV = EDV − ESV ≈ 70 mL</b>. 70 × 72 = <b>5,040 mL/min ≈ 5 L/min</b>.</li>
+        <li>Regulation: cardiovascular centre in <b>medulla oblongata</b>; adrenaline ↑HR; ↑venous return → ↑SV (Frank–Starling).</li>
+      </ul>
+      <h3>Vessels & blood pressure</h3>
+      <ul>
+        <li>Wall: tunica <b>intima</b> (endothelium), <b>media</b> (smooth muscle, thick in arteries), <b>externa</b>. <b>Veins have valves</b>, thin walls. Arteries → arterioles → capillaries (precapillary sphincters) → venules → veins.</li>
+        <li>Pressure highest in large arteries, <b>sharpest drop in arterioles</b>. Total cross-sectional area peaks and <b>velocity is slowest in capillaries</b>.</li>
+        <li>Flow distribution depends on pressure difference and vascular resistance (lumen size, viscosity, length). Skeletal muscle pump + venous valves return blood.</li>
+        <li><b>RAAS</b>: ↓BP → <b>juxtaglomerular cells (kidney) secrete renin</b> → angiotensinogen (liver) → angiotensin I → <b>ACE (lungs)</b> → <b>angiotensin II</b> → vasoconstriction + <b>aldosterone (adrenal cortex)</b> → Na⁺/water reabsorption (K⁺/H⁺ excreted). High K⁺ also triggers aldosterone.</li>
+        <li>Epinephrine/norepinephrine ↑HR, vasoconstriction (except skeletal muscle). <b>ADH</b> water retention + vasoconstriction. <b>ANP</b> (atria) vasodilation, ↓ blood volume.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details>
+    <summary>Week 5 · Practical applications: respiratory & cardiovascular pathology</summary>
+    <div class="body">
+      <h3>COPD (chronic obstructive pulmonary disease)</h3>
+      <ul>
+        <li>Airflow limitation from airway/alveolar damage by noxious substances (smoking, dusts, pollutants, fumes). Two forms: <b>emphysema</b> and <b>chronic bronchitis</b>.</li>
+        <li><b>Emphysema</b>: irreversible enlargement of airspaces <b>distal to the terminal bronchiole</b> + wall destruction, no fibrosis. <b>Centriacinar / panacinar</b> by location. Loss of elastic recoil → air trapping → <b>↑ total lung capacity, ↑ residual volume, ↓ FEV₁</b>. <b>Alpha-1 antitrypsin deficiency</b> is the genetic cause. Features: dyspnoea, cough with little sputum, <b>pursed-lip breathing ("pink puffer")</b>, weight loss, <b>barrel chest</b>, hypoxaemia. Chest film: hyperinflated elongated lungs, <b>flattened hemidiaphragms</b>, ↑ interstitial markings.</li>
+        <li><b>Chronic bronchitis</b>: productive cough <b>&gt; 3 months in &gt; 2 consecutive years</b>. <b>Hypertrophy of bronchial mucous glands</b>, goblet-cell hyperplasia, mucus plugs. <b>Cyanosis ("blue bloater")</b>: mucus traps CO₂ → ↑ PCO₂, ↓ PO₂.</li>
+      </ul>
+      <h3>Asthma</h3>
+      <ul>
+        <li>Chronic inflammatory airway disease: <b>reversible</b> bronchoconstriction, mucus hypersecretion, bronchial hyper-responsiveness.</li>
+        <li>Cascade: dendritic cell presents allergen to <b>Th2</b> cell → (i) <b>Triggering</b>: IL-4 → B cells make <b>IgE</b> → binds mast cells; IL-5 + eotaxin recruit eosinophils. (ii) <b>Immediate (minutes)</b>: mast-cell <b>degranulation</b> → oedema, smooth-muscle contraction; vagal reflex adds bronchoconstriction and mucus. (iii) <b>Late (hours)</b>: eosinophils, basophils, neutrophils, Th2 infiltrate; eosinophil major basic protein / cationic protein shed the epithelium.</li>
+        <li>Triggers: allergens, viral URTI, cold/dry air, smoke, exercise, stress, <b>aspirin/NSAIDs, beta-blockers</b>. Features: dyspnoea, <b>wheezing</b>, cough with <b>spiral mucus plugs</b>; bronchial mucus cast in <b>status asthmaticus</b>.</li>
+      </ul>
+      <h3>Other lung conditions</h3>
+      <ul>
+        <li><b>Pneumothorax</b>: air in the pleural space. <b>Spontaneous</b> = ruptured emphysematous bleb; <b>traumatic</b> = penetrating injury. → <b>atelectasis</b> (lung collapse) and <b>mediastinal shift</b>. Treated with a chest tube.</li>
+        <li><b>Pneumonia</b>: lung infection; diagnosis by chest X-ray, sputum Gram stain/culture, blood culture. Types: <b>lobar, broncho-, interstitial</b>.</li>
+        <li><b>Tuberculosis</b> (Mycobacterium tuberculosis, inhaled). <b>Primary</b>: caseating necrosis → fibrosis + calcification → <b>Ghon complex</b>. <b>Secondary</b>: reactivation when host resistance falls, at the <b>apex</b> (poor lymphatic drainage, high O₂ tension) → miliary or extrapulmonary TB.</li>
+        <li><b>Lung cancer</b>: 85% smokers (&gt;60 carcinogens); asbestos, silica. <b>TNM staging</b> (Tumour size, lymph Node spread, Metastasis). Types: <b>adenocarcinoma 50%</b>, squamous 20%, small cell 15%, large cell 2%, other 13%.</li>
+      </ul>
+      <h3>Congenital shunts</h3>
+      <ul>
+        <li><b>Left-to-right</b> (no cyanosis at first): <b>atrial septal defect</b>, <b>ventricular septal defect</b>, <b>patent ductus arteriosus</b> (aorta ↔ pulmonary trunk stays open). → pulmonary vessel hypertrophy and <b>pulmonary hypertension</b>.</li>
+        <li><b>Right-to-left</b> (<b>cyanosis</b>): <b>Tetralogy of Fallot</b> = RV outflow stenosis + RV hypertrophy + VSD + overriding aorta; <b>dextro-transposition of the great arteries</b>.</li>
+      </ul>
+      <h3>Vessels</h3>
+      <ul>
+        <li><b>Atherosclerosis</b>: intimal plaque with <b>necrotic lipid core + fibromuscular cap</b> (calcifies). Sequence: endothelial injury (smoking, hypertension, hyperlipidaemia) → <b>LDL</b> enters intima and is oxidised → monocytes recruited → macrophages engulf lipid → <b>foam cells</b> → cytokines → smooth-muscle cells migrate from media and proliferate → collagen <b>fibrous cap</b>. Risk: hypertension, hypercholesterolaemia, age, male.</li>
+        <li><b>Aortic aneurysm</b>: localised dilation from wall weakness; thoracic / abdominal / thoracoabdominal.</li>
+        <li><b>Varicose veins</b>: dilated tortuous veins from ↑ intraluminal pressure + weakened valves (standing, obesity, pregnancy, DVT); stretching → pooling → more stretching. Treat: compression stockings, less standing, sclerotherapy.</li>
+      </ul>
+      <h3>Heart</h3>
+      <ul>
+        <li><b>Ischaemic heart disease</b>: ↓ myocardial blood supply, mainly coronary atherosclerosis → <b>angina</b> (chest pain) and <b>myocardial infarction</b> (myocyte necrosis). Transmural infarct = permanent occlusion of one branch (LAD, circumflex, RCA). <b>Regional subendocardial</b> = transient/partial obstruction or reperfusion; <b>circumferential subendocardial</b> = global hypotension (shock); <b>microinfarcts</b> = tiny intramural vessels (emboli, vasculitis, spasm).</li>
+        <li><b>Arrhythmias</b>: <b>tachycardia &gt; 100</b>, <b>bradycardia &lt; 60</b> bpm. <b>Heart block</b> = delay at AV node / bundle of His (1st, 2nd, complete). <b>Atrial fibrillation</b> 300–600/min, leading risk factor for <b>ischaemic stroke</b>. <b>Ventricular fibrillation</b> = chaotic quivering, no output = cardiac arrest, unconscious in seconds. ECG: AV block = long/dropped PR; AF = irregular, no P waves; VF = chaotic baseline.</li>
+        <li><b>Congestive heart failure</b>: pump failure → stagnant blood → oedema, ascites. <b>Left-sided</b> (ischaemia, MI, hypertension) → <b>pulmonary oedema</b>; ↓ renal flow → <b>↑ RAAS</b> → fluid retention. <b>Right-sided</b> (left-to-right shunt, chronic lung disease) → systemic venous congestion: distended neck veins, leg/liver/abdominal oedema.</li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<!-- ============ FIXES ============ -->
+<section class="panel" id="tab-fixes" hidden>
+  <div class="card">
+    <h2>Week 1 self-assessment · 13/18 → what the 5 should have been</h2>
+    <div class="tablewrap"><table>
+      <tr><th>#</th><th>Question</th><th>You wrote</th><th>Expected</th><th>Why</th></tr>
+      <tr><td>3</td><td>Protein synthesis by ribosomes begins with</td><td>transcription</td><td><b>translation</b></td><td>Ribosomes translate mRNA → protein. Transcription (DNA → mRNA) is done by RNA polymerase in the nucleus, before the ribosome is involved.</td></tr>
+      <tr><td>12</td><td>Cut into <i>equal</i> right and left sides</td><td>midsagittal</td><td><b>median</b> (slide: "Median (mid-sagittal) plane")</td><td>Anatomically you were right. Canvas fill-ins match text exactly; "midsagittal" without the hyphen was not in the key. Use the slide's first word: <b>median</b>.</td></tr>
+      <tr><td>13</td><td>"Little organs" inside the cell</td><td>Organelles</td><td><b>organelle</b></td><td>Singular. The key had one word; the plural failed the match.</td></tr>
+      <tr><td>15</td><td>Fluids/dissolved molecules trapped by the plasma membrane into the cell</td><td>Pinocytosis</td><td><b>endocytosis</b></td><td>The general term. Pinocytosis is a sub-type ("cell drinking"), but the key wants the umbrella word (its partner question uses the general term "active transport").</td></tr>
+      <tr><td>17</td><td>Movement across the membrane <i>without</i> cell energy</td><td>Facilitated diffusion</td><td><b>diffusion</b> (best guess; "passive transport" also rejected)</td><td>Key unconfirmed. The two umbrella terms are "passive transport" and "diffusion"; since the first was rejected, write <b>diffusion</b>. If you can see the key on Canvas, use that.</td></tr>
+    </table></div>
+    <p class="small">Correct ones to keep: diaphragm; dorsal & ventral; prophase (condense); telophase (envelope reappears); anaphase (move apart); metaphase (align); hypertrophy (↑ size); atrophy (↓ size); coronal (front/back); transverse (upper/lower); sagittal (left/right); apoptosis; active transport.</p>
+  </div>
+
+  <div class="card">
+    <h2>Week 2 self-assessment · your key says one is wrong</h2>
+    <p>I checked all 15 answers against the Week 1 slides. <b>Every one is anatomically correct and matches the lecture</b> (hyoid at C3, heat production, parietal, intervertebral foramen, mandible, C3–C4 apophyseal joint, fibrous sutures, etc.). So the mark you lost was almost certainly a fill-in wording mismatch, not a wrong fact. The most likely culprit:</p>
+    <ul>
+      <li><b>Q6</b> typed as "Dens (odontoid process)" → Canvas wanted just <b>dens</b> (or "odontoid process" alone).</li>
+      <li>Less likely: "Temporal bone" instead of <b>temporal</b>; "Coronal suture" instead of <b>coronal</b>; "Anterior fontanelle" instead of <b>anterior</b>.</li>
+    </ul>
+    <p>If you can still see the attempt on Canvas, check which fill-in is flagged. Either way, the fact set is safe to memorise as-is.</p>
+  </div>
+
+  <div class="card">
+    <h2>Week 4 self-assessment · key (do the quiz yourself first, then compare)</h2>
+    <div class="tablewrap"><table>
+      <tr><th>#</th><th>Question</th><th>Answer</th><th>Why</th></tr>
+      <tr><td>1</td><td>Receptors that keep the lung from over-expanding</td><td><b>Stretch</b></td><td>Pulmonary stretch receptors → CN X → DRG (Hering–Breuer).</td></tr>
+      <tr><td>2</td><td>Neonatal thymus lies in the ___ mediastinum</td><td><b>anterior and superior</b></td><td>Thymus sits behind the sternum, in the superior mediastinum extending into the anterior.</td></tr>
+      <tr><td>3</td><td>Right lung lobes</td><td><b>three</b></td><td>Right 3 lobes / 2 fissures; left 2 / 1.</td></tr>
+      <tr><td>4</td><td>LCA gives the anterior ___ artery toward the apex</td><td><b>interventricular</b></td><td>Slide: "Anterior interventricular branch (Left anterior descending)". If rejected, try "descending".</td></tr>
+      <tr><td>5</td><td>First branch of the aortic arch</td><td><b>brachiocephalic trunk</b></td><td>Then left common carotid, then left subclavian.</td></tr>
+      <tr><td>6</td><td>Receptors detecting CO₂ / O₂ / acid in blood</td><td><b>Chemoreceptors</b></td><td>Peripheral (carotid bodies, aortic arch) and central (medulla).</td></tr>
+      <tr><td>7</td><td>Nerve to the diaphragm</td><td><b>phrenic</b></td><td>C3–C5.</td></tr>
+      <tr><td>8</td><td>SVC mainly drains</td><td><b>upper limbs</b></td><td>Head, neck, upper limbs, thorax. IVC drains abdomen, pelvis, lower limbs.</td></tr>
+      <tr><td>9</td><td>Forms the superior border of the heart</td><td><b>ascending aorta and pulmonary trunk</b></td><td>The other options are the other borders: right atrium = right border, left ventricle = left border, RV + LV = inferior border.</td></tr>
+      <tr><td>10</td><td>NOT in the superior mediastinum</td><td><b>descending aorta</b></td><td>It's in the posterior mediastinum. Arch, trachea and oesophagus all pass through the superior.</td></tr>
+      <tr><td>11</td><td>Central respiratory centres: pons and ___</td><td><b>medulla oblongata</b></td><td>DRG/VRG in the medulla; pneumotaxic/apneustic in the pons.</td></tr>
+      <tr><td>12</td><td>Space between the two pleural (pulmonary) chambers</td><td><b>mediastinum</b></td><td>Central compartment of the thorax.</td></tr>
+      <tr><td>13</td><td>Arch of the aorta lies in the ___ mediastinum</td><td><b>superior</b></td><td>Ascending aorta and heart = middle; descending = posterior.</td></tr>
+      <tr><td>14</td><td>Oxygenated blood to lung tissue via</td><td><b>bronchial artery</b></td><td>Pulmonary arteries carry deoxygenated blood for exchange.</td></tr>
+      <tr><td>15</td><td>Inferior surface of the heart rests on</td><td><b>central tendon of the diaphragm</b></td><td>Diaphragmatic surface of the heart.</td></tr>
+    </table></div>
+    <p class="small">Mediastinum map to memorise: <b>superior</b> (above the sternal angle / T4-5): aortic arch + its 3 branches, SVC upper part, trachea, oesophagus, thymus. <b>Inferior</b> = anterior (thymus remnants, fat) + <b>middle</b> (heart, pericardium, ascending aorta, pulmonary trunk, SVC lower part) + <b>posterior</b> (descending aorta, oesophagus, azygos, thoracic duct).</p>
+  </div>
+
+  <div class="card">
+    <h2>Week 3 self-assessment</h2>
+    <p>All 15 answers in your document are correct: calcaneus; sternoclavicular; trochlea; coracoid; capitulum; head of humerus; greenstick; flexion and extension; patella; talus; lunate surface of acetabulum; scapula and clavicle; less precise control; extension; 8.</p>
+  </div>
+
+  <div class="callout good">
+    <b>Fill-in rules for the test</b>
+    <ul>
+      <li>One term, exactly as spelled on the slide. Singular unless the blank is clearly plural.</li>
+      <li>No brackets, no "bone"/"suture"/"nerve" if the sentence already contains that word after the blank.</li>
+      <li>If two names exist (median vs mid-sagittal; dens vs odontoid process; bicuspid vs mitral), use the one that appears <i>first</i> on the slide.</li>
+      <li>General term over sub-type when the question is phrased generally (endocytosis, passive transport).</li>
+    </ul>
+  </div>
+
+  <h2 id="keys-6-8">Weeks 6–8 self-assessments · 23 Oct re-attempts (digestive, urinary, reproductive)</h2>
+  <p class="small">Every answer below matched the slide/Tortora wording. Rows marked "not scored" were worth 0 points on Canvas (the quiz shows "0 / 0 pts") but the answers were checked against Tortora 16e and the slides — see the Quiz bank for the explanations.</p>
+  <div class="tablewrap"><table><thead><tr><th>Quiz · Q</th><th>Question</th><th>Answer</th><th>Canvas</th></tr></thead><tbody>
+<tr><td>W6 · 1</td><td>The ______ layer of the wall of the gastrointestinal tract contains blood vessels and nerves.</td><td><b>submucosa</b></td><td>1/1</td></tr>
+<tr><td>W6 · 2</td><td>The part of the large intestine between the ascending and descending colon is the ______ colon.</td><td><b>transverse</b></td><td>1/1</td></tr>
+<tr><td>W6 · 3</td><td>The __________ prevent food and liquids from entering the trachea when food is swallowed.</td><td><b>epiglottis</b></td><td>1/1</td></tr>
+<tr><td>W6 · 4</td><td>The _____ ligament is a peritoneal fold on the anterior surface of the liver.</td><td><b>falciform</b></td><td>1/1</td></tr>
+<tr><td>W6 · 5</td><td>The portal vein and the hepatic artery go into the liver via the ___.</td><td><b>porta hepatis</b></td><td>not scored (0/0)</td></tr>
+<tr><td>W6 · 6</td><td>Food in stomach may remain in ___ before mixing with gastric juice.</td><td><b>Fundus</b></td><td>not scored (0/0)</td></tr>
+<tr><td>W6 · 7</td><td>The following viscera are intraperitoneal structures except the ______ .</td><td><b>pancreas</b></td><td>1/1</td></tr>
+<tr><td>W6 · 8</td><td>The pancreas secretes __________ which neutralizes the hydrochloric acid in the gastric juice that enters the small intestines.</td><td><b>Sodium bicarbonate</b></td><td>1/1</td></tr>
+<tr><td>W6 · 9</td><td>Which of the following is absorbed by the small intestine via facilitated diffusion?</td><td><b>Fructose</b></td><td>not scored (0/0)</td></tr>
+<tr><td>W6 · 10</td><td>Which of the following is NOT secreted by the stomach?</td><td><b>Secretin</b></td><td>not scored (0/0)</td></tr>
+<tr><td>W7 · 1</td><td>Which of the following forms part of the collecting system of the kidney?</td><td><b>minor calyx</b></td><td>1/1</td></tr>
+<tr><td>W7 · 2</td><td>Increased capillary pressure:</td><td><b>moves fluid from the plasma to the interstitial fluid</b></td><td>1/1</td></tr>
+<tr><td>W7 · 3</td><td>Which of the following sense sodium and chloride ions levels in the tubuloglomerular feedback?</td><td><b>Macula densa cells</b></td><td>not scored (0/0)</td></tr>
+<tr><td>W7 · 4</td><td>Footlike processes of the podocytes are called ____.</td><td><b>pedicels</b></td><td>not scored (0/0)</td></tr>
+<tr><td>W7 · 5</td><td>The part of renal cortex that extends between renal pyramid is called a ____.</td><td><b>renal column</b></td><td>not scored (0/0)</td></tr>
+<tr><td>W7 · 6</td><td>In the kidney, filtration of blood takes place at the renal ______.</td><td><b>corpuscle</b></td><td>1/1</td></tr>
+<tr><td>W7 · 7</td><td>The __________ is released from the posterior pituitary gland and reduces the amount of water lost in the urine.</td><td><b>vasopressin</b></td><td>1/1</td></tr>
+<tr><td>W7 · 8</td><td>The ________ is the region where the renal artery & renal vein enter the kidney.</td><td><b>hilum</b></td><td>1/1</td></tr>
+<tr><td>W7 · 9</td><td>____ is the pair of fetal kidneys that develops into function kidneys and remains in newborn.</td><td><b>metanephros</b></td><td>not scored (0/0)</td></tr>
+<tr><td>W7 · 10</td><td>The microscopic functional unit of the kidney is called a ____.</td><td><b>nephron</b></td><td>not scored (0/0)</td></tr>
+<tr><td>W8 · 1</td><td>The body of the uterus normally impresses on the ______ of the urinary bladder.</td><td><b>superior surface</b></td><td>1/1</td></tr>
+<tr><td>W8 · 2</td><td>The ejaculatory duct empties into the _______.</td><td><b>prostate gland</b></td><td>1/1</td></tr>
+<tr><td>W8 · 3</td><td>The fimbrae of the uterine tube are in close proximity to the ______.</td><td><b>ovary</b></td><td>1/1</td></tr>
+<tr><td>W8 · 4</td><td>The followings are contents of the spermatic cord except the _______.</td><td><b>penile urethra</b></td><td>1/1</td></tr>
+<tr><td>W8 · 5</td><td>In the male, the ___________ gland is located below the neck of the urinary bladder.</td><td><b>prostate</b></td><td>1/1</td></tr>
+<tr><td>W8 · 6</td><td>The uterus is composed of several regions: the narrow lower part below the body is called the ______.</td><td><b>cervix</b></td><td>1/1</td></tr>
+<tr><td>W8 · 7</td><td>______ means failed to produce off springs.</td><td><b>Infertility</b></td><td>1/1</td></tr>
+<tr><td>W8 · 8</td><td>The ______ tubes connect the ovary and the uterus.</td><td><b>uterine</b></td><td>1/1</td></tr>
+</tbody></table></div>
+</section>
+</div>
+
+<script>
+(function(){
+// ---------- data ----------
+// w = week, s = "quiz" (from self-assessment) | "pred" (predicted), t = "mc"|"fill"
+// a = index of correct option (mc) or array of accepted answers (fill); miss = you got this wrong before
+const Q = [
+// ===== WEEK 1 SELF-ASSESSMENT =====
+{w:1,s:"quiz",t:"mc",q:"The structure that divides the thoracic cavity from the abdominal cavity is the:",o:["diaphragm","mediastinum","lungs","stomach"],a:0,why:"The diaphragm is the muscular floor of the thorax; the mediastinum is the central compartment between the lungs."},
+{w:1,s:"quiz",t:"mc",q:"The two major cavities of the body are the:",o:["thoracic and abdominal","abdominal and pelvic","dorsal and ventral","anterior and posterior"],a:2,why:"Dorsal (cranial cavity + vertebral canal) and ventral (thoracic + abdominopelvic)."},
+{w:1,s:"quiz",t:"mc",miss:1,q:"The synthesis of a protein by ribosomes begins with:",o:["translation","transcription","transfer RNA","complementary base pairing"],a:0,why:"Ribosomes translate mRNA into protein. Transcription (DNA → mRNA) happens earlier, in the nucleus."},
+{w:1,s:"quiz",t:"mc",q:"During what stage of mitosis does the chromatin condense into chromosomes?",o:["Prophase","Interphase","Metaphase","Telophase"],a:0,why:"Prophase: chromatin condenses, spindle forms, nuclear envelope breaks down."},
+{w:1,s:"quiz",t:"mc",q:"During what stage of mitosis do the nuclear envelope and nuclei reappear?",o:["Telophase","Interphase","Prophase","Anaphase"],a:0,why:"Telophase reverses prophase: envelopes re-form around each set of chromosomes."},
+{w:1,s:"quiz",t:"mc",q:"During what stage of mitosis do the chromosomes move away from the center of the cell?",o:["Anaphase","Interphase","Metaphase","Telophase"],a:0,why:"Anaphase: sister chromatids are pulled 'away' to opposite poles."},
+{w:1,s:"quiz",t:"mc",q:"Which of the following terms refers to an increase in cell size?",o:["Hypertrophy","Hyperplasia","Anaplasia","Atrophy"],a:0,why:"Hypertrophy = bigger cells; hyperplasia = more cells; atrophy = smaller cells."},
+{w:1,s:"quiz",t:"mc",q:"During what stage of mitosis do the chromosomes align in the center of the cell?",o:["Metaphase","Interphase","Prophase","Telophase"],a:0,why:"Metaphase: chromosomes line up on the metaphase plate ('middle')."},
+{w:1,s:"quiz",t:"mc",q:"Atrophy refers to a(n):",o:["decrease in cell size","increase in cell size","increase in use","condition that results from overextending a muscle"],a:0,why:"Atrophy = wasting, decrease in cell size (e.g. an immobilised limb)."},
+{w:1,s:"quiz",t:"fill",q:"A ________ section cuts the body or any of its parts into front and back portions.",a:["coronal","frontal"],why:"Coronal (frontal) plane → anterior / posterior."},
+{w:1,s:"quiz",t:"fill",q:"A ________ section cuts the body or any of its parts into upper and lower portions.",a:["transverse","horizontal","axial"],why:"Transverse plane → superior / inferior."},
+{w:1,s:"quiz",t:"fill",miss:1,q:"If the body is cut into equal right and left sides, the cut is called a ________ section or plane.",a:["median","mid-sagittal","midsagittal"],why:"Slide wording: 'Median (mid-sagittal) plane'. On Canvas 'midsagittal' was rejected; write MEDIAN."},
+{w:1,s:"quiz",t:"fill",miss:1,q:"________ is a term that refers to small structures inside the cell—it means \"little organs.\"",a:["organelle","organelles"],why:"Organelle. Canvas rejected the plural, so use the singular."},
+{w:1,s:"quiz",t:"fill",q:"A ________ section cuts the body or any of its parts into left and right portions.",a:["sagittal"],why:"Any left/right cut is sagittal; only the equal one is median/mid-sagittal."},
+{w:1,s:"quiz",t:"fill",miss:1,q:"________ refers to the movement of fluids or dissolved molecules into the cell by trapping them in the plasma membrane.",a:["endocytosis"],why:"Endocytosis is the umbrella term (pinocytosis and phagocytosis are sub-types). The key wanted the general word."},
+{w:1,s:"quiz",t:"fill",q:"Another name for \"cell suicide\" is ________.",a:["apoptosis"],why:"Apoptosis = programmed cell death."},
+{w:1,s:"quiz",t:"fill",miss:1,q:"________ is the movement of substances across a cell membrane without using cell energy.",a:["diffusion","passive transport","passive"],why:"Key not confirmed. 'Passive transport' was NOT accepted, so the most likely key is DIFFUSION (the textbook's umbrella example of energy-free movement). Q18's pair is 'active transport'."},
+{w:1,s:"quiz",t:"fill",q:"________ is the movement of substances across a cell membrane using cell energy.",a:["active transport","active"],why:"Active transport uses ATP (e.g. Na⁺/K⁺ pump)."},
+
+// ===== WEEK 2 SELF-ASSESSMENT (covers axial skeleton) =====
+{w:1,s:"quiz",t:"fill",q:"Abnormal side-to-side curvature of the vertebral column is called ________.",a:["scoliosis"],why:"Scoliosis = lateral. Kyphosis = thoracic hunchback. Lordosis = lumbar sway-back."},
+{w:1,s:"quiz",t:"fill",q:"The external auditory meatus is an opening at the ________ bone of the skull.",a:["temporal"],why:"Temporal bone (also holds the ossicles and the mastoid process)."},
+{w:1,s:"quiz",t:"fill",q:"The articulation between the frontal bone and the parietal bones is known as the ________ suture.",a:["coronal"],why:"Coronal suture. Sagittal = between parietals; lambdoid = parietals–occipital; squamous = temporal–parietal."},
+{w:1,s:"quiz",t:"fill",q:"The largest opening at the skull of a neonate is known as the ________ fontanelle.",a:["anterior","frontal"],why:"Anterior fontanelle, closes at 18–24 months (others by ~12 months)."},
+{w:1,s:"quiz",t:"fill",q:"The muscles of facial expression are innervated by the 7th cranial nerve that is also known as the ________ nerve.",a:["facial"],why:"CN VII = facial nerve. (CN V trigeminal does chewing and facial sensation.)"},
+{w:1,s:"quiz",t:"fill",q:"The median atlanto-axial joint is an articulation between the anterior arch of the atlas and the ________ of the axis.",a:["dens","odontoid process","odontoid"],why:"Dens (odontoid process) of C2. Write just 'dens' — no brackets."},
+{w:1,s:"quiz",t:"mc",q:"There are ________ pieces of lumbar vertebrae at the back of the abdomen.",o:["5","7","6","4"],a:0,why:"7 cervical, 12 thoracic, 5 lumbar, 5 sacral (fused), 4 coccygeal (fused)."},
+{w:1,s:"quiz",t:"mc",q:"The muscles of facial expression are innervated by the ______ cranial nerve.",o:["7th","1st","3rd","5th"],a:0,why:"CN VII facial. CN I olfactory, CN III oculomotor, CN V trigeminal."},
+{w:1,s:"quiz",t:"mc",q:"The hyoid bone is normally located at the vertebral level of ________.",o:["C7","C5","C3","C1"],a:2,why:"Slide: 'anterior neck, above the larynx at the level of C3'."},
+{w:1,s:"quiz",t:"mc",q:"Which of the following is not a function of the skeleton?",o:["Protection","Blood formation","Heat production","Mineral storage"],a:2,why:"Heat production is a function of muscle. Skeleton: support, movement, protection, blood formation, mineral/electrolyte & acid–base balance, detox, fat storage."},
+{w:1,s:"quiz",t:"mc",q:"The ________ bone forms most of the superior part of the human skull.",o:["frontal","occipital","parietal","temporal"],a:2,why:"The two parietal bones form the roof and upper sides."},
+{w:1,s:"quiz",t:"mc",q:"The opening between two adjoining vertebrae is known as the ________.",o:["vertebral canal","foramen magnum","obturator foramen","intervertebral foramen"],a:3,why:"Intervertebral foramen transmits the spinal nerve. Vertebral foramen/canal holds the cord; foramen magnum is in the occipital bone; obturator is in the hip bone."},
+{w:1,s:"quiz",t:"mc",q:"The ________ is a movable bone of the human skull.",o:["frontal bone","mandible","vomer","sphenoid bone"],a:1,why:"Only the mandible moves (temporomandibular joint). All others are joined by sutures."},
+{w:1,s:"quiz",t:"mc",q:"The apophyseal joint is an articulation between ________.",o:["occipital bone and atlas","thyroid cartilage and cricoid cartilage","3rd cervical vertebra and 4th cervical vertebra","sternum and costal cartilage"],a:2,why:"Apophyseal (zygapophyseal / facet) joints are between the articular processes of adjacent vertebrae."},
+{w:1,s:"quiz",t:"mc",q:"The sutures of the skull are typed as ________ joints.",o:["plane","synovial","fibrous","cartilaginous"],a:2,why:"Fibrous (structural), synarthrosis (functional). Pubic symphysis = cartilaginous; finger = synovial."},
+
+// ===== WEEK 3 SELF-ASSESSMENT (covers appendicular) =====
+{w:2,s:"quiz",t:"fill",q:"The weight-bearing bone at the heel of the foot is known as the ________.",a:["calcaneus","calcaneum"],why:"Calcaneus = heel bone (largest tarsal). Talus = ankle bone."},
+{w:2,s:"quiz",t:"fill",q:"The medial end of the clavicle articulates with the sternum to form the ________ joint.",a:["sternoclavicular"],why:"Sternoclavicular joint medially; acromioclavicular laterally."},
+{w:2,s:"quiz",t:"fill",q:"The saddle-like structure at the distal end of the humerus is called ________.",a:["trochlea"],why:"Trochlea (medial, pulley/saddle shaped) articulates with the ulna. Capitulum (lateral, round) with the radius."},
+{w:2,s:"quiz",t:"fill",q:"The ________ process is a bony projection that arises from the costal surface of the scapula.",a:["coracoid"],why:"Coracoid process projects anteriorly from the costal (rib-facing) surface. Acromion is on the posterior spine."},
+{w:2,s:"quiz",t:"fill",q:"The roundish structure at the distal end of the humerus is called ________.",a:["capitulum"],why:"Capitulum ('little head') articulates with the head of the radius."},
+{w:2,s:"quiz",t:"mc",q:"The glenoid fossa articulates with the ________ to form the shoulder joint.",o:["head of humerus","lesser tubercle of humerus","acromion of scapula","coracoid process of scapula"],a:0,why:"Glenohumeral joint: glenoid cavity of scapula + head of humerus."},
+{w:2,s:"quiz",t:"mc",q:"Which of the following fracture is the most common in children?",o:["greenstick","impaction","Colles","comminuted"],a:0,why:"Greenstick: incomplete fracture of a soft, pliable child's bone. Colles = distal radius (adults, fall on hand)."},
+{w:2,s:"quiz",t:"mc",q:"________ of the forearm take place at the elbow joint.",o:["Flexion and extension","Protraction and retraction","Lateral and medial rotation","Pronation and supination"],a:0,why:"Elbow is a hinge: flexion/extension. Pronation/supination happen at the radioulnar joints."},
+{w:2,s:"quiz",t:"mc",q:"The largest sesamoid bone in the human body is the ________.",o:["patella","coccyx","pisiform","hyoid bone"],a:0,why:"Patella sits in the quadriceps tendon. Pisiform is also a sesamoid, but small."},
+{w:2,s:"quiz",t:"mc",q:"The ________ is an articular part of the ankle joint.",o:["talus","calcaneus","navicular","medial cuneiform"],a:0,why:"Ankle joint = tibia + fibula + talus."},
+{w:2,s:"quiz",t:"mc",q:"The ________ is an articular surface of the hip joint.",o:["lunate surface of acetabulum","iliac fossa","neck of femur","auricular surface of hip bone"],a:0,why:"Lunate surface of the acetabulum receives the head of the femur. Auricular surface is for the sacroiliac joint."},
+{w:2,s:"quiz",t:"mc",q:"Which of the following form the shoulder girdle?",o:["Scapula and clavicle","Rib 1 and humerus","Scapula and humerus","Sternum and clavicle"],a:0,why:"Pectoral (shoulder) girdle = clavicle + scapula."},
+{w:2,s:"quiz",t:"mc",q:"The greater the number of muscle fibers in each motor unit, ________.",o:["the less precise the control will be","the greater the number of stimuli required to produce a contraction","the longer each contraction will last","the slower the contraction of the muscle will be"],a:0,why:"Fine control (eye, fingers) uses small motor units; big postural muscles use large ones."},
+{w:2,s:"quiz",t:"mc",q:"In the anatomical position, the forearm is in ________.",o:["extension","flexion","lateral rotation","medial rotation"],a:0,why:"Arms hang straight (elbow extended), palms forward (forearm supinated)."},
+{w:2,s:"quiz",t:"mc",q:"There are how many carpal bones in each wrist?",o:["8","5","10","15"],a:0,why:"8 carpals (4 + 4), 5 metacarpals, 14 phalanges. Foot: 7 tarsals, 5 metatarsals, 14 phalanges."},
+
+// ===== WEEK 1 PREDICTED: CELL =====
+{w:1,s:"pred",t:"mc",q:"The process by which DNA is copied into messenger RNA is:",o:["transcription","translation","replication","mitosis"],a:0,why:"Transcription in the nucleus. Translation is mRNA → protein at the ribosome."},
+{w:1,s:"pred",t:"fill",q:"The organelle that produces most of the cell's ATP is the ________.",a:["mitochondrion","mitochondria"],why:"Mitochondria: the 'powerhouse'. Lysosomes digest; ribosomes make protein; Golgi packages."},
+{w:1,s:"pred",t:"mc",q:"Which organelle assembles proteins?",o:["Ribosome","Lysosome","Golgi apparatus","Mitochondrion"],a:0,why:"Ribosomes (free, or on rough ER) translate mRNA into protein."},
+{w:1,s:"pred",t:"mc",q:"Which organelle contains digestive enzymes and is sometimes called a 'suicide sac'?",o:["Lysosome","Ribosome","Nucleolus","Centriole"],a:0,why:"Lysosomes break down worn-out parts and can destroy the whole cell."},
+{w:1,s:"pred",t:"mc",q:"During which stage of mitosis are the chromatids pulled to opposite poles of the cell?",o:["Anaphase","Metaphase","Prophase","Telophase"],a:0,why:"Ana- = apart. IPMAT: Interphase, Prophase, Metaphase, Anaphase, Telophase."},
+{w:1,s:"pred",t:"mc",q:"DNA replication occurs during:",o:["interphase","prophase","metaphase","telophase"],a:0,why:"The cell copies its DNA before it divides; interphase is the non-dividing (longest) phase."},
+{w:1,s:"pred",t:"fill",q:"The division of the cytoplasm at the end of mitosis is called ________.",a:["cytokinesis"],why:"Cytokinesis follows telophase, giving two daughter cells."},
+{w:1,s:"pred",t:"mc",q:"The diffusion of water across a selectively permeable membrane is:",o:["osmosis","filtration","active transport","phagocytosis"],a:0,why:"Osmosis = water; diffusion = solutes; filtration = pushed by pressure."},
+{w:1,s:"pred",t:"mc",q:"Movement of a substance against its concentration gradient requires:",o:["active transport (ATP)","diffusion","osmosis","facilitated diffusion"],a:0,why:"Uphill movement costs energy, e.g. the Na⁺/K⁺ pump."},
+{w:1,s:"pred",t:"fill",q:"Diffusion of a molecule through a carrier protein, without energy, is called ________ diffusion.",a:["facilitated"],why:"Facilitated diffusion (e.g. glucose). Still passive: down the gradient."},
+{w:1,s:"pred",t:"mc",q:"Engulfing of solid particles by a cell is:",o:["phagocytosis","pinocytosis","exocytosis","osmosis"],a:0,why:"Phago = eat (solids); pino = drink (fluids). Both are forms of endocytosis and use energy."},
+{w:1,s:"pred",t:"fill",q:"Release of a vesicle's contents out of the cell by fusion with the plasma membrane is ________.",a:["exocytosis"],why:"Exo = out. Endocytosis = in."},
+{w:1,s:"pred",t:"mc",q:"An increase in the number of cells in a tissue is called:",o:["hyperplasia","hypertrophy","atrophy","anaplasia"],a:0,why:"-plasia = number of cells; -trophy = size of cells."},
+{w:1,s:"pred",t:"mc",q:"Which term describes cell death caused by injury rather than a programmed process?",o:["Necrosis","Apoptosis","Atrophy","Metaplasia"],a:0,why:"Apoptosis is programmed ('cell suicide'); necrosis is accidental."},
+{w:1,s:"pred",t:"mc",q:"Which of the following is NOT one of the four basic tissue types?",o:["Skeletal","Epithelial","Connective","Nervous"],a:0,why:"Epithelial, connective, muscle, nervous. Bone and blood are connective tissue."},
+{w:1,s:"pred",t:"fill",q:"The 'powerhouse of the cell' is the ________, the organelle that makes ATP.",a:["mitochondrion","mitochondria"],why:"Same fact, phrased as a fill-in the way the Week 1 quiz does."},
+{w:1,s:"pred",t:"mc",q:"tRNA carries ________ to the ribosome during protein synthesis.",o:["amino acids","nucleotides","ATP","DNA"],a:0,why:"Transfer RNA matches each mRNA codon with its amino acid."},
+
+// ===== WEEK 1 PREDICTED =====
+{w:1,s:"pred",t:"mc",q:"How many bones are in the adult human skeleton?",o:["206","270","80","126"],a:0,why:"~206 adult; ~270 at birth; axial 80 + appendicular 126."},
+{w:1,s:"pred",t:"mc",q:"The axial skeleton contains ________ bones.",o:["80","126","206","33"],a:0,why:"Axial 80 (skull 22 + ossicles 6 + hyoid 1 + vertebrae 26 + sternum 1 + ribs 24)."},
+{w:1,s:"pred",t:"fill",q:"The cranium is formed by ________ bones.",a:["8","eight"],why:"8 cranial + 14 facial = 22 skull bones."},
+{w:1,s:"pred",t:"fill",q:"The patella is an example of a ________ bone (classification by shape).",a:["sesamoid"],why:"Sesamoid bones form inside tendons. Others: long, short, flat, irregular."},
+{w:1,s:"pred",t:"mc",q:"The shaft of a long bone is called the:",o:["diaphysis","epiphysis","metaphysis","periosteum"],a:0,why:"Diaphysis = shaft; epiphyses = ends; metaphysis = between; periosteum = outer covering."},
+{w:1,s:"pred",t:"mc",q:"Yellow bone marrow is found in the:",o:["medullary cavity","epiphysis","articular cartilage","periosteum"],a:0,why:"Medullary cavity holds yellow marrow (fat); red marrow (haemopoiesis) is in spongy bone."},
+{w:1,s:"pred",t:"mc",q:"Which bone cell is multinucleated and responsible for bone resorption?",o:["Osteoclast","Osteoblast","Osteocyte","Osteoprogenitor cell"],a:0,why:"Osteoclasts (from monocyte lineage) break bone down; osteoblasts build; osteocytes maintain."},
+{w:1,s:"pred",t:"fill",q:"Formation of blood cells in red bone marrow is called ________.",a:["haemopoiesis","hemopoiesis","haematopoiesis","hematopoiesis"],why:"Poiesis = making. Pluripotent stem cell → myeloid and lymphoid stem cells."},
+{w:1,s:"pred",t:"mc",q:"The suture between the two parietal bones is the:",o:["sagittal suture","coronal suture","lambdoid suture","squamous suture"],a:0,why:"Sagittal runs along the midline between the parietals."},
+{w:1,s:"pred",t:"mc",q:"The suture between the parietal bones and the occipital bone is the:",o:["lambdoid suture","coronal suture","sagittal suture","squamous suture"],a:0,why:"Lambdoid, shaped like Λ (lambda)."},
+{w:1,s:"pred",t:"mc",q:"The anterior fontanelle normally closes at:",o:["18–24 months","3 months","12 months","5 years"],a:0,why:"Most fontanelles close by ~12 months; the anterior one at 18–24 months."},
+{w:1,s:"pred",t:"mc",q:"Which of the following is NOT a paranasal sinus?",o:["Temporal","Frontal","Maxillary","Sphenoidal"],a:0,why:"Paranasal sinuses: frontal, ethmoidal, sphenoidal, maxillary."},
+{w:1,s:"pred",t:"mc",q:"The foramen magnum is found in the:",o:["occipital bone","sphenoid bone","temporal bone","ethmoid bone"],a:0,why:"Foramen ('opening') magnum ('great') in the occipital bone, where the spinal cord exits."},
+{w:1,s:"pred",t:"mc",q:"Which statement about the hyoid bone is correct?",o:["It does not articulate with any other bone","It articulates with the mandible","It is part of the larynx","It lies at the level of C7"],a:0,why:"Suspended by muscles and ligaments, level C3, supports tongue and pharynx."},
+{w:1,s:"pred",t:"fill",q:"The vertebral column has ________ vertebrae in early development.",a:["33","thirty-three","thirty three"],why:"33 → 26 in the adult after sacral (5) and coccygeal (4) fusion."},
+{w:1,s:"pred",t:"mc",q:"Transverse foramina are a feature of which vertebrae?",o:["Cervical","Thoracic","Lumbar","Sacral"],a:0,why:"Cervical vertebrae have 3 foramina (1 vertebral + 2 transverse, for the vertebral arteries) and bifid spinous processes."},
+{w:1,s:"pred",t:"mc",q:"Costal facets for rib articulation are found on:",o:["thoracic vertebrae","cervical vertebrae","lumbar vertebrae","the sacrum"],a:0,why:"Thoracic vertebrae carry facets/demifacets; rib–vertebra joints = vertebrocostal."},
+{w:1,s:"pred",t:"fill",q:"The first cervical vertebra is called the ________.",a:["atlas","c1"],why:"Atlas (C1) has no body; axis (C2) has the dens."},
+{w:1,s:"pred",t:"mc",q:"Which cervical vertebra has a large, non-bifid spinous process?",o:["C7","C1","C2","C4"],a:0,why:"C7 = vertebra prominens. C3–C6 are typical with bifid processes."},
+{w:1,s:"pred",t:"fill",q:"An exaggerated thoracic curve giving a hunchback appearance is called ________.",a:["kyphosis"],why:"Kyphosis thoracic; lordosis lumbar; scoliosis lateral."},
+{w:1,s:"pred",t:"mc",q:"A herniated intervertebral disc is most common in which region?",o:["Lumbar","Cervical","Thoracic","Sacral"],a:0,why:"Weight-bearing lumbar region; nucleus pulposus pushes through annulus fibrosus onto a nerve."},
+{w:1,s:"pred",t:"mc",q:"Spina bifida results from abnormal development of the laminae of:",o:["L5 and/or S1","C1 and/or C2","T11 and/or T12","the coccyx"],a:0,why:"Congenital failure of the laminae to fuse at L5/S1."},
+{w:1,s:"pred",t:"mc",q:"In the costal groove, the structures from top to bottom are:",o:["vein, artery, nerve","artery, vein, nerve","nerve, artery, vein","vein, nerve, artery"],a:0,why:"VAN: intercostal vein, artery, nerve, tucked under the rib's inferior edge."},
+{w:1,s:"pred",t:"fill",q:"The joint between a rib's costal cartilage and the sternum is the ________ joint.",a:["sternocostal"],why:"Sternocostal (rib–sternum); vertebrocostal (rib–vertebra)."},
+{w:1,s:"pred",t:"mc",q:"The three parts of the sternum from superior to inferior are:",o:["manubrium, body, xiphoid process","body, manubrium, xiphoid process","xiphoid process, body, manubrium","manubrium, xiphoid process, body"],a:0,why:"Manubrium (with jugular/suprasternal notch), body, xiphoid process. Sternal angle at the manubrium–body junction, rib 2."},
+{w:1,s:"pred",t:"mc",q:"The pubic symphysis is an example of a ________ joint.",o:["cartilaginous","fibrous","synovial","plane"],a:0,why:"Held by fibrocartilage, no cavity. Sutures = fibrous; finger = synovial."},
+{w:1,s:"pred",t:"mc",q:"A freely movable joint is functionally classified as a(n):",o:["diarthrosis","synarthrosis","amphiarthrosis","symphysis"],a:0,why:"Synarthrosis immovable; amphiarthrosis slightly movable; diarthrosis freely movable."},
+{w:1,s:"pred",t:"mc",q:"Which structural joint type has a joint cavity?",o:["Synovial","Fibrous","Cartilaginous","All of them"],a:0,why:"Only synovial joints have a synovial cavity, capsule and ligaments."},
+{w:1,s:"pred",t:"mc",q:"Childbirth is the classic example of:",o:["positive feedback","negative feedback","homeostasis of pH","a set point"],a:0,why:"Oxytocin amplifies contractions until birth (an external event) stops the loop."},
+{w:1,s:"pred",t:"mc",q:"In a negative feedback loop, the response:",o:["reverses the initial stimulus","amplifies the initial stimulus","has no effect on the stimulus","always involves hormones"],a:0,why:"Sensor → control centre → effector, driving the variable back to its set point (temperature, pH, O₂)."},
+{w:1,s:"pred",t:"mc",q:"The transpyloric plane used to define the 9 abdominal regions lies at vertebral level:",o:["L1","L5","T12","S1"],a:0,why:"Transpyloric line L1; intertubercular line L5; mid-clavicular lines vertical."},
+{w:1,s:"pred",t:"mc",q:"The dorsal body cavity contains the:",o:["cranial cavity and vertebral canal","thoracic and abdominal cavities","pleural and pericardial cavities","abdominal and pelvic cavities"],a:0,why:"Dorsal = brain + spinal cord. Ventral = thoracic + abdominopelvic."},
+{w:1,s:"pred",t:"mc",q:"'Closer to the point of attachment or origin' describes the term:",o:["proximal","distal","superficial","medial"],a:0,why:"Proximal vs distal (limbs). Medial/lateral = toward/away from midline. Superficial/deep = surface."},
+{w:1,s:"pred",t:"fill",q:"The wrist bone (carpal) is an example of a ________ bone by shape.",a:["short"],why:"Short bones are cube-like (carpals, tarsals)."},
+{w:1,s:"pred",t:"mc",q:"Which bones form the roof of the orbit?",o:["Frontal and sphenoid","Maxilla and zygomatic","Lacrimal and ethmoid","Palatine and maxilla"],a:0,why:"Roof: frontal + sphenoid. Floor: maxilla, zygomatic, palatine. Medial: maxilla, lacrimal, ethmoid, sphenoid."},
+
+// ===== WEEK 2 PREDICTED =====
+{w:2,s:"pred",t:"mc",q:"The appendicular skeleton contains ________ bones.",o:["126","80","206","60"],a:0,why:"126: 4 girdle (pectoral) + 60 upper + 2 hip + 60 lower."},
+{w:2,s:"pred",t:"mc",q:"Which bones make up the proximal row of carpals (lateral to medial)?",o:["Scaphoid, lunate, triquetrum, pisiform","Trapezium, trapezoid, capitate, hamate","Scaphoid, trapezium, capitate, hamate","Lunate, triquetrum, capitate, hamate"],a:0,why:"'She Looks Too Pretty' (proximal), 'Try To Catch Her' (distal)."},
+{w:2,s:"pred",t:"mc",q:"Which carpal bone has a hook?",o:["Hamate","Scaphoid","Lunate","Pisiform"],a:0,why:"Hook of hamate, on the distal row."},
+{w:2,s:"pred",t:"mc",q:"How many tarsal bones are in each foot?",o:["7","8","5","14"],a:0,why:"Calcaneus, talus, navicular, cuboid, 3 cuneiforms (medial, intermediate, lateral)."},
+{w:2,s:"pred",t:"fill",q:"The ankle bone that articulates with the tibia and fibula is the ________.",a:["talus"],why:"Talus sits on the calcaneus and under the tibia/fibula 'mortise'."},
+{w:2,s:"pred",t:"mc",q:"The rotator cuff muscles (SITS) are:",o:["supraspinatus, infraspinatus, teres minor, subscapularis","supraspinatus, infraspinatus, teres major, serratus","subclavius, iliacus, trapezius, sartorius","supinator, infraspinatus, triceps, subscapularis"],a:0,why:"All four attach scapula → humeral tubercles and stabilise the shoulder."},
+{w:2,s:"pred",t:"fill",q:"The bicipital groove of the humerus is also called the ________ sulcus.",a:["intertubercular"],why:"Between the greater and lesser tubercles; the long head of biceps runs in it."},
+{w:2,s:"pred",t:"mc",q:"The capitulum of the humerus articulates with the:",o:["head of the radius","trochlear notch of the ulna","coronoid process","olecranon"],a:0,why:"Capitulum → radius (lateral); trochlea → ulna (medial)."},
+{w:2,s:"pred",t:"mc",q:"The olecranon process is part of the:",o:["ulna","radius","humerus","scapula"],a:0,why:"Olecranon (posterior) and coronoid (anterior) processes of the ulna grip the trochlea; the olecranon fits the olecranon fossa in extension."},
+{w:2,s:"pred",t:"mc",q:"The head of the radius articulates with the ________ of the ulna.",o:["radial notch","trochlear notch","coronoid process","styloid process"],a:0,why:"Proximal radioulnar joint: head of radius + radial notch of ulna."},
+{w:2,s:"pred",t:"mc",q:"Which forearm bone is lateral in the anatomical position?",o:["Radius","Ulna","Humerus","Fibula"],a:0,why:"Radius is on the thumb side; ulna medial (little finger side)."},
+{w:2,s:"pred",t:"mc",q:"The surgical neck of the humerus is:",o:["distal to the tubercles, a common fracture site","the constriction immediately below the head","the region of the deltoid tuberosity","proximal to the epicondyles"],a:0,why:"Anatomical neck = just below the head; surgical neck = below the tubercles, where fractures commonly occur."},
+{w:2,s:"pred",t:"mc",q:"Which is the weight-bearing bone of the leg?",o:["Tibia","Fibula","Patella","Talus"],a:0,why:"Tibia (shin bone), medial, larger. Fibula is lateral, stabilises the ankle."},
+{w:2,s:"pred",t:"mc",q:"The three bones forming the knee joint are:",o:["femur, tibia, patella","femur, tibia, fibula","tibia, fibula, patella","femur, fibula, patella"],a:0,why:"The fibula does not take part in the knee joint (it joins the tibia at the superior tibiofibular joint)."},
+{w:2,s:"pred",t:"mc",q:"The fovea on the head of the femur is the attachment of the:",o:["ligamentum teres","patellar ligament","interosseous membrane","iliofemoral ligament"],a:0,why:"Ligamentum teres runs from the acetabular notch to the fovea capitis."},
+{w:2,s:"pred",t:"mc",q:"The hip bone is formed by fusion of:",o:["ilium, ischium, pubis","ilium, sacrum, coccyx","ischium, pubis, femur","ilium, ischium, sacrum"],a:0,why:"All three meet at the acetabulum."},
+{w:2,s:"pred",t:"fill",q:"The bony point you sit on is the ischial ________.",a:["tuberosity"],why:"Ischial tuberosity; ASIS and AIIS are the anterior iliac spines."},
+{w:2,s:"pred",t:"mc",q:"Flat bones of the skull and the mandible form by:",o:["intramembranous ossification","endochondral ossification","appositional growth only","fracture repair"],a:0,why:"Directly from mesenchyme. Long bones use a cartilage model (endochondral)."},
+{w:2,s:"pred",t:"mc",q:"Bone grows in length at the:",o:["epiphyseal plate","periosteum","medullary cavity","articular cartilage"],a:0,why:"Zones: resting → proliferating → hypertrophic → calcified cartilage replaced by bone."},
+{w:2,s:"pred",t:"mc",q:"The correct order of the zones of the epiphyseal plate from the epiphysis is:",o:["resting, proliferating, hypertrophic, calcified","proliferating, resting, calcified, hypertrophic","calcified, hypertrophic, proliferating, resting","hypertrophic, resting, proliferating, calcified"],a:0,why:"Resting cartilage nearest the epiphysis; calcified cartilage nearest the diaphysis."},
+{w:2,s:"pred",t:"mc",q:"During fracture repair, the fibrocartilaginous callus is replaced by:",o:["a bony callus","a fracture haematoma","periosteum","articular cartilage"],a:0,why:"Reactive (haematoma) → reparative (soft callus → bony callus) → remodeling."},
+{w:2,s:"pred",t:"mc",q:"A fracture of the distal radius is called a:",o:["Colles fracture","Pott fracture","greenstick fracture","impacted fracture"],a:0,why:"Colles = distal radius (wrist). Pott = ankle (fibula ± tibia)."},
+{w:2,s:"pred",t:"mc",q:"A fracture in which the bone is broken into several pieces is:",o:["comminuted","greenstick","impacted","open"],a:0,why:"Comminuted = fragmented; impacted = ends driven into each other; open = through skin."},
+{w:2,s:"pred",t:"mc",q:"Which hormone raises blood calcium by increasing bone resorption?",o:["Parathyroid hormone","Calcitonin","Insulin","Aldosterone"],a:0,why:"PTH ↑ resorption, ↓ renal Ca loss. Calcitonin does the opposite (↓ osteoclast activity)."},
+{w:2,s:"pred",t:"mc",q:"Osteoporosis is characterised by:",o:["bone resorption exceeding bone formation","bone formation exceeding resorption","excess calcitonin","thickened cortical bone"],a:0,why:"Porous bone, more common in women, ↑ fracture risk."},
+{w:2,s:"pred",t:"mc",q:"The attachment of a skeletal muscle to the movable bone is its:",o:["insertion","origin","belly","tendon"],a:0,why:"Origin = stationary bone; insertion = bone that moves."},
+{w:2,s:"pred",t:"mc",q:"In the body's lever system, the joint acts as the:",o:["fulcrum","lever","effort","load"],a:0,why:"Bone = lever; joint = fulcrum; muscle contraction = effort."},
+{w:2,s:"pred",t:"mc",q:"Moving a limb away from the midline of the body is:",o:["abduction","adduction","flexion","circumduction"],a:0,why:"Ab- = away; ad- = toward. Circumduction = cone-shaped movement."},
+{w:2,s:"pred",t:"mc",q:"Turning the palm to face posteriorly is:",o:["pronation","supination","protraction","lateral rotation"],a:0,why:"Supination = palm forward (anatomical position); pronation = palm back."},
+{w:2,s:"pred",t:"mc",q:"Protraction and retraction are special movements seen at the:",o:["temporomandibular joint","elbow joint","hip joint","knee joint"],a:0,why:"Jaw (and scapula) can be pushed forward/backward."},
+{w:2,s:"pred",t:"mc",q:"Bones of the limbs develop from which germ layer?",o:["Mesoderm","Ectoderm","Endoderm","Neural crest"],a:0,why:"Limb buds appear weeks 4–8, then endochondral ossification."},
+{w:2,s:"pred",t:"mc",q:"Using the Rule of Nines in an adult, the anterior trunk represents:",o:["18%","9%","36%","4.5%"],a:0,why:"Head 9, each arm 9, anterior trunk 18, posterior trunk 18, each leg 18, perineum 1."},
+{w:2,s:"pred",t:"mc",q:"Which of the following is a function of the muscular system but NOT the skeletal system?",o:["Heat production","Protection","Blood formation","Mineral storage"],a:0,why:"Muscle: movement, stability, control of openings, heat, glucose regulation."},
+
+// ===== WEEK 3 PREDICTED =====
+{w:3,s:"pred",t:"mc",q:"The upper respiratory tract extends from the:",o:["nostrils to the larynx","nostrils to the trachea","nose to the bronchi","pharynx to the alveoli"],a:0,why:"URT: nostrils → larynx. LRT: trachea → lungs."},
+{w:3,s:"pred",t:"mc",q:"How many cartilages make up the larynx?",o:["9","6","3","12"],a:0,why:"Thyroid 1, cricoid 1, epiglottis 1, arytenoid 2, corniculate 2, cuneiform 2."},
+{w:3,s:"pred",t:"fill",q:"The largest laryngeal cartilage, whose anterior peak forms the Adam's apple, is the ________ cartilage.",a:["thyroid"],why:"Cricoid is the complete ring below it."},
+{w:3,s:"pred",t:"mc",q:"The trachea is kept open by:",o:["16–20 C-shaped rings of hyaline cartilage","complete rings of elastic cartilage","smooth muscle only","fibrocartilage plates"],a:0,why:"The open part of the C faces posteriorly so the oesophagus can expand."},
+{w:3,s:"pred",t:"mc",q:"The trachea bifurcates into the main bronchi at the level of:",o:["T4/T5","C6","T2","T8"],a:0,why:"At the sternal angle level; the ridge is the carina."},
+{w:3,s:"pred",t:"mc",q:"In airway generation numbering, the trachea is generation:",o:["0","1","2","23"],a:0,why:"Main bronchi = 1; alveolar sacs = 23."},
+{w:3,s:"pred",t:"mc",q:"Which alveolar cell secretes surfactant?",o:["Type II (great) alveolar cell","Type I (squamous) alveolar cell","Alveolar macrophage","Endothelial cell"],a:0,why:"Type II also repairs the epithelium. Type I does gas exchange. Macrophages engulf particles."},
+{w:3,s:"pred",t:"mc",q:"The right lung has:",o:["3 lobes and 2 fissures","2 lobes and 1 fissure","3 lobes and 1 fissure","2 lobes and 2 fissures"],a:0,why:"Right: superior, middle, inferior lobes; oblique + horizontal fissures. Left: 2 lobes, 1 fissure, cardiac notch."},
+{w:3,s:"pred",t:"fill",q:"The indentation on the left lung that accommodates the heart is the cardiac ________.",a:["notch"],why:"Cardiac notch on the anterior border of the left lung."},
+{w:3,s:"pred",t:"mc",q:"Structures enter and leave each lung at the:",o:["hilum","apex","base","carina"],a:0,why:"Hilum = root: main bronchus, pulmonary artery/veins, lymphatics, nerves."},
+{w:3,s:"pred",t:"mc",q:"The pleural layer that directly covers the lung surface is the:",o:["visceral pleura","parietal pleura","fibrous pleura","mediastinal pleura"],a:0,why:"Visceral = on the organ; parietal = lines the thoracic wall. Fluid between them."},
+{w:3,s:"pred",t:"mc",q:"At rest, intrapleural pressure is:",o:["always below atmospheric (about −4 mmHg)","equal to atmospheric","always above atmospheric","zero during inspiration only"],a:0,why:"Lung recoil pulls inward, chest wall recoils outward; the sealed space develops negative pressure (Boyle)."},
+{w:3,s:"pred",t:"mc",q:"During quiet inspiration the diaphragm:",o:["contracts and moves downward, increasing thoracic volume","relaxes and moves upward","contracts and moves upward","does not move"],a:0,why:"Volume ↑ → alveolar pressure ↓ to ~758 mmHg → air flows in."},
+{w:3,s:"pred",t:"mc",q:"P₁V₁ = P₂V₂ is:",o:["Boyle's law","Dalton's law","Henry's law","Charles's law"],a:0,why:"Dalton: partial pressures add. Henry: dissolved gas ∝ partial pressure × solubility."},
+{w:3,s:"pred",t:"mc",q:"The volume of air moved in or out of the lungs in a single quiet breath is the:",o:["tidal volume (~0.5 L)","vital capacity","residual volume","inspiratory reserve volume"],a:0,why:"TV ≈ 500 mL. Vital capacity = max in one cycle. Residual volume can never be expelled."},
+{w:3,s:"pred",t:"mc",q:"The air remaining in the lungs after a quiet expiration is the:",o:["functional residual capacity","residual volume","expiratory reserve volume","tidal volume"],a:0,why:"FRC = ERV + RV. RV alone is what remains after a maximal expiration."},
+{w:3,s:"pred",t:"mc",q:"Surfactant:",o:["reduces alveolar surface tension","increases airway resistance","is made by Type I cells","increases lung compliance work"],a:0,why:"Lowers surface tension so alveoli don't collapse and are easier to inflate."},
+{w:3,s:"pred",t:"mc",q:"The exchange of O₂ and CO₂ between systemic blood and body tissues is:",o:["internal respiration","external respiration","pulmonary ventilation","cellular respiration"],a:0,why:"External = lung/blood; internal = blood/tissue; ventilation = air movement."},
+{w:3,s:"pred",t:"mc",q:"Most oxygen in blood is carried:",o:["bound to haemoglobin (>98%)","dissolved in plasma","as bicarbonate","as carbaminohaemoglobin"],a:0,why:"Each Hb has 4 haem groups with Fe, carrying 4 O₂."},
+{w:3,s:"pred",t:"mc",q:"Most carbon dioxide in blood is transported as:",o:["bicarbonate ions (~70%)","carbaminohaemoglobin (~23%)","dissolved CO₂ (~7%)","carbonic anhydrase"],a:0,why:"70% HCO₃⁻, 23% on Hb, 7% dissolved."},
+{w:3,s:"pred",t:"fill",q:"The enzyme in red blood cells that converts CO₂ and water to carbonic acid is carbonic ________.",a:["anhydrase"],why:"Carbonic anhydrase; HCO₃⁻ leaves the cell and Cl⁻ enters (chloride shift)."},
+{w:3,s:"pred",t:"mc",q:"The Bohr effect describes the O₂–Hb curve shifting to the right when:",o:["CO₂ and H⁺ increase","pH increases","temperature falls","PO₂ rises"],a:0,why:"Right shift = Hb unloads O₂ more readily in active tissue. BPG also shifts it right."},
+{w:3,s:"pred",t:"mc",q:"Central chemoreceptors are located in the ________ and respond to ________.",o:["medulla oblongata; pH of CSF","carotid bodies; arterial O₂","aortic arch; arterial CO₂","pons; lung stretch"],a:0,why:"Peripheral chemoreceptors (carotid bodies, aortic arch) sense arterial O₂, CO₂, pH."},
+{w:3,s:"pred",t:"mc",q:"Peripheral chemoreceptors signal the medulla via cranial nerves:",o:["IX and X","VII and X","V and IX","III and X"],a:0,why:"Glossopharyngeal (IX) from carotid bodies, vagus (X) from aortic bodies."},
+{w:3,s:"pred",t:"mc",q:"The pneumotaxic centre in the pons:",o:["inhibits the apneustic centre to shorten inspiration","stimulates the diaphragm directly","senses CSF pH","triggers coughing"],a:0,why:"Limits inspiration and speeds the rhythm; DRG/VRG are in the medulla."},
+{w:3,s:"pred",t:"fill",q:"Motor commands to the diaphragm travel in the ________ nerve.",a:["phrenic"],why:"Phrenic nerve (C3–C5). Intercostal muscles via spinal (intercostal) nerves."},
+{w:3,s:"pred",t:"mc",q:"Pulmonary stretch receptors prevent over-inflation by inhibitory signals through cranial nerve:",o:["X (vagus)","IX","VII","V"],a:0,why:"Hering–Breuer reflex via the vagus to the DRG."},
+{w:3,s:"pred",t:"mc",q:"The respiratory system helps regulate blood pressure by producing:",o:["angiotensin II","renin","aldosterone","ADH"],a:0,why:"ACE in the pulmonary capillaries converts angiotensin I → II."},
+{w:3,s:"pred",t:"mc",q:"Adult number of alveoli is reached at about age:",o:["8–10 years","birth","6 months","20 years"],a:0,why:"Lung buds week 4; fetal breathing ~11 weeks; alveoli form after 6 months of gestation; ~300 million in the adult."},
+{w:3,s:"pred",t:"mc",q:"Which muscle contracts to bring the vocal cords together (adduction) for sound?",o:["Lateral cricoarytenoid","Posterior cricoarytenoid","Diaphragm","Sternocleidomastoid"],a:0,why:"Posterior cricoarytenoid abducts (opens) for breathing."},
+{w:3,s:"pred",t:"mc",q:"Blood arriving at the alveolar capillaries comes from the:",o:["pulmonary artery","pulmonary vein","bronchial vein","aorta"],a:0,why:"Pulmonary arteries bring deoxygenated blood to the alveoli; bronchial arteries bring oxygenated blood to lung tissue."},
+
+// ===== WEEK 4 SELF-ASSESSMENT =====
+{w:4,s:"quiz",t:"fill",q:"________ receptors are the sensory receptors that help keep the lung from overexpanding.",a:["stretch"],why:"Pulmonary stretch receptors in bronchial smooth muscle and visceral pleura signal via CN X to the DRG (Hering–Breuer reflex)."},
+{w:4,s:"quiz",t:"mc",q:"The thymus gland of a neonate is located in the __________ mediastinum.",o:["anterior and superior","anterior and middle","middle and posterior","superior and inferior"],a:0,why:"The thymus lies behind the manubrium in the superior mediastinum and extends down into the anterior mediastinum."},
+{w:4,s:"quiz",t:"fill",q:"The right lung is made up of _______ lobes, and the left lung is made up of two lobes.",a:["three","3"],why:"Right: superior, middle, inferior (oblique + horizontal fissures). Left: superior, inferior (oblique fissure), with the cardiac notch."},
+{w:4,s:"quiz",t:"fill",q:"The left coronary artery gives rise to the anterior _______ artery that runs towards the apical notch of the heart.",a:["interventricular","descending"],why:"Anterior interventricular branch = left anterior descending (LAD), in the anterior interventricular sulcus. Slide wording: 'Anterior interventricular branch'."},
+{w:4,s:"quiz",t:"mc",q:"The ________ is the first branch arising from the arch of the aorta.",o:["brachiocephalic trunk","left coronary artery","left common carotid artery","left subclavian artery"],a:0,why:"Arch branches in order: brachiocephalic trunk, left common carotid, left subclavian. (Coronary arteries arise from the ascending aorta, not the arch.)"},
+{w:4,s:"quiz",t:"fill",q:"________ are the sensory receptors that help modify respiratory rates by detecting the amount of carbon dioxide, oxygen, or acid levels in the blood.",a:["chemoreceptors","chemoreceptor"],why:"Peripheral chemoreceptors (carotid bodies, aortic arch) sense arterial O2, CO2, pH; central ones in the medulla sense CSF pH."},
+{w:4,s:"quiz",t:"fill",q:"The ____________________ nerve innervates the muscle fibers of the diaphragm.",a:["phrenic"],why:"Phrenic nerve, C3–C5."},
+{w:4,s:"quiz",t:"mc",q:"The superior vena cava mainly drains venous blood from the __________.",o:["upper limbs","lower limbs","abdomen","pelvis"],a:0,why:"SVC: head, neck, upper limbs and thorax. IVC: everything below the diaphragm."},
+{w:4,s:"quiz",t:"mc",q:"The _________ form/s the superior border of the heart.",o:["ascending aorta and pulmonary trunk","right atrium","right ventricle and left ventricle","left ventricle"],a:0,why:"The great vessels leave from the superior border. The other options are the other borders: right atrium = right border, left ventricle = left border, RV + LV = inferior border."},
+{w:4,s:"quiz",t:"mc",q:"The __________ is NOT located in the superior mediastinum.",o:["descending aorta","trachea","aortic arch","oesophagus"],a:0,why:"The descending (thoracic) aorta lies in the posterior mediastinum. Arch, trachea and oesophagus all pass through the superior mediastinum."},
+{w:4,s:"quiz",t:"fill",q:"The central control centers of respiration is located in the pons and ______.",a:["medulla oblongata","medulla"],why:"Medulla oblongata (DRG, VRG); pons (pneumotaxic, apneustic centres)."},
+{w:4,s:"quiz",t:"mc",q:"The space in between the pulmonary chambers is known as the ___________.",o:["mediastinum","thoracic cavity","pleural cavity","abdominal cavity"],a:0,why:"The mediastinum is the central compartment between the two pleural cavities."},
+{w:4,s:"quiz",t:"fill",q:"The arch of the aorta is located in the ______________________ mediastinum of the thorax.",a:["superior"],why:"Superior mediastinum (above the sternal angle / T4-5 plane). Ascending aorta = middle; descending = posterior."},
+{w:4,s:"quiz",t:"mc",q:"Oxygenated blood is supplied to the lung tissue via the _________.",o:["bronchial artery","pulmonary artery","pulmonary vein","brachial artery"],a:0,why:"Bronchial arteries (from the aorta) feed the lung tissue; pulmonary arteries bring deoxygenated blood for gas exchange."},
+{w:4,s:"quiz",t:"mc",q:"The inferior surface of the heart is supported by the _________.",o:["central tendon of the diaphragm","base of the right lung","base of the left lung","muscle origins of the diaphragm"],a:0,why:"The diaphragmatic (inferior) surface of the heart rests on the central tendon of the diaphragm."},
+
+// ===== WEEK 5 PREDICTED (pathology) =====
+{w:5,s:"pred",t:"mc",q:"COPD is characterised by which two conditions?",o:["Emphysema and chronic bronchitis","Asthma and pneumonia","Tuberculosis and lung cancer","Pneumothorax and atelectasis"],a:0,why:"Chronic Obstructive Pulmonary Disease = emphysema + chronic bronchitis, usually from smoking or inhaled irritants."},
+{w:5,s:"pred",t:"mc",q:"Emphysema is defined as irreversible enlargement of airspaces distal to the:",o:["terminal bronchiole","trachea","main bronchus","larynx"],a:0,why:"Plus destruction of their walls without obvious fibrosis. Centriacinar vs panacinar by location."},
+{w:5,s:"pred",t:"mc",q:"In emphysema, loss of elastic recoil causes:",o:["↑ total lung capacity, ↑ residual volume, ↓ FEV1","↓ total lung capacity, ↓ residual volume","↑ FEV1","↓ residual volume only"],a:0,why:"Air trapping raises TLC and RV; airways collapse on forced expiration so FEV1 falls."},
+{w:5,s:"pred",t:"fill",q:"The genetic deficiency associated with emphysema is alpha-1 ________ deficiency.",a:["antitrypsin"],why:"Alpha-1 antitrypsin normally protects alveolar walls from protease damage."},
+{w:5,s:"pred",t:"mc",q:"'Pink puffer' with pursed-lip breathing, barrel chest and weight loss describes:",o:["emphysema","chronic bronchitis","asthma","pneumonia"],a:0,why:"Chronic bronchitis is the 'blue bloater' (cyanosis from CO2 retention)."},
+{w:5,s:"pred",t:"mc",q:"Chest X-ray in emphysema shows:",o:["hyperinflated elongated lungs with flattened hemidiaphragms","a collapsed lung with mediastinal shift","lobar consolidation","apical cavitation"],a:0,why:"Hyperinflation flattens the diaphragm; also increased interstitial markings."},
+{w:5,s:"pred",t:"mc",q:"Chronic bronchitis is defined as a productive cough for:",o:["> 3 months in > 2 consecutive years","> 1 month in 1 year","> 6 months in 1 year","> 2 weeks"],a:0,why:"Definition on the slide; with hypertrophy of bronchial mucous glands."},
+{w:5,s:"pred",t:"mc",q:"Cyanosis in chronic bronchitis ('blue bloater') is due to:",o:["mucus plugs trapping CO2 (↑ PCO2, ↓ PO2)","loss of elastic recoil","pleural air","coronary occlusion"],a:0,why:"Mucus obstruction impairs gas exchange."},
+{w:5,s:"pred",t:"mc",q:"Which feature distinguishes asthma from COPD?",o:["The bronchoconstriction is reversible","It is caused by smoking","It shows a barrel chest","It has a Ghon complex"],a:0,why:"Asthma: chronic inflammatory disease with REVERSIBLE bronchoconstriction, mucus hypersecretion and hyper-responsiveness."},
+{w:5,s:"pred",t:"mc",q:"In the asthma cascade, IL-4 from the Th2 cell stimulates B cells to produce:",o:["IgE","IgG","IgA","histamine"],a:0,why:"IgE binds Fc receptors on mast cells (triggering phase); IL-5 + eotaxin recruit eosinophils."},
+{w:5,s:"pred",t:"mc",q:"The immediate phase (minutes) of an asthma attack is caused by:",o:["mast cell degranulation","eosinophil infiltration","IgE synthesis","fibrosis"],a:0,why:"Antigen cross-linking degranulates mast cells → oedema, smooth-muscle contraction; vagal reflex amplifies it. The late phase (hours) is leukocyte infiltration."},
+{w:5,s:"pred",t:"mc",q:"Which drug class is a pharmacological trigger of asthma on the slide?",o:["Aspirin / NSAIDs and beta-blockers","Antibiotics","Antacids","Vitamins"],a:0,why:"Other triggers: allergens, viral URTI, cold/dry air, smoke, exercise, stress."},
+{w:5,s:"pred",t:"fill",q:"A bronchial-tree mucus cast coughed up during a severe, life-threatening asthma attack is a sign of status ________.",a:["asthmaticus"],why:"Status asthmaticus; asthma cough produces spiral-shaped mucus plugs."},
+{w:5,s:"pred",t:"mc",q:"Spontaneous pneumothorax is typically caused by:",o:["rupture of an emphysematous bleb","a penetrating chest wall injury","pneumonia","tuberculosis"],a:0,why:"Traumatic pneumothorax = penetrating injury. Both lead to atelectasis and mediastinal shift; chest tube re-expands the lung."},
+{w:5,s:"pred",t:"fill",q:"Partial or total collapse of a lung or lobe is called ________.",a:["atelectasis"],why:"Consequence of pneumothorax (air in the pleural space)."},
+{w:5,s:"pred",t:"mc",q:"Which is NOT a classification of pneumonia on the slide?",o:["Miliary","Lobar","Bronchopneumonia","Interstitial"],a:0,why:"Miliary describes disseminated TB. Pneumonia is diagnosed by chest X-ray, sputum Gram stain/culture and blood culture."},
+{w:5,s:"pred",t:"fill",q:"Primary tuberculosis produces caseating necrosis that fibroses and calcifies to form the ________ complex.",a:["ghon"],why:"Ghon complex = lung lesion + hilar lymph node."},
+{w:5,s:"pred",t:"mc",q:"Secondary (reactivation) tuberculosis occurs at the apex of the lung because of:",o:["poor lymphatic drainage and high oxygen tension","good blood supply","low oxygen tension","proximity to the diaphragm"],a:0,why:"Can progress to miliary or extrapulmonary TB."},
+{w:5,s:"pred",t:"mc",q:"The most common type of lung cancer on the slide is:",o:["adenocarcinoma (50%)","squamous cell carcinoma (20%)","small cell carcinoma (15%)","large cell carcinoma (2%)"],a:0,why:"85% of lung cancer patients are smokers; asbestos and silica add risk. TNM = Tumour, Node, Metastasis."},
+{w:5,s:"pred",t:"mc",q:"Which is a LEFT-to-right shunt?",o:["Patent ductus arteriosus","Tetralogy of Fallot","Dextro-transposition of the great arteries","Pneumothorax"],a:0,why:"ASD, VSD and PDA are left-to-right (→ pulmonary hypertension). Tetralogy and transposition are right-to-left (→ cyanosis)."},
+{w:5,s:"pred",t:"mc",q:"Which is NOT one of the four features of Tetralogy of Fallot?",o:["Atrial septal defect","Right ventricular outflow stenosis","Right ventricular hypertrophy","Overriding aorta"],a:0,why:"The four: RV outflow stenosis, RV hypertrophy, VSD, aorta overriding the VSD."},
+{w:5,s:"pred",t:"mc",q:"Right-to-left shunts cause:",o:["cyanosis","pulmonary hypertension only","no symptoms","bradycardia"],a:0,why:"Deoxygenated blood bypasses the lungs into the systemic circulation."},
+{w:5,s:"pred",t:"mc",q:"In atherosclerosis, macrophages that engulf oxidised LDL become:",o:["foam cells","goblet cells","osteoclasts","chondrocytes"],a:0,why:"Foam cells + T cells release cytokines → smooth-muscle migration from the media → fibrous cap over a necrotic lipid core."},
+{w:5,s:"pred",t:"mc",q:"An atherosclerotic plaque forms in which layer of the artery wall?",o:["Tunica intima","Tunica media","Tunica externa","Vasa vasorum"],a:0,why:"Intimal plaque; smooth-muscle cells migrate in from the media across the internal elastic membrane."},
+{w:5,s:"pred",t:"mc",q:"Which is NOT a risk factor for atherosclerosis listed on the slide?",o:["Female sex","Hypertension","Hypercholesterolaemia","Age"],a:0,why:"Male > female."},
+{w:5,s:"pred",t:"fill",q:"A localised abnormal dilation of the aorta due to wall weakness is an aortic ________.",a:["aneurysm"],why:"Classified thoracic, abdominal or thoracoabdominal."},
+{w:5,s:"pred",t:"mc",q:"The major cause of ischaemic heart disease is:",o:["atherosclerosis of the coronary arteries","viral infection","valve stenosis","pulmonary hypertension"],a:0,why:"Leads to angina pectoris (chest pain) and myocardial infarction (myocyte necrosis)."},
+{w:5,s:"pred",t:"mc",q:"A circumferential subendocardial infarct of the whole left ventricle is caused by:",o:["global hypotension (e.g. severe shock)","permanent occlusion of the LAD","occlusion of a tiny intramural branch","reperfusion of a single artery"],a:0,why:"Regional subendocardial = transient/partial single-artery obstruction or reperfusion; microinfarcts = small intramural vessels; transmural = permanent occlusion of one branch."},
+{w:5,s:"pred",t:"mc",q:"Tachycardia is defined as a heart rate:",o:["> 100 bpm","< 60 bpm","> 75 bpm","> 150 bpm"],a:0,why:"Bradycardia < 60 bpm."},
+{w:5,s:"pred",t:"mc",q:"Heart block is an excessive delay at the:",o:["AV node or bundle of His","SA node","Purkinje fibres","aortic valve"],a:0,why:"First degree, second degree or complete (total) block; seen as a long or dropped P–R on the ECG."},
+{w:5,s:"pred",t:"mc",q:"Atrial fibrillation (atrial rate 300–600/min) is a leading risk factor for:",o:["ischaemic stroke","pneumonia","emphysema","varicose veins"],a:0,why:"Stagnant atrial blood clots and embolises to the brain."},
+{w:5,s:"pred",t:"mc",q:"Ventricular fibrillation is:",o:["a medical emergency equivalent to cardiac arrest","a benign finding","the same as tachycardia","a slow rhythm"],a:0,why:"Ventricles quiver chaotically with no coordinated contraction; the patient loses consciousness within seconds."},
+{w:5,s:"pred",t:"mc",q:"Left-sided heart failure leads to:",o:["pulmonary oedema","distended neck veins and leg oedema","cyanotic shunt","pneumothorax"],a:0,why:"Blood backs up into the lungs. Right-sided failure backs up into the systemic veins (neck veins, liver, legs, ascites)."},
+{w:5,s:"pred",t:"mc",q:"In heart failure, reduced blood flow to the kidney activates:",o:["the renin-angiotensin system, causing fluid retention","atrial natriuretic peptide","the vagus nerve","calcitonin"],a:0,why:"RAAS → aldosterone → salt/water retention, which worsens the oedema."},
+{w:5,s:"pred",t:"mc",q:"Right-sided heart failure on the slide is caused by:",o:["left-to-right shunt and chronic lung disease","hypertension and MI","varicose veins","asthma"],a:0,why:"Left-sided: ischaemia, MI, hypertension."},
+{w:5,s:"pred",t:"mc",q:"Varicose veins result from:",o:["prolonged ↑ intraluminal pressure and weakened valves","arterial plaque","low blood pressure","heart block"],a:0,why:"Prolonged standing, obesity, pregnancy, DVT. Treatments: pressure stockings, less standing, sclerotherapy."},
+{w:5,s:"pred",t:"mc",q:"An ECG with an irregular rhythm and no P waves suggests:",o:["atrial fibrillation","AV node block","normal sinus rhythm","bradycardia"],a:0,why:"AV block shows a long/dropped P–R; VF shows a chaotic baseline with no QRS."},
+
+// ===== WEEK 4 PREDICTED =====
+{w:4,s:"pred",t:"mc",q:"Which structure lies in the POSTERIOR mediastinum?",o:["Descending aorta and oesophagus","Heart","Thymus","Ascending aorta"],a:0,why:"Heart, ascending aorta and pulmonary trunk = middle; thymus = superior/anterior; arch = superior."},
+{w:4,s:"pred",t:"mc",q:"The right border of the heart is formed by the:",o:["right atrium","right ventricle","left ventricle","pulmonary trunk"],a:0,why:"Left border = left ventricle; inferior border = right ventricle (+ LV apex); superior border = great vessels (ascending aorta, pulmonary trunk)."},
+{w:4,s:"pred",t:"mc",q:"The apex of the heart points:",o:["inferiorly to the left, at the 5th intercostal space","superiorly to the right","posteriorly at T4","inferiorly to the right"],a:0,why:"Point of maximal impulse (PMI); formed by the left ventricle."},
+{w:4,s:"pred",t:"mc",q:"The sternal angle marks the boundary between the:",o:["superior and inferior mediastinum","anterior and middle mediastinum","thoracic and abdominal cavities","two pleural cavities"],a:0,why:"Sternal angle ↔ T4/5 disc: also rib 2, tracheal bifurcation, start/end of the aortic arch."},
+{w:4,s:"pred",t:"mc",q:"The inferior vena cava returns blood from the:",o:["abdomen, pelvis and lower limbs","head and neck","upper limbs","lungs"],a:0,why:"SVC returns blood from above the diaphragm (except the heart itself, which uses the coronary sinus)."},
+{w:4,s:"pred",t:"mc",q:"The heart lies in the:",o:["middle mediastinum","posterior mediastinum","superior mediastinum","pleural cavity"],a:0,why:"Oesophagus and descending aorta are in the posterior mediastinum."},
+{w:4,s:"pred",t:"mc",q:"The layer of serous pericardium that directly covers the heart is the:",o:["visceral pericardium (epicardium)","parietal pericardium","fibrous pericardium","endocardium"],a:0,why:"Fibrous → parietal serous → pericardial cavity → visceral serous = epicardium."},
+{w:4,s:"pred",t:"mc",q:"The right atrioventricular valve is the:",o:["tricuspid valve","bicuspid (mitral) valve","pulmonary valve","aortic valve"],a:0,why:"Right = tricuspid; left = bicuspid/mitral. Semilunar = pulmonary, aortic."},
+{w:4,s:"pred",t:"fill",q:"The left atrioventricular valve is also called the bicuspid or ________ valve.",a:["mitral"],why:"Named after the bishop's mitre."},
+{w:4,s:"pred",t:"mc",q:"Chordae tendineae connect the AV valve cusps to the:",o:["papillary muscles","interventricular septum","fibrous skeleton","pectinate muscles"],a:0,why:"They prevent the cusps from everting into the atria during ventricular systole."},
+{w:4,s:"pred",t:"mc",q:"The first heart sound (S1, 'lub') is produced by:",o:["closure of the atrioventricular valves","closure of the semilunar valves","opening of the aortic valve","atrial contraction"],a:0,why:"S2 ('dub') = semilunar valves close. S3 = early diastolic filling; S4 = atrial kick into a stiff ventricle."},
+{w:4,s:"pred",t:"mc",q:"Which chamber has the thickest wall?",o:["Left ventricle","Right ventricle","Left atrium","Right atrium"],a:0,why:"It pumps against systemic pressure (~120 mmHg vs ~25 in the pulmonary circuit)."},
+{w:4,s:"pred",t:"mc",q:"Which vessel carries deoxygenated blood?",o:["Pulmonary artery","Pulmonary vein","Aorta","Bronchial artery"],a:0,why:"Pulmonary arteries carry venous blood to the lungs; 4 pulmonary veins carry oxygenated blood to the left atrium."},
+{w:4,s:"pred",t:"mc",q:"The pulmonary veins drain into the:",o:["left atrium","right atrium","left ventricle","coronary sinus"],a:0,why:"Four pulmonary veins → left atrium. Bronchial veins → right atrium."},
+{w:4,s:"pred",t:"mc",q:"Blood leaves the right ventricle through the:",o:["pulmonary valve into the pulmonary trunk","aortic valve into the aorta","tricuspid valve","mitral valve"],a:0,why:"RA → tricuspid → RV → pulmonary valve → pulmonary trunk → lungs."},
+{w:4,s:"pred",t:"mc",q:"The three branches of the aortic arch, in order, are:",o:["brachiocephalic, left common carotid, left subclavian","left subclavian, left common carotid, brachiocephalic","right common carotid, left common carotid, left subclavian","brachiocephalic, right subclavian, left subclavian"],a:0,why:"Brachiocephalic then splits into right common carotid and right subclavian."},
+{w:4,s:"pred",t:"mc",q:"The anterior interventricular (LAD) artery is a branch of the:",o:["left coronary artery","right coronary artery","circumflex artery","coronary sinus"],a:0,why:"LCA → LAD + circumflex (→ left marginal). RCA → right marginal + posterior interventricular."},
+{w:4,s:"pred",t:"mc",q:"The posterior interventricular branch usually arises from the:",o:["right coronary artery","left coronary artery","circumflex branch","great cardiac vein"],a:0,why:"RCA in most people (right-dominant)."},
+{w:4,s:"pred",t:"mc",q:"Venous blood from the heart wall drains mainly via the coronary sinus into the:",o:["right atrium","left atrium","superior vena cava","right ventricle"],a:0,why:"Great, middle, small and anterior cardiac veins → coronary sinus → right atrium."},
+{w:4,s:"pred",t:"fill",q:"The fetal opening between the right and left atria is the foramen ________.",a:["ovale"],why:"Foramen ovale (→ fossa ovalis). Ductus arteriosus links pulmonary trunk to aorta (→ ligamentum arteriosum)."},
+{w:4,s:"pred",t:"mc",q:"The ductus arteriosus connects the:",o:["pulmonary trunk and aorta","right and left atria","umbilical vein and IVC","SVC and pulmonary trunk"],a:0,why:"Lets RV blood bypass the fluid-filled lungs. Closes at the first breath."},
+{w:4,s:"pred",t:"mc",q:"Cardiac muscle cells are joined by:",o:["intercalated discs","neuromuscular junctions","sutures","perimysium"],a:0,why:"Gap junctions + desmosomes allow synchronised contraction. Cells are branched, single-nucleus, striated, involuntary."},
+{w:4,s:"pred",t:"mc",q:"The correct order of the conducting system is:",o:["SA node → AV node → bundle of His → bundle branches → Purkinje fibres","AV node → SA node → Purkinje fibres → bundle of His","SA node → bundle of His → AV node → Purkinje fibres","Purkinje fibres → bundle branches → AV node → SA node"],a:0,why:"SA node in the right atrium is the pacemaker."},
+{w:4,s:"pred",t:"fill",q:"The natural pacemaker of the heart is the ________ node.",a:["sinoatrial","sa","sino-atrial"],why:"Sinoatrial (SA) node, right atrial wall near the SVC."},
+{w:4,s:"pred",t:"mc",q:"In SA node cells, the slow depolarising 'pacemaker potential' is caused by:",o:["Na⁺ leaking in through 'funny' channels","rapid Ca²⁺ influx","K⁺ efflux","Cl⁻ influx"],a:0,why:"Then Ca²⁺ influx gives the spike and K⁺ efflux repolarises back to −60 mV."},
+{w:4,s:"pred",t:"mc",q:"If one pacemaker cycle takes 0.8 s, the resting heart rate is:",o:["75 bpm","60 bpm","80 bpm","100 bpm"],a:0,why:"60 s ÷ 0.8 s = 75 beats per minute."},
+{w:4,s:"pred",t:"mc",q:"The plateau phase of a ventricular contractile fibre's action potential is due to:",o:["Ca²⁺ inflow through slow channels balancing K⁺ outflow","Na⁺ inflow","Na⁺/K⁺ pump activity","Cl⁻ inflow"],a:0,why:"Keeps the fibre depolarised (~0.3 s) and gives the long refractory period."},
+{w:4,s:"pred",t:"mc",q:"On an ECG the P wave represents:",o:["atrial depolarisation","ventricular depolarisation","ventricular repolarisation","atrial repolarisation"],a:0,why:"QRS = ventricular depolarisation (atrial repolarisation hidden inside it); T = ventricular repolarisation."},
+{w:4,s:"pred",t:"mc",q:"The QRS complex represents:",o:["ventricular depolarisation","atrial depolarisation","ventricular repolarisation","the plateau phase"],a:0,why:"Atrial repolarisation is masked within the QRS."},
+{w:4,s:"pred",t:"mc",q:"The T wave represents:",o:["ventricular repolarisation","atrial repolarisation","ventricular depolarisation","SA node firing"],a:0,why:"ST segment = plateau; QT interval = whole ventricular depol + repol."},
+{w:4,s:"pred",t:"mc",q:"A normal P–R interval is about:",o:["0.16 s","0.8 s","0.04 s","0.5 s"],a:0,why:"Start of atrial depolarisation to start of ventricular depolarisation."},
+{w:4,s:"pred",t:"mc",q:"Heart rate is calculated directly from the:",o:["R–R interval","P–R interval","Q–T interval","S–T segment"],a:0,why:"Time between consecutive R peaks."},
+{w:4,s:"pred",t:"mc",q:"During isovolumetric ventricular contraction:",o:["all four valves are closed and ventricular volume is constant","the AV valves are open","the semilunar valves are open","blood enters the ventricles"],a:0,why:"Starts with AV valve closure (S1); pressure rises until it exceeds aortic pressure (~80 mmHg)."},
+{w:4,s:"pred",t:"mc",q:"The aortic valve opens when left ventricular pressure exceeds about:",o:["80 mmHg","120 mmHg","0 mmHg","40 mmHg"],a:0,why:"Diastolic aortic pressure ≈ 80; ejection then peaks at ~120 mmHg (systolic)."},
+{w:4,s:"pred",t:"mc",q:"The dicrotic notch on the aortic pressure curve marks:",o:["closure of the aortic valve","opening of the mitral valve","atrial systole","closure of the AV valves"],a:0,why:"Brief backflow snaps the aortic valve shut (S2)."},
+{w:4,s:"pred",t:"mc",q:"End-diastolic volume is the volume of blood in the ventricle:",o:["just before contraction (maximum)","just after contraction (minimum)","ejected per beat","ejected per minute"],a:0,why:"EDV max; ESV = leftover after ejection; SV = EDV − ESV."},
+{w:4,s:"pred",t:"mc",q:"Stroke volume equals:",o:["EDV − ESV","EDV + ESV","CO × HR","ESV ÷ EDV"],a:0,why:"Normal SV ≈ 70 mL."},
+{w:4,s:"pred",t:"mc",q:"With SV = 70 mL and HR = 72 bpm, cardiac output is about:",o:["5.0 L/min","0.5 L/min","50 L/min","1.0 L/min"],a:0,why:"CO = SV × HR = 70 × 72 = 5,040 mL/min."},
+{w:4,s:"pred",t:"fill",q:"CO = ________ × HR.",a:["sv","stroke volume"],why:"Cardiac output = stroke volume × heart rate."},
+{w:4,s:"pred",t:"mc",q:"Which of the following increases stroke volume?",o:["Increased venous return","Decreased EDV","Parasympathetic stimulation","Decreased contractility"],a:0,why:"More filling → stronger contraction (Frank–Starling). Adrenaline ↑ HR and contractility."},
+{w:4,s:"pred",t:"mc",q:"The cardiovascular centre is located in the:",o:["medulla oblongata","cerebral cortex","hypothalamus","pons"],a:0,why:"Same brainstem region as the respiratory DRG/VRG."},
+{w:4,s:"pred",t:"mc",q:"The innermost layer of a blood vessel wall is the:",o:["tunica intima","tunica media","tunica externa","endomysium"],a:0,why:"Intima (endothelium) → media (smooth muscle, elastic) → externa (connective tissue)."},
+{w:4,s:"pred",t:"mc",q:"Valves are found in:",o:["veins","arteries","arterioles","capillaries"],a:0,why:"Low-pressure veins need valves and the skeletal muscle pump to return blood."},
+{w:4,s:"pred",t:"mc",q:"Blood velocity is slowest in the:",o:["capillaries","aorta","arterioles","venae cavae"],a:0,why:"Total cross-sectional area is largest in the capillary bed, allowing exchange."},
+{w:4,s:"pred",t:"mc",q:"The steepest drop in blood pressure occurs in the:",o:["arterioles","capillaries","veins","aorta"],a:0,why:"Arterioles are the main resistance vessels."},
+{w:4,s:"pred",t:"mc",q:"Renin is secreted by:",o:["juxtaglomerular cells of the kidney","the adrenal cortex","the liver","the lungs"],a:0,why:"Trigger: low blood volume/pressure, sodium deficiency, blood loss."},
+{w:4,s:"pred",t:"mc",q:"Angiotensin I is converted to angiotensin II by ACE mainly in the:",o:["lungs","liver","kidneys","adrenal medulla"],a:0,why:"Angiotensinogen comes from the liver; ACE in pulmonary capillaries."},
+{w:4,s:"pred",t:"mc",q:"Angiotensin II raises blood pressure by vasoconstriction and by stimulating release of:",o:["aldosterone from the adrenal cortex","insulin from the pancreas","calcitonin from the thyroid","ANP from the atria"],a:0,why:"Aldosterone → Na⁺ and water reabsorption (K⁺, H⁺ excreted)."},
+{w:4,s:"pred",t:"mc",q:"Atrial natriuretic peptide:",o:["causes vasodilation and reduces blood volume","causes vasoconstriction","increases water retention","stimulates renin"],a:0,why:"Released by stretched atrial cells; increases salt and water loss in urine."},
+{w:4,s:"pred",t:"mc",q:"Epinephrine causes vasoconstriction in most beds EXCEPT:",o:["skeletal muscle","skin","gut","kidney"],a:0,why:"Fight-or-flight sends blood to muscle; it also ↑ HR and contractility."},
+{w:4,s:"pred",t:"mc",q:"Antidiuretic hormone (ADH):",o:["increases water retention and causes vasoconstriction","decreases blood volume","dilates arterioles","lowers blood pressure"],a:0,why:"Raises blood volume and pressure."},
+{w:4,s:"pred",t:"mc",q:"The 'lub' sound occurs at the start of:",o:["ventricular systole","ventricular diastole","atrial systole","rapid filling"],a:0,why:"AV valves close as the ventricles begin to contract."},
+
+// ===== ADDED 2026-10-23: NEW SELF-ASSESSMENT QUESTIONS (from weekXSelfAssessment.pdf; not previously in the bank) =====
+{w:3,s:"quiz",t:"fill",q:"The amount of air that is moved in and out of the lung during normal, quiet breathing is the ________ volume.",a:["tidal","tidal volume"],why:"Tidal volume ≈ 500 mL per quiet breath."},
+{w:3,s:"quiz",t:"fill",q:"The volume included in total lung capacity, but not vital capacity, is ________ volume.",a:["residual","residual volume"],why:"TLC = VC + residual volume. Residual volume (~1200 mL) can never be exhaled, so it is not part of vital capacity."},
+{w:4,s:"quiz",t:"fill",q:"The term _____ refers to the volume of blood ejected from the ventricle during each contraction.",a:["stroke volume","SV"],why:"Stroke volume = EDV − ESV ≈ 70 mL at rest."},
+{w:4,s:"quiz",t:"fill",q:"The ECG tracing that occurs when the ventricles are depolarizing is called the ______.",a:["QRS complex","QRS"],why:"P wave = atrial depolarisation; QRS = ventricular depolarisation (atrial repolarisation hidden inside it); T wave = ventricular repolarisation."},
+{w:4,s:"quiz",t:"fill",q:"The amount of blood that 1 ventricle can pump in 1 minute is called the ______.",a:["cardiac output","CO"],why:"CO = HR × SV ≈ 75 × 70 mL ≈ 5.25 L/min."},
+{w:4,s:"quiz",t:"fill",q:"The ___ is the pacemaker of the heart and begins the contraction of the atria.",a:["sinoatrial node","SA node","sinoatrial","sinuatrial node"],why:"SA node in the right atrial wall near the SVC opening; fastest intrinsic rate, so it sets the rhythm."},
+{w:6,s:"quiz",t:"fill",q:"The ________ layer of the wall of the gastrointestinal tract contains blood vessels, lymphatic vessels and the submucosal plexus.",a:["submucosa","submucosal"],why:"Layers inside → out: mucosa, submucosa (vessels + Meissner's plexus), muscularis (Auerbach's plexus), serosa."},
+{w:6,s:"quiz",t:"fill",q:"The part of the large intestine between the ascending and descending colon is the ________ colon.",a:["transverse","transverse colon"],why:"Caecum → ascending → (hepatic flexure) → transverse → (splenic flexure) → descending → sigmoid → rectum."},
+{w:6,s:"quiz",t:"fill",q:"The ________________ prevent food and liquids from entering the trachea when food is swallowed.",a:["epiglottis"],why:"Pharyngeal stage of deglutition: larynx rises, epiglottis folds over the glottis."},
+{w:6,s:"quiz",t:"fill",q:"The _______ ligament is a peritoneal fold on the anterior surface of the liver.",a:["falciform","falciform ligament"],why:"Falciform ligament attaches the liver to the anterior abdominal wall and diaphragm (slide 11)."},
+{w:6,s:"quiz",t:"fill",q:"The portal vein and the hepatic artery go into the liver via the _____.",a:["porta hepatis","liver hilum","hilum"],why:"Slide 39: porta hepatis (liver hilum); the common bile duct exits the same way. Not scored on Canvas (0/0) — your answer matched the slide."},
+{w:6,s:"quiz",t:"mc",q:"Food in stomach may remain in _____ before mixing with gastric juice.",o:["Fundus","Cardia","Body","Pylorus"],a:0,why:"Tortora: food may remain in the fundus for about an hour without mixing with gastric juice."},
+{w:6,s:"quiz",t:"mc",q:"The following viscera are intraperitoneal structures except the ________.",o:["pancreas","liver","stomach","jejunum and ileum"],a:0,why:"Pancreas (except the tail) is retroperitoneal; liver, stomach, jejunum and ileum are intraperitoneal."},
+{w:6,s:"quiz",t:"mc",q:"The pancreas secretes ________________ which neutralizes the hydrochloric acid in chyme.",o:["Sodium bicarbonate","Sodium hydroxide","Potassium chloride","Hydrogen peroxide"],a:0,why:"Pancreatic juice is alkaline (pH 7.1–8.2) because of sodium bicarbonate; secretin triggers it."},
+{w:6,s:"quiz",t:"mc",q:"Which of the following is absorbed by the small intestine via facilitated diffusion?",o:["Fructose","Amino acids","Short-chain fatty acid","Glucose"],a:0,why:"Fructose = facilitated diffusion; glucose/galactose = secondary active transport with Na+; amino acids = active transport; short-chain fatty acids = simple diffusion."},
+{w:6,s:"quiz",t:"mc",q:"Which of the following is NOT secreted by the stomach?",o:["Secretin","Gastrin","Hydrochloric acid","Pepsinogen"],a:0,why:"Secretin comes from S cells of the duodenum. Stomach: HCl + intrinsic factor (parietal), pepsinogen (chief), gastrin (G cells)."},
+{w:7,s:"quiz",t:"mc",q:"Which of the following forms part of the collecting system of the kidney?",o:["minor calyx","renal cortex","renal medulla","urethra"],a:0,why:"Path of urine drainage: papillary duct → renal papilla → minor calyx → major calyx → renal pelvis → ureter. Cortex/medulla are parenchyma; the urethra is outside the kidney."},
+{w:7,s:"quiz",t:"mc",q:"Increased capillary pressure:",o:["moves fluid from the plasma to the interstitial fluid","moves fluid from the intracellular compartment to the extracellular compartment","moves fluid from the interstitial fluid to the plasma","has no effect on fluid movement"],a:0,why:"Capillary hydrostatic pressure pushes fluid OUT of the plasma into the interstitium (same principle as glomerular blood hydrostatic pressure driving filtration)."},
+{w:7,s:"quiz",t:"mc",q:"Which of the following sense sodium and chloride ions levels in the tubuloglomerular feedback?",o:["Macula densa cells","juxtaglomerular cells","Principal cells","Intercalated cells"],a:0,why:"Macula densa (in the ascending limb/DCT wall) senses Na+/Cl−; juxtaglomerular cells release renin; principal cells respond to ADH/aldosterone; intercalated cells handle H+/HCO3−."},
+{w:7,s:"quiz",t:"mc",q:"Footlike processes of the podocytes are called ______.",o:["pedicels","microvilli","flagella","pseudopods"],a:0,why:"Pedicels (= little feet) wrap the glomerular capillaries; the gaps between them are filtration slits."},
+{w:7,s:"quiz",t:"mc",q:"The part of renal cortex that extends between renal pyramids is called a ______.",o:["renal column","renal papilla","renal sinus","renal lobe"],a:0,why:"Renal columns = cortex between pyramids. Papilla = apex of a pyramid; sinus = cavity at the hilum; lobe = pyramid + overlying cortex + half of each adjacent column."},
+{w:7,s:"quiz",t:"fill",q:"In the kidney, filtration of blood takes place at the renal ________.",a:["corpuscle","renal corpuscle","glomerulus"],why:"Renal corpuscle = glomerulus + glomerular (Bowman's) capsule. Slide answer: corpuscle."},
+{w:7,s:"quiz",t:"fill",q:"The ________________ is released from the posterior pituitary gland and reduces the amount of water lost in the urine.",a:["vasopressin","antidiuretic hormone","ADH"],why:"ADH = vasopressin: inserts aquaporin-2 into principal cells of the late DCT/collecting duct → more water reabsorbed, concentrated urine."},
+{w:7,s:"quiz",t:"fill",q:"The ____________ is the region where the renal artery & renal vein enter the kidney.",a:["hilum","renal hilum","hilus"],why:"Hilum: renal artery in, renal vein and ureter (renal pelvis) out, on the medial concave border."},
+{w:7,s:"quiz",t:"fill",q:"______ is the pair of fetal kidneys that develops into functional kidneys and remains in the newborn.",a:["metanephros","metanephroi"],why:"Pronephros → mesonephros → metanephros; only the metanephros persists as the permanent kidney (from the ureteric bud + metanephric mesoderm)."},
+{w:7,s:"quiz",t:"fill",q:"The microscopic functional unit of the kidney is called a ______.",a:["nephron"],why:"~1 million nephrons per kidney; 80–85 % cortical, 15–20 % juxtamedullary."},
+{w:8,s:"quiz",t:"mc",q:"The body of the uterus normally impresses on the ________ of the urinary bladder.",o:["superior surface","lateral surface","posterior surface","neck"],a:0,why:"The anteverted, anteflexed uterus rests on the superior surface of the bladder (vesicouterine pouch between them)."},
+{w:8,s:"quiz",t:"mc",q:"The ejaculatory duct empties into the _________.",o:["prostate gland","urinary bladder","penile urethra","glans penis"],a:0,why:"Ductus deferens + seminal vesicle duct → ejaculatory duct → passes through the prostate → prostatic urethra."},
+{w:8,s:"quiz",t:"mc",q:"The fimbriae of the uterine tube are in close proximity to the ________.",o:["ovary","fundus of uterus","labium minus","urinary bladder"],a:0,why:"Infundibulum with fimbriae drapes over the ovary to catch the ovulated oocyte; uterine tube: infundibulum → ampulla → isthmus."},
+{w:8,s:"quiz",t:"mc",q:"The following are contents of the spermatic cord except the _________.",o:["penile urethra","vas deferens","testicular artery","pampiniform plexus of vein"],a:0,why:"Spermatic cord = ductus (vas) deferens, testicular artery, pampiniform plexus, nerves, lymphatics, cremaster. The urethra is in the penis, never in the cord."},
+{w:8,s:"quiz",t:"fill",q:"In the male, the _________________ gland is located below the neck of the urinary bladder.",a:["prostate","prostate gland"],why:"Prostate surrounds the prostatic urethra just inferior to the bladder neck; bulbourethral glands lie lower, in the urogenital diaphragm."},
+{w:8,s:"quiz",t:"fill",q:"The uterus is composed of several regions: the narrow lower part below the body is called the ________.",a:["cervix"],why:"Fundus (dome above the tube openings) → body → isthmus → cervix (opens into the vagina)."},
+{w:8,s:"quiz",t:"fill",q:"________ means failed to produce offspring.",a:["infertility","infertile"],why:"Slide spelling: Infertility. (Sterility = total inability; infertility = failure to conceive after ~1 year.)"},
+{w:8,s:"quiz",t:"fill",q:"The ________ tubes connect the ovary and the uterus.",a:["uterine","uterine tubes","fallopian","fallopian tubes"],why:"Uterine (fallopian) tubes; ~10 cm; fertilisation normally in the ampulla."},
+];
+
+// ---------- helpers ----------
+const norm = s => (s||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
+const $ = sel => document.querySelector(sel);
+let order = Q.map((_,i)=>i);
+let state = {}; // idx -> {done:bool, right:bool}
+
+function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}return arr;}
+
+function filtered(){
+  const w=$("#fWeek").value, s=$("#fSrc").value;
+  return order.filter(i=>{
+    const q=Q[i];
+    if(w!=="all" && String(q.w)!==w) return false;
+    if(s==="quiz" && q.s!=="quiz") return false;
+    if(s==="pred" && q.s!=="pred") return false;
+    if(s==="missed" && !q.miss) return false;
+    return true;
+  });
+}
+function updateScore(){
+  const ids=filtered(); let done=0,right=0;
+  ids.forEach(i=>{const st=state[i]; if(st&&st.done){done++; if(st.right) right++;}});
+  $("#score").textContent = right+" / "+done+" answered · "+ids.length+" shown";
+}
+function render(){
+  const list=$("#qlist"); list.innerHTML="";
+  const ids=filtered();
+  if(!ids.length){list.innerHTML='<div class="card empty">No questions match this filter.</div>'; updateScore(); return;}
+  ids.forEach((i,n)=>{
+    const q=Q[i]; const st=state[i]||{};
+    const card=document.createElement("div"); card.className="card q";
+    const meta=document.createElement("div"); meta.className="meta";
+    meta.innerHTML='<span class="chip">Week '+q.w+'</span>'+
+      (q.s==="quiz"?'<span class="chip quiz">Self-assessment</span>':'<span class="chip pred">Predicted</span>')+
+      (q.miss?'<span class="chip missed">You got this wrong</span>':'')+
+      '<span class="chip">'+(q.t==="mc"?"MCQ":"Fill in")+'</span>'+
+      '<span class="small" style="margin-left:auto">'+(n+1)+' of '+ids.length+'</span>';
+    card.appendChild(meta);
+    const stem=document.createElement("div"); stem.className="stem"; stem.textContent=q.q; card.appendChild(stem);
+    const verdict=document.createElement("div"); verdict.className="verdict"; verdict.hidden=true;
+    const showVerdict=(cls,html)=>{verdict.className="verdict "+cls; verdict.innerHTML=html; verdict.hidden=false;};
+    if(q.t==="mc"){
+      const opts=document.createElement("div"); opts.className="opts";
+      const btns=[];
+      q.o.forEach((o,k)=>{
+        const b=document.createElement("button"); b.type="button"; b.textContent=o;
+        b.addEventListener("click",()=>{
+          state[i]={done:true,right:k===q.a};
+          btns.forEach(x=>x.disabled=true);
+          if(k===q.a){b.classList.add("right"); showVerdict("right","<b>Correct.</b> "+q.why);}
+          else{b.classList.add("wrong"); btns[q.a].classList.add("right"); showVerdict("wrong","<b>Not this one.</b> Answer: "+q.o[q.a]+". "+q.why);}
+          updateScore();
+        });
+        btns.push(b); opts.appendChild(b);
+      });
+      if(st.done){btns.forEach(x=>x.disabled=true); btns[q.a].classList.add("right"); if(!st.right){showVerdict("wrong","<b>Answer:</b> "+q.o[q.a]+". "+q.why);} else showVerdict("right","<b>Correct.</b> "+q.why);}
+      card.appendChild(opts);
+    }else{
+      const row=document.createElement("div"); row.className="fill";
+      const inp=document.createElement("input"); inp.type="text"; inp.id="in"+i; inp.placeholder="Type the term"; inp.autocomplete="off"; inp.setAttribute("aria-label","Your answer");
+      const chk=document.createElement("button"); chk.type="button"; chk.textContent="Check";
+      const rev=document.createElement("button"); rev.type="button"; rev.className="ghost"; rev.textContent="Show answer";
+      const check=()=>{
+        const v=norm(inp.value); if(!v) return;
+        const ok=q.a.some(x=>norm(x)===v);
+        state[i]={done:true,right:ok}; inp.disabled=true; chk.disabled=true;
+        showVerdict(ok?"right":"wrong",(ok?"<b>Correct.</b> ":"<b>Not quite.</b> Answer: <b>"+q.a[0]+"</b>. ")+q.why);
+        updateScore();
+      };
+      chk.addEventListener("click",check);
+      inp.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();check();}});
+      rev.addEventListener("click",()=>{ if(!(state[i]&&state[i].done)){state[i]={done:true,right:false};} inp.disabled=true; chk.disabled=true; showVerdict("show","<b>Answer:</b> "+q.a[0]+". "+q.why); updateScore();});
+      if(st.done){inp.disabled=true; chk.disabled=true; showVerdict(st.right?"right":"show","<b>Answer:</b> "+q.a[0]+". "+q.why);}
+      row.appendChild(inp); row.appendChild(chk); row.appendChild(rev); card.appendChild(row);
+    }
+    card.appendChild(verdict);
+    list.appendChild(card);
+  });
+  updateScore();
+}
+$("#fWeek").addEventListener("change",render);
+$("#fSrc").addEventListener("change",render);
+$("#btnShuffle").addEventListener("click",()=>{shuffle(order);render();window.scrollTo({top:$("#tab-quiz").offsetTop-60});});
+$("#btnReset").addEventListener("click",()=>{state={};render();});
+
+// ---------- tabs ----------
+const tabs=[...document.querySelectorAll('nav.tabs button')];
+function showTab(name){
+  tabs.forEach(b=>b.setAttribute("aria-selected",String(b.dataset.tab===name)));
+  ["plan","quiz","notes","fixes"].forEach(t=>{$("#tab-"+t).hidden=(t!==name);});
+  try{localStorage.setItem("hapkit.tab",name);}catch(e){}
+}
+tabs.forEach(b=>b.addEventListener("click",()=>showTab(b.dataset.tab)));
+let start="plan";
+try{const h=location.hash.replace("#",""); if(["plan","quiz","notes","fixes"].includes(h)) start=h; else {const s=localStorage.getItem("hapkit.tab"); if(s) start=s;}}catch(e){}
+showTab(start);
+
+// ---------- plan checkboxes (per-viewer convenience) ----------
+document.querySelectorAll('.task input[type=checkbox]').forEach(cb=>{
+  try{ if(localStorage.getItem("hapkit."+cb.id)==="1"){cb.checked=true; cb.closest(".task").classList.add("done");} }catch(e){}
+  cb.addEventListener("change",()=>{
+    cb.closest(".task").classList.toggle("done",cb.checked);
+    try{localStorage.setItem("hapkit."+cb.id,cb.checked?"1":"0");}catch(e){}
+  });
+});
+
+render();
+})();
+</script>
+</html>
