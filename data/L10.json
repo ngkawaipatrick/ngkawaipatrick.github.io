@@ -1,0 +1,1984 @@
+[
+ {
+  "n": 1,
+  "title": "HTI5001",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 2,
+  "title": "Gastroesophageal reflux disease",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.8",
+    "section_title": "Deglutition — Clinical Connection: Gastroesophageal Reflux Disease",
+    "book_pages": "958",
+    "pdf_pages": "974",
+    "capture": "p.958 middle of page, full-width Clinical Connection box 'Gastroesophageal Reflux Disease': one paragraph split across both columns (start 'If the lower esophageal sphincter'), plus the two-panel drawing beneath it ('Normal lower esophageal sphincter' vs 'Improper closing esophageal sphincter')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.7",
+    "section_title": "Esophagus — Histology of the Esophagus (the two sphincters)",
+    "book_pages": "955-956",
+    "pdf_pages": "971-972",
+    "capture": "p.955 right column, last part of the paragraph under 'Histology of the Esophagus', from 'At each end of the esophagus' to the foot of the column (upper and lower esophageal sphincters); it runs over the page break and finishes at the bottom of the left column of p.956 (start 'esophagus into the stomach')",
+    "figures": [
+     "24.10"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "Medical Terminology",
+    "section_title": "Heartburn; Barrett's esophagus",
+    "book_pages": "995",
+    "pdf_pages": "1011",
+    "capture": "p.995 right column, entry 'Heartburn' (4 lines); p.995 left column, second entry 'Barrett's esophagus' (5 lines)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The esophagus is a muscular tube from throat to stomach. Where it enters the stomach a ring of smooth muscle, the lower esophageal sphincter, stays contracted between swallows so the stomach's hydrochloric acid cannot run back up. The stomach lining survives acid because it is coated with thick alkaline mucus; the esophagus is lined by stratified squamous epithelium with no such coat. If the sphincter's resting tone is low, if abdominal pressure is high (obesity) or if the top of the stomach has slipped up through the diaphragm (hiatal hernia), acid refluxes and burns the lower esophagus. The burning felt behind the breastbone is heartburn: near the heart, nothing to do with it. Refluxed acid can also reach the larynx (laryngitis), be inhaled (cough, asthma) and dissolve tooth enamel. Alcohol, smoking, caffeine and fatty meals relax the sphincter or delay emptying. The slide omits treatment (trigger-food avoidance, H2 blockers, antacids) and the link to esophageal cancer via Barrett's change.",
+  "terms": [
+   {
+    "t": "Sphincter",
+    "d": "A ring of muscle around a tube that closes it when contracted."
+   },
+   {
+    "t": "Lower esophageal (cardiac) sphincter",
+    "d": "Smooth-muscle ring at the esophagus–stomach junction that normally prevents reflux."
+   },
+   {
+    "t": "Tone",
+    "d": "The steady low-level contraction a muscle keeps at rest; low tone means the ring is slack."
+   },
+   {
+    "t": "Reflux",
+    "d": "Backward flow of stomach contents up into the esophagus."
+   },
+   {
+    "t": "Hiatal hernia",
+    "d": "Part of the stomach pushed up through the esophageal opening in the diaphragm into the chest."
+   },
+   {
+    "t": "Enamel",
+    "d": "The hard mineral outer coat of a tooth, dissolved by acid."
+   },
+   {
+    "t": "Ulceration",
+    "d": "Loss of the surface lining leaving an open crater."
+   },
+   {
+    "t": "Laryngitis",
+    "d": "Inflammation of the voice box, here from acid reaching it."
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "title": "Esophageal Carcinoma",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.7",
+    "section_title": "Esophagus — Histology of the Esophagus",
+    "book_pages": "955-956",
+    "pdf_pages": "971-972",
+    "capture": "p.955 right column, whole paragraph under the heading 'Histology of the Esophagus' (start 'The mucosa of the esophagus consists'; nonkeratinized stratified squamous epithelium, mucous glands near the stomach); p.956 Figure 24.10 (a) and (b)",
+    "figures": [
+     "24.10"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "Medical Terminology",
+    "section_title": "Barrett's esophagus; Achalasia; Dysphagia",
+    "book_pages": "995",
+    "pdf_pages": "1011",
+    "capture": "p.995 left column: first entry 'Achalasia', second entry 'Barrett's esophagus', and the entry 'Dysphagia' near the bottom of the column",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.8",
+    "section_title": "Clinical Connection: Gastroesophageal Reflux Disease (last sentence)",
+    "book_pages": "958",
+    "pdf_pages": "974",
+    "capture": "p.958 Clinical Connection box, end of its right-hand column: the final sentence 'GERD may be associated with cancer' of the esophagus",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A carcinoma is a cancer of epithelium, so the type depends on which lining it starts from. The esophagus is normally lined by nonkeratinized stratified squamous epithelium (many layers of flat cells built to resist abrasion); cancer from it is squamous cell carcinoma. If years of acid reflux convert the lower lining into a stomach-like columnar, gland-type epithelium (Barrett's esophagus), cancer from that is adenocarcinoma. Risk factors are things that repeatedly injure or chemically insult the lining: smoke, alcohol, scalding drinks, nitrosamines from cured foods, a diet poor in protective fruit and vegetables, and anything that traps food against the wall (webs, rings, pouches, achalasia). Because the tube is narrow, a growing tumour first makes swallowing difficult (dysphagia, solids before liquids), so patients lose weight; ulcerated tumour bleeds, giving vomited blood (hematemesis). Tortora has no section on esophageal cancer; the closest material is the esophageal histology, the GERD box and the Barrett's, achalasia and dysphagia definitions.",
+  "terms": [
+   {
+    "t": "Carcinoma",
+    "d": "A malignant tumour arising from epithelial cells."
+   },
+   {
+    "t": "Adenocarcinoma",
+    "d": "Carcinoma of gland-forming (columnar, secretory) epithelium."
+   },
+   {
+    "t": "Squamous cell carcinoma",
+    "d": "Carcinoma of flat, layered (stratified squamous) epithelium."
+   },
+   {
+    "t": "Stratified squamous epithelium",
+    "d": "Multi-layered lining of flat cells that resists wear; lines mouth, esophagus and skin."
+   },
+   {
+    "t": "Nitrosamines",
+    "d": "Nitrogen compounds formed from nitrite preservatives in cured or smoked food; they mutate DNA."
+   },
+   {
+    "t": "Web / ring",
+    "d": "Thin shelf-like or circular narrowings of the esophageal lumen."
+   },
+   {
+    "t": "Diverticulum",
+    "d": "An outpouching of the wall of a hollow organ."
+   },
+   {
+    "t": "Dysphagia",
+    "d": "Difficulty swallowing."
+   },
+   {
+    "t": "Hematemesis",
+    "d": "Vomiting blood."
+   }
+  ],
+  "note": "Esophageal carcinoma is not covered in Tortora 16e. Nearest physiology: esophageal histology (p.955), Barrett's esophagus definition (p.995) and the GERD box (p.958)."
+ },
+ {
+  "n": 4,
+  "title": "Common esophageal diseases",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.7",
+    "section_title": "Esophagus (esophageal hiatus, hiatus hernia)",
+    "book_pages": "955",
+    "pdf_pages": "971",
+    "capture": "p.955 right column, first paragraph under the heading '24.7 Esophagus' (start 'The esophagus (e-SOF-a-gus = eating gullet)'): passage through the esophageal hiatus and the sentence on hiatus hernia",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "Medical Terminology",
+    "section_title": "Achalasia; Hernia (hiatus hernia)",
+    "book_pages": "995",
+    "pdf_pages": "1011",
+    "capture": "p.995 left column, first entry 'Achalasia' (6 lines); p.995 right column, entry 'Hernia' (start 'Hernia (HER-nē-a) Protrusion of all') including the sentence on hiatus (diaphragmatic) hernia",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Structure and Function of Blood Vessels — Clinical Connection: Varicose Veins and Spider Veins",
+    "book_pages": "779",
+    "pdf_pages": "795",
+    "capture": "p.779 Clinical Connection box, left column, first paragraph: the four sentences from 'Varicose veins in the anal canal' to 'chronic liver disease' (esophageal varices)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.3",
+    "section_title": "Neural Innervation of the Digestive Canal — Enteric Nervous System (myenteric plexus)",
+    "book_pages": "945",
+    "pdf_pages": "961",
+    "capture": "p.945 right column, paragraph under 'Enteric Nervous System' (start 'We first introduced you to'): location of the myenteric plexus between the muscle layers and its control of motility; Figure 24.4 below it",
+    "figures": [
+     "24.4"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Three structural problems of the lower esophagus. (1) The esophagus passes from chest to abdomen through a gap in the diaphragm, the esophageal hiatus. If the cardiac (top) part of the stomach slides up through that gap into the thorax it is a hiatal hernia; the diaphragm no longer helps pinch the sphincter shut, so reflux follows. (2) The gut wall has its own nerve network, the enteric nervous system; the myenteric plexus, lying between the circular and longitudinal muscle layers, times peristalsis and relaxes the lower sphincter as a swallow arrives. If its ganglion cells are destroyed the sphincter cannot relax: achalasia, with food piling up in a dilated esophagus. (3) Veins of the lower esophagus drain toward the hepatic portal vein and through the liver. When liver scarring (cirrhosis) obstructs that flow, pressure backs up and the thin submucosal veins swell into varices, silent until they rupture and bleed. The slide leaves the portal-vein mechanism unsaid.",
+  "terms": [
+   {
+    "t": "Hiatus",
+    "d": "An opening; here the hole in the diaphragm the esophagus passes through."
+   },
+   {
+    "t": "Cardia (cardiac portion)",
+    "d": "The part of the stomach surrounding the entry of the esophagus."
+   },
+   {
+    "t": "Thoracic vs abdominal cavity",
+    "d": "Chest space above the diaphragm versus belly space below it."
+   },
+   {
+    "t": "Myenteric plexus",
+    "d": "Network of gut-wall neurons between the two smooth-muscle layers; controls motility."
+   },
+   {
+    "t": "Ganglion cell",
+    "d": "A neuron cell body sitting in a cluster (ganglion) outside the brain and spinal cord."
+   },
+   {
+    "t": "Varices",
+    "d": "Abnormally dilated, tortuous veins."
+   },
+   {
+    "t": "Submucosa",
+    "d": "Connective-tissue layer beneath the mucosa carrying vessels and nerves."
+   },
+   {
+    "t": "Hepatic portal vein",
+    "d": "Vein carrying blood from gut organs to the liver before it returns to the heart."
+   },
+   {
+    "t": "Cirrhosis",
+    "d": "Scarred, distorted liver after chronic injury."
+   }
+  ],
+  "note": "Esophageal varices are mentioned only in the chapter 21 varicose-vein box; their cause (portal hypertension) is best understood from the hepatic portal circulation, Section 21.20 p.833 (pdf 849), Figure 21.29."
+ },
+ {
+  "n": 5,
+  "title": "Sliding hiatal hernia",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.7",
+    "section_title": "Esophagus (esophageal hiatus, hiatus hernia)",
+    "book_pages": "955",
+    "pdf_pages": "971",
+    "capture": "p.955 right column, first paragraph under '24.7 Esophagus' (start 'The esophagus (e-SOF-a-gus'), the last three sentences on the esophageal hiatus and hiatus hernia",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 11,
+    "section": "11.11",
+    "section_title": "Muscles of the Thorax That Assist in Breathing — the diaphragm and its openings",
+    "book_pages": "370",
+    "pdf_pages": "386",
+    "capture": "p.370 left column, second paragraph (start 'The diaphragm has three major openings'), which continues at the top of the right column and ends with the sentence on hiatus hernia; Figure 11.11 on the same page shows the diaphragm",
+    "figures": [
+     "11.11"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach — Anatomy of the Stomach (fundus, cardia)",
+    "book_pages": "959-960",
+    "pdf_pages": "975-976",
+    "capture": "p.959 Figure 24.12 (a) 'Anterior view of regions of stomach' (labels Fundus, Cardia, Lower esophageal sphincter); p.960 left column, paragraph under 'Anatomy of the Stomach' (start 'The stomach has four main regions')",
+    "figures": [
+     "24.12"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The picture shows a sliding hiatal hernia: the fundus, the rounded dome at the top of the stomach, has slid upward through the esophageal hiatus so that the esophagus–stomach junction sits in the chest rather than the abdomen. The diaphragm is a dome of skeletal muscle separating thorax from abdomen; it has three openings, for the aorta, the esophagus (with the vagus nerves) and the inferior vena cava. Normally the muscular rim of the hiatus squeezes the lower esophagus and helps the sphincter stay shut; with the stomach above it that support is lost, so reflux and heartburn follow. 'Sliding' means the junction moves up and down through the hiatus with posture and swallowing, as opposed to a rolling (para-esophageal) hernia in which the junction stays put and part of the fundus rolls up beside the esophagus, a distinction the slide does not draw. Not a Tortora figure; it is a clinical image.",
+  "terms": [
+   {
+    "t": "Fundus",
+    "d": "The dome-shaped upper part of the stomach, above and left of the esophageal entry."
+   },
+   {
+    "t": "Diaphragm",
+    "d": "Sheet of skeletal muscle separating chest from abdomen; the main breathing muscle."
+   },
+   {
+    "t": "Esophageal hiatus",
+    "d": "The opening in the diaphragm through which the esophagus passes."
+   },
+   {
+    "t": "Sliding hernia",
+    "d": "Hiatal hernia in which the junction of esophagus and stomach itself moves into the chest."
+   },
+   {
+    "t": "Dilated",
+    "d": "Widened beyond normal."
+   }
+  ],
+  "note": "The slide image is a radiograph/diagram, not a Tortora figure; Tortora has no figure of a hiatal hernia."
+ },
+ {
+  "n": 6,
+  "title": "Helicobacter pylori",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Peptic Ulcer Disease (Helicobacter pylori)",
+    "book_pages": "992-993",
+    "pdf_pages": "1008-1009",
+    "capture": "p.992 right column, under the heading 'Peptic Ulcer Disease', second paragraph (start 'Helicobacter pylori (previously named'): urease, ammonia, catalase, adhesion proteins; p.993 bottom-left, the electron micrograph labelled 'Helicobacter pylori' on gastric mucosa",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach — Mechanical and Chemical Digestion in the Stomach (mucus barrier)",
+    "book_pages": "963",
+    "pdf_pages": "979",
+    "capture": "p.963 left column, the paragraph that runs on from p.962 (start 'proteins in the chief cells'): the sentence 'Second, the stomach epithelial cells are protected' by 1–3 mm of alkaline mucus; and Table 24.3 top row 'Surface mucous cells and mucous neck cells'",
+    "figures": [],
+    "tables": [
+     "24.3"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.2",
+    "section_title": "Layers of the Digestive Canal — Mucosa (MALT)",
+    "book_pages": "944",
+    "pdf_pages": "960",
+    "capture": "p.944 right column, item 2 'The lamina propria' (start 'The lamina propria (lamina = thin'), the sentences on mucosa-associated lymphoid tissue; Figure 24.3 at the top of the page (label 'Mucosa-associated lymphoid tissue (MALT)')",
+    "figures": [
+     "24.3"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The stomach is a chemical hazard: it secretes hydrochloric acid (pH 1–2) and the protein-digesting enzyme pepsin. Its own wall survives only because surface cells coat it with a 1–3 mm layer of alkaline mucus and the epithelium is replaced every few days. Most bacteria die in acid, but Helicobacter pylori, a spiral, Gram-negative bacterium, survives by making urease, an enzyme that splits urea into ammonia and carbon dioxide; the ammonia neutralises the acid around the microbe but also damages the mucus layer and the cells beneath. Together with its proteases and the chronic inflammation it provokes (gastritis), the mucosal defence is weakened so acid and pepsin can dig ulcers. Decades of inflammation also drive cancer: adenocarcinoma of the gland-type lining, and MALT lymphoma, a tumour of the lymphoid tissue that normally sits in the lamina propria of the gut mucosa. The slide does not say that a course of antibiotics cures the infection.",
+  "terms": [
+   {
+    "t": "Gram-negative",
+    "d": "Bacteria whose thin wall does not keep the purple Gram stain; they have an outer membrane."
+   },
+   {
+    "t": "Urease",
+    "d": "Enzyme that splits urea into ammonia and carbon dioxide."
+   },
+   {
+    "t": "Protease",
+    "d": "Enzyme that breaks down proteins."
+   },
+   {
+    "t": "Gastritis",
+    "d": "Inflammation of the stomach lining."
+   },
+   {
+    "t": "Mucosal defence",
+    "d": "The alkaline mucus layer, tight junctions and rapid cell renewal that protect the stomach wall from its own juice."
+   },
+   {
+    "t": "MALT",
+    "d": "Mucosa-associated lymphoid tissue: clusters of immune cells in the lamina propria of the gut lining."
+   },
+   {
+    "t": "Lymphoma",
+    "d": "Cancer of lymphocytes."
+   },
+   {
+    "t": "Peptic ulcer",
+    "d": "A crater eroded in a lining exposed to acid gastric juice."
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "title": "Peptic ulcer",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Peptic Ulcer Disease",
+    "book_pages": "992-993",
+    "pdf_pages": "1008-1009",
+    "capture": "p.992 right column, heading 'Peptic Ulcer Disease' and its three paragraphs (start 'In the United States, 5–10%'), plus the drawing 'Location of peptic ulcers' at the bottom right; p.993 left column, the two photographs 'Details of a peptic ulcer' and 'Photograph of surface view'",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine — Anatomy (duodenum) and duodenal glands",
+    "book_pages": "971,974",
+    "pdf_pages": "987,990",
+    "capture": "p.971 right column, first paragraph under 'Anatomy of the Small Intestine' (start 'The small intestine is divided'): the duodenum sentences; p.974 left column, paragraph starting 'The submucosa of the duodenum contains duodenal glands' (alkaline mucus neutralises gastric acid)",
+    "figures": [
+     "24.19"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.4",
+    "section_title": "Peritoneum — Clinical Connection: Peritonitis",
+    "book_pages": "948",
+    "pdf_pages": "964",
+    "capture": "p.948 left column, Clinical Connection box 'Peritonitis' (one paragraph, start 'A common cause of peritonitis'), below the Figure 24.5 photograph",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "An ulcer is a crater where the lining has been eroded away; 'peptic' means caused by acid and pepsin. Ulcers form wherever gastric juice meets a wall whose defences have failed: most often the first part of the duodenum, which receives acid chyme from the stomach and is protected only by alkaline mucus from its duodenal (Brunner) glands, and less often the distal (pyloric) stomach. Causes: H. pylori infection, NSAIDs such as aspirin (they block protective prostaglandins), smoking. Pain, nausea and vomiting are related to meals. Complications follow the direction the crater deepens: into an artery (haemorrhage, anaemia, shock), backwards into the pancreas (pancreatitis), or straight through the wall (perforation) so that gut contents and gas escape into the peritoneal cavity, giving peritonitis and free air under the diaphragm (pneumoperitoneum). The slide lists 'weight gain': duodenal-ulcer pain is eased by food so patients eat, whereas gastric-ulcer pain is worsened by food and causes weight loss.",
+  "terms": [
+   {
+    "t": "Ulcer",
+    "d": "A crater-like defect in a lining where surface tissue has been lost."
+   },
+   {
+    "t": "Peptic",
+    "d": "Relating to pepsin and acid; digestion by gastric juice."
+   },
+   {
+    "t": "Duodenum",
+    "d": "First, C-shaped 25 cm part of the small intestine, just after the pylorus."
+   },
+   {
+    "t": "NSAID",
+    "d": "Non-steroidal anti-inflammatory drug, e.g. aspirin, ibuprofen; suppresses protective prostaglandins."
+   },
+   {
+    "t": "Haemorrhage",
+    "d": "Bleeding, here from a vessel eroded at the ulcer base."
+   },
+   {
+    "t": "Penetration",
+    "d": "Ulcer extending through the wall into an adjacent organ without free leakage."
+   },
+   {
+    "t": "Perforation",
+    "d": "A hole right through the wall, opening the lumen to the peritoneal cavity."
+   },
+   {
+    "t": "Peritonitis",
+    "d": "Inflammation of the peritoneum, usually from leaked bacteria."
+   },
+   {
+    "t": "Pneumoperitoneum",
+    "d": "Free gas in the peritoneal cavity, seen as air under the diaphragm."
+   }
+  ],
+  "note": "Pancreatitis as a complication: see Clinical Connection 'Pancreatitis and Pancreatic Cancer', p.966 left column (pdf 982)."
+ },
+ {
+  "n": 8,
+  "title": "Gastric carcinoma",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 3,
+    "section": "Disorders: Homeostatic Imbalances (Cancer)",
+    "section_title": "Causes of Cancer — chronic inflammation",
+    "book_pages": "106",
+    "pdf_pages": "122",
+    "capture": "p.106 right column, paragraph starting 'Later in the book, we will discuss': the sentences linking chronic gastritis and peptic ulcers to 60–90% of stomach cancers",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach — Anatomy and Histology of the Stomach",
+    "book_pages": "959-961",
+    "pdf_pages": "975-977",
+    "capture": "p.959 Figure 24.12 (a) regions of the stomach (pyloric antrum = distal part); p.960 left column paragraph under 'Anatomy of the Stomach' (start 'The stomach has four main regions'); p.960 right column, first paragraph under 'Histology of the Stomach' (start 'The stomach wall is composed') continuing on p.961 (surface mucous cells, gastric pits and glands), with Figure 24.13",
+    "figures": [
+     "24.12",
+     "24.13"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "Medical Terminology",
+    "section_title": "Gastroscopy",
+    "book_pages": "995",
+    "pdf_pages": "1011",
+    "capture": "p.995 right column, entry 'Gastroscopy' (3 lines)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The stomach lining is a simple columnar epithelium of mucus-secreting surface cells that dip into gastric pits and glands. Cancer of this gland-forming epithelium is an adenocarcinoma, and it most often arises in the distal part, the pyloric antrum, where H. pylori inflammation is heaviest. Chronic inflammation drives constant cell replacement and therefore mutation, which is why the book links chronic gastritis and ulcers to most stomach cancers. Nitrosamines are nitrogen compounds generated from nitrite preservatives in cured, smoked and pickled food and are DNA-damaging; blood group A is an inherited red-cell surface marker associated with modestly higher risk. Symptoms come late and are vague: weight loss, pain, anaemia from slow bleeding, and early satiety because a stiff tumour-infiltrated stomach can no longer expand to hold a meal. Diagnosis is by gastroscopy and biopsy. Tortora has no section on gastric cancer; use the stomach anatomy and histology plus the chapter 3 paragraph on inflammation and cancer.",
+  "terms": [
+   {
+    "t": "Malignant",
+    "d": "A tumour that invades surrounding tissue and can spread to distant sites."
+   },
+   {
+    "t": "Surface epithelial cells",
+    "d": "The single layer of columnar mucus cells lining the stomach lumen and pits."
+   },
+   {
+    "t": "Pyloric antrum (distal stomach)",
+    "d": "The wide part of the stomach leading to the pyloric canal and the duodenum."
+   },
+   {
+    "t": "Nitrosamine",
+    "d": "Carcinogenic compound formed when nitrites react with amines in food or in the stomach."
+   },
+   {
+    "t": "Blood type A",
+    "d": "ABO group whose red cells carry the A antigen; an inherited marker."
+   },
+   {
+    "t": "Early satiety",
+    "d": "Feeling full after only a little food."
+   },
+   {
+    "t": "Anemia",
+    "d": "Too little haemoglobin or red cells; here from chronic blood loss."
+   },
+   {
+    "t": "Gastroscopy",
+    "d": "Looking inside the stomach with a flexible endoscope."
+   }
+  ],
+  "note": "Gastric carcinoma itself is not in Tortora 16e; the only mention is the chapter 3 cancer paragraph (p.106). The 'distal part' = Tortora's pyloric part (antrum/canal/pylorus)."
+ },
+ {
+  "n": 9,
+  "title": "Intestinal obstruction",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "Medical Terminology",
+    "section_title": "Hernia",
+    "book_pages": "995",
+    "pdf_pages": "1011",
+    "capture": "p.995 right column, entry 'Hernia' (start 'Hernia (HER-nē-a) Protrusion of all'), about 8 lines including inguinal hernia and strangulation",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.4",
+    "section_title": "Peritoneum (parietal/visceral peritoneum, mesentery)",
+    "book_pages": "946-948",
+    "pdf_pages": "962-964",
+    "capture": "p.946 right column, first paragraph under '24.4 Peritoneum' (start 'The peritoneum (per′-i-tō-NĒ-um'); p.947 right column, item 4 (start 'A fan-shaped fold of the peritoneum, called the mesentery') continuing at the top of p.948 right column; Figure 24.5 (a) and (c) on p.947",
+    "figures": [
+     "24.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 11,
+    "section": "11.10",
+    "section_title": "Muscles of the Abdomen — Clinical Connection: Inguinal Hernia and Sports Hernia",
+    "book_pages": "367",
+    "pdf_pages": "383",
+    "capture": "p.367 right column, Clinical Connection box 'Inguinal Hernia and Sports Hernia', first paragraph (start 'A hernia (HER-nē-a) is a protrusion')",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The intestines are long tubes hung from the back wall of the abdomen by double folds of peritoneum (mesentery, mesocolon) that carry their blood vessels. Whatever blocks the tube produces the same picture: contents and swallowed gas build up above the block (distension, cramping colicky pain), are forced back up (vomiting), and nothing passes below (constipation, no wind). Four mechanical causes. Hernia: a loop of bowel pushes through a weak spot in the abdominal wall inside a pouch of parietal peritoneum and can be trapped there. Adhesions: fibrous scar bands formed after surgery or peritonitis tether loops so they kink. Volvulus: a mobile loop twists around its own mesentery, kinking both the lumen and the vessels in the mesentery. Intussusception: a segment telescopes into the segment beyond it. Twisting or trapping also strangles the blood supply, so obstruction can progress to gangrene and perforation. Tortora mentions bowel obstruction only in passing; it defines hernia and the peritoneal folds.",
+  "terms": [
+   {
+    "t": "Distension",
+    "d": "Swelling of the abdomen by trapped gas and fluid."
+   },
+   {
+    "t": "Serosa",
+    "d": "The smooth outer coat of an abdominal organ, formed by visceral peritoneum."
+   },
+   {
+    "t": "Parietal vs visceral peritoneum",
+    "d": "The layer lining the abdominal wall versus the layer covering the organs."
+   },
+   {
+    "t": "Mesentery",
+    "d": "Double fold of peritoneum suspending the small intestine and carrying its vessels and nerves."
+   },
+   {
+    "t": "Adhesion",
+    "d": "Fibrous scar band abnormally joining two surfaces that should slide freely."
+   },
+   {
+    "t": "Proximal / distal",
+    "d": "Nearer the start of the tube (mouth end) / further along toward the anus."
+   },
+   {
+    "t": "Strangulation",
+    "d": "Cutting off of blood supply to a trapped or twisted loop."
+   },
+   {
+    "t": "Colicky pain",
+    "d": "Pain that waxes and wanes in waves with contractions of a hollow organ."
+   }
+  ],
+  "note": "Adhesion, volvulus and intussusception are not in Tortora 16e; nearest material is the hernia definition (p.995) and the mesentery/peritoneum section (24.4)."
+ },
+ {
+  "n": 10,
+  "title": "Hernia / Intussusception / Volvulus / Adhesion",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.4",
+    "section_title": "Peritoneum — Figure 24.5 and the mesentery",
+    "book_pages": "947-948",
+    "pdf_pages": "963-964",
+    "capture": "p.947 Figure 24.5 (a) median section and (c) anterior view showing mesentery, parietal and visceral peritoneum; p.947 right column, item 4 (start 'A fan-shaped fold of the peritoneum, called the mesentery') continuing on p.948 right column",
+    "figures": [
+     "24.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "Medical Terminology",
+    "section_title": "Hernia",
+    "book_pages": "995",
+    "pdf_pages": "1011",
+    "capture": "p.995 right column, entry 'Hernia' (start 'Hernia (HER-nē-a) Protrusion of all')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 11,
+    "section": "11.10",
+    "section_title": "Clinical Connection: Inguinal Hernia and Sports Hernia",
+    "book_pages": "367",
+    "pdf_pages": "383",
+    "capture": "p.367 right column, Clinical Connection box, first paragraph (start 'A hernia (HER-nē-a) is a protrusion')",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Four cartoons of mechanical obstruction. Hernia: a loop of bowel inside a peritoneal pouch bulging through a defect in the abdominal wall. Intussusception: proximal bowel telescoped inside the distal bowel. Volvulus: a loop twisted around the stalk of its mesentery. Adhesion: a scar band crossing and compressing the bowel. To anchor these to real anatomy: the peritoneum is a serous membrane with a parietal layer lining the abdominal wall and a visceral layer covering the organs; the mesentery is a fan-shaped double fold that suspends the jejunum and ileum from the posterior wall and carries their arteries and veins between its two layers. That is why a twist or a tight band cuts off blood supply as well as flow, and why obstruction quickly becomes an emergency. The groin's inguinal canal is the usual weak point for hernias, more so in males because the spermatic cord passes through it.",
+  "terms": [
+   {
+    "t": "Hernia",
+    "d": "Protrusion of an organ through the wall or cavity that normally contains it."
+   },
+   {
+    "t": "Intussusception",
+    "d": "One segment of bowel slipping inside the next, like a telescope closing."
+   },
+   {
+    "t": "Volvulus",
+    "d": "Twisting of a bowel loop around its mesentery."
+   },
+   {
+    "t": "Adhesion",
+    "d": "Fibrous band of scar tissue tethering loops of bowel or bowel to the wall."
+   },
+   {
+    "t": "Inguinal canal",
+    "d": "Passage through the lower abdominal wall in the groin; common hernia site."
+   }
+  ],
+  "note": "The four drawings are not Tortora figures; Tortora has no illustration of intussusception, volvulus or adhesions."
+ },
+ {
+  "n": 11,
+  "title": "Appendicitis",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine — Clinical Connection: Appendicitis",
+    "book_pages": "984",
+    "pdf_pages": "1000",
+    "capture": "p.984 left column, Clinical Connection box 'Appendicitis' (one paragraph, start 'Inflammation of the appendix, termed')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine — Anatomy (cecum, appendix, mesoappendix)",
+    "book_pages": "983-984",
+    "pdf_pages": "999-1000",
+    "capture": "p.984 left column, first paragraph (start 'cadavers, extends from the ileum'), the sentences on the cecum, vermiform appendix and mesoappendix; p.983 Figure 24.24 (a), labels 'Cecum', 'Vermiform appendix', 'Mesoappendix'",
+    "figures": [
+     "24.24"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.4",
+    "section_title": "Peritoneum — Clinical Connection: Peritonitis",
+    "book_pages": "948",
+    "pdf_pages": "964",
+    "capture": "p.948 left column, Clinical Connection box 'Peritonitis' (one paragraph, start 'A common cause of peritonitis'), which names rupture of the appendix as a cause",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The appendix is a blind, worm-like tube about 8 cm long hanging from the cecum in the right lower quadrant, slung by a small mesentery (the mesoappendix); its wall is packed with lymphoid tissue (MALT). Being a dead end with a narrow lumen, anything that blocks its opening traps mucus and bacteria inside: in children, swelling of the lymphoid follicles after a viral infection; in adults, a hard pellet of dried faeces (fecalith). Pressure inside rises, the blood supply in the wall is squeezed, bacteria invade and the wall inflames (appendicitis) and can die and burst within about a day. Pain begins vaguely around the navel (referred visceral pain from the midgut), then localises sharply to the right lower quadrant as the inflamed serosa rubs the parietal peritoneum. Rupture spills bacteria into the peritoneal cavity: peritonitis, which is life-threatening. Early surgical removal, now usually laparoscopic, is the treatment the slide leaves out.",
+  "terms": [
+   {
+    "t": "Vermiform appendix",
+    "d": "Worm-shaped blind pouch attached to the cecum."
+   },
+   {
+    "t": "Cecum",
+    "d": "Pouch at the start of the large intestine, below the entry of the ileum."
+   },
+   {
+    "t": "Lymphoid hyperplasia",
+    "d": "Enlargement of lymphoid tissue by proliferation of its cells, e.g. after infection."
+   },
+   {
+    "t": "Fecalith",
+    "d": "A hard, stone-like lump of dried faeces."
+   },
+   {
+    "t": "Lumen",
+    "d": "The hollow inside of a tube."
+   },
+   {
+    "t": "Referred pain",
+    "d": "Pain from an internal organ felt at a body-surface site sharing the same spinal segments."
+   },
+   {
+    "t": "Right lower quadrant",
+    "d": "The lower right quarter of the abdomen, where the cecum and appendix lie."
+   },
+   {
+    "t": "Peritonitis",
+    "d": "Inflammation of the peritoneal lining, usually from leaked bacteria."
+   },
+   {
+    "t": "Appendectomy",
+    "d": "Surgical removal of the appendix."
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "title": "Colonic diverticula",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Diverticular Disease",
+    "book_pages": "993",
+    "pdf_pages": "1009",
+    "capture": "p.993 left column, heading 'Diverticular Disease' and its single paragraph (start 'Diverticular disease (dī′-ver-TIK-ū-lar) refers'), which finishes at the top of the right column ('In severe cases ... peritonitis')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.2",
+    "section_title": "Layers of the Digestive Canal (mucosa, submucosa, muscular layer)",
+    "book_pages": "944-945",
+    "pdf_pages": "960-961",
+    "capture": "p.944 Figure 24.3 (the four layers); p.945 left column, paragraphs under 'Submucosa' and 'Muscular Layer' (start 'The muscular layer of the mouth')",
+    "figures": [
+     "24.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine — Anatomy (sigmoid colon)",
+    "book_pages": "983-984",
+    "pdf_pages": "999-1000",
+    "capture": "p.984 left column, paragraph starting 'The open end of the cecum merges' (ascending, transverse, descending and sigmoid colon); p.983 Figure 24.24 (a), label 'Sigmoid colon'",
+    "figures": [
+     "24.24"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The gut wall has four coats: mucosa, submucosa, a muscular layer of two smooth-muscle sheets (called muscularis propria by pathologists), and serosa. A diverticulum is a pocket where the inner two coats bulge out through a weak point in the muscle coat, usually where an artery pierces it. Pockets form where pressure inside the colon is highest: the narrow sigmoid colon, especially when stools are small and hard (low-fibre diet), when a person strains, and as the wall weakens with age. Most are silent (diverticulosis). Complications: the artery beside the neck of a pocket erodes and bleeds (painless rectal bleeding); faeces lodge in a pocket and infect it (diverticulitis, with left lower abdominal pain, fever and altered bowel habit); an inflamed pocket bursts into the peritoneal cavity (perforation, peritonitis) or tunnels into a neighbouring organ, forming an abnormal channel (fistula) to bladder or vagina. A high-fibre diet bulks and softens stool, lowering pressure, which both prevents and relieves the condition.",
+  "terms": [
+   {
+    "t": "Diverticulum (pl. diverticula)",
+    "d": "A pouch pushed out through the wall of a hollow organ."
+   },
+   {
+    "t": "Mucosa / submucosa",
+    "d": "The inner lining layer / the connective-tissue layer beneath it."
+   },
+   {
+    "t": "Muscularis propria",
+    "d": "The main smooth-muscle coat of the gut wall (Tortora's 'muscular layer')."
+   },
+   {
+    "t": "Sigmoid colon",
+    "d": "The S-shaped last part of the colon, joining the rectum."
+   },
+   {
+    "t": "Diverticulosis vs diverticulitis",
+    "d": "Having diverticula versus having them inflamed."
+   },
+   {
+    "t": "Fistula",
+    "d": "An abnormal passage connecting two hollow organs or an organ to the skin."
+   },
+   {
+    "t": "Perforation",
+    "d": "A hole through the full thickness of the wall."
+   }
+  ],
+  "note": "Tortora calls the muscularis propria the 'muscular layer'. Related definitions: 'Colonoscopy' (detects diverticulosis) and 'Hemorrhoids' (straining, low fibre) on p.995."
+ },
+ {
+  "n": 13,
+  "title": "Non-alcoholic fatty liver disease",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder — Functions of the Liver and Gallbladder (lipid metabolism)",
+    "book_pages": "970",
+    "pdf_pages": "986",
+    "capture": "p.970 right column, the bulleted list starting 'In addition to secreting bile': bullets 'Carbohydrate metabolism' and 'Lipid metabolism' (start 'Hepatocytes store some triglycerides')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Histology of the Liver — hepatic acinus zones (fat accumulation in zone 3)",
+    "book_pages": "969",
+    "pdf_pages": "985",
+    "capture": "p.969 left column, first full paragraph (start 'the hepatic acinus (AS-i-nus). Each hepatic acinus'): the sentences from 'Cells in zone 1' to 'evidence of fat accumulation'; Figure 24.17 (d) on p.968",
+    "figures": [
+     "24.17"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "Disorders / Medical Terminology",
+    "section_title": "Hepatitis; Cirrhosis; Liver Function Tests",
+    "book_pages": "993,995,970",
+    "pdf_pages": "1009,1011,986",
+    "capture": "p.993 right column, heading 'Hepatitis', first paragraph (start 'Hepatitis is an inflammation of the liver'); p.995 left column, entry 'Cirrhosis' (6 lines); p.970 left column, Clinical Connection box 'Liver Function Tests' (diabetes and alcohol among causes of raised enzymes)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Hepatocytes normally hold a little triglyceride, burn fatty acids for ATP, make cholesterol, and package fat into lipoproteins for export to the rest of the body. When more fat reaches the liver than it can burn or ship out, as in obesity, insulin resistance and type 2 diabetes and high blood lipids, triglyceride droplets accumulate inside hepatocytes: steatosis, a 'fatty liver'. Alcohol causes the same appearance; NAFLD is the label when alcohol intake is low or nil. Fat-laden hepatocytes are fragile, and in some people inflammation follows (steatohepatitis, a form of hepatitis); repeated injury and repair then replace hepatocytes with fibrous scar (cirrhosis), which raises portal pressure, ends in liver failure and raises liver-cancer risk. The book notes that cells of acinar zone 3, furthest from the incoming blood, are the first to show fat. NAFLD as such is not in Tortora; the nearest material is liver lipid metabolism, liver function tests, hepatitis and cirrhosis.",
+  "terms": [
+   {
+    "t": "Hepatocyte",
+    "d": "The main liver cell, doing the liver's metabolic, secretory and detoxifying work."
+   },
+   {
+    "t": "Steatosis",
+    "d": "Abnormal accumulation of fat droplets inside cells."
+   },
+   {
+    "t": "Triglyceride",
+    "d": "Storage fat: glycerol joined to three fatty acids."
+   },
+   {
+    "t": "Hyperlipidemia",
+    "d": "Raised blood levels of cholesterol and/or triglycerides."
+   },
+   {
+    "t": "Type 2 diabetes",
+    "d": "Diabetes from insulin resistance; cells respond poorly to insulin."
+   },
+   {
+    "t": "Hepatitis",
+    "d": "Inflammation of the liver, from viruses, alcohol, drugs or fat."
+   },
+   {
+    "t": "Cirrhosis",
+    "d": "End-stage scarring of the liver with loss of normal structure."
+   },
+   {
+    "t": "Hepatic acinus",
+    "d": "Functional liver unit arranged in zones by distance from the incoming blood."
+   }
+  ],
+  "note": "NAFLD / hepatic steatosis is not in Tortora 16e. Nearest physiology: liver lipid metabolism (p.970), the zone-3 fat sentence (p.969), hepatitis (p.993) and cirrhosis (p.995)."
+ },
+ {
+  "n": 14,
+  "title": "Cholelithiasis",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder — Clinical Connection: Gallstones",
+    "book_pages": "970",
+    "pdf_pages": "986",
+    "capture": "p.970 right column, lower half: Clinical Connection box 'Gallstones' (one paragraph, start 'If bile contains either insufficient') with the gallstone photograph beneath it",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Functions of the Liver and Gallbladder (composition of bile, bilirubin, bile salts)",
+    "book_pages": "970",
+    "pdf_pages": "986",
+    "capture": "p.970 left column, heading 'Functions of the Liver and Gallbladder' and its first three paragraphs (start 'Each day, hepatocytes secrete 800–1000 mL'): bile composition, bilirubin, bile salts and emulsification",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Anatomy and histology of the gallbladder (storage and concentration of bile)",
+    "book_pages": "966,969,964",
+    "pdf_pages": "982,985,980",
+    "capture": "p.966 right column, second paragraph under '24.11 Liver and Gallbladder' (start 'The gallbladder (gall- = bile) is a pear-shaped sac'); p.969 left column, paragraph starting 'The mucosa of the gallbladder consists' (concentrates bile up to tenfold); p.964 Figure 24.16 (a) for the cystic duct, common hepatic duct and bile duct",
+    "figures": [
+     "24.16"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Bile is made continuously by hepatocytes (about a litre a day) and, between meals, is stored in the gallbladder, which absorbs water and concentrates it up to tenfold. Bile is mostly water carrying bile salts, cholesterol, lecithin (a phospholipid), the pigment bilirubin, and ions. Cholesterol is insoluble in water; it stays in solution only while bile salts and lecithin hold it in tiny clusters (micelles). If bile carries too much cholesterol or too few bile salts, cholesterol crystallises, and the concentrating gallbladder is where crystals grow into stones (cholesterol stones). When red-cell breakdown is excessive, bilirubin pigment stones form instead. Risk rises with age; oestrogen increases cholesterol secretion into bile and slows gallbladder emptying, which explains why women, pregnancy, obesity and the contraceptive pill raise risk. Stones are often silent, but one lodging in the cystic duct or bile duct causes severe pain, obstructive jaundice or pancreatitis. Treatment is dissolving drugs, shock-wave lithotripsy or removal of the gallbladder (cholecystectomy).",
+  "terms": [
+   {
+    "t": "Cholelithiasis",
+    "d": "Presence of stones (lith-) in the gallbladder (chole- = bile)."
+   },
+   {
+    "t": "Bile salts",
+    "d": "Detergent-like sodium/potassium salts of bile acids that emulsify fats and keep cholesterol dissolved."
+   },
+   {
+    "t": "Lecithin",
+    "d": "A phospholipid in bile that helps hold cholesterol in solution."
+   },
+   {
+    "t": "Bilirubin",
+    "d": "Yellow pigment from breakdown of haemoglobin, excreted in bile."
+   },
+   {
+    "t": "Precipitation",
+    "d": "A dissolved substance coming out of solution as solid crystals."
+   },
+   {
+    "t": "Cystic duct / bile duct",
+    "d": "Duct from the gallbladder / the duct it joins to reach the duodenum."
+   },
+   {
+    "t": "Estrogen",
+    "d": "Female sex hormone; raises cholesterol secretion into bile."
+   },
+   {
+    "t": "Cholecystectomy",
+    "d": "Surgical removal of the gallbladder."
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "title": "Jaundice",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder — Clinical Connection: Jaundice",
+    "book_pages": "969",
+    "pdf_pages": "985",
+    "capture": "p.969 right column, top: Clinical Connection box 'Jaundice', both paragraphs (start 'Jaundice (JAWN-dis = yellowed) is')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 19,
+    "section": "19.3",
+    "section_title": "Red Blood Cells — RBC Life Cycle (bilirubin formation and excretion)",
+    "book_pages": "705",
+    "pdf_pages": "721",
+    "capture": "p.705 top of page, numbered steps of the recycling list: steps 9–14 in the right column (start 'When iron is removed from heme'); Figure 19.5 on the same page",
+    "figures": [
+     "19.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.8",
+    "section_title": "Evaluation of Kidney Function — Table 26.6 (bilirubin, urobilinogen in urine)",
+    "book_pages": "1073",
+    "pdf_pages": "1089",
+    "capture": "p.1073 Table 26.6, rows 'Bilirubin' and 'Urobilinogen'",
+    "figures": [],
+    "tables": [
+     "26.6"
+    ]
+   }
+  ],
+  "basics": "Red cells live about 120 days; macrophages in spleen and liver then break them down, and the iron-free ring of haem is converted to bilirubin, a yellow pigment. Bilirubin travels in blood to the liver, where hepatocytes take it up, make it water-soluble (conjugation) and secrete it into bile; in the intestine bacteria turn it into brown stercobilin (the colour of faeces) and urobilinogen, some of which reaches the urine. If blood bilirubin rises (hyperbilirubinaemia) it stains the skin, mucous membranes and the whites of the eyes yellow: jaundice. The three classes say where the pipeline fails. Prehepatic: too much bilirubin is produced because red cells are destroyed too fast (haemolysis). Hepatic: damaged hepatocytes (hepatitis, cirrhosis) cannot take up, conjugate or secrete it. Posthepatic (obstructive): bile cannot drain because a gallstone or tumour blocks the ducts, so conjugated bilirubin backs into blood, giving dark urine and pale stools. Tortora calls the third type extrahepatic.",
+  "terms": [
+   {
+    "t": "Bilirubin",
+    "d": "Yellow breakdown product of haem, normally cleared by the liver into bile."
+   },
+   {
+    "t": "Heme",
+    "d": "The iron-containing ring of haemoglobin."
+   },
+   {
+    "t": "Hemolysis",
+    "d": "Rupture or destruction of red blood cells."
+   },
+   {
+    "t": "Hyperbilirubinemia",
+    "d": "Above-normal bilirubin concentration in the blood."
+   },
+   {
+    "t": "Conjugation",
+    "d": "Liver step that attaches a sugar acid to bilirubin, making it water-soluble for excretion."
+   },
+   {
+    "t": "Sclera",
+    "d": "The white outer coat of the eyeball."
+   },
+   {
+    "t": "Stercobilin / urobilinogen",
+    "d": "Intestinal breakdown products of bilirubin colouring faeces and urine."
+   },
+   {
+    "t": "Obstructive",
+    "d": "Caused by blockage of a duct."
+   }
+  ],
+  "note": "Tortora names the third category 'extrahepatic' (slide: 'posthepatic'). The same three categories are also defined in the chapter 19 Medical Terminology entry 'Jaundice', p.724 right column (pdf 740)."
+ },
+ {
+  "n": 16,
+  "title": "Hepatobiliary neoplasm",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Hepatitis (B and C leading to cirrhosis and liver cancer)",
+    "book_pages": "993",
+    "pdf_pages": "1009",
+    "capture": "p.993 right column, under 'Hepatitis': the 'Hepatitis B' paragraph (start 'Hepatitis B is caused by') and the 'Hepatitis C' paragraph that follows it",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 3,
+    "section": "Disorders: Homeostatic Imbalances (Cancer)",
+    "section_title": "Causes of Cancer — chronic inflammation (hepatitis, cirrhosis and liver cancer)",
+    "book_pages": "106",
+    "pdf_pages": "122",
+    "capture": "p.106 right column, paragraph starting 'Later in the book, we will discuss': the sentence on chronic hepatitis and cirrhosis causing about 80% of liver cancers",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Histology of the Liver — bile canaliculi and bile ducts; gallbladder",
+    "book_pages": "968,966",
+    "pdf_pages": "984,982",
+    "capture": "p.968 left column, item 2 'Bile canaliculi' (start 'Bile canaliculi (kan-a-LIK-ū-li = small canals)') tracing bile ductules, bile ducts, hepatic ducts, cystic duct and bile duct; Figure 24.17 (b) 'Portal triad: Bile duct'; p.966 right column paragraph on the gallbladder (start 'The gallbladder (gall- = bile)')",
+    "figures": [
+     "24.17"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.6",
+    "section_title": "Prenatal Diagnostic Tests — maternal alpha-fetoprotein (AFP) test",
+    "book_pages": "1182",
+    "pdf_pages": "1198",
+    "capture": "p.1182 right column, paragraph starting 'The first such test developed was the maternal alpha-fetoprotein (AFP) test' (AFP is a protein synthesised by the fetus)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A neoplasm is an abnormal, self-sustaining growth; benign ones (adenomas) stay put, malignant ones (carcinomas) invade and spread. The table lists tumours by the cell of origin in the liver and bile system. Liver cell adenoma: rare, benign, in young women taking the oestrogen-containing pill. Hepatocellular carcinoma: cancer of hepatocytes, almost always on a background of cirrhosis from hepatitis B or C or alcohol; common in Asia because hepatitis B is endemic there. The tumour reverts to making alpha-fetoprotein, a protein the fetal liver normally makes, so raised blood AFP is its marker. Cholangiocellular carcinoma: cancer of the epithelium lining the bile ducts (canaliculi to hepatic ducts), favoured by chronic duct inflammation (primary sclerosing cholangitis); its marker CEA is non-specific. Gallbladder carcinoma: from the gallbladder lining, driven by chronic irritation from gallstones, hence commoner in women. None of these tumours are described in Tortora; use the hepatitis, duct anatomy and AFP passages.",
+  "terms": [
+   {
+    "t": "Neoplasm",
+    "d": "A new, uncontrolled growth of cells; a tumour, benign or malignant."
+   },
+   {
+    "t": "Adenoma",
+    "d": "Benign tumour of glandular epithelium."
+   },
+   {
+    "t": "Hepatocellular",
+    "d": "Arising from hepatocytes, the liver's main cells."
+   },
+   {
+    "t": "Cholangio-",
+    "d": "Prefix meaning bile duct; cholangiocarcinoma is bile-duct cancer."
+   },
+   {
+    "t": "Tumour marker",
+    "d": "Substance released by a tumour into blood that helps detect or monitor it."
+   },
+   {
+    "t": "Alpha-fetoprotein (AFP)",
+    "d": "Protein made by the fetal liver; reappears in blood with liver cell cancer."
+   },
+   {
+    "t": "Carcinoembryonic antigen (CEA)",
+    "d": "Protein of fetal gut that many adult gut-derived cancers secrete; non-specific."
+   },
+   {
+    "t": "Sclerosing cholangitis",
+    "d": "Chronic inflammation and scarring that narrows the bile ducts."
+   },
+   {
+    "t": "Incidence",
+    "d": "Number of new cases in a population over a period."
+   }
+  ],
+  "note": "Liver cell adenoma, hepatocellular carcinoma, cholangiocarcinoma and gallbladder carcinoma are not described in Tortora 16e; the book only states that hepatitis B/C and cirrhosis can lead to liver cancer (p.993, p.106). AFP appears only as a prenatal test (p.1182); CEA is not in the book."
+ },
+ {
+  "n": 17,
+  "title": "Hepatocellular carcinoma",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 1,
+    "section": "1.7",
+    "section_title": "Medical Imaging — Table 1.3: Computed Tomography (CT)",
+    "book_pages": "24",
+    "pdf_pages": "40",
+    "capture": "p.24 Table 1.3 (continued), right-hand entry 'Computed Tomography (CT)': Procedure and Comments text and the CT image below it",
+    "figures": [],
+    "tables": [
+     "1.3"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder — Anatomy of the Liver",
+    "book_pages": "966,964",
+    "pdf_pages": "982,980",
+    "capture": "p.966 right column, first paragraph under '24.11 Liver and Gallbladder' (start 'The liver is the heaviest gland') giving its position, and the paragraph under 'Anatomy of the Liver and Gallbladder' (right and left lobes); p.964 Figure 24.16 (a)",
+    "figures": [
+     "24.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Hepatitis B and C (cirrhosis and liver cancer)",
+    "book_pages": "993",
+    "pdf_pages": "1009",
+    "capture": "p.993 right column, the 'Hepatitis B' and 'Hepatitis C' paragraphs",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A CT scan sweeps an X-ray beam around the body and computes a transverse slice; denser tissue appears brighter, and intravenous contrast makes blood-rich tissue light up. The liver is the large organ under the right dome of the diaphragm, filling the right hypochondriac region. In this slice it contains an irregular mass of mixed brightness ('heterogeneous'): living tumour, dead tissue and haemorrhage jumbled together, unlike the even grey of normal liver. Hepatocellular carcinoma usually grows in a cirrhotic liver, which itself may look shrunken and nodular, and it enhances brightly in the arterial phase of contrast because the tumour recruits arterial blood rather than portal blood. To orient yourself, find the vertebra and aorta at the back, the stomach and spleen on the left, and remember that by convention the patient's right side is on the viewer's left. This is a clinical image, not a Tortora figure.",
+  "terms": [
+   {
+    "t": "Computed tomography",
+    "d": "X-ray imaging reconstructed by computer into cross-sectional slices."
+   },
+   {
+    "t": "Heterogeneous",
+    "d": "Non-uniform; made of parts with different appearance or density."
+   },
+   {
+    "t": "Transverse (axial) section",
+    "d": "A horizontal slice dividing the body into upper and lower parts."
+   },
+   {
+    "t": "Right hypochondriac region",
+    "d": "Upper-right abdominal region beneath the ribs, occupied by the liver."
+   },
+   {
+    "t": "Contrast enhancement",
+    "d": "Brightening of vascular tissue after injection of an X-ray-dense dye."
+   }
+  ],
+  "note": "Tortora has no image or description of hepatocellular carcinoma; the CT is not from the book."
+ },
+ {
+  "n": 18,
+  "title": "Nephrotic & Nephritic syndrome",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Glomerular Diseases (glomerulonephritis, nephrotic syndrome)",
+    "book_pages": "1081",
+    "pdf_pages": "1097",
+    "capture": "p.1081, heading 'Glomerular Diseases' at the bottom of the left column: the intro sentence and the 'Glomerulonephritis' paragraph (start 'Glomerulonephritis (glō-mer′-ū-lō-ne-FRĪ-tis) is'), which runs over into the top of the right column; then the 'Nephrotic syndrome' paragraph in the right column (start 'Nephrotic syndrome (nef-ROT-ik) is')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Glomerular Filtration — The Filtration Membrane",
+    "book_pages": "1055-1056",
+    "pdf_pages": "1071-1072",
+    "capture": "p.1055 left column, paragraph under 'The Filtration Membrane' (start 'Together, the glomerular capillaries and') and the numbered items 1–3 in the right column (endothelial fenestrations, basement membrane, slit membrane); Figure 26.8 (a) on p.1055 and (b),(c) on p.1056",
+    "figures": [
+     "26.8"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Clinical Connection: Loss of Blood Plasma Proteins in Urine Causes Edema; azotemia, oliguria",
+    "book_pages": "1056,1081,1083",
+    "pdf_pages": "1072,1097,1099",
+    "capture": "p.1056 right column, bottom: Clinical Connection box 'Loss of Blood Plasma Proteins in Urine Causes Edema'; p.1081 right column, 'Renal Failure' first paragraph, the sentence defining oliguria; p.1083 Medical Terminology, left column first entry 'Azotemia'",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Each nephron filters blood through the glomerulus, a knot of capillaries, across a three-layer filtration membrane: fenestrated endothelium, a negatively charged basement membrane (repels proteins) and podocyte slit membranes (block medium-sized proteins). Normally water and small solutes pass but albumin and red cells do not. Nephrotic syndrome means the barrier has become leaky to protein without much inflammation: massive protein loss in urine lowers blood albumin, which lowers the plasma's colloid osmotic pressure, so fluid stays in the tissues (oedema); the liver responds by overproducing lipoproteins, raising blood cholesterol and lipids. Nephritic syndrome means the glomeruli are inflamed (glomerulonephritis, classically after a streptococcal throat infection): inflamed capillaries leak red cells (haematuria, 'smoky' urine) and a modest amount of protein; swelling and cell proliferation choke filtration, so nitrogenous waste accumulates in blood (azotaemia), urine output falls (oliguria) and retained salt and water raise blood pressure. 'Nephritic syndrome' as a term is not in Tortora; its features appear in the glomerulonephritis paragraph.",
+  "terms": [
+   {
+    "t": "Glomerulus",
+    "d": "Tuft of capillaries inside the renal corpuscle where blood is filtered."
+   },
+   {
+    "t": "Filtration membrane",
+    "d": "Endothelium, basement membrane and podocyte slits that together sieve the plasma."
+   },
+   {
+    "t": "Basement membrane",
+    "d": "Thin protein-and-glycoprotein sheet under an epithelium or endothelium."
+   },
+   {
+    "t": "Permeability",
+    "d": "How easily a membrane lets a substance through."
+   },
+   {
+    "t": "Proteinuria",
+    "d": "Protein (mainly albumin) in the urine."
+   },
+   {
+    "t": "Hypoalbuminemia",
+    "d": "Low blood albumin."
+   },
+   {
+    "t": "Colloid osmotic (oncotic) pressure",
+    "d": "Water-holding pull exerted by plasma proteins inside capillaries."
+   },
+   {
+    "t": "Edema",
+    "d": "Excess fluid in the interstitial spaces; swelling."
+   },
+   {
+    "t": "Hematuria",
+    "d": "Red blood cells in the urine."
+   },
+   {
+    "t": "Azotemia",
+    "d": "Raised nitrogenous waste (urea, creatinine) in the blood."
+   },
+   {
+    "t": "Oliguria",
+    "d": "Abnormally low urine output."
+   }
+  ],
+  "note": "Tortora describes nephrotic syndrome by name; 'nephritic syndrome' is not used, but haematuria, proteinuria and chronic renal failure are described under glomerulonephritis (p.1081). Hypertension as a feature is not mentioned there."
+ },
+ {
+  "n": 19,
+  "title": "Nephro/urolithiasis",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Renal Calculi",
+    "book_pages": "1081",
+    "pdf_pages": "1097",
+    "capture": "p.1081 left column, heading 'Renal Calculi' and its single paragraph (start 'The crystals of salts present in urine'), including lithotripsy",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Urine Transportation — Ureters (peristalsis); Hydronephrosis",
+    "book_pages": "1075,1083",
+    "pdf_pages": "1091,1099",
+    "capture": "p.1075 left column, first paragraph under 'Ureters' (start 'Each of the two ureters') on peristaltic contractions; p.1083 Medical Terminology, right column, entry 'Hydronephrosis' (obstruction by a kidney stone)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.8",
+    "section_title": "Evaluation of Kidney Function — urine solutes; Table 26.6 (hematuria)",
+    "book_pages": "1072-1073",
+    "pdf_pages": "1088-1089",
+    "capture": "p.1072 left column, second paragraph under 'Urinalysis' (start 'Water accounts for about 95%'): urea, creatinine, uric acid sources; p.1072 Table 26.5 row 'Color' (last sentence on kidney stones); p.1073 Table 26.6 row 'Red blood cells (erythrocytes)'",
+    "figures": [],
+    "tables": [
+     "26.5",
+     "26.6"
+    ]
+   }
+  ],
+  "basics": "Urine is water carrying wastes and ions close to their solubility limits. When urine is too concentrated (low water intake), too acidic or alkaline, or overloaded with one solute, crystals precipitate and grow into stones in the calyces or renal pelvis (nephrolithiasis) or lower down (urolithiasis). Calcium oxalate and phosphate stones are the majority, promoted by excess calcium and dehydration; ammonium magnesium phosphate (struvite) stones form in the alkaline urine produced by urease-making bacteria during infection; uric acid stones come from nucleic-acid breakdown; cystine stones from an inherited defect of amino-acid reabsorption. A stone scraping the urothelium bleeds, giving haematuria. The ureter is a narrow muscular tube that propels urine by peristalsis; when it contracts hard against a lodged stone, the waves of agonising loin-to-groin pain are renal colic. Complete blockage backs urine up and balloons the renal pelvis (hydronephrosis). Large stones are shattered by shock-wave lithotripsy. The percentages and the male predominance on the slide are not in Tortora.",
+  "terms": [
+   {
+    "t": "Calculus (pl. calculi)",
+    "d": "A stone formed by precipitated salts in a body cavity or duct."
+   },
+   {
+    "t": "Precipitation",
+    "d": "A dissolved solute crystallising out when its concentration exceeds solubility."
+   },
+   {
+    "t": "Calcium oxalate",
+    "d": "Insoluble calcium salt of oxalic acid; the commonest stone material."
+   },
+   {
+    "t": "Struvite",
+    "d": "Ammonium magnesium phosphate; forms in infected, alkaline urine."
+   },
+   {
+    "t": "Uric acid",
+    "d": "End product of purine (nucleic acid) breakdown, poorly soluble in acid urine."
+   },
+   {
+    "t": "Cystine",
+    "d": "An amino acid that precipitates when a rare inherited defect stops its reabsorption."
+   },
+   {
+    "t": "Ureter",
+    "d": "Muscular tube carrying urine from renal pelvis to bladder by peristalsis."
+   },
+   {
+    "t": "Colic",
+    "d": "Severe cramping pain in waves from a hollow organ contracting against a blockage."
+   },
+   {
+    "t": "Hydronephrosis",
+    "d": "Swelling of the renal pelvis and calyces from obstructed urine flow."
+   },
+   {
+    "t": "Lithotripsy",
+    "d": "Breaking a stone into fragments with focused shock waves."
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "title": "Renal neoplasia",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Urinary Bladder Cancer",
+    "book_pages": "1083",
+    "pdf_pages": "1099",
+    "capture": "p.1083 left column, heading 'Urinary Bladder Cancer' and its three paragraphs (start 'Each year, nearly 12,000 Americans')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Anatomy of the Kidneys — calyces, renal pelvis and urothelium; ureter wall",
+    "book_pages": "1047,1075",
+    "pdf_pages": "1063,1091",
+    "capture": "p.1047 left column, the paragraph continuing from p.1046 (start 'fluid) formed by the nephrons drains'): minor and major calyces, urothelium, renal pelvis; Figure 26.3 on p.1046; p.1075 right column, paragraph starting 'Three layers of tissue form the wall of the ureters' (urothelium = transitional epithelium)",
+    "figures": [
+     "26.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.11",
+    "section_title": "Development of the Urinary System — metanephros (for nephroblastoma)",
+    "book_pages": "1079",
+    "pdf_pages": "1095",
+    "capture": "p.1079 right column, paragraph starting 'At about the fifth week, a mesodermal outgrowth, called a ureteric bud': the ureteric bud forms collecting ducts, calyces, pelvis and ureter; metanephric mesoderm forms nephrons",
+    "figures": [
+     "26.23"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Tumours are named for the cell they arise from, so kidney tumours map onto kidney development and structure. The kidney forms from two embryonic tissues: metanephric mesoderm, which becomes the nephrons, and the ureteric bud, which becomes collecting ducts, calyces, renal pelvis and ureter. Wilms tumour (nephroblastoma) is a cancer of young children made of leftover embryonic nephron-forming cells; it is associated with loss of the WT1/WT2 genes on chromosome 11. Renal cell carcinoma, the commonest adult kidney cancer, arises from tubular epithelium; most cases have lost the VHL tumour-suppressor gene on the short arm of chromosome 3 (3p), whose product normally restrains signals for blood-vessel growth, so these tumours are very vascular. Transitional cell (urothelial) carcinoma arises from urothelium, the stretchable transitional epithelium lining the entire urine-conducting path from the calyces through pelvis, ureter and bladder to the urethra, so it can occur, often at several sites, anywhere along that tract; smoking and aromatic amines are the main causes.",
+  "terms": [
+   {
+    "t": "Neoplasia",
+    "d": "New, uncontrolled growth of cells forming a tumour."
+   },
+   {
+    "t": "Nephroblastoma",
+    "d": "Embryonal tumour of immature kidney tissue in children (Wilms tumour)."
+   },
+   {
+    "t": "Tumour suppressor gene",
+    "d": "Gene whose normal product restrains cell division; loss of both copies permits cancer."
+   },
+   {
+    "t": "Deletion / mutation",
+    "d": "Loss of a stretch of DNA / a change in DNA sequence."
+   },
+   {
+    "t": "3p",
+    "d": "The short (p) arm of chromosome 3."
+   },
+   {
+    "t": "Renal cell",
+    "d": "Epithelial cell of the kidney tubule."
+   },
+   {
+    "t": "Urothelium (transitional epithelium)",
+    "d": "Stretchable multilayered epithelium lining renal pelvis, ureters, bladder and urethra."
+   },
+   {
+    "t": "Renal pelvis",
+    "d": "Funnel-shaped chamber inside the kidney collecting urine from the calyces into the ureter."
+   }
+  ],
+  "note": "Wilms tumour and renal cell carcinoma are not in Tortora 16e; only urinary bladder cancer is described (p.1083). Table 1.3 (p.24, CT entry) mentions CT screening for kidney cancers."
+ },
+ {
+  "n": 21,
+  "title": "Urothelial carcinoma",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Urinary Bladder — Anatomy and Histology (trigone, ureteral openings, urothelium)",
+    "book_pages": "1076,1075",
+    "pdf_pages": "1092,1091",
+    "capture": "p.1076 right column, paragraph under 'Anatomy and Histology of the Urinary Bladder' (start 'In the floor of the urinary bladder is a small triangular area called the trigone') and the next paragraph on the three coats (urothelium); p.1075 Figure 26.21, labels 'Ureteral openings', 'Trigone', 'Internal urethral orifice'",
+    "figures": [
+     "26.21"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Urinary Bladder Cancer; Cystoscopy",
+    "book_pages": "1083",
+    "pdf_pages": "1099",
+    "capture": "p.1083 left column, 'Urinary Bladder Cancer' (three paragraphs); p.1083 right column, 'Cystoscopy' paragraph and the drawing 'Male cystoscopy' beneath it",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The image shows a growth on the inner surface of the bladder beside the opening of the right ureter. Orientation: the bladder floor has a smooth triangle, the trigone, with the two ureteral openings at its back corners and the internal urethral opening at the front; the ureters tunnel obliquely through the wall so a filling bladder pinches them shut. The bladder is lined by urothelium, so a tumour here is a urothelial (transitional cell) carcinoma. About three-quarters are confined to the epithelium and are shaved off through a cystoscope, a lighted tube passed up the urethra, which is also how a view like this is obtained. Painless blood in the urine is the usual first sign; smoking and industrial aromatic amines are the main causes. A tumour sitting on a ureteral orifice can block it and cause hydronephrosis of that kidney. This is a clinical (cystoscopic or CT) image, not a Tortora figure.",
+  "terms": [
+   {
+    "t": "Trigone",
+    "d": "Smooth triangular area of the bladder floor between the two ureteral openings and the urethral opening."
+   },
+   {
+    "t": "Ureteral orifice",
+    "d": "Opening of a ureter into the bladder."
+   },
+   {
+    "t": "Urothelium",
+    "d": "Transitional epithelium lining the urinary tract; source of urothelial carcinoma."
+   },
+   {
+    "t": "Cystoscopy",
+    "d": "Direct inspection of the bladder lining through an instrument passed up the urethra."
+   },
+   {
+    "t": "Neoplasm",
+    "d": "A tumour; abnormal uncontrolled growth."
+   }
+  ],
+  "note": "The slide image is not from Tortora; the closest figure is 26.21 (bladder interior) and the cystoscopy drawing on p.1083."
+ },
+ {
+  "n": 22,
+  "title": "Testicular cancer",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Genital System Disorders in Males — Testicular Cancer",
+    "book_pages": "1150",
+    "pdf_pages": "1166",
+    "capture": "p.1150 right column, heading 'Genital System Disorders in Males', paragraph 'Testicular Cancer' (start 'Testicular cancer is the most common')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Male Genital System — Testes: seminiferous tubules, spermatogonia, nurse cells, interstitial (Leydig) cells",
+    "book_pages": "1109-1111",
+    "pdf_pages": "1125-1127",
+    "capture": "p.1109 below Figure 28.2: left column paragraph starting 'The seminiferous tubules contain two types of cells' (spermatogonia derived from primordial germ cells) and the right column paragraph starting 'Embedded among the spermatogonia' (nurse/Sertoli cells); p.1111 left column, paragraph starting 'In the spaces between adjacent seminiferous tubules' (interstitial endocrine/Leydig cells); Figure 28.4 at the top of p.1111",
+    "figures": [
+     "28.4"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Clinical Connection: Cryptorchidism (risk factor)",
+    "book_pages": "1111",
+    "pdf_pages": "1127",
+    "capture": "p.1111 right column, Clinical Connection box 'Cryptorchidism' (one paragraph, start 'The condition in which the testes do not descend')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.7",
+    "section_title": "Maternal Changes During Pregnancy — Hormones of Pregnancy (hCG)",
+    "book_pages": "1183",
+    "pdf_pages": "1199",
+    "capture": "p.1183 right column, first paragraph (start 'From the third month through'): the chorion secretes human chorionic gonadotropin; Figure 29.16 (a)",
+    "figures": [
+     "29.16"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The testis has two compartments. Inside the seminiferous tubules, germ cells (spermatogonia, derived from primordial germ cells) mature through spermatocytes to sperm, supported by Sertoli (nurse) cells. Between the tubules, interstitial Leydig cells make testosterone. Tumours follow this layout. Over 95% are germ cell tumours from spermatogonia, mostly in men aged 15–40; they begin as abnormal germ cells still confined within the tubules (intratubular germ cell neoplasia) and are grouped as seminoma (uniform cells resembling primitive germ cells, very radiosensitive) or nonseminoma (embryonal carcinoma, yolk-sac tumour, teratoma, choriocarcinoma, often mixed). Sex cord–stromal tumours from Sertoli or Leydig cells are rare and may secrete hormones. Some germ cell tumours make hCG, the hormone the placenta normally produces, or AFP, so these serve as blood markers for diagnosis and follow-up. An undescended testis raises the risk 30–50-fold. The usual presentation is a painless lump; monthly self-examination is the screening method, and cure rates are high.",
+  "terms": [
+   {
+    "t": "Germ cell",
+    "d": "A cell of the line that produces gametes (sperm or oocytes)."
+   },
+   {
+    "t": "Seminiferous tubule",
+    "d": "Coiled tubule in the testis where sperm are made."
+   },
+   {
+    "t": "Spermatogonium",
+    "d": "Stem cell of sperm production lying on the tubule's basement membrane."
+   },
+   {
+    "t": "Sex cord–stromal",
+    "d": "The supporting and hormone-making cells of the gonad (Sertoli, Leydig; granulosa, theca)."
+   },
+   {
+    "t": "Seminoma",
+    "d": "Germ cell tumour of uniform primitive-looking cells; radiosensitive."
+   },
+   {
+    "t": "Intratubular",
+    "d": "Confined within the seminiferous tubules, not yet invasive."
+   },
+   {
+    "t": "Human chorionic gonadotropin (hCG)",
+    "d": "Placental hormone; produced ectopically by some germ cell tumours."
+   },
+   {
+    "t": "Cryptorchidism",
+    "d": "Failure of a testis to descend into the scrotum."
+   }
+  ],
+  "note": "The seminoma/nonseminoma classification and sex cord–stromal tumours are not in Tortora; the book's paragraph gives origin (spermatogonia), age group and self-examination."
+ },
+ {
+  "n": 23,
+  "title": "Prostate cancer",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Genital System Disorders in Males — Prostate Disorders (prostate cancer)",
+    "book_pages": "1150",
+    "pdf_pages": "1166",
+    "capture": "p.1150 right column, under 'Prostate Disorders': the third paragraph (start 'Prostate cancer is the leading cause'), covering PSA, digital rectal exam and treatment",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Accessory Male Genital Glands — Prostate (PSA in prostatic fluid)",
+    "book_pages": "1117-1118",
+    "pdf_pages": "1133-1134",
+    "capture": "p.1117 right column, paragraph 'Prostate' (start 'The prostate (PROS-tāt; prostata = one who stands before)') and the following paragraph on prostatic fluid (start 'The prostate secretes prostatic fluid'), which runs over to the top of p.1118 left column; Figure 28.9 on p.1116",
+    "figures": [
+     "28.9"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.7",
+    "section_title": "Aging and the Genital Systems — benign prostatic hyperplasia (the benign differential)",
+    "book_pages": "1150",
+    "pdf_pages": "1166",
+    "capture": "p.1150 left column, paragraph starting 'Enlargement of the prostate to two to four times' (BPH and its urinary symptoms)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The prostate is a walnut-sized gland beneath the bladder that wraps around the first part of the urethra and contributes about a quarter of the semen, including PSA, a protease that liquefies clotted semen. Prostate adenocarcinoma arises from the glandular epithelium, usually in the outer (peripheral) zone at the back of the gland, so unlike benign enlargement of the central zone it seldom obstructs urine flow early; that is why it is 'clinically silent'. Risk climbs steeply with age, and with family history, a high-fat diet and ancestry (lowest in East Asians). A little PSA normally leaks into blood; cancer, benign enlargement and prostatitis all raise it, so PSA is a sensitive but non-specific screening test, complemented by digital rectal examination through the rectal wall. The cancer spreads by lymph and blood, characteristically to bone (spine, pelvis) and lymph nodes. Many tumours grow slowly, so in older men 'watchful waiting' can be preferable to surgery, radiotherapy.",
+  "terms": [
+   {
+    "t": "Prostate",
+    "d": "Doughnut-shaped gland below the bladder surrounding the prostatic urethra."
+   },
+   {
+    "t": "Adenocarcinoma",
+    "d": "Malignant tumour of glandular epithelium."
+   },
+   {
+    "t": "Prostatic urethra",
+    "d": "The segment of the urethra passing through the prostate."
+   },
+   {
+    "t": "Prostate-specific antigen (PSA)",
+    "d": "Protein-digesting enzyme made only by prostate epithelium; measurable in blood."
+   },
+   {
+    "t": "Digital rectal examination",
+    "d": "Feeling the prostate with a gloved finger through the rectal wall."
+   },
+   {
+    "t": "Clinically silent",
+    "d": "Producing no symptoms or signs."
+   },
+   {
+    "t": "Metastasis",
+    "d": "Spread of cancer cells to distant organs via lymph or blood."
+   },
+   {
+    "t": "Benign prostatic hyperplasia",
+    "d": "Non-cancerous enlargement of the prostate with age that narrows the urethra."
+   }
+  ]
+ },
+ {
+  "n": 24,
+  "title": "Leiomyoma",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "Medical Terminology",
+    "section_title": "Fibroids; Menorrhagia",
+    "book_pages": "1156",
+    "pdf_pages": "1172",
+    "capture": "p.1156 left column, entry 'Fibroids' (start 'Fibroids (FĪ-broyds; fibro- = fiber'), 6 lines; p.1156 right column, entry 'Menorrhagia'",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Female Genital System — Histology of the Uterus (myometrium)",
+    "book_pages": "1130-1131",
+    "pdf_pages": "1146-1147",
+    "capture": "p.1130 left column, heading 'Histology of the Uterus', first paragraph (start 'Histologically, the uterus consists of three layers') and the second paragraph on the myometrium (start 'The middle layer of the uterus is the muscular layer called the myometrium'); p.1131 Figure 28.18",
+    "figures": [
+     "28.18"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Anatomy of the Uterus (relation to bladder and rectum); Clinical Connection: Hysterectomy",
+    "book_pages": "1129,1132",
+    "pdf_pages": "1145,1148",
+    "capture": "p.1129 left column, paragraph starting 'Normally, the body of the uterus projects anteriorly' (position over the bladder); p.1132 left column, Clinical Connection box 'Hysterectomy' (start 'Hysterectomy (his-ter-EK-tō-mē; hyster- = uterus)'), which lists fibroids as an indication",
+    "figures": [
+     "28.16"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The uterine wall has three layers: an outer serous coat (perimetrium), a thick middle coat of smooth muscle (myometrium) and the inner lining (endometrium). A leiomyoma, or fibroid, is a benign tumour: a firm, well-circumscribed ball of smooth muscle and fibrous tissue growing within the myometrium, sometimes several at once. Fibroid cells carry oestrogen receptors, so they appear only after puberty, enlarge in pregnancy and with high oestrogen, and shrink after the menopause when oestrogen falls. They are extremely common. Symptoms depend on size and position: a bulky uterus feels heavy and presses forward on the bladder (urinary urgency and frequency) and backward on the rectum (constipation), and fibroids that distort the endometrial cavity cause heavy, prolonged periods (menorrhagia) and iron-deficiency anaemia. Being benign they do not invade or metastasise, and malignant change is very rare. Treatment ranges from nothing, to hormone-lowering drugs, to removal of the fibroids or of the uterus (hysterectomy) when symptoms demand.",
+  "terms": [
+   {
+    "t": "Leiomyoma",
+    "d": "Benign tumour of smooth muscle (leio- = smooth, myo- = muscle, -oma = tumour)."
+   },
+   {
+    "t": "Myometrium",
+    "d": "The thick smooth-muscle middle layer of the uterine wall."
+   },
+   {
+    "t": "Benign",
+    "d": "A tumour that grows locally, does not invade or spread, and is not cancer."
+   },
+   {
+    "t": "Smooth muscle",
+    "d": "Involuntary, non-striated muscle of hollow organs and vessels."
+   },
+   {
+    "t": "Estrogen",
+    "d": "Ovarian hormone that stimulates growth of the uterus and its tumours."
+   },
+   {
+    "t": "Menopause",
+    "d": "Permanent end of menstrual cycles, when ovarian oestrogen output falls."
+   },
+   {
+    "t": "Menorrhagia",
+    "d": "Excessively heavy or prolonged menstrual bleeding."
+   },
+   {
+    "t": "Hysterectomy",
+    "d": "Surgical removal of the uterus."
+   }
+  ],
+  "note": "Tortora uses the lay name 'fibroids' (p.1156); 'leiomyoma' does not appear. The 20% prevalence figure is not in the book."
+ },
+ {
+  "n": 25,
+  "title": "Cervical cancer",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Genital System Disorders in Females — Ovarian and Cervical Cancer (cervical cancer)",
+    "book_pages": "1153",
+    "pdf_pages": "1169",
+    "capture": "p.1153 right column, the paragraph starting 'Cervical cancer is a carcinoma of the cervix' (cervical dysplasia, Pap test, HPV, vaccines, treatment)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 4,
+    "section": "4.4",
+    "section_title": "Epithelial Tissue — Clinical Connection: Papanicolaou Test",
+    "book_pages": "124",
+    "pdf_pages": "140",
+    "capture": "p.124 left column, Clinical Connection box 'Papanicolaou Test' (one paragraph, start 'A Papanicolaou test (pa-pa-NI-kō-lō), also called')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 3,
+    "section": "Disorders: Homeostatic Imbalances (Cancer)",
+    "section_title": "Causes of Cancer — Oncogenic Viruses (HPV and p53)",
+    "book_pages": "106",
+    "pdf_pages": "122",
+    "capture": "p.106 left column, paragraph under 'Oncogenic Viruses' (start 'Some cancers have a viral origin'): HPV causes virtually all cervical cancers by destroying p53",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Anatomy of the Uterus (cervix, cervical canal)",
+    "book_pages": "1128-1129",
+    "pdf_pages": "1144-1145",
+    "capture": "p.1128 right column, paragraph under 'Anatomy of the Uterus' (start 'Situated between the urinary bladder and the rectum'): fundus, body, cervix, cervical canal, internal and external os; p.1129 Figure 28.16",
+    "figures": [
+     "28.16"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The cervix is the narrow neck of the uterus that projects into the vagina. Its outer surface is covered by nonkeratinized stratified squamous epithelium and its canal by mucus-secreting columnar epithelium; the two meet at the transformation zone, where most cancers start. Human papillomavirus, spread by sexual contact, infects these cells and makes proteins that destroy p53 and Rb, the cell's brakes on division. Most infections are cleared, but persistent infection with high-risk types produces progressively disordered growth (dysplasia, graded CIN 1–3) that over years can become invasive cancer, about 80% squamous cell carcinoma and most of the rest adenocarcinoma from the canal. Because progression is slow and the cervix is easy to reach, scraping cells for a Pap smear catches precancer, and HPV vaccination prevents most cases. Smoking and immunodeficiency (e.g. HIV) impair viral clearance and raise risk. Symptoms, when they come, are abnormal bleeding, bleeding after intercourse, or discharge. Tortora gives no age peak or histological percentages.",
+  "terms": [
+   {
+    "t": "Cervix",
+    "d": "The lower, narrow part of the uterus opening into the vagina."
+   },
+   {
+    "t": "Squamous cell carcinoma",
+    "d": "Cancer of flat, layered surface epithelium."
+   },
+   {
+    "t": "Dysplasia",
+    "d": "Disordered growth and maturation of cells; a precancerous change."
+   },
+   {
+    "t": "Invasive",
+    "d": "Having broken through the basement membrane into underlying tissue."
+   },
+   {
+    "t": "Human papillomavirus (HPV)",
+    "d": "DNA virus whose high-risk types cause cervical and other cancers."
+   },
+   {
+    "t": "Pap test",
+    "d": "Microscopic examination of cells scraped from the cervix to detect precancer."
+   },
+   {
+    "t": "Immunodeficiency",
+    "d": "Weakened immune defence, e.g. from HIV or drugs."
+   },
+   {
+    "t": "Transformation zone",
+    "d": "Ring where squamous and columnar epithelia of the cervix meet; site of most cancers."
+   }
+  ]
+ },
+ {
+  "n": 26,
+  "title": "Ovarian tumors",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Female Genital System — Ovaries: Histology of the Ovary",
+    "book_pages": "1122,1124",
+    "pdf_pages": "1138,1140",
+    "capture": "p.1122 left column, heading 'Histology of the Ovary' and the bulleted list (ovarian mesothelium/surface epithelium, tunica albuginea, cortex with stromal cells, medulla, follicles with oocytes and granulosa cells, corpus luteum), which continues in the right column; p.1124 Figure 28.13 (a)",
+    "figures": [
+     "28.13"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Ovarian and Cervical Cancer (ovarian cancer)",
+    "book_pages": "1153",
+    "pdf_pages": "1169",
+    "capture": "p.1153, heading 'Ovarian and Cervical Cancer' at the foot of the left column: the ovarian cancer paragraph (start 'Even though ovarian cancer is the sixth'), which runs over into the top of the right column",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Clinical Connection: Ovarian Cysts; Medical Terminology: Ovarian cyst",
+    "book_pages": "1126,1156",
+    "pdf_pages": "1142,1172",
+    "capture": "p.1126 right column, lower half: Clinical Connection box 'Ovarian Cysts' (one paragraph, start 'Ovarian cysts are fluid-filled sacs'); p.1156 right column, entry 'Ovarian cyst'",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The ovary is built from three tissue types, and each gives its own family of tumours. (1) A single layer of simple epithelium (the ovarian mesothelium) covers the surface: surface epithelial tumours, the commonest group, grow as fluid-filled cysts and are called serous when the lining resembles the uterine tube and the fluid is thin and watery, or mucinous when the lining resembles the cervix and secretes thick mucus; they range from benign cystadenoma to cystadenocarcinoma. (2) The oocytes are germ cells: germ cell tumours, typically in young women, can differentiate into any tissue, so a mature cystic teratoma may contain skin, hair, teeth and fat, or into yolk-sac or placental tissue that secretes AFP or hCG. (3) The cortical stroma and follicle cells (granulosa and theca) are the hormone-producing sex cord–stromal component: their tumours secrete oestrogen (causing abnormal bleeding) or androgen (causing virilisation). Tortora covers ovarian histology, ovarian cysts and ovarian cancer risk factors, but not this three-way classification.",
+  "terms": [
+   {
+    "t": "Surface epithelium (ovarian mesothelium)",
+    "d": "The single cell layer covering the ovary; source of most ovarian cancers."
+   },
+   {
+    "t": "Serous",
+    "d": "Producing thin, watery fluid like serum."
+   },
+   {
+    "t": "Mucinous",
+    "d": "Producing thick mucus."
+   },
+   {
+    "t": "Cystic",
+    "d": "Forming a fluid-filled sac."
+   },
+   {
+    "t": "Germ cell",
+    "d": "Oocyte lineage cell able to give rise to any tissue when it forms a tumour."
+   },
+   {
+    "t": "Teratoma",
+    "d": "Germ cell tumour containing tissues of several types, e.g. hair, teeth, skin."
+   },
+   {
+    "t": "Stroma",
+    "d": "The connective-tissue framework of an organ, here the ovarian cortex around the follicles."
+   },
+   {
+    "t": "Sex cord",
+    "d": "Embryonic cell cords that become granulosa/Sertoli and theca/Leydig cells."
+   },
+   {
+    "t": "Granulosa cells",
+    "d": "Layered cells around the oocyte in a follicle that secrete oestrogens."
+   }
+  ],
+  "note": "The surface-epithelial / germ-cell / sex cord–stromal classification, and serous vs mucinous tumours, are not in Tortora; the book's ovarian cancer paragraph (p.1153) lists risk factors and symptoms only."
+ },
+ {
+  "n": 27,
+  "title": "Ovarian serous cystadenocarcinoma / Cystic teratoma",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Histology of the Ovary — Figure 28.13 and the ovary's position",
+    "book_pages": "1124,1123",
+    "pdf_pages": "1140,1139",
+    "capture": "p.1124 Figure 28.13 (a) coronal section of the ovary (surface mesothelium, cortex, follicles); p.1123 Figure 28.12 'Superior view of transverse section' showing the ovaries lateral to the uterus and behind the bladder",
+    "figures": [
+     "28.13",
+     "28.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Ovarian and Cervical Cancer (ovarian cancer)",
+    "book_pages": "1153",
+    "pdf_pages": "1169",
+    "capture": "p.1153, the ovarian cancer paragraph beginning at the foot of the left column (start 'Even though ovarian cancer is the sixth') and finishing at the top of the right column",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 1,
+    "section": "1.7",
+    "section_title": "Medical Imaging — Table 1.3: Computed Tomography (CT)",
+    "book_pages": "24",
+    "pdf_pages": "40",
+    "capture": "p.24 Table 1.3 (continued), right-hand entry 'Computed Tomography (CT)'",
+    "figures": [],
+    "tables": [
+     "1.3"
+    ]
+   }
+  ],
+  "basics": "Two CT slices through the pelvis showing ovarian masses. A serous cystadenocarcinoma appears as a large, mostly fluid-density (dark) cystic mass with irregular solid parts and internal walls (septa) that brighten with contrast; it is often bilateral and accompanied by ascites, free fluid in the peritoneal cavity, because surface-epithelial tumours shed cells that seed the peritoneum. A mature cystic teratoma (dermoid cyst) is a germ cell tumour recognisable on CT because it contains fat (very dark, like the subcutaneous fat) together with calcification or even teeth (very bright), the tissues its germ cells have differentiated into; calcification here is a reassuring sign of a benign dermoid. For orientation, find the fluid-filled bladder at the front, the uterus behind it and the rectum behind that; the ovaries normally lie to either side of the uterus. The book has no matching figure; use the ovary histology figure and the ovarian cancer paragraph.",
+  "terms": [
+   {
+    "t": "Cystadenocarcinoma",
+    "d": "Malignant glandular tumour growing as a cyst."
+   },
+   {
+    "t": "Teratoma (dermoid cyst)",
+    "d": "Germ cell tumour containing mature tissues such as skin, hair, teeth and fat."
+   },
+   {
+    "t": "Calcification",
+    "d": "Deposition of calcium salts in tissue; very bright on X-ray and CT."
+   },
+   {
+    "t": "Ascites",
+    "d": "Abnormal accumulation of fluid in the peritoneal cavity."
+   },
+   {
+    "t": "Septum (pl. septa)",
+    "d": "A partition wall inside a cyst or organ."
+   }
+  ],
+  "note": "Teratoma is not in Tortora 16e, and the CT images are not from the book."
+ }
+]

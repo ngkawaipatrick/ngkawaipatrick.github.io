@@ -1,0 +1,152 @@
+[
+  {
+    "n": 1,
+    "title": "Right wrist - Carpal Bones",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 8,
+        "section": "8.2",
+        "section_title": "Upper Limb (Extremity)",
+        "book_pages": "247-249",
+        "pdf_pages": "263-265",
+        "capture": "p.247 right column, under the heading 'Skeleton of the Hand—Carpals, Metacarpals, and Phalanges' and the run-in sub-heading 'Carpals': the paragraph starting 'The carpus (wrist) is the' plus its four bullets (proximal row), then the paragraph starting 'Two of the bones of' plus its first two bullets (trapezium, trapezoid). The bullet list runs over the page break: p.248, bottom strip below Figure 8.5, left column (bullets 'capitate' and 'hamate', then the paragraph 'The capitate is the largest') continuing into the right column (scaphoid-fracture sentences, then the paragraph 'The anterior concave space'), and finishes on p.249 in the four-line strip under Figure 8.6 (left column: carpal tunnel; right column: carpal tunnel syndrome).",
+        "figures": [],
+        "tables": []
+      },
+      {
+        "chapter": 8,
+        "section": "8.2",
+        "section_title": "Upper Limb (Extremity)",
+        "book_pages": "250",
+        "pdf_pages": "266",
+        "capture": "p.250 whole page: Figure 8.7 'Right wrist and hand in relation to the ulna and radius', parts (a) anterior view and (b) posterior view, and the MNEMONIC box under the figure that lists the eight carpals as proximal row then distal row, lateral to medial.",
+        "figures": ["8.7"],
+        "tables": []
+      },
+      {
+        "chapter": 8,
+        "section": "8.2",
+        "section_title": "Upper Limb (Extremity)",
+        "book_pages": "251",
+        "pdf_pages": "267",
+        "capture": "p.251 left column, very top (first paragraph on the page, above the run-in heading 'Metacarpals'): one paragraph starting 'There is a useful mnemonic' explaining how the mnemonic maps onto the carpal names.",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "The hand is built in three tiers: the wrist (carpals), the palm (metacarpals) and the fingers (phalanges). The wrist is not one hinge but a cluster of eight small, roughly cube-shaped bones packed in two rows of four and lashed together by ligaments, so wrist motion is the sum of many small slides between bones. Names are read with the hand in anatomical position (palm forward, thumb outward), so 'lateral' means the thumb side and each row is listed thumb-to-little-finger. The proximal row sits against the forearm; of its four bones only the scaphoid and lunate actually meet the radius to form the wrist joint proper, and the ulna is kept off the carpals by a fibrocartilage disc. The distal row meets the metacarpals. Each name is a shape: boat, moon, three-cornered, pea, four-sided figures, head-shaped, hooked. The slide leaves unsaid that the scaphoid is the bone that most often breaks in a fall, because load passes capitate to scaphoid to radius.",
+    "terms": [
+      {"t": "Carpus", "d": "The wrist region of the hand, made of the eight carpal bones."},
+      {"t": "Proximal / distal", "d": "Nearer to / farther from the point where the limb joins the trunk."},
+      {"t": "Lateral / medial (in the hand)", "d": "In anatomical position, lateral is the thumb side, medial the little-finger side."},
+      {"t": "Ligament", "d": "A tough band of fibrous connective tissue tying bone to bone across a joint."},
+      {"t": "Articulation", "d": "A joint: any place where two bones meet, whether or not they move."},
+      {"t": "Intercarpal joint", "d": "A joint between two neighbouring carpal bones."},
+      {"t": "Radiocarpal joint", "d": "The true wrist joint: the distal radius meeting the scaphoid and lunate."},
+      {"t": "Radius / ulna", "d": "The two forearm bones; radius on the thumb side, ulna on the little-finger side."},
+      {"t": "Mnemonic", "d": "A memory sentence whose initial letters stand for the items to be recalled, in order."}
+    ],
+    "note": "The slide's mnemonic ('She Looks Too Pretty, Try To Catch Her') is not the book's; Tortora's Figure 8.7 uses 'Stop Letting Those People Touch The Cadaver's Hand' for the same order (scaphoid, lunate, triquetrum, pisiform; trapezium, trapezoid, capitate, hamate). The slide misspells capitate as 'Captitate'."
+  },
+  {
+    "n": 2,
+    "title": "Right wrist - Carpal Bones",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 8,
+        "section": "8.2",
+        "section_title": "Upper Limb (Extremity)",
+        "book_pages": "250",
+        "pdf_pages": "266",
+        "capture": "p.250 whole page: Figure 8.7 'Right wrist and hand in relation to the ulna and radius'. The slide reproduces part (a), the anterior (palmar) view, with the carpals abbreviated S, L, T, P, Tm, Td, C, H; also take the MNEMONIC box under the figure and the Clinical Connection 'Boxer's Fracture' box at lower left.",
+        "figures": ["8.7"],
+        "tables": []
+      },
+      {
+        "chapter": 8,
+        "section": "8.2",
+        "section_title": "Upper Limb (Extremity)",
+        "book_pages": "247-249",
+        "pdf_pages": "263-265",
+        "capture": "p.247 right column, run-in sub-heading 'Carpals': paragraph starting 'The carpus (wrist) is the' with its bullets, then paragraph 'Two of the bones of' with its bullets; continues over the page break to p.248 bottom strip below Figure 8.5 (left column: bullets 'capitate', 'hamate' and paragraph 'The capitate is the largest'; right column: scaphoid fracture and the paragraph 'The anterior concave space' describing the carpal tunnel walls formed by pisiform, hamate, scaphoid and trapezium), ending in the four-line strip under Figure 8.6 on p.249 (both columns).",
+        "figures": [],
+        "tables": []
+      },
+      {
+        "chapter": 8,
+        "section": "8.2",
+        "section_title": "Upper Limb (Extremity)",
+        "book_pages": "251",
+        "pdf_pages": "267",
+        "capture": "p.251 left column, run-in heading 'Metacarpals' (second paragraph on the page): two paragraphs starting 'The metacarpus (meta- = beyond)' and 'Each metacarpal bone consists'; the second names the carpometacarpal joints that the slide labels.",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "This is the palm-side (anterior) view of a right hand, so the radius and thumb are on the left of the picture and the little-finger side on the right. Read the rows from the radius outward: proximal row scaphoid, lunate, triquetrum, with the pea-shaped pisiform sitting on the front face of the triquetrum, which is why it stands out from this side; distal row trapezium, trapezoid, capitate, hamate. The capitate is the largest carpal and its rounded head fits into the lunate. The hook of the hamate and the pisiform on one side, and the scaphoid and trapezium on the other, form the raised walls of a shallow trough on the palm; a fibrous band roofs it to make the carpal tunnel, through which the finger-flexing tendons and the median nerve pass. The line labelled carpometacarpal joint is where the distal row meets the bases of the five metacarpals. Unsaid: the thumb's joint with the trapezium is what lets it swing across the palm.",
+    "terms": [
+      {"t": "Anterior view (of the hand)", "d": "Looking at the palm side; in anatomical position the palm faces forward."},
+      {"t": "Hook of hamate", "d": "A hook-shaped projection on the front of the hamate; a landmark on the little-finger side of the palm."},
+      {"t": "Carpometacarpal joint", "d": "Joint between a distal-row carpal bone and the base of a metacarpal bone."},
+      {"t": "Metacarpal", "d": "One of the five long bones of the palm, between the wrist and the fingers."},
+      {"t": "Base / body / head (of a long bone)", "d": "Proximal end, shaft, and distal rounded end of a metacarpal or phalanx."},
+      {"t": "Carpal tunnel", "d": "The passage on the palm side of the wrist, floored by carpals and roofed by a fibrous band, for flexor tendons and the median nerve."},
+      {"t": "Flexor retinaculum", "d": "The strong fibrous band across the front of the wrist that forms the roof of the carpal tunnel."},
+      {"t": "Sesamoid bone", "d": "A small bone that forms inside a tendon where it rubs over a joint; two lie under the thumb's knuckle."}
+    ],
+    "note": "The slide labels 'Hook of hamate' and 'Carpometacarpal joint', which Tortora's Figure 8.7 does not label; the hook is described in the text on p.248 and the carpometacarpal joints under 'Metacarpals' on p.251. The abbreviations (S, L, T, P, Tm, Td, C, H) are the lecturer's, not the book's. Carpal tunnel syndrome itself is covered in Chapter 11 (Clinical Connection on p.391, pdf 407)."
+  },
+  {
+    "n": 3,
+    "title": "7 tarsal bones:",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 8,
+        "section": "8.6",
+        "section_title": "Lower Limb (Extremity)",
+        "book_pages": "262",
+        "pdf_pages": "278",
+        "capture": "p.262 whole page: Figure 8.14 'Right foot', part (a) superior view (the view the slide reproduces) and part (b) inferior view, plus the MNEMONIC box for the tarsals under the figure. Note the book labels the cuneiforms first/second/third where the slide says I/II/III (medial/intermediate/lateral).",
+        "figures": ["8.14"],
+        "tables": []
+      },
+      {
+        "chapter": 8,
+        "section": "8.6",
+        "section_title": "Lower Limb (Extremity)",
+        "book_pages": "261",
+        "pdf_pages": "277",
+        "capture": "p.261 left column, under the heading 'Skeleton of the Foot—Tarsals, Metatarsals, and Phalanges' (heading sits just below Figure 8.13c): two paragraphs, 'The tarsus (ankle) is the' (the seven tarsals, talus and calcaneus, the ankle joint and weight transfer) and 'The metatarsus, the intermediate region' (the five metatarsals); then p.261 right column, first paragraph on the column, starting 'The phalanges comprise the distal' (the 14 phalanges).",
+        "figures": [],
+        "tables": []
+      },
+      {
+        "chapter": 8,
+        "section": "8.6",
+        "section_title": "Lower Limb (Extremity)",
+        "book_pages": "261-263",
+        "pdf_pages": "277-279",
+        "capture": "p.261 right column, heading 'Arches of the Foot': four paragraphs starting 'The bones of the foot are' (function; longitudinal arch, medial and lateral parts; transverse arch; weight distribution), the last of which runs over the page break into the four-line strip at the bottom of p.262 (both columns, below Figure 8.14: ball-versus-heel weight split and high heels). Then p.263 top: Figure 8.15 'Arches of the right foot' (whole figure), and p.263 left column, Clinical Connection 'Flatfoot and Clawfoot'.",
+        "figures": ["8.15"],
+        "tables": []
+      }
+    ],
+    "basics": "The foot is laid out like the hand: a block of short bones at the back (seven tarsals versus the wrist's eight), five long metatarsals in the middle, and fourteen phalanges in the toes, the big toe (hallux) having only two. The slide is a view from above. The talus is the keystone, the only foot bone that touches the leg. Its pulley-shaped top (trochlear surface) is gripped between the two ankle knobs (malleoli) of the tibia and fibula; that grip is the ankle joint. Weight coming down the tibia lands on the talus and splits: about half goes back to the calcaneus, the largest tarsal, whose rear tuberosity is the heel; the rest goes forward through the navicular, three wedge-shaped cuneiforms and cube-shaped cuboid into the metatarsals. Each metatarsal and phalanx has a base, body and head; the first metatarsal is thickest as it carries most load. Unsaid on the slide: these bones form springy arches held by ligaments and tendons, which absorb shock at each step.",
+    "terms": [
+      {"t": "Tarsus", "d": "The ankle region of the foot: the seven tarsal bones."},
+      {"t": "Metatarsus", "d": "The middle region of the foot, made of the five metatarsal bones."},
+      {"t": "Phalanx (pl. phalanges)", "d": "A finger or toe bone; each digit has three except the thumb and big toe, which have two."},
+      {"t": "Hallux", "d": "The great (big) toe, digit 1 of the foot."},
+      {"t": "Talus", "d": "The tarsal bone that sits on top of the calcaneus and receives the tibia and fibula."},
+      {"t": "Trochlea", "d": "A pulley-shaped articular surface; on the talus it is the top face that the tibia rocks over."},
+      {"t": "Calcaneus", "d": "The heel bone, the largest and strongest tarsal."},
+      {"t": "Tuberosity", "d": "A large rough bump on a bone for a tendon or ligament attachment; on the calcaneus, the heel point."},
+      {"t": "Cuneiform", "d": "Wedge-shaped; the three cuneiform tarsals sit in a row between the navicular and metatarsals 1 to 3."},
+      {"t": "Malleolus", "d": "The bony knob on each side of the ankle: medial malleolus on the tibia, lateral malleolus on the fibula."}
+    ],
+    "note": "The slide names the cuneiforms medial/intermediate/lateral (I, II, III); Tortora's text gives both naming schemes but Figure 8.14 labels them first/second/third cuneiform. 'Trochlear surface of talus' and 'Tuberosity of calcaneus' are not labelled in Figure 8.14; the talus's articulation with the malleoli is described in the 'tarsus' paragraph on p.261 and the ankle (talocrural) joint is summarised in Table 9.4 on p.286 (pdf 302). Tortora's Figure 8.14 also shows two sesamoid bones under the head of the first metatarsal, which the slide omits. The slide's abbreviations (Ca, T, N, Cu) are the lecturer's."
+  }
+]
