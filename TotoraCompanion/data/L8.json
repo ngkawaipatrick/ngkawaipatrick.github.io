@@ -1,0 +1,2553 @@
+[
+ {
+  "n": 1,
+  "title": "HTI5001 Urinary system (title slide)",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 2,
+  "title": "Learning objectives",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 3,
+  "title": "Organs of the urinary system (in female)",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.1",
+    "section_title": "Overview of the Urinary System",
+    "book_pages": "1043",
+    "pdf_pages": "1059",
+    "capture": "p.1043 Figure 26.1 (whole figure: part (a) anterior view of urinary system with its 'Functions of the Urinary System' box, and part (b) anterior view of right kidney); p.1043 left column, the one paragraph under the heading 'Components of the Urinary System' (starts 'The urinary system consists of…')",
+    "figures": [
+     "26.1"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The body constantly produces soluble waste (mostly nitrogen compounds from breaking down protein) and must also keep the volume and salt content of the blood constant. The urinary system is the plumbing that does this: two kidneys make urine by filtering blood, two ureters (muscular tubes) carry it down to a single storage bag (the urinary bladder) in the pelvis, and one urethra drains the bladder to the outside. The slide reproduces Tortora Figure 26.1a: the kidneys sit high in the back of the abdomen, roughly at the level of the lowest ribs, behind the peritoneum, with the aorta and inferior vena cava running between them and supplying each through a renal artery and vein. The female version is shown so the bladder's relation to the uterus, ovary and rectum is visible; the male differs mainly in the urethra (slide 37).",
+  "terms": [
+   {
+    "t": "Kidney",
+    "d": "Paired bean-shaped organ in the posterior abdomen that filters blood and forms urine."
+   },
+   {
+    "t": "Ureter",
+    "d": "Muscular tube carrying urine from one kidney to the bladder."
+   },
+   {
+    "t": "Urinary bladder",
+    "d": "Hollow, stretchable muscular sac in the pelvis that stores urine."
+   },
+   {
+    "t": "Urethra",
+    "d": "Tube leading from the bladder to the outside of the body."
+   },
+   {
+    "t": "Adrenal (suprarenal) gland",
+    "d": "Hormone-secreting gland perched on top of each kidney; not part of the urinary system."
+   },
+   {
+    "t": "Inferior vena cava",
+    "d": "Large vein returning blood from the lower body to the heart; receives the renal veins."
+   },
+   {
+    "t": "Abdominal aorta",
+    "d": "Main artery of the abdomen; gives off a renal artery to each kidney."
+   },
+   {
+    "t": "Anterior view",
+    "d": "Looking at the body from the front."
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "title": "Functions of the urinary system",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.1",
+    "section_title": "Overview of the Urinary System",
+    "book_pages": "1043",
+    "pdf_pages": "1059",
+    "capture": "p.1043 Figure 26.1, the boxed list titled 'Functions of the Urinary System' (four numbered items) at the top of the figure; this is the slide's text verbatim",
+    "figures": [
+     "26.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.1",
+    "section_title": "Functions of the Kidneys",
+    "book_pages": "1043-1044",
+    "pdf_pages": "1059-1060",
+    "capture": "p.1043 right column: the paragraph under the heading 'Functions of the Kidneys' plus the first bullet 'Excretion of wastes'; the bullet list runs over the page break and continues on p.1044 left column (bullets 'Regulation of blood ionic composition' through 'Regulation of blood glucose level', then one closing paragraph starting 'As is evident…')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Urine Transportation, Storage, and Elimination",
+    "book_pages": "1078",
+    "pdf_pages": "1094",
+    "capture": "p.1078 Table 26.7 'Summary of Urinary System Organs' (whole table, lower half of page)",
+    "figures": [],
+    "tables": [
+     "26.7"
+    ]
+   }
+  ],
+  "basics": "Think of the kidneys as a regulated filter and the other three organs as pipes and a tank. The kidneys' real job is homeostasis of the blood, not just waste removal: they decide how much water and which ions (Na+, K+, Ca2+, Cl−, phosphate) stay in the body, which sets blood volume and hence blood pressure; they dump or keep H+ and bicarbonate, which sets blood pH; they can make new glucose from amino acids when fasting; and they are endocrine organs, releasing renin (an enzyme that starts the angiotensin pressure-raising cascade), erythropoietin (drives red-cell production) and calcitriol (active vitamin D, for calcium). Waste excretion covers urea, ammonia, creatinine, uric acid and drugs. The slide lists outcomes but not the mechanisms; the rest of the lecture explains how filtering, reabsorbing and secreting achieve them.",
+  "terms": [
+   {
+    "t": "Homeostasis",
+    "d": "Keeping internal conditions (volume, concentration, pH) within narrow limits by feedback."
+   },
+   {
+    "t": "Excretion",
+    "d": "Removing metabolic waste or excess substances from the body, here in urine."
+   },
+   {
+    "t": "Nitrogenous wastes",
+    "d": "Nitrogen-containing breakdown products such as urea, ammonia, creatinine and uric acid."
+   },
+   {
+    "t": "Urea",
+    "d": "Main nitrogen waste, made in the liver from ammonia released when amino acids are broken down."
+   },
+   {
+    "t": "pH",
+    "d": "Measure of acidity; the kidneys adjust it by excreting H+ and conserving bicarbonate."
+   },
+   {
+    "t": "Renin",
+    "d": "Enzyme from the kidney that triggers angiotensin formation, raising blood pressure."
+   },
+   {
+    "t": "Erythropoietin",
+    "d": "Kidney hormone that stimulates the bone marrow to make red blood cells."
+   },
+   {
+    "t": "Calcitriol",
+    "d": "Active form of vitamin D, finished by the kidney; raises blood calcium."
+   },
+   {
+    "t": "Osmolarity",
+    "d": "Total concentration of dissolved particles per litre of solution."
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "title": "External Anatomy of the Kidneys",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "External Anatomy of the Kidneys",
+    "book_pages": "1044",
+    "pdf_pages": "1060",
+    "capture": "p.1044 right column: the one paragraph under the heading 'External Anatomy of the Kidneys' (starts 'A typical adult kidney is…'; size, mass, concave medial border, hilum)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.1",
+    "section_title": "Overview of the Urinary System",
+    "book_pages": "1043",
+    "pdf_pages": "1059",
+    "capture": "p.1043 Figure 26.1 part (b) 'Anterior view of right kidney' (lower right of the figure; labels suprarenal gland, inferior vena cava, suprarenal arteries, renal artery, renal vein, kidney, ureter) – this is the photograph on the slide",
+    "figures": [
+     "26.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Blood and Nerve Supply of the Kidneys",
+    "book_pages": "1047-1048",
+    "pdf_pages": "1063-1064",
+    "capture": "p.1047 right column: first paragraph under 'Blood and Nerve Supply of the Kidneys' (renal arteries carry 20–25% of cardiac output); p.1048 left column, the paragraph starting 'The peritubular capillaries eventually reunite…' (ends with the renal vein draining to the inferior vena cava); p.1047 left column top paragraph on the renal sinus (starts 'The hilum of the kidney expands…')",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Each kidney is a bean about 11 cm long with its concave edge facing the spine. In the middle of that concave edge is a slot, the hilum, which is the only doorway into the organ: the renal artery enters, the renal vein and the ureter leave, and nerves and lymphatic vessels pass through alongside them. Inside, the hilum opens into a cavity (the renal sinus) that houses the renal pelvis and the branching vessels. The vascular arrangement is simple: the aorta gives a renal artery to each kidney, and each kidney returns blood by a renal vein straight into the inferior vena cava. Because the aorta lies left of the midline and the vena cava right of it, the left renal vein is long and the right renal artery is long, as slide 3's figure shows. The slide does not mention that the kidney receives about a fifth of cardiac output despite being under 0.5% of body mass.",
+  "terms": [
+   {
+    "t": "Hilum",
+    "d": "Indented entry/exit slot on an organ's medial border where vessels, nerves and ducts pass."
+   },
+   {
+    "t": "Renal",
+    "d": "Adjective meaning 'of the kidney' (Latin ren = kidney)."
+   },
+   {
+    "t": "Renal pelvis",
+    "d": "Funnel-shaped chamber inside the kidney that collects urine and narrows into the ureter."
+   },
+   {
+    "t": "Renal sinus",
+    "d": "Cavity inside the kidney, continuous with the hilum, holding the pelvis, calyces and vessel branches."
+   },
+   {
+    "t": "Medial",
+    "d": "Toward the midline of the body."
+   },
+   {
+    "t": "Lymphatic vessels",
+    "d": "Thin vessels that drain excess tissue fluid back toward the blood."
+   },
+   {
+    "t": "Suprarenal arteries",
+    "d": "Small arteries to the adrenal gland, seen on the slide photograph near the renal artery."
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "title": "Position and coverings of the kidneys",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Anatomy of the Kidneys",
+    "book_pages": "1045",
+    "pdf_pages": "1061",
+    "capture": "p.1045 Figure 26.2 part (a) 'Inferior view of transverse section of abdomen (L2)' (upper half of the page, including the 'LAYERS' bracket on the left) – the slide reproduces this drawing",
+    "figures": [
+     "26.2"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Anatomy of the Kidneys",
+    "book_pages": "1044",
+    "pdf_pages": "1060",
+    "capture": "p.1044 right column: the first paragraph under the '26.2 Anatomy of the Kidneys' heading (starts 'The paired kidneys are reddish…'; retroperitoneal, T12–L3, ribs 11–12) and, lower in the same column, the paragraph starting 'Three layers of tissue surround…' (fibrous capsule, perirenal fat capsule, renal fascia)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This is a horizontal slice through the abdomen at the second lumbar vertebra, viewed from below (so the patient's right is on the viewer's left). The kidneys lie against the back wall, behind the peritoneum — the membrane that lines the abdominal cavity and wraps the gut — so they are called retroperitoneal; the stomach, liver, spleen and large intestine sit in front of them. Each kidney is wrapped in three layers, from inside out: a tough, thin collagen sheet stuck to the organ (renal or fibrous capsule); a cushion of fat (adipose or perirenal fat capsule) that absorbs shocks and holds the kidney in place; and a sheet of dense connective tissue (renal fascia) that ties the whole package to the abdominal wall and to the peritoneum in front. The quadratus lumborum muscle and the vertebra lie directly behind. The slide names the layers but not their function.",
+  "terms": [
+   {
+    "t": "Transverse (horizontal) plane",
+    "d": "Cut that divides the body into upper and lower parts; here at vertebra L2."
+   },
+   {
+    "t": "Retroperitoneal",
+    "d": "Lying behind the peritoneum, against the posterior abdominal wall, rather than inside the peritoneal sac."
+   },
+   {
+    "t": "Peritoneum",
+    "d": "Thin serous membrane lining the abdominal cavity and covering most abdominal organs."
+   },
+   {
+    "t": "Renal (fibrous) capsule",
+    "d": "Smooth collagen sheet directly on the kidney surface; 16e calls it the fibrous capsule."
+   },
+   {
+    "t": "Adipose (perirenal fat) capsule",
+    "d": "Layer of fat around the fibrous capsule that cushions and anchors the kidney."
+   },
+   {
+    "t": "Renal fascia",
+    "d": "Outermost dense connective-tissue sheet anchoring kidney to abdominal wall and peritoneum."
+   },
+   {
+    "t": "Quadratus lumborum",
+    "d": "Flat muscle of the posterior abdominal wall lying behind the kidney."
+   },
+   {
+    "t": "Fascia",
+    "d": "Sheet of fibrous connective tissue that wraps and separates organs and muscles."
+   }
+  ],
+  "note": "The slide uses the older names 'renal capsule' and 'adipose capsule'; Tortora 16e renames them 'fibrous capsule' and 'perirenal fat capsule' (same structures)."
+ },
+ {
+  "n": 7,
+  "title": "Sagittal section through the right kidney",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Anatomy of the Kidneys",
+    "book_pages": "1045",
+    "pdf_pages": "1061",
+    "capture": "p.1045 Figure 26.2 part (b) 'Sagittal section through the right kidney' (lower half of the page; labels lung, liver, diaphragm, suprarenal gland, rib 12, peritoneum, renal fascia, perirenal fat capsule, fibrous capsule, quadratus lumborum, large intestine, hip bone) – the slide reproduces this drawing",
+    "figures": [
+     "26.2"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Anatomy of the Kidneys",
+    "book_pages": "1044",
+    "pdf_pages": "1060",
+    "capture": "p.1044 right column: first paragraph under '26.2 Anatomy of the Kidneys' (starts 'The paired kidneys are reddish…') for vertebral level, rib protection and why the right kidney is lower; and the paragraph starting 'Three layers of tissue surround…' for the coverings",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A sagittal cut is a vertical slice from front to back, so this view shows the kidney's neighbours above and below rather than side to side. Above it are the diaphragm (the muscular sheet separating chest from abdomen), the lung above that, and the liver in front; the adrenal gland caps the kidney's upper pole. The 12th rib crosses behind the upper part of the kidney, which is why a blow to the flank or a fractured lower rib can injure it. The right kidney sits a little lower than the left because the liver takes up space above it. The same three wrappings as in slide 6 are labelled again (capsule, fat, fascia), with the peritoneum passing in front and the large intestine lying in front of the lower pole. The hip bone at the bottom gives scale: the kidney spans roughly from T12 to L3.",
+  "terms": [
+   {
+    "t": "Sagittal (paramedian) plane",
+    "d": "Vertical front-to-back cut; paramedian means parallel to the midline but off-centre."
+   },
+   {
+    "t": "Diaphragm",
+    "d": "Dome-shaped muscle separating thoracic and abdominal cavities; the kidneys lie just below it."
+   },
+   {
+    "t": "Superior / inferior",
+    "d": "Toward the head / toward the feet."
+   },
+   {
+    "t": "Pole (of kidney)",
+    "d": "Upper or lower rounded end of the organ."
+   },
+   {
+    "t": "Adrenal (suprarenal) gland",
+    "d": "Endocrine gland sitting on the upper pole of each kidney, inside the renal fascia."
+   },
+   {
+    "t": "Hip bone",
+    "d": "Fused pelvic bone (ilium, ischium, pubis); marks the lower limit of the abdomen."
+   },
+   {
+    "t": "Flank",
+    "d": "Side of the body between ribs and hip, over the kidney."
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "title": "Internal anatomy of the kidneys",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Internal Anatomy of the Kidneys",
+    "book_pages": "1046",
+    "pdf_pages": "1062",
+    "capture": "p.1046 Figure 26.3 part (a) 'Anterior view of dissection of right kidney' (upper two-thirds of the page, including the 'PATH OF URINE DRAINAGE' list on the right) – the slide reproduces this drawing",
+    "figures": [
+     "26.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Internal Anatomy of the Kidneys",
+    "book_pages": "1044-1045",
+    "pdf_pages": "1060-1061",
+    "capture": "p.1044 right column bottom: the paragraph under the heading 'Internal Anatomy of the Kidneys' (starts 'A coronal section through the kidney…'); it runs over the page break and continues at the foot of p.1045 (two short columns below Figure 26.2: renal pyramids, papilla, cortex, columns, parenchyma, ~1 million nephrons)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Internal Anatomy of the Kidneys",
+    "book_pages": "1047",
+    "pdf_pages": "1063",
+    "capture": "p.1047 left column: the first two paragraphs at the top of the page (start 'fluid) formed by the nephrons…'; papillary ducts, minor and major calyces, renal pelvis, renal sinus)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Cut the kidney lengthwise and two zones appear: a pale outer rind (cortex) and a darker inner region (medulla) made of 8–18 cone-shaped renal pyramids. Cortex tissue also dips down between the pyramids as renal columns. Cortex plus pyramids form the parenchyma — the working tissue — and inside it are about a million nephrons, the microscopic filtering-and-processing units. Each pyramid's tip (papilla) points inward and drips urine into a small cup (minor calyx); several minor calyces join into 2–3 major calyces, which merge into the renal pelvis, which narrows into the ureter. Once fluid reaches the calyces it is final urine: the lining changes to a leak-proof urothelium so nothing more can be reabsorbed. The renal sinus is the fat-filled cavity inside the hilum that holds the pelvis, calyces and vessels. The slide's 'renal lobe' label anticipates slide 10.",
+  "terms": [
+   {
+    "t": "Parenchyma",
+    "d": "The functional tissue of an organ, as opposed to its supporting framework."
+   },
+   {
+    "t": "Renal cortex",
+    "d": "Outer, lighter layer of the kidney containing renal corpuscles and convoluted tubules."
+   },
+   {
+    "t": "Renal medulla",
+    "d": "Inner, darker region composed of the renal pyramids."
+   },
+   {
+    "t": "Renal pyramid",
+    "d": "Cone of medullary tissue; base faces the cortex, apex (papilla) points into a minor calyx."
+   },
+   {
+    "t": "Renal papilla",
+    "d": "Tip of a pyramid through which papillary ducts release urine into a calyx."
+   },
+   {
+    "t": "Renal column",
+    "d": "Extension of cortex tissue between adjacent pyramids."
+   },
+   {
+    "t": "Calyx (pl. calyces)",
+    "d": "Cup-shaped collecting chamber; minor calyces receive urine from papillae and drain into major calyces."
+   },
+   {
+    "t": "Nephron",
+    "d": "Microscopic unit (corpuscle plus tubule) that filters blood and processes the filtrate."
+   },
+   {
+    "t": "Urothelium",
+    "d": "Stretchable, impermeable (transitional) epithelium lining calyces, pelvis, ureters and bladder."
+   },
+   {
+    "t": "Coronal section",
+    "d": "Vertical cut dividing front from back; the standard kidney 'cutaway' view."
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "title": "Posterior view of left kidney",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Internal Anatomy of the Kidneys",
+    "book_pages": "1046",
+    "pdf_pages": "1062",
+    "capture": "p.1046 Figure 26.3 part (b) 'Posterior view of dissection of left kidney' (photograph in the lower third of the page; labels fibrous capsule, renal cortex, minor calyx, major calyx, renal medulla, renal artery, renal vein, renal pelvis, ureter) – this is the slide's photograph",
+    "figures": [
+     "26.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Internal Anatomy of the Kidneys",
+    "book_pages": "1044-1045",
+    "pdf_pages": "1060-1061",
+    "capture": "p.1044 right column bottom paragraph under 'Internal Anatomy of the Kidneys', continuing at the foot of p.1045; then p.1047 left column first two paragraphs (calyces, pelvis, sinus)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This is a real dissected kidney photographed from behind, so left and right are mirrored compared with the drawing in slide 8 (the hilum with the artery, vein and pelvis is now on the viewer's right, since the medial edge of a left kidney faces right when seen from the back). The point of the slide is to let you recognise on real tissue what the drawing labels: the thin glistening capsule, the granular pale cortex, the darker striated medulla of the pyramids, the pale cups of the minor and major calyces, and the funnel of the renal pelvis narrowing into the ureter. Note the order of structures at the hilum from front to back: renal vein, renal artery, renal pelvis — a standard exam point that the slide leaves implicit.",
+  "terms": [
+   {
+    "t": "Posterior view",
+    "d": "Looking at the body or organ from behind."
+   },
+   {
+    "t": "Dissection",
+    "d": "Cutting open preserved tissue to display internal structure."
+   },
+   {
+    "t": "Fibrous (renal) capsule",
+    "d": "Thin transparent collagen coat directly on the kidney surface."
+   },
+   {
+    "t": "Striated appearance",
+    "d": "The lined look of the medulla caused by parallel collecting ducts and loops."
+   },
+   {
+    "t": "Minor / major calyx",
+    "d": "Small cup at each papilla / larger cup formed when minor calyces merge."
+   },
+   {
+    "t": "Renal pelvis",
+    "d": "Single basin into which major calyces drain; continuous with the ureter."
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "title": "Blood supply to the kidneys",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Blood and Nerve Supply of the Kidneys",
+    "book_pages": "1047",
+    "pdf_pages": "1063",
+    "capture": "p.1047 Figure 26.4 'Blood supply of the kidneys' (whole lower two-thirds of the page: part (a) coronal section of right kidney with labelled arteries/veins and part (b) 'Path of blood flow' flowchart) – the slide reproduces part (a)",
+    "figures": [
+     "26.4"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Blood and Nerve Supply of the Kidneys",
+    "book_pages": "1047-1048",
+    "pdf_pages": "1063-1064",
+    "capture": "p.1047 right column: the two paragraphs under the heading 'Blood and Nerve Supply of the Kidneys' (starts 'Because the kidneys remove wastes…'); the second paragraph ('Within the kidney, the renal artery divides…') runs over the page break and continues on p.1048 left column, first paragraph (interlobar, arcuate, cortical radiate arteries, afferent arterioles), which also contains the definition of a kidney lobe (sentence starting 'A kidney lobe consists of…')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Blood and Nerve Supply of the Kidneys",
+    "book_pages": "1048",
+    "pdf_pages": "1064",
+    "capture": "p.1048 left column: paragraphs 2–4 (start 'Each nephron receives one afferent…', 'The efferent glomerular arterioles divide…', 'The peritubular capillaries eventually reunite…') – glomerulus, efferent arteriole, peritubular capillaries, vasa recta, venous return",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The kidney cleans blood, so blood must reach every nephron: with only ~0.5% of body mass it takes 20–25% of the heart's resting output, about 1.2 L/min. The arterial tree branches in a fixed order you should be able to recite: renal artery → segmental arteries → interlobar arteries (running up the renal columns between pyramids) → arcuate arteries (arching over the base of each pyramid at the cortex–medulla border) → cortical radiate (interlobular) arteries (radiating out through the cortex) → afferent arterioles, one per nephron. Each afferent arteriole feeds a ball of capillaries (glomerulus) that drains into an efferent arteriole — unusual, because capillaries normally drain into a venule. The efferent arteriole then feeds a second capillary bed (peritubular capillaries, plus the long vasa recta into the medulla) before veins retrace the same names back to the renal vein. A renal lobe is one pyramid with the cortex over it and half a column each side.",
+  "terms": [
+   {
+    "t": "Cardiac output",
+    "d": "Volume of blood the heart pumps per minute (about 5 L at rest)."
+   },
+   {
+    "t": "Segmental artery",
+    "d": "First branch of the renal artery, each supplying one region of the kidney."
+   },
+   {
+    "t": "Interlobar artery",
+    "d": "Branch running between pyramids within a renal column."
+   },
+   {
+    "t": "Arcuate artery",
+    "d": "Bow-shaped artery curving along the base of a pyramid at the cortex–medulla junction."
+   },
+   {
+    "t": "Cortical radiate (interlobular) artery",
+    "d": "Branch of an arcuate artery running outward through the cortex."
+   },
+   {
+    "t": "Afferent / efferent arteriole",
+    "d": "Small artery carrying blood into / out of a glomerulus (af- = toward, ef- = away)."
+   },
+   {
+    "t": "Glomerulus",
+    "d": "Ball of leaky capillaries inside a nephron where plasma is filtered."
+   },
+   {
+    "t": "Peritubular capillaries",
+    "d": "Capillary network around the cortical tubules that receives reabsorbed water and solutes."
+   },
+   {
+    "t": "Vasa recta",
+    "d": "Long straight capillary loops from efferent arterioles that dip into the medulla."
+   },
+   {
+    "t": "Renal lobe",
+    "d": "One pyramid plus overlying cortex and adjacent halves of the renal columns."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "title": "Components of a nephron",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Parts of a Nephron",
+    "book_pages": "1049",
+    "pdf_pages": "1065",
+    "capture": "p.1049 Figure 26.5 part (a) 'Components of a nephron' (upper half of the page; labels renal cortex/medulla/papilla, minor calyx, kidney, renal corpuscle with glomerular capsule and glomerulus, proximal and distal convoluted tubule, nephron loop with descending and ascending limbs) – the slide reproduces this drawing",
+    "figures": [
+     "26.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Parts of a Nephron",
+    "book_pages": "1048",
+    "pdf_pages": "1064",
+    "capture": "p.1048 right column: the two paragraphs under the heading 'Parts of a Nephron' (start 'Nephrons (NEF-rons) are the functional units…' and 'The distal convoluted tubules of several nephrons…'), then the next paragraph 'In a nephron, the nephron loop connects…' which introduces cortical nephrons (80–85%) and runs over the page break",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Parts of a Nephron",
+    "book_pages": "1049",
+    "pdf_pages": "1065",
+    "capture": "p.1049 left column, below the figure: the continuation paragraph (starts 'outer region of the renal medulla…') describing juxtamedullary nephrons (15–20%), their long loops, vasa recta and thin/thick ascending limbs",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A nephron is a single filtering unit; you have about a million per kidney. It has two parts. The renal corpuscle is a capillary ball (glomerulus) pushed into a double-walled cup (glomerular or Bowman's capsule); plasma is squeezed out of the capillaries into the cup. The renal tubule then carries that filtrate along a set path: proximal convoluted tubule (coiled, in the cortex) → nephron loop (loop of Henle: a straight descending limb into the medulla, hairpin, ascending limb back) → distal convoluted tubule (coiled, in the cortex) → collecting duct (shared by many nephrons; not strictly part of the nephron) → papillary duct → minor calyx. The slide's percentages classify nephrons by where the corpuscle sits: cortical nephrons (80–85%) have corpuscles in the outer cortex and short loops that barely enter the medulla; juxtamedullary nephrons (15–20%) have corpuscles next to the medulla and long loops reaching deep into it, which is what allows very concentrated urine (slide 33).",
+  "terms": [
+   {
+    "t": "Renal corpuscle",
+    "d": "Glomerulus plus its surrounding glomerular capsule; the filtering part of a nephron."
+   },
+   {
+    "t": "Glomerular (Bowman's) capsule",
+    "d": "Double-walled epithelial cup that catches the filtrate leaving the glomerulus."
+   },
+   {
+    "t": "Renal tubule",
+    "d": "The tube portion of a nephron: PCT, nephron loop and DCT."
+   },
+   {
+    "t": "Proximal / distal",
+    "d": "Near / far from the starting point, here the glomerular capsule."
+   },
+   {
+    "t": "Convoluted",
+    "d": "Tightly coiled rather than straight."
+   },
+   {
+    "t": "Nephron loop (loop of Henle)",
+    "d": "Hairpin section of tubule that dips from cortex into medulla and back."
+   },
+   {
+    "t": "Juxtamedullary",
+    "d": "Lying next to (juxta-) the medulla; refers to nephrons whose corpuscles sit at the inner edge of the cortex."
+   },
+   {
+    "t": "Cortical nephron",
+    "d": "Nephron with its corpuscle in the outer cortex and a short loop."
+   },
+   {
+    "t": "Collecting duct",
+    "d": "Tube receiving fluid from many DCTs and carrying it through the medulla to a papillary duct."
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "title": "Structure of cortical nephrons and its blood vessels",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Parts of a Nephron",
+    "book_pages": "1050",
+    "pdf_pages": "1066",
+    "capture": "p.1050 Figure 26.5 (Continued) part (b) 'Cortical nephron and vascular supply' (whole upper two-thirds of the page, including the 'FLOW OF FLUID THROUGH A CORTICAL NEPHRON' list bottom-left) – the slide reproduces this drawing",
+    "figures": [
+     "26.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Parts of a Nephron",
+    "book_pages": "1048-1049",
+    "pdf_pages": "1064-1065",
+    "capture": "p.1048 right column: paragraph starting 'The distal convoluted tubules of several nephrons…' (collecting ducts, papillary ducts, minor calyx) and the last paragraph of the column ('In a nephron, the nephron loop connects…') which ends with cortical nephrons and continues on p.1049 left column below the figure (first sentence)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Blood and Nerve Supply of the Kidneys",
+    "book_pages": "1048",
+    "pdf_pages": "1064",
+    "capture": "p.1048 left column: paragraphs starting 'Each nephron receives one afferent…' and 'The efferent glomerular arterioles divide…' (glomerulus between two arterioles; peritubular capillaries)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This drawing overlays the tubule of a cortical nephron on its own blood supply, so you can see that the two are intertwined. Blood arrives by a cortical radiate artery → afferent arteriole → glomerulus → efferent arteriole → peritubular capillaries that wrap around the proximal and distal convoluted tubules → cortical radiate vein → arcuate vein. Fluid, meanwhile, goes glomerular capsule → PCT → short descending and ascending limbs (which only reach the outer medulla) → DCT → collecting duct → papillary duct → renal papilla → minor calyx, which is the sequence written across the bottom of the slide. The key idea for later slides: whatever the tubule cells pull out of the fluid (reabsorption) enters the peritubular capillaries, and whatever they add (secretion) comes from those same capillaries. The corticomedullary junction line marks where the arcuate vessels run and where the cortex ends.",
+  "terms": [
+   {
+    "t": "Peritubular capillary",
+    "d": "Capillary lying around (peri-) the tubules; site where reabsorbed substances re-enter blood."
+   },
+   {
+    "t": "Corticomedullary junction",
+    "d": "Boundary between renal cortex and medulla, where arcuate vessels run."
+   },
+   {
+    "t": "Papillary duct",
+    "d": "Large duct formed by merging collecting ducts; opens at the renal papilla."
+   },
+   {
+    "t": "Descending / ascending limb",
+    "d": "Part of the nephron loop carrying fluid down into / back up out of the medulla."
+   },
+   {
+    "t": "Cortical radiate vein",
+    "d": "Vein running through the cortex alongside its artery, draining peritubular capillaries."
+   },
+   {
+    "t": "Arcuate vein",
+    "d": "Vein at the base of the pyramid receiving cortical radiate veins."
+   },
+   {
+    "t": "Vascular supply",
+    "d": "The set of vessels bringing blood to and from a structure."
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "title": "Structure of Juxtamedullary nephrons and its blood vessels",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Parts of a Nephron",
+    "book_pages": "1051",
+    "pdf_pages": "1067",
+    "capture": "p.1051 Figure 26.5 (Continued) part (c) 'Juxtamedullary nephron and vascular supply' (whole upper three-quarters of the page, including the 'FLOW OF FLUID THROUGH A JUXTAMEDULLARY NEPHRON' list bottom-left) – the slide reproduces this drawing",
+    "figures": [
+     "26.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Parts of a Nephron",
+    "book_pages": "1049",
+    "pdf_pages": "1065",
+    "capture": "p.1049 left column, below the figure: the paragraph starting 'outer region of the renal medulla…' – from 'The other 15–20% of the nephrons are juxtamedullary nephrons' to the end of the column (long loop, vasa recta, thin and thick ascending limbs, dilute/concentrated urine)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.2",
+    "section_title": "Blood and Nerve Supply of the Kidneys",
+    "book_pages": "1048",
+    "pdf_pages": "1064",
+    "capture": "p.1048 left column: paragraph starting 'The efferent glomerular arterioles divide…' (the sentence on vasa recta: 'Extending from some efferent glomerular arterioles are long, loop-shaped capillaries…')",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Same layout as slide 12 but for the minority (15–20%) of nephrons whose corpuscle lies at the inner edge of the cortex. Two things differ. First, the nephron loop is long and reaches the tip of the pyramid, and its ascending limb has two segments: a thin ascending limb (flat cells, like the descending limb) followed by a thick ascending limb (cuboidal cells packed with ion pumps). Second, the efferent arteriole gives off, in addition to peritubular capillaries, the vasa recta — long straight capillary loops that run down into the medulla parallel to the nephron loop and back up. This parallel, opposite-direction arrangement of loop and vessel is the hardware for the countercurrent mechanism that builds and preserves the salty medulla used to concentrate urine (slides 32–33). The slide has no text; the book's paragraph on p.1049 is the explanation.",
+  "terms": [
+   {
+    "t": "Thin ascending limb",
+    "d": "First part of the ascending limb in long loops, lined by flat (simple squamous) cells."
+   },
+   {
+    "t": "Thick ascending limb",
+    "d": "Later part of the ascending limb with cuboidal cells that actively pump Na+, K+ and Cl− out."
+   },
+   {
+    "t": "Vasa recta",
+    "d": "Straight capillary loops from the efferent arteriole running alongside long nephron loops in the medulla."
+   },
+   {
+    "t": "Countercurrent",
+    "d": "Flow in opposite directions in two adjacent parallel tubes."
+   },
+   {
+    "t": "Simple squamous epithelium",
+    "d": "Single layer of flat cells; thin, so suited to passive water and solute movement."
+   },
+   {
+    "t": "Simple cuboidal epithelium",
+    "d": "Single layer of cube-shaped cells; thicker, typically doing active transport."
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "title": "Microanatomy of a Renal corpuscle",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Histology of the Nephron and Collecting Duct",
+    "book_pages": "1052",
+    "pdf_pages": "1068",
+    "capture": "p.1052 Figure 26.6 part (a) 'Renal corpuscle (internal view)' (upper half of the page; labels afferent/efferent glomerular arteriole, juxtaglomerular cell, macula densa, ascending limb, mesangial cells, endothelium of glomerulus, parietal layer, capsular space, PCT, podocyte, pedicel) – the slide reproduces this drawing",
+    "figures": [
+     "26.6"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Glomerular Capsule",
+    "book_pages": "1049-1050",
+    "pdf_pages": "1065-1066",
+    "capture": "p.1049 right column: the paragraph under the sub-heading 'Glomerular Capsule' (starts 'The glomerular capsule consists of visceral…'), running over the page break onto p.1050 left column (podocytes, parietal layer, capsular space, the 'fist punched into a balloon' analogy)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Renal Tubule and Collecting Duct",
+    "book_pages": "1050-1051",
+    "pdf_pages": "1066-1067",
+    "capture": "p.1050 right column, last paragraph (starts 'In each nephron, the final part of the ascending limb…') continuing across the page break to p.1051 bottom-left and bottom-right columns below Figure 26.5c: macula densa, juxtaglomerular cells, juxtaglomerular apparatus (JGA) regulating blood pressure",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Zoom into one renal corpuscle. The glomerulus is a tuft of capillaries hanging between an afferent arteriole (in) and an efferent arteriole (out). Around it is the glomerular (Bowman's) capsule, which has two layers because it is like a balloon that a fist has been pushed into: the visceral layer (cells called podocytes) hugs the capillaries, the parietal layer forms the outer wall, and the gap between them, the capsular space, is where filtrate collects before draining into the PCT. Mesangial cells sit between the capillary loops and can contract to change the filtering area. The juxtaglomerular apparatus (JGA) is where the same nephron's ascending limb loops back to touch its own afferent arteriole: a patch of tall tubule cells (macula densa) senses salt in the tubular fluid, and modified smooth-muscle cells in the arteriole wall (juxtaglomerular cells) release renin. This lets each nephron monitor its own filtration rate and adjust arteriole diameter and blood pressure (slides 21–23).",
+  "terms": [
+   {
+    "t": "Microanatomy",
+    "d": "Structure at the microscopic (tissue and cell) level; histology."
+   },
+   {
+    "t": "Podocyte",
+    "d": "Cell of the capsule's visceral layer whose foot-like processes wrap the glomerular capillaries."
+   },
+   {
+    "t": "Pedicel",
+    "d": "One of the many foot processes of a podocyte; the gaps between pedicels are filtration slits."
+   },
+   {
+    "t": "Parietal / visceral layer",
+    "d": "Outer wall of the capsule / inner layer applied to the capillaries."
+   },
+   {
+    "t": "Capsular space",
+    "d": "Gap between the two capsule layers where filtrate collects."
+   },
+   {
+    "t": "Mesangial cell",
+    "d": "Contractile cell among glomerular capillaries that adjusts filtration surface area."
+   },
+   {
+    "t": "Macula densa",
+    "d": "Dense cluster of tubule cells in the ascending limb that senses Na+/Cl− delivery."
+   },
+   {
+    "t": "Juxtaglomerular cells",
+    "d": "Modified smooth muscle cells in the afferent arteriole wall that secrete renin."
+   },
+   {
+    "t": "Juxtaglomerular apparatus (JGA)",
+    "d": "Macula densa plus juxtaglomerular cells; regulates filtration and blood pressure."
+   },
+   {
+    "t": "Endothelium",
+    "d": "Single layer of flat cells lining all blood vessels."
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "title": "Histology of renal corpuscle",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Histology of the Nephron and Collecting Duct",
+    "book_pages": "1052",
+    "pdf_pages": "1068",
+    "capture": "p.1052 Figure 26.6 parts (b) 'Renal corpuscle' light micrograph (LM 1380x, lower left, with its label column: parietal/visceral layer, afferent arteriole, juxtaglomerular cell, ascending limb, macula densa cell, efferent arteriole, PCT) and (c) scanning electron micrograph (SEM 150x, lower right: glomerulus, podocytes, capsular space, simple squamous epithelium) – the slide reproduces these two photomicrographs",
+    "figures": [
+     "26.6"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Glomerular Capsule",
+    "book_pages": "1049-1050",
+    "pdf_pages": "1065-1066",
+    "capture": "p.1049 right column paragraph under 'Glomerular Capsule', continuing on p.1050 left column to the end of the balloon analogy",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Renal Tubule and Collecting Duct",
+    "book_pages": "1050-1051",
+    "pdf_pages": "1066-1067",
+    "capture": "p.1050 right column last paragraph ('In each nephron, the final part of the ascending limb…') continuing on p.1051 in the two short columns below Figure 26.5c (macula densa, JG cells, JGA)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "These are the real-tissue versions of slide 14. In the stained light-microscope section, a renal corpuscle appears as a round pink tuft (glomerulus) inside a clear ring (capsular space) bounded by a thin line of flat cells (parietal layer of the capsule, simple squamous epithelium). Where the afferent arteriole enters you can find the darker, crowded nuclei of the macula densa in the adjacent ascending limb and the juxtaglomerular cells in the arteriole wall. Proximal convoluted tubules around the corpuscle have fuzzy lumens because of their microvilli. The scanning electron micrograph shows the capsule cracked open so the podocytes are visible as octopus-like cells draped over the capillaries; their interlocking foot processes leave the filtration slits through which plasma passes. Being able to name these features on a micrograph is a common practical-exam task.",
+  "terms": [
+   {
+    "t": "Histology",
+    "d": "Microscopic study of tissues, usually on thin stained sections."
+   },
+   {
+    "t": "Light micrograph (LM)",
+    "d": "Photograph taken through a light microscope of a thin stained section."
+   },
+   {
+    "t": "Scanning electron micrograph (SEM)",
+    "d": "Image of a surface made with an electron beam; shows 3-D texture, not internal detail."
+   },
+   {
+    "t": "Lumen",
+    "d": "The open space inside a tube or vessel."
+   },
+   {
+    "t": "Simple squamous epithelium",
+    "d": "One layer of flat cells; forms the capsule's parietal layer and the glomerular endothelium."
+   },
+   {
+    "t": "Nucleus (in a section)",
+    "d": "Dark-staining dot in each cell; clusters of nuclei mark cell-dense regions such as the macula densa."
+   },
+   {
+    "t": "Microvilli (brush border)",
+    "d": "Tiny finger-like membrane folds on PCT cells that increase absorptive area."
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "title": "Histological Features of the Renal Tubule and Collecting Duct",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Renal Tubule and Collecting Duct",
+    "book_pages": "1053",
+    "pdf_pages": "1069",
+    "capture": "p.1053 Table 26.1 'Histological Features of the Renal Tubule and Collecting Duct' (whole table, upper two-thirds of the page: five rows PCT, thin limbs, thick ascending limb, most of DCT, last part of DCT and collecting duct, with cell drawings) – this is the slide",
+    "figures": [],
+    "tables": [
+     "26.1"
+    ]
+   },
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Renal Tubule and Collecting Duct",
+    "book_pages": "1050-1051",
+    "pdf_pages": "1066-1067",
+    "capture": "p.1050 right column: paragraph under the sub-heading 'Renal Tubule and Collecting Duct' (starts 'Table 26.1 illustrates the histology…'; PCT cuboidal cells with microvilli, thin limbs squamous, thick limb cuboidal/low columnar), then the last paragraph of the column continuing on p.1051 bottom (macula densa; principal and intercalated cells of late DCT and collecting duct)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The whole tubule is one cell thick, but the cell type changes segment by segment, and form follows function. PCT: cuboidal cells with a dense brush border of microvilli and many mitochondria — huge surface area and lots of ATP for the bulk reabsorption that happens here (about two-thirds of everything). Descending limb and thin ascending limb: flat squamous cells — a thin, passive wall suited to water or solute movement down gradients. Thick ascending limb: cuboidal-to-low-columnar cells rich in pumps — active salt transport, no water. Most of the DCT: plain cuboidal cells for fine-tuning. Late DCT and collecting duct: cuboidal epithelium of two kinds — principal cells (respond to ADH and aldosterone; handle Na+, K+ and water) and intercalated cells (secrete H+ or bicarbonate; acid–base control). The slide shows the table only; the functional meaning of each cell type is what slides 25–31 develop.",
+  "terms": [
+   {
+    "t": "Epithelium",
+    "d": "Sheet of tightly joined cells covering a surface or lining a tube."
+   },
+   {
+    "t": "Apical surface",
+    "d": "The cell face pointing into the tubule lumen (toward the fluid)."
+   },
+   {
+    "t": "Basolateral membrane",
+    "d": "The cell's base and side membranes, facing interstitial fluid and capillaries."
+   },
+   {
+    "t": "Microvillous (brush) border",
+    "d": "Dense carpet of microvilli on the apical surface of PCT cells."
+   },
+   {
+    "t": "Mitochondrion",
+    "d": "Organelle that makes ATP; abundant where active transport is heavy."
+   },
+   {
+    "t": "Low columnar",
+    "d": "Cells slightly taller than wide; intermediate between cuboidal and columnar."
+   },
+   {
+    "t": "Principal cell",
+    "d": "Main cell of late DCT and collecting duct; target of ADH and aldosterone."
+   },
+   {
+    "t": "Intercalated cell",
+    "d": "Less common collecting-duct cell that secretes H+ and reabsorbs bicarbonate or K+."
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "title": "Formation of urine",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.4",
+    "section_title": "Overview of Renal Physiology",
+    "book_pages": "1054",
+    "pdf_pages": "1070",
+    "capture": "p.1054 Figure 26.7 'Relationship of a nephron's structure to its three basic functions' (upper half of the page, including the three numbered explanatory boxes under the drawing) – the slide reproduces this figure",
+    "figures": [
+     "26.7"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.4",
+    "section_title": "Overview of Renal Physiology",
+    "book_pages": "1053-1054",
+    "pdf_pages": "1069-1070",
+    "capture": "p.1053 right column: the introductory paragraph under '26.4 Overview of Renal Physiology' (starts 'To produce urine, nephrons and collecting ducts…'); continues on p.1054 below the figure as numbered items 1 Glomerular filtration, 2 Tubular reabsorption, 3 Tubular secretion (left column) and the two paragraphs in the right column (excretion = filtration + secretion − reabsorption; the recycling-centre analogy)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Urine is made by three operations, and every later slide is one of them. (1) Glomerular filtration: pressure pushes water and small solutes out of the glomerular capillaries into the capsule — a crude sieve that lets through everything smaller than proteins, so the filtrate is essentially protein-free plasma. (2) Tubular reabsorption: as the filtrate travels along the tubule and collecting duct, the lining cells take back about 99% of the water and the useful solutes and hand them to the peritubular capillaries — 'reabsorption' because these substances were already in the blood. (3) Tubular secretion: the same cells move extra material (H+, K+, ammonium, creatinine, drugs) from the blood into the tubule. What leaves in the urine equals filtered plus secreted minus reabsorbed. Note the direction words on the figure: reabsorption goes tubule → blood, secretion goes blood → tubule.",
+  "terms": [
+   {
+    "t": "Glomerular filtration",
+    "d": "Pressure-driven movement of water and small solutes from glomerular blood into the capsular space."
+   },
+   {
+    "t": "Filtrate",
+    "d": "The protein-free fluid that has passed through the filtration membrane."
+   },
+   {
+    "t": "Tubular reabsorption",
+    "d": "Return of water and solutes from tubular fluid to the blood."
+   },
+   {
+    "t": "Tubular secretion",
+    "d": "Transfer of substances from blood or tubule cells into the tubular fluid."
+   },
+   {
+    "t": "Excretion",
+    "d": "What finally leaves the body in urine."
+   },
+   {
+    "t": "Absorption vs reabsorption",
+    "d": "Absorption brings new material into the body (gut); reabsorption returns what was already in blood."
+   },
+   {
+    "t": "Solute",
+    "d": "Any dissolved substance, e.g. ions, glucose, urea."
+   }
+  ]
+ },
+ {
+  "n": 18,
+  "title": "The filtration membrane",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "The Filtration Membrane",
+    "book_pages": "1055-1056",
+    "pdf_pages": "1071-1072",
+    "capture": "p.1055 Figure 26.8 part (a) 'Overview of filtration membrane' (lower half of the page, with the three numbered layer descriptions); continued on p.1056 as parts (b) 'Details of filtration membrane' and (c) SEM of a podocyte covering a glomerulus (upper left of the page) – the slide reproduces these",
+    "figures": [
+     "26.8"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "The Filtration Membrane",
+    "book_pages": "1055",
+    "pdf_pages": "1071",
+    "capture": "p.1055 left column: the paragraph under the heading 'The Filtration Membrane' (starts 'Together, the glomerular capillaries and the podocytes…'), which runs into the right column as numbered items 1 (glomerular endothelial cells, fenestrations, mesangial cells), 2 (basement membrane) and 3 (pedicels, filtration slits, slit membrane; albumin just too big)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Filtration is sieving: what passes depends on pore size and charge. Between blood and capsular space there are three layers, each finer than the last. (1) The capillary endothelium is riddled with round pores (fenestrations, ~0.07–0.1 µm) that stop blood cells but let all plasma solutes through. (2) The basement membrane, a gel of collagen and negatively charged glycoproteins made jointly by the endothelial cells and podocytes, blocks large proteins by size and repels most plasma proteins by charge. (3) The podocyte foot processes (pedicels) interdigitate, leaving filtration slits bridged by a slit membrane whose openings (~0.006–0.007 µm) exclude medium-sized proteins; albumin is just too big, so under 1% gets through. Water, ions, glucose, amino acids, urea and small peptides pass freely. The take-home number the slide leaves off: the whole membrane is only ~0.1 µm thick, and glomerular capillaries are about 50 times leakier than ordinary ones.",
+  "terms": [
+   {
+    "t": "Filtration membrane",
+    "d": "The three-layer barrier (endothelium, basement membrane, podocyte slits) between glomerular blood and capsular space."
+   },
+   {
+    "t": "Fenestration",
+    "d": "A window-like pore through a capillary endothelial cell."
+   },
+   {
+    "t": "Basement membrane",
+    "d": "Thin non-cellular layer of collagen and glycoproteins under an epithelium or endothelium."
+   },
+   {
+    "t": "Glycoprotein",
+    "d": "Protein with sugar chains attached; here negatively charged, repelling plasma proteins."
+   },
+   {
+    "t": "Filtration slit",
+    "d": "Gap between adjacent pedicels of podocytes."
+   },
+   {
+    "t": "Slit membrane (diaphragm)",
+    "d": "Thin protein sheet spanning each filtration slit that sets the final size cut-off."
+   },
+   {
+    "t": "Albumin",
+    "d": "The most abundant plasma protein (~0.007 µm); its near-total retention keeps plasma oncotic pressure."
+   },
+   {
+    "t": "Micrometre (µm)",
+    "d": "One millionth of a metre; red cells are ~8 µm, small proteins ~0.005 µm."
+   }
+  ]
+ },
+ {
+  "n": 19,
+  "title": "Pressures that govern glomerular filtration rate",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Net Filtration Pressure",
+    "book_pages": "1057",
+    "pdf_pages": "1073",
+    "capture": "p.1057 Figure 26.9 'The pressures that drive glomerular filtration' (upper half of the page, including the NFP calculation box on the right: 55 − 15 − 30 = 10 mmHg) – the slide reproduces this figure",
+    "figures": [
+     "26.9"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Net Filtration Pressure",
+    "book_pages": "1056",
+    "pdf_pages": "1072",
+    "capture": "p.1056 right column: the sub-heading 'Net Filtration Pressure' and its numbered items 1 GBHP, 2 CHP, 3 BCOP, followed by the two short paragraphs giving the NFP equation and the worked value (ends 'into the capsular space')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "The Filtration Membrane",
+    "book_pages": "1056",
+    "pdf_pages": "1072",
+    "capture": "p.1056 left column, below Figure 26.8: the paragraph starting 'The principle of filtration…' and numbered reasons 1–3 (large surface area, thin porous membrane, high capillary pressure because the efferent arteriole is narrower); item 3 runs over into the top of the right column",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This is Starling's capillary balance applied to the glomerulus. Fluid crosses a membrane when the net pressure across it is positive. Pushing outward is the blood's hydrostatic pressure in the glomerular capillaries (GBHP ≈ 55 mmHg — unusually high because the exit arteriole is narrower than the entry arteriole, so blood backs up). Pushing back are two opposing pressures: the hydrostatic pressure of fluid already sitting in the capsule and tubule (CHP ≈ 15 mmHg), and the osmotic pull of plasma proteins that stayed behind in the blood (blood colloid osmotic pressure, BCOP ≈ 30 mmHg — water is drawn back toward the more concentrated protein solution). Net filtration pressure = 55 − 15 − 30 = 10 mmHg outward. Only 10 mmHg, but over a vast, extremely leaky surface it filters ~180 L/day. If GBHP falls to 45 mmHg (severe blood loss), filtration stops; if a ureter is blocked, CHP rises and NFP falls.",
+  "terms": [
+   {
+    "t": "Hydrostatic pressure",
+    "d": "Pressure exerted by a fluid pushing on the walls containing it."
+   },
+   {
+    "t": "Colloid osmotic (oncotic) pressure",
+    "d": "Osmotic pull of water toward a solution with more protein; proteins are the 'colloid'."
+   },
+   {
+    "t": "Osmosis",
+    "d": "Net movement of water across a membrane toward the side with more dissolved particles."
+   },
+   {
+    "t": "mmHg",
+    "d": "Millimetres of mercury, the clinical pressure unit; 1 mmHg ≈ 133 Pa."
+   },
+   {
+    "t": "Net filtration pressure (NFP)",
+    "d": "Outward pressure minus the two inward pressures; the driving force for filtration."
+   },
+   {
+    "t": "GBHP",
+    "d": "Glomerular blood hydrostatic pressure, the blood pressure inside glomerular capillaries."
+   },
+   {
+    "t": "CHP",
+    "d": "Capsular hydrostatic pressure, back-pressure from fluid already in the capsule and tubule."
+   },
+   {
+    "t": "BCOP",
+    "d": "Blood colloid osmotic pressure from plasma proteins retained in the capillaries."
+   },
+   {
+    "t": "Starling forces",
+    "d": "The hydrostatic and osmotic pressures that together decide fluid movement across capillary walls."
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "title": "Regulation of GFR",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Glomerular Filtration Rate",
+    "book_pages": "1057",
+    "pdf_pages": "1073",
+    "capture": "p.1057 left column, below Figure 26.9: the three paragraphs under the heading 'Glomerular Filtration Rate' (start 'The amount of filtrate formed…'; 125/105 mL/min, why GFR must be constant, filtration ceases at 45 mmHg, constant between 80–180 mmHg); the third paragraph ('The mechanisms that regulate…') runs into the right column and names the three control mechanisms",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Glomerular Filtration",
+    "book_pages": "1055",
+    "pdf_pages": "1071",
+    "capture": "p.1055 left column: the first paragraph of section 26.5 (starts 'The fluid that enters the capsular space…'; filtration fraction 16–20%, 150 L/day females and 180 L/day males, >99% reabsorbed, 1–2 L urine)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Net Filtration Pressure",
+    "book_pages": "1056-1057",
+    "pdf_pages": "1072-1073",
+    "capture": "p.1056 right column 'Net Filtration Pressure' items 1–3 and equation; p.1057 Figure 26.9",
+    "figures": [
+     "26.9"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "GFR is the volume of filtrate all two million corpuscles make per minute: ~125 mL/min in males, ~105 mL/min in females, i.e. 150–180 L/day — the entire plasma volume (~3 L) filtered about 60 times a day. Since urine output is only 1–2 L, more than 99% of the filtrate must be reabsorbed. The slide's first bullets restate slide 19: GFR is driven by glomerular capillary pressure, which is set by the relative diameters of the afferent (in) and efferent (out) arterioles, and opposed by capsular pressure and plasma protein osmotic pressure. Filtration is by size, so cells and proteins stay in the blood. GFR must be held nearly constant: too high and useful solutes rush past before they can be reclaimed; too low and wastes are not cleared. The next three slides cover the three regulators: renal autoregulation, sympathetic nerves, and hormones. Strictly, it is the capillary pressure between the two arterioles that matters.",
+  "terms": [
+   {
+    "t": "Glomerular filtration rate (GFR)",
+    "d": "Total filtrate volume produced by both kidneys per minute."
+   },
+   {
+    "t": "Filtration fraction",
+    "d": "Share of plasma entering the glomeruli that becomes filtrate, about 16–20%."
+   },
+   {
+    "t": "Renal blood flow",
+    "d": "Blood delivered to both kidneys per minute, about 1200 mL."
+   },
+   {
+    "t": "Plasma",
+    "d": "The liquid part of blood, i.e. blood minus cells."
+   },
+   {
+    "t": "Vasoconstriction / vasodilation",
+    "d": "Narrowing / widening of a vessel by its smooth muscle."
+   },
+   {
+    "t": "Mean arterial pressure",
+    "d": "Average blood pressure over the cardiac cycle, ~90–100 mmHg."
+   },
+   {
+    "t": "Autoregulation",
+    "d": "An organ's ability to keep its own blood flow constant without nerves or hormones."
+   }
+  ],
+  "note": "Slide gives 150–180 L/day as 'water passing into the glomerular capsule'; Tortora specifies 150 L (females) and 180 L (males) of glomerular filtrate."
+ },
+ {
+  "n": 21,
+  "title": "Renal autoregulation of GFR",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Renal Autoregulation of GFR",
+    "book_pages": "1057-1058",
+    "pdf_pages": "1073-1074",
+    "capture": "p.1057 right column: the sub-heading 'Renal Autoregulation of GFR' and its two paragraphs (start 'The kidneys themselves help maintain…' and 'The myogenic mechanism…'); the myogenic paragraph runs over the page break and finishes on p.1058 in the short left-column block below Figure 26.10 (starts 'pressure stretches the walls…') and the first paragraph of the right column (ends '…within seconds after a change in blood pressure')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Regulation of Glomerular Filtration Rate",
+    "book_pages": "1059",
+    "pdf_pages": "1075",
+    "capture": "p.1059 Table 26.2 'Regulation of Glomerular Filtration Rate (GFR)', the two rows under 'Renal autoregulation' (Myogenic mechanism; Tubuloglomerular feedback)",
+    "figures": [],
+    "tables": [
+     "26.2"
+    ]
+   }
+  ],
+  "basics": "Autoregulation means the kidney holds its own blood flow and GFR steady across everyday swings in arterial pressure (roughly 80–180 mmHg) without help from nerves or hormones. The myogenic mechanism is a property of vascular smooth muscle itself: when arterial pressure rises, the afferent arteriole wall is stretched, and stretched smooth muscle responds by contracting, which narrows the lumen, cuts the flow into the glomerulus, and brings GFR back down. When pressure falls, the wall is stretched less, relaxes, the arteriole widens and GFR recovers — the 'vice versa' of the slide. This works within seconds. Read the slide's arrow chain as a negative-feedback loop: the rise in GFR is the disturbance and the constriction is the correction. The second autoregulatory mechanism, tubuloglomerular feedback, is slower and uses the JGA (next slide).",
+  "terms": [
+   {
+    "t": "Myogenic",
+    "d": "Originating in muscle itself (myo- muscle, -genic producing), without nerve input."
+   },
+   {
+    "t": "Smooth muscle",
+    "d": "Involuntary muscle in vessel and organ walls; contracts when stretched or signalled."
+   },
+   {
+    "t": "Negative feedback",
+    "d": "Control loop in which the response opposes the original change."
+   },
+   {
+    "t": "Afferent arteriole",
+    "d": "Vessel delivering blood to the glomerulus; the main site of GFR control."
+   },
+   {
+    "t": "Lumen",
+    "d": "The channel inside a vessel; narrowing it raises resistance and reduces flow."
+   },
+   {
+    "t": "Renal blood flow",
+    "d": "Total blood passing through the kidneys per minute."
+   },
+   {
+    "t": "Stretch",
+    "d": "Distension of a vessel wall by higher internal pressure."
+   }
+  ]
+ },
+ {
+  "n": 22,
+  "title": "Tubuloglomerular feedback",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Renal Autoregulation of GFR",
+    "book_pages": "1058",
+    "pdf_pages": "1074",
+    "capture": "p.1058 right column: the paragraph starting 'The second contributor to renal autoregulation, tubuloglomerular feedback…' (ends '…operates more slowly than the myogenic mechanism'); plus p.1058 Figure 26.10 'Tubuloglomerular feedback' (the feedback-loop diagram occupying the left column)",
+    "figures": [
+     "26.10"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.3",
+    "section_title": "Renal Tubule and Collecting Duct",
+    "book_pages": "1050-1051",
+    "pdf_pages": "1066-1067",
+    "capture": "p.1050 right column last paragraph continuing on p.1051 below Figure 26.5c: macula densa and juxtaglomerular cells forming the JGA",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The second autoregulatory loop uses the nephron's own tubule as a flow meter. If GFR rises, filtrate rushes through the PCT and loop faster than the cells can reabsorb Na+, Cl− and water, so more salt arrives at the macula densa — the sensor patch in the ascending limb that sits against the afferent arteriole (slide 14). The macula densa cells respond by reducing the release of nitric oxide (NO) from the juxtaglomerular apparatus. NO is a vasodilator, so less NO means the afferent arteriole constricts, less blood enters the glomerulus, and GFR falls back. A drop in GFR triggers the reverse, more weakly. Because it depends on fluid travelling the length of the tubule, this loop is slower than the myogenic one. Note the naming: 'tubulo-glomerular' because the tubule signals the glomerulus; it is a local, nephron-by-nephron control.",
+  "terms": [
+   {
+    "t": "Tubuloglomerular feedback",
+    "d": "Loop in which salt delivery to the macula densa adjusts the afferent arteriole and hence GFR."
+   },
+   {
+    "t": "Macula densa",
+    "d": "Specialised sensing cells in the ascending limb where it touches the afferent arteriole."
+   },
+   {
+    "t": "Nitric oxide (NO)",
+    "d": "Short-lived gas signal released by cells that relaxes vascular smooth muscle."
+   },
+   {
+    "t": "Vasodilator",
+    "d": "Substance that widens blood vessels."
+   },
+   {
+    "t": "JGA",
+    "d": "Juxtaglomerular apparatus: macula densa plus renin-secreting cells of the afferent arteriole."
+   },
+   {
+    "t": "Na+ and Cl− delivery",
+    "d": "Amount of sodium and chloride reaching a tubule segment per minute; rises when flow is fast."
+   }
+  ]
+ },
+ {
+  "n": 23,
+  "title": "Other regulations of GFR",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Regulation of Glomerular Filtration Rate",
+    "book_pages": "1059",
+    "pdf_pages": "1075",
+    "capture": "p.1059 Table 26.2 'Regulation of Glomerular Filtration Rate (GFR)' (top of the page) – the rows 'Neural regulation' and, under 'Hormone regulation', 'Angiotensin II' and 'Atrial natriuretic peptide (ANP)'; the slide reproduces these three rows verbatim",
+    "figures": [],
+    "tables": [
+     "26.2"
+    ]
+   },
+   {
+    "chapter": 26,
+    "section": "26.5",
+    "section_title": "Neural Regulation of GFR / Hormonal Regulation of GFR",
+    "book_pages": "1058",
+    "pdf_pages": "1074",
+    "capture": "p.1058 right column: the paragraph under the sub-heading 'Neural Regulation of GFR' (starts 'Like most blood vessels of the body…') and the paragraph under 'Hormonal Regulation of GFR' (starts 'Two hormones contribute…'; angiotensin II decreases, ANP increases GFR) – both in the lower half of the column",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Beyond the kidney's local autoregulation, the body can override GFR for whole-body needs. Neural control: sympathetic nerves release norepinephrine onto α1 receptors on arteriolar smooth muscle. At rest their activity is low and autoregulation dominates; moderate activity constricts afferent and efferent arterioles equally and barely changes GFR; strong activity (exercise, haemorrhage) constricts the afferent arteriole preferentially, cutting renal blood flow and GFR — which conserves blood volume and diverts blood to muscle and brain. The same nerves stimulate renin release. Hormonal control: angiotensin II, produced when blood volume or pressure is low, is a powerful constrictor of both arterioles and lowers GFR (keeping fluid in the body). Atrial natriuretic peptide, released when the atria are stretched by excess blood volume, relaxes mesangial cells, enlarging the filtering surface and raising GFR so that more salt and water are excreted.",
+  "terms": [
+   {
+    "t": "Sympathetic nervous system",
+    "d": "Division of the autonomic nervous system for 'fight or flight'; constricts most vessels."
+   },
+   {
+    "t": "Norepinephrine",
+    "d": "Neurotransmitter released by sympathetic nerve endings."
+   },
+   {
+    "t": "α1 (alpha-1) receptor",
+    "d": "Membrane receptor on vascular smooth muscle that triggers constriction when norepinephrine binds."
+   },
+   {
+    "t": "Angiotensin II",
+    "d": "Peptide hormone formed via renin and ACE; potent vasoconstrictor that also stimulates aldosterone."
+   },
+   {
+    "t": "Renin",
+    "d": "Enzyme from juxtaglomerular cells that starts angiotensin formation."
+   },
+   {
+    "t": "Atrial natriuretic peptide (ANP)",
+    "d": "Hormone from stretched heart atria that promotes salt (natri-) and water loss in urine."
+   },
+   {
+    "t": "Mesangial cell",
+    "d": "Contractile cell between glomerular capillaries; relaxing it increases filtration area."
+   },
+   {
+    "t": "Haemorrhage",
+    "d": "Loss of blood from the circulation."
+   }
+  ]
+ },
+ {
+  "n": 24,
+  "title": "Reabsorption routes",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption Routes",
+    "book_pages": "1060",
+    "pdf_pages": "1076",
+    "capture": "p.1060 left column: the two paragraphs under the sub-heading 'Reabsorption Routes' (start 'A substance being reabsorbed…' and 'Fluid can leak between the cells…'; six-pack analogy, apical vs basolateral membrane, paracellular up to 50%, transcellular definition); plus p.1060 Figure 26.11 'Reabsorption routes: paracellular reabsorption and transcellular reabsorption' in the right column",
+    "figures": [
+     "26.11"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Principles of Tubular Reabsorption and Secretion",
+    "book_pages": "1059",
+    "pdf_pages": "1075",
+    "capture": "p.1059 right column: the two paragraphs under the heading 'Principles of Tubular Reabsorption and Secretion' (start 'The volume of fluid entering…'; 99% of water reabsorbed, PCT the main site; and 'The third function… tubular secretion')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Tubular Reabsorption and Tubular Secretion",
+    "book_pages": "1060",
+    "pdf_pages": "1076",
+    "capture": "p.1060 Table 26.3 'Substances Filtered, Reabsorbed, and Secreted per Day' (top of the page)",
+    "figures": [],
+    "tables": [
+     "26.3"
+    ]
+   }
+  ],
+  "basics": "The tubule wall is a single sheet of cells joined near their tops by tight junctions, like a six-pack of cans held by a plastic ring: the top of each can (apical membrane) faces the tubular fluid, the sides and bottom (basolateral membrane) face the interstitial fluid and the peritubular capillary. A reabsorbed molecule therefore has two possible paths. Paracellular: slip passively between the cells through the tight junction; in the PCT the junctions are leaky enough that up to half of some ions, with water following by osmosis, take this route. Transcellular: cross the apical membrane into the cell, traverse the cytoplasm, and exit across the basolateral membrane — which requires transport proteins and allows the cell to control what moves and in which direction. Either way the substance ends up in the interstitial fluid and diffuses into the capillary. The slide names the routes; the mechanism (Na+ pumps and gradients) is on the next slide.",
+  "terms": [
+   {
+    "t": "Tight junction",
+    "d": "Belt of protein seals joining neighbouring epithelial cells near their apical ends."
+   },
+   {
+    "t": "Apical membrane",
+    "d": "Cell membrane facing the lumen (tubular fluid)."
+   },
+   {
+    "t": "Basolateral membrane",
+    "d": "Cell membrane facing the sides and base, i.e. interstitial fluid and capillaries."
+   },
+   {
+    "t": "Paracellular",
+    "d": "Passing between cells (para- beside)."
+   },
+   {
+    "t": "Transcellular",
+    "d": "Passing through a cell (trans- across)."
+   },
+   {
+    "t": "Interstitial fluid",
+    "d": "Fluid in the spaces between cells, outside blood vessels."
+   },
+   {
+    "t": "Passive transport",
+    "d": "Movement down a concentration or electrical gradient without spending ATP."
+   },
+   {
+    "t": "Sodium–potassium pump",
+    "d": "Basolateral ATP-driven pump ejecting 3 Na+ and importing 2 K+; keeps cell Na+ low."
+   }
+  ]
+ },
+ {
+  "n": 25,
+  "title": "Reabsorption of glucose",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption and Secretion in the Proximal Convoluted Tubule",
+    "book_pages": "1061",
+    "pdf_pages": "1077",
+    "capture": "p.1061 right column: the two paragraphs under the heading 'Reabsorption and Secretion in the Proximal Convoluted Tubule' (start 'The largest amount of solute…' with the 65%/100%/50%/80% figures, and 'Most solute reabsorption in the proximal convoluted tubule (PCT) involves Na+…' describing the Na+–glucose symporter); the second paragraph ends at the foot of the column",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption and Secretion in the Proximal Convoluted Tubule",
+    "book_pages": "1062",
+    "pdf_pages": "1078",
+    "capture": "p.1062 Figure 26.12 'Reabsorption of glucose by Na+–glucose symporters in cells of the proximal convoluted tubule (PCT)' (left column, upper two-thirds, with its key)",
+    "figures": [
+     "26.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Transport Mechanisms",
+    "book_pages": "1061",
+    "pdf_pages": "1077",
+    "capture": "p.1061 left column: the paragraphs under 'Transport Mechanisms' (start 'When renal cells transport solutes…'; Na+–K+ pumps on basolateral side, primary vs secondary active transport, symporters, antiporters, transport maximum Tm); and the boxed Clinical Connection 'Glucosuria' at the top of the right column",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Glucose is freely filtered (about 160 g/day) yet none appears in normal urine, so the PCT must reclaim all of it, along with amino acids, lactate and water-soluble vitamins. The trick is secondary active transport driven by sodium. Basolateral Na+/K+ pumps keep the cell's Na+ low, so Na+ 'wants' to enter from the tubular fluid. An apical symporter (SGLT) only lets Na+ in if a glucose molecule rides along, so the sodium gradient drags glucose into the cell even against its own gradient; glucose then leaves the basolateral side by facilitated diffusion and enters the capillary. Other symporters do the same for phosphate, sulfate, amino acids and lactate; antiporters swap Na+ in for H+ out (next slide). Every transporter has a maximum rate (Tm): if blood glucose exceeds roughly 200 mg/dL, as in untreated diabetes, the symporters saturate and glucose spills into urine (glucosuria), pulling water with it osmotically.",
+  "terms": [
+   {
+    "t": "Symporter",
+    "d": "Membrane carrier moving two substances in the same direction, e.g. Na+ and glucose."
+   },
+   {
+    "t": "Antiporter",
+    "d": "Membrane carrier moving two substances in opposite directions, e.g. Na+ in, H+ out."
+   },
+   {
+    "t": "Primary active transport",
+    "d": "Pumping a substance uphill using ATP directly (Na+/K+ ATPase)."
+   },
+   {
+    "t": "Secondary active transport",
+    "d": "Using the energy stored in one ion's gradient to move another substance uphill."
+   },
+   {
+    "t": "Facilitated diffusion",
+    "d": "Passive movement down a gradient through a carrier or channel protein."
+   },
+   {
+    "t": "Electrochemical gradient",
+    "d": "Combined concentration and electrical-charge difference that drives an ion's movement."
+   },
+   {
+    "t": "Transport maximum (Tm)",
+    "d": "Highest rate at which a carrier system can move a substance; beyond it the excess is excreted."
+   },
+   {
+    "t": "Glucosuria",
+    "d": "Glucose in the urine, usually from diabetes mellitus."
+   }
+  ]
+ },
+ {
+  "n": 26,
+  "title": "Reabsorption of sodium ions",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption and Secretion in the Proximal Convoluted Tubule",
+    "book_pages": "1061-1062",
+    "pdf_pages": "1077-1078",
+    "capture": "p.1061 right column, last paragraph (starts 'In another secondary active transport process, the Na+–H+ antiporters…'); it runs over the page break to p.1062 left column below Figure 26.12 (starts 'into a PCT cell as H+ is moved…') and ends with the carbonic anhydrase reaction CO2 + H2O ⇌ H2CO3 ⇌ H+ + HCO3− at the foot of that column",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption and Secretion in the Proximal Convoluted Tubule",
+    "book_pages": "1062",
+    "pdf_pages": "1078",
+    "capture": "p.1062 Figure 26.13 part (a) 'Na+ reabsorption and H+ secretion' (right column, upper diagram, with the figure legend at the top of the column)",
+    "figures": [
+     "26.13"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The second sodium-linked device in the PCT is the Na+–H+ antiporter: each Na+ that enters the cell down its gradient pushes one H+ out into the tubular fluid. So sodium is reabsorbed (it exits basolaterally via the Na+/K+ pump) and acid is secreted in the same step. Where does the H+ come from? The cell makes it. CO2 — diffusing in from blood or tubular fluid, or produced by the cell's own metabolism — combines with water under the enzyme carbonic anhydrase to give carbonic acid (H2CO3), which immediately splits into H+ and bicarbonate (HCO3−). The H+ feeds the antiporter; the HCO3− leaves across the basolateral membrane into the blood, replenishing the body's main buffer. That is the slide's two bullets. The slide title is 'sodium' but the important consequence is acid–base: this is how the kidney excretes acid and generates bicarbonate, and angiotensin II stimulates this antiporter to boost Na+ and water retention.",
+  "terms": [
+   {
+    "t": "Carbonic anhydrase",
+    "d": "Enzyme that speeds the reversible reaction of CO2 with water to form carbonic acid."
+   },
+   {
+    "t": "Carbonic acid (H2CO3)",
+    "d": "Weak acid formed from CO2 and water; dissociates into H+ and bicarbonate."
+   },
+   {
+    "t": "Bicarbonate (HCO3−)",
+    "d": "The blood's chief buffer anion; soaks up excess H+."
+   },
+   {
+    "t": "Dissociation",
+    "d": "Splitting of a molecule into ions in solution."
+   },
+   {
+    "t": "Buffer",
+    "d": "Substance that limits pH change by binding or releasing H+."
+   },
+   {
+    "t": "Na+–H+ antiporter (NHE)",
+    "d": "Apical carrier exchanging luminal Na+ for intracellular H+."
+   },
+   {
+    "t": "Secretion of H+",
+    "d": "Movement of hydrogen ions from the cell into the tubular fluid."
+   }
+  ]
+ },
+ {
+  "n": 27,
+  "title": "Reabsorption of bicarbonate ions",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption and Secretion in the Proximal Convoluted Tubule",
+    "book_pages": "1063",
+    "pdf_pages": "1079",
+    "capture": "p.1063 left column: the first paragraph at the top of the page (starts 'Most of the HCO3− in filtered fluid is reabsorbed…', ends '…one HCO3− and one Na+ are reabsorbed') – the slide's bullets follow this paragraph step by step",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption and Secretion in the Proximal Convoluted Tubule",
+    "book_pages": "1062",
+    "pdf_pages": "1078",
+    "capture": "p.1062 Figure 26.13 part (b) 'HCO3− reabsorption' (right column, lower diagram with the key beneath it)",
+    "figures": [
+     "26.13"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Bicarbonate is filtered in large amounts (~275 g/day) and the body cannot afford to lose it, but the apical membrane has no bicarbonate transporter. The kidney solves this indirectly. The H+ secreted by the Na+–H+ antiporter (slide 26) meets filtered HCO3− in the lumen and forms carbonic acid, which breaks down (helped by carbonic anhydrase on the brush border) into CO2 and water. CO2 is a small uncharged gas, so it simply diffuses into the cell. Inside, carbonic anhydrase re-forms carbonic acid, which splits again into H+ and HCO3−: the H+ is recycled out through the antiporter and the 'new' HCO3− exits basolaterally into the blood with Na+. Net result per cycle: one filtered bicarbonate is effectively moved from lumen to blood, one Na+ is reabsorbed, and no acid is lost. About 80% of filtered bicarbonate is reclaimed this way in the PCT; intercalated cells in the collecting duct finish the job (slide 30).",
+  "terms": [
+   {
+    "t": "Bicarbonate reabsorption",
+    "d": "Net return of filtered HCO3− to blood, achieved by converting it to CO2 and back."
+   },
+   {
+    "t": "Lumen (tubular fluid)",
+    "d": "The inside of the tubule where filtrate flows."
+   },
+   {
+    "t": "Diffusion",
+    "d": "Random movement of molecules from high to low concentration; CO2 crosses membranes freely this way."
+   },
+   {
+    "t": "Brush-border enzyme",
+    "d": "Enzyme anchored on the PCT microvilli acting on luminal fluid, e.g. carbonic anhydrase IV."
+   },
+   {
+    "t": "Acid–base balance",
+    "d": "Keeping blood pH near 7.4 by managing H+ and HCO3−."
+   },
+   {
+    "t": "Facilitated diffusion transporter",
+    "d": "Carrier protein letting HCO3− exit the cell passively across the basolateral side."
+   }
+  ]
+ },
+ {
+  "n": 28,
+  "title": "Passive reabsorption of other solutes",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption and Secretion in the Proximal Convoluted Tubule",
+    "book_pages": "1063",
+    "pdf_pages": "1079",
+    "capture": "p.1063 Figure 26.14 'Passive reabsorption of Cl−, K+, Ca2+, Mg2+, urea, and water in the second half of the proximal convoluted tubule' (lower half of the left column) – the slide reproduces this figure",
+    "figures": [
+     "26.14"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption and Secretion in the Proximal Convoluted Tubule",
+    "book_pages": "1063",
+    "pdf_pages": "1079",
+    "capture": "p.1063 left column: the second and third paragraphs (start 'Solute reabsorption in proximal convoluted tubules promotes osmosis of water…' – aquaporin-1 – and 'As water leaves the tubular fluid…'); the third paragraph runs into the top of the right column (ends '…cations, such as K+, Ca2+, and Mg2+')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption and Secretion in the Proximal Convoluted Tubule",
+    "book_pages": "1063",
+    "pdf_pages": "1079",
+    "capture": "p.1063 right column: the two paragraphs on ammonia and urea (start 'Ammonia (NH3) is a poisonous waste…' and 'Proximal convoluted tubule cells can produce additional NH3…')",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Everything so far used pumps; this slide shows what happens for free. In the first half of the PCT the active reabsorption of Na+, glucose, bicarbonate and so on raises the solute concentration in the cell, then in the interstitium, then in the capillary. Water follows by osmosis — through the leaky junctions and through aquaporin-1 water channels that make PCT and descending-limb cells highly water-permeable. As water leaves, the solutes left behind in the tubular fluid (Cl−, K+, Ca2+, Mg2+, urea) become more concentrated than in the interstitium, so in the second half of the PCT they diffuse out down their gradients, para- and transcellularly. Chloride, the most abundant, leaves first and makes the interstitium electrically negative, which then pulls the positive ions after it. So about 65% of water and most ions leave the PCT with no extra energy, and the fluid stays isosmotic (~300 mOsm/L) with plasma throughout.",
+  "terms": [
+   {
+    "t": "Aquaporin",
+    "d": "Membrane channel protein that lets water cross rapidly; aquaporin-1 is always present in PCT."
+   },
+   {
+    "t": "Obligatory water reabsorption",
+    "d": "Water that must follow reabsorbed solutes by osmosis (~90% of the total), independent of hormones."
+   },
+   {
+    "t": "Cation / anion",
+    "d": "Positively / negatively charged ion (Na+, K+, Ca2+, Mg2+ / Cl−, HCO3−)."
+   },
+   {
+    "t": "Concentration gradient",
+    "d": "Difference in concentration between two places that drives diffusion."
+   },
+   {
+    "t": "Electrical gradient",
+    "d": "Charge difference across a membrane or between compartments that attracts oppositely charged ions."
+   },
+   {
+    "t": "Isosmotic (isotonic)",
+    "d": "Having the same total solute concentration as plasma, about 300 mOsm/L."
+   },
+   {
+    "t": "Urea",
+    "d": "Nitrogen waste from the liver; filtered, partly reabsorbed passively, and also secreted."
+   },
+   {
+    "t": "Ammonium (NH4+)",
+    "d": "Ion formed when ammonia binds H+; secreted by PCT cells in place of H+ to excrete acid."
+   }
+  ]
+ },
+ {
+  "n": 29,
+  "title": "Reabsorption in the Nephron Loop",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption in the Nephron Loop",
+    "book_pages": "1063-1064",
+    "pdf_pages": "1079-1080",
+    "capture": "p.1063 right column: the three paragraphs under the heading 'Reabsorption in the Nephron Loop' (start 'Because all of the proximal convoluted tubules reabsorb about 65%…', 'The nephron loop reabsorbs about 15%…', 'The apical membranes of cells in the thick ascending limb…'); the third runs over the page break to p.1064 left column below Figure 26.15, followed by two more paragraphs there (start 'The movement of positively charged K+…' and 'Although about 15% of the filtered water…', which explains why the ascending limb is impermeable to water and the fluid becomes dilute)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption in the Nephron Loop",
+    "book_pages": "1064",
+    "pdf_pages": "1080",
+    "capture": "p.1064 Figure 26.15 'Na+–K+–2Cl− symporter in the thick ascending limb of the nephron loop' (left column, upper two-thirds, with key)",
+    "figures": [
+     "26.15"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "By the time fluid leaves the PCT, 65% of its water and nearly all nutrients are gone, but because water and solute left together the fluid is still isosmotic with blood (~300 mOsm/L). The loop changes that: for the first time water and salt are handled separately. The descending limb is permeable to water but not salt, so water is drawn out into the increasingly salty medulla (~15% of filtered water). The thick ascending limb is the opposite: its apical Na+–K+–2Cl− symporters pull salt out (about 25% of filtered Na+ and K+, 35% of Cl−), K+ leaks back into the lumen making the interstitium negative and dragging more cations out paracellularly, but the wall is essentially watertight, so the fluid becomes progressively more dilute (down to 100–150 mOsm/L) while the medullary interstitium gets saltier. This separation is what lets the kidney later choose to excrete dilute or concentrated urine. Loop diuretics such as furosemide block these symporters.",
+  "terms": [
+   {
+    "t": "Osmolarity",
+    "d": "Concentration of osmotically active particles, in milliosmoles per litre (mOsm/L)."
+   },
+   {
+    "t": "Na+–K+–2Cl− symporter (NKCC2)",
+    "d": "Apical carrier of the thick ascending limb moving one Na+, one K+ and two Cl− into the cell together."
+   },
+   {
+    "t": "Leakage channel",
+    "d": "Always-open ion channel letting an ion diffuse down its gradient."
+   },
+   {
+    "t": "Water-impermeable",
+    "d": "Lacking water channels, so water cannot follow solute out; property of the ascending limb."
+   },
+   {
+    "t": "Hypotonic (hypo-osmotic)",
+    "d": "More dilute than plasma."
+   },
+   {
+    "t": "Medullary interstitium",
+    "d": "Tissue fluid between the tubules of the medulla; becomes very salty."
+   },
+   {
+    "t": "Loop diuretic",
+    "d": "Drug (e.g. furosemide) that blocks the ascending-limb symporter to increase urine output."
+   }
+  ]
+ },
+ {
+  "n": 30,
+  "title": "Reabsorption in DCT and collecting ducts",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption and Secretion in the Late Distal Convoluted Tubule and Collecting Duct",
+    "book_pages": "1064-1065",
+    "pdf_pages": "1080-1081",
+    "capture": "p.1064 right column: the paragraph under the heading 'Reabsorption and Secretion in the Late Distal Convoluted Tubule and Collecting Duct' (starts 'By the time fluid reaches the end…'; 90–95% reabsorbed, principal cells reabsorb Na+/secrete K+ with ADH and aldosterone receptors, intercalated cells reabsorb HCO3−/K+ and secrete H+), plus the two following paragraphs on Na+ leakage channels and K+ secretion, which run over onto p.1065",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption in the Early Distal Convoluted Tubule",
+    "book_pages": "1064",
+    "pdf_pages": "1080",
+    "capture": "p.1064 right column: the paragraph under the heading 'Reabsorption in the Early Distal Convoluted Tubule' (starts 'Fluid enters the distal convoluted tubules…'; Na+–Cl− symporters, PTH-stimulated Ca2+ reabsorption)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Reabsorption and Secretion in the Late Distal Convoluted Tubule and Collecting Duct",
+    "book_pages": "1065",
+    "pdf_pages": "1081",
+    "capture": "p.1065 Figure 26.16 'Reabsorption of Na+ and secretion of K+ by principal cells' (left column, with key); and p.1067 Table 26.4 'Hormonal Regulation of Tubular Reabsorption and Tubular Secretion' (top of p.1067, pdf 1083)",
+    "figures": [
+     "26.16"
+    ],
+    "tables": [
+     "26.4"
+    ]
+   }
+  ],
+  "basics": "The last stretch of the nephron does fine adjustment under hormonal orders. The early DCT reabsorbs a further 5% of Na+ and Cl− by Na+–Cl− symporters (the target of thiazide diuretics) and reabsorbs Ca2+ when parathyroid hormone tells it to. By the end of the DCT, 90–95% of filtered water and solute are already back in the blood, so what happens next decides the final composition of urine. Two cell types line the late DCT and collecting duct. Principal cells have apical Na+ leakage channels and K+ leakage channels: Na+ drifts in and is pumped out basolaterally, while K+ (kept high inside by the pump) leaks out into the lumen — this is the body's main route for excreting dietary potassium. Aldosterone increases both processes; ADH inserts aquaporin-2 channels so water can be reabsorbed (slide 31). Intercalated cells pump H+ into the lumen and return bicarbonate (and K+) to the blood, completing acid excretion started in the PCT.",
+  "terms": [
+   {
+    "t": "Distal convoluted tubule (DCT)",
+    "d": "Coiled tubule segment after the loop, in the cortex; 'early' and 'late' parts differ in cell type."
+   },
+   {
+    "t": "Principal cell",
+    "d": "Most common late-DCT/collecting-duct cell; reabsorbs Na+ and water, secretes K+ under hormone control."
+   },
+   {
+    "t": "Intercalated cell",
+    "d": "Collecting-duct cell that secretes H+ and reabsorbs HCO3− and K+."
+   },
+   {
+    "t": "Antidiuretic hormone (ADH, vasopressin)",
+    "d": "Posterior-pituitary hormone that makes collecting-duct cells water-permeable."
+   },
+   {
+    "t": "Aldosterone",
+    "d": "Adrenal-cortex steroid that increases Na+ reabsorption and K+ secretion by principal cells."
+   },
+   {
+    "t": "Parathyroid hormone (PTH)",
+    "d": "Hormone raising blood Ca2+, partly by stimulating Ca2+ reabsorption in the early DCT."
+   },
+   {
+    "t": "Na+–Cl− symporter (NCC)",
+    "d": "Apical carrier of the early DCT; blocked by thiazide diuretics."
+   },
+   {
+    "t": "Receptor",
+    "d": "Protein that binds a specific hormone and triggers the cell's response."
+   }
+  ]
+ },
+ {
+  "n": 31,
+  "title": "Regulation of water reabsorption by ADH",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Antidiuretic Hormone",
+    "book_pages": "1065",
+    "pdf_pages": "1081",
+    "capture": "p.1065 right column: the two paragraphs under the sub-heading 'Antidiuretic Hormone' (start 'Antidiuretic hormone (ADH) or vasopressin is released…' – aquaporin-2 insertion – and 'A negative feedback system involving ADH…' – hypothalamic osmoreceptors, 1% change, diabetes insipidus up to 20 L/day); ends with the short paragraph 'The degree of facultative water reabsorption…' at the foot of the column",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.6",
+    "section_title": "Antidiuretic Hormone",
+    "book_pages": "1066",
+    "pdf_pages": "1082",
+    "capture": "p.1066 Figure 26.17 'Negative feedback regulation of facultative water reabsorption by ADH' (left column, whole feedback diagram); and p.1066 right column, the three bullets 'Normal hydration', 'Dehydration', 'Overhydration' (the first bullet begins at the foot of the left column)",
+    "figures": [
+     "26.17"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.7",
+    "section_title": "Hormonal Regulation of Tubular Reabsorption and Tubular Secretion",
+    "book_pages": "1067",
+    "pdf_pages": "1083",
+    "capture": "p.1067 Table 26.4, the row 'Antidiuretic hormone (ADH)'",
+    "figures": [],
+    "tables": [
+     "26.4"
+    ]
+   }
+  ],
+  "basics": "About 90% of water reabsorption is obligatory (it simply follows solute in the PCT and descending limb). The last ~10%, in the late DCT and collecting duct, is facultative — switched on or off to suit the body's water balance — and the switch is ADH. Without ADH, principal cells are almost watertight. ADH makes vesicles packed with aquaporin-2 water channels fuse into the apical membrane; water can then flow from the dilute tubular fluid into the cell and out through the always-permeable basolateral side into the blood. The control loop: if you lose water, plasma osmolarity rises (water concentration falls); osmoreceptors in the hypothalamus detect a change as small as 1% and drive ADH release from the posterior pituitary; more water is reabsorbed, osmolarity falls back, ADH release slows. In diabetes insipidus, absent ADH (or unresponsive kidneys) means the switch is never thrown, so up to 20 L of very dilute urine can be passed daily.",
+  "terms": [
+   {
+    "t": "Facultative water reabsorption",
+    "d": "The adjustable ~10% of water recovery in the late DCT and collecting duct, controlled by ADH."
+   },
+   {
+    "t": "Osmoreceptor",
+    "d": "Hypothalamic neuron that senses plasma osmolarity."
+   },
+   {
+    "t": "Hypothalamus",
+    "d": "Brain region beneath the thalamus that makes ADH and controls thirst."
+   },
+   {
+    "t": "Posterior pituitary",
+    "d": "Gland below the hypothalamus that stores and releases ADH into blood."
+   },
+   {
+    "t": "Aquaporin-2",
+    "d": "Water channel stored in vesicles in principal cells and inserted into the apical membrane when ADH acts."
+   },
+   {
+    "t": "Exocytosis / endocytosis",
+    "d": "Fusing vesicles into the membrane / retrieving membrane into vesicles."
+   },
+   {
+    "t": "Diabetes insipidus",
+    "d": "Condition of ADH deficiency or resistance causing huge volumes of dilute urine (unrelated to blood sugar)."
+   },
+   {
+    "t": "Diuresis",
+    "d": "Increased urine output."
+   }
+  ]
+ },
+ {
+  "n": 32,
+  "title": "Formation of diluted urine",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.7",
+    "section_title": "Formation of Dilute Urine",
+    "book_pages": "1067-1068",
+    "pdf_pages": "1083-1084",
+    "capture": "p.1067 right column: the paragraph under the heading 'Formation of Dilute Urine' (starts 'Glomerular filtrate has the same ratio…'), which runs over the page break to p.1068 and continues as numbered items 1–5 (item 1–3 in the left column below Figure 26.18, items 3–5 at the top of the right column; ends '…four times more dilute than blood plasma')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.7",
+    "section_title": "Formation of Dilute Urine",
+    "book_pages": "1068",
+    "pdf_pages": "1084",
+    "capture": "p.1068 Figure 26.18 'Formation of dilute urine' (left column, upper two-thirds; the osmolarity numbers 300→350→550→750→900 down the loop, 100 and 65–70 mOsm/L at the exit)",
+    "figures": [
+     "26.18"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.7",
+    "section_title": "Production of Dilute and Concentrated Urine",
+    "book_pages": "1067",
+    "pdf_pages": "1083",
+    "capture": "p.1067 right column: the introductory paragraph of section 26.7 (starts 'Even though your fluid intake can be highly variable…'; ADH decides dilute vs concentrated)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Follow the numbers on Figure 26.18. Filtrate enters at 300 mOsm/L, the same as plasma, and is still 300 leaving the PCT. Down the descending limb water is pulled out into the salty medulla, so the fluid concentrates (up to ~900 at the tip of a long loop). Up the thick ascending limb, salt is pumped out but water cannot follow, so the fluid dilutes rapidly — to about 150 by the time it enters the DCT, which is already more dilute than plasma. The DCT removes a little more solute and almost no water. If ADH is low (you are well hydrated), the late DCT and collecting duct stay water-impermeable, solutes keep being removed, and the urine leaving the papillary duct can be as dilute as 65–70 mOsm/L — about a quarter of plasma osmolarity — in large volume. The slide's four bullets are these steps in order. The medullary gradient this relies on is explained next.",
+  "terms": [
+   {
+    "t": "Dilute (hypo-osmotic) urine",
+    "d": "Urine with lower solute concentration than plasma; produced when ADH is low."
+   },
+   {
+    "t": "mOsm/L (milliosmoles per litre)",
+    "d": "Unit of osmolarity; plasma is about 300."
+   },
+   {
+    "t": "Osmotic gradient",
+    "d": "Progressive rise in interstitial solute concentration from cortex (300) to inner medulla (1200)."
+   },
+   {
+    "t": "Descending limb",
+    "d": "Loop segment permeable to water but not to salt; fluid concentrates here."
+   },
+   {
+    "t": "Thick ascending limb",
+    "d": "Loop segment that pumps out salt and is impermeable to water; fluid dilutes here."
+   },
+   {
+    "t": "Water permeability",
+    "d": "How readily water can cross a membrane; set by the presence of aquaporins."
+   },
+   {
+    "t": "Overhydration",
+    "d": "Excess body water; suppresses ADH so more dilute urine is made."
+   }
+  ]
+ },
+ {
+  "n": 33,
+  "title": "Formation of concentrated urine",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.7",
+    "section_title": "Formation of Concentrated Urine / Countercurrent Multiplication",
+    "book_pages": "1068-1070",
+    "pdf_pages": "1084-1086",
+    "capture": "p.1068 right column: the two paragraphs under the heading 'Formation of Concentrated Urine' (start 'When water intake is low…' and 'The ability of ADH to cause…'; gradient 300→1200 mOsm/L, Na+, Cl−, urea, countercurrent flow) and the sub-heading 'Countercurrent Multiplication' whose paragraph runs over the page break to p.1069 below Figure 26.19 and then as numbered steps 1–4; steps 2–4 fill the whole left column of p.1070",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.7",
+    "section_title": "Formation of Concentrated Urine",
+    "book_pages": "1069",
+    "pdf_pages": "1085",
+    "capture": "p.1069 Figure 26.19 'Mechanism of urine concentration in long-loop juxtamedullary nephrons' (whole upper three-quarters of the page: part (a) reabsorption of Na+, Cl− and water in the long-loop nephron; part (b) recycling of salts and urea in vasa recta; and the small inset 'Juxtamedullary nephron and its blood supply together' top-left, which is the picture on the slide)",
+    "figures": [
+     "26.19"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.7",
+    "section_title": "Countercurrent Exchange",
+    "book_pages": "1070",
+    "pdf_pages": "1086",
+    "capture": "p.1070 right column: the two paragraphs under the sub-heading 'Countercurrent Exchange' (start 'Countercurrent exchange is the process…' and 'Blood entering the vasa recta…'; ends '…maintains the osmotic gradient in the renal medulla by countercurrent exchange') – this is the slide's vasa recta bullet",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.7",
+    "section_title": "Production of Dilute and Concentrated Urine",
+    "book_pages": "1071",
+    "pdf_pages": "1087",
+    "capture": "p.1071 Figure 26.20 'Summary of filtration, reabsorption, and secretion in the nephron and collecting duct' (whole page) – one-page revision summary of slides 17–33",
+    "figures": [
+     "26.20"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "To make urine more concentrated than plasma the kidney needs a place saltier than plasma to draw water into: the medullary interstitium, whose osmolarity climbs from 300 at the cortex to 1200 mOsm/L at the papilla. Only the long loops of juxtamedullary nephrons build this gradient, by countercurrent multiplication. The thick ascending limb pumps NaCl out into the interstitium but keeps water; the neighbouring descending limb, carrying fluid the opposite way, loses water to that salty interstitium and so delivers ever-saltier fluid to the ascending limb, which pumps out still more salt — each pass 'multiplies' the difference, and urea recycled from the collecting duct adds to the deep-medullary solute. When ADH makes the collecting duct water-permeable, fluid passing through this gradient loses water by osmosis and exits at up to 1200 mOsm/L. The hairpin vasa recta (countercurrent exchange) pick up salt going down and return it coming up, feeding the medulla without washing out the gradient.",
+  "terms": [
+   {
+    "t": "Countercurrent multiplication",
+    "d": "Build-up of a medullary osmotic gradient by opposite-direction flow in the two limbs of long nephron loops."
+   },
+   {
+    "t": "Countercurrent exchange",
+    "d": "Passive salt/water swapping between descending and ascending vasa recta that preserves the gradient."
+   },
+   {
+    "t": "Countercurrent multiplier / exchanger",
+    "d": "The nephron loop (creates gradient) / the vasa recta (maintains it)."
+   },
+   {
+    "t": "Urea recycling",
+    "d": "Urea diffusing out of the inner collecting duct into the medulla and back into the loop, adding to medullary osmolarity."
+   },
+   {
+    "t": "Concentrated (hyperosmotic) urine",
+    "d": "Urine more concentrated than plasma, up to ~1200 mOsm/L, made when ADH is high."
+   },
+   {
+    "t": "Hairpin loop",
+    "d": "U-shaped tube in which flow reverses direction; the geometry needed for countercurrent effects."
+   },
+   {
+    "t": "Dehydration",
+    "d": "Deficit of body water; raises ADH so concentrated urine is produced."
+   },
+   {
+    "t": "Diuretic",
+    "d": "Substance that increases urine flow, usually by blocking Na+ reabsorption (see Clinical Connection p.1070)."
+   }
+  ]
+ },
+ {
+  "n": 34,
+  "title": "Evaluation of Kidney Function",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.8",
+    "section_title": "Urinalysis",
+    "book_pages": "1073",
+    "pdf_pages": "1089",
+    "capture": "p.1073 Table 26.6 'Summary of Abnormal Constituents in Urine' (upper two-thirds of the page) – the slide's table is an abridged copy of the rows Albumin, Glucose, Red blood cells, Ketone bodies, Urobilinogen and Microbes (the slide omits Bilirubin and Casts)",
+    "figures": [],
+    "tables": [
+     "26.6"
+    ]
+   },
+   {
+    "chapter": 26,
+    "section": "26.8",
+    "section_title": "Urinalysis",
+    "book_pages": "1072",
+    "pdf_pages": "1088",
+    "capture": "p.1072 left column: the two paragraphs under the heading 'Urinalysis' (start 'An analysis of the volume and physical…' and 'Water accounts for about 95%…'), plus the paragraph at the top of the right column below Table 26.5 (starts 'If disease alters body metabolism…'); p.1072 Table 26.5 'Characteristics of Normal Urine' (right column) for normal values",
+    "figures": [],
+    "tables": [
+     "26.5"
+    ]
+   },
+   {
+    "chapter": 26,
+    "section": "26.8",
+    "section_title": "Blood Tests / Renal Plasma Clearance",
+    "book_pages": "1072-1074",
+    "pdf_pages": "1088-1090",
+    "capture": "p.1072 right column 'Blood Tests' (BUN, plasma creatinine), continuing p.1073 left column; p.1073 right column 'Renal Plasma Clearance' with the clearance equation, continuing on p.1074 below the Hemodialysis box (inulin and creatinine clearance as measures of GFR)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Because urine is the end product of filtration, reabsorption and secretion, its composition is a window onto the kidney and the body. Normal urine is ~95% water with urea, creatinine, uric acid, urobilinogen and electrolytes, and essentially no protein, glucose or cells. Each abnormal finding points to a failed step. Albumin (albuminuria): the filtration membrane has become leaky — damage, high pressure, toxins. Glucose (glucosuria): filtered load exceeded the PCT transport maximum, almost always diabetes mellitus. Red cells (haematuria): bleeding somewhere from glomerulus to urethra — inflammation, stones, tumours. Ketone bodies (ketonuria): the body is burning fat for lack of usable carbohydrate — diabetes, starvation, anorexia. Urobilinogen: a haemoglobin breakdown product; excess suggests haemolysis or liver/bile-duct disease. Microbes: urinary tract infection, most often E. coli. The slide shows only the dipstick side; the book also covers blood urea nitrogen, plasma creatinine, and clearance (inulin or creatinine clearance ≈ GFR).",
+  "terms": [
+   {
+    "t": "Urinalysis",
+    "d": "Laboratory examination of urine volume and its physical, chemical and microscopic properties."
+   },
+   {
+    "t": "-uria",
+    "d": "Suffix meaning 'in the urine' (albuminuria, glucosuria, haematuria)."
+   },
+   {
+    "t": "Albumin",
+    "d": "Main plasma protein; its presence in urine means the filter is leaking."
+   },
+   {
+    "t": "Ketone bodies",
+    "d": "Acidic fuels made from fat when carbohydrate is unavailable; spill into urine when abundant."
+   },
+   {
+    "t": "Urobilinogen",
+    "d": "Colourless product of bilirubin breakdown by gut bacteria; some is reabsorbed and excreted in urine."
+   },
+   {
+    "t": "Jaundice",
+    "d": "Yellow skin and eyes from raised bilirubin."
+   },
+   {
+    "t": "Cirrhosis",
+    "d": "Scarring of the liver that impairs its function."
+   },
+   {
+    "t": "Renal plasma clearance",
+    "d": "Volume of plasma completely cleared of a substance per minute; inulin clearance equals GFR."
+   },
+   {
+    "t": "Creatinine",
+    "d": "Muscle waste product filtered but hardly reabsorbed; its blood level and clearance estimate kidney function."
+   }
+  ]
+ },
+ {
+  "n": 35,
+  "title": "Urine transportation and storage",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Ureters",
+    "book_pages": "1075",
+    "pdf_pages": "1091",
+    "capture": "p.1075 left column: the paragraph under the heading 'Ureters' (starts 'Each of the two ureters…'; peristalsis, hydrostatic pressure, gravity, 1–5 waves/min), then p.1075 right column, paragraphs 1–2 (start 'The ureters are 25–30 cm…' and 'Even though there is no anatomical valve…' – the physiological valve that prevents backflow)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Urinary Bladder",
+    "book_pages": "1076",
+    "pdf_pages": "1092",
+    "capture": "p.1076 left column: the paragraph under the heading 'Urinary Bladder' (starts 'The urinary bladder is a hollow, distensible…'), which finishes at the top of the right column with 'Urinary bladder capacity averages 700–800 mL' and why it is smaller in females",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Ureters",
+    "book_pages": "1075-1076",
+    "pdf_pages": "1091-1092",
+    "capture": "p.1075 right column, paragraphs 3–4 (start 'Three layers of tissue form the wall of the ureters…' and 'Throughout most of the length…'), continuing at the top of p.1076 left column (muscle layers, adventitia) – histology of the ureter wall",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Once fluid reaches the calyces it is urine and is simply moved and stored. Each ureter is a 25–30 cm retroperitoneal muscular tube. Urine is pushed down mainly by peristalsis — waves of smooth-muscle contraction, 1–5 per minute, faster when urine forms faster — helped by the pressure from behind and by gravity. The ureters enter the back wall of the bladder obliquely, tunnelling through the muscle before opening; there is no valve, but as the bladder fills its internal pressure squashes these oblique tunnels shut, so urine cannot reflux up to the kidneys. When that mechanism fails, bladder bacteria can ascend and infect the kidney. The bladder is a hollow, highly distensible muscular bag behind the pubic bone; empty it collapses, full it rises pear-shaped into the lower abdomen and can hold 700–800 mL (less in women, where the uterus sits on top). Its wall is stretchable urothelium, a three-layered detrusor muscle, and an outer adventitia.",
+  "terms": [
+   {
+    "t": "Peristalsis",
+    "d": "Travelling wave of muscular contraction that propels contents along a tube."
+   },
+   {
+    "t": "Hydrostatic pressure",
+    "d": "Pressure of the fluid column itself; here urine pushing from behind."
+   },
+   {
+    "t": "Retroperitoneal",
+    "d": "Behind the peritoneum; true of kidneys and ureters."
+   },
+   {
+    "t": "Distensible",
+    "d": "Able to stretch to hold a larger volume."
+   },
+   {
+    "t": "Physiological valve",
+    "d": "Backflow prevention by compression of an oblique opening rather than by a flap."
+   },
+   {
+    "t": "Vesicoureteral reflux",
+    "d": "Backflow of urine from bladder into ureter when the physiological valve fails."
+   },
+   {
+    "t": "Urothelium (transitional epithelium)",
+    "d": "Multi-layered stretchable lining of the urinary tract that resists urine."
+   },
+   {
+    "t": "Detrusor muscle",
+    "d": "Three-layered smooth muscle of the bladder wall that contracts to expel urine."
+   },
+   {
+    "t": "Rugae",
+    "d": "Mucosal folds that flatten out as the bladder fills."
+   }
+  ]
+ },
+ {
+  "n": 36,
+  "title": "Ureters, urinary bladder, and urethra in a female",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Urinary Bladder",
+    "book_pages": "1075",
+    "pdf_pages": "1091",
+    "capture": "p.1075 Figure 26.21 'Ureters, urinary bladder, and urethra in a female' (lower half of the page, anterior view of coronal section with labels ureters, ureteral openings, mucosal folds, peritoneum, detrusor muscle, trigone, internal urethral sphincter/orifice, external urethral sphincter/orifice, urethra) – the slide reproduces this figure",
+    "figures": [
+     "26.21"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Anatomy and Histology of the Urinary Bladder",
+    "book_pages": "1076-1077",
+    "pdf_pages": "1092-1093",
+    "capture": "p.1076 right column: the two paragraphs under the sub-heading 'Anatomy and Histology of the Urinary Bladder' (start 'In the floor of the urinary bladder…' – trigone – and 'Three coats make up the wall…' – mucosa, detrusor, internal and external urethral sphincters); the second runs over the page break to the top of p.1077 left column (ends '…a layer of visceral peritoneum')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "The Micturition Reflex",
+    "book_pages": "1077",
+    "pdf_pages": "1093",
+    "capture": "p.1077 left column: the paragraph under the sub-heading 'The Micturition Reflex' (starts 'Discharge of urine from the urinary bladder, called micturition…'; 200–400 mL, S2–S3, detrusor contraction, sphincter relaxation, cortical control)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Urethra",
+    "book_pages": "1077-1078",
+    "pdf_pages": "1093-1094",
+    "capture": "p.1077 right column, last paragraph (starts 'In females, the urethra lies directly posterior…'; 4 cm, opening between clitoris and vagina), continuing on p.1078 left column below the Urinary Incontinence box",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This is the bladder cut in a coronal (front-to-back-facing) plane in a woman. The two ureters enter at the back corners of a smooth triangle on the bladder floor, the trigone, whose front corner is the exit into the urethra (internal urethral orifice). The wall is mostly detrusor smooth muscle; folded mucosa lets it expand; peritoneum drapes the top. Two rings guard the outlet: an internal urethral sphincter of smooth muscle (involuntary) formed by the detrusor's circular fibres, and an external urethral sphincter of skeletal muscle in the pelvic floor (voluntary). Emptying (micturition) is a spinal reflex: when 200–400 mL stretch the wall, receptors signal segments S2–S3, parasympathetic nerves contract the detrusor and relax the internal sphincter, and somatic nerves to the external sphincter are inhibited; the cortex can postpone this by holding the external sphincter shut. The female urethra is only ~4 cm, opening just in front of the vagina — one reason urinary infections are commoner in women.",
+  "terms": [
+   {
+    "t": "Trigone",
+    "d": "Smooth triangular area on the bladder floor between the two ureteral openings and the urethral opening."
+   },
+   {
+    "t": "Internal urethral sphincter",
+    "d": "Involuntary smooth-muscle ring at the bladder neck."
+   },
+   {
+    "t": "External urethral sphincter",
+    "d": "Voluntary skeletal-muscle ring in the deep perineal muscles around the urethra."
+   },
+   {
+    "t": "Orifice",
+    "d": "An opening; internal (bladder to urethra) and external (urethra to outside)."
+   },
+   {
+    "t": "Micturition",
+    "d": "Urination; emptying of the bladder."
+   },
+   {
+    "t": "Stretch receptor",
+    "d": "Sensory nerve ending that fires when the tissue it lies in is distended."
+   },
+   {
+    "t": "Parasympathetic",
+    "d": "Autonomic division that drives 'rest and digest' functions, including bladder emptying."
+   },
+   {
+    "t": "Somatic motor neuron",
+    "d": "Nerve cell controlling skeletal (voluntary) muscle."
+   },
+   {
+    "t": "Perineum",
+    "d": "Region between the thighs beneath the pelvic floor, containing the urethral and anal openings."
+   }
+  ]
+ },
+ {
+  "n": 37,
+  "title": "Male urethra",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Urethra",
+    "book_pages": "1076",
+    "pdf_pages": "1092",
+    "capture": "p.1076 Figure 26.22 'Comparison between male and female urethras' (lower half of the page): part (a) 'Sagittal section, male' with its three annotated segments (prostatic, membranous, spongy urethra) and the 'MALES VS. FEMALES' box on the right – the slide reproduces part (a)",
+    "figures": [
+     "26.22"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Urethra",
+    "book_pages": "1077",
+    "pdf_pages": "1093",
+    "capture": "p.1077 right column: the first two paragraphs (start 'In males, the urethra also extends…' – 20 cm, through prostate, deep perineal muscles, penis – and 'The male urethra, which also consists of…' – the three regions (1) prostatic, (2) membranous, (3) spongy and their epithelia); the next two paragraphs cover the muscular layer and the glands opening into it",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.9",
+    "section_title": "Urethra",
+    "book_pages": "1077",
+    "pdf_pages": "1093",
+    "capture": "p.1077 left column bottom: the paragraph under the heading 'Urethra' (starts 'The urethra (ū-RĒ-thra) is a small tube…'; in males it also carries semen)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The male urethra is ~20 cm, five times the female one, and is a shared duct for urine and semen. Seen in sagittal section it has three named parts on its way from the bladder neck to the tip of the penis. The prostatic urethra passes through the prostate gland just below the bladder and receives the ducts of the prostate and the ejaculatory ducts (sperm plus seminal-gland fluid). The intermediate (membranous) urethra is the shortest part, passing through the deep perineal muscles that form the voluntary external sphincter. The spongy (penile) urethra, the longest part, runs through the erectile corpus spongiosum of the penis to the external urethral orifice and receives the bulbourethral glands. The lining changes from urothelium near the bladder to columnar epithelium and finally stratified squamous at the tip. Clinically, an enlarged prostate obstructs flow here. The slide's 'intermediate urethra' equals the book's 'membranous urethra'.",
+  "terms": [
+   {
+    "t": "Sagittal section",
+    "d": "Vertical cut from front to back, here through the midline of the pelvis."
+   },
+   {
+    "t": "Prostate",
+    "d": "Walnut-sized gland below the male bladder surrounding the first part of the urethra."
+   },
+   {
+    "t": "Prostatic urethra",
+    "d": "First segment of the male urethra, inside the prostate."
+   },
+   {
+    "t": "Intermediate (membranous) urethra",
+    "d": "Short middle segment passing through the deep perineal muscles."
+   },
+   {
+    "t": "Spongy (penile) urethra",
+    "d": "Longest segment, running through the penis to the external orifice."
+   },
+   {
+    "t": "Pubic symphysis",
+    "d": "Cartilage joint between the two pubic bones at the front of the pelvis; the bladder lies behind it."
+   },
+   {
+    "t": "Semen",
+    "d": "Sperm plus glandular fluids, ejaculated through the urethra."
+   },
+   {
+    "t": "Bulbourethral (Cowper's) glands",
+    "d": "Pea-sized glands whose alkaline mucus enters the spongy urethra."
+   },
+   {
+    "t": "Testis",
+    "d": "Male gonad in the scrotum, producing sperm and testosterone."
+   }
+  ],
+  "note": "The slide's label 'Intermediate urethra' is the Terminologia Anatomica name; Tortora 16e uses 'membranous urethra' for the same segment."
+ },
+ {
+  "n": 38,
+  "title": "Development of urinary system",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 26,
+    "section": "26.11",
+    "section_title": "Development of the Urinary System",
+    "book_pages": "1080",
+    "pdf_pages": "1096",
+    "capture": "p.1080 Figure 26.23 'Development of the urinary system' (upper two-thirds of the page: parts (a) fifth week, (b) sixth week, (c) seventh week, (d) eighth week, (e) anterior view of 8-week embryo) – the slide reproduces this figure",
+    "figures": [
+     "26.23"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 26,
+    "section": "26.11",
+    "section_title": "Development of the Urinary System",
+    "book_pages": "1079",
+    "pdf_pages": "1095",
+    "capture": "p.1079 right column: the whole column of section 26.11 text (starts 'Starting in the third week of fetal development…'; paragraphs on intermediate mesoderm and urogenital ridges, pronephros, mesonephros, ureteric bud and metanephros, cloaca dividing into urogenital sinus and rectum, ascent of the kidneys, then renal agenesis, malrotated, ectopic and horseshoe kidney)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The embryo builds three successive pairs of kidneys from a strip of intermediate mesoderm along its back (the urogenital ridges), each more caudal and more advanced than the last. The pronephros (week 3–4) never functions and vanishes by week 6, but leaves its duct. The mesonephros takes over that duct (now the mesonephric duct) and works briefly before regressing by week 8. Around week 5 a side-branch of the mesonephric duct, the ureteric bud, grows into the metanephric mesoderm; the bud branches to form the ureter, pelvis, calyces and collecting ducts, while the mesoderm it invades forms the nephrons — so the collecting system and the nephrons have different origins and must connect. The cloaca, the common end-chamber of gut and urinary tracts, splits into a rectum behind and a urogenital sinus in front that becomes the bladder and urethra. The kidneys start in the pelvis and ascend to the lumbar region; failures give horseshoe, ectopic or absent kidneys.",
+  "terms": [
+   {
+    "t": "Mesoderm",
+    "d": "Middle of the three embryonic germ layers; the intermediate mesoderm forms kidneys and gonads."
+   },
+   {
+    "t": "Pronephros / mesonephros / metanephros",
+    "d": "First, second and final (permanent) embryonic kidneys, forming in sequence from head to tail."
+   },
+   {
+    "t": "Mesonephric (Wolffian) duct",
+    "d": "Embryonic duct draining the mesonephros; gives rise to the ureteric bud."
+   },
+   {
+    "t": "Ureteric bud",
+    "d": "Outgrowth of the mesonephric duct that forms the ureter, pelvis, calyces and collecting ducts."
+   },
+   {
+    "t": "Metanephric mesoderm",
+    "d": "Tissue cap around the ureteric bud that differentiates into nephrons."
+   },
+   {
+    "t": "Cloaca",
+    "d": "Common terminal chamber of the embryonic hindgut receiving urinary and genital ducts."
+   },
+   {
+    "t": "Urogenital sinus",
+    "d": "Front part of the divided cloaca, which becomes the bladder and urethra."
+   },
+   {
+    "t": "Allantois",
+    "d": "Embryonic outpocketing from the hindgut connected to the bladder apex; later becomes a fibrous cord."
+   },
+   {
+    "t": "Horseshoe kidney",
+    "d": "Congenital fusion of the two kidneys' lower poles into a U-shape."
+   },
+   {
+    "t": "Renal agenesis",
+    "d": "Failure of one (or both) kidneys to develop, usually because no ureteric bud formed."
+   }
+  ]
+ }
+]

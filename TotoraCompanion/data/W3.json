@@ -1,0 +1,2796 @@
+[
+ {
+  "n": 1,
+  "title": "HTI5001",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 2,
+  "title": "Learning objectives",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 3,
+  "title": "Overview of respiratory system",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.1",
+    "section_title": "Overview of the Respiratory System — Components of the Respiratory System",
+    "book_pages": "892",
+    "pdf_pages": "908",
+    "capture": "p.892 left column, bottom: the single paragraph under the heading 'Components of the Respiratory System' (starts 'The respiratory system (RES-pi-ra-tōr-ē) consists…'); it continues 3 lines into the right column ('and pulmonary alveoli and are…'). Gives both the structural split (upper/lower) and the functional split (conducting/respiratory zone).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.1",
+    "section_title": "Overview of the Respiratory System",
+    "book_pages": "893",
+    "pdf_pages": "909",
+    "capture": "p.893 whole page: Figure 23.2 (a) anterior view of the organs of respiration, with the key sentence under the figure title and the 'Functions of the respiratory system' box top-left.",
+    "figures": [
+     "23.2"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Patency of the Respiratory System — Table 23.1",
+    "book_pages": "911",
+    "pdf_pages": "927",
+    "capture": "p.911 whole page: Table 23.1 'Summary of the Structures of the Respiratory System' — the colour key at the bottom separates conducting structures from gas-exchange structures.",
+    "figures": [],
+    "tables": [
+     "23.1"
+    ]
+   }
+  ],
+  "basics": "The respiratory system is a set of tubes and sacs that brings outside air close enough to blood for gases to diffuse across a thin wall. The slide gives two different ways to cut the system in two. Anatomically, 'upper' means everything in the head and neck down to (but not including) the larynx: nose, nasal cavity and pharynx; 'lower' is larynx, trachea, bronchi and lungs. Note the slide's line 'nostrils to larynx' is ambiguous: Tortora puts the larynx in the lower tract. Functionally, the 'conducting' part (nose to terminal bronchioles) only moves, cleans, warms and humidifies air, with no gas exchange; the 'respiratory' part (respiratory bronchioles, alveolar ducts, alveoli) is where oxygen and carbon dioxide actually cross into and out of blood. The two classifications overlap but do not coincide: much of the conducting zone lies inside the lungs, i.e. in the lower tract.",
+  "terms": [
+   {
+    "t": "Pharynx",
+    "d": "The throat: a muscular funnel behind the nose and mouth shared by air and food."
+   },
+   {
+    "t": "Larynx",
+    "d": "The voice box: a cartilage-framed passage between the pharynx and the trachea that houses the vocal folds."
+   },
+   {
+    "t": "Trachea",
+    "d": "The windpipe: a cartilage-reinforced tube from the larynx down to where it splits into the two main bronchi."
+   },
+   {
+    "t": "Bronchus / bronchi",
+    "d": "The large branching airways inside the chest and lungs, from the trachea down to the bronchioles."
+   },
+   {
+    "t": "Bronchiole",
+    "d": "A small airway (under about 1 mm) with no cartilage in its wall; the last conducting airways are called terminal bronchioles."
+   },
+   {
+    "t": "Alveolus / alveoli",
+    "d": "Tiny thin-walled air sacs at the ends of the airway tree where gas exchange with blood happens."
+   },
+   {
+    "t": "Conducting zone",
+    "d": "The airways that carry air but do not exchange gas: nose through terminal bronchioles."
+   },
+   {
+    "t": "Respiratory zone",
+    "d": "The parts of the lung where gas exchange occurs: respiratory bronchioles, alveolar ducts, alveolar sacs and alveoli."
+   }
+  ],
+  "note": "Slide says URT = 'nostrils to larynx'. In Tortora the larynx belongs to the LOWER respiratory system (upper = nose, nasal cavity, pharynx); some other textbooks include the larynx in the upper tract."
+ },
+ {
+  "n": 4,
+  "title": "Functions of the respiratory system",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.1",
+    "section_title": "Overview of the Respiratory System — Figure 23.2 functions box",
+    "book_pages": "893",
+    "pdf_pages": "909",
+    "capture": "p.893 top-left: the boxed list 'Functions of the respiratory system' (items 1–3) inside Figure 23.2.",
+    "figures": [
+     "23.2"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "Focus on Homeostasis",
+    "section_title": "Contributions of the Respiratory System for All Body Systems",
+    "book_pages": "935",
+    "pdf_pages": "951",
+    "capture": "p.935 whole page: the 'Focus on Homeostasis' panel; especially the 'Endocrine System' bullet (angiotensin-converting enzyme in lungs → angiotensin II) and the 'Urinary System' bullet on pH.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.2",
+    "section_title": "The Upper Respiratory System — Nose",
+    "book_pages": "894",
+    "pdf_pages": "910",
+    "capture": "p.894 right column, first paragraph (starts 'The interior structures of the external…'): the three functions of the nose — warming/moistening/filtering, smell, and speech resonance.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Cells burn fuel with oxygen and produce carbon dioxide; the respiratory system's core job is to keep the blood's O2 up and CO2 down by exchanging both with the atmosphere. Everything else on the slide is a side-effect of moving air or of having an enormous blood-perfused surface. Sound: air pushed past the vocal folds makes them vibrate, and the nose, sinuses and mouth shape the sound. Smell: receptors sit in the roof of the nasal cavity, so odour molecules in inhaled air reach them. Acid–base: CO2 dissolved in water forms carbonic acid, so breathing more or less CO2 out raises or lowers blood pH within minutes. Blood pressure: the lung capillaries carry an enzyme (ACE) that converts angiotensin I into angiotensin II, a hormone that constricts vessels and makes the kidney keep salt and water. The slide does not mention two further items in the book: excretion of water and heat in exhaled air, and filtering of inspired air.",
+  "terms": [
+   {
+    "t": "Olfaction",
+    "d": "The sense of smell; chemical receptors in the upper nasal cavity respond to airborne molecules."
+   },
+   {
+    "t": "Carbonic acid (H2CO3)",
+    "d": "The weak acid formed when CO2 dissolves in water; it releases hydrogen ions and so lowers pH."
+   },
+   {
+    "t": "pH",
+    "d": "A measure of hydrogen-ion concentration; lower pH means more acidic. Blood is held near 7.4."
+   },
+   {
+    "t": "Angiotensin II",
+    "d": "A hormone that narrows blood vessels and promotes salt and water retention, raising blood pressure."
+   },
+   {
+    "t": "Angiotensin-converting enzyme (ACE)",
+    "d": "Enzyme on lung capillary lining that converts inactive angiotensin I into active angiotensin II."
+   },
+   {
+    "t": "Phonation",
+    "d": "Producing voiced sound by vibrating the vocal folds with outgoing air."
+   }
+  ],
+  "note": "The 'blood pressure regulation / angiotensin II' function is not in section 23.1; Tortora states it only in the Focus on Homeostasis panel (p.935) and in the renin–angiotensin discussion in chapters 18/21."
+ },
+ {
+  "n": 5,
+  "title": "Structure of the nose",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.2",
+    "section_title": "The Upper Respiratory System — Nose",
+    "book_pages": "894",
+    "pdf_pages": "910",
+    "capture": "p.894 bottom half: Figure 23.3(a) 'Anterolateral view of nose showing cartilaginous and bony frameworks' — this is the slide's figure (labels: nasal bones, lateral nasal cartilages, nasal septal cartilage, minor/major alar cartilages, dense fibrous connective tissue). Plus p.894 left column, the paragraph under 'Nose' (starts 'The nose is a specialized organ…') describing the bony and cartilaginous frameworks.",
+    "figures": [
+     "23.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.2",
+    "section_title": "The Upper Respiratory System — Nose (functions)",
+    "book_pages": "894",
+    "pdf_pages": "910",
+    "capture": "p.894 right column, top paragraph (starts 'The interior structures of the external…'): warming, moistening, filtering; olfaction; resonance.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.2",
+    "section_title": "Figure 23.4 Surface anatomy of the nose",
+    "book_pages": "896",
+    "pdf_pages": "912",
+    "capture": "p.896 left column: Figure 23.4 photo with numbered key (root, apex, bridge, nostril).",
+    "figures": [
+     "23.4"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The visible nose is a scaffold, not a solid organ. Its upper third is bone (the two nasal bones plus parts of the frontal bone and maxillae), and its lower two-thirds is hyaline cartilage: a central septal cartilage forming the front of the partition between the two nostrils, a pair of lateral cartilages below the nasal bones, and the alar cartilages (major and minor) that curve round to form the nostril walls. The 'ala' (wing) is the soft flared side of the nostril, which in the figure is mostly dense connective and fatty tissue rather than cartilage. Cartilage is bendable, which is why the tip of the nose can be pushed sideways without breaking. The slide's three verbs (warm, filter, humidify) describe what happens once air is inside: coarse hairs at the entrance catch large particles, and the moist, blood-rich lining behind them heats and wets the air before it reaches the delicate lung tissue.",
+  "terms": [
+   {
+    "t": "Hyaline cartilage",
+    "d": "Firm, glassy, flexible connective tissue with no blood vessels; it forms most of the nose's lower framework."
+   },
+   {
+    "t": "Nasal bones",
+    "d": "The two small paired bones forming the bridge of the nose."
+   },
+   {
+    "t": "Septum (nasal)",
+    "d": "The vertical wall dividing the nasal cavity into left and right halves; cartilage in front, bone behind."
+   },
+   {
+    "t": "Alar cartilages",
+    "d": "The curved cartilages (major and minor) that shape the nostril walls."
+   },
+   {
+    "t": "Ala nasi",
+    "d": "The 'wing' of the nose: the rounded outer flare of each nostril."
+   },
+   {
+    "t": "Lateral nasal cartilage",
+    "d": "The cartilage plate on each side of the nose just below the nasal bone."
+   },
+   {
+    "t": "Vestibule (nasal)",
+    "d": "The entrance chamber just inside each nostril, lined by skin with stiff hairs."
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "title": "Upper respiratory tract",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.2",
+    "section_title": "The Upper Respiratory System — Figure 23.3(b)",
+    "book_pages": "895",
+    "pdf_pages": "911",
+    "capture": "p.895 whole page: Figure 23.3(b) parasagittal section of head and neck (labels nasal vestibule, nostril, pharyngeal tonsil, nasopharynx/oropharynx/laryngopharynx, epiglottis, larynx, esophagus, trachea) and (c) sagittal section of the nasal cavity. The slide is essentially this panel.",
+    "figures": [
+     "23.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.2",
+    "section_title": "Figure 23.3(d) coronal section — nasal septum",
+    "book_pages": "896",
+    "pdf_pages": "912",
+    "capture": "p.896 top half: Figure 23.3(d) coronal section showing 'Nasal septum: perpendicular plate of ethmoid' and 'Vomer' (the slide's septum labels).",
+    "figures": [
+     "23.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.2",
+    "section_title": "Pharynx",
+    "book_pages": "897",
+    "pdf_pages": "913",
+    "capture": "p.897 left column, the two paragraphs under the heading 'Pharynx' (starts 'The pharynx (FAR-inks), or throat…'), continuing into the right column through the three paragraphs on nasopharynx, oropharynx and laryngopharynx (ends at 'nonkeratinized stratified squamous epithelium.').",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A median (mid-line) section cuts the head into left and right halves, so you see the air route in profile. Air enters the nostril, passes the vestibule, crosses the nasal cavity and exits backwards through the choanae into the pharynx. The pharynx is one muscular tube with three named floors: the nasopharynx behind the nose (air only; its back wall carries the pharyngeal tonsil, a lump of immune tissue), the oropharynx behind the mouth (air and food), and the laryngopharynx behind the larynx, where the paths split: food goes backwards into the oesophagus, air forwards through the larynx into the trachea. The epiglottis is the leaf-shaped flap that folds over the laryngeal entrance during swallowing. The septum labels on the slide show that the nasal partition is cartilage in front and two bones behind: the perpendicular plate of the ethmoid above and the vomer below.",
+  "terms": [
+   {
+    "t": "Median / midsagittal section",
+    "d": "A cut along the midline dividing the body into equal left and right halves."
+   },
+   {
+    "t": "Choanae (internal nares)",
+    "d": "The two rear openings of the nasal cavity into the nasopharynx."
+   },
+   {
+    "t": "Nasopharynx",
+    "d": "Upper pharynx behind the nasal cavity, above the soft palate; carries air only."
+   },
+   {
+    "t": "Oropharynx",
+    "d": "Middle pharynx behind the mouth, from soft palate to epiglottis; shared by air and food."
+   },
+   {
+    "t": "Laryngopharynx",
+    "d": "Lowest pharynx, from the hyoid bone down to where oesophagus and larynx begin."
+   },
+   {
+    "t": "Pharyngeal tonsil (adenoid)",
+    "d": "Immune (lymphatic) tissue in the back wall of the nasopharynx."
+   },
+   {
+    "t": "Epiglottis",
+    "d": "Elastic-cartilage flap that tips down over the larynx entrance when you swallow."
+   },
+   {
+    "t": "Vomer",
+    "d": "A thin plough-shaped bone forming the lower back part of the nasal septum."
+   },
+   {
+    "t": "Perpendicular plate of ethmoid",
+    "d": "The downward bony sheet of the ethmoid forming the upper back part of the nasal septum."
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "title": "Anatomy of the larynx",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "The Lower Respiratory System — Larynx",
+    "book_pages": "897-899",
+    "pdf_pages": "913-915",
+    "capture": "p.897 right column bottom, paragraph under the heading 'Larynx' (starts 'The larynx (LAR-ingks), or voice box…'), running over the page break to p.898 left column (the nine cartilages, three single and three paired) and continuing on p.899, both columns, from 'The thyroid cartilage (laryngeal prominence…' to '…lateral aspects of the epiglottis.' (one paragraph per cartilage).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Figure 23.5 The larynx",
+    "book_pages": "898-899",
+    "pdf_pages": "914-915",
+    "capture": "p.898 whole page: Figure 23.5 (a) anterior, (b) posterior, (c) sagittal section — the slide's left and right drawings correspond to (a)/(b) and (c); p.899 top: Figure 23.5(d) coronal section.",
+    "figures": [
+     "23.5"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The larynx is a short box of cartilage plates hinged together by ligaments and small muscles, sitting at the top of the trachea in front of vertebrae C4–C6. Its job is to keep the airway open while still being able to seal it (during swallowing or straining) and to hold the vocal folds under adjustable tension. Nine cartilages: three single (the big shield-shaped thyroid cartilage in front, whose forward ridge is the 'Adam's apple'; the ring-shaped cricoid at the bottom; the leaf-shaped elastic epiglottis on top) and three pairs (arytenoids, which pivot on the back of the cricoid and pull the vocal folds; corniculates on the arytenoid tips; cuneiforms in the fold in front of them). The hyoid bone above is not part of the larynx but suspends it. When you swallow, muscles lift the larynx; the tongue base pushes the epiglottis down over the opening, so food slides into the oesophagus behind.",
+  "terms": [
+   {
+    "t": "Thyroid cartilage",
+    "d": "Two fused hyaline plates forming the larynx's front wall; its ridge is the laryngeal prominence (Adam's apple)."
+   },
+   {
+    "t": "Cricoid cartilage",
+    "d": "A complete ring of hyaline cartilage forming the lowest part of the larynx, joined to the first tracheal ring."
+   },
+   {
+    "t": "Arytenoid cartilages",
+    "d": "Paired pyramidal cartilages on top of the cricoid; the vocal folds attach to them and they pivot to open or close the glottis."
+   },
+   {
+    "t": "Corniculate cartilages",
+    "d": "Small horn-shaped elastic cartilages perched on each arytenoid."
+   },
+   {
+    "t": "Cuneiform cartilages",
+    "d": "Small wedge-shaped elastic cartilages in the fold of tissue in front of the corniculates, stiffening the epiglottis edges."
+   },
+   {
+    "t": "Hyoid bone",
+    "d": "U-shaped bone in the neck above the larynx, anchored by muscles; the larynx hangs from it via the thyrohyoid membrane."
+   },
+   {
+    "t": "Vestibular fold",
+    "d": "The upper 'false' vocal cord on each side; helps hold breath, not used for voice."
+   },
+   {
+    "t": "Vocal fold (cord)",
+    "d": "The lower 'true' vocal cord: a ligament under mucosa that vibrates to make sound."
+   },
+   {
+    "t": "Elastic cartilage",
+    "d": "Cartilage rich in elastic fibres, springy rather than rigid; the epiglottis is made of it."
+   }
+  ],
+  "note": "Slide says '4 cm long chamber'; Tortora gives no length for the larynx, only its vertebral level (C4–C6)."
+ },
+ {
+  "n": 8,
+  "title": "Mechanisms of voice production",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "The Structures of Voice Production",
+    "book_pages": "900-901",
+    "pdf_pages": "916-917",
+    "capture": "p.900: the heading 'The Structures of Voice Production' in the left column and all text under it in both columns, especially the right-column paragraph starting 'When the intrinsic muscles of the larynx…' (posterior cricoarytenoid = abduction, lateral cricoarytenoid = adduction), which finishes at the top of p.901 left column ('(Figure 23.6b). Other intrinsic muscles…'). Then p.901 left column, the paragraph on pitch (starts 'Pitch is controlled by…').",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Figure 23.6 Movement of the vocal folds",
+    "book_pages": "900",
+    "pdf_pages": "916",
+    "capture": "p.900 bottom half: Figure 23.6 (a) abduction via posterior cricoarytenoid muscles and (b) adduction via lateral cricoarytenoid muscles, each with a laryngoscope view — the slide's panels (a)–(d).",
+    "figures": [
+     "23.6"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Sound is a vibration of air. The vocal folds are two shelves of tissue stretched from the thyroid cartilage in front to the two arytenoid cartilages behind; the gap between them is the rima glottidis. Because the arytenoids can rotate on the cricoid, small muscles can swing the folds apart or together. Posterior cricoarytenoid muscles rotate the arytenoids outward and open the gap (abduction) so air passes silently; lateral cricoarytenoids rotate them inward and close the gap (adduction). With the folds nearly closed, air pushed up from the lungs forces them apart in rapid pulses and they snap back elastically, chopping the airflow into pressure waves: that is voice. Pitch depends on fold tension (tighter = faster vibration = higher note); loudness on air pressure. The slide does not say that the pharynx, mouth and nose then shape this buzz into recognisable vowels and words.",
+  "terms": [
+   {
+    "t": "Adduction",
+    "d": "Movement toward the midline; here, bringing the vocal folds together."
+   },
+   {
+    "t": "Abduction",
+    "d": "Movement away from the midline; here, swinging the vocal folds apart."
+   },
+   {
+    "t": "Glottis",
+    "d": "The vocal folds plus the slit between them (rima glottidis)."
+   },
+   {
+    "t": "Rima glottidis",
+    "d": "The variable gap between the two vocal folds."
+   },
+   {
+    "t": "Intrinsic laryngeal muscles",
+    "d": "Small muscles running between laryngeal cartilages that position and tension the vocal folds."
+   },
+   {
+    "t": "Posterior cricoarytenoid",
+    "d": "Muscle from the back of the cricoid to the arytenoid; the only one that opens the glottis."
+   },
+   {
+    "t": "Lateral cricoarytenoid",
+    "d": "Muscle from the side of the cricoid to the arytenoid; closes the glottis."
+   },
+   {
+    "t": "Medial / lateral",
+    "d": "Toward / away from the body's midline."
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "title": "Anatomy of the lower respiratory tract",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Trachea",
+    "book_pages": "901-903",
+    "pdf_pages": "917-919",
+    "capture": "p.901 right column, paragraph under the heading 'Trachea' (starts 'The trachea (TRĀ-kē-a = sturdy)…' — length, position, division at T5), then p.903 left column top: the two paragraphs starting 'The layers of the tracheal wall…' and 'The 16–20 incomplete, horizontal rings…', the latter continuing into the right column (C opens posteriorly, trachealis muscle, rings prevent collapse).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Figure 23.7 and Figure 23.8(a)",
+    "book_pages": "901-902",
+    "pdf_pages": "917-918",
+    "capture": "p.901 bottom: Figure 23.7 (a) transverse section of trachea and oesophagus, (b) SEM of ciliated epithelium with goblet cells; p.902 top: Figure 23.8(a) anterior view of the bronchial tree (carina, main/lobar/segmental bronchi).",
+    "figures": [
+     "23.7",
+     "23.8"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Larynx — mucus and cilia",
+    "book_pages": "899-900",
+    "pdf_pages": "915-916",
+    "capture": "p.899 right column, last paragraph (starts 'The lining of the larynx superior…'), running over the page break to the first 2 lines of p.900 left column: mucus traps dust; cilia below the larynx beat UPWARD toward the pharynx.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The trachea is a 12 cm, 2.5 cm-wide tube kept open by 16–20 C-shaped hoops of hyaline cartilage stacked like a vacuum-cleaner hose. The open back of each C faces the oesophagus and is bridged by smooth muscle (trachealis), so a swallowed lump can bulge forwards without hitting rigid cartilage. Rigid support matters because inhalation creates suction that would otherwise collapse a soft tube. The inner lining is 'respiratory epithelium': tall ciliated cells with scattered goblet cells that secrete mucus. Particles stick to the mucus, and the cilia beat in a coordinated wave that carries the sheet upward to the pharynx to be swallowed (the mucociliary escalator). At the level of the T4/T5 vertebral junction the trachea forks into right and left main bronchi at an internal ridge, the carina. The slide's histology panel shows the same layers seen in cross-section: mucosa, submucosal mucous glands, the cartilage ring with its chondrocytes and perichondrium.",
+  "terms": [
+   {
+    "t": "Hyaline cartilage ring",
+    "d": "A C-shaped hoop of firm cartilage in the tracheal wall that stops it collapsing."
+   },
+   {
+    "t": "Chondrocyte",
+    "d": "A cartilage cell, sitting in a small cavity (lacuna) within the cartilage matrix."
+   },
+   {
+    "t": "Perichondrium",
+    "d": "The dense connective-tissue sheath wrapping a piece of cartilage."
+   },
+   {
+    "t": "Goblet cell",
+    "d": "A mucus-secreting epithelial cell shaped like a wine glass."
+   },
+   {
+    "t": "Cilia",
+    "d": "Hair-like projections on epithelial cells that beat rhythmically to move mucus."
+   },
+   {
+    "t": "Mucosa",
+    "d": "The moist inner lining of a tube: epithelium plus a thin connective-tissue layer."
+   },
+   {
+    "t": "Trachealis muscle",
+    "d": "Smooth muscle spanning the open back of each tracheal C-ring."
+   },
+   {
+    "t": "Carina",
+    "d": "The keel-like ridge inside the trachea where it divides into the two main bronchi."
+   },
+   {
+    "t": "Lumen",
+    "d": "The hollow interior space of a tube."
+   },
+   {
+    "t": "T4/T5",
+    "d": "Fourth and fifth thoracic vertebrae; the tracheal bifurcation lies at their junction (sternal angle level)."
+   }
+  ],
+  "note": "Slide: 'branches at T4/5'; Tortora: divides at the superior border of T5 (p.901). Same level, different wording."
+ },
+ {
+  "n": 10,
+  "title": "Branching of trachea into main bronchi",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Bronchi",
+    "book_pages": "904",
+    "pdf_pages": "920",
+    "capture": "p.904 left column, the two paragraphs under the heading 'Bronchi' (start 'At the superior border of the fifth…' and 'At the point where the trachea divides…'), plus the right column's first paragraph (starts 'On entering the lungs, the main…') on lobar and segmental bronchi.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Figure 23.8(a) Branching of airways from the trachea",
+    "book_pages": "902",
+    "pdf_pages": "918",
+    "capture": "p.902 top half: Figure 23.8(a) anterior view of bronchial tree — the slide's photo/drawing matches this (trachea, carina, right/left main bronchus, lobar and segmental bronchi).",
+    "figures": [
+     "23.8"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Below the carina the airway tree branches repeatedly, and each branch level has a name tied to the anatomy it serves. The two main (primary) bronchi go one to each lung; the right one is wider, shorter and more vertical, which is why inhaled objects usually end up on the right. Each main bronchus splits into lobar (secondary) bronchi, one per lobe: three on the right (superior, middle, inferior), two on the left. Lobar bronchi split into segmental (tertiary) bronchi, each supplying a wedge of lung called a bronchopulmonary segment, a unit a surgeon can remove on its own. The slide's label 'segmental bronchi of middle lobe' is simply the tertiary branches inside the right middle lobe. Like the trachea, the main bronchi still have C-rings of cartilage and a ciliated mucous lining; the cartilage becomes plates and then vanishes as the tubes narrow.",
+  "terms": [
+   {
+    "t": "Main (primary) bronchus",
+    "d": "One of the two first branches of the trachea, entering the right or left lung."
+   },
+   {
+    "t": "Lobar (secondary) bronchus",
+    "d": "Branch of a main bronchus supplying one lung lobe; three on the right, two on the left."
+   },
+   {
+    "t": "Segmental (tertiary) bronchus",
+    "d": "Branch of a lobar bronchus supplying a bronchopulmonary segment."
+   },
+   {
+    "t": "Bronchopulmonary segment",
+    "d": "A self-contained wedge of lung tissue served by one segmental bronchus and its vessels."
+   },
+   {
+    "t": "Carina",
+    "d": "Ridge at the tracheal bifurcation; very sensitive, triggers coughing."
+   },
+   {
+    "t": "Lobe",
+    "d": "A large division of a lung separated from its neighbours by a deep fissure."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "title": "Branching of the airway",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Figure 23.8(b) Airway branching (generation numbers)",
+    "book_pages": "902",
+    "pdf_pages": "918",
+    "capture": "p.902 bottom half: Figure 23.8(b) 'Airway branching' table — names of branches with generation numbers 0 (trachea) to 23 (alveolar saccules), split into conducting and respiratory zones. This is the slide's source.",
+    "figures": [
+     "23.8"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Bronchi — bronchial tree and generations",
+    "book_pages": "904-905",
+    "pdf_pages": "920-921",
+    "capture": "p.904 right column, last paragraph (starts 'On entering the lungs…') through the page break to p.905 left column: the paragraph starting 'The respiratory passages from the trachea…' (about 23 generations) and the numbered list 1–3 of structural changes down the tree (epithelium, cartilage, smooth muscle).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Respiratory membrane — number of alveoli",
+    "book_pages": "909",
+    "pdf_pages": "925",
+    "capture": "p.909 left column, the paragraph starting 'Despite having several layers…' (300–500 million alveoli, about 75 m2), and the right column's first 2 lines ('larger—for gas exchange. The hundreds of millions…spongy texture').",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Counting 'generations' is a way of describing a tree: each time a tube splits, its daughters are one generation higher. Trachea = 0, main bronchi = 1, and so on for roughly 23 splits until the blind-ended alveolar sacs. Because each split doubles the number of tubes, by generation 23 there are millions of tiny passages, and their combined wall area is enormous (Tortora estimates 300–500 million alveoli, about 75 square metres). Generations up to the terminal bronchioles (about 16) are conducting only; from the respiratory bronchioles onward (about 17–23) alveoli bud from the walls and gas exchange begins. As tubes narrow, the tall ciliated lining becomes low cuboidal then flat squamous, cartilage disappears and smooth muscle takes over, which is why bronchioles can constrict in asthma. The sponge-like feel of a lung is simply this froth of thin-walled sacs.",
+  "terms": [
+   {
+    "t": "Generation (airway)",
+    "d": "The number of branch points between a given airway and the trachea."
+   },
+   {
+    "t": "Terminal bronchiole",
+    "d": "The last purely conducting airway; beyond it alveoli appear."
+   },
+   {
+    "t": "Respiratory bronchiole",
+    "d": "A bronchiole with alveoli budding from its wall; first site of gas exchange."
+   },
+   {
+    "t": "Alveolar duct",
+    "d": "A passage whose walls are almost entirely alveolar openings."
+   },
+   {
+    "t": "Alveolar sac (saccule)",
+    "d": "A cluster of alveoli opening into a common chamber at the end of an alveolar duct."
+   },
+   {
+    "t": "Epithelium (simple squamous / cuboidal / columnar)",
+    "d": "One-cell-thick lining; squamous = flat, cuboidal = cube-shaped, columnar = tall."
+   },
+   {
+    "t": "Smooth muscle",
+    "d": "Involuntary, non-striated muscle in walls of tubes; in bronchioles it sets airway diameter."
+   }
+  ],
+  "note": "Slide: '~300 millions alveolar ducts/alveoli'. Tortora: 300–500 million pulmonary alveoli (p.909); the 300 million figure applies to alveoli, not alveolar ducts."
+ },
+ {
+  "n": 12,
+  "title": "Clusters of alveoli and their blood supply",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Lobes, Fissures, and Lobules / Alveolar Saccules and Pulmonary Alveoli",
+    "book_pages": "907-908",
+    "pdf_pages": "923-924",
+    "capture": "p.907 right column, the paragraph starting 'Each bronchopulmonary segment of the lungs…' (lobule contents: lymphatic, arteriole, venule, terminal bronchiole → respiratory bronchioles → alveolar ducts) and the following paragraph under the sub-heading 'Alveolar Saccules and Pulmonary Alveoli' (starts 'The terminal dilation of an alveolar duct…'); p.908 top: Figure 23.11(a) diagram of a lung lobule — the slide's drawing matches this (terminal bronchiole, respiratory bronchiole, pulmonary arteriole/venule, alveolar ducts, saccules, capillary network).",
+    "figures": [
+     "23.11"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Blood Supply to the Lungs",
+    "book_pages": "909",
+    "pdf_pages": "925",
+    "capture": "p.909 right column, the paragraph under the heading 'Blood Supply to the Lungs' (starts 'The lungs receive blood via two…'): pulmonary arteries carry deoxygenated blood, pulmonary veins return it; also p.909 left column, the sentence starting 'On the outer surface of the pulmonary alveoli…' (arteriole and venule disperse into a capillary network).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A lung lobule is the smallest self-contained unit: one terminal bronchiole enters it with a small artery, and a small vein and lymphatic leave it, all wrapped in elastic connective tissue. Inside, the bronchiole becomes respiratory bronchioles, then alveolar ducts, ending in grape-like alveolar sacs. The arteriole breaks up into a dense capillary mesh draped over every alveolus like a net over a balloon, then re-collects into the venule. Crucially the arteriole is a branch of the pulmonary artery, which carries oxygen-poor blood from the right ventricle; the venule feeds the pulmonary veins, which carry freshly oxygenated blood to the left atrium. So in the lung the naming is reversed relative to the rest of the body: arteries carry 'blue' blood, veins 'red'. The slide omits the second, small blood supply (bronchial arteries from the aorta) that feeds the airway walls themselves.",
+  "terms": [
+   {
+    "t": "Lobule (lung)",
+    "d": "A small compartment of lung served by one terminal bronchiole plus its arteriole, venule and lymphatic."
+   },
+   {
+    "t": "Arteriole / venule",
+    "d": "The smallest arteries and veins, feeding into and draining out of capillary beds."
+   },
+   {
+    "t": "Capillary",
+    "d": "A vessel one endothelial cell thick, the only place where gases and solutes cross between blood and tissue."
+   },
+   {
+    "t": "Pulmonary artery",
+    "d": "Carries deoxygenated blood from the right ventricle to the lungs (the exception to 'arteries carry oxygenated blood')."
+   },
+   {
+    "t": "Pulmonary vein",
+    "d": "Carries oxygenated blood from the lungs to the left atrium."
+   },
+   {
+    "t": "Deoxygenated blood",
+    "d": "Blood that has given up some oxygen to tissues; still about 75% saturated at rest."
+   },
+   {
+    "t": "Elastic connective tissue",
+    "d": "Tissue rich in elastic fibres that lets alveoli stretch and recoil."
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "title": "Structure of an alveolus",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Alveolar Saccules and Pulmonary Alveoli — cell types",
+    "book_pages": "907-908",
+    "pdf_pages": "923-924",
+    "capture": "p.907 right column, from the sentence 'The wall of each pulmonary alveolus (singular) con-…' to the bottom of the column (type I vs type II pneumocytes), continuing across the page break to p.908 bottom, both columns, the text under Figure 23.11 (starts 'free surfaces containing microvilli, secrete…'): alveolar fluid, surfactant, alveolar macrophages.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Figure 23.12 Structural components of a pulmonary alveolus",
+    "book_pages": "910",
+    "pdf_pages": "926",
+    "capture": "p.910 whole page: Figure 23.12 (a) section through an alveolus (pneumocyte type I, type II, alveolar macrophage, red blood cell in capillary), (b) details of the respiratory membrane, (c) LM/SEM photos. The slide's drawing corresponds to (a)+(b).",
+    "figures": [
+     "23.12"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "An alveolus is a bubble about a quarter of a millimetre across whose wall is a single layer of epithelium on a basement membrane, with capillaries pressed against the outside. Two epithelial cell types form the wall. Type I cells (the slide's 'squamous alveolar cells') are extremely flattened and cover about 95% of the surface; being thin is their whole function, because diffusion time scales with the square of distance. Type II cells (the slide's 'great' cells, Tortora's septal cells) are cuboidal, sit between the type I cells, secrete the watery lining fluid and its surfactant, and act as stem cells that divide to replace damaged type I cells. Surfactant is a detergent-like mix of phospholipids and proteins that lowers the surface tension of the water film so small alveoli do not collapse. Alveolar macrophages are wandering white cells that crawl over the surface eating dust and bacteria that slipped past the mucus of the airways. The slide's 'lymphocyte' is another immune cell in the wall.",
+  "terms": [
+   {
+    "t": "Squamous",
+    "d": "Flat and scale-like; describes very thin epithelial cells."
+   },
+   {
+    "t": "Pneumocyte type I (type I alveolar cell)",
+    "d": "Flat cell forming most of the alveolar wall; the gas-exchange surface."
+   },
+   {
+    "t": "Pneumocyte type II (type II alveolar / septal cell)",
+    "d": "Cuboidal cell that secretes surfactant and regenerates the epithelium."
+   },
+   {
+    "t": "Surfactant",
+    "d": "A phospholipid–protein film that reduces surface tension in the alveolar fluid."
+   },
+   {
+    "t": "Surface tension",
+    "d": "The inward pull at a water–air surface caused by water molecules attracting each other."
+   },
+   {
+    "t": "Macrophage",
+    "d": "A large phagocytic immune cell that engulfs particles and microbes."
+   },
+   {
+    "t": "Basement membrane",
+    "d": "A thin protein sheet that epithelial cells sit on and that anchors them to underlying tissue."
+   },
+   {
+    "t": "Endothelial cell",
+    "d": "The flat cell type lining all blood vessels, including capillaries."
+   }
+  ],
+  "note": "The slide uses Saladin's names ('squamous alveolar cell', 'great alveolar cell'); Tortora calls them pneumocyte type I and type II (septal cells). Also note a misprint on p.907 right column, last line: the sentence 'Pneumocytes type I are rounded or cuboidal…secrete pulmonary alveolar fluid' describes type II cells."
+ },
+ {
+  "n": 14,
+  "title": "Respiratory membrane- blood-air barrier",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Respiratory membrane (four layers)",
+    "book_pages": "909",
+    "pdf_pages": "925",
+    "capture": "p.909 left column: the paragraph starting 'The exchange of O2 and CO2 between the air spaces…' with the numbered list of the four layers (1–4), and the next paragraph 'Despite having several layers, the respiratory membrane is very thin—only 0.5 µm…'.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Figure 23.12(b) Details of respiratory membrane",
+    "book_pages": "910",
+    "pdf_pages": "926",
+    "capture": "p.910 right half of the top figure: Figure 23.12(b) 'Details of respiratory membrane' (alveolar fluid with surfactant, pneumocyte type I, epithelial basement membrane, capillary basement membrane, capillary endothelium, red blood cell, arrows for O2 and CO2 diffusion); (c) SEM of alveoli with macrophage.",
+    "figures": [
+     "23.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 19,
+    "section": "19.3",
+    "section_title": "Red Blood Cells — RBC Anatomy / RBC Physiology",
+    "book_pages": "703-704",
+    "pdf_pages": "719-720",
+    "capture": "p.703 right column: the paragraph under 'RBC Anatomy' (starts 'RBCs are biconcave discs with a diameter…') and the first paragraph under 'RBC Physiology' (starts 'Red blood cells are highly specialized…': no nucleus, no mitochondria, biconcave shape increases surface area). p.704 top: Figure 19.4(a) RBC shape.",
+    "figures": [
+     "19.4"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "For a gas molecule to go from alveolar air into a red cell it must cross, in order: the surfactant-lined fluid film, the flat type I cell, the epithelial basement membrane, the capillary basement membrane (usually fused with the previous one), and the capillary endothelial cell, then the plasma and the red cell membrane. Tortora counts four tissue layers and quotes a total thickness of about 0.5 micrometres, one-sixteenth of a red cell's diameter. Gas crosses purely by diffusion, driven by partial-pressure differences; no pump is involved, so thinness and area are everything. The slide's 'alveolar pores' are small holes between neighbouring alveoli that equalise pressure and give collateral air routes. A red blood cell is a biconcave disc with no nucleus or mitochondria, which maximises room for haemoglobin and gives a large surface-to-volume ratio for fast gas loading; the cells pass the capillaries in single file, so the diffusion path inside blood is short too.",
+  "terms": [
+   {
+    "t": "Respiratory membrane",
+    "d": "The combined alveolar wall + basement membranes + capillary wall that gases diffuse across."
+   },
+   {
+    "t": "Diffusion",
+    "d": "Net movement of molecules from where they are concentrated to where they are less so, by random motion."
+   },
+   {
+    "t": "Biconcave",
+    "d": "Dished in on both faces, like a doughnut without the hole."
+   },
+   {
+    "t": "Haemoglobin",
+    "d": "The iron-containing protein inside red cells that binds oxygen."
+   },
+   {
+    "t": "Alveolar pores",
+    "d": "Openings in the walls between adjacent alveoli allowing air to pass between them."
+   },
+   {
+    "t": "Fused basement membranes",
+    "d": "The alveolar and capillary basement membranes merged into one sheet where the two cell layers touch."
+   },
+   {
+    "t": "Capillary endothelium",
+    "d": "The single layer of flat cells forming a capillary wall."
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "title": "Anatomy of the lungs",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Lungs — surfaces, hilum, root, apex, base",
+    "book_pages": "906-907",
+    "pdf_pages": "922-923",
+    "capture": "p.906 right column, the paragraph starting 'The lungs extend from the diaphragm…' (base, apex, costal surface), continuing across the page break to p.907 left column ('costal surface, matches the rounded…': mediastinal surface, hilum, root of the lung, cardiac notch, left lung 10% smaller) and the next paragraph 'The lungs almost fill the thorax…' (apex above the clavicle).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Lobes, Fissures, and Lobules",
+    "book_pages": "907",
+    "pdf_pages": "923",
+    "capture": "p.907 left column, the two paragraphs under the sub-heading 'Lobes, Fissures, and Lobules' (start 'One or two fissures divide each lung…' and 'Each lobe receives its own lobar bronchus…'), the second continuing at the top of the right column.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Figure 23.10 Surface anatomy of the lungs",
+    "book_pages": "906-907",
+    "pdf_pages": "922-923",
+    "capture": "p.906 lower half: Figure 23.10 (a) anterior view in thorax, (b) lateral right lung, (c) lateral left lung; p.907 top: (d) medial right lung, (e) medial left lung with 'Hilum and its contents (root)' and 'Cardiac notch'. The slide's labelled drawing corresponds to these views.",
+    "figures": [
+     "23.10"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Each lung is a cone: the pointed apex pokes up behind the collarbone, the wide concave base sits on the dome of the diaphragm, the ribbed outer (costal) surface fits the rib cage, and the flat inner (mediastinal) surface faces the heart. On that inner surface is the hilum, a slot where the main bronchus, pulmonary artery, two pulmonary veins, lymphatics and nerves enter or leave; bundled together they are the 'root'. The right lung has three lobes separated by an oblique and a horizontal fissure; the left has two lobes and a single oblique fissure, plus a scooped-out cardiac notch because two-thirds of the heart lies to the left. The left lung is about 10% smaller; the right is shorter because the liver pushes the diaphragm up on that side. The slide's bronchi labels (superior, middle, inferior lobar) show that each lobe gets its own airway.",
+  "terms": [
+   {
+    "t": "Apex (lung)",
+    "d": "The narrow top of the lung, rising just above the clavicle."
+   },
+   {
+    "t": "Base (lung)",
+    "d": "The broad concave bottom of the lung resting on the diaphragm."
+   },
+   {
+    "t": "Hilum",
+    "d": "The depression on the medial lung surface where vessels, bronchi and nerves enter."
+   },
+   {
+    "t": "Root of the lung",
+    "d": "The bundle of structures passing through the hilum, held together by pleura and connective tissue."
+   },
+   {
+    "t": "Fissure",
+    "d": "A deep cleft dividing a lung into lobes."
+   },
+   {
+    "t": "Costal surface",
+    "d": "The outer lung surface that lies against the ribs (costa = rib)."
+   },
+   {
+    "t": "Mediastinal (medial) surface",
+    "d": "The inner lung surface facing the mediastinum and heart."
+   },
+   {
+    "t": "Cardiac notch",
+    "d": "The concavity in the front of the left lung that accommodates the heart's apex."
+   },
+   {
+    "t": "Clavicle",
+    "d": "The collarbone."
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "title": "Embryonic development of respiratory system",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.10",
+    "section_title": "Development of the Respiratory System",
+    "book_pages": "932-933",
+    "pdf_pages": "948-949",
+    "capture": "p.932 right column: heading '23.10 Development of the Respiratory System' and all six paragraphs beneath it (from 'The development of the mouth and pharynx…' to '…immaturity of the respiratory and other systems.'), continuing at the top of p.933 right column with the paragraphs 'From 26 weeks to birth…', 'At about 30 weeks…' (alveoli, one-sixth formed before birth, rest in first 8 years), 'As the lungs develop, they acquire their pleural sacs…' and 'During development, breathing movements of the fetus…'.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.10",
+    "section_title": "Figure 23.28 Development of the bronchial tubes and lungs",
+    "book_pages": "933",
+    "pdf_pages": "949",
+    "capture": "p.933 left column: Figure 23.28 (respiratory bud, laryngotracheal diverticulum, primary bronchial buds at week 4; lobar and segmental bronchi at weeks 5–6; lobes and developing pleura at week 8).",
+    "figures": [
+     "23.28"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The lungs begin as a pocket of the gut tube. Around week 4 a groove on the floor of the primitive pharynx deepens into a bud that grows downward into the chest; its lining (endoderm) becomes airway epithelium and glands, while the surrounding mesoderm becomes cartilage, smooth muscle and connective tissue. The bud's tip splits into two lung buds, which keep dividing: by about 24 weeks roughly 17 orders of branches exist. During weeks 6–16 the conducting airways are laid out but nothing can exchange gas; from 16–26 weeks the tissue becomes vascular and the first respiratory bronchioles, ducts and primitive alveoli appear; mature alveoli begin about week 30. Only about a sixth of the adult alveoli exist at birth; the rest form during roughly the first 8 years. The fetus makes breathing movements in the uterus, drawing in amniotic fluid, and surfactant appears in useful amounts only from 26–28 weeks, which sets the limit of viability for premature babies.",
+  "terms": [
+   {
+    "t": "Endoderm",
+    "d": "The innermost embryonic layer; forms the lining of the gut and airways."
+   },
+   {
+    "t": "Mesoderm",
+    "d": "The middle embryonic layer; forms muscle, cartilage, connective tissue, blood vessels."
+   },
+   {
+    "t": "Foregut",
+    "d": "The front part of the embryonic gut tube, from which the pharynx, oesophagus and lung bud arise."
+   },
+   {
+    "t": "Respiratory (lung) bud",
+    "d": "The outgrowth from the foregut that becomes the trachea, bronchi and lungs."
+   },
+   {
+    "t": "Laryngotracheal diverticulum",
+    "d": "The elongated pouch stage of the lung bud that becomes the trachea."
+   },
+   {
+    "t": "Mediastinum",
+    "d": "The central compartment of the chest between the two lungs, containing the heart, great vessels and oesophagus."
+   },
+   {
+    "t": "Respiratory distress syndrome",
+    "d": "Breathing failure in premature babies whose alveoli collapse for lack of surfactant."
+   }
+  ],
+  "note": "Timings differ. Slide: groove at ~3 weeks, lung buds at week 4, fetal breathing at ~11 weeks, alveoli after 6 months, adult number at age 8–10. Tortora: respiratory bud at about 4 weeks; primitive alveoli from 16–26 weeks, mature alveoli at ~30 weeks; only one-sixth of alveoli present at birth, remainder during the first 8 years. Tortora gives no date for the start of fetal breathing movements or for diaphragm formation."
+ },
+ {
+  "n": 17,
+  "title": "Transverse section of the thorax",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Lungs — pleural membrane",
+    "book_pages": "905-906",
+    "pdf_pages": "921-922",
+    "capture": "p.905 right column, the paragraph under the heading 'Lungs' (starts 'A pulmonologist…'), which runs over the page break to p.906 left column and continues as one paragraph to '…surround the left and right lungs.' (parietal vs visceral pleura, pleural cavity, pleural fluid reduces friction and makes the layers adhere). p.905 bottom: Figure 23.9 transverse section through the thoracic cavity (photo) showing pleural cavity and membranes.",
+    "figures": [
+     "23.9"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Lungs — hilum and root",
+    "book_pages": "907",
+    "pdf_pages": "923",
+    "capture": "p.907 left column, first full paragraph (starts 'costal surface, matches the rounded…'): the sentences on the hilum and the root of the lung.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 1,
+    "section": "1.8",
+    "section_title": "Body Cavities — Thoracic Cavity (Figure 1.11)",
+    "book_pages": "19-20",
+    "pdf_pages": "35-36",
+    "capture": "p.19 left column, the paragraph starting 'The serous membrane of the pleural cavities is called the pleura…' (visceral vs parietal, pericardium); p.20 whole page: Figure 1.11 (a) anterior view and (b) inferior view of a transverse section of the thoracic cavity (right/left pleural cavities, pericardial cavity, mediastinum) — the slide's drawing is this kind of section.",
+    "figures": [
+     "1.11"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A transverse (horizontal) section cuts the chest like a slice of bread. Seen from below, you find the vertebra at the back, sternum at the front, the heart in the middle compartment (mediastinum) and one lung on each side. Each lung sits inside its own closed bag, the pleura, a serous membrane: the layer stuck to the lung surface is the visceral pleura, the layer lining the inside of the chest wall and the diaphragm is the parietal pleura, and the two are continuous with each other where they fold around the root of the lung at the hilum. Between the layers is the pleural cavity, in life only a film of lubricating fluid, not a real gap. The fluid lets the lung slide against the chest wall with every breath and at the same time, by surface tension, glues the two layers together (like two wet glass slides). The two pleural sacs are separate, so one lung can collapse while the other keeps working.",
+  "terms": [
+   {
+    "t": "Transverse plane",
+    "d": "A horizontal cut dividing the body into upper and lower parts."
+   },
+   {
+    "t": "Serous membrane",
+    "d": "A thin two-layered membrane lining a closed body cavity and covering its organs, secreting slippery fluid."
+   },
+   {
+    "t": "Parietal",
+    "d": "Pertaining to the wall; the outer layer of a serous membrane lining the cavity wall."
+   },
+   {
+    "t": "Visceral",
+    "d": "Pertaining to organs; the inner layer of a serous membrane hugging the organ."
+   },
+   {
+    "t": "Pleural cavity",
+    "d": "The potential space between visceral and parietal pleura, containing a few millilitres of fluid."
+   },
+   {
+    "t": "Mediastinum",
+    "d": "The central chest compartment between the pleural sacs: heart, great vessels, trachea, oesophagus."
+   },
+   {
+    "t": "Pericardium",
+    "d": "The serous sac around the heart, analogous to the pleura around the lung."
+   },
+   {
+    "t": "Pulmonary trunk",
+    "d": "The single large artery from the right ventricle that splits into right and left pulmonary arteries."
+   }
+  ]
+ },
+ {
+  "n": 18,
+  "title": "Pulmonary ventilation",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Pulmonary Ventilation — introduction and Pressure Changes",
+    "book_pages": "912",
+    "pdf_pages": "928",
+    "capture": "p.912 left column: the introductory paragraph under '23.4 Pulmonary Ventilation' (starts 'Pulmonary ventilation, or breathing, is the flow…') and the paragraph under the heading 'Pressure Changes During Pulmonary Ventilation' (starts 'Air moves into the pulmonary alveoli…'), plus the first paragraph under 'Inhalation' (starts 'Just before each inhalation…').",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.1",
+    "section_title": "The Steps Involved in Respiration",
+    "book_pages": "892",
+    "pdf_pages": "908",
+    "capture": "p.892 left column: the numbered list 1–3 under 'The Steps Involved in Respiration' (step 1 defines pulmonary ventilation); Figure 23.1 on the right.",
+    "figures": [
+     "23.1"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Ventilation is bulk flow of air, not diffusion. Air moves only when there is a pressure difference along the airway, and it always flows from higher to lower pressure. The lungs cannot suck by themselves; the pressure change comes from muscles altering the size of the chest. Enlarging the chest stretches the lungs, their volume rises, the air inside is spread over more space so its pressure falls below atmospheric, and air flows in (inhalation) until pressures equalise. Letting the chest shrink compresses the air, pressure rises above atmospheric, and air flows out (exhalation). The slide's word '(Diffusion)' is loose: within the airway the movement is pressure-driven bulk flow; diffusion is the mechanism at the alveolar wall. Note that at sea level atmospheric pressure is about 760 mmHg and the swings during quiet breathing are only about 1–2 mmHg either side.",
+  "terms": [
+   {
+    "t": "Pulmonary ventilation",
+    "d": "Breathing: the movement of air between atmosphere and alveoli."
+   },
+   {
+    "t": "Inhalation (inspiration)",
+    "d": "Drawing air into the lungs."
+   },
+   {
+    "t": "Exhalation (expiration)",
+    "d": "Pushing air out of the lungs."
+   },
+   {
+    "t": "Atmospheric pressure",
+    "d": "The pressure of the surrounding air, about 760 mmHg (1 atm) at sea level."
+   },
+   {
+    "t": "Alveolar (intrapulmonic) pressure",
+    "d": "The air pressure inside the alveoli."
+   },
+   {
+    "t": "Pressure gradient",
+    "d": "A difference in pressure between two points; the driving force for flow."
+   },
+   {
+    "t": "mmHg",
+    "d": "Millimetres of mercury, a pressure unit; 760 mmHg = 1 atmosphere ≈ 101 kPa."
+   },
+   {
+    "t": "Bulk flow",
+    "d": "Movement of a whole fluid down a pressure gradient, as opposed to diffusion of individual molecules."
+   }
+  ],
+  "note": "Slide labels the pressure-driven airflow '(Diffusion)'. Tortora treats ventilation as pressure-driven flow; diffusion is reserved for gas exchange across the respiratory membrane (section 23.6)."
+ },
+ {
+  "n": 19,
+  "title": "Change in rib cage and diaphragm position during breathing",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Figure 23.14(b),(c) changes in size of thoracic cavity",
+    "book_pages": "913",
+    "pdf_pages": "929",
+    "capture": "p.913 top half, right side of Figure 23.14: panel (b) 'Changes in size of thoracic cavity during inhalation and exhalation' (sternum and diaphragm positions) and panel (c) lower ribs moving upward and outward like a bucket handle.",
+    "figures": [
+     "23.14"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Inhalation — diaphragm and external intercostals",
+    "book_pages": "912",
+    "pdf_pages": "928",
+    "capture": "p.912 right column: the two paragraphs starting 'The most important muscle of inhalation is the diaphragm…' (flattens, descends about 1 cm in quiet breathing, 10 cm in strenuous breathing, 75% of air) and 'The next most important muscles of inhalation are the external intercostals…' (elevate ribs, increase anteroposterior and lateral diameters, 25%).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Exhalation",
+    "book_pages": "914-915",
+    "pdf_pages": "930-931",
+    "capture": "p.914 right column, the paragraph under the heading 'Exhalation' (starts 'Breathing out, called exhalation…': passive, elastic recoil), continuing over the page break to p.915 left column, first paragraph ('Exhalation starts when the inspiratory muscles relax…': dome moves up, ribs depressed).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The chest is a cage whose volume can grow in three directions. Vertically: the diaphragm is a dome-shaped sheet of muscle forming the floor; when it contracts it flattens and drops, lengthening the cavity (about 1 cm at rest, up to 10 cm in hard breathing, and about three-quarters of a quiet breath). Front-to-back and side-to-side: the ribs slope downward from the spine, so lifting them swings the sternum forward (pump-handle) and the lower ribs outward (bucket-handle), widening the cage; the external intercostal muscles do this lifting. Exhaling at rest needs no muscle: the diaphragm relaxes and springs back up, the ribs drop, and the stretched elastic lung tissue recoils. What the diagram leaves implicit is why lung volume follows chest volume at all: the pleural fluid film couples the lung to the chest wall (see the intrapleural-pressure slides).",
+  "terms": [
+   {
+    "t": "Diaphragm",
+    "d": "The dome-shaped skeletal muscle separating chest from abdomen; the main breathing muscle."
+   },
+   {
+    "t": "External intercostals",
+    "d": "Muscles between adjacent ribs whose fibres run down-and-forward; they lift the ribs."
+   },
+   {
+    "t": "Rib cage (thoracic cage)",
+    "d": "The 12 pairs of ribs, sternum and thoracic vertebrae enclosing the chest."
+   },
+   {
+    "t": "Sternum",
+    "d": "The breastbone, to which the upper ribs attach through costal cartilages."
+   },
+   {
+    "t": "Anteroposterior diameter",
+    "d": "The front-to-back dimension of the chest."
+   },
+   {
+    "t": "Elastic recoil",
+    "d": "The tendency of stretched tissue to spring back to its resting shape."
+   },
+   {
+    "t": "Phrenic nerve",
+    "d": "The nerve from spinal segments C3–C5 that drives the diaphragm."
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "title": "Skeletal muscles in Pulmonary ventilation",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Figure 23.14(a) Muscles of inhalation and exhalation",
+    "book_pages": "913",
+    "pdf_pages": "929",
+    "capture": "p.913 top half, left side of Figure 23.14: panel (a) 'Muscles of inhalation (left); muscles of exhalation (right)' with sternocleidomastoid, scalenes, external intercostals, diaphragm; internal intercostals, external/internal abdominal oblique, transversus abdominis, rectus abdominis. The slide's figure is this panel (pectoralis minor is mentioned in the figure title note).",
+    "figures": [
+     "23.14"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Inhalation — accessory muscles; Exhalation — forceful",
+    "book_pages": "914-915",
+    "pdf_pages": "930-931",
+    "capture": "p.914 left column below the figure: the paragraph starting 'alveolar ducts and the increase in size…' — the sentences on accessory muscles of inhalation (sternocleidomastoid elevates sternum, scalenes elevate ribs 1–2, pectoralis minor elevates ribs 3–5). p.915 left column, second paragraph (starts 'Exhalation becomes active only during forceful…'): abdominal muscles and internal intercostals.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 11,
+    "section": "11.11",
+    "section_title": "Muscles of the Thorax That Assist in Breathing",
+    "book_pages": "369-370",
+    "pdf_pages": "385-386",
+    "capture": "p.369 bottom: the muscle table (Diaphragm, External intercostals, Internal intercostals — origin, insertion, action, innervation); p.370: Figure 11.11 (a) anterior superficial and (b) anterior deep views.",
+    "figures": [
+     "11.11"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Breathing muscles fall into two groups by what they do to chest volume. Inspiratory muscles enlarge it: the diaphragm and external intercostals do the quiet work; when more air is needed, 'accessory' muscles in the neck and chest join in: sternocleidomastoid pulls the sternum up, the scalenes lift the first two ribs, pectoralis minor lifts ribs 3–5. Expiratory muscles shrink it, but they only work during forced breathing (coughing, exercise, blowing an instrument): the internal intercostals pull the ribs down and inward, and the four abdominal-wall muscles (external and internal obliques, transversus, rectus abdominis) squeeze the belly contents up against the diaphragm. All are skeletal (voluntary, striated) muscles, driven by nerves from the spinal cord; the diaphragm via the phrenic nerves (C3–C5), the intercostals via thoracic spinal nerves. The slide's split of internal intercostals into 'costal' and 'intercartilaginous' parts reflects that the front (cartilage) portion actually aids inspiration; Tortora does not make that distinction.",
+  "terms": [
+   {
+    "t": "Skeletal muscle",
+    "d": "Striated, voluntary muscle attached to bones and controlled by somatic motor nerves."
+   },
+   {
+    "t": "Accessory muscles of inhalation",
+    "d": "Neck and chest muscles (sternocleidomastoid, scalenes, pectoralis minor) recruited only for deep or laboured breaths."
+   },
+   {
+    "t": "Sternocleidomastoid",
+    "d": "The strap muscle from sternum and clavicle to the skull behind the ear; lifts the sternum when the head is fixed."
+   },
+   {
+    "t": "Scalenes",
+    "d": "Three neck muscles from cervical vertebrae to the first two ribs."
+   },
+   {
+    "t": "Internal intercostals",
+    "d": "Rib muscles deep to the external ones, fibres running down-and-back; depress the ribs in forced exhalation."
+   },
+   {
+    "t": "Pectoralis minor",
+    "d": "A small chest muscle from ribs 3–5 to the scapula; can lift those ribs."
+   },
+   {
+    "t": "External abdominal oblique",
+    "d": "The outermost flat abdominal-wall muscle; compresses the abdomen in forced exhalation."
+   },
+   {
+    "t": "Origin / insertion",
+    "d": "The fixed and the moving attachment of a muscle, respectively."
+   }
+  ]
+ },
+ {
+  "n": 21,
+  "title": "Lung volume and capacity",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.5",
+    "section_title": "Lung Volumes and Capacities",
+    "book_pages": "917-918",
+    "pdf_pages": "933-934",
+    "capture": "p.917 left column: the introductory paragraph under '23.5 Lung Volumes and Capacities' (spirometer, spirogram) and, right column, the heading 'Lung Volumes' with its first paragraph (tidal volume 500 mL, 12 breaths/min). p.918 left column, whole column: paragraphs on inspiratory reserve volume, expiratory reserve volume and FEV1, residual volume, minimal volume, then the heading 'Lung Capacities' and its paragraph (IC, FRC, VC, TLC with the male/female numbers) and the following paragraph on minute ventilation.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.5",
+    "section_title": "Figure 23.16 Spirogram of lung volumes and capacities",
+    "book_pages": "917",
+    "pdf_pages": "933",
+    "capture": "p.917 lower half: Figure 23.16 — the spirogram with the four volumes (left) and four capacities (right), male values with female values in parentheses. The slide's right-hand graph is this figure; the spirometer drawing on the slide's left has no Tortora equivalent.",
+    "figures": [
+     "23.16"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A spirometer is a sealed chamber (originally a floating bell over water) that records how much air you breathe out and in; the trace is a spirogram. From it you define four non-overlapping volumes: tidal volume (a normal breath, about 500 mL), inspiratory reserve (extra you can still pull in after a normal breath, about 3100 mL in men), expiratory reserve (extra you can still push out after a normal breath, about 1200 mL), and residual volume (about 1200 mL that stays in the lungs even after a maximal exhalation, because the chest wall holds the lungs partly open; it cannot be measured by spirometry). Capacities are simply sums of volumes: inspiratory capacity = TV + IRV; functional residual capacity = ERV + RV (what is in the lungs after a quiet breath out); vital capacity = IRV + TV + ERV (the biggest breath you can move); total lung capacity = everything, about 6 L in an adult man. The slide's garbled text mixes up two definitions: 'residual volume' remains after maximal exhalation, and 'functional residual capacity' after a quiet exhalation.",
+  "terms": [
+   {
+    "t": "Spirometer",
+    "d": "Instrument that measures volumes of air breathed in and out."
+   },
+   {
+    "t": "Tidal volume (TV, VT)",
+    "d": "Air moved in or out in one ordinary breath, about 500 mL."
+   },
+   {
+    "t": "Inspiratory reserve volume (IRV)",
+    "d": "Extra air you can inhale beyond a normal breath."
+   },
+   {
+    "t": "Expiratory reserve volume (ERV)",
+    "d": "Extra air you can exhale beyond a normal breath."
+   },
+   {
+    "t": "Residual volume (RV)",
+    "d": "Air left in the lungs after the most forceful exhalation."
+   },
+   {
+    "t": "Functional residual capacity (FRC)",
+    "d": "Air in the lungs at the end of a quiet exhalation = ERV + RV."
+   },
+   {
+    "t": "Vital capacity (VC)",
+    "d": "Largest volume that can be exhaled after a maximal inhalation = IRV + TV + ERV."
+   },
+   {
+    "t": "Total lung capacity (TLC)",
+    "d": "All air in maximally inflated lungs = VC + RV."
+   },
+   {
+    "t": "Anatomic dead space",
+    "d": "Air in the conducting airways (about 150 mL) that never reaches alveoli."
+   }
+  ],
+  "note": "The slide's bullet text is scrambled (columns interleaved) and says 'Residual reserve volume' and 'Inspiration reserve volume'; Tortora's terms are residual volume and inspiratory reserve volume. Tortora numbers (male; female in brackets): TV 500, IRV 3100 (1900), ERV 1200 (700), RV 1200 (1100), IC 3600 (2400), FRC 2400 (1800), VC 4800 (3100), TLC 6000 (4200) mL."
+ },
+ {
+  "n": 22,
+  "title": "Pleural cavity and intrapleural pressure",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Lungs — pleural membrane",
+    "book_pages": "905-906",
+    "pdf_pages": "921-922",
+    "capture": "p.905 right column, paragraph under the heading 'Lungs' (starts 'A pulmonologist…'), continuing over the page break to p.906 left column through '…phenomenon called surface tension. Separate pleural cavities surround the left and right lungs.' (parietal pleura, visceral pleura, pleural cavity and fluid). Figure 23.9 at the bottom of p.905.",
+    "figures": [
+     "23.9"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Inhalation — intrapleural pressure",
+    "book_pages": "913",
+    "pdf_pages": "929",
+    "capture": "p.913 below Figure 23.14, left column: the paragraph starting 'Intrapleural pressure is the pressure within the pleural…' (defines the pleural cavity as the space between the pleurae, lubricating fluid, always negative). It continues into the right column.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 1,
+    "section": "1.8",
+    "section_title": "Body Cavities — serous membranes",
+    "book_pages": "19",
+    "pdf_pages": "35",
+    "capture": "p.19 left column, the paragraph starting 'layers is a potential space that contains a small amount…' and the next paragraph 'The serous membrane of the pleural cavities is called the pleura…'.",
+    "figures": [
+     "1.11"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The fist-in-a-balloon picture explains why one continuous membrane produces two layers. Imagine a water-filled balloon; push your fist into it and the rubber wraps round the fist (visceral layer, stuck to the lung) while the rest of the balloon still lines whatever container it sits in (parietal layer, stuck to the chest wall). The two layers meet where the fist enters, which for the lung is the root at the hilum. The space between them is 'potential': in health it holds only a few millilitres of fluid, so the layers are effectively touching. Pressure inside that film is the intrapleural pressure. The slide introduces the symbol Ptp, transpulmonary pressure, meaning the pressure difference across the lung wall (alveolar pressure minus intrapleural pressure); it is the net distending force that keeps the lung inflated. Tortora describes the pleura and intrapleural pressure but does not use the term transpulmonary pressure.",
+  "terms": [
+   {
+    "t": "Potential space",
+    "d": "A gap that exists in principle between two touching layers but normally contains almost nothing."
+   },
+   {
+    "t": "Intrapleural fluid",
+    "d": "The thin film of serous fluid between the pleural layers."
+   },
+   {
+    "t": "Intrapleural pressure",
+    "d": "Pressure of the fluid in the pleural cavity; normally below atmospheric."
+   },
+   {
+    "t": "Transpulmonary pressure (Ptp)",
+    "d": "Alveolar pressure minus intrapleural pressure: the pressure difference holding the lung open."
+   },
+   {
+    "t": "Visceral pleura",
+    "d": "The pleural layer adherent to the lung surface."
+   },
+   {
+    "t": "Parietal pleura",
+    "d": "The pleural layer lining the inside of the chest wall and diaphragm."
+   }
+  ],
+  "note": "'Transpulmonary pressure' and the Ptp symbol are not in Tortora 16e; the nearest coverage is the intrapleural-pressure paragraph on p.913 and the pleura paragraph on p.905–906."
+ },
+ {
+  "n": 23,
+  "title": "Pleural cavity and intrapleural pressure",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Inhalation — intrapleural pressure is always negative",
+    "book_pages": "913",
+    "pdf_pages": "929",
+    "capture": "p.913 below Figure 23.14, left column: paragraph starting 'Intrapleural pressure is the pressure within the pleural…' — the sentences 'Intrapleural pressure is always a negative pressure… 754–756 mmHg…functions as a vacuum. The suction of this vacuum attaches the visceral pleura to the chest wall.' Continues into the right column (754 mmHg during inhalation).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Exhalation — the two inward recoil forces",
+    "book_pages": "914-915",
+    "pdf_pages": "930-931",
+    "capture": "p.914 right column, paragraph under the heading 'Exhalation' (starts 'Breathing out, called exhalation…'): the last sentence lists the two inwardly directed forces (elastic fibres and surface tension); continues at the top of p.915 left column. Also p.915 left column under 'Surface Tension of Alveolar Fluid': the sentence 'Surface tension also accounts for two-thirds of lung elastic recoil…'.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Boyle's law",
+    "book_pages": "912",
+    "pdf_pages": "928",
+    "capture": "p.912 left column, bottom paragraph (starts 'The pressure of a gas in a closed container…') and Figure 23.13 top right.",
+    "figures": [
+     "23.13"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Why is the pleural fluid at a pressure below the air outside? Two elastic bodies are stuck together back-to-back but want to go opposite ways. The lung, at any volume above its collapsed state, is stretched and pulls inward (elastic fibres plus the surface tension of the water film lining every alveolus). The chest wall, at resting volume, is compressed below its own neutral position and springs outward. Because the fluid between them cannot expand (liquids are almost incompressible and the sac is sealed), the two pulls put the film under tension: its pressure drops about 4 mmHg below atmospheric at rest (Tortora: 756 vs 760 mmHg). Note the slide's Boyle's-law wording is an analogy: strictly Boyle's law applies to gases, and the tiny liquid film develops sub-atmospheric pressure because it is being pulled apart, not because a gas volume grew. The negative pressure is what holds the lung open against its own recoil; if air enters the pleural space (pneumothorax) the pressure equalises and the lung collapses.",
+  "terms": [
+   {
+    "t": "Sub-atmospheric (negative) pressure",
+    "d": "Pressure lower than the surrounding air; 'negative' means relative to atmospheric, not absolute."
+   },
+   {
+    "t": "Elastic recoil (lung)",
+    "d": "The inward pull of a stretched lung from its elastic fibres and alveolar surface tension."
+   },
+   {
+    "t": "Chest-wall recoil",
+    "d": "The outward spring of the rib cage when compressed below its resting size."
+   },
+   {
+    "t": "Alveolar surface tension",
+    "d": "The inward force from the water film lining alveoli, which tends to shrink them."
+   },
+   {
+    "t": "Boyle's law",
+    "d": "At constant temperature, gas pressure × volume is constant: more volume, less pressure."
+   },
+   {
+    "t": "Pneumothorax",
+    "d": "Air in the pleural cavity, which abolishes the negative pressure and lets the lung collapse."
+   }
+  ],
+  "note": "Tortora quotes intrapleural pressure as 754–756 mmHg (i.e. −4 to −6 mmHg relative to 760); the slide's '−4 mmHg' matches the resting value. The 'Boyle's law creates a vacuum in the fluid' explanation is the lecturer's; Tortora simply states the pressure is negative and acts as suction."
+ },
+ {
+  "n": 24,
+  "title": "Pleural cavity and intrapleural pressure",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Lungs — pleural fluid, friction and surface tension",
+    "book_pages": "906",
+    "pdf_pages": "922",
+    "capture": "p.906 left column, first paragraph, the sentences starting 'This pleural fluid reduces friction between the membranes…' and 'Pleural fluid also causes the two membranes to adhere to one another just as a film of water causes two glass microscope slides to stick together…' — the book's own version of the two-panes-of-glass analogy.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Inhalation — suction attaches visceral pleura to chest wall",
+    "book_pages": "913",
+    "pdf_pages": "929",
+    "capture": "p.913 left column below Figure 23.14: in the intrapleural-pressure paragraph, the sentences 'The suction of this vacuum attaches the visceral pleura to the chest wall. Thus, if the thoracic cavity increases in size, the lungs also expand…'.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A thin liquid film between two flat surfaces behaves asymmetrically. Sliding is easy because the layers of liquid shear past one another with little resistance (that is what lubrication is). Pulling the surfaces straight apart is hard because it would have to create a gap of near-vacuum or draw in more liquid instantly; surface tension and cohesion of the water resist it strongly. Two wet microscope slides show this: they glide but will not lift apart. In the chest the same physics couples the lung to the rib cage and diaphragm: when the chest wall moves outward, the lung is dragged with it, yet during each breath the lung surface can slide freely over the chest wall. The book's coverage is short: one sentence on lubrication and one on adhesion, both in the pleura paragraph.",
+  "terms": [
+   {
+    "t": "Surface tension",
+    "d": "Cohesive pull among water molecules at a surface that makes a film resist being broken or stretched."
+   },
+   {
+    "t": "Cohesion",
+    "d": "Attraction between like molecules (e.g. water to water)."
+   },
+   {
+    "t": "Lubrication",
+    "d": "Reduction of friction between surfaces by a fluid layer that shears easily."
+   },
+   {
+    "t": "Pleural effusion",
+    "d": "Abnormal accumulation of fluid in the pleural space, e.g. after inflammation."
+   },
+   {
+    "t": "Pleurisy (pleuritis)",
+    "d": "Inflammation of the pleura, painful because the roughened layers rub."
+   }
+  ]
+ },
+ {
+  "n": 25,
+  "title": "Pleural cavity and intrapleural pressure",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Inhalation — alveolar and intrapleural pressures",
+    "book_pages": "913-914",
+    "pdf_pages": "929-930",
+    "capture": "p.913 below Figure 23.14, both columns: the intrapleural-pressure paragraph (left, starts 'Intrapleural pressure is the pressure…') and the right-column paragraph starting 'As the volume of the lungs increases in this way, the pressure of air within the pulmonary alveoli…called the alveolar (intrapulmonic) pressure…'. p.914: Figure 23.15 giving the paired numbers (alveolar 760/758/762 mmHg, intrapleural 756/754/756 mmHg).",
+    "figures": [
+     "23.15"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The slide defines two differences of pressure. Across the lung wall: transpulmonary pressure = alveolar pressure − intrapleural pressure. Since alveolar pressure at rest equals atmospheric (760 mmHg) and intrapleural is about 756, Ptp is about +4 mmHg, and this positive number is the distending force that keeps the lung inflated; the bigger it gets during inhalation, the bigger the lung. Across the chest wall: transmural pressure = intrapleural pressure − atmospheric pressure, about −4 mmHg, meaning the wall is being pulled inward by the pleural suction and is held out only by its own stiffness. 'Transmural' just means 'across a wall'; sign conventions vary between books, so always check which pressure is subtracted from which. Tortora gives the raw numbers and the idea of suction but never defines these two differences by name.",
+  "terms": [
+   {
+    "t": "Transmural pressure",
+    "d": "Pressure inside a wall minus pressure outside it; positive values push the wall outward."
+   },
+   {
+    "t": "Alveolar pressure (Palv)",
+    "d": "Pressure of the gas in the alveoli, equal to atmospheric between breaths."
+   },
+   {
+    "t": "Intrapleural pressure (Pip)",
+    "d": "Pressure of the pleural fluid, about −4 mmHg relative to atmosphere at rest."
+   },
+   {
+    "t": "Atmospheric pressure (Patm)",
+    "d": "Ambient air pressure, taken as the zero reference (760 mmHg absolute)."
+   },
+   {
+    "t": "Distending pressure",
+    "d": "A pressure difference that tends to inflate a hollow structure."
+   }
+  ],
+  "note": "Transpulmonary and chest-wall transmural pressures are not defined in Tortora 16e; the pressure values on Figure 23.15 (p.914) let the student compute them (760 − 756 = +4 mmHg; 756 − 760 = −4 mmHg)."
+ },
+ {
+  "n": 26,
+  "title": "Boyle’s law",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Inhalation — Boyle's law",
+    "book_pages": "912",
+    "pdf_pages": "928",
+    "capture": "p.912 left column, bottom paragraph (starts 'The pressure of a gas in a closed container is inversely…') continuing into the right column (piston explanation, 'the pressure of a gas varies inversely with volume') and the following paragraph 'Differences in pressure caused by changes in lung volume force air into our lungs…'. Figure 23.13 'Boyle's law' at the top right of p.912.",
+    "figures": [
+     "23.13"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Gas pressure comes from molecules bouncing off the container walls. Keep the number of molecules and the temperature fixed and halve the volume: each molecule hits the walls twice as often per unit area, so pressure doubles. That inverse relationship, P1V1 = P2V2, is Boyle's law, and the book's piston-and-gauge figure shows exactly this. It is the whole basis of breathing: the body cannot pump air directly, so it changes the volume of the chest, which changes the pressure of the air already in the lungs, which then flows in or out until the pressure matches the atmosphere. Because the lung volume change in a quiet breath is small (about 0.5 L on roughly 2.5 L), the pressure swing is also small, only 1–2 mmHg. The slide omits the condition 'at constant temperature'; strictly the law applies to a fixed mass of gas.",
+  "terms": [
+   {
+    "t": "Boyle's law",
+    "d": "For a fixed amount of gas at constant temperature, pressure and volume are inversely proportional."
+   },
+   {
+    "t": "Inversely proportional",
+    "d": "When one quantity goes up by a factor, the other goes down by the same factor."
+   },
+   {
+    "t": "Closed container",
+    "d": "A vessel that no gas enters or leaves, so the number of molecules is fixed."
+   },
+   {
+    "t": "Pressure",
+    "d": "Force per unit area exerted by gas molecules colliding with a surface."
+   },
+   {
+    "t": "atm",
+    "d": "One atmosphere, the average sea-level air pressure, = 760 mmHg."
+   }
+  ]
+ },
+ {
+  "n": 27,
+  "title": "Dalton’s law",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.6",
+    "section_title": "Gas Laws: Dalton's Law and Henry's Law",
+    "book_pages": "918-919",
+    "pdf_pages": "934-935",
+    "capture": "p.918 right column: the introductory paragraph of section 23.6 (starts 'The exchange of oxygen and carbon dioxide between alveolar air…') and, under the heading 'Gas Laws: Dalton's Law and Henry's Law', the paragraph starting 'According to Dalton's law, each gas in a mixture…' ending with the equation 'Atmospheric pressure (760 mmHg) = PN2 + PO2 + PAr + PH2O + PCO2 + Pother gases'. Continues on p.919 left column: the paragraph 'We can determine the partial pressure…' with the worked table of partial pressures and the two following paragraphs (diffusion down partial-pressure gradients; alveolar vs inhaled vs exhaled air).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "In a mixture of gases the molecules of each species behave as if the others were not there, so each contributes its own share of the total pressure. That share is the partial pressure, written P with the gas as subscript, and it equals the gas's fraction of the mixture times the total pressure: air is 20.9% oxygen, so at 760 mmHg the PO2 is about 159 mmHg. Adding all the partial pressures gives back the total, which is the equation on the slide. Partial pressure matters biologically because a gas diffuses from where its own partial pressure is higher to where it is lower, regardless of what other gases are doing; it is the 'concentration' variable for gases. The slide does not say why alveolar air has less oxygen (about 105 mmHg) than room air: fresh air is diluted by water vapour and by the stale air left in the lungs.",
+  "terms": [
+   {
+    "t": "Partial pressure (Px)",
+    "d": "The part of a gas mixture's total pressure contributed by one gas alone."
+   },
+   {
+    "t": "Dalton's law",
+    "d": "Total pressure of a mixture equals the sum of the partial pressures of its components."
+   },
+   {
+    "t": "Mole fraction / percentage composition",
+    "d": "The proportion of molecules in a mixture that belong to a given gas."
+   },
+   {
+    "t": "Water vapour (PH2O)",
+    "d": "Gaseous water; in the airways air becomes saturated, adding about 47 mmHg at body temperature."
+   },
+   {
+    "t": "Alveolar air",
+    "d": "The gas mixture inside the alveoli, about PO2 105 and PCO2 40 mmHg at rest."
+   }
+  ]
+ },
+ {
+  "n": 28,
+  "title": "Henry’s law",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.6",
+    "section_title": "Gas Laws — Henry's law",
+    "book_pages": "919",
+    "pdf_pages": "935",
+    "capture": "p.919 left column: the two paragraphs starting 'Henry's law states that the quantity of a gas that will dissolve…' (solubility of CO2 24 times that of O2; nitrogen barely dissolves) and 'An everyday experience gives a demonstration of Henry's law…' (soft-drink bubbles). Right column: the Clinical Connection 'Hyperbaric Oxygenation' and the paragraph 'Henry's law explains two conditions…' (nitrogen narcosis, decompression sickness).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Gases dissolve in liquids. At equilibrium the amount dissolved is proportional to the gas's partial pressure above the liquid (double the pressure, double the dissolved amount) multiplied by a solubility constant that depends on the gas, the liquid and the temperature. That is Henry's law. It tells you two things about blood. First, the dissolved amount of any gas tracks its partial pressure, which is why we can talk about the PO2 'of blood': it means the partial pressure of gas that would be in equilibrium with it. Second, solubility differs hugely: CO2 is about 24 times more soluble in water than O2, so plasma can carry a fair amount of CO2 in simple solution but almost no O2, which is why oxygen needs haemoglobin. Nitrogen is insoluble at sea level but dissolves under diving pressures and bubbles out on fast ascent (the bends).",
+  "terms": [
+   {
+    "t": "Henry's law",
+    "d": "Amount of gas dissolving in a liquid ∝ its partial pressure × its solubility, at constant temperature."
+   },
+   {
+    "t": "Solubility",
+    "d": "How readily a substance dissolves; for gases, the amount dissolved per unit partial pressure."
+   },
+   {
+    "t": "Dissolved gas",
+    "d": "Gas molecules held individually among liquid molecules, not as bubbles."
+   },
+   {
+    "t": "Equilibrium",
+    "d": "The state where dissolving and escaping happen at equal rates, so amounts stop changing."
+   },
+   {
+    "t": "Hyperbaric",
+    "d": "At greater than atmospheric pressure, used to force more O2 into solution in blood."
+   },
+   {
+    "t": "Decompression sickness",
+    "d": "Nitrogen bubbles forming in tissues when pressure drops too quickly."
+   }
+  ]
+ },
+ {
+  "n": 29,
+  "title": "Mechanical Process of Breathing (Pulmonary Ventilation)",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Figure 23.15 Pressure changes in pulmonary ventilation",
+    "book_pages": "914",
+    "pdf_pages": "930",
+    "capture": "p.914 top two-thirds: Figure 23.15, all three panels with their numbered captions 1 (at rest: alveolar 760, intrapleural 756), 2 (inhalation: 758 / 754), 3 (exhalation: 762 / 756). This is the slide's figure.",
+    "figures": [
+     "23.15"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Inhalation / Exhalation text",
+    "book_pages": "912-915",
+    "pdf_pages": "928-931",
+    "capture": "p.912 left column under 'Inhalation' (starts 'Just before each inhalation, the air pressure…'); p.913 below Figure 23.14, both columns (intrapleural pressure paragraph and the 'As the volume of the lungs increases…' paragraph, alveolar pressure 760→758); p.914 right column under 'Exhalation' (starts 'Breathing out, called exhalation…') continuing on p.915 left column, first paragraph (alveolar pressure rises to about 762 mmHg).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Put the previous slides together as a cycle. At rest: diaphragm relaxed, alveolar pressure equals atmospheric (760 mmHg), so no flow; intrapleural pressure is 756. Inspiration: the diaphragm contracts and descends and the external intercostals lift the ribs; the chest enlarges, the pleural film is stretched and its pressure falls to about 754; the lung, coupled to the wall, expands; by Boyle's law alveolar pressure drops to about 758; air flows in down the 2 mmHg gradient until the alveoli refill to 760. Expiration: the muscles relax, the elastic lung and chest wall recoil, the chest shrinks, alveolar pressure rises to about 762, and air flows out until pressure is 760 again; intrapleural pressure returns to 756. Note that intrapleural pressure stays below alveolar pressure throughout, so the lung never collapses. Quiet exhalation is passive (no muscle work); only forced exhalation uses the internal intercostals and abdominal muscles.",
+  "terms": [
+   {
+    "t": "Pressure gradient (airflow)",
+    "d": "The difference between alveolar and atmospheric pressure that drives air in or out."
+   },
+   {
+    "t": "Active vs passive process",
+    "d": "Active needs muscle contraction (inhalation); passive relies on recoil alone (quiet exhalation)."
+   },
+   {
+    "t": "Intrapleural pressure",
+    "d": "Pressure in the pleural film; 756 mmHg at rest, 754 at end-inhalation."
+   },
+   {
+    "t": "Alveolar pressure",
+    "d": "Gas pressure in the alveoli; 760 at rest, ~758 during inhalation, ~762 during exhalation."
+   },
+   {
+    "t": "Thoracic cavity volume",
+    "d": "The internal size of the chest, set by diaphragm and rib position."
+   },
+   {
+    "t": "Elastic recoil",
+    "d": "Spring-back of stretched lungs and chest wall that powers quiet exhalation."
+   }
+  ],
+  "note": "Slide's '−4 mmHg' intrapleural at rest = Tortora's 756 mmHg. Tortora does not show the intrapleural pressure returning briefly above the resting value; during a quiet breath it cycles 756 → 754 → 756."
+ },
+ {
+  "n": 30,
+  "title": "Volumes and pressures during the normal breathing cycle",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Inhalation — intrapleural and alveolar pressures during a breath",
+    "book_pages": "913-914",
+    "pdf_pages": "929-930",
+    "capture": "p.913 below Figure 23.14, both columns: the intrapleural-pressure paragraph (left) and the paragraph 'As the volume of the lungs increases in this way…' (right) on alveolar pressure; p.914 Figure 23.15 (the three-panel numbers) and, at the bottom of p.914 left column, the paragraph starting 'alveolar ducts and the increase in size of the openings…' with the accessory-muscle list.",
+    "figures": [
+     "23.15"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.5",
+    "section_title": "Lung Volumes — tidal volume",
+    "book_pages": "917",
+    "pdf_pages": "933",
+    "capture": "p.917 right column, first paragraph under 'Lung Volumes' (starts 'While at rest, a healthy adult averages 12 breaths…': tidal volume 500 mL) and Figure 23.16 for the resting baseline (functional residual capacity 2400 mL).",
+    "figures": [
+     "23.16"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The slide's three stacked graphs are the same cycle as the previous slide plotted against time. The top trace is volume: starting from the resting lung volume (the functional residual capacity, treated as zero) it rises by about 0.5 L (one tidal volume) and returns. The middle trace is intrapleural pressure, which is always negative and becomes more negative as the lung inflates, because a more stretched lung pulls harder on the pleural film; the slide gives −5 to −8 cmH2O (about −4 to −6 mmHg; 1 mmHg ≈ 1.36 cmH2O), matching Tortora's 756–754 mmHg. The bottom trace is alveolar pressure relative to atmosphere: zero at the two moments of no flow (start and end of inspiration), dipping negative while air flows in, positive while air flows out, and its size is set by how fast air must move through the airway resistance. The point the graph makes is that flow occurs only when alveolar pressure differs from zero, whereas volume is largest exactly when that difference is zero.",
+  "terms": [
+   {
+    "t": "cmH2O",
+    "d": "Centimetres of water, a pressure unit; 1 mmHg ≈ 1.36 cmH2O."
+   },
+   {
+    "t": "Functional residual capacity",
+    "d": "The lung volume at the end of a quiet exhalation, the baseline of the volume trace."
+   },
+   {
+    "t": "Tidal volume",
+    "d": "The 0.5 L moved during one quiet breath."
+   },
+   {
+    "t": "Relative (gauge) pressure",
+    "d": "Pressure measured with atmospheric pressure taken as zero."
+   },
+   {
+    "t": "Airway resistance",
+    "d": "Opposition to airflow from friction in the airways; larger resistance needs a bigger pressure swing."
+   },
+   {
+    "t": "End-inspiration / end-expiration",
+    "d": "The instants when flow stops and alveolar pressure equals atmospheric."
+   }
+  ],
+  "note": "Tortora has no time-course graph like this; Figure 23.15 (p.914) gives only snapshot values in mmHg. The slide uses cmH2O for intrapleural pressure (−5 to −8 cmH2O ≈ −4 to −6 mmHg)."
+ },
+ {
+  "n": 31,
+  "title": "Other factors affecting pulmonary ventilation",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Other Factors Affecting Pulmonary Ventilation",
+    "book_pages": "915-916",
+    "pdf_pages": "931-932",
+    "capture": "p.915: heading 'Other Factors Affecting Pulmonary Ventilation' (left column, below the Clinical Connection) and everything under it — left column: intro paragraph and the sub-heading 'Surface Tension of Alveolar Fluid' with its two paragraphs (surface tension; surfactant and RDS); right column: 'Compliance of the Lungs' (one paragraph, balloon analogy, causes of low/high compliance) and 'Airway Resistance' (starts 'Like the flow of blood through blood vessels…'), which continues at the top of p.916 left column (sympathetic bronchodilation, parasympathetic bronchoconstriction, asthma/COPD).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Alveolar cells — surfactant",
+    "book_pages": "908",
+    "pdf_pages": "924",
+    "capture": "p.908 bottom, both columns: the text under Figure 23.11 starting 'free surfaces containing microvilli, secrete pulmonary alveolar fluid…' (surfactant lowers surface tension, maintains patency).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Pressure difference drives airflow, but three properties set how much flow a given pressure buys. (1) Surface tension: every alveolus is lined by water, and the inward pull of that film acts like a tiny balloon trying to shrink; by Laplace's law smaller bubbles have higher collapsing pressure, so without help the small alveoli would empty into big ones. Surfactant, a phospholipid film from type II cells, cuts the surface tension and does so more in smaller alveoli, stabilising them; premature babies lacking it develop respiratory distress syndrome. (2) Compliance: the change in volume per unit change in pressure, i.e. how easily the lung and chest wall stretch; scarring, fluid or surfactant deficiency lower it (stiff lungs), emphysema raises it (floppy lungs that do not recoil). (3) Airway resistance: like resistance in a pipe, dominated by the diameter of the bronchioles, which the sympathetic nerves widen and the parasympathetic nerves or histamine narrow; asthma and COPD are diseases of raised resistance.",
+  "terms": [
+   {
+    "t": "Compliance",
+    "d": "Volume change per unit pressure change; high compliance = easy to inflate."
+   },
+   {
+    "t": "Elasticity (elastance)",
+    "d": "The tendency to return to original size after stretching; the inverse of compliance."
+   },
+   {
+    "t": "Surfactant",
+    "d": "Detergent-like phospholipid–protein mix that lowers alveolar surface tension."
+   },
+   {
+    "t": "Laplace's law",
+    "d": "Collapsing pressure of a bubble ∝ surface tension ÷ radius: smaller bubbles collapse more readily."
+   },
+   {
+    "t": "Airway resistance",
+    "d": "Opposition to airflow; rises steeply as bronchiole diameter falls."
+   },
+   {
+    "t": "Bronchodilation / bronchoconstriction",
+    "d": "Widening / narrowing of bronchioles by relaxation or contraction of their smooth muscle."
+   },
+   {
+    "t": "Sympathetic / parasympathetic",
+    "d": "The two divisions of the autonomic nervous system; sympathetic dilates airways, parasympathetic constricts."
+   },
+   {
+    "t": "Emphysema",
+    "d": "Destruction of alveolar walls, giving high compliance but poor recoil and less exchange surface."
+   }
+  ]
+ },
+ {
+  "n": 32,
+  "title": "Overview of the Three Phases of Respiration and Gas Transport",
+  "kind": "summary",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.1",
+    "section_title": "The Steps Involved in Respiration",
+    "book_pages": "892",
+    "pdf_pages": "908",
+    "capture": "p.892 left column: heading 'The Steps Involved in Respiration' and the numbered list 1–3 beneath it (pulmonary ventilation, external respiration, internal respiration; cellular respiration mentioned in item 3). Right side: Figure 23.1 'the three basic steps involved in respiration' with 'Transport of O2 and CO2 by the blood' between steps 2 and 3.",
+    "figures": [
+     "23.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.6",
+    "section_title": "Figure 23.17 partial pressures during external and internal respiration",
+    "book_pages": "920",
+    "pdf_pages": "936",
+    "capture": "p.920 whole page: Figure 23.17 (a) external respiration and (b) internal respiration with PO2/PCO2 values.",
+    "figures": [
+     "23.17"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "'Respiration' in physiology is a chain of three transport steps plus a chemical one. Step 1, ventilation, moves air by bulk flow between atmosphere and alveoli. Step 2, external respiration, is diffusion across the alveolar wall: O2 into pulmonary capillary blood, CO2 out. The blood then carries the gases around the body (transport, not usually numbered as a step). Step 3, internal respiration, is diffusion at the tissue capillaries: O2 out to cells, CO2 in. Inside the cells, cellular respiration is the metabolic burning of fuel with O2 to make ATP, releasing CO2; that is the reason the other steps exist. Keeping the terms apart avoids a common confusion: 'external' does not mean outside the body but exchange with the external air at the lungs.",
+  "terms": [
+   {
+    "t": "External (pulmonary) respiration",
+    "d": "Gas exchange between alveolar air and pulmonary capillary blood."
+   },
+   {
+    "t": "Internal (tissue) respiration",
+    "d": "Gas exchange between systemic capillary blood and tissue cells."
+   },
+   {
+    "t": "Cellular respiration",
+    "d": "Metabolic reactions inside cells that consume O2 and produce CO2 while making ATP."
+   },
+   {
+    "t": "ATP",
+    "d": "Adenosine triphosphate, the cell's energy currency."
+   },
+   {
+    "t": "Pulmonary vs systemic circulation",
+    "d": "Blood loop through the lungs vs through the rest of the body."
+   }
+  ]
+ },
+ {
+  "n": 33,
+  "title": "External and internal respiration",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.6",
+    "section_title": "External Respiration",
+    "book_pages": "919-921",
+    "pdf_pages": "935-937",
+    "capture": "p.919 right column, the paragraph under the heading 'External Respiration' (starts 'External respiration or pulmonary gas exchange is the diffusion…'), then p.921 left column: the first paragraph 'As Figure 23.17a shows, O2 diffuses…' — note especially its last sentence about blood that flowed through conducting portions lowering pulmonary-vein PO2 to about 100 mmHg (the slide's 'shunt') — and the next two paragraphs (CO2 diffusion; transit time during exercise).",
+    "figures": [
+     "23.17"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.6",
+    "section_title": "Internal Respiration",
+    "book_pages": "921",
+    "pdf_pages": "937",
+    "capture": "p.921 left column: heading 'Internal Respiration' and its three paragraphs (starts 'The left ventricle pumps oxygenated blood…'), continuing into the right column ('increases to 45 mmHg…' and the paragraph on 25% O2 use at rest).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.6",
+    "section_title": "Figure 23.17",
+    "book_pages": "920",
+    "pdf_pages": "936",
+    "capture": "p.920 whole page: Figure 23.17, panels (a) and (b) with PO2/PCO2 values for alveolar air (105/40), deoxygenated blood (40/45), oxygenated blood (100/40) and tissue cells (40/45).",
+    "figures": [
+     "23.17"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Each gas diffuses independently down its own partial-pressure gradient. In the lungs alveolar PO2 is about 105 mmHg while incoming venous blood is about 40, so O2 enters blood until it reaches 105; alveolar PCO2 is 40 while blood is 45, so CO2 leaves. In the tissues the gradients reverse (cells: PO2 40, PCO2 45) because cells consume O2 and make CO2. The slide's 'shunt' explains why arterial PO2 is about 95–100 rather than 105: a small fraction of blood (bronchial-artery blood feeding airway walls, and some coronary blood) bypasses ventilated alveoli and rejoins the pulmonary veins still venous, diluting the oxygenated stream. Because the O2–haemoglobin curve is flat near the top, this costs only a few mmHg. Tortora mentions the mixing with blood from 'conducting portions' but does not use the word shunt or the 2% figure.",
+  "terms": [
+   {
+    "t": "Shunt (physiological)",
+    "d": "Blood that reaches the arterial side without passing ventilated alveoli, so it stays deoxygenated."
+   },
+   {
+    "t": "Systemic venous blood",
+    "d": "Blood returning from the body tissues, PO2 about 40 mmHg."
+   },
+   {
+    "t": "Arterial blood",
+    "d": "Blood leaving the left heart, PO2 about 100 mmHg, PCO2 40 mmHg."
+   },
+   {
+    "t": "Pulmonary vein",
+    "d": "Vessel returning oxygenated blood from lungs to the left atrium."
+   },
+   {
+    "t": "Partial-pressure gradient",
+    "d": "Difference in a gas's partial pressure between two compartments; the driving force for its diffusion."
+   },
+   {
+    "t": "Aorta",
+    "d": "The main artery leaving the left ventricle."
+   }
+  ],
+  "note": "The '2% shunt flow' figure and the term 'shunt' are not in Tortora; the nearest passage is p.921 left column, first paragraph (pulmonary-vein PO2 'slightly less…about 100 mmHg' because of blood from conducting portions)."
+ },
+ {
+  "n": 34,
+  "title": "Crystal structure of hemoglobin",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 19,
+    "section": "19.3",
+    "section_title": "Red Blood Cells — RBC Physiology (haemoglobin structure)",
+    "book_pages": "703-704",
+    "pdf_pages": "719-720",
+    "capture": "p.703 right column, the paragraph starting 'Each RBC contains about 280 million hemoglobin molecules…' (globin = 2 alpha + 2 beta chains, one heme per chain, Fe2+ at its centre binds one O2, four O2 per molecule); p.704 top: Figure 19.4 (b) hemoglobin molecule and (c) iron-containing heme ring.",
+    "figures": [
+     "19.4"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Oxygen Transport",
+    "book_pages": "922",
+    "pdf_pages": "938",
+    "capture": "p.922 right column, bottom: the paragraph starting 'The heme portion of hemoglobin contains four atoms of iron…' with the reversible reaction Hb + O2 ⇌ Hb–O2.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Haemoglobin is a protein of four sub-units (two alpha and two beta chains), each folded around a flat ring molecule called heme with a single iron atom in its centre. The iron, in its Fe2+ state, can bind one O2 molecule loosely and reversibly, so each haemoglobin carries up to four O2. The binding is cooperative: when one heme takes up oxygen the protein's shape shifts slightly and the other hemes bind more easily, which produces the S-shaped saturation curve on the next slides. The 'crystal structure' in the title refers to how the picture was obtained: X-ray diffraction of haemoglobin crystals, the ribbons being the polypeptide backbones. Each red cell holds about 280 million of these molecules, roughly a third of the cell's weight, which is why oxygen is carried almost entirely inside red cells rather than dissolved.",
+  "terms": [
+   {
+    "t": "Globin",
+    "d": "The protein part of haemoglobin, four polypeptide chains (2 α, 2 β)."
+   },
+   {
+    "t": "Heme",
+    "d": "The ring-shaped non-protein pigment holding one iron atom; one per globin chain."
+   },
+   {
+    "t": "Polypeptide chain",
+    "d": "A linear string of amino acids folded into a protein subunit."
+   },
+   {
+    "t": "Fe2+ (ferrous iron)",
+    "d": "Iron in the +2 oxidation state, the form that binds O2 reversibly."
+   },
+   {
+    "t": "Oxyhaemoglobin (Hb–O2)",
+    "d": "Haemoglobin with oxygen bound."
+   },
+   {
+    "t": "Cooperative binding",
+    "d": "Binding of one O2 makes the remaining sites bind more readily."
+   },
+   {
+    "t": "X-ray crystallography",
+    "d": "Technique that deduces a molecule's 3-D structure from how a crystal scatters X-rays."
+   }
+  ],
+  "note": "Slide text is self-contradictory ('2 α + 2 β chains in yellow/orange, and two beta chains in purple/pink'); the molecule has two α and two β chains in total (Tortora p.703)."
+ },
+ {
+  "n": 35,
+  "title": "Effect of Partial pressure of oxygen in Hb saturation",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "The Relationship Between Hemoglobin and Oxygen Partial Pressure",
+    "book_pages": "923",
+    "pdf_pages": "939",
+    "capture": "p.923 left column: the sub-heading 'The Relationship Between Hemoglobin and Oxygen Partial Pressure' and its two paragraphs (start 'The most important factor that determines…' and 'The relationship between the percent saturation…'), continuing at the top of the right column through the paragraph 'When the PO2 is between 60 and 100 mmHg…' (90% saturated above 60; 75% at 40; 35% at 20 mmHg).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Figure 23.19 Oxygen–hemoglobin dissociation curve",
+    "book_pages": "923",
+    "pdf_pages": "939",
+    "capture": "p.923 left column, lower half: Figure 23.19 (percent saturation vs PO2 with the points for systemic arteries, systemic veins at rest, and contracting muscle).",
+    "figures": [
+     "23.19"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Plot the fraction of haemoglobin's four sites that hold O2 against the PO2 of the surrounding plasma and you get an S-shaped curve, not a straight line, because of cooperative binding. The steep part (PO2 20–40 mmHg) is where tissue capillaries operate, so small drops in tissue PO2 release large amounts of O2; the flat plateau (60–100 mmHg) is where the lungs operate, so haemoglobin loads fully even if alveolar PO2 falls somewhat (altitude, mild lung disease). At the normal arterial PO2 of ~100 mmHg it is about 97–98% saturated; at the resting venous PO2 of 40 it is still about 75%, meaning resting tissues take only a quarter of the load; at 20 mmHg only about 35% remains. 'Saturation' is a percentage of capacity, not an amount: total O2 carried also depends on how much haemoglobin the blood contains.",
+  "terms": [
+   {
+    "t": "Percent saturation",
+    "d": "The proportion of haemoglobin's O2-binding sites that are occupied, averaged over all molecules."
+   },
+   {
+    "t": "Oxygen–haemoglobin dissociation curve",
+    "d": "Graph of % saturation against PO2; sigmoid because of cooperative binding."
+   },
+   {
+    "t": "Affinity",
+    "d": "How tightly a binding site holds its ligand; high affinity = binds at low PO2, releases reluctantly."
+   },
+   {
+    "t": "Sigmoid",
+    "d": "S-shaped."
+   },
+   {
+    "t": "Plateau (of the curve)",
+    "d": "The flat upper region where saturation changes little with PO2."
+   },
+   {
+    "t": "Loading / unloading",
+    "d": "Oxygen binding to Hb in the lungs / being released from Hb in tissues."
+   }
+  ]
+ },
+ {
+  "n": 36,
+  "title": "Transport of oxygen in blood",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Oxygen Transport",
+    "book_pages": "922-923",
+    "pdf_pages": "938-939",
+    "capture": "p.922 left column, bottom: heading 'Oxygen Transport' and its paragraph (starts 'Oxygen does not dissolve easily in water, so only about 1.5%…'; 20 mL O2 per 100 mL blood: 0.3 mL dissolved, 19.7 mL bound), continuing at the top of p.923 left column ('The 98.5% of the O2 that is bound…only the dissolved O2 can diffuse…'). Right side of p.922: Figure 23.18 'Transport of oxygen and carbon dioxide in the blood' (1.5% dissolved, 98.5% as Hb–O2).",
+    "figures": [
+     "23.18"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "By Henry's law, plasma at a PO2 of 100 mmHg dissolves only about 0.3 mL of O2 per 100 mL, far too little to run a body that needs about 250 mL per minute at rest. Haemoglobin solves this by binding O2 chemically without raising its partial pressure, so that 100 mL of arterial blood carries about 20 mL of O2, of which roughly 98.5% (the slide says >98%) is on haemoglobin and 1.5% is dissolved. The two pools interact: only dissolved O2 can diffuse out into tissues, and as it leaves, the falling plasma PO2 makes haemoglobin release more, which re-dissolves and follows. The dissolved fraction therefore sets the PO2 you measure, while the bound fraction is the reservoir. This is why anaemia (less haemoglobin) lowers O2 content without changing arterial PO2.",
+  "terms": [
+   {
+    "t": "Dissolved O2",
+    "d": "Oxygen molecules in free solution in plasma and cytosol; the only form that can diffuse across membranes."
+   },
+   {
+    "t": "Oxygen content",
+    "d": "Total O2 per volume of blood, dissolved plus haemoglobin-bound; about 20 mL/100 mL arterial."
+   },
+   {
+    "t": "Plasma",
+    "d": "The liquid part of blood in which cells are suspended."
+   },
+   {
+    "t": "Haemoglobin (Hb)",
+    "d": "The iron-containing red-cell protein that carries almost all blood oxygen."
+   },
+   {
+    "t": "Anaemia",
+    "d": "Reduced haemoglobin or red-cell count, lowering O2-carrying capacity."
+   }
+  ]
+ },
+ {
+  "n": 37,
+  "title": "Transport of carbon dioxide in blood- at the tissues",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Carbon Dioxide Transport",
+    "book_pages": "925-926",
+    "pdf_pages": "941-942",
+    "capture": "p.925 right column: heading 'Carbon Dioxide Transport', its intro paragraph (53 mL CO2 per 100 mL) and the numbered list 1–3 (dissolved CO2 7%; carbamino compounds 23% with the Hb + CO2 ⇌ Hb–CO2 reaction; bicarbonate 70% with the carbonic-anhydrase reaction and the chloride shift), followed by the paragraph on the Haldane effect (starts 'The amount of CO2 that can be transported…'), which finishes at the top of p.926 left column.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Figure 23.23(b) exchange in systemic capillaries",
+    "book_pages": "926",
+    "pdf_pages": "942",
+    "capture": "p.926 lower half: Figure 23.23 panel (b) 'Exchange of O2 and CO2 in systemic capillaries (internal respiration)' and the part of the caption beginning '(b) CO2 diffuses out of tissue cells…' (chloride shift, Bohr effect).",
+    "figures": [
+     "23.23"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Figure 23.18 percentages",
+    "book_pages": "922",
+    "pdf_pages": "938",
+    "capture": "p.922 right column: Figure 23.18 header box 'Transport of CO2: 7% dissolved in plasma, 23% as Hb–CO2, 70% as HCO3−'.",
+    "figures": [
+     "23.18"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "CO2 made by cells diffuses into capillary blood and is handled three ways. About 7% simply dissolves (CO2 is 24 times more soluble than O2). About 23% attaches to amino groups on proteins, mostly haemoglobin, as carbaminohaemoglobin, and deoxygenated Hb binds CO2 more readily (Haldane effect). About 70% is converted inside red cells: carbonic anhydrase, an enzyme absent from plasma, joins CO2 and water into carbonic acid, which splits into H+ and bicarbonate. Bicarbonate leaves the cell into plasma, and to keep charge balance a chloride ion moves in (the chloride shift). The H+ is buffered by haemoglobin; binding H+ nudges haemoglobin into a shape that holds O2 less tightly, so O2 unloads exactly where CO2 is being produced (Bohr effect). The slide's line that H+ 'creates a local change in pH' is this buffering: most H+ never reaches the plasma.",
+  "terms": [
+   {
+    "t": "Carbonic anhydrase",
+    "d": "Red-cell enzyme that speeds the reaction CO2 + H2O ⇌ H2CO3 by thousands of times."
+   },
+   {
+    "t": "Bicarbonate ion (HCO3−)",
+    "d": "The anion formed when carbonic acid loses an H+; the main transport form of CO2."
+   },
+   {
+    "t": "Carbaminohaemoglobin (Hb–CO2)",
+    "d": "Haemoglobin with CO2 attached to amino groups of its globin chains."
+   },
+   {
+    "t": "Chloride shift",
+    "d": "Exchange of Cl− into the red cell for HCO3− leaving it, preserving electrical neutrality."
+   },
+   {
+    "t": "Deoxyhaemoglobin",
+    "d": "Haemoglobin without O2 bound; carries CO2 and H+ better than oxyhaemoglobin."
+   },
+   {
+    "t": "Haldane effect",
+    "d": "Deoxygenated blood carries more CO2 than oxygenated blood."
+   },
+   {
+    "t": "Bohr effect",
+    "d": "Raised H+ (lower pH) or PCO2 lowers Hb's O2 affinity, releasing O2."
+   },
+   {
+    "t": "Buffer",
+    "d": "A substance that soaks up or releases H+ to limit pH change."
+   }
+  ]
+ },
+ {
+  "n": 38,
+  "title": "Transport of carbon dioxide in blood- at the lungs",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Summary of Gas Exchange and Transport in Lungs and Tissues",
+    "book_pages": "926-927",
+    "pdf_pages": "942-943",
+    "capture": "p.926 left column: heading 'Summary of Gas Exchange and Transport in Lungs and Tissues' and its paragraph (starts 'Deoxygenated blood returning to the pulmonary capillaries…'), continuing into the right column and over the page break to the top of p.927 left column ('RBCs in pulmonary capillaries, HCO3− diffuses in…in exchange for Cl−').",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Figure 23.23(a) exchange in pulmonary capillaries",
+    "book_pages": "926",
+    "pdf_pages": "942",
+    "capture": "p.926 middle: Figure 23.23 panel (a) 'Exchange of O2 and CO2 in pulmonary capillaries (external respiration)' with the caption text '(a) As carbon dioxide (CO2) is exhaled…reverse chloride shift'.",
+    "figures": [
+     "23.23"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Carbon Dioxide Transport — carbamino and bicarbonate reverse in lungs",
+    "book_pages": "925",
+    "pdf_pages": "941",
+    "capture": "p.925 right column: in item 2 the sentences 'But in pulmonary capillaries, PCO2 is relatively low, and the CO2 readily splits apart…'; in item 3 the last sentence 'As blood passes through pulmonary capillaries in the lungs, all of these reactions reverse and CO2 is exhaled.'",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Everything on the previous slide runs backwards in the lung because the driving gradients flip. Alveolar PCO2 (40 mmHg) is below venous blood PCO2 (45), so dissolved CO2 leaves the plasma into the alveoli. That lowers plasma CO2, pulling the equilibria: CO2 detaches from haemoglobin, and inside red cells H+ and HCO3− recombine into carbonic acid, which carbonic anhydrase splits back into CO2 and water. As red-cell bicarbonate is used up, bicarbonate flows back in from plasma and chloride moves out (reverse chloride shift). Meanwhile O2 arriving from the alveoli binds haemoglobin, and oxyhaemoglobin is a stronger acid, so it dumps its H+, feeding the same reaction (the Haldane effect in reverse). All this happens within the fraction of a second the blood spends in the alveolar capillary, which is only possible because carbonic anhydrase is so fast.",
+  "terms": [
+   {
+    "t": "Reverse chloride shift",
+    "d": "Cl− leaving the red cell as HCO3− re-enters, in the lung capillaries."
+   },
+   {
+    "t": "Le Chatelier's principle",
+    "d": "Removing a product (CO2) drives a reversible reaction toward making more of it."
+   },
+   {
+    "t": "Alveolar PCO2",
+    "d": "CO2 partial pressure in alveolar gas, held at about 40 mmHg by ventilation."
+   },
+   {
+    "t": "Hb–H",
+    "d": "Haemoglobin with H+ bound; releases the H+ when it takes up O2."
+   },
+   {
+    "t": "Exhaled CO2",
+    "d": "CO2 removed from the body in expired air; the route by which the lungs regulate blood pH."
+   }
+  ]
+ },
+ {
+  "n": 39,
+  "title": "Shifting of O2-Hb dissociation curve",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Other Factors Affecting the Affinity of Hemoglobin for Oxygen",
+    "book_pages": "923-924",
+    "pdf_pages": "939-940",
+    "capture": "p.923 right column: sub-heading 'Other Factors Affecting the Affinity of Hemoglobin for Oxygen', its intro paragraph, and numbered items 1 'Acidity (pH)' (Bohr effect) and 2 'Partial pressure of carbon dioxide', continuing at the top of p.924 right column; then p.924 right column items 3 'Temperature' and 4 'BPG' (2,3-bisphosphoglycerate, ends '…higher in people living at higher altitudes').",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Figures 23.20 and 23.21",
+    "book_pages": "924",
+    "pdf_pages": "940",
+    "capture": "p.924 left column: Figure 23.20 (a) effect of pH and (b) effect of PCO2 on the curve; p.924 lower right: Figure 23.21 effect of temperature.",
+    "figures": [
+     "23.20",
+     "23.21"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "'Shifting right' means that at any given PO2 haemoglobin holds less O2, i.e. its affinity has fallen, so more O2 is released to tissues; shifting left means the opposite. Four factors shift it right, and all four are signs of a hard-working tissue: more CO2, more H+ (lower pH), higher temperature, and more 2,3-BPG. CO2 and H+ act through the Bohr effect: H+ binding to the globin chains changes the protein's shape so the hemes let go of O2. BPG is a by-product of glycolysis in red cells that wedges between the beta chains and stabilises the low-affinity form; it rises within hours in hypoxia, at altitude, and under hormones such as thyroxine and adrenaline. The lecturer's phrase 'right and downward' describes the same shift. In the lungs the reverse conditions (CO2 leaving, pH rising, cooler) shift the curve left and help loading. Fetal haemoglobin sits to the left because it binds BPG weakly.",
+  "terms": [
+   {
+    "t": "Right shift",
+    "d": "Lower O2 affinity: less saturation at a given PO2, more O2 unloaded."
+   },
+   {
+    "t": "Left shift",
+    "d": "Higher O2 affinity: more saturation at a given PO2, less unloaded."
+   },
+   {
+    "t": "Bohr effect",
+    "d": "Fall in Hb's O2 affinity caused by rising H+ or PCO2."
+   },
+   {
+    "t": "2,3-BPG (bisphosphoglycerate)",
+    "d": "A glycolysis by-product in red cells that lowers Hb's O2 affinity; rises in hypoxia."
+   },
+   {
+    "t": "Hypoxia",
+    "d": "Insufficient O2 at the tissue level."
+   },
+   {
+    "t": "Glycolysis",
+    "d": "The breakdown of glucose in the cytosol to make ATP without O2; red cells rely on it."
+   },
+   {
+    "t": "Metabolite",
+    "d": "A small molecule produced or consumed in metabolism."
+   }
+  ]
+ },
+ {
+  "n": 40,
+  "title": "Control Centres of Respiration",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Respiratory Center — Medullary Respiratory Center",
+    "book_pages": "927-928",
+    "pdf_pages": "943-944",
+    "capture": "p.927 left column: heading 'Respiratory Center' and its paragraph (starts 'The size of the thorax is altered…'), then sub-heading 'Medullary Respiratory Center' and its paragraph (DRG and VRG), continuing in the right column ('released in bursts…', pre-Bötzinger complex, 'The remaining neurons of the VRG do not participate in normal quiet breathing…') and over the page break to p.928 left column, the two paragraphs on forceful inhalation and forceful exhalation.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Pontine Respiratory Group / Cortical Influences",
+    "book_pages": "928",
+    "pdf_pages": "944",
+    "capture": "p.928 left column, paragraph under 'Pontine Respiratory Group' (starts 'The pontine respiratory group (PRG)…formerly called the pneumotaxic area'); right column, the paragraph under 'Cortical Influences on Breathing' (starts 'Because the cerebral cortex has connections…'), whose last sentence covers hypothalamus and limbic input.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Figure 23.24 Locations of areas of the respiratory center",
+    "book_pages": "927",
+    "pdf_pages": "943",
+    "capture": "p.927 right column, upper half: Figure 23.24 (a) sagittal section of brainstem showing pontine respiratory group, pre-Bötzinger complex, DRG, VRG; (b) phrenic and intercostal nerves to diaphragm and external intercostals.",
+    "figures": [
+     "23.24"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Breathing muscles are skeletal muscles, so they contract only when nerves tell them to; the rhythm comes from clusters of neurons in the brainstem, collectively the respiratory centre. In the medulla, the dorsal respiratory group (DRG) fires in ~2-second bursts to the diaphragm (via the phrenic nerves) and the external intercostals, producing quiet inhalation; when it stops, exhalation happens by recoil. The ventral respiratory group (VRG), which contains the pacemaker-like pre-Bötzinger complex, is recruited only for forced breathing, driving the accessory inspiratory and the expiratory muscles. A group in the pons (pontine respiratory group) fine-tunes the rhythm. The lecturer's 'pneumotaxic' and 'apneustic' centres are older names for pontine regions: Tortora calls the first the pontine respiratory group and no longer describes an apneustic centre. Chemical signals (CO2/H+) reach these groups from chemoreceptors via cranial nerves IX and X, and the cortex, hypothalamus and limbic system can override or colour the rhythm (speech, breath-holding, emotion).",
+  "terms": [
+   {
+    "t": "Medulla oblongata",
+    "d": "The lowest part of the brainstem, continuous with the spinal cord; houses vital centres."
+   },
+   {
+    "t": "Pons",
+    "d": "The brainstem segment above the medulla ('bridge'); contains the pontine respiratory group."
+   },
+   {
+    "t": "Dorsal respiratory group (DRG)",
+    "d": "Medullary neurons that drive quiet inspiration via phrenic and intercostal nerves."
+   },
+   {
+    "t": "Ventral respiratory group (VRG)",
+    "d": "Medullary neurons active only in forceful breathing; includes the rhythm-generating pre-Bötzinger complex."
+   },
+   {
+    "t": "Pontine respiratory group (pneumotaxic area)",
+    "d": "Pontine neurons that modulate the medullary rhythm, e.g. shortening inspiration."
+   },
+   {
+    "t": "Apneustic centre",
+    "d": "An older concept of a lower pontine area prolonging inspiration; not used in Tortora 16e."
+   },
+   {
+    "t": "Cranial nerves IX and X",
+    "d": "Glossopharyngeal and vagus nerves; carry chemoreceptor and lung-stretch signals to the medulla."
+   },
+   {
+    "t": "Cerebrospinal fluid (CSF)",
+    "d": "The clear fluid bathing the brain and spinal cord."
+   },
+   {
+    "t": "Hypothalamus / limbic system",
+    "d": "Brain regions for homeostasis and emotion; both feed into the respiratory centre."
+   }
+  ],
+  "note": "Terminology: slide uses 'pneumotaxic center' and 'apneustic center'. Tortora 16e: pontine respiratory group (PRG), 'formerly called the pneumotaxic area' (p.928); the apneustic centre is not described. Brainstem anatomy is in Chapter 14: medulla p.503 (pdf 519, medullary respiratory centre) and pons p.504 (pdf 520, right column: 'Also within the pons is the pontine respiratory group…')."
+ },
+ {
+  "n": 41,
+  "title": "Control Centres of Respiration",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Chemoreceptor Regulation of Breathing — negative feedback",
+    "book_pages": "929-930",
+    "pdf_pages": "945-946",
+    "capture": "p.929 left column, bottom: the paragraph starting 'The chemoreceptors participate in a negative feedback system…' (hyperventilation until PCO2 and H+ return to normal), and the following paragraph 'If arterial PCO2 is lower than 40 mmHg…' which runs to the top of p.930 right column. p.930 left column: Figure 23.27 (stimulus → receptors → DRG → effectors → response).",
+    "figures": [
+     "23.27"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "The Inflation Reflex",
+    "book_pages": "930",
+    "pdf_pages": "946",
+    "capture": "p.930 right column: the paragraph under the sub-heading 'The Inflation Reflex' (starts 'Similar to those in the blood vessels, stretch-sensitive receptors…'): vagus (X) nerves to the DRG, DRG inhibited, Hering–Breuer reflex, threshold above 1500 mL in adults.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Figure 23.24(b) and Figure 23.25",
+    "book_pages": "927-928",
+    "pdf_pages": "943-944",
+    "capture": "p.927 right column: Figure 23.24(b) phrenic nerve to diaphragm and intercostal nerves to external intercostals; p.928 top: Figure 23.25 (a) quiet breathing 2 s active / 3 s inactive, (b) forceful breathing with DRG activating VRG and the accessory muscle lists.",
+    "figures": [
+     "23.24",
+     "23.25"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The slide's diagram is a wiring map. Outputs: motor neurons in the spinal cord (C3–C5 for the phrenic nerve to the diaphragm; thoracic segments for the intercostal nerves) are driven by the DRG/VRG, and stronger, faster bursts give harder, faster contractions. Inputs: the cortex (voluntary control), chemoreceptors and baroreceptors in the carotid and aortic bodies (via nerves IX and X), and stretch receptors in the airway walls (via the vagus). When the lungs inflate far beyond a normal breath (over ~1.5 L in adults) the stretch receptors inhibit the DRG so inspiration stops; this Hering–Breuer inflation reflex is a safety limit, not the normal off-switch. The whole loop is negative feedback: raised CO2 → more ventilation → CO2 blown off → chemoreceptor drive falls → ventilation returns to baseline. The slide's 'baroreceptors' have only a small effect on breathing (a fall in blood pressure slightly increases it).",
+  "terms": [
+   {
+    "t": "Negative feedback",
+    "d": "Control in which the response counteracts the original change, restoring the set point."
+   },
+   {
+    "t": "Phrenic nerve",
+    "d": "Nerve from spinal segments C3–C5 that is the sole motor supply to the diaphragm."
+   },
+   {
+    "t": "Intercostal nerves",
+    "d": "Thoracic spinal nerves (T1–T11) supplying the intercostal muscles."
+   },
+   {
+    "t": "Stretch (inflation) receptors",
+    "d": "Mechanoreceptors in bronchial walls signalling lung inflation through the vagus."
+   },
+   {
+    "t": "Hering–Breuer (inflation) reflex",
+    "d": "Inhibition of inspiration by lung stretch receptors, preventing over-inflation."
+   },
+   {
+    "t": "Vagus nerve (X)",
+    "d": "Cranial nerve carrying sensory input from lungs and aortic bodies to the medulla."
+   },
+   {
+    "t": "Baroreceptor",
+    "d": "Pressure sensor in the carotid sinus and aortic arch, mainly for blood-pressure control."
+   },
+   {
+    "t": "Effector",
+    "d": "The muscle or gland that carries out a control system's response."
+   }
+  ]
+ },
+ {
+  "n": 42,
+  "title": "Peripheral and Central Chemoreceptors",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Chemoreceptor Regulation of Breathing — central chemoreceptors",
+    "book_pages": "928-929",
+    "pdf_pages": "944-945",
+    "capture": "p.928 right column, bottom: the paragraph under 'Chemoreceptor Regulation of Breathing' (starts 'Certain chemical stimuli modulate…'), continuing across the page break to p.929 left column, first paragraph (starts 'neurons that are responsive to chemicals, called chemoreceptors…'): the sentences 'Central chemoreceptors are located in or near the medulla oblongata…respond to changes in H+ concentration or PCO2, or both, in cerebrospinal fluid.' Then the next two paragraphs: 'Because CO2 is lipid-soluble, it easily diffuses…' and 'Normally, the PCO2 in arterial blood is 40 mmHg…hypercapnia…'.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Figure 23.26 Locations of peripheral chemoreceptors",
+    "book_pages": "929",
+    "pdf_pages": "945",
+    "capture": "p.929 right column: Figure 23.26 (medulla oblongata, carotid body with glossopharyngeal IX axons, aortic bodies with vagus X axons).",
+    "figures": [
+     "23.26"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A chemoreceptor is a neuron whose firing rate depends on the concentration of a chemical. Central chemoreceptors sit just under the front (ventral) surface of the medulla, bathed by cerebrospinal fluid rather than blood. They respond to H+, but blood H+ cannot cross the blood–brain barrier; CO2 can, because it is a small lipid-soluble molecule. CO2 diffusing into the CSF forms carbonic acid and H+ there, so the central receptors effectively read arterial PCO2 with great sensitivity: a rise of only a few mmHg above the normal 40 (hypercapnia) strongly increases ventilation. They do not sense O2. The slide's 'baroreceptors' are a different receptor class (pressure), mentioned because they lie next to the peripheral chemoreceptors; their effect on breathing is minor.",
+  "terms": [
+   {
+    "t": "Chemoreceptor",
+    "d": "Sensory neuron that responds to the concentration of a specific chemical (here CO2, H+, O2)."
+   },
+   {
+    "t": "Central chemoreceptors",
+    "d": "H+-sensitive neurons near the ventral medulla that monitor CSF pH, indirectly PCO2."
+   },
+   {
+    "t": "Blood–brain barrier",
+    "d": "Tight capillary lining of the brain that blocks ions like H+ but lets gases like CO2 through."
+   },
+   {
+    "t": "Hypercapnia (hypercarbia)",
+    "d": "Arterial PCO2 above normal (40 mmHg)."
+   },
+   {
+    "t": "Hypocapnia",
+    "d": "Arterial PCO2 below normal, e.g. after hyperventilation."
+   },
+   {
+    "t": "Lipid-soluble",
+    "d": "Able to dissolve in fatty membranes and so cross them freely."
+   },
+   {
+    "t": "Ventral / anterior surface",
+    "d": "The front surface of the brainstem."
+   }
+  ],
+  "note": "The '0.2 mm beneath the anterior surface' detail is not in Tortora; it says central chemoreceptors are 'in or near the medulla oblongata' (p.929)."
+ },
+ {
+  "n": 43,
+  "title": "Peripheral and Central Chemoreceptors",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Chemoreceptor Regulation of Breathing — peripheral chemoreceptors",
+    "book_pages": "929",
+    "pdf_pages": "945",
+    "capture": "p.929 left column, first paragraph: from 'Peripheral chemoreceptors are located in the aortic bodies…' to '…part of the right and left glossopharyngeal (IX) nerves.' Then, in the paragraph 'Normally, the PCO2 in arterial blood is 40 mmHg…', the sentences 'The peripheral chemoreceptors also are stimulated by both the high PCO2 and the rise in H+…respond to a deficiency of O2. When PO2 in arterial blood falls…still above 50 mmHg…' and the warning about severe O2 deficiency depressing the DRG. Figure 23.26 in the right column.",
+    "figures": [
+     "23.26"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "The Inflation Reflex (stretch receptors)",
+    "book_pages": "930",
+    "pdf_pages": "946",
+    "capture": "p.930 right column: the paragraph under 'The Inflation Reflex' (stretch receptors in bronchi/bronchioles, vagus to DRG, Hering–Breuer reflex, adult threshold 1500 mL).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Peripheral chemoreceptors are small blood-rich nodules outside the brain: the carotid bodies at the fork of each common carotid artery (signalling through the glossopharyngeal nerve, IX) and the aortic bodies on the aortic arch (signalling through the vagus, X). Unlike the central receptors they are washed by arterial blood directly, so they can sense PO2 as well as PCO2 and H+. They are the only O2 sensors, but they respond weakly until arterial PO2 falls below about 60 mmHg (Tortora: stimulated while still above 50), which is where haemoglobin saturation starts to drop steeply; normal breathing is therefore driven by CO2, not O2. Severe hypoxia actually depresses the DRG, a dangerous positive-feedback spiral. The slide's third receptor type, pulmonary stretch receptors, are mechanical rather than chemical: they sit in airway smooth muscle and inhibit inspiration when the lung is over-inflated.",
+  "terms": [
+   {
+    "t": "Peripheral chemoreceptors",
+    "d": "O2/CO2/H+ sensors in the carotid and aortic bodies, in contact with arterial blood."
+   },
+   {
+    "t": "Carotid body",
+    "d": "Small chemoreceptor organ at the bifurcation of each common carotid artery."
+   },
+   {
+    "t": "Aortic bodies",
+    "d": "Chemoreceptor clusters in the wall of the aortic arch."
+   },
+   {
+    "t": "Glossopharyngeal nerve (IX)",
+    "d": "Cranial nerve carrying carotid-body signals to the medulla."
+   },
+   {
+    "t": "Carotid sinus",
+    "d": "Dilated part of the internal carotid containing baroreceptors, next to the carotid body."
+   },
+   {
+    "t": "Hypoxic drive",
+    "d": "Stimulation of breathing by low arterial PO2 via peripheral chemoreceptors."
+   },
+   {
+    "t": "Pulmonary stretch receptors",
+    "d": "Mechanoreceptors in bronchial walls that report lung inflation via the vagus."
+   }
+  ]
+ },
+ {
+  "n": 44,
+  "title": "Physiological feedback control of respiration",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Figure 23.27 Regulation of breathing via negative feedback",
+    "book_pages": "930",
+    "pdf_pages": "946",
+    "capture": "p.930 left column, whole column: Figure 23.27 flowchart — stimulus (increased arterial PCO2, or decreased pH or PO2) → central chemoreceptors in medulla and peripheral chemoreceptors in aortic and carotid bodies → DRG in medulla → muscles of inhalation and exhalation contract more forcefully and frequently → decrease in PCO2, rise in pH and PO2 → return to homeostasis. The slide's flowchart is a version of this figure.",
+    "figures": [
+     "23.27"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Chemoreceptor Regulation of Breathing — feedback text",
+    "book_pages": "929",
+    "pdf_pages": "945",
+    "capture": "p.929 left column: the paragraphs 'Because CO2 is lipid-soluble…' (CO2 → H+ inside cells), 'Normally, the PCO2 in arterial blood is 40 mmHg…' and 'The chemoreceptors participate in a negative feedback system…' (bottom of the column, ends 'until PCO2 and H+ are lowered to normal').",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Table 23.3 Summary of stimuli that affect breathing rate and depth",
+    "book_pages": "931",
+    "pdf_pages": "947",
+    "capture": "p.931 top: Table 23.3, both columns (stimuli that increase / decrease breathing rate and depth).",
+    "figures": [],
+    "tables": [
+     "23.3"
+    ]
+   }
+  ],
+  "basics": "Read the flowchart as a thermostat. The controlled variable is really arterial PCO2 (with pH and PO2 as secondary inputs). A disturbance, say exercise producing extra CO2 and acid, raises arterial PCO2 and H+ and lowers PO2. Peripheral chemoreceptors read the blood directly; central chemoreceptors read CO2 that has diffused into brain fluid and turned into H+. Both increase their firing to the medullary inspiratory neurons (the DRG), which fire harder and more often down the phrenic and intercostal nerves; diaphragm and intercostals contract more strongly and quickly; ventilation rises; more CO2 is exhaled and more O2 taken up; the blood values return toward normal and the receptor drive fades. The effect is opposite in sign to the disturbance, hence negative feedback. Note the asymmetry the slide omits: the system is far more sensitive to a rise in CO2 than to a fall in O2.",
+  "terms": [
+   {
+    "t": "Homeostasis",
+    "d": "Maintenance of a stable internal state by regulated feedback."
+   },
+   {
+    "t": "Controlled condition (variable)",
+    "d": "The quantity a feedback loop regulates, here arterial PCO2/pH/PO2."
+   },
+   {
+    "t": "Receptor / control centre / effector",
+    "d": "The three elements of a feedback loop: sensor, integrator, responder."
+   },
+   {
+    "t": "Extracellular fluid (brain ECF)",
+    "d": "Fluid surrounding brain cells, continuous with CSF; where central chemoreceptors sense H+."
+   },
+   {
+    "t": "Metabolic acids",
+    "d": "Acids produced by metabolism (lactic, ketone acids) that lower blood pH independently of CO2."
+   },
+   {
+    "t": "Hyperventilation",
+    "d": "Ventilation greater than needed for CO2 production, lowering arterial PCO2."
+   },
+   {
+    "t": "Medullary inspiratory neurons",
+    "d": "Another name for the DRG neurons that drive inspiration."
+   }
+  ]
+ },
+ {
+  "n": 45,
+  "title": "Other receptors",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Other Influences on Breathing / Irritation of airways",
+    "book_pages": "930-931",
+    "pdf_pages": "946-947",
+    "capture": "p.930 right column, bottom: sub-heading 'Other Influences on Breathing' (starts 'Other factors that contribute to regulation…'), with the bullet list continuing on p.931 left column; especially the bullet 'Irritation of airways' (physical or chemical irritation of pharynx or larynx → cessation of breathing then coughing or sneezing). Table 23.3 at the top of p.931, right column, last row.",
+    "figures": [],
+    "tables": [
+     "23.3"
+    ]
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Proprioceptor Stimulation of Breathing",
+    "book_pages": "930",
+    "pdf_pages": "946",
+    "capture": "p.930 right column, top: the paragraph under 'Proprioceptor Stimulation of Breathing' (starts 'As soon as you start exercising…'): proprioceptors in joints and muscles stimulate the DRG before blood gases change.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "The Inflation Reflex",
+    "book_pages": "930",
+    "pdf_pages": "946",
+    "capture": "p.930 right column, middle: the paragraph under 'The Inflation Reflex' (stretch receptors in walls of bronchi and bronchioles; vagus to DRG; Hering–Breuer).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Table 23.2 Modified Breathing Movements",
+    "book_pages": "916",
+    "pdf_pages": "932",
+    "capture": "p.916 lower half: Table 23.2 rows 'Coughing' and 'Sneezing' (the reflex responses to airway irritation).",
+    "figures": [],
+    "tables": [
+     "23.2"
+    ]
+   }
+  ],
+  "basics": "Beyond chemistry, three kinds of mechanical or irritant input adjust breathing. Irritant receptors are bare nerve endings in the airway epithelium; dust, smoke, pollen or cold air trigger them and the reflex output is a cough or sneeze (a brief pause, deep inhalation, glottis closure, explosive exhalation), plus reflex narrowing of the bronchi and shallow rapid breathing, all aimed at keeping the irritant out of the alveoli. Proprioceptors in muscles, tendons and joints report body movement; the moment you start to exercise they excite the DRG, which is why ventilation rises before any change in blood gases. Stretch receptors in the smooth muscle of bronchi and bronchioles (the slide adds the visceral pleura) signal through the vagus to inhibit the DRG when the lung is over-inflated. Tortora treats irritation under 'Other influences on breathing' and does not name 'irritant receptors' as a receptor class.",
+  "terms": [
+   {
+    "t": "Irritant receptors",
+    "d": "Free nerve endings in airway lining that respond to particles, chemicals or cold and provoke cough or bronchoconstriction."
+   },
+   {
+    "t": "Proprioceptor",
+    "d": "Sensor in muscle, tendon or joint that reports position and movement."
+   },
+   {
+    "t": "Stretch receptor",
+    "d": "Mechanoreceptor that fires when the tissue it lies in is stretched."
+   },
+   {
+    "t": "Bronchoconstriction",
+    "d": "Narrowing of bronchi/bronchioles by smooth-muscle contraction."
+   },
+   {
+    "t": "Cough reflex",
+    "d": "Deep inhalation, glottis closure, then forceful exhalation that blasts the glottis open."
+   },
+   {
+    "t": "Free nerve endings",
+    "d": "Unspecialised sensory axon terminals in epithelia responding to pain, irritants or temperature."
+   },
+   {
+    "t": "Epithelium (airway)",
+    "d": "The cell layer lining the airway lumen where irritant endings sit."
+   }
+  ],
+  "note": "Tortora does not use the term 'irritant receptors' or describe irritant-triggered bronchoconstriction; the closest text is the 'Irritation of airways' bullet on p.931 and Table 23.3's last row. Stretch receptors are placed by Tortora in the walls of bronchi and bronchioles (p.930), not in the visceral pleura."
+ }
+]

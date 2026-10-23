@@ -1,0 +1,3366 @@
+[
+ {
+  "n": 1,
+  "title": "HTI5001",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 2,
+  "title": "Learning objectives",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 3,
+  "title": "Organs of the digestive system",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.1",
+    "section_title": "Overview of the Digestive System",
+    "book_pages": "942",
+    "pdf_pages": "958",
+    "capture": "p.942 whole page: Figure 24.1 (right-lateral head/neck + anterior trunk drawing, part a, and the dissection photo, part b) including its key box listing canal organs and accessory organs; plus the first text paragraph, left column, starting 'The digestive system (dis = apart' and continuing into the right column (2 paragraphs, ending 'break down the food chemically').",
+    "figures": [
+     "24.1"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Think of the digestive system as one long tube running through the body with a set of glands hanging off it. Food travels down the tube (the gastrointestinal or GI tract, also called the digestive canal) and never actually enters the body's tissues until its molecules cross the tube's lining. The glands and other helpers that are not part of the tube itself are the accessory organs: teeth and tongue break food up physically; the salivary glands, liver, gallbladder and pancreas pour secretions into the tube through ducts. The slide reproduces Tortora Figure 24.1; every label on it is either a segment of the tube (mouth, pharynx, oesophagus, stomach, duodenum, jejunum, ileum, caecum, colon, rectum, anal canal) or an accessory organ (salivary glands, liver, gallbladder, pancreas). The slide assumes you know the tube is continuous from mouth to anus and that the small intestine has three named parts.",
+  "terms": [
+   {
+    "t": "Gastrointestinal (GI) tract / digestive canal",
+    "d": "The continuous muscular tube that food passes through; Tortora 16e calls it the digestive canal."
+   },
+   {
+    "t": "Accessory digestive organ",
+    "d": "A structure that helps digestion but is not part of the tube: teeth, tongue, salivary glands, liver, gallbladder, pancreas."
+   },
+   {
+    "t": "Lumen",
+    "d": "The hollow interior space of a tube-shaped organ."
+   },
+   {
+    "t": "Duct",
+    "d": "A small tube that carries a gland's secretion to where it acts."
+   },
+   {
+    "t": "Duodenum / jejunum / ileum",
+    "d": "The first, middle and last parts of the small intestine, in that order."
+   },
+   {
+    "t": "Caecum (cecum)",
+    "d": "The blind pouch at the start of the large intestine, where the ileum empties in."
+   },
+   {
+    "t": "Colon",
+    "d": "The long part of the large intestine, subdivided into ascending, transverse, descending and sigmoid portions."
+   }
+  ],
+  "note": "Tortora 16e (unlike older editions and this slide's grouping) counts the mouth, teeth, tongue and pharynx as accessory organs and starts the 'digestive canal' at the oesophagus; the figure is the same either way."
+ },
+ {
+  "n": 4,
+  "title": "Gastrointestinal (GI) tract",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.1",
+    "section_title": "Overview of the Digestive System",
+    "book_pages": "942",
+    "pdf_pages": "958",
+    "capture": "p.942 left column, first paragraph under the section objectives, starting 'The digestive system (dis = apart', running into the right column top (list of canal organs and accessory organs, ending 'chemical breakdown of food'). 2 paragraphs.",
+    "figures": [
+     "24.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Anatomy of the Small Intestine",
+    "book_pages": "971-972",
+    "pdf_pages": "987-988",
+    "capture": "p.971 right column, paragraph under the heading 'Anatomy of the Small Intestine' starting 'The small intestine is divided', continuing over the page break onto p.972 left column top (ends 'ileal orifice'). 1 paragraph.",
+    "figures": [
+     "24.19"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The slide lists the segments of the tube in order and then the helpers outside it. Two ideas underlie the list. First, the tube is continuous, so anything swallowed can in principle come out the other end without ever being absorbed; digestion is what happens along the way. Second, the small intestine is not one uniform pipe: the duodenum is a short C-shaped first part fixed to the back wall, the jejunum and ileum are long mobile coils. The slide's accessory list (teeth, tongue, salivary glands, liver, gallbladder, pancreas) matches the book's, but note the book's definition of where the canal starts differs (see note). The slide does not say why the distinction matters: accessory organs other than teeth and tongue never touch food; they only deliver secretions into the tube through ducts.",
+  "terms": [
+   {
+    "t": "Oral cavity",
+    "d": "The space inside the mouth, from lips and teeth back to the throat opening."
+   },
+   {
+    "t": "Pharynx",
+    "d": "The throat: a funnel of skeletal muscle shared by air and food routes."
+   },
+   {
+    "t": "Oesophagus (esophagus)",
+    "d": "The muscular tube carrying swallowed food from throat to stomach."
+   },
+   {
+    "t": "Rectum",
+    "d": "The last straight portion of the large intestine before the anal canal."
+   },
+   {
+    "t": "Anal canal",
+    "d": "The final 2-3 cm of the tube, closed by two ring muscles (sphincters)."
+   },
+   {
+    "t": "Gallbladder",
+    "d": "A small sac under the liver that stores and concentrates bile."
+   },
+   {
+    "t": "Pancreas",
+    "d": "A gland behind the stomach that secretes digestive enzymes and bicarbonate into the duodenum (and hormones into blood)."
+   }
+  ],
+  "note": "Slide says the GI tract 'begins at the oral cavity' and includes the pharynx; Tortora 16e p.942 defines the digestive canal as running from the oesophagus to the anus and classes mouth and pharynx as accessory organs. Older Tortora editions used the slide's definition."
+ },
+ {
+  "n": 5,
+  "title": "Functions of the digestive system",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.1",
+    "section_title": "Overview of the Digestive System",
+    "book_pages": "942-943",
+    "pdf_pages": "958-959",
+    "capture": "p.942 the boxed list 'Functions of the Digestive System' (items 1-6) printed inside Figure 24.1, upper right of the page; then p.943 left column, the numbered list 1-6 that starts 'Overall, the digestive system performs' (6 numbered paragraphs, ending at 'feces (FE-sez) or stool'). Figure 24.2 at the top of p.943 is the matching diagram.",
+    "figures": [
+     "24.1",
+     "24.2"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Everything the digestive system does can be filed under six verbs, and the slide is copied almost word for word from the box in Tortora Figure 24.1. Ingestion is getting food into the tube. Secretion is the wall and glands adding roughly seven litres a day of water, acid, buffers and enzymes to the contents. Mixing and propulsion (the book's term is motility) is smooth muscle in the wall churning and moving the contents. Digestion is breaking food into molecules small enough to cross the lining: mechanically by teeth and churning, chemically by enzymes that hydrolyse large molecules. Absorption is the transfer of those small molecules across the lining into blood or lymph. Defecation is expelling what was never absorbed. Unsaid on the slide: a few things (water, ions, vitamins, cholesterol) are absorbed without any digestion, and these six processes overlap in time and place.",
+  "terms": [
+   {
+    "t": "Secretion",
+    "d": "Release of a fluid product (water, acid, enzymes, mucus) by cells into the tube."
+   },
+   {
+    "t": "Buffer",
+    "d": "A substance that resists changes in pH, e.g. bicarbonate neutralising stomach acid."
+   },
+   {
+    "t": "Enzyme",
+    "d": "A protein catalyst that speeds a specific chemical reaction, here hydrolysis of food molecules."
+   },
+   {
+    "t": "Motility",
+    "d": "The tube's ability to mix and move its contents by contractions of its wall muscle."
+   },
+   {
+    "t": "Absorption",
+    "d": "Passage of digested molecules from the lumen through the lining cells into blood or lymph."
+   },
+   {
+    "t": "Lymph",
+    "d": "Fluid in the lymphatic vessels; carries absorbed fat from the gut to the bloodstream."
+   },
+   {
+    "t": "Feces (faeces)",
+    "d": "The solid waste expelled: unabsorbed material, bacteria, shed cells, water."
+   }
+  ],
+  "note": "Tortora's text list names process 3 'Motility'; the figure box (and the slide) say 'Mixing and propulsion'."
+ },
+ {
+  "n": 6,
+  "title": "Digestion: Mechanical and Chemical",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.1",
+    "section_title": "Overview of the Digestive System",
+    "book_pages": "943",
+    "pdf_pages": "959",
+    "capture": "p.943 left column, numbered item 4 'Digestion.' of the list under 'Overall, the digestive system performs' (1 paragraph, from 'Digestion is the process' to 'catalyze these catabolic reactions').",
+    "figures": [
+     "24.2"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Chemical Digestion in the Small Intestine",
+    "book_pages": "976",
+    "pdf_pages": "992",
+    "capture": "p.976 left column, the first paragraph under the heading 'Chemical Digestion in the Small Intestine' starting 'In the mouth, salivary amylase' (summarises what each organ has done chemically before the small intestine). 1 paragraph.",
+    "figures": [],
+    "tables": [
+     "24.5"
+    ]
+   }
+  ],
+  "basics": "Food arrives as lumps of large polymers (starch, proteins, fats, nucleic acids) that cannot cross a cell membrane. Two different things have to happen. Mechanical digestion is purely physical: teeth cut and grind, the stomach and intestine churn, so the lumps become small particles with a huge surface area, dissolved and mixed with the fluids. No chemical bonds are broken. Chemical digestion is bond-breaking: enzymes catalyse hydrolysis, inserting water across the links of a polymer to release monomers (glucose, amino acids, fatty acids, nucleotides). The two are coupled because enzymes only work on molecules they can reach, so mechanical breakdown is what gives the enzymes access. The slide does not say that each enzyme is specific to one class of bond, that the enzymes come from the salivary glands, tongue, stomach, pancreas and intestinal lining, or that each works best at its own pH.",
+  "terms": [
+   {
+    "t": "Macromolecule",
+    "d": "A very large molecule built from repeating units, e.g. starch, protein, DNA."
+   },
+   {
+    "t": "Hydrolysis",
+    "d": "Splitting a bond by adding a water molecule across it; the chemistry of all digestion."
+   },
+   {
+    "t": "Catalyse",
+    "d": "To speed up a reaction without being used up; what enzymes do."
+   },
+   {
+    "t": "Polysaccharide",
+    "d": "A long chain of sugar units, e.g. starch or glycogen."
+   },
+   {
+    "t": "Monomer",
+    "d": "A single building-block unit (glucose, amino acid) released by digestion."
+   },
+   {
+    "t": "Substrate",
+    "d": "The molecule an enzyme acts on."
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "title": "General anatomy of the GI tract",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.2",
+    "section_title": "Layers of the Digestive Canal",
+    "book_pages": "944",
+    "pdf_pages": "960",
+    "capture": "p.944 whole page: Figure 24.3 (the cut-away segment of gut wall with labels Mucosa: epithelium / lamina propria / muscularis mucosae; Submucosa; Muscular layer: circular, longitudinal; Serosa; submucosal and myenteric neural plexuses; MALT; glands) and, below it, the text under the heading 'Mucosa' (left column paragraph plus numbered items 1-3 spanning both columns).",
+    "figures": [
+     "24.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.2",
+    "section_title": "Layers of the Digestive Canal",
+    "book_pages": "945",
+    "pdf_pages": "961",
+    "capture": "p.945 left column: the three short sections headed 'Submucosa', 'Muscular Layer' and 'Serosa' (1 paragraph each, ending at 'forms the superficial layer of this organ').",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The gut is a tube, and a tube's wall can be described by its layers from the inside out. Innermost, facing the food, is the mucosa: a sheet of epithelial cells (some secreting mucus, some hormones), a thin connective-tissue bed (lamina propria) and a thin muscle film. Next is the submucosa, connective tissue carrying the big blood and lymph vessels and a nerve network (submucosal plexus). Then the thick muscle coat, usually an inner circular ring and an outer longitudinal sheet with the myenteric nerve plexus between them; contraction of these moves and mixes the contents. Outermost is a serous membrane (serosa) where the tube lies free in the abdomen. The slide's figure is not Tortora's drawing but labels the same layers plus the cell types in the epithelium (mucous, exocrine, enteroendocrine) and ducts from outside glands. Unsaid: the exact epithelium changes along the tube (stratified squamous where abrasion is high, simple columnar where absorption happens).",
+  "terms": [
+   {
+    "t": "Epithelium",
+    "d": "A sheet of tightly packed cells covering a surface or lining a cavity."
+   },
+   {
+    "t": "Mucosa",
+    "d": "The innermost lining layer: epithelium + lamina propria + muscularis mucosae."
+   },
+   {
+    "t": "Lamina propria",
+    "d": "The loose connective tissue just under the epithelium, holding capillaries and immune cells."
+   },
+   {
+    "t": "Submucosa",
+    "d": "Connective tissue layer between mucosa and muscle coat, rich in vessels and nerves."
+   },
+   {
+    "t": "Muscularis / muscular layer",
+    "d": "The thick smooth-muscle coat (inner circular, outer longitudinal) that produces gut movements."
+   },
+   {
+    "t": "Serosa",
+    "d": "Thin outer covering of connective tissue plus a single flat cell layer (mesothelium); it is the visceral peritoneum."
+   },
+   {
+    "t": "Plexus",
+    "d": "A network of interconnected nerve cells and fibres."
+   },
+   {
+    "t": "Enteroendocrine cell",
+    "d": "A lining cell that releases hormones into the blood instead of into the lumen."
+   },
+   {
+    "t": "Exocrine",
+    "d": "Secreting onto a surface or into a duct (as opposed to endocrine: into blood)."
+   }
+  ],
+  "note": "The slide's drawing is not a Tortora figure; Figure 24.3 (p.944) shows the same layers with matching labels. Tortora 16e calls the muscle coat the 'muscular layer' rather than 'muscularis'."
+ },
+ {
+  "n": 8,
+  "title": "Layers of the GI tract",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.2",
+    "section_title": "Layers of the Digestive Canal - Mucosa",
+    "book_pages": "944",
+    "pdf_pages": "960",
+    "capture": "p.944 lower half: heading 'Mucosa' (left column) and its opening paragraph, then numbered items 1 (epithelium, left column), 2 (lamina propria, right column) and 3 (muscularis mucosae, right column bottom). Ends 'contents of the digestive canal'.",
+    "figures": [
+     "24.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.2",
+    "section_title": "Layers of the Digestive Canal - Submucosa, Muscular Layer, Serosa",
+    "book_pages": "945",
+    "pdf_pages": "961",
+    "capture": "p.945 left column, from heading 'Submucosa' through 'Muscular Layer' to the end of 'Serosa' (3 short paragraphs, ending 'superficial layer of this organ').",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This slide is the text version of the previous figure. The epithelium is the working surface: it protects, secretes and absorbs, and because it is exposed to acid, enzymes and abrasion its cells are replaced every 5-7 days and sealed to each other by tight junctions so nothing leaks between them. The lamina propria beneath is where absorbed nutrients first meet blood and lymph capillaries, and it houses most of the gut's immune tissue (MALT). The muscularis mucosae is a thin muscle film that throws the lining into small folds. The submucosa binds mucosa to muscle coat and carries the larger vessels. The muscular layer's two sheets, circular inside and longitudinal outside, produce the tube's movements; between them lies the myenteric plexus. The serosa is a serous membrane and is literally the same sheet as the visceral peritoneum. Unsaid: mouth, pharynx, upper oesophagus and external anal sphincter have skeletal muscle instead, and the oesophagus has an adventitia, not a serosa.",
+  "terms": [
+   {
+    "t": "Tight junction",
+    "d": "A belt-like seal between neighbouring epithelial cells that stops molecules slipping between them."
+   },
+   {
+    "t": "Connective tissue",
+    "d": "Tissue of scattered cells in a fibre-rich matrix that supports and binds other tissues."
+   },
+   {
+    "t": "MALT",
+    "d": "Mucosa-associated lymphoid tissue: clusters of immune cells in the lining that guard against microbes."
+   },
+   {
+    "t": "Muscularis mucosae",
+    "d": "The thin smooth-muscle layer at the base of the mucosa."
+   },
+   {
+    "t": "Smooth muscle",
+    "d": "Involuntary, non-striated muscle found in the walls of hollow organs."
+   },
+   {
+    "t": "Circular vs longitudinal muscle",
+    "d": "Fibres running around the tube (narrow it) vs along it (shorten it)."
+   },
+   {
+    "t": "Serous membrane",
+    "d": "A thin sheet (mesothelium + connective tissue) that lines a body cavity and covers its organs, secreting lubricating fluid."
+   },
+   {
+    "t": "Visceral peritoneum",
+    "d": "The part of the abdominal serous membrane that covers the organs; identical to the gut's serosa."
+   }
+  ],
+  "note": "Slide says the serosa is 'same as visceral peritoneum' - correct per p.945. Slide says the muscularis is smooth muscle; p.945 adds that it is skeletal muscle in the mouth, pharynx, upper/middle oesophagus and external anal sphincter."
+ },
+ {
+  "n": 9,
+  "title": "Neural innervation of the gut",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.3",
+    "section_title": "Neural Innervation of the Digestive Canal - Enteric Nervous System",
+    "book_pages": "945-946",
+    "pdf_pages": "961-962",
+    "capture": "p.945 right column: the introductory sentence under '24.3 Neural Innervation' ('The digestive canal is regulated by') and the whole heading 'Enteric Nervous System' paragraph (about 100 million neurons; myenteric/Auerbach and submucosal/Meissner plexuses; motor, inter- and sensory neurons), which runs over the page break to the first 4 lines of p.946 left column (chemoreceptors and mechanoreceptors). Figure 24.4 (bottom right of p.945) is the wiring diagram.",
+    "figures": [
+     "24.4"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.3",
+    "section_title": "Neural Innervation of the Digestive Canal - Autonomic Nervous System; Digestive Canal Reflex Pathways",
+    "book_pages": "946",
+    "pdf_pages": "962",
+    "capture": "p.946 left column: heading 'Autonomic Nervous System' (2 paragraphs: vagus/parasympathetic increases secretion and motility; sympathetic decreases them) and heading 'Digestive Canal Reflex Pathways' (1 paragraph, ending 'altering digestive canal secretion and motility').",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The gut wall contains its own complete nervous system, the enteric nervous system (ENS), with about as many neurons as the spinal cord. It is arranged as two networks: the myenteric plexus between the two muscle sheets, which mainly governs how hard and how often the muscle contracts, and the submucosal plexus, which mainly governs secretion by the lining. Sensory neurons in the wall detect stretch (mechanoreceptors) and chemistry of the contents (chemoreceptors); interneurons link the plexuses; motor neurons drive muscle and glands, so a local reflex can run entirely inside the wall. The autonomic nervous system tunes the ENS: parasympathetic fibres (mostly the vagus, plus pelvic nerves from the sacral cord for the last half of the colon) increase motility and secretion and relax sphincters; sympathetic fibres from the thoracolumbar cord do the opposite, which is why fear and anger slow digestion. The slide's figure is not Tortora's; Figure 24.4 gives the same wiring more abstractly.",
+  "terms": [
+   {
+    "t": "Enteric nervous system (ENS)",
+    "d": "The gut's intrinsic network of neurons, oesophagus to anus, able to run reflexes without the brain."
+   },
+   {
+    "t": "Myenteric (Auerbach's) plexus",
+    "d": "Nerve network between circular and longitudinal muscle; controls motility."
+   },
+   {
+    "t": "Submucosal (Meissner's) plexus",
+    "d": "Nerve network in the submucosa; controls secretion by the lining."
+   },
+   {
+    "t": "Autonomic nervous system (ANS)",
+    "d": "The involuntary motor system with sympathetic and parasympathetic divisions."
+   },
+   {
+    "t": "Parasympathetic",
+    "d": "The rest-and-digest division; its gut fibres travel mainly in the vagus (X) and pelvic splanchnic nerves."
+   },
+   {
+    "t": "Sympathetic",
+    "d": "The fight-or-flight division; from thoracic and upper lumbar spinal cord; inhibits gut activity."
+   },
+   {
+    "t": "Sphincter",
+    "d": "A ring of muscle that closes a passage when contracted."
+   },
+   {
+    "t": "Reflex",
+    "d": "An automatic response: receptor -> sensory neuron -> integrating centre -> motor neuron -> effector."
+   },
+   {
+    "t": "Mechanoreceptor / chemoreceptor",
+    "d": "Sensor responding to stretch or pressure / to specific chemicals."
+   }
+  ],
+  "note": "The slide figure (vagus nerve, pelvic nerve, receptors in the wall) is not a Tortora figure; the same content is Figure 24.4 (p.945) plus the ANS paragraphs on p.946."
+ },
+ {
+  "n": 10,
+  "title": "Peritoneum, Peritoneal cavity & Retroperitoneal space",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.4",
+    "section_title": "Peritoneum",
+    "book_pages": "946",
+    "pdf_pages": "962",
+    "capture": "p.946 right column, under heading '24.4 Peritoneum': paragraph 1 starting 'The peritoneum (per-i-to-NE-um' (mesothelium + connective tissue; parietal vs visceral; peritoneal cavity; ascites), paragraph 2 starting 'As you will see shortly' (retroperitoneal organs), paragraph 3 starting 'Unlike the pericardium' (five folds), then numbered items 1 (greater omentum) and 2 (falciform ligament) and the start of 3 (lesser omentum) at the foot of the column.",
+    "figures": [
+     "24.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.4",
+    "section_title": "Peritoneum",
+    "book_pages": "947-948",
+    "pdf_pages": "963-964",
+    "capture": "p.947 whole page: Figure 24.5 parts (a) median section (the slide's figure, labels Falciform ligament, Lesser omentum, Mesocolon, Mesentery, Greater omentum, Parietal/Visceral peritoneum, Peritoneal cavity), (b) and (c) anterior views; below the figure the end of item 3 (lesser omentum) and item 4 (mesentery), which continues onto p.948 left column where item 5 (mesocolon) follows (ends 'along the digestive canal').",
+    "figures": [
+     "24.5"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The abdominal organs are not loose in a bag; they are wrapped by the peritoneum, the body's largest serous membrane: a single layer of flat cells (mesothelium) on a thin connective-tissue backing. The part lining the abdominal wall is parietal; the part covering the organs is visceral (the same sheet as the gut's serosa). Between them is only a film of lubricating fluid, the peritoneal cavity. Because the membrane folds back on itself around the organs it forms double sheets that tether them and carry their vessels and nerves: the mesentery (jejunum and ileum), the mesocolons (transverse and sigmoid colon), the lesser omentum (stomach to liver), the greater omentum (a fat-laden apron hanging from the stomach over the intestines) and the falciform ligament (liver to anterior wall). Organs pressed against the back wall and covered on their front only (kidneys, pancreas, most of the duodenum, ascending and descending colon) are retroperitoneal. The slide's figure is Tortora Figure 24.5a.",
+  "terms": [
+   {
+    "t": "Peritoneum",
+    "d": "The serous membrane lining the abdominopelvic cavity and covering most of its organs."
+   },
+   {
+    "t": "Mesothelium",
+    "d": "The single layer of flat (simple squamous) cells that forms the surface of a serous membrane."
+   },
+   {
+    "t": "Simple squamous epithelium",
+    "d": "One layer of thin flat cells; allows diffusion and gives a slippery surface."
+   },
+   {
+    "t": "Parietal vs visceral",
+    "d": "Parietal = lining the wall of a cavity; visceral = covering the organ inside it."
+   },
+   {
+    "t": "Peritoneal cavity",
+    "d": "The potential space (fluid film only) between parietal and visceral peritoneum."
+   },
+   {
+    "t": "Mesentery",
+    "d": "A double fold of peritoneum that suspends an organ and carries its vessels; specifically the fan to the jejunum/ileum."
+   },
+   {
+    "t": "Omentum",
+    "d": "A peritoneal fold attached to the stomach: greater (apron over intestines) and lesser (to liver)."
+   },
+   {
+    "t": "Retroperitoneal",
+    "d": "Lying behind the peritoneum against the posterior wall, covered by peritoneum only anteriorly."
+   },
+   {
+    "t": "Median (sagittal) section",
+    "d": "A cut down the midline dividing the body into left and right halves; the view used in the figure."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "title": "Superficial dissection of the abdomen",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.4",
+    "section_title": "Peritoneum",
+    "book_pages": "948",
+    "pdf_pages": "964",
+    "capture": "p.948 upper left: Figure 24.5 Continued, part (d) 'Anterior view' cadaver photograph with labels Lungs, Heart, Diaphragm, Right lobe of liver, Falciform ligament, Left lobe of liver, Stomach, Greater omentum (exactly the slide's labels).",
+    "figures": [
+     "24.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.4",
+    "section_title": "Peritoneum",
+    "book_pages": "946",
+    "pdf_pages": "962",
+    "capture": "p.946 right column, numbered items 1 'The greater omentum' and 2 'The falciform ligament' (2 paragraphs).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This is the view a dissector gets on opening the front of the trunk: above the diaphragm the heart and lungs; below it the liver's two lobes separated by the falciform ligament, the stomach peeping out below the liver, and the greater omentum, a fatty apron of peritoneum hanging from the stomach's greater curvature and covering the intestines. The photograph is Tortora Figure 24.5d. What the slide leaves unsaid: the greater omentum is a four-layered fold (two sheets doubled back), stores fat and lymph nodes, and can wall off infection; the falciform ligament is the only attachment of a digestive organ to the anterior abdominal wall and carries the round ligament, the remnant of the fetal umbilical vein.",
+  "terms": [
+   {
+    "t": "Diaphragm",
+    "d": "The dome-shaped sheet of skeletal muscle separating thoracic from abdominal cavity."
+   },
+   {
+    "t": "Falciform ligament",
+    "d": "Sickle-shaped peritoneal fold attaching the liver to the diaphragm and anterior abdominal wall."
+   },
+   {
+    "t": "Greater omentum",
+    "d": "The longest peritoneal fold, draping from the stomach over the transverse colon and small intestine."
+   },
+   {
+    "t": "Lobe",
+    "d": "A large anatomical division of an organ, here the right and left lobes of the liver."
+   },
+   {
+    "t": "Anterior view",
+    "d": "Looking at the body from the front."
+   },
+   {
+    "t": "Superficial",
+    "d": "Near the surface; here, the first structures seen before anything is moved."
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "title": "The Gastrointestinal tract",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.1",
+    "section_title": "Overview of the Digestive System",
+    "book_pages": "942",
+    "pdf_pages": "958",
+    "capture": "p.942 Figure 24.1 part (a) (right lateral head/neck and anterior trunk drawing) with its labels; use the label list for the slide's organs.",
+    "figures": [
+     "24.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine",
+    "book_pages": "971",
+    "pdf_pages": "987",
+    "capture": "p.971 left column bottom, the paragraph under the heading '24.12 Small Intestine' objectives starting 'Most digestion and absorption of nutrients', continuing at the top of the right column (ends 'loss of smooth muscle tone after death'). 1 paragraph.",
+    "figures": [
+     "24.19"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A simplified map of the tube and its helpers, with one claim attached: the small intestine is where most digestion and absorption happen. The reason is surface area and residence time. The small intestine is about 5 m long in a living person, its lining is folded, fingered and fuzzed (circular folds, villi, microvilli) to multiply its area, chyme spends 3-5 hours there, and it receives the pancreatic enzymes and bile that finish chemical digestion. About 90% of nutrient absorption occurs there; the stomach and colon do the remaining 10%. The slide does not say what the large intestine mainly does instead (absorb water and ions, house bacteria, form faeces).",
+  "terms": [
+   {
+    "t": "Chyme",
+    "d": "The semi-liquid mixture of food and gastric juice that leaves the stomach."
+   },
+   {
+    "t": "Villus (pl. villi)",
+    "d": "A finger-like projection of the intestinal mucosa, 0.5-1 mm long."
+   },
+   {
+    "t": "Microvillus",
+    "d": "A microscopic membrane projection on an absorptive cell; thousands make the brush border."
+   },
+   {
+    "t": "Appendix",
+    "d": "The worm-shaped blind tube attached to the caecum."
+   },
+   {
+    "t": "Sigmoid colon",
+    "d": "The S-shaped final section of colon leading into the rectum."
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "title": "Ingestion through the oral cavity (Mouth)",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth",
+    "book_pages": "949",
+    "pdf_pages": "965",
+    "capture": "p.949 top two-thirds: Figure 24.6 'Structures of the mouth' (anterior view with the same labels as the slide: superior/inferior labial frenulum, gingivae, hard and soft palate, uvula, fauces, palatine tonsil, tongue, lingual frenulum, opening of submandibular duct, molars/premolars/canines/incisors, oral vestibule). Then the left-column text below it (soft palate, uvula, palatoglossal and palatopharyngeal arches, tonsils, fauces; 1 paragraph ending 'through the fauces (Figure 24.6)').",
+    "figures": [
+     "24.6"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth",
+    "book_pages": "948",
+    "pdf_pages": "964",
+    "capture": "p.948 right column, under heading '24.5 Mouth' objectives: 4 paragraphs starting 'The mouth, is formed by the lips' (cheeks; lips and labial frenulum; oral vestibule vs oral cavity proper and fauces; palate - hard and soft), running over the page break to p.949 left column.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth - Mechanical and Chemical Digestion in the Mouth",
+    "book_pages": "953",
+    "pdf_pages": "969",
+    "capture": "p.953 right column, heading 'Mechanical and Chemical Digestion in the Mouth', first paragraph starting 'Mechanical digestion in the mouth results from chewing' (mastication, bolus). 1 paragraph.",
+    "figures": [],
+    "tables": [
+     "24.1"
+    ]
+   }
+  ],
+  "basics": "The mouth is a chamber bounded by lips in front, cheeks at the sides, the palate above and the tongue below, opening at the back through the fauces into the throat. Two small folds of lining, the labial frenula, tie each lip to the gum; a third, the lingual frenulum, ties the tongue to the floor. The palate has a bony front (hard palate) and a muscular back (soft palate) ending in the dangling uvula; during swallowing these rise to shut the nose off. The palatine tonsils sit between two muscular arches beside the uvula. Teeth are arranged front to back as incisors (cut), canines (tear), premolars and molars (crush and grind). The slide adds that the mouth's mechanical work is chewing (mastication), which grinds food and mixes it with saliva into a swallowable ball, the bolus. The slide is Tortora Figure 24.6 label for label.",
+  "terms": [
+   {
+    "t": "Frenulum",
+    "d": "A small fold of mucous membrane that limits movement of a structure (lip, tongue)."
+   },
+   {
+    "t": "Gingiva (pl. gingivae)",
+    "d": "The gum: mucosa covering the tooth-bearing ridges of the jaws."
+   },
+   {
+    "t": "Palate",
+    "d": "The roof of the mouth, separating oral from nasal cavity."
+   },
+   {
+    "t": "Uvula",
+    "d": "The small muscular projection hanging from the back of the soft palate."
+   },
+   {
+    "t": "Fauces",
+    "d": "The opening at the back of the mouth leading into the oropharynx."
+   },
+   {
+    "t": "Tonsil",
+    "d": "A mass of lymphoid tissue in the throat lining that samples microbes entering by mouth or nose."
+   },
+   {
+    "t": "Mastication",
+    "d": "Chewing."
+   },
+   {
+    "t": "Bolus",
+    "d": "The soft rounded mass of chewed, saliva-moistened food that is swallowed."
+   },
+   {
+    "t": "Oral vestibule",
+    "d": "The slot between lips/cheeks and teeth/gums."
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "title": "Permanent dentition and time of eruption",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth - Teeth",
+    "book_pages": "954",
+    "pdf_pages": "970",
+    "capture": "p.954 upper two-thirds: Figure 24.9, part (b) 'Permanent (secondary) dentition' (right half of the figure; teeth numbered 1-32 with eruption ages in parentheses). Part (a), the deciduous set lettered A-T, is on the left for comparison.",
+    "figures": [
+     "24.9"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth - Teeth",
+    "book_pages": "953",
+    "pdf_pages": "969",
+    "capture": "p.953 left column bottom paragraph starting 'Humans have two dentitions' (deciduous teeth, 20, from 6 months) continuing into the right column; then right column paragraph starting 'All of the deciduous teeth are lost' (permanent dentition, 32 teeth, premolars replace deciduous molars, 6-, 12-year and wisdom molars) and the following paragraph on impacted third molars. 3 paragraphs.",
+    "figures": [
+     "24.9"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Humans grow two sets of teeth. The 20 deciduous (milk) teeth erupt from about 6 months and are all shed between about 6 and 12 years. The permanent set has 32: in each quadrant of each jaw, two incisors, one canine, two premolars and three molars. The permanent premolars replace the deciduous molars; the permanent molars replace nothing and simply erupt behind as the jaw grows, at roughly 6, 12 and 17-21 years, the last being the wisdom teeth, which are often impacted for lack of room. The slide reproduces Figure 24.9b, in which every permanent tooth carries a number (1-32, the dental numbering used in clinics) and its typical eruption age. Unsaid: incisors and canines have one root, upper molars three, lower molars two; and the deciduous set uses letters A-T in the same scheme.",
+  "terms": [
+   {
+    "t": "Dentition",
+    "d": "A complete set of teeth; deciduous (primary) or permanent (secondary)."
+   },
+   {
+    "t": "Deciduous",
+    "d": "Shed at a set time; the milk teeth 'fall out'."
+   },
+   {
+    "t": "Eruption",
+    "d": "A tooth breaking through the gum into the mouth."
+   },
+   {
+    "t": "Incisor / canine / premolar / molar",
+    "d": "Front cutting tooth / pointed tearing tooth / two-cusped crushing tooth / broad grinding tooth."
+   },
+   {
+    "t": "Cusp",
+    "d": "A raised point on a tooth's chewing surface."
+   },
+   {
+    "t": "Impacted tooth",
+    "d": "A tooth stuck in the jawbone because there is no room for it to erupt."
+   },
+   {
+    "t": "Maxillary / mandibular",
+    "d": "Belonging to the upper jaw (maxilla) / lower jaw (mandible)."
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "title": "Digestive process: saliva secretion",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth - Tongue",
+    "book_pages": "951-952",
+    "pdf_pages": "967-968",
+    "capture": "p.951 right column, heading 'Tongue': 3 paragraphs (skeletal muscle, extrinsic and intrinsic muscles, lingual frenulum; papillae and taste buds; lingual glands) running over the page break to the first 3 lines of p.952 left column ('contains the enzyme lingual lipase ... fatty acids and diglycerides').",
+    "figures": [],
+    "tables": [
+     "24.1"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth - Mechanical and Chemical Digestion in the Mouth",
+    "book_pages": "953-954",
+    "pdf_pages": "969-970",
+    "capture": "p.953 right column, heading 'Mechanical and Chemical Digestion in the Mouth': paragraph 1 (mastication, bolus) and paragraph 2 starting 'Two enzymes, salivary amylase and lingual lipase' which runs over onto p.954 left column (salivary amylase acts about an hour more in the stomach; lingual lipase activated by stomach acid). Table 24.1 (p.955 top) summarises.",
+    "figures": [],
+    "tables": [
+     "24.1"
+    ]
+   },
+   {
+    "chapter": 14,
+    "section": "14.18",
+    "section_title": "Hypoglossal (XII) Nerve",
+    "book_pages": "535",
+    "pdf_pages": "551",
+    "capture": "p.535 right column, lower half: section '14.18 Hypoglossal (XII) Nerve', the first paragraph after the objective (motor supply to tongue muscles).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The tongue is a block of skeletal muscle covered by mucous membrane. Extrinsic muscles (attached to bones outside it) move it bodily to push food between the teeth and back toward the throat; intrinsic muscles (entirely inside it) change its shape for speech and swallowing. All are driven by the hypoglossal nerve, cranial nerve XII. Its upper surface is rough with papillae, some carrying taste buds. Chemically the mouth starts two jobs: salivary amylase begins splitting starch into maltose and short glucose chains, and lingual lipase from small glands in the tongue begins splitting triglycerides, though the lipase only becomes active in the acid of the stomach. The slide's 'converts polysaccharides to disaccharides' compresses this: amylase yields maltose, maltotriose and alpha-dextrins. Unsaid: food is swallowed long before the starch is finished, and amylase keeps working inside the bolus in the stomach for about an hour until acid stops it.",
+  "terms": [
+   {
+    "t": "Skeletal muscle",
+    "d": "Striated, voluntary muscle attached to bone or, in the tongue, to itself."
+   },
+   {
+    "t": "Cranial nerve",
+    "d": "One of 12 pairs of nerves arising directly from the brain; XII (hypoglossal) drives the tongue."
+   },
+   {
+    "t": "Dorsum",
+    "d": "The upper (back) surface of the tongue."
+   },
+   {
+    "t": "Papilla (pl. papillae)",
+    "d": "A small nipple-like projection of the tongue surface; some hold taste buds."
+   },
+   {
+    "t": "Taste bud",
+    "d": "A cluster of receptor cells that detects dissolved chemicals as taste."
+   },
+   {
+    "t": "Amylase",
+    "d": "An enzyme that hydrolyses starch into smaller sugars."
+   },
+   {
+    "t": "Lipase",
+    "d": "An enzyme that hydrolyses fats (triglycerides) into fatty acids and glycerides."
+   },
+   {
+    "t": "Triglyceride",
+    "d": "The main dietary fat: glycerol joined to three fatty acids."
+   },
+   {
+    "t": "Disaccharide",
+    "d": "A sugar made of two monosaccharide units, e.g. maltose, sucrose, lactose."
+   }
+  ],
+  "note": "The hypoglossal nerve is not mentioned in chapter 24; its tongue function is in section 14.18 (p.535). Tortora lists amylase products as maltose, maltotriose and alpha-dextrins, not simply 'disaccharides'."
+ },
+ {
+  "n": 16,
+  "title": "Three pairs of Salivary glands",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth - Salivary Glands",
+    "book_pages": "950",
+    "pdf_pages": "966",
+    "capture": "p.950 upper two-thirds: Figure 24.7 part (a) 'Location of major salivary glands' (labels Parotid duct, Zygomatic arch, Parotid gland, Opening of parotid duct, Second maxillary molar, Tongue, Lingual frenulum, sublingual ducts, Submandibular duct, Submandibular gland, Sublingual gland, Mylohyoid muscle - identical to the slide) plus the figure caption.",
+    "figures": [
+     "24.7"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth - Salivary Glands",
+    "book_pages": "949",
+    "pdf_pages": "965",
+    "capture": "p.949 right column: heading 'Salivary Glands' - paragraph 1 (what saliva does), paragraph 2 starting 'The mucosa and submucosa of the mouth' (minor glands), paragraph 3 starting 'However, most saliva is secreted by the major' (parotid, submandibular, sublingual glands and their ducts), ending at the foot of the column.",
+    "figures": [
+     "24.7"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth - Salivation",
+    "book_pages": "951",
+    "pdf_pages": "967",
+    "capture": "p.951 left column, heading 'Salivation': 1 paragraph starting 'The secretion of saliva, called salivation' (1000-1500 mL/day, parasympathetic vs sympathetic control), then the right column top paragraph 'The feel and taste of food' (facial VII and glossopharyngeal IX nerves).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Saliva comes from hundreds of tiny glands in the lining plus three large paired glands outside it, each delivering through a duct. The parotid, in front of and below the ear, sends its duct across the cheek muscle to open opposite the upper second molar. The submandibular, under the floor of the mouth beside the jaw, opens either side of the lingual frenulum. The sublingual, under the tongue, opens by several small ducts onto the floor of the mouth. Together they make about 1-1.5 litres a day (the slide's 1.5 L is the upper figure). Saliva is 99.5% water with ions, mucus, antibacterial agents and salivary amylase; it dissolves food so it can be tasted and digested, lubricates the bolus and cleans the mouth. Parasympathetic nerves (VII and IX) keep a steady flow and boost it when food is tasted or smelled; sympathetic dominance (stress, dehydration) dries the mouth. The slide's figure is Tortora 24.7a.",
+  "terms": [
+   {
+    "t": "Parotid gland",
+    "d": "The largest salivary gland, in front of the ear; secretes watery, amylase-rich saliva (mumps target)."
+   },
+   {
+    "t": "Submandibular gland",
+    "d": "Salivary gland below the jaw; mixed watery and mucous secretion."
+   },
+   {
+    "t": "Sublingual gland",
+    "d": "Salivary gland beneath the tongue; mostly mucous secretion."
+   },
+   {
+    "t": "Zygomatic arch",
+    "d": "The cheekbone bridge; a landmark above the parotid duct."
+   },
+   {
+    "t": "Mylohyoid muscle",
+    "d": "The flat muscle forming the floor of the mouth, on which the glands sit."
+   },
+   {
+    "t": "Serous vs mucous secretion",
+    "d": "Watery, enzyme-rich fluid vs thick, slippery mucus."
+   },
+   {
+    "t": "Facial (VII) and glossopharyngeal (IX) nerves",
+    "d": "The cranial nerves carrying parasympathetic fibres to the salivary glands."
+   }
+  ],
+  "note": "Slide: '~1.5 L per day'; book p.951: 1000-1500 mL per day."
+ },
+ {
+  "n": 17,
+  "title": "Microscopic Anatomy of the Salivary Glands",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth - Salivary Glands",
+    "book_pages": "950",
+    "pdf_pages": "966",
+    "capture": "p.950: the figure caption of Figure 24.7 at the top of the page (describes serous vs mucous acini of the three glands) and part (b) 'Portion of submandibular gland' light micrograph, lower right of the figure, labelled Mucous acini and Serous acini.",
+    "figures": [
+     "24.7"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.5",
+    "section_title": "Mouth - Composition and Functions of Saliva",
+    "book_pages": "950-951",
+    "pdf_pages": "966-967",
+    "capture": "p.950 bottom third, heading 'Composition and Functions of Saliva': paragraph 1 (99.5% water, solutes, amylase), paragraph 2 'Not all major salivary glands supply the same ingredients' (which gland is serous/mucous), paragraph 3 'The water in saliva' running over the page break to the first 3 lines of p.951 left column.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Under the microscope a salivary gland is a branching tree of ducts ending in bunches of secretory cells called acini (grape-like clusters). Two cell types line them. Serous cells are dark, pyramidal and packed with protein-making machinery; they release a watery fluid carrying amylase and electrolytes. Mucous cells look pale and foamy because they are full of mucin, which becomes slippery mucus. Some acini are purely serous, some purely mucous, and some mixed, where a cap of serous cells sits on a mucous acinus as a crescent, the serous demilune. The proportions differ by gland: parotid all serous, submandibular mostly serous with some mucous, sublingual mostly mucous. The ducts modify the fluid and carry it to the mouth; the supporting connective tissue between lobules is the stroma. Tortora shows only the submandibular micrograph (Figure 24.7b) and does not label demilunes, ducts or stroma; the caption gives the serous/mucous makeup of all three glands.",
+  "terms": [
+   {
+    "t": "Acinus (pl. acini)",
+    "d": "A rounded cluster of secretory cells around a tiny central lumen; the working unit of an exocrine gland."
+   },
+   {
+    "t": "Serous cell",
+    "d": "Gland cell producing a thin watery, enzyme-containing fluid."
+   },
+   {
+    "t": "Mucous cell",
+    "d": "Gland cell producing thick mucus; pale and foamy in stained sections."
+   },
+   {
+    "t": "Serous demilune",
+    "d": "A crescent of serous cells capping a mucous acinus in a mixed gland."
+   },
+   {
+    "t": "Stroma",
+    "d": "The connective-tissue framework of an organ, as opposed to its functional cells (parenchyma)."
+   },
+   {
+    "t": "Electrolyte",
+    "d": "A dissolved salt that separates into ions (Na+, K+, Cl-, HCO3-)."
+   },
+   {
+    "t": "Light micrograph (LM)",
+    "d": "A photograph of a stained tissue slice taken through a light microscope."
+   }
+  ],
+  "note": "The slide's drawing (with serous demilunes, salivary duct, stroma) is not from Tortora; the nearest is the micrograph Figure 24.7b and its caption on p.950."
+ },
+ {
+  "n": 18,
+  "title": "Revision of the Pharynx & esophagus",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.2",
+    "section_title": "The Upper Respiratory System - Pharynx",
+    "book_pages": "895",
+    "pdf_pages": "911",
+    "capture": "p.895 whole page: Figure 23.3 part (b) 'Parasagittal section of left side of head and neck' - labels Nasal meatuses, Nasal conchae, Pharyngeal tonsil, Nasopharynx, Uvula, Palatine tonsil, Fauces, Oropharynx, Lingual tonsil, Epiglottis, Laryngopharynx, Esophagus - with the 'Regions of the pharynx' inset at lower right.",
+    "figures": [
+     "23.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.6",
+    "section_title": "Pharynx",
+    "book_pages": "955",
+    "pdf_pages": "971",
+    "capture": "p.955 left column, heading '24.6 Pharynx': 1 paragraph starting 'When food is first swallowed' (nasopharynx, oropharynx, laryngopharynx; skeletal muscle; which parts carry food).",
+    "figures": [],
+    "tables": [
+     "24.2"
+    ]
+   },
+   {
+    "chapter": 11,
+    "section": "11.7",
+    "section_title": "Muscles of the Head That Move the Tongue",
+    "book_pages": "361",
+    "pdf_pages": "377",
+    "capture": "p.361 top half: Figure 11.7 'Right side deep view', left-hand labels Superior pharyngeal constrictor, Middle pharyngeal constrictor, Inferior pharyngeal constrictor (the three constrictors shown on the slide).",
+    "figures": [
+     "11.7"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The pharynx (throat) is a funnel of skeletal muscle lined by mucous membrane, running from behind the nose down to the top of the oesophagus and larynx. It is divided by level: nasopharynx (behind the nasal cavity, air only, houses the pharyngeal tonsil or adenoid), oropharynx (behind the mouth, food and air, flanked by the palatine tonsils with the lingual tonsil on the tongue base below) and laryngopharynx (behind the larynx, splitting into the oesophagus behind and the airway in front). Its wall contains three overlapping constrictor muscles, superior, middle and inferior, that squeeze in sequence from top to bottom to drive a bolus into the oesophagus. The nasal conchae on the slide are the scrolled bones inside the nose that warm and filter air; they are there for orientation. Tortora shows the sagittal view in Figure 23.3b (respiratory chapter) and the constrictors in Figure 11.7 (muscles chapter); chapter 24 gives the pharynx one paragraph.",
+  "terms": [
+   {
+    "t": "Nasopharynx / oropharynx / laryngopharynx",
+    "d": "The three levels of the throat: behind the nose / behind the mouth / behind the larynx."
+   },
+   {
+    "t": "Pharyngeal constrictor",
+    "d": "One of three ring-like skeletal muscles of the throat wall that contract in sequence during swallowing."
+   },
+   {
+    "t": "Pharyngeal tonsil (adenoid)",
+    "d": "Lymphoid tissue in the roof/back wall of the nasopharynx."
+   },
+   {
+    "t": "Lingual tonsil",
+    "d": "Lymphoid tissue at the base of the tongue."
+   },
+   {
+    "t": "Nasal concha (pl. conchae)",
+    "d": "A curved bony shelf in the nasal cavity; the meatuses are the air passages beneath each."
+   },
+   {
+    "t": "Epiglottis",
+    "d": "The leaf-shaped cartilage flap that folds over the larynx during swallowing."
+   },
+   {
+    "t": "Larynx",
+    "d": "The voice box at the top of the airway, in front of the laryngopharynx."
+   },
+   {
+    "t": "Parasagittal section",
+    "d": "A vertical cut parallel to the midline."
+   }
+  ],
+  "note": "No single Tortora figure carries all the slide's labels; the constrictors are Figure 11.7 (p.361), the tonsils and pharynx regions Figure 23.3b (p.895)."
+ },
+ {
+  "n": 19,
+  "title": "3 stages of deglutition (swallowing)",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.8",
+    "section_title": "Deglutition",
+    "book_pages": "957",
+    "pdf_pages": "973",
+    "capture": "p.957 upper half: Figure 24.11 parts (a) 'Position of structures during voluntary stage' (labels Nasopharynx, Hard palate, Soft palate, Uvula, Oropharynx, Epiglottis, Laryngopharynx, Larynx, Esophagus, Bolus, Tongue) and (b) 'Pharyngeal stage of swallowing' with its bullet notes; plus the figure caption at the top of the page.",
+    "figures": [
+     "24.11"
+    ],
+    "tables": [
+     "24.2"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.8",
+    "section_title": "Deglutition",
+    "book_pages": "956",
+    "pdf_pages": "972",
+    "capture": "p.956 right column, heading '24.8 Deglutition': paragraph 1 starting 'The movement of food from the mouth' (defines the three stages) and paragraph 2 starting 'Swallowing starts when the bolus' (voluntary stage; pharyngeal stage: deglutition centre in medulla and pons, soft palate/uvula close nasopharynx, epiglottis closes larynx, upper oesophageal sphincter relaxes), ending at the foot of the column.",
+    "figures": [
+     "24.11"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Swallowing moves a bolus from mouth to stomach across a crossroads where the food route and the air route share the pharynx, so the airway must be sealed for a moment. Stage 1, voluntary: the tongue presses up and back against the palate and shoves the bolus into the oropharynx. That is the last thing under conscious control. Stage 2, pharyngeal (involuntary): receptors in the oropharynx signal the swallowing centre in the brain stem, which raises the soft palate and uvula to shut the nasopharynx, lifts the larynx so the epiglottis folds over its opening, briefly stops breathing, and relaxes the upper oesophageal sphincter so the bolus drops into the oesophagus. Stage 3, oesophageal, is peristalsis down the tube (next slide). The slide's drawing is Figure 24.11a-b. Unsaid: the whole sequence takes 4-8 s for solids, about 1 s for liquids, and the pharyngeal muscles are skeletal muscle acting reflexly.",
+  "terms": [
+   {
+    "t": "Deglutition",
+    "d": "Swallowing."
+   },
+   {
+    "t": "Voluntary",
+    "d": "Under conscious control (as opposed to reflex or involuntary)."
+   },
+   {
+    "t": "Upper oesophageal sphincter (UES)",
+    "d": "Ring of skeletal muscle at the top of the oesophagus that opens to admit the bolus."
+   },
+   {
+    "t": "Deglutition centre",
+    "d": "The group of brain-stem neurons (medulla and lower pons) that coordinates the swallowing reflex."
+   },
+   {
+    "t": "Medulla oblongata",
+    "d": "The lowest part of the brain stem, controlling swallowing, breathing and heart rate."
+   },
+   {
+    "t": "Soft palate",
+    "d": "The muscular rear third of the roof of the mouth that lifts to seal off the nose."
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "title": "Esophageal stage of swallowing",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.8",
+    "section_title": "Deglutition",
+    "book_pages": "957",
+    "pdf_pages": "973",
+    "capture": "p.957: Figure 24.11 part (c) 'Esophageal stage of swallowing' (middle of the page; labels Relaxed muscular layer, Circular muscles contract, Longitudinal muscles contract, Lower esophageal sphincter, Bolus, Stomach; numbered steps 1-3) and, below the figure, the text paragraph starting '(per-i-STAL-sis; stalsis = constriction)' plus numbered steps 1, 2 (left column) and 3 (right column) and the closing paragraph on mucus and transit time (4-8 s). The paragraph begins on p.956 right column last lines ('The esophageal stage of swallowing begins').",
+    "figures": [
+     "24.11"
+    ],
+    "tables": [
+     "24.2"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.3",
+    "section_title": "Neural Innervation of the Digestive Canal - Autonomic Nervous System",
+    "book_pages": "946",
+    "pdf_pages": "962",
+    "capture": "p.946 left column, heading 'Autonomic Nervous System', paragraph 1 starting 'Although the neurons of the ENS' (vagus X nerves supply parasympathetic fibres; stimulation increases secretion and motility).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.7",
+    "section_title": "Esophagus - Histology of the Esophagus",
+    "book_pages": "955",
+    "pdf_pages": "971",
+    "capture": "p.955 right column, paragraph under 'Histology of the Esophagus', the sentences from 'The muscular layer of the superior third' to the end of the column (skeletal upper third, mixed middle, smooth lower third; UES and LES).",
+    "figures": [
+     "24.10"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Peristalsis is how a muscular tube pushes a lump along: just behind the bolus the circular muscle contracts, narrowing the tube and squeezing the bolus forward; just ahead of it the longitudinal muscle contracts, shortening and widening that segment to receive it; the wave then moves on, repeating down the tube. When the wave reaches the bottom, the lower oesophageal sphincter relaxes and the bolus enters the stomach. Mucus from oesophageal glands lubricates the ride. The slide's arrangement 'outer longitudinal, inner circular' is the standard gut layout. It attributes the rhythm to the vagus nerve (parasympathetic), which is broadly right: the oesophageal wave is coordinated from the medulla via the vagus, and parasympathetic input raises motility throughout the gut. Unsaid: the upper third of the oesophagus is skeletal muscle, only the lower third is entirely smooth muscle, and peristalsis also occurs in ureters, bile ducts and uterine tubes.",
+  "terms": [
+   {
+    "t": "Peristalsis",
+    "d": "A travelling wave of contraction behind and relaxation ahead of the contents that propels them along a tube."
+   },
+   {
+    "t": "Lower oesophageal (cardiac) sphincter (LES)",
+    "d": "Smooth-muscle ring at the junction with the stomach; failure to close causes reflux."
+   },
+   {
+    "t": "Vagus (X) nerve",
+    "d": "The cranial nerve carrying most parasympathetic fibres to thoracic and abdominal organs."
+   },
+   {
+    "t": "Parasympathetic stimulation",
+    "d": "Activity of the rest-and-digest division; in the gut it increases secretion and motility."
+   },
+   {
+    "t": "Muscularis (muscular layer)",
+    "d": "The gut wall's main muscle coat; here inner circular and outer longitudinal smooth muscle."
+   }
+  ]
+ },
+ {
+  "n": 21,
+  "title": "Structural organization (1-4) of the esophageal wall",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.7",
+    "section_title": "Esophagus - Histology of the Esophagus",
+    "book_pages": "955-956",
+    "pdf_pages": "971-972",
+    "capture": "p.955 right column: the first paragraph under '24.7 Esophagus' starting 'The esophagus (e-SOF-a-gus' (25 cm, posterior to trachea, esophageal hiatus in the diaphragm, hiatus hernia) and the paragraph under 'Histology of the Esophagus' (mucosa = nonkeratinised stratified squamous epithelium; submucosa with mucous glands; muscular layer; UES and LES) which runs over the page break onto p.956 left column bottom / right column top ('The superficial layer of the esophagus is known as the adventitia').",
+    "figures": [
+     "24.10"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.7",
+    "section_title": "Esophagus",
+    "book_pages": "956",
+    "pdf_pages": "972",
+    "capture": "p.956 left column: Figure 24.10 'Histology of the esophagus', part (a) 'Wall of the esophagus' (LM 20x) labelled Lumen, Mucosa (epithelium, lamina propria, muscularis mucosae), Submucosa, Muscular layer (circular), Muscular layer (longitudinal), Adventitia.",
+    "figures": [
+     "24.10"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.2",
+    "section_title": "Layers of the Digestive Canal",
+    "book_pages": "944",
+    "pdf_pages": "960",
+    "capture": "p.944 Figure 24.3 (general four-layer plan with both neural plexuses labelled), for the plexus labels the slide adds.",
+    "figures": [
+     "24.3"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The oesophagus is a 25 cm collapsible tube behind the trachea that pierces the diaphragm through the oesophageal hiatus to reach the stomach. Its wall follows the four-layer plan. The lining is nonkeratinised stratified squamous epithelium, many cells thick, because it must resist abrasion rather than absorb; under it lie lamina propria and muscularis mucosae. The submucosa contains mucus-secreting oesophageal glands whose ducts pierce the mucosa to lubricate the bolus, plus the submucosal plexus. The muscular layer is inner circular and outer longitudinal with the myenteric plexus (and its parasympathetic ganglia) between; it is skeletal muscle in the upper third and smooth in the lower third. The outermost layer in Tortora is an adventitia, loose connective tissue blending with the mediastinum, not a serosa, because the thoracic oesophagus has no serous covering; only the short abdominal segment does. The slide's drawing is not Tortora's; Figure 24.10a labels the same layers on a micrograph.",
+  "terms": [
+   {
+    "t": "Oesophageal hiatus",
+    "d": "The opening in the diaphragm through which the oesophagus passes."
+   },
+   {
+    "t": "Stratified squamous epithelium",
+    "d": "Many layers of flat cells; a wear-resistant lining (nonkeratinised = moist, no keratin surface)."
+   },
+   {
+    "t": "Adventitia",
+    "d": "An outer coat of loose connective tissue with no mesothelium; anchors an organ to its surroundings."
+   },
+   {
+    "t": "Ganglion",
+    "d": "A cluster of neuron cell bodies outside the CNS; parasympathetic ganglia sit in the gut plexuses."
+   },
+   {
+    "t": "Oesophageal gland",
+    "d": "A mucus-secreting gland in the submucosa that lubricates the bolus."
+   },
+   {
+    "t": "Mediastinum",
+    "d": "The central compartment of the chest between the lungs, through which the oesophagus runs."
+   },
+   {
+    "t": "Muscularis externa",
+    "d": "Another name for the main muscular layer, distinguishing it from the muscularis mucosae."
+   }
+  ],
+  "note": "Slide labels the outer layer 'Serosa'; Tortora p.956 states the oesophagus lacks a serosa and has an adventitia (the abdominal segment below the diaphragm does have serosa). The drawing is not from Tortora; Figure 24.10 (p.956) is the equivalent."
+ },
+ {
+  "n": 22,
+  "title": "Section of esophagus",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.7",
+    "section_title": "Esophagus",
+    "book_pages": "956",
+    "pdf_pages": "972",
+    "capture": "p.956 left column, whole of Figure 24.10: part (a) 'Wall of the esophagus' (LM 20x, labels Lumen of esophagus, Mucosa: nonkeratinized stratified squamous epithelium, lamina propria, muscularis mucosae; Submucosa; Muscular layer circular and longitudinal; Adventitia) and part (b) 'Section of esophagus' (SEM 60x, labels Muscular layer, Submucosa, Mucosa, Lumen, Adventitia) with the Q line below.",
+    "figures": [
+     "24.10"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.7",
+    "section_title": "Esophagus - Histology of the Esophagus",
+    "book_pages": "955",
+    "pdf_pages": "971",
+    "capture": "p.955 right column, the paragraph under the heading 'Histology of the Esophagus' (1 paragraph, continuing 3 lines onto p.956).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This slide shows the same oesophageal wall as real tissue, in a light micrograph and a scanning electron micrograph of a cross-section: Tortora Figure 24.10a and b. Reading a section: the empty lumen is in the centre (star-shaped when the tube is collapsed); the pale, thick band lining it is the stratified squamous epithelium; below it the thin lamina propria and muscularis mucosae complete the mucosa; the looser, paler submucosa follows; then the two thick muscle layers, the inner one cut across its fibres (circular) and the outer one cut along them (longitudinal); the thin outer rim is the adventitia. Knowing the plan, you can name a tissue as oesophagus by its stratified squamous lining plus a two-layer muscle coat and no serosa.",
+  "terms": [
+   {
+    "t": "Cross (transverse) section",
+    "d": "A slice cut at right angles to the long axis of a tube."
+   },
+   {
+    "t": "Scanning electron micrograph (SEM)",
+    "d": "An image of a surface made with an electron beam; shows 3-D texture, not colour."
+   },
+   {
+    "t": "Nonkeratinised",
+    "d": "Lacking the tough dead keratin surface layer of skin; stays moist."
+   },
+   {
+    "t": "Lumen",
+    "d": "The central channel of a tube seen in section."
+   },
+   {
+    "t": "Magnification (e.g. 20x)",
+    "d": "How many times larger the image is than the specimen."
+   }
+  ]
+ },
+ {
+  "n": 23,
+  "title": "Anatomy of the Stomach",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach",
+    "book_pages": "959",
+    "pdf_pages": "975",
+    "capture": "p.959 upper half: Figure 24.12 part (a) 'Anterior view of regions of stomach' (labels Esophagus, Lower esophageal sphincter, Cardia, Fundus, Body, Lesser and Greater curvature, Pylorus, Pyloric antrum, Pyloric canal, Pyloric sphincter, Duodenum, Serosa, Muscular layer: longitudinal / circular / oblique layers, Gastric folds of mucosa) with the 'Functions of the Stomach' box at its right.",
+    "figures": [
+     "24.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach - Anatomy of the Stomach",
+    "book_pages": "960",
+    "pdf_pages": "976",
+    "capture": "p.960 left column, heading 'Anatomy of the Stomach': 1 paragraph starting 'The stomach has four main regions' (cardia, fundus, body, pyloric part = antrum, canal, pylorus; gastric folds/rugae; pyloric sphincter; lesser and greater curvatures), ending in the right column at 'greater curvature'.",
+    "figures": [
+     "24.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach - Histology of the Stomach",
+    "book_pages": "961",
+    "pdf_pages": "977",
+    "capture": "p.961 right column, paragraph starting 'Three additional layers lie deep to the mucosa' (submucosa; three muscle layers - outer longitudinal, middle circular, inner oblique; serosa continuing as lesser and greater omentum).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The stomach is a J-shaped bag just under the diaphragm that turns the bolus into liquid chyme and doles it out slowly to the duodenum. Its regions from entry to exit: the cardia around the oesophageal opening; the fundus, the dome bulging up and left above it; the body, the large middle; and the pyloric part, narrowing through antrum and canal to the pylorus, closed by the pyloric sphincter against the duodenum. The short concave right edge is the lesser curvature, the long convex left edge the greater curvature. When empty, the lining lies in large ridges (rugae, which Tortora 16e calls gastric folds) that flatten as it fills. Unlike the rest of the gut its muscle coat has three layers, an extra inner oblique layer beneath the circular and longitudinal ones, which lets it churn as well as propel. The slide is Figure 24.12a. Unsaid: the organ shifts with breathing and can distend enormously.",
+  "terms": [
+   {
+    "t": "Cardia",
+    "d": "The stomach region surrounding the oesophageal opening (near the heart)."
+   },
+   {
+    "t": "Fundus",
+    "d": "The rounded top of the stomach above the level of the cardia; mainly a store."
+   },
+   {
+    "t": "Pylorus",
+    "d": "The stomach's outlet region ('gate keeper'), ending at the pyloric sphincter."
+   },
+   {
+    "t": "Antrum",
+    "d": "The wide first part of the pyloric region, where peristaltic waves are strongest."
+   },
+   {
+    "t": "Rugae / gastric folds",
+    "d": "Large folds of the empty stomach's mucosa that flatten on filling."
+   },
+   {
+    "t": "Oblique muscle layer",
+    "d": "The innermost, diagonally running muscle sheet unique to the stomach body."
+   },
+   {
+    "t": "Curvature",
+    "d": "An edge of the stomach: lesser (short, medial, concave) or greater (long, lateral, convex)."
+   },
+   {
+    "t": "Chyme",
+    "d": "The soupy mixture of food and gastric juice produced by the stomach."
+   }
+  ],
+  "note": "Slide uses 'rugae of mucosa'; Tortora 16e labels these 'gastric folds of mucosa' (text p.960 gives 'gastric folds (rugae)')."
+ },
+ {
+  "n": 24,
+  "title": "Dissection of the stomach",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach",
+    "book_pages": "959",
+    "pdf_pages": "975",
+    "capture": "p.959 lower half: Figure 24.12 part (b) 'Anterior view of internal anatomy' (cadaver photograph opened stomach; labels Esophagus, Lower esophageal sphincter, Fundus, Cardia, Body, Lesser curvature, Greater curvature, Gastric folds of mucosa, Pyloric antrum, Pyloric canal, Pyloric sphincter, Pylorus, Duodenum) and part (c) endoscope view of the fundus.",
+    "figures": [
+     "24.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach - Anatomy of the Stomach",
+    "book_pages": "960",
+    "pdf_pages": "976",
+    "capture": "p.960 left column, the paragraph under 'Anatomy of the Stomach' (regions and gastric folds), 1 paragraph.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The same regions as the previous slide, now on a real opened stomach (Tortora Figure 24.12b). Orientation: the oesophagus enters at the top left of the photo at the cardia; the fundus rises above; the body lies below with the short lesser curvature on the right and long greater curvature on the left; the tube narrows through the pyloric antrum and canal to the pylorus and the thick ring of the pyloric sphincter, beyond which the duodenum begins. Inside, the ridged gastric folds (rugae) are visible on the mucosa. The take-home is that names on a diagram correspond to visible landmarks: the sphincter is a palpable thickening, the curvatures are the two edges, the fundus is what rises above the entry point.",
+  "terms": [
+   {
+    "t": "Dissection",
+    "d": "Cutting open and separating tissues of a cadaver to display structures."
+   },
+   {
+    "t": "Pyloric sphincter",
+    "d": "The thick smooth-muscle ring between stomach and duodenum that controls emptying."
+   },
+   {
+    "t": "Pyloric canal",
+    "d": "The narrow channel between antrum and pylorus."
+   },
+   {
+    "t": "Internal anatomy",
+    "d": "Structures seen when an organ is opened, e.g. the mucosal folds."
+   }
+  ]
+ },
+ {
+  "n": 25,
+  "title": "Histological 3D reconstruction of the stomach",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach - Histology of the Stomach",
+    "book_pages": "960",
+    "pdf_pages": "976",
+    "capture": "p.960 lower half: Figure 24.13 part (a) 'Three-dimensional view of layers of stomach' (labels Gastric pits, Surface mucous cell, Lamina propria, Mucous neck cell, Parietal cell, Chief cell, Gastric glands, G cell, Lymphoid nodule, Muscularis mucosae, Lymphatic vessel, Venule, Arteriole, Oblique/Circular/Longitudinal layers of muscle, Enteric neurons, Mucosa, Submucosa, Muscular layer, Serosa).",
+    "figures": [
+     "24.13"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach - Histology of the Stomach",
+    "book_pages": "960-961",
+    "pdf_pages": "976-977",
+    "capture": "p.960 right column, heading 'Histology of the Stomach': paragraph starting 'The stomach wall is composed of the same basic layers' (surface mucous cells; runs over the page break to p.961 left column bottom: lamina propria, gastric glands, gastric pits). Then p.961 right column paragraph 'Three additional layers lie deep to the mucosa' (three muscle layers, serosa).",
+    "figures": [
+     "24.13"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The stomach wall is the four-layer plan with two twists. First, the mucosa is pitted: the surface epithelium of mucus-secreting cells dips down into millions of gastric pits, and several tubular gastric glands open into the bottom of each pit. The glands contain the cells that make gastric juice: mucous neck cells (mucus), parietal cells (hydrochloric acid and intrinsic factor), chief cells (pepsinogen and gastric lipase) and G cells (the hormone gastrin, into blood). Lymphoid nodules sit in the lamina propria. Second, beneath the ordinary submucosa the muscular layer has three sheets, oblique innermost, then circular, then longitudinal, with enteric neurons between them, allowing the churning described later. The serosa outside is visceral peritoneum. The slide is Tortora Figure 24.13a; the lecturer's version omits the G cell label.",
+  "terms": [
+   {
+    "t": "Gastric pit",
+    "d": "A narrow depression in the stomach lining into which gastric glands empty."
+   },
+   {
+    "t": "Gastric gland",
+    "d": "A tubular gland in the lamina propria producing gastric juice."
+   },
+   {
+    "t": "Surface mucous cell",
+    "d": "Columnar lining cell whose alkaline mucus protects the stomach wall from its own acid."
+   },
+   {
+    "t": "Parietal cell",
+    "d": "Large gland cell secreting HCl and intrinsic factor."
+   },
+   {
+    "t": "Chief cell",
+    "d": "Gland cell secreting pepsinogen (inactive pepsin) and gastric lipase."
+   },
+   {
+    "t": "Lymphoid (lymphatic) nodule",
+    "d": "A small mass of lymphocytes in the lining; part of MALT."
+   },
+   {
+    "t": "Arteriole / venule",
+    "d": "The smallest named artery / vein feeding and draining a capillary bed."
+   },
+   {
+    "t": "Histology",
+    "d": "The study of tissue structure at the microscopic level."
+   }
+  ]
+ },
+ {
+  "n": 26,
+  "title": "Gastric glands and major cell types in the stomach",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach - Histology of the Stomach",
+    "book_pages": "961",
+    "pdf_pages": "977",
+    "capture": "p.961 upper half: Figure 24.13 part (b) 'Sectional view of the stomach mucosa showing gastric glands and cell types' (labels Gastric pit, Surface mucous cell, Mucous neck cell, Parietal cell - secretes HCl and intrinsic factor, Chief cell - pepsinogen and gastric lipase, G cell - gastrin, Lamina propria, Gastric glands, Muscularis mucosae, Submucosa) with the SEM inset 'Stomach mucosa' at upper left.",
+    "figures": [
+     "24.13"
+    ],
+    "tables": [
+     "24.3"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach - Histology of the Stomach",
+    "book_pages": "961",
+    "pdf_pages": "977",
+    "capture": "p.961 right column, middle: paragraph starting 'The gastric glands contain three types of exocrine' (mucous neck, chief, parietal cells; intrinsic factor for B12; gastric juice 2000-3000 mL/day; G cell and gastrin). 1 paragraph.",
+    "figures": [],
+    "tables": [
+     "24.3"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Absorption of Vitamins",
+    "book_pages": "979",
+    "pdf_pages": "995",
+    "capture": "p.979 right column, heading 'Absorption of Vitamins': 1 short paragraph; the last sentence ('Vitamin B12, however, combines with intrinsic factor') explains the slide's B12 remark.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Zoom into one gastric pit and the glands beneath it (Tortora Figure 24.13b). From the surface downward: surface mucous cells line the pit; mucous neck cells sit at the gland's neck; parietal cells, large and pale, are scattered along the gland and pump out hydrochloric acid and intrinsic factor; chief cells, clustered toward the base, release pepsinogen and gastric lipase; G cells (mainly in the antrum) release gastrin into the blood rather than into the lumen. The combined exocrine output is 2-3 litres of gastric juice a day. The slide's tag 'absorption of vitamin B12' points to intrinsic factor: B12 cannot be absorbed unless bound to this parietal-cell glycoprotein, and the complex is taken up far away, in the ileum. Loss of parietal cells (as in pernicious anaemia) therefore causes B12 deficiency even with a normal diet. Unsaid: mucous cells also secrete bicarbonate, making a 1-3 mm alkaline gel that keeps the acid off the wall.",
+  "terms": [
+   {
+    "t": "Intrinsic factor",
+    "d": "A parietal-cell glycoprotein that must bind vitamin B12 for it to be absorbed in the ileum."
+   },
+   {
+    "t": "Vitamin B12",
+    "d": "A vitamin needed for red blood cell formation and nerve function; deficiency causes pernicious anaemia."
+   },
+   {
+    "t": "Pepsinogen",
+    "d": "The inactive precursor of pepsin, activated by acid; secreted inactive so it cannot digest the cell that makes it."
+   },
+   {
+    "t": "G cell",
+    "d": "Enteroendocrine cell of the pyloric antrum that secretes gastrin into the blood."
+   },
+   {
+    "t": "Gastrin",
+    "d": "Hormone that stimulates acid and pepsinogen secretion and stomach motility."
+   },
+   {
+    "t": "Mucous neck cell",
+    "d": "Mucus-secreting cell in the upper part of a gastric gland."
+   },
+   {
+    "t": "Exocrine gland cell",
+    "d": "A cell that secretes into a duct or onto a surface (here, into the stomach lumen)."
+   }
+  ]
+ },
+ {
+  "n": 27,
+  "title": "Fundic mucosa",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach - Histology of the Stomach",
+    "book_pages": "961",
+    "pdf_pages": "977",
+    "capture": "p.961 left column, lower half: Figure 24.13 part (c) 'Fundic mucosa' (light micrograph LM 180x; labels Gastric pit, Lamina propria, Surface mucous cell, Gastric gland, Mucous neck cell, Parietal cell, G cells, Chief cells) and the Q line beneath.",
+    "figures": [
+     "24.13"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach - Histology of the Stomach",
+    "book_pages": "961",
+    "pdf_pages": "977",
+    "capture": "p.961 right column, paragraph starting 'The gastric glands contain three types' (cell types and their secretions). 1 paragraph.",
+    "figures": [],
+    "tables": [
+     "24.3"
+    ]
+   }
+  ],
+  "basics": "This is a real stained section of the lining of the fundus/body, Tortora Figure 24.13c, to be read with the diagram from the previous slide. The lumen is at the top; the shallow openings are gastric pits lined by surface mucous cells; the long straight tubes running down to the muscularis mucosae are gastric glands. In a routinely stained section parietal cells appear as large, rounded, strongly pink (eosinophilic) cells, most numerous in the upper and middle gland; chief cells appear smaller and bluish-purple (basophilic, because of their protein-making RNA) and crowd the base; mucous neck cells are pale near the top. The thin strands of connective tissue between glands are lamina propria. The slide omits the chief and G cell labels that Tortora's version carries. Mucosa of the fundus and body is gland-rich for acid and enzyme production; the antrum's glands are shorter and richer in mucous and G cells.",
+  "terms": [
+   {
+    "t": "Fundic mucosa",
+    "d": "The lining of the stomach's fundus and body, packed with acid- and enzyme-secreting glands."
+   },
+   {
+    "t": "Eosinophilic / basophilic",
+    "d": "Staining pink with eosin (protein-rich cytoplasm) / blue-purple with haematoxylin (RNA- or DNA-rich)."
+   },
+   {
+    "t": "Simple columnar epithelium",
+    "d": "A single layer of tall cells; the secretory and absorptive lining of stomach and intestine."
+   },
+   {
+    "t": "Lamina propria",
+    "d": "The connective tissue between and beneath the glands."
+   }
+  ]
+ },
+ {
+  "n": 28,
+  "title": "Neural negative feedback regulation of gastric secretion and motility",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.14",
+    "section_title": "Phases of Digestion - Gastric Phase",
+    "book_pages": "989",
+    "pdf_pages": "1005",
+    "capture": "p.989 right column: Figure 24.26 'Neural negative feedback regulation of the pH of gastric juice and gastric motility during the gastric phase' (the flow chart: controlled condition, receptors, control centre = submucosal neural plexus, effectors = parietal cells and smooth muscle, response). Left column: heading 'Gastric Phase' and the bullet 'Neural regulation.' (1 paragraph starting 'Food of any kind distends the stomach').",
+    "figures": [
+     "24.26"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.14",
+    "section_title": "Phases of Digestion",
+    "book_pages": "988-989",
+    "pdf_pages": "1004-1005",
+    "capture": "p.988 right column bottom, the sentence under '24.14 Phases of Digestion' ('Digestive activities occur in three overlapping phases'), then p.989 left column heading 'Cephalic Phase' (1 paragraph) for context before the gastric phase.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A negative feedback loop is a controller that senses a variable and acts to push it back toward a set point. Here the variables are the pH of the stomach contents and the stretch of the wall. When food arrives, the wall is distended and proteins buffer the acid, so pH rises: stretch receptors and chemoreceptors fire, the signals go to the submucosal plexus (the control centre), which activates parasympathetic and enteric motor neurons. The effectors respond: parietal cells secrete more HCl (pH falls back) and the wall muscle contracts harder (mixing waves and gastric emptying, so distension falls). Once pH is low and the stomach has emptied, the stimulus is gone and secretion stops. This is the neural part of the gastric phase; the hormonal part (gastrin) runs in parallel (slide 52). Tortora draws it as Figure 24.26. Unsaid: the cephalic phase (sight, smell, thought of food, via the vagus) has already primed secretion before food arrives.",
+  "terms": [
+   {
+    "t": "Negative feedback",
+    "d": "A control loop in which the response opposes the original change, stabilising the variable."
+   },
+   {
+    "t": "pH",
+    "d": "A measure of acidity; lower = more acidic. Gastric juice is about pH 2."
+   },
+   {
+    "t": "Distension",
+    "d": "Stretching of a hollow organ by its contents."
+   },
+   {
+    "t": "Stretch receptor",
+    "d": "A mechanoreceptor that fires when tissue is stretched."
+   },
+   {
+    "t": "Effector",
+    "d": "The cell or organ that carries out the response (here parietal cells and smooth muscle)."
+   },
+   {
+    "t": "Gastric phase",
+    "d": "The period of regulation triggered by food actually in the stomach (after cephalic, before intestinal)."
+   },
+   {
+    "t": "Buffer (protein as)",
+    "d": "Proteins bind H+ ions, so food entering the stomach temporarily raises the pH."
+   }
+  ]
+ },
+ {
+  "n": 29,
+  "title": "Brief summary of the functions of stomach",
+  "kind": "summary",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach",
+    "book_pages": "959",
+    "pdf_pages": "975",
+    "capture": "p.959 right of Figure 24.12: the box 'Functions of the Stomach' items 1-4 (the slide's four points almost verbatim).",
+    "figures": [
+     "24.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.9",
+    "section_title": "Stomach - Mechanical and Chemical Digestion in the Stomach",
+    "book_pages": "962-963",
+    "pdf_pages": "978-979",
+    "capture": "p.962 left column, heading 'Mechanical and Chemical Digestion in the Stomach': paragraph 1 (peristaltic waves, propulsion, retropulsion, chyme, gastric emptying) and paragraph 2 ('Foods may remain in the fundus'); right column paragraph 'The strongly acidic fluid of the stomach kills' (HCl, pepsin) continuing to p.963 left column (pepsinogen, mucus barrier, gastric lipase, absorption, 2-4 h emptying). Table 24.3 on p.963 right column summarises all secretions.",
+    "figures": [
+     "24.14"
+    ],
+    "tables": [
+     "24.3"
+    ]
+   }
+  ],
+  "basics": "Four jobs. Mixing: waves of contraction sweep from body to antrum, pushing contents toward the closed pylorus (propulsion) and squirting them back (retropulsion) until the food becomes liquid chyme. Reservoir: the fundus and body relax to hold a meal, then release chyme about 3 mL at a time; a meal takes 2-4 hours to leave, fats slowest. Secretion of gastric juice: HCl kills microbes, unfolds (denatures) proteins and activates pepsinogen to pepsin; pepsin is the only stomach enzyme that cuts proteins; intrinsic factor is needed for later B12 absorption; gastric lipase attacks some fats. Endocrine secretion: G cells release gastrin into the blood to drive acid, pepsinogen and motility. Unsaid: the stomach absorbs little (some water, ions, alcohol, aspirin), and it protects itself by secreting pepsin in inactive form and by an alkaline mucus coat.",
+  "terms": [
+   {
+    "t": "Retropulsion",
+    "d": "The squirting of gastric contents backward into the body when they hit the nearly closed pylorus."
+   },
+   {
+    "t": "Gastric emptying",
+    "d": "Passage of small amounts of chyme through the pyloric sphincter into the duodenum."
+   },
+   {
+    "t": "Denature",
+    "d": "To unfold a protein by heat or acid so it loses its shape and becomes easier to digest."
+   },
+   {
+    "t": "Pepsin",
+    "d": "The stomach's protein-digesting enzyme, active only at low pH."
+   },
+   {
+    "t": "Gastric juice",
+    "d": "The mixture of HCl, pepsinogen, lipase, intrinsic factor and mucus secreted by gastric glands."
+   },
+   {
+    "t": "Hormone",
+    "d": "A chemical messenger released into the blood to act on distant target cells."
+   }
+  ]
+ },
+ {
+  "n": 30,
+  "title": "The digestive processes described so far",
+  "kind": "summary",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Mechanical Digestion in the Small Intestine",
+    "book_pages": "974-976",
+    "pdf_pages": "990-992",
+    "capture": "p.974 right column, heading 'Mechanical Digestion in the Small Intestine': paragraph 1 starting 'The two types of movements of the small intestine' (segmentations defined and described, toothpaste analogy) and paragraph 2 'After most of a meal has been absorbed' (migrating motility complex), which runs over the page break to p.976 left column top (ends 'chyme remains in the small intestine for 3-5 hours').",
+    "figures": [],
+    "tables": [
+     "24.4"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.8",
+    "section_title": "Deglutition",
+    "book_pages": "957",
+    "pdf_pages": "973",
+    "capture": "p.957 lower part: the peristalsis paragraph beginning '(per-i-STAL-sis; stalsis = constriction)' with numbered steps 1-3, plus Figure 24.11c above it.",
+    "figures": [
+     "24.11"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Chemical Digestion in the Small Intestine",
+    "book_pages": "976",
+    "pdf_pages": "992",
+    "capture": "p.976 left column, heading 'Chemical Digestion in the Small Intestine', first paragraph 'In the mouth, salivary amylase converts' (which organ's enzymes have acted on carbohydrates, proteins, lipids so far). Table 24.5 on p.982 lists every enzyme by source.",
+    "figures": [],
+    "tables": [
+     "24.5"
+    ]
+   }
+  ],
+  "basics": "Two kinds of muscular movement have been introduced. Peristalsis is a propulsive wave: circular muscle squeezes behind the contents, longitudinal muscle shortens the segment ahead, and the wave travels, moving material onward (oesophagus, stomach, and as the migrating motility complex in the intestine). Segmentation is a mixing movement: rings of circular muscle contract at intervals, chopping a distended segment into short lengths, then relax while new rings contract in between, so chyme sloshes back and forth without net progress; it happens 8-12 times a minute in the small intestine and brings chyme into contact with the wall. Chemical digestion so far: salivary amylase and lingual lipase in the mouth, pepsin and gastric lipase in the stomach; the pancreas and intestinal brush border will finish carbohydrates, proteins, lipids and nucleic acids. Tortora has no dedicated figure of segmentation vs peristalsis; the slide's drawing is the lecturer's.",
+  "terms": [
+   {
+    "t": "Segmentation",
+    "d": "Localised, alternating ring contractions of the intestine that mix chyme without propelling it."
+   },
+   {
+    "t": "Migrating motility complex (MMC)",
+    "d": "A slow peristaltic wave that sweeps the small intestine clean between meals."
+   },
+   {
+    "t": "Muscularis",
+    "d": "The main smooth-muscle coat of the gut wall (Tortora: muscular layer)."
+   },
+   {
+    "t": "Nucleic acid",
+    "d": "DNA or RNA; digested by pancreatic nucleases and brush-border enzymes into nucleotides and their parts."
+   },
+   {
+    "t": "Propulsion",
+    "d": "Movement of gut contents onward toward the anus."
+   }
+  ],
+  "note": "No Tortora figure shows segmentation; the description is text only (p.974). Peristalsis is drawn in Figure 24.11c (p.957)."
+ },
+ {
+  "n": 31,
+  "title": "Organization of the Small intestine",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.2",
+    "section_title": "Layers of the Digestive Canal",
+    "book_pages": "944",
+    "pdf_pages": "960",
+    "capture": "p.944 upper two-thirds: Figure 24.3 'Layers of the digestive canal' (the slide reproduces this figure label for label: Mesentery, Submucosal neural plexus, Gland in mucosa, Vein, Duct of gland outside digestive canal, Glands in submucosa, MALT, Artery, Nerve, Lumen, Mucosa: epithelium/lamina propria/muscularis mucosae, Submucosa, Muscular layer: circular/longitudinal, Myenteric neural plexus, Serosa: areolar connective tissue/epithelium).",
+    "figures": [
+     "24.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Anatomy and Histology of the Small Intestine",
+    "book_pages": "971-974",
+    "pdf_pages": "987-990",
+    "capture": "p.971 right column, paragraph under 'Anatomy of the Small Intestine' ('The first part of the small intestine is the duodenum ... and is retroperitoneal'); and p.974 left column, first paragraph starting 'The submucosa of the duodenum contains duodenal glands', whose last sentence ('Except for a major portion of the duodenum, which is retroperitoneal, the serosa ... completely surrounds the small intestine') is the slide's claim.",
+    "figures": [
+     "24.19"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.4",
+    "section_title": "Peritoneum",
+    "book_pages": "946",
+    "pdf_pages": "962",
+    "capture": "p.946 right column, paragraph 2 under '24.4 Peritoneum' starting 'As you will see shortly, some organs lie' (definition of retroperitoneal; lists duodenum among retroperitoneal organs).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The figure is Tortora's generic gut-wall diagram (Figure 24.3) reused for the small intestine, with the mesentery drawn at the top: the serosa of the intestine is continuous with the two sheets of the mesentery that suspend it and carry its artery, vein, nerve and lymphatics. An organ wrapped by visceral peritoneum on all sides and hung on a mesentery is intraperitoneal; one plastered to the back wall with peritoneum on its front only is retroperitoneal. The jejunum and ileum are intraperitoneal on the fan-shaped mesentery; the duodenum, except for its very first inch or so next to the pylorus, is retroperitoneal and fixed. Tortora says the duodenum is retroperitoneal and that serosa surrounds all but a major portion of it; it does not single out the first part as intraperitoneal, though standard anatomy does. The consequence: the mobile jejunum and ileum can shift and coil freely, the duodenum cannot.",
+  "terms": [
+   {
+    "t": "Intraperitoneal",
+    "d": "Completely covered by visceral peritoneum and suspended on a mesentery; mobile."
+   },
+   {
+    "t": "Mesentery (of the small intestine)",
+    "d": "The fan-shaped double fold of peritoneum tethering jejunum and ileum to the posterior wall."
+   },
+   {
+    "t": "Areolar connective tissue",
+    "d": "Loose connective tissue with scattered fibres and cells; forms the backing of the serosa."
+   },
+   {
+    "t": "Duodenal (Brunner's) glands",
+    "d": "Submucosal glands of the duodenum secreting alkaline mucus to neutralise acid chyme."
+   },
+   {
+    "t": "MALT",
+    "d": "Mucosa-associated lymphoid tissue; abundant in the ileum as Peyer's patches."
+   }
+  ],
+  "note": "Tortora states the duodenum is retroperitoneal (p.971) and that serosa surrounds all but 'a major portion of the duodenum' (p.974); it does not name the 'first part' as intraperitoneal, which the slide adds from clinical anatomy."
+ },
+ {
+  "n": 32,
+  "title": "Interior of the Small intestine",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Histology of the Small Intestine",
+    "book_pages": "972",
+    "pdf_pages": "988",
+    "capture": "p.972 middle: Figure 24.20 part (a) 'Relationship of intestinal villi to circular folds' (cadaver photograph, labels Circular folds, Intestinal villi, Submucosa, Circular and Longitudinal layers of muscle, Serosa) with the figure caption above it.",
+    "figures": [
+     "24.20"
+    ],
+    "tables": [
+     "24.4"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Histology of the Small Intestine",
+    "book_pages": "974",
+    "pdf_pages": "990",
+    "capture": "p.974 left column, paragraph 2 starting 'Even though the wall of the small intestine is composed of the same four basic layers' (circular folds/plicae circulares: folds of mucosa and submucosa, 10 mm, from duodenum to mid-ileum, spiral the chyme) and paragraph 3 'Also present in the small intestine are intestinal villi'.",
+    "figures": [
+     "24.20"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Absorption scales with surface area, and a smooth 5 m tube 2.5 cm wide would have far too little. The small intestine multiplies its area at three scales. Largest are the circular folds (plicae circulares): permanent ridges about 1 cm tall made of mucosa plus submucosa, running partly or fully around the lumen from the duodenum to the middle of the ileum; besides adding area they make chyme spiral rather than shoot straight through, prolonging contact. On the folds sit villi, 0.5-1 mm finger-like projections of the mucosa that give the lining a velvet look (next slide), and each absorptive cell's surface bears microvilli. Together these raise the area to tens of square metres. The slide's photograph corresponds to Tortora Figure 24.20a. Note that the folds involve the submucosa (so they are permanent), whereas the stomach's rugae flatten out.",
+  "terms": [
+   {
+    "t": "Circular folds (plicae circulares)",
+    "d": "Permanent ridges of mucosa and submucosa encircling the small-intestine lumen."
+   },
+   {
+    "t": "Surface area",
+    "d": "The total lining area available for enzyme contact and absorption; the limiting factor for uptake."
+   },
+   {
+    "t": "Velvety appearance",
+    "d": "The fuzzy look of the intestinal lining caused by millions of villi."
+   },
+   {
+    "t": "Submucosa",
+    "d": "The connective-tissue layer that, with the mucosa, forms the core of each circular fold."
+   }
+  ]
+ },
+ {
+  "n": 33,
+  "title": "Histological 3D reconstruction of the Small Intestine",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Histology of the Small Intestine",
+    "book_pages": "972-973",
+    "pdf_pages": "988-989",
+    "capture": "p.972 lower half: Figure 24.20 part (b) 'Three-dimensional view of layers of the small intestine showing intestinal villi' (labels Microvilli, Lumen, Intestinal villi, Absorptive cell, Blood capillary, Lymphatic capillary, Goblet cell, Lamina propria, Enteroendocrine cell, Opening of intestinal gland, Paneth cell, Lymphoid nodule, Muscularis mucosae, Arteriole, Venule, Lymphatic vessel, Circular/Longitudinal layer of muscle, Myenteric neural plexus, Mucosa, Submucosa, Muscular layer, Serosa) and p.973 upper half part (c) 'Enlarged villus' with the cell types and what each secretes.",
+    "figures": [
+     "24.20"
+    ],
+    "tables": [
+     "24.4"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Histology of the Small Intestine",
+    "book_pages": "972-974",
+    "pdf_pages": "988-990",
+    "capture": "p.972 right column, heading 'Histology of the Small Intestine' (first paragraph, 4 lines) continuing at the bottom of p.973 both columns ('mucosa is composed of a layer of epithelium ... absorptive cells, goblet cells, intestinal glands/crypts of Lieberkuhn, Paneth cells, S, CCK and K cells') and then p.974 left column paragraph 1 starting 'The lamina propria of the small intestinal mucosa' (MALT, solitary lymphoid nodules, aggregated lymphoid nodules = Peyer's patches in the ileum, duodenal glands, two muscle layers, serosa).",
+    "figures": [
+     "24.21"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The intestinal wall in three dimensions, Tortora Figure 24.20b-c. Each villus is a finger of mucosa: a simple columnar epithelium over a core of lamina propria containing an arteriole, a capillary network, a venule and a central lymphatic capillary (lacteal). Absorptive cells carry the microvilli and do the uptake; goblet cells make mucus; between the bases of villi the epithelium dips into tubular intestinal glands (crypts) that secrete intestinal juice and house Paneth cells (lysozyme, antimicrobial) and enteroendocrine cells (secretin, CCK, GIP). The lamina propria is rich in lymphoid tissue; in the ileum this forms large aggregated lymphoid nodules, Peyer's patches, the gut-associated lymphoid tissue (GALT) the slide names, which sample the luminal contents for immune surveillance. Below are the muscularis mucosae, submucosa (with Brunner's glands in the duodenum only), two muscle layers with the myenteric plexus, and serosa. Sugars and amino acids leave via the capillaries; fats via the lacteal.",
+  "terms": [
+   {
+    "t": "Lacteal",
+    "d": "The lymphatic capillary in the core of a villus; absorbs fat as chylomicrons (milky lymph)."
+   },
+   {
+    "t": "Absorptive cell (enterocyte)",
+    "d": "The tall columnar epithelial cell with microvilli that digests and absorbs nutrients."
+   },
+   {
+    "t": "Goblet cell",
+    "d": "A mucus-secreting epithelial cell shaped like a wine glass."
+   },
+   {
+    "t": "Intestinal gland (crypt of Lieberkuhn)",
+    "d": "A tubular gland opening between villi; secretes intestinal juice and renews the epithelium."
+   },
+   {
+    "t": "Paneth cell",
+    "d": "Cell at the crypt base secreting lysozyme and phagocytosing microbes."
+   },
+   {
+    "t": "Peyer's patch",
+    "d": "A cluster of lymphoid nodules in the ileal wall (aggregated lymphoid nodules)."
+   },
+   {
+    "t": "GALT",
+    "d": "Gut-associated lymphoid tissue; the intestinal part of MALT."
+   },
+   {
+    "t": "Lysozyme",
+    "d": "An enzyme that breaks bacterial cell walls."
+   }
+  ]
+ },
+ {
+  "n": 34,
+  "title": "Intestinal juice and brush border enzymes",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Histology of the Small Intestine",
+    "book_pages": "975",
+    "pdf_pages": "991",
+    "capture": "p.975 top: Figure 24.21 parts (a) 'Wall of the duodenum' (LM 50x, labels Lumen of duodenum, Intestinal villus, Absorptive epithelium with brush border, Lamina propria, Intestinal gland, Muscularis mucosae, Duodenal gland in submucosa, Mucosa, Submucosa, Muscular layer, Serosa) and (b) 'Three intestinal villi from the duodenum' (LM 160x, labels Intestinal villi, Lumen, Microvillous border, Simple columnar epithelium, Goblet cell, Absorptive cell, Lamina propria, Intestinal glands, Muscularis mucosae, Duodenal gland in submucosa) - the slide's labels match (b).",
+    "figures": [
+     "24.21"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Role of Intestinal Juice and Microvillous-Border Enzymes",
+    "book_pages": "974",
+    "pdf_pages": "990",
+    "capture": "p.974 right column, heading 'Role of Intestinal Juice and Microvillous-Border Enzymes': 1 paragraph starting 'About 1-2 liters (1-2 qt) of intestinal juice' (pH 7.6, vehicle for absorption; brush-border enzymes named: alpha-dextrinase, maltase, sucrase, lactase, peptidases, nucleosidases, phosphatases). Also p.974 left column last paragraph 'Besides circular folds and intestinal villi' (microvilli, 1 um, brush border, 200 million per mm2).",
+    "figures": [
+     "24.21"
+    ],
+    "tables": [
+     "24.5"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Table 24.5 Summary of Digestive Enzymes",
+    "book_pages": "982",
+    "pdf_pages": "998",
+    "capture": "p.982 Table 24.5, the block headed 'MICROVILLOUS BORDER ENZYMES IN MICROVILLI PLASMA MEMBRANE' (lower half of the table).",
+    "figures": [],
+    "tables": [
+     "24.5"
+    ]
+   }
+  ],
+  "basics": "Two secretions meet at the villus surface. Intestinal juice, 1-2 litres a day of slightly alkaline water and mucus from the crypts, does not itself contain much enzyme; its role is to be the watery medium in which digested molecules dissolve and reach the absorptive cells. The final enzymes are not free in the lumen at all: absorptive cells build them and plant them in the membrane of their microvilli, so the last steps of digestion happen on the cell surface, and the product is absorbed on the spot. This fuzzy layer of microvilli is the brush border. Its enzymes include the disaccharidases (maltase, sucrase, lactase, alpha-dextrinase), peptidases that finish proteins, nucleosidases and phosphatases for nucleic acids, and enterokinase, which switches on pancreatic trypsin. Lactose intolerance is simply a missing brush-border enzyme. The slide's micrograph is Figure 24.21b; the duodenal (Brunner's) glands in the submucosa mark this as duodenum.",
+  "terms": [
+   {
+    "t": "Brush (microvillous) border",
+    "d": "The fringe of microvilli on absorptive cells, seen as a fuzzy line by light microscopy."
+   },
+   {
+    "t": "Brush-border enzyme",
+    "d": "A digestive enzyme anchored in the microvillus membrane rather than secreted into the lumen."
+   },
+   {
+    "t": "Intestinal juice",
+    "d": "Alkaline watery secretion of the intestinal glands that dissolves chyme for absorption."
+   },
+   {
+    "t": "Disaccharidase",
+    "d": "An enzyme (maltase, sucrase, lactase) that splits a two-unit sugar into monosaccharides."
+   },
+   {
+    "t": "Enterokinase",
+    "d": "Brush-border enzyme that activates trypsinogen to trypsin."
+   },
+   {
+    "t": "Duodenal (Brunner's) gland",
+    "d": "Submucosal gland of the duodenum secreting alkaline mucus; absent in jejunum and ileum."
+   },
+   {
+    "t": "Apical membrane",
+    "d": "The cell membrane facing the lumen, where microvilli are."
+   }
+  ]
+ },
+ {
+  "n": 35,
+  "title": "Absorption of nutrients into Portal vein & lymphatics",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Absorption in the Small Intestine",
+    "book_pages": "978",
+    "pdf_pages": "994",
+    "capture": "p.978 lower half: Figure 24.22 part (b) 'Movement of absorbed nutrients into blood plasma and lymph plasma' (labels Left subclavian vein, Heart, Liver, Hepatic portal vein, Thoracic duct, Lymphatic vessel, Intestinal villus enlarged: Chylomicron, Blood capillary, Lymphatic capillary, Arteriole, Venule, Amino acid, Monosaccharide, Small short-chain fatty acid) - the slide's figure.",
+    "figures": [
+     "24.22"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Absorption of Monosaccharides; Amino Acids; Lipids",
+    "book_pages": "977",
+    "pdf_pages": "993",
+    "capture": "p.977 right column: paragraphs headed 'Absorption of Monosaccharides' (glucose/galactose by Na+ symporter, fructose by facilitated diffusion, exit to capillaries) and 'Absorption of Amino Acids, Dipeptides, and Tripeptides' (ends 'by way of the hepatic portal system'); then 'Absorption of Lipids and Bile Salts' starting at the foot of the column.",
+    "figures": [
+     "24.22"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Absorption of Lipids and Bile Salts",
+    "book_pages": "979",
+    "pdf_pages": "995",
+    "capture": "p.979 left column, paragraph starting 'Once inside the absorptive cells, long-chain fatty acids' (triglycerides re-formed, chylomicrons, exocytosis, into lymphatic capillaries, thoracic duct, junction of left internal jugular and subclavian veins). 1 paragraph.",
+    "figures": [
+     "24.22"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Absorbed molecules take one of two exits from a villus. Water-soluble products (monosaccharides, amino acids, small fatty acids) pass into the blood capillaries of the villus; these drain into veins that unite as the hepatic portal vein, so everything absorbed goes first to the liver, which can store, convert or detoxify it before it reaches the general circulation. Long-chain fatty acids and monoglycerides are different: inside the absorptive cell they are rebuilt into triglycerides and packaged with cholesterol and a protein coat into chylomicrons about 80 nm across, far too big for the pores of blood capillaries. They are exported into the lacteal, the leakier lymphatic capillary, travel up lymph vessels to the thoracic duct and enter the blood at the left subclavian vein, bypassing the liver on the first pass. The slide is Tortora Figure 24.22b. Unsaid: lipoprotein lipase on capillary walls then strips the triglyceride from chylomicrons within a few hours.",
+  "terms": [
+   {
+    "t": "Hepatic portal vein",
+    "d": "The vein carrying nutrient-rich blood from the gut and spleen to the liver before it reaches the heart."
+   },
+   {
+    "t": "Portal system",
+    "d": "A circuit in which blood passes through two capillary beds (gut then liver) before returning to the heart."
+   },
+   {
+    "t": "Chylomicron",
+    "d": "A protein-coated droplet of triglyceride, cholesterol and phospholipid exported by absorptive cells into lymph."
+   },
+   {
+    "t": "Thoracic duct",
+    "d": "The main lymphatic trunk, returning lymph (and absorbed fat) to the left subclavian vein."
+   },
+   {
+    "t": "Monosaccharide",
+    "d": "A single sugar unit: glucose, galactose, fructose."
+   },
+   {
+    "t": "Exocytosis",
+    "d": "Export of material from a cell by fusion of a vesicle with the membrane."
+   },
+   {
+    "t": "Left subclavian vein",
+    "d": "The large vein under the left collarbone where lymph re-enters the blood."
+   }
+  ]
+ },
+ {
+  "n": 36,
+  "title": "Absorption in the small intestine",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Absorption in the Small Intestine",
+    "book_pages": "977",
+    "pdf_pages": "993",
+    "capture": "p.977 left column, lower half, heading 'Absorption in the Small Intestine': 2 paragraphs starting 'All of the chemical and mechanical phases of digestion' (forms that can be absorbed; mechanisms - diffusion, facilitated diffusion, osmosis, active transport; 90% in small intestine). Then the right column subsections 'Absorption of Monosaccharides', 'Absorption of Amino Acids, Dipeptides, and Tripeptides', 'Absorption of Lipids and Bile Salts' (continuing over to p.979).",
+    "figures": [
+     "24.22"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Absorption in the Small Intestine",
+    "book_pages": "978",
+    "pdf_pages": "994",
+    "capture": "p.978 upper half: Figure 24.22 part (a) 'Mechanisms for movement of nutrients through absorptive epithelial cells of intestinal villi' (the transport-mechanism diagram: secondary active transport with Na+, facilitated diffusion, simple diffusion, micelles, chylomicrons).",
+    "figures": [
+     "24.22"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.12",
+    "section_title": "Small Intestine - Absorption of Electrolytes, Vitamins, Water",
+    "book_pages": "979-980",
+    "pdf_pages": "995-996",
+    "capture": "p.979 right column, headings 'Absorption of Electrolytes', 'Absorption of Vitamins' and 'Absorption of Water' (the last runs onto p.980 right column middle, 'the blood. The absorbed electrolytes'); Figure 24.23 on p.980 left gives the daily fluid budget (9.3 L in, 8.3 L absorbed by small intestine).",
+    "figures": [
+     "24.23"
+    ],
+    "tables": [
+     "24.4"
+    ]
+   }
+  ],
+  "basics": "Absorption means getting a molecule from the lumen, across the absorptive cell, and out into the capillary or lacteal. Each nutrient class uses a transport mechanism matched to its chemistry. Glucose and galactose ride a symporter that couples their entry to sodium flowing down its gradient (secondary active transport); fructose enters by facilitated diffusion through a carrier; all three leave the cell's basal side by facilitated diffusion into blood. Amino acids use sodium-coupled or independent active transporters; di- and tripeptides enter with H+ and are split inside the cell. Lipids, being oil-soluble, simply diffuse through the membrane, but first bile-salt micelles must ferry them through the watery chyme to the cell surface; inside they are repackaged as chylomicrons for the lymph. Fat-soluble vitamins ride in the micelles; B12 needs intrinsic factor and the ileum. Water follows solutes by osmosis: of about 9 litres entering the gut daily, the small intestine reclaims 8.3. About 90% of all absorption happens here.",
+  "terms": [
+   {
+    "t": "Facilitated diffusion",
+    "d": "Passive movement down a gradient through a carrier or channel protein."
+   },
+   {
+    "t": "Active transport",
+    "d": "Movement against a gradient using energy from ATP (primary) or an ion gradient (secondary)."
+   },
+   {
+    "t": "Symporter",
+    "d": "A carrier moving two substances in the same direction, e.g. Na+ with glucose."
+   },
+   {
+    "t": "Osmosis",
+    "d": "Net movement of water across a membrane toward the side with more solute."
+   },
+   {
+    "t": "Micelle",
+    "d": "A tiny sphere of bile salts wrapped around fatty acids and monoglycerides, ferrying them to the brush border."
+   },
+   {
+    "t": "Basolateral membrane",
+    "d": "The sides and base of an epithelial cell, facing the capillaries."
+   },
+   {
+    "t": "Electrolyte",
+    "d": "A salt ion in solution (Na+, K+, Cl-, Ca2+ etc.)."
+   }
+  ],
+  "note": "The slide carries no text beyond its title; the relevant material is section 'Absorption in the Small Intestine', pp.977-980, and Figure 24.22a."
+ },
+ {
+  "n": 37,
+  "title": "Functions of liver, gallbladder, pancreas and duodenum",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.10",
+    "section_title": "Pancreas",
+    "book_pages": "964",
+    "pdf_pages": "980",
+    "capture": "p.964 lower half: Figure 24.16 part (a) 'Anterior view' (labels Falciform ligament, Diaphragm, Right and Left lobe of liver, Coronary ligament, Right/Left hepatic duct, Common hepatic duct, Round ligament, Gallbladder: neck, body, fundus; Cystic duct, Bile duct, Pancreatic duct, Accessory duct, Hepatopancreatic ampulla, Pancreas: tail, body, neck, head; Duodenum, Jejunum) with its caption.",
+    "figures": [
+     "24.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder - Anatomy of the Liver and Gallbladder",
+    "book_pages": "966",
+    "pdf_pages": "982",
+    "capture": "p.966 right column: the 2 introductory paragraphs under '24.11 Liver and Gallbladder' (1.4 kg; gallbladder 7-10 cm) and, under heading 'Anatomy of the Liver and Gallbladder', paragraph 1 starting 'The liver is almost completely covered' (right and left lobes divided by the falciform ligament; quadrate and caudate lobes; ligamentum teres; coronary ligaments) and paragraph 2 'The parts of the gallbladder' (fundus, body, neck).",
+    "figures": [
+     "24.16"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The liver, the heaviest gland, is split superficially into a large right and smaller left lobe by the falciform ligament, whose free edge carries the round ligament (the closed fetal umbilical vein); the coronary ligaments hang it from the diaphragm. Underneath are two small extra lobes, quadrate (front) and caudate (back), which by blood supply belong with the left lobe. The gallbladder (fundus, body, neck) tucks under the right lobe. Bile leaves by right and left hepatic ducts, which join as the common hepatic duct; this meets the cystic duct to form the bile duct, which joins the pancreatic duct to enter the duodenum. The pancreas lies across the back wall, head in the duodenal C, tail toward the spleen. The Cantlie line is a surgeon's plane from gallbladder bed to inferior vena cava dividing the liver into functional halves; Tortora does not name it. The slide is Figure 24.16a with surgical annotations.",
+  "terms": [
+   {
+    "t": "Quadrate lobe",
+    "d": "Small square lobe on the liver's under-surface, between gallbladder and round ligament."
+   },
+   {
+    "t": "Caudate lobe",
+    "d": "Small posterior lobe of the liver next to the inferior vena cava."
+   },
+   {
+    "t": "Coronary ligament",
+    "d": "Peritoneal reflection suspending the top of the liver from the diaphragm."
+   },
+   {
+    "t": "Round ligament (ligamentum teres)",
+    "d": "Fibrous cord in the falciform ligament's free edge; the obliterated umbilical vein."
+   },
+   {
+    "t": "Common hepatic duct",
+    "d": "The duct formed by union of right and left hepatic ducts, carrying bile out of the liver."
+   },
+   {
+    "t": "Cystic duct",
+    "d": "The gallbladder's duct, joining the common hepatic duct to form the bile duct."
+   },
+   {
+    "t": "Hepatectomy",
+    "d": "Surgical removal of part of the liver."
+   },
+   {
+    "t": "Inferior vena cava",
+    "d": "The large vein returning blood from the lower body to the heart; runs behind the liver."
+   }
+  ],
+  "note": "The Cantlie line is not in Tortora; the book's liver lobes and ligaments are on p.966 right column. Tortora places quadrate and caudate lobes functionally with the left lobe based on vessel distribution."
+ },
+ {
+  "n": 38,
+  "title": "The Hepatopancreatic ampulla",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.10",
+    "section_title": "Pancreas - Anatomy of the Pancreas",
+    "book_pages": "964-965",
+    "pdf_pages": "980-981",
+    "capture": "p.964 lower right: Figure 24.16 part (b) 'Details of hepatopancreatic ampulla' (labels Bile duct, Pancreatic duct, Hepatopancreatic ampulla, Mucosa of duodenum, Major duodenal papilla, Sphincter of the hepatopancreatic ampulla). Text: p.964 right column, paragraph 2 under 'Anatomy of the Pancreas' starting 'Pancreatic juices are secreted by exocrine cells' (pancreatic duct of Wirsung joins the bile duct as the hepatopancreatic ampulla / ampulla of Vater, opening at the major duodenal papilla 10 cm below the pylorus), which runs over the page break to p.965 left column top (sphincter of the hepatopancreatic ampulla / sphincter of Oddi; accessory duct of Santorini).",
+    "figures": [
+     "24.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder - Functions of the Liver and Gallbladder",
+    "book_pages": "970",
+    "pdf_pages": "986",
+    "capture": "p.970 left column: heading 'Functions of the Liver and Gallbladder', paragraph 1 (800-1000 mL bile/day, composition), paragraph 3 starting 'Bile is partially an excretory product' (bile salts and emulsification) and paragraph 4 'Although hepatocytes continually release bile' (between meals bile is diverted to the gallbladder because the sphincter is closed).",
+    "figures": [],
+    "tables": [
+     "24.4"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder - Histology",
+    "book_pages": "969",
+    "pdf_pages": "985",
+    "capture": "p.969 left column, paragraph starting 'The mucosa of the gallbladder consists of simple columnar' (gallbladder wall; stores and concentrates bile up to tenfold).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The bile duct and the main pancreatic duct usually merge just before entering the duodenum into a short dilated chamber, the hepatopancreatic ampulla (of Vater), which opens on a bump of the duodenal lining, the major duodenal papilla, about 10 cm past the pylorus. A ring of smooth muscle around the ampulla, the sphincter of Oddi, gates the outflow. Between meals it is closed, so bile made continuously by hepatocytes backs up the cystic duct into the gallbladder, where the lining absorbs water and concentrates it up to tenfold. After a fatty meal, the hormone CCK contracts the gallbladder and relaxes the sphincter, so concentrated bile and pancreatic juice squirt into the duodenum together. Bile is not an enzyme: its bile salts are detergents that emulsify fat globules into tiny droplets, hugely increasing the surface pancreatic lipase can attack, and then form micelles that carry the products to the brush border. Tortora Figure 24.16b.",
+  "terms": [
+   {
+    "t": "Hepatocyte",
+    "d": "The main liver cell; makes bile and performs the liver's metabolic work."
+   },
+   {
+    "t": "Bile",
+    "d": "Yellow-green liquid of bile salts, pigments, cholesterol and lecithin made by the liver."
+   },
+   {
+    "t": "Emulsification",
+    "d": "Breaking large fat globules into many tiny droplets suspended in water, done by bile salts."
+   },
+   {
+    "t": "Hepatopancreatic ampulla (of Vater)",
+    "d": "The common chamber where bile duct and pancreatic duct join before the duodenum."
+   },
+   {
+    "t": "Major duodenal papilla",
+    "d": "The raised opening of the ampulla on the duodenal mucosa."
+   },
+   {
+    "t": "Sphincter of Oddi",
+    "d": "Smooth-muscle ring around the ampulla controlling release of bile and pancreatic juice."
+   },
+   {
+    "t": "Duct of Wirsung",
+    "d": "The main pancreatic duct."
+   },
+   {
+    "t": "Cholecystokinin (CCK)",
+    "d": "Duodenal hormone that contracts the gallbladder and relaxes the sphincter of Oddi."
+   }
+  ]
+ },
+ {
+  "n": 39,
+  "title": "Pathway of bile flow from the liver",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder - Histology of the Liver and Gallbladder",
+    "book_pages": "968",
+    "pdf_pages": "984",
+    "capture": "p.968 left column, numbered item 2 'Bile canaliculi' (1 paragraph: canaliculi -> bile ductules -> bile ducts -> right and left hepatic ducts -> common hepatic duct -> joins cystic duct -> bile duct -> duodenum); the preceding lines at the top of the column (end of item 1, hepatic laminae with bile canaliculi in grooves between hepatocytes) give the origin.",
+    "figures": [
+     "24.17"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.10",
+    "section_title": "Pancreas",
+    "book_pages": "965",
+    "pdf_pages": "981",
+    "capture": "p.965 upper left: Figure 24.16 part (c) 'Ducts carrying bile from liver and gallbladder and pancreatic juice from pancreas to the duodenum' (schematic with key; labels Right/Left hepatic duct, Common hepatic duct, Cystic duct, Bile duct, Pancreatic duct, Sphincter, Duodenum).",
+    "figures": [
+     "24.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder - Functions of the Liver and Gallbladder",
+    "book_pages": "970",
+    "pdf_pages": "986",
+    "capture": "p.970 left column, paragraph starting 'Although hepatocytes continually release bile' (flow into gallbladder between meals; sphincter of the hepatopancreatic ampulla).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Bile is made at the smallest scale and collected into ever larger channels, opposite to the direction blood flows through the liver. Hepatocytes secrete bile into bile canaliculi, tiny grooves between neighbouring cell membranes. Canaliculi drain into bile ductules and then bile ducts running with the portal-vein and hepatic-artery branches (the portal triads). These merge into the right and left hepatic ducts, one per lobe, which unite outside the liver as the common hepatic duct. The cystic duct from the gallbladder joins it to form the bile duct (older name: common bile duct), which passes behind the duodenum and pancreatic head to the hepatopancreatic ampulla. Flow at the cystic junction depends on the sphincter: closed between meals, bile goes up the cystic duct into the gallbladder for storage; open after a meal, gallbladder bile joins the stream to the duodenum. The whole tree is the biliary tract. Tortora describes it on p.968 and diagrams the extrahepatic part in Figure 24.16c.",
+  "terms": [
+   {
+    "t": "Bile canaliculus",
+    "d": "A microscopic channel between adjacent hepatocytes into which bile is first secreted."
+   },
+   {
+    "t": "Bile ductule / bile duct",
+    "d": "Progressively larger collecting channels within the liver."
+   },
+   {
+    "t": "Portal triad",
+    "d": "The bundle of a bile duct, a portal-vein branch and a hepatic-artery branch at the corner of a lobule."
+   },
+   {
+    "t": "Bile duct (common bile duct)",
+    "d": "The duct formed by common hepatic + cystic ducts, carrying bile to the duodenum."
+   },
+   {
+    "t": "Biliary tract",
+    "d": "The whole system of channels carrying bile from liver cells to the duodenum, including the gallbladder."
+   },
+   {
+    "t": "Extrahepatic",
+    "d": "Outside the liver."
+   }
+  ]
+ },
+ {
+  "n": 40,
+  "title": "Dissection of liver, gallbladder, pancreas and duodenum",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.10",
+    "section_title": "Pancreas",
+    "book_pages": "965",
+    "pdf_pages": "981",
+    "capture": "p.965 upper right: Figure 24.16 part (d) 'Anterior view' cadaver photograph (labels Falciform ligament, Liver, Diaphragm, Common hepatic duct, Cystic duct, Gallbladder, Bile duct, Pancreatic duct, Major duodenal papilla, Duodenum, Head/Body/Tail of pancreas, Spleen) - identical to the slide's labels.",
+    "figures": [
+     "24.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder - Blood Supply of the Liver",
+    "book_pages": "969-970",
+    "pdf_pages": "985-986",
+    "capture": "p.969 left column bottom, heading 'Blood Supply of the Liver': 1 paragraph starting 'The liver receives blood from two sources' (hepatic artery, hepatic portal vein, sinusoids, central vein, hepatic vein), continuing over the page break to p.970 left column top ('then drains into the central vein'). Figure 24.18 (p.969 right column) is the flow diagram.",
+    "figures": [
+     "24.18"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The photograph (Tortora Figure 24.16d) shows the same organs as slide 37 in a real body, with the liver lifted so the ducts and pancreas are seen. The slide adds a point about traffic through the liver's hilum, the porta hepatis (a term Tortora does not use): two vessels enter, the hepatic artery bringing oxygenated blood and the hepatic portal vein bringing nutrient-laden, low-oxygen blood from the gut and spleen; one duct leaves, the common hepatic duct (continuing as the bile duct after the cystic duct joins it). Inside, both blood streams mix in the sinusoids, are processed by hepatocytes, drain into central veins and leave by hepatic veins into the inferior vena cava at the back, so the liver has a double inflow and a separate outflow. The spleen at the tail of the pancreas is not digestive but shares the portal drainage.",
+  "terms": [
+   {
+    "t": "Porta hepatis",
+    "d": "The transverse fissure on the liver's under-surface where portal vein, hepatic artery and bile ducts enter and leave."
+   },
+   {
+    "t": "Hepatic artery (proper)",
+    "d": "Branch of the coeliac trunk supplying oxygenated blood to the liver."
+   },
+   {
+    "t": "Hepatic portal vein",
+    "d": "Vein delivering absorbed nutrients from the gut to the liver."
+   },
+   {
+    "t": "Hepatic vein",
+    "d": "One of the veins draining the liver into the inferior vena cava."
+   },
+   {
+    "t": "Sinusoid",
+    "d": "A wide, leaky capillary between plates of liver cells."
+   },
+   {
+    "t": "Spleen",
+    "d": "Lymphoid organ at the left, behind the stomach; not part of the digestive system."
+   }
+  ],
+  "note": "'Porta hepatis' does not appear in Tortora; the vessels entering the liver are described under 'Blood Supply of the Liver' (p.969) and Figure 24.18."
+ },
+ {
+  "n": 41,
+  "title": "Microanatomy of the Liver lobules",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder - Histology of the Liver and Gallbladder",
+    "book_pages": "967",
+    "pdf_pages": "983",
+    "capture": "p.967 whole page: Figure 24.17 parts (a) 'Overview of histological components of liver' (labels Liver, Inferior vena cava, Hepatic artery, Hepatic portal vein, Central vein, To hepatic vein, Hepatic sinusoid, Hepatocyte, Hepatic laminae, Connective tissue, Portal triad: bile duct / branch of hepatic artery / branch of hepatic portal vein) and (b) 'Details of histological components' (adds Bile canaliculi, Stellate reticuloendothelial cell = Kupffer cell); part (c) photomicrographs below.",
+    "figures": [
+     "24.17"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder - Histology of the Liver and Gallbladder",
+    "book_pages": "966-968",
+    "pdf_pages": "982-984",
+    "capture": "p.966 right column bottom, heading 'Histology of the Liver and Gallbladder', numbered item 1 'Hepatocytes' (starts here, continues on p.968 left column top: hepatic laminae, sinusoids, bile canaliculi), item 2 'Bile canaliculi' (p.968 left column) and item 3 'Hepatic sinusoids' (p.968 right column: blood from hepatic artery and portal vein, central vein, hepatic veins, Kupffer cells) followed by the paragraph defining the portal triad.",
+    "figures": [
+     "24.17"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder - hepatic acinus",
+    "book_pages": "968-969",
+    "pdf_pages": "984-985",
+    "capture": "p.968 right column last paragraph 'The hepatocytes, bile duct system, and hepatic sinusoids can be organized' continuing on p.969 left column (hepatic acinus, zones 1-3), with Figure 24.17d on p.968 top. Read only if the lecturer's 'hepatic lobule' needs contrasting with Tortora's preferred acinus.",
+    "figures": [
+     "24.17"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Liver tissue is built from plates of hepatocytes one cell thick (hepatic laminae) separated by wide leaky capillaries, the sinusoids. Blood enters each unit at its corners from branches of the hepatic portal vein and hepatic artery lying in a portal triad (with a bile duct), percolates between the plates toward the centre and leaves by a central vein feeding the hepatic veins. Bile goes the other way: hepatocytes secrete it into canaliculi between themselves and it flows outward to the triad's bile duct. Kupffer cells, fixed macrophages in the sinusoid walls, engulf old blood cells, bacteria and debris from the gut. The classic hexagonal hepatic lobule, bounded by thin septa with a central vein in the middle and triads at the corners, is how the slide frames this; Tortora draws the same parts (Figure 24.17a-b) but prefers the hepatic acinus, a diamond centred on a triad, because it matches oxygen gradients and damage patterns.",
+  "terms": [
+   {
+    "t": "Hepatic lobule",
+    "d": "A roughly hexagonal unit of liver tissue with a central vein in the middle and portal triads at the corners."
+   },
+   {
+    "t": "Hepatic lamina",
+    "d": "A one-cell-thick plate of hepatocytes bordered by sinusoids."
+   },
+   {
+    "t": "Central vein",
+    "d": "The vein at the core of a lobule collecting blood from the sinusoids."
+   },
+   {
+    "t": "Kupffer cell (stellate reticuloendothelial cell)",
+    "d": "A fixed macrophage in the sinusoid wall that phagocytoses debris and microbes."
+   },
+   {
+    "t": "Interlobular septum",
+    "d": "Thin connective-tissue partition between neighbouring lobules."
+   },
+   {
+    "t": "Interlobular bile duct",
+    "d": "The bile duct of a portal triad, collecting bile from canaliculi."
+   },
+   {
+    "t": "Macrophage",
+    "d": "A large phagocytic immune cell that engulfs particles and worn-out cells."
+   },
+   {
+    "t": "Hepatic acinus",
+    "d": "Tortora's functional unit: a diamond of tissue around a portal triad, zoned by distance from the incoming blood."
+   }
+  ],
+  "note": "Tortora 16e calls Kupffer cells 'stellate reticuloendothelial cells' and organises the liver by the hepatic acinus rather than the lobule; the slide's 'interlobular septum' is not labelled in Tortora (labelled 'connective tissue')."
+ },
+ {
+  "n": 42,
+  "title": "Brief functions of the Liver",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder - Functions of the Liver and Gallbladder",
+    "book_pages": "970-971",
+    "pdf_pages": "986-987",
+    "capture": "p.970 right column, from the sentence 'In addition to secreting bile ... the liver performs many other vital functions:' and the bullets 'Carbohydrate metabolism', 'Lipid metabolism', 'Protein metabolism' (which runs over the page break), then p.971 left column bullets 'Processing of drugs and hormones', 'Excretion of bilirubin', 'Synthesis of bile salts', 'Storage', 'Phagocytosis', 'Activation of vitamin D' (ends 'discussed more fully in Chapter 25').",
+    "figures": [],
+    "tables": [
+     "24.4",
+     "24.7"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.11",
+    "section_title": "Liver and Gallbladder - Functions of the Liver and Gallbladder",
+    "book_pages": "970",
+    "pdf_pages": "986",
+    "capture": "p.970 left column, heading 'Functions of the Liver and Gallbladder', paragraphs 1-2 (bile composition; bilirubin from haem, stercobilin colours faeces).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Because all blood from the gut passes through it first, the liver is the body's chemical processing plant. Carbohydrate: it buffers blood glucose, storing it as glycogen after meals and releasing it (or making new glucose from amino acids and lactate) between them. Lipid: it burns fatty acids, makes cholesterol and lipoproteins, and turns cholesterol into bile salts. Protein: it strips amino groups from amino acids, converts the toxic ammonia to urea, and makes most plasma proteins including clotting factors. Absorbed drugs and hormones are modified or excreted before reaching the rest of the body (the first-pass effect the slide names). Bilirubin, the yellow breakdown product of haem from old red cells, is taken up and dumped into bile; its bacterial derivative stercobilin colours faeces. Kupffer cells phagocytose debris. It stores vitamins A, D, E, K, B12, iron and copper, and performs one step of vitamin D activation. Tortora lists all of these as bullets on pp.970-971.",
+  "terms": [
+   {
+    "t": "Glycogen",
+    "d": "The branched glucose polymer that stores carbohydrate in liver and muscle."
+   },
+   {
+    "t": "First-pass metabolism",
+    "d": "Chemical alteration of an absorbed drug by the liver before it reaches the systemic circulation."
+   },
+   {
+    "t": "Bilirubin",
+    "d": "Yellow pigment from haem breakdown, excreted by the liver into bile; excess causes jaundice."
+   },
+   {
+    "t": "Bile salt",
+    "d": "Sodium or potassium salt of a bile acid (made from cholesterol) that emulsifies fat."
+   },
+   {
+    "t": "Phagocytosis",
+    "d": "Engulfing of particles or cells by a cell."
+   },
+   {
+    "t": "Deamination",
+    "d": "Removal of the amino group from an amino acid, releasing ammonia."
+   },
+   {
+    "t": "Urea",
+    "d": "The low-toxicity nitrogen waste the liver makes from ammonia, excreted by the kidneys."
+   },
+   {
+    "t": "Vitamin D activation",
+    "d": "Conversion of vitamin D to its active hormone form; the liver adds the first hydroxyl, the kidney the second."
+   }
+  ]
+ },
+ {
+  "n": 43,
+  "title": "Anatomy of the Pancreas",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.10",
+    "section_title": "Pancreas - Anatomy of the Pancreas",
+    "book_pages": "964",
+    "pdf_pages": "980",
+    "capture": "p.964 right column, heading 'Anatomy of the Pancreas': paragraph 1 starting 'The pancreas (pan- = all; -creas = flesh), a retroperitoneal gland' (12-15 cm, posterior to greater curvature; head, neck, body, tail; two ducts) and paragraph 2 (pancreatic duct, hepatopancreatic ampulla, major duodenal papilla) continuing onto p.965 left column top.",
+    "figures": [
+     "24.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.10",
+    "section_title": "Pancreas",
+    "book_pages": "965",
+    "pdf_pages": "981",
+    "capture": "p.965 middle: Figure 24.16 part (e) 'Anterior view' cadaver photograph (labels Duodenum, Bile duct, Major duodenal papilla, Head/Neck/Body/Tail of pancreas, Pancreatic duct) - the slide's figure. Below it, left column heading 'Histology of the Pancreas' (1 paragraph: 99% acini exocrine, 1% islets endocrine - glucagon, insulin) and right column heading 'Composition and Functions of Pancreatic Juice' (1 paragraph: 1200-1500 mL/day, sodium bicarbonate pH 7.1-8.2, amylase, trypsin, chymotrypsin, carboxypeptidase, elastase, lipase, nucleases).",
+    "figures": [
+     "24.16"
+    ],
+    "tables": [
+     "24.5"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.10",
+    "section_title": "Pancreas - Composition and Functions of Pancreatic Juice",
+    "book_pages": "966",
+    "pdf_pages": "982",
+    "capture": "p.966 left column top, paragraph starting 'The protein-digesting enzymes of the pancreas are produced in an inactive form' (trypsinogen, trypsin inhibitor, enterokinase, activation cascade).",
+    "figures": [],
+    "tables": [
+     "24.5"
+    ]
+   }
+  ],
+  "basics": "The pancreas is a soft, 12-15 cm gland lying transversely against the back wall behind the stomach (retroperitoneal), its head cupped by the duodenal C, its body crossing the midline and its tail reaching the spleen. It is two glands in one. About 99% of its tissue is exocrine acini, which pour 1.2-1.5 litres a day of pancreatic juice into small ducts that unite into the main pancreatic duct (and a smaller accessory duct) emptying into the second part of the duodenum. That juice carries bicarbonate to neutralise gastric acid, and enzymes for every food class: amylase, several proteases (trypsin, chymotrypsin, elastase, carboxypeptidase), lipase and nucleases. The proteases are made inactive and switched on only in the duodenum by the brush-border enzyme enterokinase, otherwise the gland would digest itself. The remaining 1%, the islets, is endocrine, releasing insulin and glucagon into blood. Tortora Figure 24.16e.",
+  "terms": [
+   {
+    "t": "Retroperitoneal",
+    "d": "Behind the peritoneum against the posterior abdominal wall."
+   },
+   {
+    "t": "Pancreatic acinus",
+    "d": "Cluster of exocrine cells secreting pancreatic juice into a duct."
+   },
+   {
+    "t": "Pancreatic islet (of Langerhans)",
+    "d": "Cluster of endocrine cells secreting insulin, glucagon and other hormones into blood."
+   },
+   {
+    "t": "Sodium bicarbonate",
+    "d": "The alkaline salt in pancreatic juice that neutralises stomach acid in the duodenum."
+   },
+   {
+    "t": "Trypsin / trypsinogen",
+    "d": "The main pancreatic protease and its inactive precursor."
+   },
+   {
+    "t": "Zymogen",
+    "d": "An inactive enzyme precursor (pepsinogen, trypsinogen) activated after secretion."
+   },
+   {
+    "t": "Insulin / glucagon",
+    "d": "Islet hormones lowering / raising blood glucose."
+   },
+   {
+    "t": "Second part of the duodenum",
+    "d": "The descending portion of the duodenal C, where the ducts open."
+   }
+  ],
+  "note": "Slide: retroperitoneal 'except the tail'. Tortora p.964 simply calls the pancreas retroperitoneal; the intraperitoneal tail (in the splenorenal ligament) is standard clinical anatomy not stated in the book."
+ },
+ {
+  "n": 44,
+  "title": "Anatomy of the large intestine",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Anatomy of the Large Intestine",
+    "book_pages": "983",
+    "pdf_pages": "999",
+    "capture": "p.983 lower half: Figure 24.24 part (a) 'Anterior view of large intestine showing major regions' (labels Transverse colon, Right and Left colic flexure, Ascending colon, Descending colon, Teniae coli, Omental appendices, Ileum, Mesoappendix, Haustra, Ileal orifice, Cecum, Sigmoid colon, Vermiform appendix, Rectum, Anal canal, Anus) and the 'Functions of the Large Intestine' box; Q line asks which portions are retroperitoneal.",
+    "figures": [
+     "24.24"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Anatomy of the Large Intestine",
+    "book_pages": "983-984",
+    "pdf_pages": "999-1000",
+    "capture": "p.983 right column, heading 'Anatomy of the Large Intestine' (1.5 m, 6.5 cm; runs over the page break) then p.984 left column: paragraph 'The opening from the ileum' (ileal orifice, cecum, appendix, mesoappendix), paragraph 'The open end of the cecum merges' (ascending, transverse, descending, sigmoid colon; ascending and descending are retroperitoneal; flexures), paragraph 'The rectum is about 15 cm' (rectum, anal canal, sphincters, continuing to the right column top).",
+    "figures": [
+     "24.24"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Histology of the Large Intestine",
+    "book_pages": "984-986",
+    "pdf_pages": "1000-1002",
+    "capture": "p.984 right column, second paragraph under 'Histology of the Large Intestine' starting 'The submucosa of the large intestine' (teniae coli, haustra) continuing at the top of p.986 left column ('of the visceral peritoneum ... omental (fatty) appendices').",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The large intestine is a 1.5 m frame around the small intestine. Chyme enters from the ileum through the ileal orifice (the slide's ileocaecal valve) into the caecum, a pouch with the worm-like appendix hanging from it on its own small mesentery, the mesoappendix. The colon ascends the right side, turns at the right colic flexure under the liver, crosses as the transverse colon, turns at the left colic flexure under the spleen, descends the left side, bends as the S-shaped sigmoid colon and ends in rectum and anal canal. Three external marks: the longitudinal muscle is gathered into three bands, the teniae coli; their tone puckers the wall into pouches, the haustra; and fat-filled tags of peritoneum, the omental appendices, hang from the teniae. Caecum, transverse and sigmoid colon hang on mesenteries (intraperitoneal); ascending and descending colon are pressed against the back wall (retroperitoneal); the anal canal lies below the peritoneum. Tortora Figure 24.24a.",
+  "terms": [
+   {
+    "t": "Ileal orifice / ileocaecal valve",
+    "d": "The opening of the ileum into the caecum, guarded by mucosal lips that limit backflow."
+   },
+   {
+    "t": "Vermiform appendix",
+    "d": "The blind, worm-shaped tube attached to the caecum, rich in lymphoid tissue."
+   },
+   {
+    "t": "Mesoappendix",
+    "d": "The small mesentery suspending the appendix."
+   },
+   {
+    "t": "Teniae coli",
+    "d": "Three thickened bands of longitudinal muscle running along the colon."
+   },
+   {
+    "t": "Haustra",
+    "d": "The pouches of the colon wall produced by tonic contraction of the teniae."
+   },
+   {
+    "t": "Omental (epiploic) appendices",
+    "d": "Small fat-filled pouches of peritoneum attached to the colon."
+   },
+   {
+    "t": "Colic flexure",
+    "d": "A sharp bend of the colon: right (hepatic) or left (splenic)."
+   },
+   {
+    "t": "Transverse mesocolon / sigmoid mesocolon",
+    "d": "The peritoneal folds suspending the transverse and sigmoid colon."
+   }
+  ],
+  "note": "Tortora 16e labels the ileum-caecum junction 'ileal orifice' rather than 'ileocecal sphincter (valve)'. The book states ascending and descending colon are retroperitoneal, transverse and sigmoid are not (p.984); it does not classify the rectum or anal canal."
+ },
+ {
+  "n": 45,
+  "title": "Mechanical digestion in the colon & motility",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Mechanical Digestion in the Large Intestine",
+    "book_pages": "986",
+    "pdf_pages": "1002",
+    "capture": "p.986 left column, heading 'Mechanical Digestion in the Large Intestine': 3 paragraphs starting 'The passage of chyme from the ileum into the cecum' (ileal orifice, gastroileal reflex), 'Movements of the colon begin', and 'One movement characteristic of the large intestine is haustral churning' (haustral churning, peristalsis 3-12/min, mass peristalsis from mid-transverse colon, gastrocolic reflex 3-4 times a day). Ends at 'during or immediately after a meal'.",
+    "figures": [],
+    "tables": [
+     "24.6"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Table 24.6",
+    "book_pages": "988",
+    "pdf_pages": "1004",
+    "capture": "p.988 upper left: Table 24.6 'Summary of Digestive Activities in the Large Intestine', the 'Muscular layer' rows (haustral churning, peristalsis, mass peristalsis, defecation reflex).",
+    "figures": [],
+    "tables": [
+     "24.6"
+    ]
+   }
+  ],
+  "basics": "The colon moves its contents slowly because its job is to absorb water and let bacteria work, so most of its movements mix rather than propel. Haustral churning: a haustrum relaxes and fills; when stretched enough its wall contracts and squeezes the contents into the next pouch. Ordinary peristalsis also occurs, but at only 3-12 contractions per minute. Mass peristalsis is the exception: a few times a day, usually during or just after a meal (the gastrocolic reflex triggered by food entering the stomach), a strong wave starts around the middle of the transverse colon and sweeps the contents of descending and sigmoid colon into the rectum in one push, producing the urge to defecate. Entry from the ileum is likewise meal-timed: the gastroileal reflex intensifies ileal peristalsis and the partly closed ileal orifice lets chyme trickle into the caecum. Unsaid: contents spend 3-10 hours here, and reduced motility means more water absorbed and harder stools.",
+  "terms": [
+   {
+    "t": "Haustral churning",
+    "d": "Slow filling and emptying of the colon's pouches that mixes contents and aids water absorption."
+   },
+   {
+    "t": "Mass peristalsis",
+    "d": "A strong, infrequent wave driving colon contents into the rectum."
+   },
+   {
+    "t": "Gastrocolic reflex",
+    "d": "Increased colonic motility triggered by food entering the stomach."
+   },
+   {
+    "t": "Gastroileal reflex",
+    "d": "Increased ileal peristalsis after a meal, pushing chyme into the caecum."
+   },
+   {
+    "t": "Haustrum (pl. haustra)",
+    "d": "One of the sacculations (pouches) of the colon wall."
+   },
+   {
+    "t": "Motility",
+    "d": "The contractile activity that mixes and moves gut contents."
+   }
+  ]
+ },
+ {
+  "n": 46,
+  "title": "Histological 3D reconstruction of the colon",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Histology of the Large Intestine",
+    "book_pages": "985",
+    "pdf_pages": "1001",
+    "capture": "p.985 upper two-thirds: Figure 24.25 part (a) 'Three-dimensional view of layers of the large intestine' (labels Lumen of large intestine, Openings of intestinal glands, Absorptive cell, Goblet cell, Intestinal gland, Lamina propria, Lymphoid nodule, Muscularis mucosae, Lymphatic vessel, Arteriole, Venule, Circular and Longitudinal layer of muscle, Myenteric neural plexus, Mucosa, Submucosa, Muscular layer, Serosa).",
+    "figures": [
+     "24.25"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Histology of the Large Intestine",
+    "book_pages": "984",
+    "pdf_pages": "1000",
+    "capture": "p.984 right column, heading 'Histology of the Large Intestine': paragraph 1 starting 'The wall of the large intestine contains the typical four layers' (simple columnar epithelium; absorptive and goblet cells; long straight intestinal glands; no circular folds or villi, microvilli present) and paragraph 2 'The submucosa of the large intestine' (two muscle layers, teniae coli, haustra), continuing on p.986.",
+    "figures": [
+     "24.25"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The colon wall follows the four-layer plan but is built for water absorption and lubrication, not nutrient uptake, so it is much plainer than the small intestine: no circular folds and no villi, just a flat simple columnar epithelium punctured by the openings of long, straight, tubular intestinal glands that run the full thickness of the mucosa. Two cell types dominate: absorptive cells (with microvilli) that reclaim water and ions, and very numerous goblet cells whose mucus lubricates the increasingly solid contents. Lymphoid nodules sit in the lamina propria and may push into the submucosa. The muscular layer has the usual inner circular sheet, but the outer longitudinal sheet is incomplete, concentrated into the three teniae coli, with the myenteric plexus between; the serosa outside is visceral peritoneum bearing the fatty omental appendices. Tortora Figure 24.25a. Compare slide 33: the small intestine's villi are missing here, which is why far less absorption occurs.",
+  "terms": [
+   {
+    "t": "Intestinal gland (crypt)",
+    "d": "A straight tubular gland of the colonic mucosa lined by absorptive and goblet cells."
+   },
+   {
+    "t": "Simple columnar epithelium",
+    "d": "A single layer of tall cells; the colon's lining."
+   },
+   {
+    "t": "Goblet cell",
+    "d": "Mucus-secreting epithelial cell, very abundant in the colon."
+   },
+   {
+    "t": "Lymphoid nodule",
+    "d": "A cluster of lymphocytes in the lining; part of MALT."
+   },
+   {
+    "t": "Myenteric plexus",
+    "d": "The nerve network between circular and longitudinal muscle controlling colonic motility."
+   }
+  ]
+ },
+ {
+  "n": 47,
+  "title": "Intestinal glands and cell types of the colon",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Histology of the Large Intestine",
+    "book_pages": "985-986",
+    "pdf_pages": "1001-1002",
+    "capture": "p.985 lower third: Figure 24.25 part (b) 'Sectional view of intestinal glands and cell types' (labels Openings of intestinal glands, Lamina propria, Microvilli, Intestinal gland, Absorptive cell - absorbs water, Goblet cell - secretes mucus, Lymphoid nodule, Muscularis mucosae, Submucosa) with the SEM 'Surface of large intestine'; and p.986 top, parts (c) 'Portion of the wall of the large intestine' (LM 30x) and (d) 'Details of mucosa of large intestine' (LM 300x: Lumen, Absorptive cell, Goblet cell, Lamina propria, Intestinal gland) - the slide's right-hand labels match (d).",
+    "figures": [
+     "24.25"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Histology of the Large Intestine",
+    "book_pages": "984",
+    "pdf_pages": "1000",
+    "capture": "p.984 right column, first paragraph under 'Histology of the Large Intestine' (cell types and glands). 1 paragraph.",
+    "figures": [],
+    "tables": [
+     "24.6"
+    ]
+   }
+  ],
+  "basics": "A close-up of the colonic mucosa, Tortora Figure 24.25b and d. Looking down on the surface you see a regular array of holes, the openings of the intestinal glands; in section each gland is a straight test-tube reaching down to the muscularis mucosae. The lining cells alternate between absorptive cells (tall, with a microvillous surface, pulling water and ions out of the lumen) and goblet cells (swollen with pale mucus). Goblet cells are far more numerous than in the small intestine and increase toward the rectum, because faeces need lubrication. There are no villi, so the absorptive area is modest, but the colon still recovers most of the litre or so of water that enters it. Stem cells at the base of each gland renew the epithelium every few days; a gland lumen filled with mucus looks empty in stained sections.",
+  "terms": [
+   {
+    "t": "Absorptive cell of the colon",
+    "d": "Columnar cell with microvilli whose main job is reabsorbing water and salts."
+   },
+   {
+    "t": "Mucus",
+    "d": "Slippery glycoprotein secretion that lubricates and protects the lining."
+   },
+   {
+    "t": "Gland opening",
+    "d": "The mouth of a tubular gland on the surface of the mucosa."
+   },
+   {
+    "t": "Lamina propria",
+    "d": "The thin connective-tissue partitions between neighbouring glands."
+   },
+   {
+    "t": "Muscularis mucosae",
+    "d": "The thin muscle layer at the base of the glands, separating mucosa from submucosa."
+   }
+  ]
+ },
+ {
+  "n": 48,
+  "title": "Chemical digestion, Absorption & Faeces formation in the colon",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Chemical Digestion in the Large Intestine",
+    "book_pages": "986",
+    "pdf_pages": "1002",
+    "capture": "p.986 right column, heading 'Chemical Digestion in the Large Intestine': 1 paragraph starting 'The final stage of digestion occurs in the colon' (bacterial fermentation, gases, indole/skatole, stercobilin, B vitamins and vitamin K).",
+    "figures": [],
+    "tables": [
+     "24.6"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Absorption and Feces Formation in the Large Intestine",
+    "book_pages": "986-987",
+    "pdf_pages": "1002-1003",
+    "capture": "p.986 right column bottom, heading 'Absorption and Feces Formation in the Large Intestine': paragraph starting 'By the time chyme has remained' (feces composition; runs over the page break to p.987 left column top), then p.987 left column paragraph 'Although 90% of all water absorption' (0.5-1.0 L enters, all but 100-200 mL absorbed; ions and vitamins).",
+    "figures": [],
+    "tables": [
+     "24.6"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - The Defecation Reflex (diarrhea and constipation)",
+    "book_pages": "987",
+    "pdf_pages": "1003",
+    "capture": "p.987 right column, the two paragraphs starting 'Diarrhea (di-a-RE-a; dia- = through' and 'Constipation (kon-sti-PA-shun' (below the 'Dietary Fiber' clinical box).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The colon secretes no digestive enzymes; whatever chemistry happens there is done by resident bacteria. They ferment leftover carbohydrate (giving hydrogen, CO2 and methane), break remaining protein into amino acids and then into smelly compounds (indole, skatole, hydrogen sulphide), convert bilirubin to brown stercobilin, and make some B vitamins and vitamin K, which the colon absorbs. Its main absorptive work is water and ions: of the 0.5-1 L arriving from the ileum only 100-200 mL leaves in faeces, and that reclamation matters for whole-body water balance even though the small intestine absorbs far more. After 3-10 hours the chyme is semi-solid faeces: water, salts, shed epithelial cells, bacteria, bacterial products and indigestible residue such as cellulose. The slide's two disorders are the water balance gone wrong: too fast a transit leaves too little time to absorb water (diarrhoea); too slow a transit dries and hardens the stool (constipation). Tortora names the bacteria only generically.",
+  "terms": [
+   {
+    "t": "Fermentation",
+    "d": "Bacterial breakdown of carbohydrate without oxygen, releasing gases and short-chain fatty acids."
+   },
+   {
+    "t": "Flatus",
+    "d": "Intestinal gas."
+   },
+   {
+    "t": "Stercobilin",
+    "d": "Brown pigment made by bacteria from bilirubin; colours faeces."
+   },
+   {
+    "t": "Vitamin K",
+    "d": "Fat-soluble vitamin needed for blood clotting; partly supplied by gut bacteria."
+   },
+   {
+    "t": "Sloughed epithelial cells",
+    "d": "Lining cells shed into the lumen as the epithelium renews itself."
+   },
+   {
+    "t": "Diarrhoea",
+    "d": "Frequent, watery stools from increased motility or decreased absorption."
+   },
+   {
+    "t": "Constipation",
+    "d": "Infrequent, hard stools from slow transit and excess water absorption."
+   },
+   {
+    "t": "Gut microbiota",
+    "d": "The community of bacteria normally living in the colon."
+   }
+  ],
+  "note": "Escherichia coli is not named in Tortora; the book speaks only of 'bacteria that inhabit the lumen' (p.986)."
+ },
+ {
+  "n": 49,
+  "title": "Brief summary of the functions of the large intestine",
+  "kind": "summary",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine",
+    "book_pages": "983",
+    "pdf_pages": "999",
+    "capture": "p.983 right of Figure 24.24: the box 'Functions of the Large Intestine', items 1-5 (the slide's five points almost verbatim).",
+    "figures": [
+     "24.24"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Table 24.6 / Table 24.7",
+    "book_pages": "988",
+    "pdf_pages": "1004",
+    "capture": "p.988 upper left: Table 24.6 'Summary of Digestive Activities in the Large Intestine' (whole table), and the 'Large intestine' row at the bottom of Table 24.7.",
+    "figures": [],
+    "tables": [
+     "24.6",
+     "24.7"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Mechanical Digestion; Chemical Digestion; Absorption and Feces Formation",
+    "book_pages": "986-987",
+    "pdf_pages": "1002-1003",
+    "capture": "p.986 left column 'Mechanical Digestion in the Large Intestine' (3 paragraphs), right column 'Chemical Digestion in the Large Intestine' (1 paragraph) and 'Absorption and Feces Formation' (continuing to p.987 left column).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Five functions, each already met: three kinds of movement (haustral churning, slow peristalsis, mass peristalsis) push contents toward the rectum; bacteria finish off proteins and carbohydrates and make vitamin K and some B vitamins; the lining absorbs water, some ions and those vitamins; the dried residue becomes faeces; and the defecation reflex empties the rectum. Tortora states the same five items in the box beside Figure 24.24 and in Table 24.6. What is left implicit: the colon has no enzymes of its own and no villi, so its contribution to nutrient absorption is small, but its water reclamation and its bacterial partners are essential.",
+  "terms": [
+   {
+    "t": "Defecation",
+    "d": "Expulsion of faeces through the anus."
+   },
+   {
+    "t": "Rectum",
+    "d": "The 15 cm straight terminal part of the large intestine in front of the sacrum."
+   },
+   {
+    "t": "Vitamin synthesis (bacterial)",
+    "d": "Production of vitamin K and some B vitamins by colonic bacteria."
+   }
+  ]
+ },
+ {
+  "n": 50,
+  "title": "Anatomy of Anal canal & Defecation reflex",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - Anatomy of the Large Intestine",
+    "book_pages": "983-984",
+    "pdf_pages": "999-1000",
+    "capture": "p.983 lower right: Figure 24.24 part (b) 'Coronal section of anal canal' (labels Rectum, Anal canal, Internal anal sphincter - involuntary, External anal sphincter - voluntary, Anal column, Anus). Text: p.984 left column, paragraph starting 'The rectum is about 15 cm' and the first 8 lines of the right column (anal canal 2-3 cm, anal columns, internal sphincter smooth muscle, external sphincter skeletal muscle).",
+    "figures": [
+     "24.24"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - The Defecation Reflex",
+    "book_pages": "987",
+    "pdf_pages": "1003",
+    "capture": "p.987 left column, heading 'The Defecation Reflex': 2 paragraphs starting 'Mass peristaltic movements push fecal material' (stretch receptors, sacral cord, parasympathetic motor impulses, internal sphincter opens) and 'The external anal sphincter is voluntarily controlled'.",
+    "figures": [],
+    "tables": [
+     "24.6"
+    ]
+   }
+  ],
+  "basics": "The anal canal is the last 2-3 cm of the tube. Its lining is thrown into longitudinal ridges, the anal columns, containing veins (which become haemorrhoids when swollen). The outlet is closed by two rings: the internal anal sphincter, a thickening of the circular smooth muscle under involuntary autonomic control, and outside it the external anal sphincter, skeletal muscle of the pelvic floor under voluntary control. Both are normally contracted. The slide's annotations summarise the reflex: parasympathetic impulses from the sacral spinal cord contract the rectal wall and relax the internal sphincter; nothing leaves until the person voluntarily relaxes the external sphincter. This division between involuntary inner and voluntary outer ring is what makes continence possible after infancy. Tortora Figure 24.24b and the paragraph on p.984.",
+  "terms": [
+   {
+    "t": "Anal column",
+    "d": "A longitudinal fold of anal canal mucosa carrying a vein and artery."
+   },
+   {
+    "t": "Internal anal sphincter",
+    "d": "Involuntary smooth-muscle ring closing the anal canal; relaxes reflexly."
+   },
+   {
+    "t": "External anal sphincter",
+    "d": "Voluntary skeletal-muscle ring around the anus."
+   },
+   {
+    "t": "Coronal section",
+    "d": "A vertical cut dividing front from back, giving a face-on view of the canal."
+   },
+   {
+    "t": "Sacral spinal cord",
+    "d": "The lowest cord segments, source of pelvic parasympathetic outflow."
+   },
+   {
+    "t": "Continence",
+    "d": "The ability to hold faeces or urine until a chosen time."
+   }
+  ]
+ },
+ {
+  "n": 51,
+  "title": "Mechanism of Defecation",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.13",
+    "section_title": "Large Intestine - The Defecation Reflex",
+    "book_pages": "987",
+    "pdf_pages": "1003",
+    "capture": "p.987 left column, heading 'The Defecation Reflex': paragraph 1 starting 'Mass peristaltic movements push fecal material' (distension -> stretch receptors -> sacral spinal cord -> parasympathetic nerves -> descending colon, sigmoid colon, rectum, anus; longitudinal rectal muscle contracts; internal sphincter opens) and paragraph 2 'The external anal sphincter is voluntarily controlled' (voluntary relaxation, diaphragm and abdominal muscles, postponement, infants).",
+    "figures": [
+     "24.24"
+    ],
+    "tables": [
+     "24.6"
+    ]
+   }
+  ],
+  "basics": "A reflex arc in four steps. Stimulus: mass peristalsis fills the rectum and stretches its wall. Sensor: stretch receptors in the rectal wall send impulses to the sacral segments of the spinal cord. Integration and motor output: the cord returns parasympathetic impulses along the pelvic nerves to the descending and sigmoid colon, rectum and anus; the longitudinal muscle of the rectum contracts, shortening it and raising pressure, and the internal anal sphincter relaxes. Final gate: the external anal sphincter, skeletal muscle, must be voluntarily relaxed; if instead it is held shut, the urge fades as the rectal wall accommodates and the faeces wait for the next mass movement. Voluntary contraction of the diaphragm and abdominal wall (straining) raises abdominal pressure to help. Infants defecate automatically because voluntary control of the external sphincter is not yet learned. The slide is a close paraphrase of Tortora's paragraph on p.987.",
+  "terms": [
+   {
+    "t": "Stretch receptor",
+    "d": "A sensory ending activated by distension of the wall."
+   },
+   {
+    "t": "Sensory vs motor impulses",
+    "d": "Signals travelling toward the CNS vs away from it to muscles or glands."
+   },
+   {
+    "t": "Parasympathetic (pelvic splanchnic) nerves",
+    "d": "Sacral nerves carrying the motor arm of the defecation reflex."
+   },
+   {
+    "t": "Smooth vs skeletal muscle",
+    "d": "Involuntary muscle of organ walls vs voluntary striated muscle."
+   },
+   {
+    "t": "Valsalva / straining",
+    "d": "Forced exhalation against a closed airway to raise abdominal pressure."
+   }
+  ]
+ },
+ {
+  "n": 52,
+  "title": "Gastrointestinal Hormones",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.14",
+    "section_title": "Phases of Digestion - Table 24.8 Major Hormones That Control Digestion",
+    "book_pages": "990",
+    "pdf_pages": "1006",
+    "capture": "p.990 lower half: Table 24.8 (rows Gastrin, Secretin, Cholecystokinin: stimulus and site of secretion; major and minor effects).",
+    "figures": [],
+    "tables": [
+     "24.8"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.14",
+    "section_title": "Phases of Digestion - Gastric Phase, Hormonal regulation; Intestinal Phase",
+    "book_pages": "989-990",
+    "pdf_pages": "1005-1006",
+    "capture": "p.989 left column, bullet 'Hormonal regulation.' under 'Gastric Phase' (gastrin: stimuli, actions, inhibited below pH 2.0); p.990 left column heading 'Intestinal Phase', bullet 'Neural regulation' (enterogastric reflex) and bullet 'Hormonal regulation' starting 'The intestinal phase of digestion is mediated by two major hormones' (CCK and secretin), continuing into the right column top (ends 'slows production of acid in the stomach').",
+    "figures": [],
+    "tables": [
+     "24.8"
+    ]
+   },
+   {
+    "chapter": 24,
+    "section": "24.14",
+    "section_title": "Phases of Digestion - Other Hormones of the Digestive System",
+    "book_pages": "990-991",
+    "pdf_pages": "1006-1007",
+    "capture": "p.990 right column, heading 'Other Hormones of the Digestive System', paragraph starting 'Besides gastrin, CCK, and secretin' (ghrelin; GIP and GLP stimulate insulin release, incretins), which runs over the page break to p.991 left column top (motilin, VIP, gastrin-releasing peptide, somatostatin).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Hormones let one part of the gut tell distant parts what is coming. Gastrin, from G cells of the stomach antrum, is released when the stomach is stretched or contains peptides (or via vagal gastrin-releasing peptide) and drives acid secretion, motility and growth of the gastric lining; it switches off below pH 2. Cholecystokinin (CCK), from duodenal and jejunal I cells (Tortora: CCK cells), responds to fats and peptides arriving in the duodenum and orders enzyme-rich pancreatic juice, gallbladder contraction with relaxation of the sphincter of Oddi, slower gastric emptying, and satiety. Secretin, from S cells, responds to acid in the duodenum and calls for bicarbonate from pancreas and bile ducts while damping gastric acid. GIP, from K cells, responds to glucose and fat and primes the pancreas to release insulin before blood glucose rises (an incretin). The table's columns mirror Tortora Table 24.8; GIP is covered in the 'Other hormones' paragraph.",
+  "terms": [
+   {
+    "t": "Enteroendocrine cell",
+    "d": "A hormone-secreting cell scattered in the gut epithelium (G, I/CCK, S, K cells)."
+   },
+   {
+    "t": "Trophic effect",
+    "d": "A hormone's action promoting growth or maintenance of a tissue."
+   },
+   {
+    "t": "Gastrin-releasing peptide (GRP)",
+    "d": "Neurotransmitter released by vagal fibres that triggers gastrin secretion."
+   },
+   {
+    "t": "Secretin",
+    "d": "Duodenal hormone released by acid that stimulates bicarbonate secretion."
+   },
+   {
+    "t": "GIP (glucose-dependent insulinotropic peptide)",
+    "d": "Duodenal hormone released by glucose and fat that stimulates insulin release."
+   },
+   {
+    "t": "Incretin",
+    "d": "A gut hormone (GIP, GLP-1) that boosts insulin secretion in anticipation of absorbed glucose."
+   },
+   {
+    "t": "Beta cell",
+    "d": "The insulin-secreting cell of the pancreatic islet."
+   },
+   {
+    "t": "HCO3-",
+    "d": "Bicarbonate ion, the alkaline buffer secreted by pancreas and bile ducts."
+   }
+  ],
+  "note": "Tortora names the CCK-secreting cells 'CCK cells' and does not use 'I cells' or 'K cells'; Table 24.8 omits GIP, which is described in the 'Other Hormones' paragraph (p.990-991) without the gastric-acid inhibition the slide lists."
+ },
+ {
+  "n": 53,
+  "title": "Embryonic Development of the Digestive Tract",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 24,
+    "section": "24.15",
+    "section_title": "Development of the Digestive System",
+    "book_pages": "991",
+    "pdf_pages": "1007",
+    "capture": "p.991 left column, heading '24.15 Development of the Digestive System': paragraph 1 starting 'During the fourth week of development' (endoderm forms the primitive gut; splanchnic mesoderm; endoderm gives epithelium, mesoderm gives muscle and connective tissue) and paragraph 2 'The primitive gut elongates and differentiates' (foregut, midgut, hindgut; yolk sac), continuing in the right column: stomodeum and oropharyngeal membrane, proctodeum and cloacal membrane, then the paragraph 'The foregut develops into the pharynx, esophagus, stomach, and part of the duodenum. The midgut ... The hindgut ...' and the last paragraph on buds forming salivary glands, liver, gallbladder, pancreas.",
+    "figures": [
+     "29.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.1",
+    "section_title": "Embryonic Period - Fourth Week of Development (embryonic folding)",
+    "book_pages": "1175-1176",
+    "pdf_pages": "1191-1192",
+    "capture": "p.1176 whole page: Figure 29.12 'Embryonic folding', parts (a)-(d), sagittal and transverse sections at 22, 24, 26 and 28 days (labels Foregut, Midgut, Hindgut, Umbilical vesicle [= yolk sac], Primitive gut, Stomodeum, Proctodeum, Oropharyngeal and Cloacal membranes, Dorsal mesentery, Neural tube, Notochord, Intraembryonic coelom). Text: p.1175 left column, paragraph starting 'During the fourth week after fertilization' (embryonic folding, head/tail/lateral folds, primitive gut, foregut/midgut/hindgut).",
+    "figures": [
+     "29.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.12",
+    "section_title": "Abdominal Aorta (Exhibit table)",
+    "book_pages": "809-810",
+    "pdf_pages": "825-826",
+    "capture": "p.809 the table rows 'Celiac trunk (artery)' (Regions Supplied column: all foregut-derived organs, abdominal oesophagus to duodenum, plus spleen) and 'Superior mesenteric artery' (duodenum to transverse colon), continuing on p.810 top with 'Inferior mesenteric artery' (transverse colon to rectum). Figure 21.22 on p.812-813 draws the three vessels.",
+    "figures": [
+     "21.22"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "In week 4 the flat three-layered embryo folds head-to-tail and side-to-side into a cylinder, pinching part of the yolk sac (Tortora: umbilical vesicle) into the body as the primitive gut, a tube of endoderm wrapped in mesoderm. Endoderm becomes the lining epithelium and glands; mesoderm the muscle and connective tissue; ectoderm the skin. The tube is closed at each end by an ectoderm-endoderm membrane that later ruptures: oropharyngeal (mouth, from the stomodeum) in week 4, cloacal (anus, from the proctodeum) in week 7. It is named in thirds by its relation to the yolk-sac stalk (vitelline duct): foregut, midgut (still open to the yolk sac), hindgut. Each third keeps one artery for life: coeliac trunk to the foregut, superior mesenteric to the midgut, inferior mesenteric to the hindgut. Liver, pancreas, gallbladder and lung bud all sprout from foregut endoderm. Tortora covers the fates in section 24.15, the folding in Figure 29.12, and the arteries in the chapter 21 aorta exhibit.",
+  "terms": [
+   {
+    "t": "Endoderm / mesoderm / ectoderm",
+    "d": "The inner / middle / outer germ layers of the embryo: gut lining / muscle and connective tissue / skin and nervous system."
+   },
+   {
+    "t": "Primitive gut",
+    "d": "The endodermal tube formed by embryonic folding; forerunner of the digestive canal."
+   },
+   {
+    "t": "Foregut / midgut / hindgut",
+    "d": "The front, middle and rear thirds of the primitive gut, each with its own artery."
+   },
+   {
+    "t": "Yolk sac (umbilical vesicle)",
+    "d": "A membranous sac hanging from the embryo's belly, connected to the midgut by the vitelline duct."
+   },
+   {
+    "t": "Vitelline duct",
+    "d": "The stalk joining the midgut to the yolk sac; normally closes (a remnant is Meckel's diverticulum)."
+   },
+   {
+    "t": "Allantois",
+    "d": "A small outpouching of the hindgut into the connecting stalk; contributes to the bladder."
+   },
+   {
+    "t": "Neural tube / notochord",
+    "d": "The embryonic precursor of brain and spinal cord / the midline rod that induces it."
+   },
+   {
+    "t": "Dorsal mesentery",
+    "d": "The double layer of peritoneum suspending the gut from the back wall in the embryo."
+   },
+   {
+    "t": "Coeliac trunk",
+    "d": "The first unpaired branch of the abdominal aorta, supplying foregut organs."
+   },
+   {
+    "t": "Superior / inferior mesenteric artery",
+    "d": "Aortic branches supplying the midgut / hindgut derivatives."
+   }
+  ],
+  "note": "Tortora 16e calls the yolk sac the 'umbilical vesicle' and does not name the vitelline duct or allantois in Figure 29.12; the artery-to-gut-segment correspondence is stated in the chapter 21 abdominal aorta table (p.809-810), not in chapter 24. Section 24.15 gives the foregut only 'part of the duodenum' and the midgut 'most of the transverse colon' rather than the slide's 'beginning of the duodenum' and '2/3 of transverse colon'."
+ }
+]

@@ -1,0 +1,2033 @@
+[
+ {
+  "n": 1,
+  "title": "HTI5001",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 2,
+  "title": "Learning objectives",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 3,
+  "title": "Appendicular skeleton",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8 intro",
+    "section_title": "The Appendicular Skeleton and Homeostasis (chapter opening)",
+    "book_pages": "242",
+    "pdf_pages": "258",
+    "capture": "p.242 (chapter 8 opening page): the single paragraph spanning both columns beneath the boxed homeostasis statement, starting 'As noted in Chapter 7' - defines the appendicular skeleton (limbs + girdles) and its function, movement",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 7,
+    "section": "7.1",
+    "section_title": "Divisions of the Skeletal System",
+    "book_pages": "203-204",
+    "pdf_pages": "219-220",
+    "capture": "p.203 left column, paragraphs 2-3 under section 7.1 (start 'The adult human skeleton consists') and right column paragraph 1 (start 'skeleton. Figure 7.1 shows') listing axial vs appendicular parts; p.204 Figure 7.1 whole page (anterior and posterior views, axial in blue)",
+    "figures": [
+     "7.1"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A skeleton is a load-bearing frame of stiff elements (bones) connected at joints. Anatomists split the 206 adult bones into two sets. The axial skeleton lies along the body's central axis (skull, vertebral column, ribs, sternum) and mainly protects organs. The appendicular skeleton is everything that hangs off that axis: the limbs plus the two girdles, partial rings of bone that anchor the limbs to the trunk. The pectoral girdle (clavicle and scapula) carries the arm; the pelvic girdle (two hip bones) carries the leg. Because appendicular bones are joined by mobile joints and pulled by large muscles, their main job is movement rather than protection, which is what the slide's 'more related to movements' means. Left unsaid: the two girdles differ greatly in mobility. The pectoral girdle floats on muscles and never touches the spine; the pelvic girdle is locked to the sacrum.",
+  "terms": [
+   {
+    "t": "Axial skeleton",
+    "d": "The 80 bones along the body's midline axis: skull, hyoid, ear ossicles, vertebral column, ribs and sternum."
+   },
+   {
+    "t": "Appendicular skeleton",
+    "d": "The 126 bones of the limbs and the girdles that attach them to the trunk."
+   },
+   {
+    "t": "Girdle",
+    "d": "A ring or partial ring of bone connecting a limb to the axial skeleton."
+   },
+   {
+    "t": "Limb (extremity)",
+    "d": "An arm or leg from shoulder or hip down to the fingers or toes."
+   },
+   {
+    "t": "Articulate",
+    "d": "To form a joint with; two bones articulate where their surfaces meet."
+   },
+   {
+    "t": "Pectoral",
+    "d": "Relating to the chest/shoulder region."
+   },
+   {
+    "t": "Pelvic",
+    "d": "Relating to the pelvis, the bony basin at the base of the trunk."
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "title": "Bones of the appendicular skeleton",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 7,
+    "section": "7.1",
+    "section_title": "Divisions of the Skeletal System - Table 7.1",
+    "book_pages": "203",
+    "pdf_pages": "219",
+    "capture": "p.203, Table 7.1 'The Bones of the Adult Skeletal System' occupying the lower half of the page across both columns; the right half of the table lists the appendicular skeleton region by region with bone counts and the total 126 (the slide's table is this half)",
+    "figures": [],
+    "tables": [
+     "7.1"
+    ]
+   },
+   {
+    "chapter": 7,
+    "section": "7.1",
+    "section_title": "Divisions of the Skeletal System - Figure 7.1",
+    "book_pages": "204",
+    "pdf_pages": "220",
+    "capture": "p.204 Figure 7.1, whole page: every bone group in the table located on the skeleton, anterior and posterior views",
+    "figures": [
+     "7.1"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Counting bones is bookkeeping, but it forces you to notice the structure. Each side has one bone in the arm (humerus), two in the forearm (ulna, radius), eight small wrist bones (carpals), five palm bones (metacarpals) and 14 finger bones (phalanges): 30 per upper limb. The lower limb mirrors it: femur, patella, tibia, fibula, seven ankle bones (tarsals), five metatarsals and 14 phalanges, again 30. Add the girdles (clavicle and scapula on each side; one hip bone on each side) and you reach 126, against 80 in the axial skeleton. The hip bone counts as one because three childhood bones (ilium, ischium, pubis) fuse. Fourteen phalanges per hand comes from three bones in each of four fingers plus two in the thumb. The slide's 'Phalange' is a back-formation; the singular is phalanx.",
+  "terms": [
+   {
+    "t": "Carpal",
+    "d": "One of the eight small bones of the wrist."
+   },
+   {
+    "t": "Metacarpal",
+    "d": "One of the five long bones of the palm, between wrist and fingers."
+   },
+   {
+    "t": "Phalanx (pl. phalanges)",
+    "d": "A finger or toe bone; three per digit except two in thumb and big toe."
+   },
+   {
+    "t": "Tarsal",
+    "d": "One of the seven bones of the ankle and rear foot."
+   },
+   {
+    "t": "Metatarsal",
+    "d": "One of the five long bones of the foot between ankle and toes."
+   },
+   {
+    "t": "Patella",
+    "d": "The kneecap, a bone formed inside the quadriceps tendon."
+   },
+   {
+    "t": "Hip (coxal) bone",
+    "d": "The single fused bone on each side of the pelvis, formed from ilium, ischium and pubis."
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "title": "Pectoral girdle",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.1",
+    "section_title": "Pectoral (Shoulder) Girdle",
+    "book_pages": "243",
+    "pdf_pages": "259",
+    "capture": "p.243: left column, the paragraph under the objective box starting 'The human body has two' which runs into the top of the right column (ends '...ribs to the scapula') - the two bones, sternoclavicular, acromioclavicular and glenohumeral joints, no articulation with the spine; p.243 Figure 8.1 (a) anterior and (b) posterior views, which is the slide's figure",
+    "figures": [
+     "8.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 8,
+    "section": "8.1",
+    "section_title": "Clavicle",
+    "book_pages": "244",
+    "pdf_pages": "260",
+    "capture": "p.244 left column, 2nd paragraph below Figure 8.2 (start 'The medial end, called') - names the sternoclavicular joint (sternal end with manubrium) and acromioclavicular joint (acromial end with acromion)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A girdle is a partial ring of bone connecting a limb to the trunk. The pectoral girdle on each side is only two bones: the clavicle (collarbone) in front and the scapula (shoulder blade) behind. Its single bony contact with the axial skeleton is where the clavicle meets the manubrium of the sternum (sternoclavicular joint); the clavicle then meets the scapula's acromion (acromioclavicular joint), and the scapula's shallow socket receives the humerus (glenohumeral or shoulder joint). The scapula itself is not attached to ribs or spine by bone at all; it is slung in muscles. This trades stability for a huge range of motion, which is why the shoulder dislocates more readily than the hip. The slide's 'shoulder joint' means the glenohumeral joint specifically. It does not mention the acromioclavicular joint, the third joint of the system, nor that the pectoral girdle is stabilised by muscles from the vertebral column and ribs.",
+  "terms": [
+   {
+    "t": "Clavicle",
+    "d": "The collarbone: an S-shaped strut from sternum to shoulder tip."
+   },
+   {
+    "t": "Scapula",
+    "d": "The shoulder blade: a flat triangular bone on the back of the rib cage."
+   },
+   {
+    "t": "Manubrium",
+    "d": "The upper segment of the sternum (breastbone) that receives the clavicles."
+   },
+   {
+    "t": "Acromion",
+    "d": "The flat lateral end of the scapular spine, forming the tip of the shoulder."
+   },
+   {
+    "t": "Glenoid cavity",
+    "d": "The shallow socket on the scapula that receives the head of the humerus."
+   },
+   {
+    "t": "Glenohumeral joint",
+    "d": "The shoulder joint proper, between glenoid cavity and humeral head."
+   },
+   {
+    "t": "Sternoclavicular joint",
+    "d": "Joint between the medial end of the clavicle and the manubrium; the girdle's only bony link to the trunk."
+   },
+   {
+    "t": "Acromioclavicular joint",
+    "d": "Joint between the lateral end of the clavicle and the acromion of the scapula."
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "title": "Right Clavicle",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.1",
+    "section_title": "Clavicle",
+    "book_pages": "243-244",
+    "pdf_pages": "259-260",
+    "capture": "p.244: Figure 8.2 (a) superior and (b) inferior views at the top of the page (labels: acromial end, sternal end, conoid tubercle, impression for the costoclavicular ligament); below it, left column, the 2 paragraphs starting 'the skin) and easily palpable' - the S-shape, sternal and acromial ends, conoid tubercle and costoclavicular impression (this paragraph begins on p.243 right column last lines, 'Each slender, S-shaped clavicle'); optional: p.244 right column Clinical Connection 'Fractured Clavicle'",
+    "figures": [
+     "8.2"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The clavicle is a slender S-shaped strut lying horizontally just under the skin above the first rib. Its job is mechanical: it props the shoulder out to the side and transmits force from the upper limb to the trunk, which is why a fall on an outstretched arm often breaks it at the junction of its two curves. Read the slide's labels as joint surfaces and attachment sites. The rounded medial (sternal) end has a facet for the sternum; the flat lateral (acromial) end has a facet for the acromion. On the underside, the conoid tubercle and trapezoid line anchor the two coracoclavicular ligaments that tie the clavicle to the coracoid process of the scapula, and the costal tuberosity (Tortora's 'impression for the costoclavicular ligament') anchors the ligament to the first rib. The subclavian groove is where the subclavius muscle lies. A facet is simply a small smooth articular surface.",
+  "terms": [
+   {
+    "t": "Facet",
+    "d": "A small, smooth, flat articular surface on a bone."
+   },
+   {
+    "t": "Tubercle",
+    "d": "A small rounded bump on a bone, usually a ligament or tendon attachment."
+   },
+   {
+    "t": "Tuberosity",
+    "d": "A larger, roughened raised area on a bone for muscle or ligament attachment."
+   },
+   {
+    "t": "Acromial end",
+    "d": "The flat lateral end of the clavicle that meets the acromion of the scapula."
+   },
+   {
+    "t": "Sternal end",
+    "d": "The rounded medial end of the clavicle that meets the manubrium."
+   },
+   {
+    "t": "Conoid tubercle",
+    "d": "Bump on the underside of the lateral clavicle where the conoid (coracoclavicular) ligament attaches."
+   },
+   {
+    "t": "Costoclavicular ligament",
+    "d": "Ligament tying the medial clavicle to the first rib."
+   },
+   {
+    "t": "Subcutaneous",
+    "d": "Lying directly under the skin, so easily felt."
+   }
+  ],
+  "note": "The slide's labels (trapezoid line, subclavian groove, costal tuberosity, sternal/acromial facets) come from a more detailed atlas-style figure; Tortora's Figure 8.2 labels only the acromial end, sternal end, conoid tubercle and the impression for the costoclavicular ligament (= costal tuberosity)."
+ },
+ {
+  "n": 7,
+  "title": "Right scapula",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.1",
+    "section_title": "Scapula",
+    "book_pages": "244-245",
+    "pdf_pages": "260-261",
+    "capture": "p.244 left column bottom, heading 'Scapula' (start 'Each scapula'), 2 paragraphs running into the right column and over the page break to p.245, where the text continues below Figure 8.3 in both columns (ends '...subscapularis muscle') - spine, acromion, glenoid cavity, borders, angles, suprascapular notch, coracoid process, the three fossae and the muscles that attach in them; p.245 Figure 8.3 (a) anterior, (b) posterior, (c) lateral views - the slide's figure",
+    "figures": [
+     "8.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 11,
+    "section": "11.15",
+    "section_title": "Muscles of the Thorax and Shoulder That Move the Humerus (rotator cuff)",
+    "book_pages": "378-381",
+    "pdf_pages": "394-397",
+    "capture": "p.381 left column, last paragraph (start 'Four deep muscles of the shoulder') continuing at the top of the right column - names subscapularis, supraspinatus, infraspinatus and teres minor as the rotator cuff; p.381 Clinical Connection 'Rotator Cuff Injury' (box above); the muscle table with origins and insertions starts p.378 lower half and Figure 11.15 is on pp.379-380",
+    "figures": [
+     "11.15"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The scapula is a flat triangular plate lying over the back of ribs 2-7, connected to the trunk only through the clavicle and by muscles. Its landmarks are named by geometry: three borders (superior, medial, lateral), three angles (superior, inferior, lateral), and a ridge across the back, the spine, that ends laterally in the acromion, the bony tip of the shoulder. The spine divides the back into a supraspinous fossa above and an infraspinous fossa below; the front is one hollow, the subscapular fossa. A fossa is a shallow depression, and each is the origin of a muscle named for it: supraspinatus, infraspinatus, subscapularis. With teres minor these four form the rotator cuff, the slide's 'SITS'. Their tendons blend into a sleeve around the glenohumeral joint, pulling the humeral head into the shallow glenoid cavity to keep the joint stable. The coracoid process, a hook on the front, anchors biceps, coracobrachialis and pectoralis minor.",
+  "terms": [
+   {
+    "t": "Fossa",
+    "d": "A shallow depression or hollow on a bone surface."
+   },
+   {
+    "t": "Spine (of scapula)",
+    "d": "The diagonal ridge on the back of the scapula ending in the acromion."
+   },
+   {
+    "t": "Acromion",
+    "d": "Flattened lateral end of the scapular spine; the high point of the shoulder."
+   },
+   {
+    "t": "Coracoid process",
+    "d": "Hook-like projection from the front of the scapula for muscle and ligament attachment."
+   },
+   {
+    "t": "Glenoid cavity",
+    "d": "Shallow socket on the lateral scapula that receives the humeral head."
+   },
+   {
+    "t": "Border / angle",
+    "d": "The three edges of the triangular scapula and the corners where they meet."
+   },
+   {
+    "t": "Rotator cuff",
+    "d": "Four muscles (supraspinatus, infraspinatus, teres minor, subscapularis) whose tendons wrap and stabilise the shoulder joint."
+   },
+   {
+    "t": "Tendon",
+    "d": "Cord of dense connective tissue joining muscle to bone."
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "title": "Right humerus",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.2",
+    "section_title": "Upper Limb - Skeleton of the Arm: Humerus",
+    "book_pages": "246-247",
+    "pdf_pages": "262-263",
+    "capture": "p.246: left column paragraph under heading 'Skeleton of the Arm-Humerus' (start 'The humerus (HU-mer-us), or arm bone') continuing into the right column (start 'with the scapula to form'), which describes head, anatomical neck, greater and lesser tubercles, intertubercular sulcus and surgical neck - this right-column paragraph answers the slide's question; p.246 Figure 8.4 (a) anterior and (b) posterior views (lower two-thirds of the page) - the slide's figure; p.247 left column, paragraphs 1-2 (start 'the body, there is a roughened') for the deltoid tuberosity, radial groove and all distal features",
+    "figures": [
+     "8.4"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The humerus is the single bone of the arm (anatomically, 'arm' means shoulder to elbow only). Its proximal end is a half-sphere head that sits in the scapula's glenoid cavity. Two 'necks' follow, and the slide asks you to distinguish them. The anatomical neck is the faint oblique groove immediately around the rim of the head: the scar of the growth plate, i.e. the true boundary of the joint surface. The surgical neck is the narrowing below the two tubercles where the wide upper end tapers into the shaft; it is called surgical because that is where the bone usually breaks. The greater and lesser tubercles are muscle attachments, with the intertubercular (bicipital) groove between them carrying the long biceps tendon. Halfway down, the deltoid tuberosity is where the deltoid pulls. Distally the bone flattens into two joint surfaces, capitulum and trochlea, with fossae above them that receive the forearm bones as the elbow bends or straightens.",
+  "terms": [
+   {
+    "t": "Tubercle",
+    "d": "A small rounded bump on a bone for tendon attachment."
+   },
+   {
+    "t": "Tuberosity",
+    "d": "A larger roughened elevation for muscle attachment, e.g. deltoid tuberosity."
+   },
+   {
+    "t": "Sulcus / groove",
+    "d": "A furrow on a bone surface, often carrying a tendon, nerve or vessel."
+   },
+   {
+    "t": "Fossa",
+    "d": "A shallow depression; on the humerus the fossae receive forearm bone projections."
+   },
+   {
+    "t": "Epicondyle",
+    "d": "A rough bump above a condyle where forearm muscles attach."
+   },
+   {
+    "t": "Anatomical neck",
+    "d": "The groove just distal to the humeral head marking the old growth plate."
+   },
+   {
+    "t": "Surgical neck",
+    "d": "The narrowing below the tubercles where the humerus commonly fractures."
+   },
+   {
+    "t": "Nutrient foramen",
+    "d": "A hole in the shaft through which the bone's main artery enters."
+   },
+   {
+    "t": "Proximal / distal",
+    "d": "Nearer to / farther from the attachment of the limb to the trunk."
+   }
+  ],
+  "note": "The slide calls the intertubercular sulcus the 'bicipital groove'; Tortora uses only 'intertubercular sulcus'. The medial and lateral supracondylar ridges on the slide are not named in Tortora."
+ },
+ {
+  "n": 9,
+  "title": "Right humerus (Saladin Fig 8.3)",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.2",
+    "section_title": "Upper Limb - Skeleton of the Arm: Humerus (distal end)",
+    "book_pages": "246-247",
+    "pdf_pages": "262-263",
+    "capture": "p.247 left column, 2nd paragraph (start 'Several prominent features are evident') - capitulum, radial fossa, trochlea, coronoid fossa, olecranon fossa, medial and lateral epicondyles, ulnar nerve; p.246 Figure 8.4(a) and (b), the lower (distal) part of each drawing",
+    "figures": [
+     "8.4"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 9,
+    "section": "9.11",
+    "section_title": "Elbow Joint",
+    "book_pages": "292",
+    "pdf_pages": "308",
+    "capture": "p.292 left column, the one paragraph under 'Definition' (start 'The elbow joint is a hinge joint') - which humeral surfaces meet the ulna and the radius; Figure 9.13 lower page",
+    "figures": [
+     "9.13"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The lower end of the humerus is built to form two joints side by side. Laterally the capitulum ('little head') is a rounded knob on which the cup-shaped head of the radius rolls and spins. Medially the trochlea ('pulley') is a spool-shaped surface gripped by the ulna's trochlear notch, which makes the elbow a true hinge. A condyle is any rounded articular knob; an epicondyle is the rough bump above it that takes no part in the joint but gives muscles an anchor: the medial epicondyle for the forearm flexors, the lateral for the extensors. The fossae are hollows that let the forearm bones swing fully: the coronoid and radial fossae in front receive the ulna's coronoid process and the radial head when you flex; the olecranon fossa behind receives the ulna's olecranon when you extend. The supracondylar ridges simply extend those muscle attachments up the shaft.",
+  "terms": [
+   {
+    "t": "Condyle",
+    "d": "A rounded knob on a bone end that forms part of a joint."
+   },
+   {
+    "t": "Epicondyle",
+    "d": "A roughened projection above a condyle, outside the joint, for muscle attachment."
+   },
+   {
+    "t": "Capitulum",
+    "d": "The lateral rounded knob of the distal humerus that meets the radial head."
+   },
+   {
+    "t": "Trochlea",
+    "d": "The medial spool-shaped surface of the distal humerus that the ulna hinges on."
+   },
+   {
+    "t": "Fossa",
+    "d": "A depression; here, hollows that receive forearm bone projections at the extremes of movement."
+   },
+   {
+    "t": "Flexion / extension",
+    "d": "Decreasing / increasing the angle between two bones at a joint."
+   },
+   {
+    "t": "Olecranon",
+    "d": "The large hook at the top of the ulna forming the point of the elbow."
+   },
+   {
+    "t": "Coronoid process",
+    "d": "The anterior projection of the proximal ulna below the trochlear notch."
+   }
+  ],
+  "note": "The quoted text is from Saladin's textbook. Tortora describes the same landmarks except the supracondylar ridges, which it does not name."
+ },
+ {
+  "n": 10,
+  "title": "Right forearm",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.2",
+    "section_title": "Upper Limb - Skeleton of the Forearm: Ulna and Radius",
+    "book_pages": "247-249",
+    "pdf_pages": "263-265",
+    "capture": "p.247: left column heading 'Skeleton of the Forearm-Ulna and Radius', 4 paragraphs (start 'The ulna is located on the medial') running into the right column (ends '...radiocarpal (wrist) joint'); the right column's last two paragraphs cover the interosseous membrane and the proximal and distal radioulnar joints; p.248 Figure 8.5 (a) anterior and (b) posterior views - the slide's figure; p.249 Figure 8.6 (b) proximal end of ulna and (c) distal ends of radius and ulna for the notches and styloid processes",
+    "figures": [
+     "8.5",
+     "8.6"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Two parallel bones span the forearm. The ulna is the longer medial one (little-finger side); the radius is lateral (thumb side). Their shapes are opposite: the ulna is thick at the elbow, where its hook, the olecranon behind and coronoid process in front, clamps round the humeral trochlea, and thin at the wrist; the radius is thin at the elbow (a small disc-shaped head) and wide at the wrist, where it carries most of the hand. The two bones touch at both ends: proximally the radial head sits in the ulna's radial notch, distally the ulnar head sits in the radius's ulnar notch. These proximal and distal radioulnar joints let the radius pivot round the ulna, which is how you turn the palm down (pronation) and up (supination). Between the shafts stretches the interosseous membrane, a fibrous sheet that ties the bones together and gives deep muscles attachment. The styloid processes are the pointed distal tips felt at the wrist.",
+  "terms": [
+   {
+    "t": "Olecranon",
+    "d": "The posterior hook of the proximal ulna; the bony point of the elbow."
+   },
+   {
+    "t": "Coronoid process",
+    "d": "Anterior projection of the proximal ulna; with the olecranon it forms the trochlear notch."
+   },
+   {
+    "t": "Trochlear notch",
+    "d": "The C-shaped surface of the ulna that grips the trochlea of the humerus."
+   },
+   {
+    "t": "Radial notch",
+    "d": "Small depression on the ulna where the head of the radius pivots."
+   },
+   {
+    "t": "Interosseous membrane",
+    "d": "Fibrous sheet joining the shafts of the two forearm (or leg) bones."
+   },
+   {
+    "t": "Styloid process",
+    "d": "Pointed distal projection of the radius or ulna felt at the wrist."
+   },
+   {
+    "t": "Radioulnar joint",
+    "d": "Either of the two joints (proximal, distal) between radius and ulna that allow forearm rotation."
+   },
+   {
+    "t": "Pronation / supination",
+    "d": "Turning the forearm so the palm faces backward / forward."
+   },
+   {
+    "t": "Radial / ulnar tuberosity",
+    "d": "Rough bumps below the necks where biceps (radius) and brachialis (ulna) insert."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "title": "Elbow joint and proximal radioulnar joint",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.2",
+    "section_title": "Upper Limb - articulations of ulna and radius",
+    "book_pages": "247-249",
+    "pdf_pages": "263-265",
+    "capture": "p.247 right column, the paragraph starting 'The ulna and radius articulate with the humerus' (two elbow articulations) and the next paragraph (start 'The ulna and the radius connect') - interosseous membrane, proximal and distal radioulnar joints, radiocarpal joint; p.249 Figure 8.6 (a) medial view of the elbow - the slide's figure - plus (b) and (c)",
+    "figures": [
+     "8.6"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 9,
+    "section": "9.11",
+    "section_title": "Elbow Joint",
+    "book_pages": "292",
+    "pdf_pages": "308",
+    "capture": "p.292 left column under 'Definition' (1 paragraph, start 'The elbow joint is a hinge joint') and the numbered 'Anatomical Components' list 1-4 (capsule, ulnar collateral, radial collateral and annular ligaments) continuing in the right column; right column 'Movements' (flexion and extension only); Figure 9.13 lower page",
+    "figures": [
+     "9.13"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The elbow is really two articulations inside one capsule. The humero-ulnar part is a hinge: the spool-shaped trochlea of the humerus fits into the ulna's trochlear notch, allowing only flexion and extension. The humero-radial part is the radial head resting on the capitulum, a shallow ball-in-cup that lets the radius both hinge alongside the ulna and spin on its own axis. That spin is used by a third, separate joint, the proximal radioulnar joint, where the rim of the radial head turns inside the radial notch of the ulna, held in place by a ring-shaped annular ligament. This is a pivot joint and, with its partner at the wrist, produces pronation and supination without moving the elbow hinge. The slide gives only the bony surfaces; the ligaments that keep those surfaces together (ulnar and radial collateral, annular) are in Tortora section 9.11.",
+  "terms": [
+   {
+    "t": "Hinge joint",
+    "d": "A synovial joint allowing movement in one plane only, like a door hinge."
+   },
+   {
+    "t": "Pivot joint",
+    "d": "A synovial joint in which a rounded bone turns within a ring, allowing rotation."
+   },
+   {
+    "t": "Trochlea",
+    "d": "Pulley-shaped medial surface of the distal humerus."
+   },
+   {
+    "t": "Capitulum",
+    "d": "Rounded lateral knob of the distal humerus on which the radial head sits."
+   },
+   {
+    "t": "Radial notch",
+    "d": "Concavity on the ulna in which the head of the radius rotates."
+   },
+   {
+    "t": "Annular ligament",
+    "d": "Ring of ligament around the radial head holding it against the ulna."
+   },
+   {
+    "t": "Articular capsule",
+    "d": "Sleeve of connective tissue enclosing a synovial joint cavity."
+   },
+   {
+    "t": "Collateral ligament",
+    "d": "Ligament on the side of a hinge joint preventing sideways bending."
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "title": "Wrist joint and hand",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.2",
+    "section_title": "Upper Limb - Skeleton of the Hand: Carpals, Metacarpals, and Phalanges",
+    "book_pages": "247-251",
+    "pdf_pages": "263-267",
+    "capture": "p.247 right column, heading 'Skeleton of the Hand-Carpals, Metacarpals, and Phalanges', sub-heading 'Carpals' (start 'The carpus (wrist) is the proximal') with two bulleted lists of carpal names, continuing p.248 below Figure 8.5 (both columns) and p.249 below Figure 8.6 (carpal tunnel); p.251 left column, sub-headings 'Metacarpals' (1 paragraph) and 'Phalanges' (2 paragraphs) - numbering 1-5 from the thumb, base/body/head, carpometacarpal, metacarpophalangeal and interphalangeal joints; p.250 Figure 8.7 (a) anterior and (b) posterior views with the carpal mnemonic - the slide's figure",
+    "figures": [
+     "8.7"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The hand has three tiers. Nearest the forearm are eight carpal bones packed in two rows of four; they slide slightly on one another (intercarpal joints), giving the wrist cushioned flexibility. The wrist (radiocarpal) joint proper is between the broad end of the radius and the proximal carpal row, mainly the scaphoid and lunate. Next come five metacarpals forming the palm, numbered 1-5 from the thumb; each has a base, shaft and head, and the heads are the knuckles. Distal to them are 14 phalanges: two in the thumb, three (proximal, middle, distal) in each finger. Joint names are built from the bones they connect: carpometacarpal, metacarpophalangeal (MCP, the knuckle), proximal and distal interphalangeal (PIP, DIP). The small sesamoid bones near the thumb are bones that form inside tendons, like the patella. 'Pollex' is Latin for thumb; fingers are index, middle, ring and little.",
+  "terms": [
+   {
+    "t": "Carpus / carpal",
+    "d": "The wrist region / one of its eight small bones."
+   },
+   {
+    "t": "Metacarpal",
+    "d": "One of the five long bones of the palm."
+   },
+   {
+    "t": "Phalanx (pl. phalanges)",
+    "d": "A bone of a finger or toe."
+   },
+   {
+    "t": "Sesamoid bone",
+    "d": "A small bone that develops inside a tendon where it crosses a joint."
+   },
+   {
+    "t": "Radiocarpal joint",
+    "d": "The wrist joint between the distal radius and the scaphoid and lunate."
+   },
+   {
+    "t": "Metacarpophalangeal joint",
+    "d": "The knuckle joint between a metacarpal head and a proximal phalanx."
+   },
+   {
+    "t": "Interphalangeal joint",
+    "d": "A hinge joint between two phalanges of the same digit."
+   },
+   {
+    "t": "Base / shaft / head",
+    "d": "The proximal end, middle and distal end of a metacarpal or phalanx."
+   },
+   {
+    "t": "Pollex",
+    "d": "The thumb (digit 1)."
+   }
+  ],
+  "note": "The slide says the proximal carpal row articulates with the ulna and radius; Tortora states that only the scaphoid and lunate meet the radius to form the radiocarpal joint, while the ulna is separated from the carpals by a fibrocartilage disc. Bone counts (8, 5, 14) agree with Tortora."
+ },
+ {
+  "n": 13,
+  "title": "Pelvis",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.3",
+    "section_title": "Pelvic (Hip) Girdle",
+    "book_pages": "251-253",
+    "pdf_pages": "267-269",
+    "capture": "p.251 right column, paragraph under the section 8.3 objective (start 'The pelvic (hip) girdle consists') continuing over the page break to p.252 left column top (bony pelvis; then 'Each of the two hip bones of a newborn' - fusion of ilium, ischium, pubis); p.252 left column heading 'Ilium' (iliac crest, anterior superior and anterior inferior iliac spines = ASIS, AIIS) and right column heading 'Ischium' (ischial spine, ischial tuberosity); p.253 left column heading 'Pubis' (superior and inferior rami, body, pubic symphysis) and the acetabulum paragraph; p.251 Figure 8.8 (anterosuperior view of the whole bony pelvis); pp.252-253 Figure 8.9 (a)-(c) right hip bone",
+    "figures": [
+     "8.8",
+     "8.9"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The pelvis is a bony basin made of the two hip bones plus the sacrum and coccyx of the spine. Each hip bone is one fused unit in an adult but is described as three bones that meet in the socket for the femur (acetabulum): the ilium (the fan-shaped wing you rest your hands on), the ischium (the bone you sit on) and the pubis (in front). The hip bones meet each other only in front, at the pubic symphysis, a pad of fibrocartilage (the slide's 'interpubic disc'); behind, each meets the sacrum at a sacroiliac joint. The slide's labels are the palpable bumps clinicians use: the anterior superior iliac spine (ASIS) at the front end of the iliac crest, the anterior inferior iliac spine (AIIS) just below it, and the ischial tuberosity, the thick roughened knob that takes your weight when sitting. The pubis has a body and two branches (rami) that with the ischium ring the obturator foramen, the largest hole in the skeleton, mostly sealed by membrane.",
+  "terms": [
+   {
+    "t": "Ilium / ischium / pubis",
+    "d": "The three childhood bones (upper, lower-back, lower-front) that fuse into one hip bone."
+   },
+   {
+    "t": "Acetabulum",
+    "d": "The deep cup on the hip bone that receives the head of the femur."
+   },
+   {
+    "t": "Iliac spine (ASIS, AIIS)",
+    "d": "Blunt projections at the front of the ilium: anterior superior and anterior inferior iliac spines."
+   },
+   {
+    "t": "Tuberosity",
+    "d": "A roughened bony prominence for muscle or ligament attachment; the ischial tuberosity bears sitting weight."
+   },
+   {
+    "t": "Ramus (pl. rami)",
+    "d": "A branch-like arm of bone, e.g. the superior and inferior rami of the pubis."
+   },
+   {
+    "t": "Pubic symphysis",
+    "d": "The fibrocartilage joint uniting the two pubic bones in the midline."
+   },
+   {
+    "t": "Sacroiliac joint",
+    "d": "The joint between each hip bone and the sacrum at the back of the pelvis."
+   },
+   {
+    "t": "Obturator foramen",
+    "d": "Large opening in the hip bone bounded by pubis and ischium, closed by a membrane."
+   },
+   {
+    "t": "Fibrocartilage",
+    "d": "Tough cartilage rich in collagen fibres, found in symphyses and discs."
+   }
+  ],
+  "note": "The slide's figure labels (base of sacrum, pelvic surface of sacrum, interpubic disc) match an older-edition Tortora pelvis figure rather than 16e Figure 8.8; 'interpubic disc' is the fibrocartilage of the pubic symphysis. ASIS/AIIS abbreviations are not used by Tortora."
+ },
+ {
+  "n": 14,
+  "title": "True and false pelvis",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.4",
+    "section_title": "Greater and Lesser Pelves",
+    "book_pages": "253-255",
+    "pdf_pages": "269-271",
+    "capture": "p.253 right column, section 8.4 opening paragraph (start 'The bony pelvis is divided') continuing over the page break to p.254 left column (tracing the pelvic inlet, then paragraph 'The portion of the bony pelvis superior' = greater/false pelvis) and right column (paragraph 'The portion of the bony pelvis inferior' = lesser/true pelvis), ending p.255 left column first paragraph (pelvic brim, pelvic outlet, pelvic axis and childbirth); p.254 Figure 8.10 (b) midsagittal section - the slide's figure (Tortora labels it greater/lesser pelvis and plane of pelvic inlet); parts (c) and (d) at the top of p.255; p.255 Clinical Connection 'Pelvimetry'",
+    "figures": [
+     "8.10"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Anatomists split the basin into an upper and a lower part by drawing an oblique plane through the pelvic inlet (pelvic brim): from the sacral promontory at the back, along the arcuate line of each ilium and the pecten pubis, to the top of the pubic symphysis in front. Above that plane is the greater or 'false' pelvis, really part of the lower abdomen, bounded by the flaring iliac wings and the abdominal wall; it holds intestines and, in women, the uterus. Below the plane is the lesser or 'true' pelvis, the ring of bone enclosing the pelvic cavity (bladder, rectum, reproductive organs). It has an inlet above and an outlet below, the outlet closed by the pelvic floor muscles. The pelvic axis is the curved line from the centre of the inlet to the centre of the outlet, the path a baby's head follows during birth, which is why obstetricians measure these planes (pelvimetry) and why the female pelvis is wider and shallower (Table 8.1).",
+  "terms": [
+   {
+    "t": "Pelvic inlet (brim)",
+    "d": "The oblique bony ring dividing greater from lesser pelvis; the upper opening of the true pelvis."
+   },
+   {
+    "t": "Pelvic outlet",
+    "d": "The lower opening of the true pelvis, closed by the pelvic floor muscles."
+   },
+   {
+    "t": "Sacral promontory",
+    "d": "The forward-projecting upper edge of the sacrum; posterior landmark of the pelvic inlet."
+   },
+   {
+    "t": "Midsagittal plane",
+    "d": "The vertical plane dividing the body into equal left and right halves; the slide's section."
+   },
+   {
+    "t": "Pelvic axis",
+    "d": "Imaginary curved line through the centres of inlet and outlet; the birth route."
+   },
+   {
+    "t": "Greater (false) pelvis",
+    "d": "The part of the bony pelvis above the inlet, between the iliac wings."
+   },
+   {
+    "t": "Lesser (true) pelvis",
+    "d": "The part below the inlet that surrounds the pelvic cavity."
+   },
+   {
+    "t": "Sacral canal",
+    "d": "The continuation of the vertebral canal through the sacrum, carrying nerve roots."
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "title": "Right Femur",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.6",
+    "section_title": "Lower Limb - Skeleton of the Thigh: Femur and Patella",
+    "book_pages": "256-259",
+    "pdf_pages": "272-275",
+    "capture": "p.256: left column below Table 8.1, heading 'Skeleton of the Thigh-Femur and Patella', sub-heading 'Femur' (start 'The femur, or thigh bone'), 2 paragraphs on head, fovea capitis, ligament of the head, neck and trochanters, continuing into the right column (intertrochanteric line and crest, gluteal tuberosity, linea aspera, condyles, epicondyles, intercondylar fossa, patellar surface, adductor tubercle); p.257 left column below Table 8.1, sub-heading 'Patella' (1 paragraph: sesamoid, base, apex, articular facets) continuing into the right column; p.258 Figure 8.11 (a) anterior and (b) posterior views; p.259 Figure 8.11 (c) medial view of proximal end (fovea) and (d) distal end; p.259 Figure 8.12 patella",
+    "figures": [
+     "8.11",
+     "8.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 9,
+    "section": "9.12",
+    "section_title": "Hip Joint - Anatomical Components",
+    "book_pages": "293-294",
+    "pdf_pages": "309-310",
+    "capture": "p.293 right column, item 5 'Ligament of the head of the femur' in the numbered Anatomical Components list - this is the slide's 'ligamentum teres', running from the acetabular fossa to the fovea capitis; p.294 Figure 9.14 (c) coronal section shows it",
+    "figures": [
+     "9.14"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The femur is the longest and strongest bone, running from hip to knee. Its head is about two-thirds of a sphere and sits deep in the acetabulum; a small pit on the head, the fovea capitis, is where the ligamentum teres (ligament of the head of the femur) attaches, carrying a small artery into the head. The angled neck joins head to shaft; an elderly 'broken hip' is usually a fracture here. The greater and lesser trochanters are large muscle attachments at the top of the shaft, joined in front by the intertrochanteric line and behind by the crest. Down the back of the shaft runs the linea aspera ('rough line'), a ridge for thigh muscles. The distal end widens into medial and lateral condyles that rest on the tibia, with the patellar surface between them in front. The patella is a sesamoid bone in the quadriceps tendon: base up, apex down, two facets behind.",
+  "terms": [
+   {
+    "t": "Trochanter",
+    "d": "A very large bony projection for muscle attachment, found only on the femur."
+   },
+   {
+    "t": "Fovea (capitis)",
+    "d": "A small pit; on the femoral head, the attachment of the ligament of the head."
+   },
+   {
+    "t": "Linea aspera",
+    "d": "The rough longitudinal ridge down the back of the femoral shaft."
+   },
+   {
+    "t": "Condyle / epicondyle",
+    "d": "Rounded joint knob at the bone end / rough bump above it for ligament attachment."
+   },
+   {
+    "t": "Intercondylar fossa",
+    "d": "The notch between the femoral condyles at the back of the knee."
+   },
+   {
+    "t": "Patellar surface",
+    "d": "The smooth groove on the front of the distal femur in which the patella glides."
+   },
+   {
+    "t": "Sesamoid bone",
+    "d": "A bone that forms inside a tendon; the patella is the largest."
+   },
+   {
+    "t": "Ligament",
+    "d": "A band of dense connective tissue joining bone to bone."
+   },
+   {
+    "t": "Popliteal",
+    "d": "Relating to the back of the knee."
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "title": "Knee Joint",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 9,
+    "section": "9.13",
+    "section_title": "Knee Joint",
+    "book_pages": "295-297",
+    "pdf_pages": "311-313",
+    "capture": "p.295: left column bottom, heading 'Definition' (start 'The knee joint is the largest') continuing at the top of the right column as the numbered list 1-3 (lateral tibiofemoral, medial tibiofemoral, patellofemoral joints in one synovial cavity); right column 'Anatomical Components' list begins and runs to p.297; p.296 Figure 9.15 (whole page) shows the joint with ligaments and menisci",
+    "figures": [
+     "9.15"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 8,
+    "section": "8.6",
+    "section_title": "Lower Limb - Skeleton of the Leg: Tibia and Fibula",
+    "book_pages": "258-260",
+    "pdf_pages": "274-276",
+    "capture": "p.258 below Figure 8.11: left column heading 'Skeleton of the Leg-Tibia and Fibula', sub-heading 'Tibia' (1 paragraph) and the right column paragraph (start 'The proximal end of the tibia') on the lateral and medial condyles, intercondylar eminence and tibial tuberosity; p.259 right column sub-heading 'Fibula' (head articulates with the lateral tibial condyle = proximal tibiofibular joint); p.260 Figure 8.13 (a) anterior view - the slide's figure",
+    "figures": [
+     "8.13"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The knee is where the femur's two condyles rest on the flat top (plateau) of the tibia, whose corresponding medial and lateral condyles are slightly cupped and deepened by two crescents of fibrocartilage, the menisci. The patella glides in the groove on the front of the femur (the patellar surface), so the joint is really three joints in one capsule, two tibiofemoral and one patellofemoral: hence 'three bones'. The fibula is not part of the knee: it does not reach the femur, and its head simply articulates with the side of the lateral tibial condyle at the superior (proximal) tibiofibular joint. The tibial tuberosity below the plateau is where the patellar ligament (the continuation of the quadriceps tendon) inserts, so straightening the knee pulls the tibia through this bump. Because the surfaces are so flat, the knee relies on ligaments, collateral ones at the sides and the cruciate pair inside, for stability.",
+  "terms": [
+   {
+    "t": "Condyle",
+    "d": "A rounded articular knob; the knee has two on the femur and two on the tibia."
+   },
+   {
+    "t": "Tibial tuberosity",
+    "d": "The bump on the front of the upper tibia where the patellar ligament inserts."
+   },
+   {
+    "t": "Meniscus",
+    "d": "A crescent of fibrocartilage between femur and tibia that deepens and cushions the joint."
+   },
+   {
+    "t": "Tibiofemoral / patellofemoral joint",
+    "d": "The femur-tibia articulation / the patella-femur articulation within the knee."
+   },
+   {
+    "t": "Patellar ligament",
+    "d": "The band from patella to tibial tuberosity; the end of the quadriceps tendon."
+   },
+   {
+    "t": "Cruciate ligament",
+    "d": "One of two ligaments crossing inside the knee that limit front-back sliding."
+   },
+   {
+    "t": "Modified hinge joint",
+    "d": "A hinge that also allows slight rotation when flexed, like the knee."
+   },
+   {
+    "t": "Proximal (superior) tibiofibular joint",
+    "d": "The small joint between the fibular head and the lateral tibial condyle, outside the knee."
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "title": "Long bones of the leg and Ankle joints",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.6",
+    "section_title": "Lower Limb - Skeleton of the Leg: Tibia and Fibula",
+    "book_pages": "258-261",
+    "pdf_pages": "274-277",
+    "capture": "p.258 left column heading 'Skeleton of the Leg-Tibia and Fibula', sub-heading 'Tibia' (start 'The tibia, or shin bone') plus the right column paragraph, continuing p.259 in the text block below Figure 8.11(d), both columns (medial malleolus, fibular notch; then sub-heading 'Fibula' - start 'The fibula is parallel and lateral' - head, lateral malleolus, proximal and distal tibiofibular joints); p.260 Figure 8.13 (a) anterior and (b) posterior views - the slide's figure, with the 'fibuLA is LAteral' mnemonic; p.261 Figure 8.13 (c) fibular notch",
+    "figures": [
+     "8.13"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 8,
+    "section": "8.6",
+    "section_title": "Lower Limb - Skeleton of the Foot (ankle joint)",
+    "book_pages": "261",
+    "pdf_pages": "277",
+    "capture": "p.261 left column, first paragraph under heading 'Skeleton of the Foot-Tarsals, Metatarsals, and Phalanges' (start 'The tarsus (ankle) is the proximal'): the sentences beginning 'The talus, the most superior tarsal bone' define the ankle (talocrural) joint between talus, medial malleolus of tibia and lateral malleolus of fibula",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The leg (anatomically, knee to ankle) has two bones like the forearm, but the division of labour is more extreme. The tibia is the big medial bone: it takes the body's weight from the femur and its sharp anterior border is the shin you can feel. The fibula is a slender lateral splint that bears no weight and does not even reach the knee joint; it exists to anchor muscles and to form the outer wall of the ankle. The two are joined at their ends (proximal and distal tibiofibular joints) and along their length by an interosseous membrane. At the ankle the talus, the top bone of the foot, is gripped like a tenon in a mortise: the medial malleolus of the tibia inside and the lateral malleolus of the fibula outside are the bumps at your ankle. This is a hinge, giving dorsiflexion and plantar flexion only; side-to-side tilting happens lower, between the tarsal bones.",
+  "terms": [
+   {
+    "t": "Malleolus",
+    "d": "The hammer-head-shaped bump on each side of the ankle: medial (tibia) and lateral (fibula)."
+   },
+   {
+    "t": "Talus",
+    "d": "The tarsal bone that sits on the calcaneus and is gripped by tibia and fibula."
+   },
+   {
+    "t": "Interosseous membrane",
+    "d": "Fibrous sheet joining the shafts of tibia and fibula."
+   },
+   {
+    "t": "Weight-bearing",
+    "d": "Carrying the load of the body; of the leg bones, only the tibia does."
+   },
+   {
+    "t": "Tibiofibular joint",
+    "d": "Either joint (proximal, distal) between tibia and fibula."
+   },
+   {
+    "t": "Talocrural (ankle) joint",
+    "d": "The hinge joint between tibia, fibula and talus."
+   },
+   {
+    "t": "Anterior border (crest)",
+    "d": "The sharp front edge of the tibia; the shin."
+   },
+   {
+    "t": "Dorsiflexion / plantar flexion",
+    "d": "Bending the foot up toward the shin / down toward the sole."
+   }
+  ]
+ },
+ {
+  "n": 18,
+  "title": "Bones of the foot",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.6",
+    "section_title": "Lower Limb - Skeleton of the Foot: Tarsals, Metatarsals, and Phalanges",
+    "book_pages": "261-262",
+    "pdf_pages": "277-278",
+    "capture": "p.261 left column, heading 'Skeleton of the Foot-Tarsals, Metatarsals, and Phalanges': paragraph 1 (tarsals: talus, calcaneus, navicular, three cuneiforms, cuboid; ankle joint; weight transmission) and paragraph 2 (start 'The metatarsus, the intermediate region') on the five metatarsals; right column paragraph 1 (start 'The phalanges comprise the distal') on the 14 phalanges and the hallux; p.262 Figure 8.14 (a) superior and (b) inferior views with the tarsal mnemonic - the slide's figure",
+    "figures": [
+     "8.14"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The foot copies the plan of the hand: a proximal block of short bones (seven tarsals instead of eight carpals), five long metatarsals, and 14 phalanges (two in the big toe, three in each other toe). The proportions differ because the foot is built for weight-bearing rather than grasping. The tarsals are large: the talus sits on top and is the only bone that meets the tibia and fibula, so all body weight passes through it; about half goes straight down into the calcaneus (heel bone), the largest tarsal, and the rest forward through the navicular, three cuneiforms and cuboid to the metatarsals. Toes are numbered 1-5 from the big toe (hallux), which is medial, the opposite of the thumb's lateral position in the anatomical position. The sesamoid bones under the first metatarsal head protect its tendon where you push off. Joint names again combine the bone names: tarsometatarsal, metatarsophalangeal, interphalangeal.",
+  "terms": [
+   {
+    "t": "Tarsus / tarsal",
+    "d": "The ankle and rear-foot region / one of its seven bones."
+   },
+   {
+    "t": "Metatarsal",
+    "d": "One of the five long bones of the mid-foot."
+   },
+   {
+    "t": "Phalanx",
+    "d": "A toe bone; 14 per foot."
+   },
+   {
+    "t": "Talus",
+    "d": "The uppermost tarsal, forming the ankle joint with tibia and fibula."
+   },
+   {
+    "t": "Calcaneus",
+    "d": "The heel bone, largest and strongest tarsal."
+   },
+   {
+    "t": "Hallux",
+    "d": "The great (big) toe, digit 1, on the medial side."
+   },
+   {
+    "t": "Sesamoid bone",
+    "d": "A small bone formed within a tendon, e.g. under the ball of the big toe."
+   },
+   {
+    "t": "Navicular / cuneiform / cuboid",
+    "d": "The five smaller front tarsals: boat-shaped, three wedge-shaped, cube-shaped."
+   }
+  ]
+ },
+ {
+  "n": 19,
+  "title": "Arches of the foot",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.6",
+    "section_title": "Lower Limb - Arches of the Foot",
+    "book_pages": "261-263",
+    "pdf_pages": "277-279",
+    "capture": "p.261 right column, heading 'Arches of the Foot', 3 paragraphs (start 'The bones of the foot are arranged') on purpose, the medial and lateral parts of the longitudinal arch and the transverse arch, continuing over the page break to the bottom of p.262 (both columns below Figure 8.14: weight split 40/60 and the effect of high heels); p.263 Figure 8.15 lateral view of the arches - the slide's figure; p.263 left column Clinical Connection 'Flatfoot and Clawfoot'",
+    "figures": [
+     "8.15"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "If the foot bones lay flat, every step would slam bone onto ground. Instead ligaments and tendons hold the tarsals and metatarsals in curved arrangements, so the foot touches down only at the heel, the outer edge and the ball. Think of them as springy bridges. The longitudinal arch runs heel to toes and has a high medial part (calcaneus, talus, navicular, cuneiforms, medial three metatarsals) and a low lateral part (calcaneus, cuboid, lateral two metatarsals). The transverse arch runs across the foot through the cuneiforms, cuboid and metatarsal bases. When weight is applied the arches flatten slightly, stretching their ligaments and storing elastic energy, then recoil at toe-off: this is the shock absorption and 'leverage' the slide mentions. It also spreads load between hard bone and the soft pads of the sole. If the supporting ligaments weaken the medial arch drops (flatfoot); the arches are normally complete by age 12-13.",
+  "terms": [
+   {
+    "t": "Arch",
+    "d": "A curved arrangement of bones held by ligaments that bears load like a bridge."
+   },
+   {
+    "t": "Longitudinal / transverse",
+    "d": "Running along the length of the foot / running across it."
+   },
+   {
+    "t": "Ligament",
+    "d": "Band of dense connective tissue joining bone to bone; holds the arches."
+   },
+   {
+    "t": "Tendon",
+    "d": "Cord joining muscle to bone; foot tendons act as adjustable arch supports."
+   },
+   {
+    "t": "Calcaneus",
+    "d": "The heel bone, the posterior pillar of both longitudinal arches."
+   },
+   {
+    "t": "Cuboid",
+    "d": "Lateral front tarsal bone, the keystone of the lateral longitudinal arch."
+   },
+   {
+    "t": "Cuneiform",
+    "d": "One of three wedge-shaped tarsals between navicular and metatarsals 1-3."
+   },
+   {
+    "t": "Leverage",
+    "d": "Mechanical advantage from a rigid lever; the arched foot acts as a lever at push-off."
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "title": "Bone formation",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 6,
+    "section": "6.5",
+    "section_title": "Bone Formation",
+    "book_pages": "185",
+    "pdf_pages": "201",
+    "capture": "p.185: left column bottom, section 6.5 heading and objectives, then the paragraph starting 'The process by which bone forms' which continues at the top of the right column and lists the four situations (1)-(4); right column, heading 'Initial Bone Formation in an Embryo and Fetus', 2 paragraphs (start 'We will first consider') defining the two patterns, intramembranous and endochondral ossification",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Bone tissue is a composite: a protein scaffold (mostly collagen) stiffened by crystals of calcium phosphate. It is made by osteoblasts, which secrete the scaffold and then trigger its mineralisation, and dismantled by osteoclasts. 'Ossification' (or osteogenesis) is simply the word for turning some other tissue into bone. The slide lists when this happens: building the embryonic skeleton, lengthening and thickening bones during growth, the continuous swap of old bone for new in adults (remodeling), and mending fractures. Whatever the occasion, there are only two recipes, distinguished by the starting material. In intramembranous ossification bone forms directly within a sheet of embryonic connective tissue (mesenchyme). In endochondral ossification ('within cartilage') a hyaline-cartilage model of the bone is built first and then progressively replaced by bone. The finished bone looks the same either way; only the route differs. Both begin around week 6 of embryonic life.",
+  "terms": [
+   {
+    "t": "Ossification / osteogenesis",
+    "d": "The process of forming bone tissue from another tissue."
+   },
+   {
+    "t": "Mesenchyme",
+    "d": "Loose embryonic connective tissue from which bone, cartilage and other connective tissues arise."
+   },
+   {
+    "t": "Osteoblast",
+    "d": "Bone-building cell that secretes bone matrix and starts its mineralisation."
+   },
+   {
+    "t": "Osteoclast",
+    "d": "Large multinucleate cell that dissolves and resorbs bone."
+   },
+   {
+    "t": "Hyaline cartilage",
+    "d": "Smooth glassy cartilage; the template for most bones and the covering of joint surfaces."
+   },
+   {
+    "t": "Extracellular matrix",
+    "d": "The non-cellular material (collagen plus mineral in bone) that cells secrete and sit in."
+   },
+   {
+    "t": "Calcification",
+    "d": "Deposition of calcium salts in a matrix, making it hard."
+   },
+   {
+    "t": "Remodeling",
+    "d": "Lifelong replacement of old bone by new bone."
+   }
+  ]
+ },
+ {
+  "n": 21,
+  "title": "Intramembranous ossification",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 6,
+    "section": "6.5",
+    "section_title": "Bone Formation - Intramembranous Ossification",
+    "book_pages": "185-186",
+    "pdf_pages": "201-202",
+    "capture": "p.185 right column, sub-heading 'Intramembranous Ossification': the introductory paragraph (which bones form this way) and numbered steps 1-3; step 4 'Development of the periosteum' is the first paragraph at the top of p.186 left column; p.186 Figure 6.5 (rest of the page) illustrates the four steps",
+    "figures": [
+     "6.5"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "This is the simpler route: bone forms directly inside a membrane-like sheet of mesenchyme, with no cartilage stage. Step 1: at the future bone site mesenchymal cells cluster and mature into osteoblasts, which start secreting organic matrix; the cluster is the ossification centre. Step 2: calcium salts precipitate in the matrix (calcification), and the osteoblasts, now walled in, become osteocytes sitting in small chambers (lacunae) linked by tiny canals. Step 3: the calcified matrix grows into a lattice of struts (trabeculae) around blood vessels, i.e. spongy bone; the vascular tissue inside becomes red marrow. Step 4: the mesenchyme at the surface condenses into the periosteum, and a thin shell of compact bone forms beneath it while spongy bone stays in the centre. This route makes the flat bones of the skull roof, most facial bones, the mandible and the medial clavicle. The fontanels ('soft spots') of a baby's skull are membrane not yet ossified.",
+  "terms": [
+   {
+    "t": "Mesenchyme",
+    "d": "Embryonic connective tissue of scattered cells in a gel; the starting sheet here."
+   },
+   {
+    "t": "Ossification center",
+    "d": "The cluster of osteoblasts where bone formation begins."
+   },
+   {
+    "t": "Osteoblast / osteocyte",
+    "d": "Matrix-secreting bone cell / the same cell once trapped in its own matrix."
+   },
+   {
+    "t": "Lacuna / canaliculus",
+    "d": "The small cavity housing an osteocyte / the tiny canal linking lacunae."
+   },
+   {
+    "t": "Trabecula",
+    "d": "A strut or plate of bone in the lattice of spongy bone."
+   },
+   {
+    "t": "Spongy vs compact bone",
+    "d": "Open lattice of trabeculae with marrow between / dense solid bone of osteons."
+   },
+   {
+    "t": "Periosteum",
+    "d": "The fibrous, cell-rich membrane covering the outer surface of bone."
+   },
+   {
+    "t": "Fontanel",
+    "d": "Membrane-filled gap between skull bones in an infant."
+   }
+  ]
+ },
+ {
+  "n": 22,
+  "title": "Endochondral ossification",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 6,
+    "section": "6.5",
+    "section_title": "Bone Formation - Endochondral Ossification",
+    "book_pages": "186-188",
+    "pdf_pages": "202-204",
+    "capture": "p.186 right column top (the short text block above Figure 6.5), sub-heading 'Endochondral Ossification' (2 lines) continuing on p.187 above Figure 6.6: step 1 'Development of the cartilage model' (left column) and step 2 'Growth of the cartilage model' (right column); p.187 Figure 6.6 (a) sequence 1-6 and (b) fetus; p.188 left column: step 2 continued (interstitial vs appositional growth), then steps 3 'primary ossification center', 4 'medullary cavity', 5 'secondary ossification centers', 6 'articular cartilage and epiphyseal plate'",
+    "figures": [
+     "6.6"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Most bones, including all the long bones of the limbs, are first built as a scale model in hyaline cartilage and then converted to bone from the inside out. Mesenchyme condenses into chondroblasts that secrete a cartilage model wrapped in a perichondrium; the model grows in length by cell division inside it and in thickness by adding cartilage at its surface. Chondrocytes in the middle enlarge and the matrix around them calcifies, starving them; a nutrient artery invades this dying centre, the perichondrium becomes a bone-forming periosteum, and osteoblasts lay bone on the calcified cartilage: the primary ossification centre in the shaft (diaphysis). Osteoclasts then hollow the shaft into a medullary cavity. Around birth, secondary centres appear in the bone ends (epiphyses) and ossify outward, leaving cartilage in two places only: the articular cartilage on the joint surface and the epiphyseal plate between shaft and end, from which the bone will keep growing in length.",
+  "terms": [
+   {
+    "t": "Chondroblast / chondrocyte",
+    "d": "Cartilage-forming cell / the mature cartilage cell embedded in its matrix."
+   },
+   {
+    "t": "Perichondrium / periosteum",
+    "d": "Membrane around cartilage / the same membrane once it starts making bone."
+   },
+   {
+    "t": "Diaphysis / epiphysis",
+    "d": "The shaft of a long bone / either expanded end."
+   },
+   {
+    "t": "Primary / secondary ossification center",
+    "d": "Where bone first replaces cartilage in the shaft / later in each end."
+   },
+   {
+    "t": "Medullary cavity",
+    "d": "The marrow-filled hollow inside the shaft, carved out by osteoclasts."
+   },
+   {
+    "t": "Nutrient artery",
+    "d": "The main artery entering the shaft through the nutrient foramen."
+   },
+   {
+    "t": "Articular cartilage",
+    "d": "The thin hyaline cartilage left covering a bone's joint surface."
+   },
+   {
+    "t": "Epiphyseal plate",
+    "d": "The cartilage disc between shaft and end that allows growth in length."
+   }
+  ],
+  "note": "Tortora lists six steps; the slide's five merge Tortora's steps 1 and 2 (development and growth of the cartilage model)."
+ },
+ {
+  "n": 23,
+  "title": "Bone growth in length",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 6,
+    "section": "6.5",
+    "section_title": "Bone Growth During Infancy, Childhood, and Adolescence - Growth in Length",
+    "book_pages": "188-189",
+    "pdf_pages": "204-205",
+    "capture": "p.188 right column: heading 'Bone Growth During Infancy, Childhood, and Adolescence' (1 paragraph), sub-heading 'Growth in Length' (2 paragraphs, start 'The growth in length of long bones'), the numbered zones 1-4 of the epiphyseal plate, and the final paragraph 'The activity of the epiphyseal plate' which runs over the page break to p.189 right column (2 paragraphs, ending '...1-2 years earlier in females' - closure and the epiphyseal line); p.189 Figure 6.7 (a) radiograph, (b) histology of the plate, (c) lengthwise growth - part (c) is the slide's figure",
+    "figures": [
+     "6.7"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A long bone cannot lengthen by adding bone at its ends, because the ends are already capped by joint cartilage. Instead growth happens at a disc of hyaline cartilage, the epiphyseal (growth) plate, trapped between shaft and end. Read the plate from the epiphysis downward. The resting zone anchors the plate to the epiphysis. In the proliferating zone chondrocytes divide in stacked columns, pushing the epiphysis away from the shaft: this is where length is generated, by cartilage, not bone. In the hypertrophic zone those cells swell and mature. In the calcified zone the matrix mineralises, the cells die, and osteoclasts and blood vessels from the shaft invade; osteoblasts then deposit bone on the calcified scaffold, so the shaft side of the plate is continuously converted into 'new diaphysis'. The plate keeps the same thickness while the bone lengthens. At the end of puberty sex hormones stop the divisions, the plate ossifies into an epiphyseal line, and growth in height ends.",
+  "terms": [
+   {
+    "t": "Epiphyseal plate / line",
+    "d": "The growth cartilage between shaft and end / the bony scar left when it closes."
+   },
+   {
+    "t": "Metaphysis",
+    "d": "The region of a growing bone where shaft meets plate."
+   },
+   {
+    "t": "Chondrocyte",
+    "d": "A cartilage cell; in the plate these divide, enlarge and die in sequence."
+   },
+   {
+    "t": "Hypertrophy",
+    "d": "Enlargement of cells."
+   },
+   {
+    "t": "Interstitial growth",
+    "d": "Growth from within by cell division inside the tissue, as in cartilage."
+   },
+   {
+    "t": "Calcified cartilage",
+    "d": "Cartilage whose matrix has mineralised, ready to be replaced by bone."
+   },
+   {
+    "t": "Diaphysis",
+    "d": "The shaft of a long bone."
+   },
+   {
+    "t": "Articular cartilage",
+    "d": "Hyaline cartilage covering the joint surface of the epiphysis."
+   }
+  ]
+ },
+ {
+  "n": 24,
+  "title": "Bone growth in thickness",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 6,
+    "section": "6.5",
+    "section_title": "Bone Growth - Growth in Thickness",
+    "book_pages": "189-191",
+    "pdf_pages": "205-207",
+    "capture": "p.189 right column, sub-heading 'Growth in Thickness' (start 'Like cartilage, bone can grow') with numbered steps 1-3; step 4 and the following paragraph (start 'Recall that as new bone') are at the top of p.191 left column; p.190 Figure 6.8 (a) microscopic steps 1-4 and (b) macroscopic changes - the whole page",
+    "figures": [
+     "6.8"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Widening a bone is appositional growth: new layers are added to the outside while the inside is hollowed, so the bone gets wider without becoming solid and heavy. The engine is the periosteum, whose inner layer holds osteoprogenitor cells. Step 1: these become osteoblasts and build two ridges of bone on either side of a small blood vessel running along the surface, creating a groove. Step 2: the ridges meet and fuse over the vessel, converting the groove into a tunnel; the periosteal lining trapped inside is now endosteum. Step 3: osteoblasts from that endosteum lay concentric rings (lamellae) inward until only a narrow central canal remains around the vessel: a new osteon, the basic cylinder of compact bone. Step 4: meanwhile osteoblasts under the periosteum keep adding circumferential lamellae, and the cycle repeats over new vessels. At the same time osteoclasts on the endosteum enlarge the medullary cavity from inside, so the wall thickens only modestly.",
+  "terms": [
+   {
+    "t": "Appositional growth",
+    "d": "Growth by adding new layers on an existing surface."
+   },
+   {
+    "t": "Periosteum / endosteum",
+    "d": "The membrane on the outer bone surface / the thin lining of internal bone surfaces."
+   },
+   {
+    "t": "Osteoprogenitor cell",
+    "d": "Stem-like cell in periosteum and endosteum that can become an osteoblast."
+   },
+   {
+    "t": "Osteon",
+    "d": "The cylindrical unit of compact bone: concentric lamellae around a central canal."
+   },
+   {
+    "t": "Lamella (concentric / circumferential)",
+    "d": "A thin layer of bone matrix; rings within an osteon / rings around the whole bone."
+   },
+   {
+    "t": "Osteonic (central) canal",
+    "d": "The channel in the middle of an osteon carrying blood vessels and nerves."
+   },
+   {
+    "t": "Medullary cavity",
+    "d": "The marrow space inside the shaft, widened by osteoclasts as the bone grows."
+   },
+   {
+    "t": "Osteoclast",
+    "d": "Bone-resorbing cell."
+   }
+  ]
+ },
+ {
+  "n": 25,
+  "title": "Remodeling of bone",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 6,
+    "section": "6.5",
+    "section_title": "Bone Formation - Remodeling of Bone",
+    "book_pages": "191",
+    "pdf_pages": "207",
+    "capture": "p.191 left column, heading 'Remodeling of Bone', 3 paragraphs (start 'Like skin, bone forms before birth'): definition as resorption plus deposition and the rates (about 5% of bone mass at any time); the benefits of remodeling; how an osteoclast resorbs bone - the third paragraph runs to the top of the right column (ends '...rebuild the bone in that area'); also the boxed Clinical Connection 'Remodeling and Orthodontics' (left column bottom) and 'Paget's Disease' (right column)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 6,
+    "section": "6.5",
+    "section_title": "Factors Affecting Bone Growth and Bone Remodeling",
+    "book_pages": "191-192",
+    "pdf_pages": "207-208",
+    "capture": "p.191 right column, heading 'Factors Affecting Bone Growth and Bone Remodeling', numbered items 1 Minerals, 2 Vitamins, 3 Hormones, continuing on p.192 left column (sex hormones); p.198 Table 6.2 'Summary of Factors that Affect Bone Growth' (whole upper page)",
+    "figures": [],
+    "tables": [
+     "6.2"
+    ]
+   }
+  ],
+  "basics": "Adult bone is not a finished structure; it is continually taken apart and rebuilt in small patches, about 5% of the skeleton at any moment. Two cell types run the cycle. Osteoclasts, large multinucleate cells, seal themselves against a bone surface and pump acid and protein-digesting enzymes into the pocket, dissolving mineral and collagen and passing the calcium into the blood: this is resorption. Osteoblasts then move into the pit and deposit fresh matrix that mineralises: deposition. Balanced, the two keep bone mass constant while replacing tired, micro-cracked material with new, tougher bone; remodeling also lets bone thicken where it is loaded and thin where it is not, and reshapes bone after injury. Rates vary enormously by site. The balance is tilted by mechanical strain, diet (calcium, phosphorus, vitamins A, C, D) and hormones (growth hormone via IGFs, thyroid hormones, insulin, sex hormones, parathyroid hormone, calcitonin); when resorption wins for years, the result is osteoporosis.",
+  "terms": [
+   {
+    "t": "Remodeling",
+    "d": "Continuous replacement of old bone tissue by new."
+   },
+   {
+    "t": "Resorption",
+    "d": "Removal of bone mineral and collagen by osteoclasts."
+   },
+   {
+    "t": "Deposition",
+    "d": "Laying down of new bone matrix by osteoblasts."
+   },
+   {
+    "t": "Osteoclast",
+    "d": "Multinucleate cell that dissolves bone with acid and enzymes."
+   },
+   {
+    "t": "Osteoblast",
+    "d": "Cell that secretes and mineralises new bone matrix."
+   },
+   {
+    "t": "Ruffled border",
+    "d": "The folded membrane of an osteoclast that seals against bone and secretes acid."
+   },
+   {
+    "t": "Mechanical strain",
+    "d": "Deformation of bone under load; the stimulus that directs remodeling."
+   },
+   {
+    "t": "Bone mass",
+    "d": "The total amount of bone tissue; the net result of deposition minus resorption."
+   }
+  ]
+ },
+ {
+  "n": 26,
+  "title": "Repairment of bones",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 6,
+    "section": "6.6",
+    "section_title": "Fracture and Repair of Bone",
+    "book_pages": "192-193",
+    "pdf_pages": "208-209",
+    "capture": "p.192 right column: section 6.6 heading, the definition paragraph (start 'A fracture (FRAK-choor) is any break'), the stress-fracture paragraph, then 'The repair of a bone fracture involves the following phases' with step 1 'Reactive phase' beginning at the bottom of the column; p.193: Figure 6.9 at the top, then below it step 1 continued, 2a 'Reparative phase: Fibrous cartilage callus formation' and 2b 'Bony callus formation' (left column), and 3 'Bone remodeling phase' (left column bottom into right column top); right column also holds the Clinical Connection 'Treatments for Fractures' and the paragraph on why healing takes months",
+    "figures": [
+     "6.9"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A fracture is any break in a bone, and healing follows the logic of any wound: stop the bleeding, bridge the gap with quick provisional tissue, then replace it with the proper material. Reactive phase: torn vessels bleed into the break, forming a clot (fracture hematoma) within hours; nearby bone cells die from lack of blood, and inflammation brings phagocytes and osteoclasts to clear the debris. Reparative phase, part 1: fibroblasts and chondroblasts from the periosteum grow into the clot and lay down collagen and fibrocartilage, producing a soft fibrocartilaginous callus that splints the ends (about three weeks). Part 2: near healthy, well-supplied bone, osteoblasts convert the callus to spongy bone, the hard bony callus, lasting three to four months. Remodeling phase: osteoclasts remove dead fragments and excess callus, compact bone replaces spongy bone at the surface, and the shape is restored, often leaving only a slight thickening. Healing is slow because mineral is deposited gradually and bone cells divide slowly.",
+  "terms": [
+   {
+    "t": "Fracture hematoma",
+    "d": "The mass of clotted blood that forms around a break within hours."
+   },
+   {
+    "t": "Callus (soft / hard)",
+    "d": "The temporary repair tissue bridging a fracture: first fibrocartilage, then spongy bone."
+   },
+   {
+    "t": "Fibrocartilage",
+    "d": "Collagen-rich cartilage; the material of the soft callus."
+   },
+   {
+    "t": "Phagocyte",
+    "d": "A cell (neutrophil, macrophage) that engulfs debris and dead cells."
+   },
+   {
+    "t": "Fibroblast / chondroblast",
+    "d": "Cell that makes collagen fibres / cell that makes cartilage."
+   },
+   {
+    "t": "Trabeculae",
+    "d": "Struts of spongy bone; the first bone laid in the bony callus."
+   },
+   {
+    "t": "Reduction",
+    "d": "Realigning the broken ends ('setting'), closed by manipulation or open by surgery."
+   },
+   {
+    "t": "Periosteum",
+    "d": "The bone's outer membrane, source of the repair cells."
+   }
+  ]
+ },
+ {
+  "n": 27,
+  "title": "Types of fracture",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 6,
+    "section": "6.6",
+    "section_title": "Fracture and Repair of Bone - Table 6.1 Some Common Fractures",
+    "book_pages": "194-195",
+    "pdf_pages": "210-211",
+    "capture": "p.194 Table 6.1 'Some Common Fractures' (whole page: open/compound, comminuted, greenstick, impacted, Pott - each row has a description, a drawing and a radiograph); p.195 Table 6.1 continued (upper half: Colles, vertebral compression fracture) - the slide reproduces the six drawings; p.192 right column paragraph 1 of section 6.6 (start 'A fracture (FRAK-choor) is any break') explains how fractures are named",
+    "figures": [],
+    "tables": [
+     "6.1"
+    ]
+   }
+  ],
+  "basics": "Fractures are named by three different logics, which is why the list looks unsystematic. By relation to the skin: an open (compound) fracture has bone ends protruding through the skin, so infection is a risk; a closed (simple) one does not. By the pattern of the break: comminuted means the bone is shattered into several fragments; greenstick means one side breaks while the other only bends, possible only in children whose bones are still largely collagen and flexible, like a green twig; impacted means one fragment is driven into the other, as when landing on a straight arm. By the surgeon who described a typical site: a Pott fracture breaks the lower fibula with damage to the tibial side of the ankle; a Colles fracture breaks the distal radius with the wrist fragment pushed backward, the classic fall-on-outstretched-hand injury in older adults. Tortora's table adds vertebral compression fractures, common in osteoporosis. The bone drawn in each panel is named in the slide's labels.",
+  "terms": [
+   {
+    "t": "Open (compound) vs closed (simple)",
+    "d": "Fracture in which bone breaks the skin / one in which the skin is intact."
+   },
+   {
+    "t": "Comminuted",
+    "d": "Bone splintered into several pieces at the impact site."
+   },
+   {
+    "t": "Greenstick",
+    "d": "Partial fracture of a child's bone: one side breaks, the other bends."
+   },
+   {
+    "t": "Impacted",
+    "d": "One fragment driven forcibly into the other."
+   },
+   {
+    "t": "Pott fracture",
+    "d": "Fracture of the distal fibula with injury to the distal tibial joint surface."
+   },
+   {
+    "t": "Colles fracture",
+    "d": "Fracture of the distal radius with the fragment displaced backward."
+   },
+   {
+    "t": "Stress fracture",
+    "d": "Microscopic fissures from repeated loading without a single injury."
+   },
+   {
+    "t": "Distal",
+    "d": "Farther from the trunk; the wrist end of the radius, the ankle end of the fibula."
+   }
+  ]
+ },
+ {
+  "n": 28,
+  "title": "Osteoporosis",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 6,
+    "section": "Disorders",
+    "section_title": "Disorders: Homeostatic Imbalances - Osteoporosis",
+    "book_pages": "197-199",
+    "pdf_pages": "213-215",
+    "capture": "p.197 right column, heading 'Disorders: Homeostatic Imbalances', sub-heading 'Osteoporosis', 4 paragraphs (start 'Osteoporosis ... literally a condition of porous bones'): resorption outpacing deposition, calcium loss exceeding dietary absorption, fracture sites, why 80% of patients are women, risk factors, diagnosis; continues p.198 bottom (both columns below Table 6.2: FRAX, treatment) and p.199 right column top (drugs, then 'Rickets and Osteomalacia'); p.199 left column Figure 6.11 normal vs osteoporotic spongy bone",
+    "figures": [
+     "6.11"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 6,
+    "section": "6.9",
+    "section_title": "Aging and Bone Tissue",
+    "book_pages": "197",
+    "pdf_pages": "213",
+    "capture": "p.197 left column, section 6.9, first two paragraphs (start 'From birth through adolescence') - the shift from deposition to resorption with age, the role of falling estrogen after menopause, and the two effects of aging (demineralization, brittleness)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Bone mass is a running balance: deposition by osteoblasts minus resorption by osteoclasts. Through childhood the balance is positive, in young adults roughly zero, and in later life negative. Osteoporosis ('porous bone') is the state in which years of net loss have thinned the trabeculae of spongy bone and the walls of compact bone so much that ordinary loads, sitting down hard or a minor fall, fracture the hip, wrist or vertebrae. The calcium ledger drives it: more calcium leaves in urine, faeces and sweat than the gut absorbs, and the skeleton, the body's calcium store, is drawn down to keep blood calcium normal. Women are affected about four times as often because their bones are smaller to begin with and because estrogen, which restrains osteoclasts and stimulates osteoblasts, falls sharply at menopause, whereas testosterone in men declines only slowly. Diagnosis is by bone mineral density scan; prevention rests on calcium, vitamin D and weight-bearing exercise, treatment on drugs that inhibit osteoclasts or stimulate osteoblasts.",
+  "terms": [
+   {
+    "t": "Osteoporosis",
+    "d": "Disease in which bone mass falls so far that bones fracture under everyday loads."
+   },
+   {
+    "t": "Osteopenia",
+    "d": "Bone mass below normal but not yet osteoporotic."
+   },
+   {
+    "t": "Resorption / deposition",
+    "d": "Removal of bone by osteoclasts / formation of bone by osteoblasts."
+   },
+   {
+    "t": "Demineralization",
+    "d": "Loss of calcium and other minerals from bone matrix."
+   },
+   {
+    "t": "Estrogen",
+    "d": "Female sex hormone that slows bone resorption and stimulates osteoblasts."
+   },
+   {
+    "t": "Menopause",
+    "d": "The end of menstrual cycles, when ovarian estrogen production drops sharply."
+   },
+   {
+    "t": "Bone mineral density (BMD)",
+    "d": "X-ray measure of mineral per area of bone used to diagnose osteoporosis."
+   },
+   {
+    "t": "Trabeculae",
+    "d": "The struts of spongy bone that thin and break in osteoporosis."
+   }
+  ]
+ },
+ {
+  "n": 29,
+  "title": "Regulation of calcium by bones",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 6,
+    "section": "6.7",
+    "section_title": "Bone's Role in Calcium Homeostasis",
+    "book_pages": "195-196",
+    "pdf_pages": "211-212",
+    "capture": "p.195: left column bottom, section 6.7 objectives and opening paragraph (start 'Bone is the body's major calcium reservoir') continuing into the right column (normal range 9-11 mg/100 mL, bone as buffer); right column paragraph 2 (start 'Ca2+ exchange is regulated by hormones') - the PTH negative-feedback loop including cyclic AMP; paragraph 3 (PTH on kidneys and calcitriol); paragraph 4 (start 'Another hormone works to decrease') on calcitonin, continuing p.196 right column top (ends '...slows bone resorption'); p.196 left column Figure 6.10, the feedback diagram",
+    "figures": [
+     "6.10"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Calcium ions do far more than harden bone: nerves, muscles, blood clotting and many enzymes need the plasma concentration held in a narrow band (about 9-11 mg per 100 mL). Bone, holding 99% of body calcium, is the reservoir that buffers that level. The main controller is parathyroid hormone (PTH) from four small glands behind the thyroid. When blood calcium falls, parathyroid cells raise their internal cyclic AMP, a second messenger that relays the signal to the PTH gene, and secrete more PTH. PTH then (1) activates osteoclasts to resorb bone and release calcium, (2) makes the kidneys reclaim calcium instead of excreting it, and (3) stimulates the kidneys to make calcitriol, the active form of vitamin D, which increases gut absorption. Blood calcium rises and the stimulus switches off: negative feedback. Calcitonin, from the thyroid, does the opposite by inhibiting osteoclasts, though its everyday importance in humans is doubtful.",
+  "terms": [
+   {
+    "t": "Homeostasis / negative feedback",
+    "d": "Keeping a variable stable / a loop in which the response reverses the original change."
+   },
+   {
+    "t": "Parathyroid hormone (PTH)",
+    "d": "Hormone from the parathyroid glands that raises blood calcium."
+   },
+   {
+    "t": "Calcitonin",
+    "d": "Thyroid hormone that inhibits osteoclasts and lowers blood calcium."
+   },
+   {
+    "t": "Calcitriol",
+    "d": "The active form of vitamin D, made by the kidneys; boosts intestinal calcium absorption."
+   },
+   {
+    "t": "Cyclic AMP",
+    "d": "An intracellular second messenger that relays a signal from the cell surface to its machinery."
+   },
+   {
+    "t": "Osteoclast",
+    "d": "Bone-resorbing cell; the effector that releases calcium from bone."
+   },
+   {
+    "t": "Resorption",
+    "d": "Breakdown of bone matrix releasing calcium into blood."
+   },
+   {
+    "t": "Receptor / control center / effector",
+    "d": "The parts of a feedback loop: sensor, decision-maker, and the organ that responds."
+   }
+  ]
+ },
+ {
+  "n": 30,
+  "title": "Development of the limbs and girdles",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.7",
+    "section_title": "Development of the Skeletal System",
+    "book_pages": "263-265",
+    "pdf_pages": "279-281",
+    "capture": "p.263 right column, section 8.7 opening paragraph (start 'Most skeletal tissue arises from mesenchymal cells') - mesoderm origin and the two ossification routes; p.264 right column, the paragraph starting 'The skeleton of the girdles and limbs is derived from mesoderm' and the next paragraph (start 'By the sixth week') - limb buds in week 4, hand and foot plates in week 6, limb segments in weeks 7-8; p.265 left column, paragraph below Figure 8.16 (start 'Endochondral ossification of the limb bones') - ossification begins by end of week 8; pp.264-265 Figure 8.16 (b)-(e) embryos at 4, 6, 7 and 8 weeks",
+    "figures": [
+     "8.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.3",
+    "section_title": "The Remaining Weeks of the Embryonic Period - Gastrulation (germ layers)",
+    "book_pages": "1169-1170",
+    "pdf_pages": "1185-1186",
+    "capture": "p.1169 left column, sub-heading 'Gastrulation' (start 'The first major event of the third week') - formation of ectoderm, mesoderm and endoderm, continuing into the right column (what each layer becomes); p.1170 Table 29.1 'Structures Produced by the Three Primary Germ Layers' (mesoderm column lists cartilage and bone)",
+    "figures": [],
+    "tables": [
+     "29.1"
+    ]
+   }
+  ],
+  "basics": "About three weeks after fertilisation the embryo is a flat disc that reorganises into three sheets, the primary germ layers: ectoderm outside (future skin surface and nervous system), endoderm inside (gut lining) and mesoderm between. Almost all bone, cartilage, muscle and blood comes from mesoderm, via a loose embryonic connective tissue called mesenchyme. In the middle of week 4 small bumps appear on the flanks of the trunk, the upper limb buds, followed two days later by the lower; each is a core of mesenchyme covered by ectoderm. By week 6 a constriction sets off flattened hand and foot plates; by week 7 arm, forearm and hand (thigh, leg, foot) are distinguishable; by week 8 shoulders, elbows and wrists exist and the buds are called limbs. Inside, the mesenchyme has already condensed into cartilage models, and endochondral ossification begins by the end of week 8, with primary centres in most limb bones by week 12 and secondary centres mostly after birth.",
+  "terms": [
+   {
+    "t": "Germ layer",
+    "d": "One of the three primary embryonic tissue sheets from which all organs form."
+   },
+   {
+    "t": "Ectoderm / mesoderm / endoderm",
+    "d": "Outer layer (skin, nerves) / middle layer (bone, muscle, blood) / inner layer (gut lining)."
+   },
+   {
+    "t": "Mesenchyme",
+    "d": "Loose embryonic connective tissue derived mainly from mesoderm."
+   },
+   {
+    "t": "Limb bud",
+    "d": "The small outgrowth on the embryo's flank that becomes a limb."
+   },
+   {
+    "t": "Hand / foot plate",
+    "d": "The flattened end of a limb bud that becomes the hand or foot."
+   },
+   {
+    "t": "Fertilisation",
+    "d": "Fusion of sperm and oocyte; the zero point for developmental timing."
+   },
+   {
+    "t": "Embryo vs fetus",
+    "d": "The developing human in weeks 1-8 / from week 9 to birth."
+   },
+   {
+    "t": "Endochondral ossification",
+    "d": "Replacement of a cartilage model by bone; how limb bones form."
+   }
+  ]
+ },
+ {
+  "n": 31,
+  "title": "Muscular system",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 10,
+    "section": "10.1",
+    "section_title": "Overview of Muscular Tissue - Functions of Muscular Tissue",
+    "book_pages": "306",
+    "pdf_pages": "322",
+    "capture": "p.306 right column, heading 'Functions of Muscular Tissue': the introductory sentence and the four numbered functions (1 producing body movements, 2 stabilizing body positions, 3 storing and moving substances - sphincters -, 4 generating heat)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 7,
+    "section": "7.1",
+    "section_title": "Divisions of the Skeletal System (musculoskeletal system)",
+    "book_pages": "203",
+    "pdf_pages": "219",
+    "capture": "p.203 left column, first paragraph of section 7.1 (start 'Movements such as throwing a ball') - bones, muscles and joints together form the musculoskeletal system; orthopedics",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A skeleton alone is a set of levers; muscles are the motors that pull on them. Skeletal muscle is the striated, voluntary type attached to bone by tendons, and there are several hundred named muscles. Contraction can shorten a muscle to move a bone, or hold it at constant length to stabilise a joint and keep you upright; posture is continuous low-level contraction. Ring-shaped muscles (sphincters) guard openings such as the mouth, anus and bladder outlet, though Tortora notes most sphincters are smooth muscle. Because contraction is only about a quarter efficient, most of the chemical energy used appears as heat, which keeps body temperature up and is why you shiver when cold. Skeletal muscle is also the largest consumer of glucose after a meal, so it is a lever on blood sugar, a point the slide includes but Tortora's list does not. Bones, joints and muscles together are the musculoskeletal system, the province of orthopaedics.",
+  "terms": [
+   {
+    "t": "Skeletal / cardiac / smooth muscle",
+    "d": "The three muscle tissues: striated voluntary; striated involuntary (heart); non-striated involuntary (organ walls)."
+   },
+   {
+    "t": "Striated",
+    "d": "Showing alternating light and dark bands under the microscope."
+   },
+   {
+    "t": "Voluntary",
+    "d": "Under conscious control via the somatic nervous system."
+   },
+   {
+    "t": "Tendon",
+    "d": "Dense connective-tissue cord joining muscle to bone."
+   },
+   {
+    "t": "Sphincter",
+    "d": "A ring of muscle that closes an opening or passage when contracted."
+   },
+   {
+    "t": "Thermogenesis",
+    "d": "Heat production, largely a by-product of muscle contraction."
+   },
+   {
+    "t": "Musculoskeletal system",
+    "d": "Bones, joints and muscles considered as one movement system."
+   },
+   {
+    "t": "Posture",
+    "d": "Held body position maintained by sustained muscle contraction."
+   }
+  ],
+  "note": "Tortora lists four functions of muscular tissue (all three muscle types); the slide's list ('>600 skeletal muscles', 'control of body openings', 'regulation of blood glucose') follows another textbook. 'Control of openings' corresponds to Tortora's sphincters; blood-glucose regulation is not in Tortora's list here."
+ },
+ {
+  "n": 32,
+  "title": "Movements at synovial joints",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 9,
+    "section": "9.5",
+    "section_title": "Types of Movements at Synovial Joints",
+    "book_pages": "276-280",
+    "pdf_pages": "292-296",
+    "capture": "p.276: left column bottom, section 9.5 objective and opening paragraph (the four categories), heading 'Gliding' (start 'Gliding is a simple movement') continuing in the right column; right column heading 'Angular Movements' and sub-heading 'Flexion, Extension, and Lateral Flexion', continuing p.277 (left column bulleted examples; right column lateral flexion and hyperextension; sub-heading 'Abduction, Adduction, and Circumduction' at bottom right) continuing p.278 both columns; p.278 right column heading 'Rotation' continuing p.279 left column top; p.279 left column heading 'Special Movements' with the bulleted list running down the right column to p.280 (opposition); Figures 9.4-9.9 on pp.276-280 photograph each movement; p.280 Table 9.1 'Summary of Movements at Synovial Joints' (lower page) - the slide is a condensation of this table",
+    "figures": [
+     "9.4",
+     "9.5",
+     "9.6",
+     "9.7",
+     "9.8",
+     "9.9"
+    ],
+    "tables": [
+     "9.1"
+    ]
+   }
+  ],
+  "basics": "A synovial joint is one where the bone ends are covered in cartilage and separated by a lubricated, fluid-filled cavity, so they slide freely; every limb joint is of this type. Movement vocabulary describes what happens to the angle and orientation of the bones, always starting from the anatomical position. Gliding: flat surfaces slip over each other with almost no change of angle (the small wrist and ankle bones). Angular: the angle between bones changes; flexion decreases it, extension restores it, hyperextension goes beyond the normal range; abduction moves a part away from the body's midline, adduction brings it back; circumduction is flexion, abduction, extension and adduction in sequence, tracing a cone. Rotation: a bone spins about its own long axis (medial or lateral in the limbs). 'Special' movements have their own names because only certain joints do them: elevation/depression and protraction/retraction of jaw and shoulder, inversion/eversion of the sole, dorsiflexion/plantar flexion of the ankle, pronation/supination of the forearm, opposition of the thumb.",
+  "terms": [
+   {
+    "t": "Synovial joint",
+    "d": "A freely movable joint with a fluid-filled cavity between cartilage-covered bone ends."
+   },
+   {
+    "t": "Anatomical position",
+    "d": "Standing upright, facing forward, arms at sides, palms forward; the reference for all movement terms."
+   },
+   {
+    "t": "Midline",
+    "d": "The imaginary vertical line down the centre of the body."
+   },
+   {
+    "t": "Sagittal / coronal plane",
+    "d": "Vertical plane dividing left from right / vertical plane dividing front from back."
+   },
+   {
+    "t": "Longitudinal axis",
+    "d": "The line along the length of a bone about which it rotates."
+   },
+   {
+    "t": "Flexion / extension",
+    "d": "Decreasing / increasing the angle between articulating bones."
+   },
+   {
+    "t": "Abduction / adduction",
+    "d": "Moving a part away from / toward the midline."
+   },
+   {
+    "t": "Circumduction",
+    "d": "Moving the end of a limb in a circle, combining the four angular movements."
+   },
+   {
+    "t": "Rotation",
+    "d": "Turning a bone about its own long axis."
+   },
+   {
+    "t": "Temporomandibular joint",
+    "d": "The jaw joint between mandible and temporal bone, site of elevation, depression, protraction and retraction."
+   }
+  ]
+ },
+ {
+  "n": 33,
+  "title": "Lever system and leverage",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 11,
+    "section": "11.1",
+    "section_title": "How Skeletal Muscles Produce Movements - Lever Systems and Leverage",
+    "book_pages": "345-347",
+    "pdf_pages": "361-363",
+    "capture": "p.346 left column, heading 'Lever Systems and Leverage', 2 paragraphs (start 'In producing movement, bones act as levers') defining lever, fulcrum, effort, load, and mechanical advantage/disadvantage with the biceps example; then the numbered list of the three classes of lever, beginning at the bottom of the left column ('Levers are categorized into three types') and filling the right column; p.347 Figure 11.2 (a) first-, (b) second-, (c) third-class levers; p.345 Figure 11.1 (b) the forearm as a lever with E, F and L marked",
+    "figures": [
+     "11.1",
+     "11.2"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A lever is a rigid bar that turns about a fixed point, the fulcrum, when a force (the effort) acts on it against a resistance (the load). In the body the bar is a bone, the fulcrum is the joint, the effort is the pull of a muscle at its insertion, and the load is the weight of the body part plus anything it carries. Torque is force times distance from the fulcrum, so the effort-arm to load-arm ratio sets the trade-off: a long effort arm gives mechanical advantage (small force, big load, slow); a short one gives mechanical disadvantage but speed and range. Levers are classed by the order of fulcrum, effort and load. First class (fulcrum in the middle, like a seesaw): the head nodding on the atlas. Second class (load in the middle, like a wheelbarrow): standing on tiptoe. Third class (effort in the middle, like tweezers): the biceps flexing the elbow, the commonest arrangement in the body, sacrificing force for speed and reach.",
+  "terms": [
+   {
+    "t": "Lever",
+    "d": "A rigid bar that pivots about a fixed point; in the body, a bone."
+   },
+   {
+    "t": "Fulcrum",
+    "d": "The fixed pivot point of a lever; in the body, a joint."
+   },
+   {
+    "t": "Effort",
+    "d": "The force applied to move the lever; in the body, muscle contraction."
+   },
+   {
+    "t": "Load (resistance)",
+    "d": "The force opposing movement: weight of the body part plus any object."
+   },
+   {
+    "t": "Mechanical advantage / disadvantage",
+    "d": "Load closer to fulcrum than effort (force gain) / effort closer than load (speed gain)."
+   },
+   {
+    "t": "First / second / third-class lever",
+    "d": "Fulcrum between effort and load / load in the middle / effort in the middle."
+   },
+   {
+    "t": "Torque (moment)",
+    "d": "Turning effect of a force: force multiplied by its distance from the pivot."
+   },
+   {
+    "t": "Insertion",
+    "d": "The attachment of a muscle to the bone it moves; where the effort is applied."
+   }
+  ]
+ },
+ {
+  "n": 34,
+  "title": "Skeletal muscle attachment and movements",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 11,
+    "section": "11.1",
+    "section_title": "How Skeletal Muscles Produce Movements - Muscle Attachment Sites: Origin and Insertion",
+    "book_pages": "345-346",
+    "pdf_pages": "361-362",
+    "capture": "p.345 right column, heading 'Muscle Attachment Sites: Origin and Insertion', 2 paragraphs (start 'Together, the voluntarily controlled muscles') defining origin (stationary bone) and insertion (movable bone) with the door-spring analogy, continuing to the top of p.346 left column (origin usually proximal, insertion distal; belly; actions; reverse muscle action; muscles cross the joints they move); p.345 Figure 11.1 (a) origin and insertion of biceps and triceps, (b) forearm lever - the slide's figure",
+    "figures": [
+     "11.1"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A skeletal muscle is a bundle of contractile fibres with a tendon at each end. When it shortens it pulls its two attachments toward each other, but the two bones rarely move equally: one is held still by other muscles or by its own bulk. The attachment on the bone that stays put is the origin; the attachment on the bone that moves is the insertion; the fleshy middle is the belly. In the limbs the origin is usually proximal (nearer the trunk) and the insertion distal, and the insertion is pulled toward the origin. The slide's figure shows the biceps brachii arising from the scapula and inserting on the radius, and the triceps inserting on the olecranon of the ulna, so the belly of a muscle typically lies over the bone above the joint it moves, not over the bone it moves. A muscle must cross a joint to move it; some cross two. Origin and insertion can swap roles when the 'moving' bone is fixed, as in a pull-up (reverse muscle action).",
+  "terms": [
+   {
+    "t": "Origin",
+    "d": "The tendon attachment of a muscle to the bone that stays stationary."
+   },
+   {
+    "t": "Insertion",
+    "d": "The tendon attachment to the bone that moves; pulled toward the origin."
+   },
+   {
+    "t": "Belly",
+    "d": "The fleshy contractile middle part of a muscle between its tendons."
+   },
+   {
+    "t": "Tendon",
+    "d": "Dense connective-tissue cord transmitting muscle pull to bone."
+   },
+   {
+    "t": "Proximal / distal",
+    "d": "Nearer to / farther from the trunk along a limb."
+   },
+   {
+    "t": "Biceps brachii / triceps brachii",
+    "d": "The front-of-arm flexor of the elbow / the back-of-arm extensor of the elbow."
+   },
+   {
+    "t": "Action",
+    "d": "The main movement a muscle produces when it contracts."
+   },
+   {
+    "t": "Antagonist",
+    "d": "A muscle whose action opposes another's, e.g. triceps against biceps."
+   }
+  ]
+ },
+ {
+  "n": 35,
+  "title": "The Integumentary System performs a variety of functions for the human body. It:",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 5,
+    "section": "5.4",
+    "section_title": "Functions of the Skin",
+    "book_pages": "164-165",
+    "pdf_pages": "180-181",
+    "capture": "p.164: left column, section 5.4 objective and the paragraph listing the six functions (start 'Now that you have a basic'), then headings 'Thermoregulation', 'Blood Reservoir', 'Protection' (left column, continuing right column top), 'Cutaneous Sensations' and 'Excretion and Absorption' (right column); p.165 left column, heading 'Synthesis of Vitamin D' (1 paragraph, below the Clinical Connection box)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The integumentary system is the skin plus its hair, nails and glands: a two-layer sheet (thin cellular epidermis over thick fibrous dermis) resting on a fatty subcutaneous layer. Its functions follow from being the boundary with the outside world. As a barrier, its keratin-filled surface cells, waterproofing lipids, acidic sweat and pigment melanin resist abrasion, chemicals, microbes, water loss and ultraviolet light, and resident immune cells (dendritic cells, macrophages) flag invaders. As a radiator, it adjusts heat loss by sweating and by widening or narrowing dermal blood vessels, which also make the dermis a sizeable blood reservoir. As a sense organ, it carries receptors for touch, pressure, vibration, temperature and pain. It excretes a little water, salt and urea in sweat. Ultraviolet light in the epidermis converts a cholesterol derivative into a vitamin D precursor, which liver and kidney finish as calcitriol, the link to bone, since calcitriol drives intestinal calcium absorption.",
+  "terms": [
+   {
+    "t": "Epidermis / dermis",
+    "d": "The outer cellular layer of skin / the deeper connective-tissue layer with vessels and nerves."
+   },
+   {
+    "t": "Subcutaneous layer",
+    "d": "The fat-rich layer beneath the dermis that stores lipid and insulates."
+   },
+   {
+    "t": "Keratin",
+    "d": "Tough fibrous protein filling the dead surface cells of the epidermis."
+   },
+   {
+    "t": "Melanin",
+    "d": "Brown pigment that absorbs ultraviolet light."
+   },
+   {
+    "t": "Thermoregulation",
+    "d": "Keeping body temperature constant, here by sweating and skin blood flow."
+   },
+   {
+    "t": "Calcitriol",
+    "d": "Active vitamin D, made from a skin precursor by liver and kidney; raises calcium absorption."
+   },
+   {
+    "t": "Cutaneous",
+    "d": "Relating to the skin."
+   },
+   {
+    "t": "Dendritic cell",
+    "d": "Epidermal immune cell that captures microbes and alerts the immune system."
+   }
+  ],
+  "note": "Outside this week's skeletal topic. The slide's six functions (including 'coordinates the immune response' and 'stores lipids in the dermis') follow Martini's textbook; Tortora's list is thermoregulation, blood reservoir, protection, cutaneous sensations, excretion/absorption and vitamin D synthesis, and it places fat storage in the subcutaneous layer."
+ },
+ {
+  "n": 36,
+  "title": "Integumentary system and the rule of 9s",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 5,
+    "section": "Disorders",
+    "section_title": "Disorders: Homeostatic Imbalances - Burns (rule of nines)",
+    "book_pages": "172-173",
+    "pdf_pages": "188-189",
+    "capture": "p.172 right column, the paragraph starting 'The seriousness of a burn is determined', ending with the sentence introducing the rule of nines, followed by the numbered list 1-5 (head and neck 9%, each upper limb 9%, trunk 36%, each lower limb 18%, perineum 1%); p.173 left column Figure 5.10 'Rule-of-nines method' - the labelled body diagram; the burn-classification paragraphs (first-, second-, third-degree) and Figure 5.9 are on p.172 left column and bottom",
+    "figures": [
+     "5.10",
+     "5.9"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A burn destroys skin proteins, and once the barrier is gone the main dangers are systemic: plasma leaks from the burned surface, causing dehydration and shock, and microbes get in. How much fluid to replace intravenously depends on how much skin is gone, so clinicians need a fast estimate of the burned fraction of total body surface area. The rule of nines divides the adult body into regions each worth 9% or a multiple: head and neck 9%, each whole upper limb 9%, front of trunk 18% and back 18%, each whole lower limb 18%, perineum 1%, summing to 100%. Front and back of a region are each half its value, so a burn of the front of one arm is 4.5%. Proportions differ in children (larger head, smaller legs), which is why paediatric charts modify the figures. Severity also depends on depth (first-, second-, third-degree), site and the patient's age.",
+  "terms": [
+   {
+    "t": "Integumentary system",
+    "d": "The skin and its accessory structures: hair, nails, glands."
+   },
+   {
+    "t": "Total body surface area (TBSA)",
+    "d": "The whole skin area; burns are expressed as a percentage of it."
+   },
+   {
+    "t": "Perineum",
+    "d": "The region between the thighs containing the anal and urogenital openings."
+   },
+   {
+    "t": "Anterior / posterior",
+    "d": "Front / back surfaces of the body."
+   },
+   {
+    "t": "Partial- vs full-thickness burn",
+    "d": "First- and second-degree burns sparing some dermis / third-degree burns destroying epidermis, dermis and subcutaneous tissue."
+   },
+   {
+    "t": "Fluid resuscitation",
+    "d": "Intravenous replacement of the plasma lost through burned skin."
+   },
+   {
+    "t": "Shock",
+    "d": "Circulatory failure from inadequate blood volume or pressure."
+   },
+   {
+    "t": "Epidermis / dermis",
+    "d": "The outer and inner layers of the skin, whose loss defines burn depth."
+   }
+  ],
+  "note": "Outside this week's skeletal topic. Tortora presents the rule of nines but does not attribute it to Wallace or use the abbreviation TBSA."
+ }
+]

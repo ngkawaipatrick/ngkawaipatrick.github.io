@@ -1,0 +1,1772 @@
+[
+ {
+  "n": 1,
+  "title": "HTI 5001",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 2,
+  "title": "Objectives",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 3,
+  "title": "The Male perineum",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Perineum",
+    "book_pages": "1135",
+    "pdf_pages": "1151",
+    "capture": "p.1135 left column, bottom: the one paragraph under the heading 'Perineum' (starts 'The perineum is the diamond-shaped'); its last sentence finishes in the right column directly under Table 28.2 ('the perineum into an anterior urogenital triangle…', 3 lines). Same page, right column top: Table 28.2 (homologous male/female structures) is a useful side reference.",
+    "figures": [],
+    "tables": [
+     "28.2"
+    ]
+   },
+   {
+    "chapter": 11,
+    "section": "11.13",
+    "section_title": "Muscles of the Perineum",
+    "book_pages": "374",
+    "pdf_pages": "390",
+    "capture": "p.374 right column: the first paragraph under the heading '11.13 Muscles of the Perineum' (starts 'The perineum is the region'), one paragraph (boundaries, the two triangles, perineal body); p.374 lower half: Figure 11.13 'Muscles of the perineum' (inferior superficial view of male perineum) — Tortora's own picture of the male perineum, the counterpart of the slide's photograph.",
+    "figures": [
+     "11.13"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Scrotum",
+    "book_pages": "1108",
+    "pdf_pages": "1124",
+    "capture": "p.1108 left column: the two paragraphs under the heading 'Scrotum' (start 'The scrotum (SKRŌ-tum = bag)'); the second paragraph (temperature regulation by dartos and cremaster) ends at the top of the right column ('heat. Contraction of the dartos…', 3 lines).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The perineum is the diamond-shaped floor of the trunk between the thighs, seen from below with the legs apart. Its corners are the pubic symphysis in front, the two ischial tuberosities (the bones you sit on) at the sides and the coccyx behind. A line between the ischial tuberosities cuts the diamond into two triangles: the front urogenital triangle carries the external genitals and urethral opening (penis and scrotum in a male), the rear anal triangle carries the anus. The scrotum is a pouch of loose skin and smooth muscle hanging from the root of the penis; it holds the testes, the epididymis on the back of each testis and the start of the ductus (vas) deferens. The testes hang outside for thermal reasons: sperm production needs about 2–3 °C below core temperature, and the cremaster and dartos muscles raise or lower them to regulate it. The same diamond exists in females.",
+  "terms": [
+   {
+    "t": "Perineum",
+    "d": "The diamond-shaped region between the thighs, from pubic symphysis to coccyx, containing the external genitals and anus."
+   },
+   {
+    "t": "Urogenital triangle",
+    "d": "Anterior half of the perineum; holds the urethral opening and external genitals."
+   },
+   {
+    "t": "Anal triangle",
+    "d": "Posterior half of the perineum, containing the anus."
+   },
+   {
+    "t": "Ischial tuberosity",
+    "d": "The rough bony bump at the bottom of each hip bone that bears weight when sitting."
+   },
+   {
+    "t": "Scrotum",
+    "d": "Skin-and-muscle pouch below the penis that suspends the testes outside the body cavity."
+   },
+   {
+    "t": "Epididymis",
+    "d": "Comma-shaped coiled duct on the back of each testis where sperm mature and are stored."
+   },
+   {
+    "t": "Ductus (vas) deferens",
+    "d": "Muscular tube carrying sperm from the epididymis up into the pelvis."
+   },
+   {
+    "t": "Pubic symphysis",
+    "d": "The cartilage joint between the two pubic bones at the front of the pelvis."
+   }
+  ],
+  "note": "The slide's picture is a surface photograph with the triangles drawn on; Tortora's equivalent is the drawing in Figure 11.13 (male) and Figure 28.21 (female, p.1136). The slide says the scrotum houses the 'proximal portion of the vas deferens': in Tortora the ductus deferens begins at the tail of the epididymis and ascends through the scrotum inside the spermatic cord (p.1115)."
+ },
+ {
+  "n": 4,
+  "title": "Dissection of the Scrotum and Spermatic cord",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Scrotum",
+    "book_pages": "1109",
+    "pdf_pages": "1125",
+    "capture": "p.1109 upper three-quarters: Figure 28.2 'The scrotum, the supporting structure for the testes' (anterior view of scrotum and testes with a transverse section of the penis) — this is the slide's drawing; the slide has relabelled it (slide 'Inguinal canal' points at Tortora's 'Superficial inguinal ring'; 'Erectile tissues' = 'Corpora cavernosa penis / Corpus spongiosum penis'; 'Penile urethra' = 'Spongy urethra'; 'Abdominal wall muscles' = 'Internal oblique muscle / Aponeurosis of external oblique').",
+    "figures": [
+     "28.2"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Spermatic Cord",
+    "book_pages": "1115",
+    "pdf_pages": "1131",
+    "capture": "p.1115 right column, middle: the one paragraph under the heading 'Spermatic Cord' (starts 'The spermatic cord is a supporting') — contents of the cord and the inguinal canal from deep ring to superficial ring; followed by the short 'varicocele' paragraph.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Scrotum",
+    "book_pages": "1108",
+    "pdf_pages": "1124",
+    "capture": "p.1108 left column: the two paragraphs under 'Scrotum' (start 'The scrotum (SKRŌ-tum = bag)'): raphe, scrotal septum, dartos muscle, cremaster muscle, temperature control; the second paragraph ends at the top of the right column.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This is a front view with the skin of the scrotum and the lower abdominal wall cut away. Each testis sits in its own compartment; behind it lies the epididymis, from which the ductus deferens climbs upward inside the spermatic cord. The cord is a bundle: ductus deferens, testicular artery, a cooling plexus of veins, lymphatics, autonomic nerves and thin bands of skeletal muscle (the cremaster), wrapped in fascia. The cord leaves the scrotum and passes obliquely through the abdominal wall in the inguinal canal, entering at the superficial ring (what the slide labels) and emerging at the deep ring inside the abdomen; this is the route the testes took when they descended in the seventh fetal month. The penis in cross-section shows three erectile cylinders: two corpora cavernosa above and the corpus spongiosum below carrying the spongy (penile) urethra, the single tube serving both urination and ejaculation.",
+  "terms": [
+   {
+    "t": "Spermatic cord",
+    "d": "Bundle of ductus deferens, testicular vessels, nerves, lymphatics and cremaster muscle running from testis to inguinal canal."
+   },
+   {
+    "t": "Inguinal canal",
+    "d": "Oblique passage through the lower anterior abdominal wall between the deep and superficial inguinal rings."
+   },
+   {
+    "t": "Cremaster muscle",
+    "d": "Skeletal-muscle bands from the internal oblique that pull the testis up toward the body when cold."
+   },
+   {
+    "t": "Dartos muscle",
+    "d": "Smooth muscle in the scrotal skin and septum that wrinkles and tightens the scrotum."
+   },
+   {
+    "t": "Tunica vaginalis",
+    "d": "Serous sac derived from peritoneum that partly wraps each testis."
+   },
+   {
+    "t": "Pampiniform plexus",
+    "d": "Network of testicular veins around the artery in the cord; a heat exchanger."
+   },
+   {
+    "t": "Erectile tissue",
+    "d": "Tissue full of blood-filled spaces that stiffens when the spaces fill."
+   },
+   {
+    "t": "Aponeurosis",
+    "d": "A flat sheet-like tendon, here of the external oblique muscle."
+   }
+  ],
+  "note": "Slide typo: 'Cremester' = cremaster. The slide states 'The inguinal canal opens to the peritoneal cavity'; Tortora describes the canal only as a passage through the abdominal wall (p.1115). In the fetus a peritoneal outpouching does pass through it (it becomes the tunica vaginalis, p.1108), but in the adult that connection has normally closed; when it stays open, bowel can follow it (indirect inguinal hernia)."
+ },
+ {
+  "n": 5,
+  "title": "Gross anatomy of the Testis",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Testes",
+    "book_pages": "1110",
+    "pdf_pages": "1126",
+    "capture": "p.1110: Figure 28.3 'Internal and external anatomy of a testis'. The slide reproduces the two photographs in the lower half of the page, (b) 'Lateral view of testis and associated structures' and (c) 'Sagittal section'; part (a) at the top of the page is the labelled drawing of the same section (lobules, seminiferous tubules, straight tubules, rete testis, efferent ductules, duct of epididymis, tunica albuginea, tunica vaginalis).",
+    "figures": [
+     "28.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Testes",
+    "book_pages": "1108-1109",
+    "pdf_pages": "1124-1125",
+    "capture": "p.1108 right column: the two paragraphs under the heading 'Testes' (start 'The testes (TES-tēz = witnesses)'): size, descent through the inguinal canals, tunica vaginalis, tunica albuginea, lobules, seminiferous tubules, definition of spermatogenesis (ends at the foot of the column). p.1109, below Figure 28.2: the two paragraphs on the tubule's cells — left column 'The seminiferous tubules contain two types' (spermatogonia and the maturation series), right column 'Embedded among the spermatogonia' (nurse cells, blood–testis barrier); this right-column paragraph runs onto p.1111 left column bottom ('sperm transport, secrete the hormone inhibin').",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Genital System Ducts in Males — Epididymis",
+    "book_pages": "1115",
+    "pdf_pages": "1131",
+    "capture": "p.1115 left column, lower half: the paragraph under 'Ducts of the Testis' (starts 'Pressure generated by the fluid') and the three paragraphs under 'Epididymis' (start 'The epididymis (ep′-i-DID-i-mis'); the third paragraph, 'Functionally, the epididymis is the site', is the slide's bottom statement (maturation over ~14 days, storage).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A testis is an oval gland about 5 cm long. Its white fibrous capsule (tunica albuginea) sends walls inward that divide it into 200–300 wedge-shaped lobules, each packed with one to three tightly coiled seminiferous tubules; the right-hand photo shows their cut ends. These tubules are the sperm factory. From them, sperm pass through straight tubules into a network (rete testis), then through efferent ductules into the single, hugely coiled duct of the epididymis, the comma-shaped structure on the back of the testis: an upper head, a body and a lower tail that becomes the ductus deferens. Sperm leaving the tubules are complete in shape but cannot yet swim; during roughly two weeks in the epididymis they gain motility and fertilising ability, and can be stored there for months. The spermatic cord at the top is the bundle of duct, vessels and nerves leaving the scrotum. The slide leaves the duct sequence and the capsule unnamed.",
+  "terms": [
+   {
+    "t": "Seminiferous tubule",
+    "d": "Coiled tube inside the testis whose wall produces sperm."
+   },
+   {
+    "t": "Tunica albuginea",
+    "d": "Dense white fibrous capsule of the testis that sends septa inward."
+   },
+   {
+    "t": "Lobule",
+    "d": "One of the ~250 compartments of the testis, each holding a few seminiferous tubules."
+   },
+   {
+    "t": "Rete testis",
+    "d": "Network of channels at the back of the testis collecting sperm from all tubules."
+   },
+   {
+    "t": "Efferent ductules",
+    "d": "Short coiled tubes carrying sperm from the rete testis into the epididymis."
+   },
+   {
+    "t": "Epididymis (head, body, tail)",
+    "d": "Single 6-m coiled duct on the testis where sperm mature and are stored."
+   },
+   {
+    "t": "Sagittal section",
+    "d": "A cut in the vertical plane dividing the structure into left and right parts."
+   },
+   {
+    "t": "Sperm maturation",
+    "d": "Acquiring motility and fertilising ability after leaving the testis."
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "title": "6 (untitled: events in spermatogenesis)",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Spermatogenesis",
+    "book_pages": "1112",
+    "pdf_pages": "1128",
+    "capture": "p.1112 left column: Figure 28.5 'Events in spermatogenesis' (top two-thirds of the column) — identical to the slide. Text: p.1112 right column, the whole column (starts 'secondary spermatocytes. Each secondary spermatocyte has'): meiosis II, four spermatids, cytoplasmic bridges, spermiogenesis, spermiation.",
+    "figures": [
+     "28.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Spermatogenesis",
+    "book_pages": "1111-1112",
+    "pdf_pages": "1127-1128",
+    "capture": "p.1111 right column, bottom: the paragraph headed 'Spermatogenesis' (starts 'Before you read this section'; 65–75 days, diploid spermatogonia), which continues on p.1112 left column below Figure 28.5 ('cells; when they undergo mitosis') for two paragraphs: reservoir spermatogonia, primary spermatocytes, DNA replication and meiosis I.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 3,
+    "section": "3.7",
+    "section_title": "Reproductive Cell Division",
+    "book_pages": "100-102",
+    "pdf_pages": "116-118",
+    "capture": "p.100 right column, lower half: the two paragraphs under 'Reproductive Cell Division' and 'Meiosis' (start 'In the process called sexual reproduction'); p.101 both columns: 'Meiosis I' and 'Meiosis II' paragraphs and Table 3.4 (mitosis vs meiosis); p.102: Figure 3.33 'Meiosis, reproductive cell division' — the background the slide assumes.",
+    "figures": [
+     "3.33"
+    ],
+    "tables": [
+     "3.4"
+    ]
+   }
+  ],
+  "basics": "Every body cell carries 46 chromosomes in 23 pairs (diploid, 2n). A gamete must carry only one of each pair (haploid, n) so that fertilisation restores 46; meiosis is the two-step division that halves the number. Read the figure from the outside of the tubule wall inward. Spermatogonia at the basement membrane divide by ordinary mitosis, keeping a permanent stem-cell reserve. A cell that moves inward becomes a primary spermatocyte, copies its DNA (each chromosome now two chromatids), and in meiosis I the homologous pairs line up, swap segments (crossing-over) and are pulled apart, giving two secondary spermatocytes with 23 double-stranded chromosomes. Meiosis II separates the chromatids, giving four spermatids. Spermiogenesis is remodelling, not division: the round spermatid grows an acrosome cap and a tail, packs mitochondria into a midpiece and sheds spare cytoplasm (eaten by nurse cells). Daughter cells stay linked by cytoplasmic bridges, so a patch of tubule matures in step.",
+  "terms": [
+   {
+    "t": "Diploid (2n)",
+    "d": "Having two sets of chromosomes, 46 in humans."
+   },
+   {
+    "t": "Haploid (n)",
+    "d": "Having a single set, 23 chromosomes; the state of a gamete."
+   },
+   {
+    "t": "Mitosis",
+    "d": "Cell division that copies a cell exactly, keeping 46 chromosomes."
+   },
+   {
+    "t": "Meiosis",
+    "d": "Two successive divisions after one DNA copy, yielding four cells with 23 chromosomes each."
+   },
+   {
+    "t": "Chromatid",
+    "d": "One of the two identical copies of a replicated chromosome, joined at the centromere."
+   },
+   {
+    "t": "Tetrad / crossing-over",
+    "d": "Paired homologous chromosomes (4 chromatids) exchanging segments in meiosis I."
+   },
+   {
+    "t": "Spermatogonium",
+    "d": "Diploid stem cell at the tubule's basement membrane."
+   },
+   {
+    "t": "Spermatid",
+    "d": "Haploid round cell produced by meiosis II, not yet shaped as a sperm."
+   },
+   {
+    "t": "Spermiogenesis",
+    "d": "Transformation of a spermatid into a tailed sperm without division."
+   },
+   {
+    "t": "Basement membrane",
+    "d": "Thin sheet of extracellular material that the tubule's epithelium rests on."
+   }
+  ],
+  "note": "The slide has no title or caption; it is Tortora Figure 28.5 unchanged. The text explaining it is split across p.1111 (bottom right) and p.1112 (both columns)."
+ },
+ {
+  "n": 7,
+  "title": "Spermatogenesis and Structure of a Spermatocyte",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Sperm",
+    "book_pages": "1112-1113",
+    "pdf_pages": "1128-1129",
+    "capture": "p.1112 right column, last paragraph (headed 'Sperm', starts 'Each day about 300 million'): 60 µm, head with nucleus and acrosome, tail = neck, middle piece, principal piece, end piece; it finishes on p.1113 left column, mid-page, just below Figure 28.6 ('tail, and the end piece is the terminal', 3 lines, 48-hour survival). p.1113 left column, top: Figure 28.6 'Parts of a sperm' — the slide's drawing.",
+    "figures": [
+     "28.6"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Spermatogenesis",
+    "book_pages": "1112",
+    "pdf_pages": "1128",
+    "capture": "p.1112: Figure 28.5 (left column) and the right-column text — the cell sequence on the right of the slide: spermatogonium → primary spermatocyte → (meiosis I) secondary spermatocytes → (meiosis II) spermatids → (spermiogenesis) sperm.",
+    "figures": [
+     "28.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.12",
+    "section_title": "Autosomes, Sex Chromosomes, and Sex Determination",
+    "book_pages": "1194-1195",
+    "pdf_pages": "1210-1211",
+    "capture": "p.1194 right column: the two paragraphs under the heading 'Autosomes, Sex Chromosomes, and Sex Determination' (start 'When viewed under a microscope'): 22 pairs of autosomes plus XX or XY; meiosis gives two X-sperm and two Y-sperm; p.1195 left column top: Figure 29.25 'Sex determination' (Punnett square) — explains the slide's '22X or 22Y'.",
+    "figures": [
+     "29.25"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A sperm is a stripped-down delivery vehicle for 23 chromosomes, about 60 µm long, most of it tail. The flattened head holds the condensed nucleus capped by the acrosome, a bag of enzymes (hyaluronidase, proteases) that later digests a path through the coats around the oocyte. Behind it the neck holds the centrioles that built the tail's microtubules; the middle piece is wrapped in spiral mitochondria that make ATP for swimming; the principal piece is the long whip and the end piece its taper. '22X or 22Y' means 22 autosomes plus one sex chromosome: half of all sperm carry X and half Y, so the sperm decides the baby's sex. The right-hand column is the cell lineage: a diploid stem cell (spermatogonium) becomes a primary spermatocyte, meiosis I gives two secondary spermatocytes (23 chromosomes each), meiosis II four spermatids, and spermiogenesis then reshapes each spermatid into the sperm drawn on the left. Ejaculated sperm survive about 48 hours.",
+  "terms": [
+   {
+    "t": "Acrosome",
+    "d": "Enzyme-filled cap over the front of the sperm nucleus used to penetrate the oocyte's coats."
+   },
+   {
+    "t": "Flagellum",
+    "d": "A single long whip-like tail driven by microtubules; the sperm's motor."
+   },
+   {
+    "t": "Middle piece",
+    "d": "Segment of the tail just behind the neck packed with spiral mitochondria."
+   },
+   {
+    "t": "Centriole",
+    "d": "Microtubule-organising body in the neck from which the tail's microtubules grow."
+   },
+   {
+    "t": "Autosome",
+    "d": "Any of the 22 chromosome pairs that are the same in males and females."
+   },
+   {
+    "t": "Sex chromosome",
+    "d": "The 23rd pair: XX in females, XY in males."
+   },
+   {
+    "t": "Secondary oocyte",
+    "d": "The cell released at ovulation, halted in meiosis II until a sperm enters."
+   },
+   {
+    "t": "Zygote",
+    "d": "The single diploid cell formed when sperm and ovum nuclei fuse."
+   },
+   {
+    "t": "Micrometre (µm)",
+    "d": "One thousandth of a millimetre; a sperm is ~60 µm, a red cell ~8 µm."
+   }
+  ],
+  "note": "The title says 'spermatocyte' but the drawing is a mature sperm (spermatozoon); spermatocytes are the meiotic precursors that never leave the tubule. The slide's list stops at 'Spermatids' and omits spermiogenesis, the step that makes the sperm. 'Spermatids (22X)' is incomplete: spermatids, like sperm, are 22+X or 22+Y."
+ },
+ {
+  "n": 8,
+  "title": "Hormones controlling testicular functions",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Hormonal Control of Testicular Function",
+    "book_pages": "1113-1114",
+    "pdf_pages": "1129-1130",
+    "capture": "p.1113 left column, lower half: the two paragraphs under the heading 'Hormonal Control of Testicular Function' (start 'Although the initiating factors are unknown'): GnRH at puberty → LH and FSH; LH → interstitial (Leydig) cells → testosterone, negative feedback, DHT. The second paragraph runs onto p.1114 left column top ('cells to stimulate secretion of androgen-binding protein', one paragraph ending '…increased rate of spermatogenesis'): FSH + testosterone act on nurse cells, ABP, inhibin. p.1113 right column: Figure 28.7 (whole figure with its key).",
+    "figures": [
+     "28.7"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Hormonal Control of Testicular Function",
+    "book_pages": "1114",
+    "pdf_pages": "1130",
+    "capture": "p.1114 left column, bottom: the paragraph starting 'A negative feedback system regulates' (finishes under Figure 28.8 at the foot of the right column, 4 lines: 'concentration in the blood falls too low'); p.1114 right column: Figure 28.8 'Negative feedback control of blood level of testosterone' (the whole loop diagram). The bullet list above it (Prenatal development, Development of male sexual characteristics, Development of sexual function, Stimulation of anabolism) gives testosterone's actions.",
+    "figures": [
+     "28.8"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Testes — interstitial endocrine cells",
+    "book_pages": "1111",
+    "pdf_pages": "1127",
+    "capture": "p.1111 left column, below Figure 28.4: the paragraph starting 'In the spaces between adjacent seminiferous tubules' (one paragraph): interstitial endocrine cells = Leydig cells secrete testosterone, the main androgen.",
+    "figures": [
+     "28.4"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A hormone is a chemical released into the blood that acts on distant cells carrying its receptor. The testis is run by a three-level chain. Neurons in the hypothalamus release gonadotropin-releasing hormone (GnRH) into a short portal blood system feeding the anterior pituitary, whose gonadotroph cells respond by releasing two gonadotropins, LH and FSH, into the general circulation. In the testis, LH acts on the interstitial (Leydig) cells between the tubules, which make testosterone from cholesterol; being a steroid, it diffuses out into blood. FSH acts on the nurse (Sertoli) cells inside the tubules, which, with testosterone, support spermatogenesis and secrete androgen-binding protein that keeps local testosterone high. The system is self-limiting like a thermostat: rising testosterone suppresses GnRH and LH, and nurse cells release inhibin, which suppresses FSH once sperm output is sufficient. The slide leaves out nurse cells, inhibin, the feedback loops and the fact that FSH acts indirectly; the end product is sperm, not 'spermatocytes'.",
+  "terms": [
+   {
+    "t": "Hypothalamus",
+    "d": "Base-of-brain region whose neurons secrete releasing hormones that steer the pituitary."
+   },
+   {
+    "t": "Anterior pituitary",
+    "d": "Front lobe of the pituitary gland; its gonadotroph cells make LH and FSH."
+   },
+   {
+    "t": "GnRH",
+    "d": "Gonadotropin-releasing hormone; the hypothalamic signal that starts the axis at puberty."
+   },
+   {
+    "t": "Gonadotropin",
+    "d": "A pituitary hormone (LH or FSH) that acts on a gonad."
+   },
+   {
+    "t": "Leydig (interstitial endocrine) cell",
+    "d": "Cell between the seminiferous tubules that secretes testosterone under LH."
+   },
+   {
+    "t": "Nurse (Sertoli) cell",
+    "d": "Supporting cell inside the tubule that feeds developing sperm and secretes inhibin."
+   },
+   {
+    "t": "Testosterone / androgen",
+    "d": "Steroid hormone producing male characteristics; androgen is the general term."
+   },
+   {
+    "t": "Negative feedback",
+    "d": "Control in which the output of a system suppresses its own production."
+   },
+   {
+    "t": "Inhibin",
+    "d": "Protein hormone from nurse cells that dampens FSH release."
+   },
+   {
+    "t": "Puberty",
+    "d": "The period when rising GnRH switches on gamete and sex-hormone production."
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "title": "Tracing the vas deferens to the Prostate",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Male Genital (Reproductive) System",
+    "book_pages": "1107",
+    "pdf_pages": "1123",
+    "capture": "p.1107, lower two-thirds: Figure 28.1(a) 'Sagittal section' — the slide's drawing (the slide keeps 11 of its labels). Also on p.1107: the boxed 'Functions of the Male Genital System' (top right of the figure) and the right-column paragraph starting 'The organs of the male genital system include' (the organ list the slide traces).",
+    "figures": [
+     "28.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Genital System Ducts in Males — Ductus Deferens, Ejaculatory Ducts, Urethra",
+    "book_pages": "1115-1116",
+    "pdf_pages": "1131-1132",
+    "capture": "p.1115 right column: the two paragraphs under 'Ductus Deferens' (start 'Within the tail of the epididymis': 45 cm course over the ureter to the ampulla behind the bladder; peristalsis), the paragraph under 'Ejaculatory Ducts' (starts 'Each ejaculatory duct'), and the paragraph under 'Urethra' (starts 'In males, the urethra'), which continues at the top of p.1116 left column (3 lines) and right column ('is 2–3 cm (1 in.) long and passes through the prostate…').",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Accessory Male Genital Glands — Seminal Glands, Prostate",
+    "book_pages": "1117",
+    "pdf_pages": "1133",
+    "capture": "p.1117 right column: the paragraph under 'Seminal Glands' (starts 'The paired seminal glands') and the first paragraph under 'Prostate' (starts 'The prostate (PROS-tāt'): positions behind the bladder base and around the prostatic urethra.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The picture is a midline (sagittal) cut through the pelvis, face to the right. Follow the numbers as a plumbing diagram. (1) The ductus (vas) deferens, a 45 cm muscular tube, leaves the tail of the epididymis, rises in the spermatic cord through the inguinal canal into the pelvis, hooks over the ureter and runs down the back of the bladder, widening into an ampulla. (2) Beside it lies the seminal vesicle (seminal gland), a coiled pouch that adds most of the seminal fluid. Their two ducts merge into (3) the short ejaculatory duct, which pierces (4) the prostate, a walnut-sized gland under the bladder wrapped around the first part of (5) the urethra, which then continues through the perineal muscles and the penis to (6) the external opening. At ejaculation the duct's three smooth-muscle layers contract in waves under sympathetic control. The slide does not say the urethra is shared with the urinary system or name its three parts.",
+  "terms": [
+   {
+    "t": "Sagittal section",
+    "d": "A vertical cut from front to back; here through the midline of the pelvis."
+   },
+   {
+    "t": "Ampulla",
+    "d": "Widened end of the ductus deferens behind the bladder."
+   },
+   {
+    "t": "Seminal vesicle (seminal gland)",
+    "d": "Paired pouch-like gland behind the bladder secreting most of the seminal fluid."
+   },
+   {
+    "t": "Ejaculatory duct",
+    "d": "2-cm duct formed by ampulla plus seminal-gland duct; runs through the prostate into the urethra."
+   },
+   {
+    "t": "Prostate",
+    "d": "Single doughnut-shaped gland below the bladder surrounding the prostatic urethra."
+   },
+   {
+    "t": "Urethra",
+    "d": "Tube from bladder to exterior; in males carries both urine and semen."
+   },
+   {
+    "t": "Ureter",
+    "d": "Tube from kidney to bladder (not to be confused with the urethra)."
+   },
+   {
+    "t": "Peristalsis",
+    "d": "Travelling wave of smooth-muscle contraction that pushes contents along a tube."
+   },
+   {
+    "t": "External urethral orifice",
+    "d": "The opening of the urethra at the tip of the glans."
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "title": "Transportation of the spermatocytes/ spermatids",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Accessory Male Genital Glands",
+    "book_pages": "1116",
+    "pdf_pages": "1132",
+    "capture": "p.1116, lower two-thirds: Figure 28.9(a) 'Posterior view of accessory male genital glands' (prostate, urethra and penis sectioned) — the slide's drawing; at the top of the figure the boxed 'Functions of Accessory Male Genital Gland Secretions' (3 numbered points). Also p.1116 left column top (3 lines) and right column top (4 lines, 'is 2–3 cm (1 in.) long and passes through the prostate'): the three parts of the urethra.",
+    "figures": [
+     "28.9"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Accessory Male Genital Glands",
+    "book_pages": "1117-1118",
+    "pdf_pages": "1133-1134",
+    "capture": "p.1117 left column below photo (b): the 3-line continuation 'in length. As this duct passes through the corpus spongiosum' (spongy urethra 15–20 cm), then the intro paragraph under the heading 'Accessory Male Genital Glands'; p.1117 right column: 'Seminal Glands' paragraph and 'Prostate' paragraphs (the second continues on p.1118 left column top, 'amylase, and hyaluronidase'); p.1118 left column: the paragraph under 'Bulbourethral Glands' (starts 'The paired bulbourethral glands').",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Penis — ejaculation",
+    "book_pages": "1121",
+    "pdf_pages": "1137",
+    "capture": "p.1121 left column: the paragraph starting 'Ejaculation (ē-jak-ū-LĀ-shun), the powerful release' (one paragraph): sympathetic reflex, bladder sphincter closes, order of peristalsis (epididymis, ductus deferens, seminal glands, ejaculatory ducts, prostate), emission.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Now the same plumbing is seen from behind, with the bladder above. The two ductus deferentia come down the back of the bladder and their ampullae lie medial to the two seminal vesicles; each pair joins into an ejaculatory duct that enters the prostate from above and opens into the prostatic urethra. Below the prostate the urethra passes through the sheet of deep perineal muscles (the slide's 'perineal membrane') as the short membranous urethra, and then runs the length of the corpus spongiosum as the spongy urethra. The pea-sized bulbourethral glands sit in that muscle sheet beside the membranous urethra and drain into the spongy urethra. So the full path from testis to exterior is: seminiferous tubule → straight tubules → rete testis → efferent ductules → epididymis → ductus deferens → ejaculatory duct → prostatic, membranous and spongy urethra. Along the way the three gland types add the fluid that makes up most of semen.",
+  "terms": [
+   {
+    "t": "Posterior view",
+    "d": "Looking at the structure from behind."
+   },
+   {
+    "t": "Prostatic urethra",
+    "d": "First 2–3 cm of the urethra, inside the prostate; receives ejaculatory and prostatic ducts."
+   },
+   {
+    "t": "Membranous urethra",
+    "d": "Short (~1 cm) part passing through the deep perineal muscles."
+   },
+   {
+    "t": "Spongy urethra",
+    "d": "Longest part (15–20 cm) running through the corpus spongiosum of the penis."
+   },
+   {
+    "t": "Bulbourethral (Cowper's) gland",
+    "d": "Paired pea-sized gland below the prostate that secretes alkaline mucus into the spongy urethra."
+   },
+   {
+    "t": "Perineal membrane / deep perineal muscles",
+    "d": "Fibromuscular sheet across the urogenital triangle through which the urethra passes."
+   },
+   {
+    "t": "Emission",
+    "d": "Movement of sperm and gland secretions into the urethra just before ejaculation."
+   },
+   {
+    "t": "Spermatozoon (sperm)",
+    "d": "The finished motile male gamete; the cell that is actually transported."
+   }
+  ],
+  "note": "What is transported is sperm (spermatozoa); spermatocytes and spermatids are earlier stages that stay inside the seminiferous tubule (p.1112). The slide's 'Perineal membrane' label sits where Tortora labels 'Deep muscles of perineum'. The bulbourethral glands, highlighted in red in the slide's caption, are drawn but unlabelled on the slide; Tortora labels them in Figure 28.9(a)."
+ },
+ {
+  "n": 11,
+  "title": "The Prostate & Male urethra",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Penis",
+    "book_pages": "1119",
+    "pdf_pages": "1135",
+    "capture": "p.1119: Figure 28.10 'Internal structure of the penis and the mechanism of erection'; the slide's drawing is part (a) 'Coronal section' (left half of the page); parts (b) and (c) on the right are transverse sections showing the two corpora cavernosa above the corpus spongiosum with the spongy urethra inside it.",
+    "figures": [
+     "28.10"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Penis",
+    "book_pages": "1118",
+    "pdf_pages": "1134",
+    "capture": "p.1118 right column: the three paragraphs under the heading 'Penis' (start 'The penis (= tail) contains'): body with corpora cavernosa and corpus spongiosum, erectile tissue as blood sinuses; glans, corona, prepuce; root (bulb, crura, ligaments); then the paragraph 'Upon sexual stimulation, parasympathetic fibers' (nitric oxide, arteriole dilation, sinus widening, vein compression) which finishes at the top of p.1121 left column (3 lines, 'veins that drain the penis').",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Genital System Ducts in Males — Urethra",
+    "book_pages": "1116-1117",
+    "pdf_pages": "1132-1133",
+    "capture": "p.1116 left column top (3 lines, 'a passageway for both semen and urine. About 20 cm') and right column top (4 lines), continued on p.1117 left column below photo (b) ('in length. As this duct passes through the corpus spongiosum'): prostatic (2–3 cm), membranous (1 cm) and spongy (15–20 cm) urethra ending at the external urethral orifice.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This is a coronal (frontal) section: the penis is cut in the plane of its width and opened like a book. At the top the bladder empties into the prostatic urethra, encircled by the prostate; the urethra then squeezes through the perineal muscle sheet (membranous part) and enters the penis, running to the tip inside the corpus spongiosum (spongy part). The shaft is three parallel cylinders of erectile tissue, each in a tough fibrous sleeve: the paired corpora cavernosa (the striped bodies on the slide) above, and the single corpus spongiosum below, which swells at the end into the glans. Erectile tissue is a sponge of blood-filled spaces walled by smooth muscle. During arousal, parasympathetic nerves release nitric oxide; the supplying arterioles and sinus walls relax, blood pours in, the swelling squashes the draining veins, and the organ stiffens. Ejaculation, by contrast, is a sympathetic reflex. The slide's names are misspelt (see note).",
+  "terms": [
+   {
+    "t": "Coronal (frontal) section",
+    "d": "A vertical cut dividing a structure into front and back parts."
+   },
+   {
+    "t": "Corpus cavernosum",
+    "d": "One of two dorsal cylinders of erectile tissue forming most of the shaft."
+   },
+   {
+    "t": "Corpus spongiosum",
+    "d": "Single ventral erectile cylinder around the spongy urethra, ending in the glans."
+   },
+   {
+    "t": "Glans penis",
+    "d": "Acorn-shaped expanded end of the corpus spongiosum."
+   },
+   {
+    "t": "Tunica albuginea (penis)",
+    "d": "Dense fibrous sleeve around each erectile body."
+   },
+   {
+    "t": "Blood sinus",
+    "d": "Endothelium-lined space that fills with blood; the unit of erectile tissue."
+   },
+   {
+    "t": "Nitric oxide",
+    "d": "Gas signal released by parasympathetic nerves that relaxes vascular smooth muscle."
+   },
+   {
+    "t": "Parasympathetic vs sympathetic",
+    "d": "Two divisions of the autonomic nerves; erection is parasympathetic, ejaculation sympathetic."
+   },
+   {
+    "t": "Prepuce",
+    "d": "Foreskin; loose skin covering the glans."
+   }
+  ],
+  "note": "Slide spellings 'corpus cavernosome' and 'corpus spongiosome' should be corpus cavernosum and corpus spongiosum (plural corpora cavernosa)."
+ },
+ {
+  "n": 12,
+  "title": "Semen production that nourish the sperms",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Semen",
+    "book_pages": "1118",
+    "pdf_pages": "1134",
+    "capture": "p.1118 left column: the three paragraphs under the heading 'Semen' (start 'Semen (= seed) is a mixture'): 2.5–5 mL, 50–150 million sperm/mL, infertility below 20 million/mL, pH 7.2–7.7, coagulation and reliquefaction; the third paragraph runs over to the top of the right column ('are affected by secretions of the uterine tube… capacitation', 6 lines).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Accessory Male Genital Glands",
+    "book_pages": "1117-1118",
+    "pdf_pages": "1133-1134",
+    "capture": "p.1117 left column below photo (b): intro paragraph under 'Accessory Male Genital Glands' (starts 'The ducts of the male genital system'); p.1117 right column: 'Seminal Glands' paragraph (fructose, prostaglandins, clotting proteins, 60% of volume) and the two 'Prostate' paragraphs (the second continues on p.1118 left column top: citric acid, PSA, seminalplasmin, 25% of volume); p.1118 left column: the 'Bulbourethral Glands' paragraph (alkaline fluid, mucus, no sperm).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.1",
+    "section_title": "Accessory Male Genital Glands",
+    "book_pages": "1116",
+    "pdf_pages": "1132",
+    "capture": "p.1116, top of Figure 28.9: the boxed 'Functions of Accessory Male Genital Gland Secretions' (3 numbered points) — a one-box summary of the slide's first two bullets.",
+    "figures": [
+     "28.9"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Semen is sperm suspended in seminal fluid, and the fluid comes from four sources, not two: a little from the seminiferous tubules, about 60 % from the seminal glands, about 25 % from the prostate, and a small mucous contribution from the bulbourethral glands. Seminal-gland fluid is alkaline and viscous and carries fructose as fuel, prostaglandins that stir the female tract, and proteins that make the ejaculate clot briefly. Prostatic fluid is milky and slightly acidic, with citric acid, an antibiotic peptide, and enzymes (including PSA) that liquefy the clot after 10–20 minutes. The net pH of 7.2–7.7 protects sperm from the acid of the urethra and vagina. A typical ejaculate is 2.5–5 mL holding 50–150 million sperm per mL; below 20 million/mL fertility falls, because only a few hundred of the millions ever reach the oocyte. Sperm become fully fertile only after capacitation inside the female tract. The slide's '(spermatocytes/spermatids)' is loose: semen contains sperm.",
+  "terms": [
+   {
+    "t": "Semen",
+    "d": "The ejaculate: sperm plus the secretions of the tubules and accessory glands."
+   },
+   {
+    "t": "Seminal fluid",
+    "d": "The liquid part of semen, mostly from the seminal glands and prostate."
+   },
+   {
+    "t": "pH / alkaline",
+    "d": "Scale of acidity; above 7 is alkaline. Semen is 7.2–7.7, vagina acidic."
+   },
+   {
+    "t": "Fructose",
+    "d": "Simple sugar in seminal fluid that sperm burn for ATP."
+   },
+   {
+    "t": "Prostaglandin",
+    "d": "Local lipid signal; in semen it promotes sperm motility and uterine contraction."
+   },
+   {
+    "t": "PSA (prostate-specific antigen)",
+    "d": "Prostatic enzyme that liquefies clotted semen; also a blood marker in prostate disease."
+   },
+   {
+    "t": "Ejaculate",
+    "d": "The semen expelled in one ejaculation."
+   },
+   {
+    "t": "Capacitation",
+    "d": "Changes sperm undergo in the female tract that make them able to fertilise."
+   },
+   {
+    "t": "Coagulation (of semen)",
+    "d": "Brief clotting of semen after ejaculation, thought to stop leakage from the vagina."
+   }
+  ],
+  "note": "Slide says 'Prostate and seminal vesicles produce semen'; Tortora: semen = sperm + seminal fluid, and seminal fluid comes from seminiferous tubules, seminal glands (~60 %), prostate (~25 %) and bulbourethral glands. The slide's numbers (2.5–5 mL, 50–150 million/mL, pH 7.2–7.7) match the book exactly."
+ },
+ {
+  "n": 13,
+  "title": "Female perineum",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Perineum",
+    "book_pages": "1135-1136",
+    "pdf_pages": "1151-1152",
+    "capture": "p.1136 upper half: Figure 28.21 'Perineum of a female' (inferior view) — the slide's drawing with the urogenital and anal triangles; the slide's 'Vestibular bulb' = Tortora 'Bulb of the vestibule', 'Hood of clitoris' = prepuce of the clitoris. Text: p.1135 left column, bottom paragraph under 'Perineum' (starts 'The perineum is the diamond-shaped'), completed in the right column under Table 28.2 (3 lines).",
+    "figures": [
+     "28.21"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Vulva",
+    "book_pages": "1134-1135",
+    "pdf_pages": "1150-1151",
+    "capture": "p.1134 right column: the paragraph and bullets under the heading 'Vulva' (starts 'The term vulva (VUL-va = to wrap around)'): mons pubis, labia majora, labia minora; continuing on p.1135 left column: clitoris and its prepuce, vestibule, external urethral orifice, paraurethral glands, greater vestibular (Bartholin's) glands, bulb of the vestibule (ends '…homologous to the corpus spongiosum and bulb of the penis in males'); p.1135 right column top: Table 28.2 'Summary of Homologous Structures'.",
+    "figures": [],
+    "tables": [
+     "28.2"
+    ]
+   },
+   {
+    "chapter": 11,
+    "section": "11.13",
+    "section_title": "Muscles of the Perineum",
+    "book_pages": "373-375",
+    "pdf_pages": "389-391",
+    "capture": "p.373 lower half: Figure 11.12 'Muscles of the pelvic floor' (inferior superficial view of a female perineum, labels incl. ischiocavernosus, bulbospongiosus, superficial transverse perineal, perineal body, external anal sphincter, levator ani); p.374 right column: first paragraph under '11.13 Muscles of the Perineum'; p.375 top: the table of perineal muscles (origin, insertion, action) — for the slide's 'skeletal muscles supporting the pelvic floor'.",
+    "figures": [
+     "11.12"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Seen from below, the female perineum is the same diamond as the male one, split into a front urogenital and a rear anal triangle. In the front triangle the skin is removed to show what lies under the vulva. The clitoris, with its hood (prepuce), is a small erectile organ at the front, the counterpart of the glans penis; behind it the urethra and then the vagina open into the vestibule between the labia minora. Deep to each labium lies a bulb of the vestibule, erectile tissue equivalent to the male corpus spongiosum, and behind it a greater vestibular gland secreting lubricating mucus (equivalent to the bulbourethral gland). Small skeletal muscles drape these: ischiocavernosus over the clitoral crura, bulbospongiosus over the bulbs, the superficial transverse perineal muscles meeting at the perineal body (the fibromuscular knot between vagina and anus), and the external anal sphincter behind. The true pelvic floor (levator ani) lies deeper than these muscles.",
+  "terms": [
+   {
+    "t": "Vulva",
+    "d": "Collective name for the female external genitals."
+   },
+   {
+    "t": "Vestibule",
+    "d": "The cleft between the labia minora into which the urethra and vagina open."
+   },
+   {
+    "t": "Labia majora / minora",
+    "d": "Outer hair-bearing and inner hairless skin folds flanking the vestibule."
+   },
+   {
+    "t": "Clitoris",
+    "d": "Small erectile organ at the front of the vulva; homologue of the glans penis."
+   },
+   {
+    "t": "Prepuce (hood) of the clitoris",
+    "d": "Fold of skin covering the clitoris where the labia minora meet."
+   },
+   {
+    "t": "Bulb of the vestibule",
+    "d": "Paired erectile masses beside the vaginal orifice, deep to the labia."
+   },
+   {
+    "t": "Greater vestibular (Bartholin's) gland",
+    "d": "Pea-sized gland beside the vaginal orifice producing lubricating mucus."
+   },
+   {
+    "t": "Perineal body",
+    "d": "Central fibromuscular knot between vagina and anus into which perineal muscles insert."
+   },
+   {
+    "t": "Homologous",
+    "d": "Arising from the same embryonic structure in the two sexes."
+   },
+   {
+    "t": "Inferior view",
+    "d": "Looking at the region from below."
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "title": "Journey of spermatocyte/s to achieve fertilization",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Female Genital (Reproductive) System",
+    "book_pages": "1122-1123",
+    "pdf_pages": "1138-1139",
+    "capture": "p.1122 lower two-thirds: Figure 28.11(a) 'Sagittal section' — the slide's drawing (Tortora labels more: fornices, rectouterine and vesicouterine pouches, round ligament, mons pubis, labium majus); the boxed 'Functions of the Female Genital System' at the top of the figure; p.1123 top: Figure 28.11(b), the cadaver photo of the same section. p.1121 right column: the introductory paragraph under '28.2' (starts 'The organs of the female genital system') listing the organs.",
+    "figures": [
+     "28.11"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.2",
+    "section_title": "First Week of Development — Fertilization",
+    "book_pages": "1161-1162",
+    "pdf_pages": "1177-1178",
+    "capture": "p.1161 right column: the first two paragraphs under the heading 'Fertilization' (start 'During fertilization (fer′-ti-li-ZĀ-shun'): of 200 million sperm fewer than 2 million reach the cervix and ~200 the oocyte; 12–24 h window; 'Sperm swim from the vagina into the cervical canal…' then uterine and tubal contractions carry them; continues at the top of p.1162 left column ('ejaculation are not capable of fertilizing it until about 7 hours later': capacitation, one paragraph).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Uterine Tubes / Uterus",
+    "book_pages": "1127",
+    "pdf_pages": "1143",
+    "capture": "p.1127 right column: the third paragraph under 'Uterine Tubes' (starts 'After ovulation, local currents'): fimbriae sweep the oocyte in; fertilisation usually in the ampulla, within ~24 h; zygote reaches the uterus 6–7 days after ovulation; then the paragraph under 'Uterus' (starts 'The uterus (womb) serves as part of the pathway').",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Vagina",
+    "book_pages": "1132",
+    "pdf_pages": "1148",
+    "capture": "p.1132 right column, bottom: the first paragraph under the heading 'Vagina' (starts 'The vagina (= sheath) is a tubular'): 10-cm fibromuscular canal from exterior to cervix, between bladder and rectum, fornix.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This is a midline (median sagittal) section of the female pelvis, face to the right: bladder and pubic symphysis in front, rectum behind, genital tract between them. The vagina runs upward and backward from the vestibule to the cervix, which pokes into its upper end; the body of the uterus tips forward over the bladder, and from its upper corners the uterine tubes run out to the ovaries. The numbers trace the sperm's route: (1) deposited in the vagina, sperm swim by their tails through (2) the cervical canal, whose mucus is thin and alkaline only around ovulation; through (3) the uterine cavity and into (4) the uterine tube they are carried mainly by wall contractions. Of some 200 million, roughly 200 reach the oocyte, usually in the tube's widest part (the ampulla), within 12–24 hours of ovulation and about 7 hours after ejaculation, the time needed for capacitation. The travellers are sperm, not spermatocytes (see note).",
+  "terms": [
+   {
+    "t": "Median (midsagittal) section",
+    "d": "A cut exactly down the midline dividing left from right."
+   },
+   {
+    "t": "Cervix",
+    "d": "The narrow lower neck of the uterus that opens into the vagina."
+   },
+   {
+    "t": "Uterine (fallopian) tube",
+    "d": "10-cm tube from near the ovary to the uterus where fertilisation usually occurs."
+   },
+   {
+    "t": "Ampulla (of tube)",
+    "d": "The wide lateral two-thirds of the uterine tube; the usual fertilisation site."
+   },
+   {
+    "t": "Fornix",
+    "d": "The recess of the vagina around the protruding cervix."
+   },
+   {
+    "t": "Labium minus",
+    "d": "One of the inner hairless folds bordering the vestibule."
+   },
+   {
+    "t": "Anteflexion",
+    "d": "The normal forward tilt of the uterine body over the bladder."
+   },
+   {
+    "t": "Capacitation",
+    "d": "Several hours of change in the female tract that make a sperm able to fertilise."
+   },
+   {
+    "t": "Pubic symphysis",
+    "d": "Cartilage joint between the pubic bones, in front of the bladder."
+   }
+  ],
+  "note": "Terminology: only mature sperm (spermatozoa) leave the testis; spermatocytes are meiotic stages inside the seminiferous tubule. The slide's 'Uterine cervix' arrow points at the cervix projecting into the vagina; Tortora's figure additionally labels the posterior fornix and the rectouterine pouch (pouch of Douglas), the lowest point of the peritoneal cavity."
+ },
+ {
+  "n": 15,
+  "title": "The source of the ova: Ovaries",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Ovaries",
+    "book_pages": "1123",
+    "pdf_pages": "1139",
+    "capture": "p.1123 lower half: Figure 28.12 'Relative positions of the ovaries, the uterus, and the ligaments that support them' (superior view of transverse section) — the slide's drawing. Tortora's labels are the ligaments (mesovarium, ovarian ligament, suspensory ligament, broad, round, cardinal, uterosacral), ureter, rectouterine pouch; the slide's 'Ovarian artery' is not a book label (the book marks the 'Common iliac artery').",
+    "figures": [
+     "28.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Ovaries",
+    "book_pages": "1121",
+    "pdf_pages": "1137",
+    "capture": "p.1121 right column: the two paragraphs under the heading 'Ovaries' (start 'The ovaries (= egg receptacles)'): almond-sized paired gonads homologous to the testes; produce secondary oocytes and hormones (progesterone, estrogens, inhibin, relaxin); descent, mesovarium, ovarian ligament, suspensory ligament, hilum.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Histology of the Ovary",
+    "book_pages": "1122",
+    "pdf_pages": "1138",
+    "capture": "p.1122 top, both columns: the bullet list under 'Histology of the Ovary' (mesothelium, tunica albuginea, cortex, medulla, ovarian follicles, tertiary follicle and ovulation, corpus luteum); and the boxed 'Functions of the Female Genital System' inside Figure 28.11 (point 1: what the ovaries produce). p.1124: Figure 28.13 (coronal section of the ovary showing follicle stages).",
+    "figures": [
+     "28.13"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "We are looking down into the pelvis from above (anterior at the top), with the intestines lifted out: bladder in front, uterus in the middle, rectum and sigmoid colon behind. The two almond-sized ovaries hang at the ends of the uterine tubes, held by ligaments: a short ovarian ligament to the uterus, a peritoneal fold (mesovarium) to the broad ligament, and the suspensory ligament to the pelvic wall, which carries the ovarian artery and vein down from the aorta. An ovary is the female gonad, doing the testis's two jobs: making gametes and secreting sex hormones. What an ovary releases each month is a secondary oocyte, still halted in meiosis; it becomes an ovum only if a sperm enters it. Growing follicles secrete estrogens; after ovulation the collapsed follicle (corpus luteum) secretes mainly progesterone plus estrogens, inhibin and relaxin. The tube is not attached to the ovary: the oocyte is shed into the peritoneal cavity and caught by fimbriae.",
+  "terms": [
+   {
+    "t": "Gonad",
+    "d": "An organ that makes gametes and sex hormones: ovary or testis."
+   },
+   {
+    "t": "Gamete",
+    "d": "A haploid reproductive cell: sperm or oocyte/ovum."
+   },
+   {
+    "t": "Ovum vs secondary oocyte",
+    "d": "The ovary releases a secondary oocyte; it is called an ovum only after fertilisation completes meiosis II."
+   },
+   {
+    "t": "Follicle",
+    "d": "An oocyte with its surrounding nourishing cells at any stage of growth."
+   },
+   {
+    "t": "Corpus luteum",
+    "d": "Yellow hormone-secreting body formed from a follicle after ovulation."
+   },
+   {
+    "t": "Broad ligament",
+    "d": "Sheet of peritoneum draped over the uterus and tubes to the pelvic walls."
+   },
+   {
+    "t": "Suspensory ligament",
+    "d": "Peritoneal fold tying the ovary to the pelvic wall and carrying its vessels."
+   },
+   {
+    "t": "Transverse section, superior view",
+    "d": "A horizontal cut viewed from above."
+   },
+   {
+    "t": "Sigmoid colon",
+    "d": "S-shaped last part of the colon before the rectum."
+   },
+   {
+    "t": "Estrogen / progesterone",
+    "d": "The two main ovarian steroid hormones: estrogens build, progesterone maintains, the uterine lining."
+   }
+  ],
+  "note": "Slide text 'produce gametes that mature into ova' agrees with Tortora's wording ('secondary oocytes that develop into mature ova after fertilization', p.1121)."
+ },
+ {
+  "n": 16,
+  "title": "Anatomy of the Uterus & Uterine tube",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Uterine Tubes / Anatomy of the Uterus",
+    "book_pages": "1129",
+    "pdf_pages": "1145",
+    "capture": "p.1129 upper two-thirds: Figure 28.16 'Relationship of the uterine tubes to the ovaries, uterus, and associated structures' (posterior view, left side sectioned) — the slide's drawing; Tortora also labels ampulla, infundibulum, perimetrium, internal and external os, isthmus of uterus, lateral fornix, vaginal rugae and the ligaments. p.1129 left column below the figure: the paragraph 'Normally, the body of the uterus projects anteriorly' (anteflexion; broad, uterosacral, cardinal and round ligaments).",
+    "figures": [
+     "28.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Uterine Tubes",
+    "book_pages": "1127",
+    "pdf_pages": "1143",
+    "capture": "p.1127 right column: the first two paragraphs under the heading 'Uterine Tubes' (start 'Females have two uterine tubes'): 10 cm; infundibulum, fimbriae, ampulla, isthmus; the three wall layers (ciliated columnar and peg cells, inner circular and outer longitudinal muscle, serosa). p.1130 top: Figure 28.17 (histology of the tube).",
+    "figures": [
+     "28.17"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Anatomy of the Uterus",
+    "book_pages": "1128",
+    "pdf_pages": "1144",
+    "capture": "p.1128, lowest quarter, both columns (below Table 28.1): the two paragraphs under 'Anatomy of the Uterus' (start 'Situated between the urinary bladder'): inverted-pear size 7.5 × 5 × 2.5 cm; fundus, body, cervix, isthmus; uterine cavity, cervical canal, internal and external os.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Histology of the Uterus",
+    "book_pages": "1130-1131",
+    "pdf_pages": "1146-1147",
+    "capture": "p.1130 lower half, both columns: the three paragraphs under 'Histology of the Uterus' (start 'Histologically, the uterus consists'): perimetrium, myometrium (three smooth-muscle layers, oxytocin), endometrium with compact, functional and basal layers; the third paragraph ends on p.1131 right column ('blood supply of the uterus is essential', 3 lines). p.1131: Figure 28.18 'Histology of the uterus' (layers).",
+    "figures": [
+     "28.18"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The view is from behind, with the left half of the uterus and tube cut open. The uterus is a hollow, thick-walled pear the size of a fist: a dome (fundus) above the tube openings, a body, and a narrow neck (cervix) projecting into the vagina. Its slit-like cavity narrows into the cervical canal, which opens at the internal os above and the external os below. The wall has three layers: an outer peritoneal skin (perimetrium), a thick smooth-muscle coat (myometrium) that contracts in labour, and a glandular lining (endometrium) whose surface functional layer is shed each menstruation and regrown from a permanent basal layer. Each uterine tube is 10 cm long: a funnel (infundibulum) fringed with fimbriae opening into the peritoneal cavity beside the ovary, a wide ampulla where fertilisation usually happens, and a narrow isthmus joining the uterus. Cilia and peristalsis move the oocyte uterus-ward. The vagina's 'circular folds' are its transverse rugae.",
+  "terms": [
+   {
+    "t": "Fundus",
+    "d": "Dome-shaped top of the uterus above the entry of the tubes."
+   },
+   {
+    "t": "Isthmus",
+    "d": "A narrow connecting part: of the uterus (between body and cervix) or of the tube (near the uterus)."
+   },
+   {
+    "t": "Cervix",
+    "d": "The narrow lower neck of the uterus opening into the vagina."
+   },
+   {
+    "t": "Cervical canal / os",
+    "d": "Passage through the cervix; internal os to the uterine cavity, external os to the vagina."
+   },
+   {
+    "t": "Endometrium",
+    "d": "Mucous lining of the uterus; its functional layer is shed at menstruation."
+   },
+   {
+    "t": "Myometrium",
+    "d": "Thick smooth-muscle wall of the uterus."
+   },
+   {
+    "t": "Perimetrium / peritoneum",
+    "d": "Serous outer coat of the uterus, continuous with the peritoneal lining of the pelvis."
+   },
+   {
+    "t": "Fimbriae",
+    "d": "Finger-like fringe of the tube's funnel that sweeps the oocyte in."
+   },
+   {
+    "t": "Infundibulum",
+    "d": "Funnel-shaped open end of the uterine tube next to the ovary."
+   },
+   {
+    "t": "Rugae",
+    "d": "Transverse folds of the vaginal mucosa allowing stretch."
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "title": "The menstrual cycle & changes at the Endometrium",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.3",
+    "section_title": "Phases of the Female Reproductive Cycle",
+    "book_pages": "1139",
+    "pdf_pages": "1155",
+    "capture": "p.1139 lower two-thirds: Figure 28.24(a) 'Hormonal regulation of changes in the ovary and uterus' — the slide's diagram (ovarian cycle strip on top, endometrium with stratum functionalis/basalis below, day scale, four phases). Text: p.1139 right column, the intro paragraph under 'Phases of the Female Reproductive Cycle' (starts 'The duration of the female reproductive cycle', 24–36 days) and the 'Menstrual Phase' paragraphs ('Events in the Ovaries', 'Events in the Uterus'). p.1139 left column top: relaxin and inhibin paragraphs.",
+    "figures": [
+     "28.24"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.3",
+    "section_title": "Phases — Preovulatory Phase, Ovulation, Postovulatory Phase",
+    "book_pages": "1140",
+    "pdf_pages": "1156",
+    "capture": "p.1140, below Figure 28.24(b): left column — end of the menstrual-phase paragraph ('because the declining levels of progesterone'), then 'Preovulatory Phase' with 'Events in the Ovaries' (dominant follicle, follicular phase) and 'Events in the Uterus' (proliferative phase, 4–10 mm); right column — 'Ovulation' (day 14 in a 28-day cycle, positive feedback, steps 1–3) and 'Postovulatory Phase' (fixed 14 days).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.3",
+    "section_title": "Postovulatory Phase",
+    "book_pages": "1141-1142",
+    "pdf_pages": "1157-1158",
+    "capture": "p.1141 right column: 'Events in One Ovary' (corpus hemorrhagicum → corpus luteum → corpus albicans; rescue by hCG if fertilised) and 'Events in the Uterus' (starts 'Progesterone and estrogens produced by the corpus luteum'), finishing at the top of p.1142 left column ('and thickening of the endometrium to 12–18 mm… secretory phase… Withdrawal of progesterone and estrogens causes menstruation').",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The figure lines up two cycles on one 28-day axis. Above, the ovarian cycle: a few follicles grow under FSH, one becomes dominant and secretes rising estrogens; at ovulation (about day 14 in the idealised cycle) it ruptures and releases a secondary oocyte; the remains become the corpus luteum, secreting progesterone and estrogens for two weeks, then shrink to a scar (corpus albicans) if no pregnancy. Below, the uterine cycle follows: days 1–5, with hormones low, the functional layer of the endometrium loses its blood supply and is shed (menstruation); days 6–13 estrogens make the basal layer regrow it (proliferative phase); days 15–28 progesterone makes its glands secrete glycogen and its arteries coil (secretory phase), ready for an embryo. When the corpus luteum dies, hormone withdrawal restarts the shedding. The preovulatory phase varies in length; the postovulatory phase is a constant 14 days. The slide's 'ova' is a secondary oocyte, and FSH/LH are not drawn here.",
+  "terms": [
+   {
+    "t": "Follicle (primordial → primary → secondary → tertiary)",
+    "d": "Oocyte plus its enlarging shell of granulosa and theca cells."
+   },
+   {
+    "t": "Ovulation",
+    "d": "Rupture of the mature follicle releasing the secondary oocyte."
+   },
+   {
+    "t": "Corpus luteum",
+    "d": "Hormone-secreting body formed from the ruptured follicle; lives ~2 weeks unless pregnancy occurs."
+   },
+   {
+    "t": "Corpus albicans",
+    "d": "White scar left when the corpus luteum degenerates."
+   },
+   {
+    "t": "Functional layer (stratum functionalis)",
+    "d": "Superficial part of the endometrium that is shed each cycle."
+   },
+   {
+    "t": "Basal layer (stratum basalis)",
+    "d": "Permanent deep endometrium that regenerates the functional layer."
+   },
+   {
+    "t": "Proliferative phase",
+    "d": "Days ~6–13: estrogen-driven regrowth of the endometrium."
+   },
+   {
+    "t": "Secretory phase",
+    "d": "Days ~15–28: progesterone-driven glandular secretion and thickening."
+   },
+   {
+    "t": "Menses",
+    "d": "The menstrual flow of blood and shed endometrium, ~50–150 mL."
+   },
+   {
+    "t": "Spiral arteriole",
+    "d": "Coiled vessel of the functional layer whose constriction triggers shedding."
+   }
+  ],
+  "note": "The slide's spelling 'oozyte' = oocyte; what is released on day 14 is a secondary oocyte, not an ovum. 'Corpus haemorrhagicum' on the figure is the clot-filled follicle immediately after rupture, before it becomes the corpus luteum (p.1141)."
+ },
+ {
+  "n": 18,
+  "title": "Hormonal interactions in a menstrual cycle",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.3",
+    "section_title": "Phases of the Female Reproductive Cycle",
+    "book_pages": "1140",
+    "pdf_pages": "1156",
+    "capture": "p.1140 top: Figure 28.24(b) 'Changes in concentration of anterior pituitary and ovarian hormones' — the slide's graph (the slide adds numbered arrows and the feedback labels); the figure's Q asks which hormone drives the proliferative phase, ovulation, corpus luteum growth and the LH surge.",
+    "figures": [
+     "28.24"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.3",
+    "section_title": "Hormonal Regulation of the Female Reproductive Cycle",
+    "book_pages": "1137-1139",
+    "pdf_pages": "1153-1155",
+    "capture": "p.1137 right column, bottom: the paragraph under 'Hormonal Regulation of the Female Reproductive Cycle' (starts 'Gonadotropin-releasing hormone (GnRH) secreted'), continuing on p.1138 left column below Figure 28.23 ('stimulate the ovarian follicles to secrete estrogens. LH stimulates the theca cells… androgens… granulosa cells… converted into estrogens'); then the estrogen bullet list (p.1138 both columns), the 'Progesterone' paragraph (p.1138 right column bottom) and the relaxin and inhibin paragraphs at the top of p.1139 left column. p.1138: Figure 28.23 (sources and effects; dashed red = negative feedback).",
+    "figures": [
+     "28.23"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.3",
+    "section_title": "Ovulation — positive feedback",
+    "book_pages": "1140-1142",
+    "pdf_pages": "1156-1158",
+    "capture": "p.1140 right column: the paragraph 'The high levels of estrogens during the last part of the preovulatory phase exert a positive feedback' with numbered steps 1–3 (LH surge, ovulation ~9 h after the peak); p.1141 left column top: Figure 28.25 (positive feedback loop); p.1142 lower half: Figure 28.26 'Summary of hormonal interactions in the ovarian and uterine cycles' — its '+' and '−' boxes are the slide's (3) and (4).",
+    "figures": [
+     "28.25",
+     "28.26"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The graph plots four blood hormone levels against the cycle day. (1) FSH from the anterior pituitary rises slightly at the start and recruits a group of follicles. (2) As the dominant follicle grows it pours out estrogens: LH makes its theca cells produce androgens, and FSH makes the granulosa cells convert them into estrogens. At moderate levels estrogens (with inhibin) hold GnRH, FSH and LH down, a negative feedback that lets only one follicle win. (3) When estrogens stay high for about two days near day 12, the feedback flips sign: high estrogen now stimulates GnRH and LH release, a positive feedback producing the LH spike, and roughly nine hours after the peak the follicle bursts. (4) The corpus luteum then secretes progesterone and estrogens, whose combined high levels suppress FSH and LH again, so no new follicle matures; when the luteum dies the suppression lifts, FSH rises, and a new cycle begins. Positive feedback amplifies; negative feedback stabilises.",
+  "terms": [
+   {
+    "t": "FSH",
+    "d": "Follicle-stimulating hormone; pituitary hormone that starts follicle growth and estrogen synthesis."
+   },
+   {
+    "t": "LH",
+    "d": "Luteinizing hormone; pituitary hormone whose surge causes ovulation and then builds the corpus luteum."
+   },
+   {
+    "t": "Estrogens (β-estradiol)",
+    "d": "Follicular steroid hormones that rebuild the endometrium and, at high levels, trigger the LH surge."
+   },
+   {
+    "t": "Progesterone",
+    "d": "Corpus-luteum steroid that makes the endometrium secretory and quiets the uterus."
+   },
+   {
+    "t": "Granulosa cells",
+    "d": "Inner follicle cells that convert androgens to estrogens and secrete inhibin."
+   },
+   {
+    "t": "Theca cells",
+    "d": "Outer follicle layer; the theca interna makes androgens under LH."
+   },
+   {
+    "t": "Inhibin",
+    "d": "Follicular/luteal peptide that selectively suppresses FSH."
+   },
+   {
+    "t": "Positive feedback",
+    "d": "A response that increases the original stimulus, e.g. estrogens → more LH → more estrogens."
+   },
+   {
+    "t": "Negative feedback",
+    "d": "A response that reduces the original stimulus, keeping a level steady."
+   },
+   {
+    "t": "LH surge",
+    "d": "The brief midcycle peak of LH that ruptures the follicle."
+   }
+  ],
+  "note": "The slide says thecal cells secrete estrogen and granulosa cells secrete estrogen and progesterone; Tortora (p.1138) says theca cells make androgens that granulosa cells convert to estrogens, and that progesterone comes mainly from the corpus luteum (luteinised granulosa and theca cells). 'Activin' does not appear in Tortora; inhibin does (p.1139)."
+ },
+ {
+  "n": 19,
+  "title": "19 (untitled: oogenesis)",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Oogenesis and Follicular Development",
+    "book_pages": "1127",
+    "pdf_pages": "1143",
+    "capture": "p.1127 left column: Figure 28.15 'Oogenesis' (the whole column) — identical to the slide, including the six explanatory boxes; its Q compares the age of a primary oocyte with that of a primary spermatocyte.",
+    "figures": [
+     "28.15"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Oogenesis and Follicular Development",
+    "book_pages": "1124-1126",
+    "pdf_pages": "1140-1142",
+    "capture": "p.1124 lower third, both columns: the three paragraphs under 'Oogenesis and Follicular Development' (start 'The formation of gametes in the ovaries'): oogonia, atresia, primary oocytes arrested in prophase I, 200,000–2,000,000 at birth, 40,000 at puberty, ~400 ovulated; continues on p.1125 top (primary → secondary → tertiary follicle, zona pellucida, theca, antrum, corona radiata) and on p.1126 below Figure 28.14, left column: the paragraph 'of unequal size—each with 23 chromosomes' (first polar body, secondary oocyte stops in metaphase II, ovulation, meiosis II completes only if a sperm enters, ovum + second polar body, one gamete per primary oocyte vs four sperm).",
+    "figures": [
+     "28.14"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.2",
+    "section_title": "Oogenesis and Follicular Development",
+    "book_pages": "1128",
+    "pdf_pages": "1144",
+    "capture": "p.1128 upper three-quarters: Table 28.1 'Summary of Oogenesis and Follicular Developments' — the same sequence laid against age (fetal period, childhood, puberty to menopause) and against follicle stage.",
+    "figures": [],
+    "tables": [
+     "28.1"
+    ]
+   }
+  ],
+  "basics": "Oogenesis uses the same meiosis as sperm production but on a very different schedule and with a lopsided division. Before birth, oogonia multiply by mitosis, most die, and the survivors become primary oocytes that begin meiosis I and then freeze in its first stage (prophase I). They stay frozen through childhood, so an oocyte ovulated at 40 has waited 40 years. From puberty, each month one primary oocyte in a maturing follicle completes meiosis I, but the cytoplasm is split unequally: almost all goes to the secondary oocyte, the rest to a tiny discarded first polar body. The secondary oocyte freezes again in metaphase II and is ovulated in that state. Only if a sperm enters does it finish meiosis II, shedding a second polar body and becoming an ovum whose nucleus fuses with the sperm's to form the diploid zygote. Net yield: one ovum per primary oocyte (plus polar bodies that die), versus four sperm per primary spermatocyte.",
+  "terms": [
+   {
+    "t": "Oogonium",
+    "d": "Diploid female germ stem cell; divides by mitosis only in the fetus."
+   },
+   {
+    "t": "Primary oocyte",
+    "d": "Diploid cell arrested in prophase I from fetal life until the month it is ovulated."
+   },
+   {
+    "t": "Secondary oocyte",
+    "d": "Haploid cell (23 double-stranded chromosomes) arrested in metaphase II; the cell that is ovulated."
+   },
+   {
+    "t": "Polar body",
+    "d": "Tiny discarded cell carrying surplus chromosomes from an unequal meiotic division."
+   },
+   {
+    "t": "Ovum (ootid)",
+    "d": "The mature haploid egg, formed only after a sperm triggers completion of meiosis II."
+   },
+   {
+    "t": "Prophase I / metaphase II arrest",
+    "d": "The two pause points at which oocytes wait for hormonal or sperm signals."
+   },
+   {
+    "t": "Atresia",
+    "d": "Degeneration of oocytes and follicles that never mature; the fate of most."
+   },
+   {
+    "t": "Zygote",
+    "d": "The diploid cell formed by fusion of sperm and ovum nuclei."
+   },
+   {
+    "t": "Meiosis I / II",
+    "d": "The reduction division (pairs separate) and the equational division (chromatids separate)."
+   }
+  ],
+  "note": "The slide has no title; it is Tortora Figure 28.15 unchanged."
+ },
+ {
+  "n": 20,
+  "title": "Fertilization of the secondary oocyte & formation of zygote",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 29,
+    "section": "29.2",
+    "section_title": "First Week of Development — Fertilization",
+    "book_pages": "1162",
+    "pdf_pages": "1178",
+    "capture": "p.1162 left column, lower half: Figure 29.1(a) 'Sperm penetrating a secondary oocyte' with the 'PATH OF SPERM' box (corona radiata, zona pellucida, plasma membrane, cytoplasm) — the slide's drawing; below it photos (b) sperm on the oocyte and (c) male and female pronuclei.",
+    "figures": [
+     "29.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.2",
+    "section_title": "First Week of Development — Fertilization",
+    "book_pages": "1161-1162",
+    "pdf_pages": "1177-1178",
+    "capture": "p.1161 right column: the paragraphs under the heading 'Fertilization' (start 'During fertilization (fer′-ti-li-ZĀ-shun'): haploid nuclei merge, 12–24 h window; continuing on p.1162 left column top ('ejaculation are not capable…': capacitation; 'For fertilization to occur, a sperm first must penetrate two layers') and the whole right column: ZP3 receptor and acrosomal reaction, fast and slow blocks to polyspermy, completion of meiosis II, male and female pronuclei, syngamy → zygote, dizygotic and monozygotic twins.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.12",
+    "section_title": "Autosomes, Sex Chromosomes, and Sex Determination",
+    "book_pages": "1194-1195",
+    "pdf_pages": "1210-1211",
+    "capture": "p.1194 right column: the two paragraphs under the heading 'Autosomes, Sex Chromosomes, and Sex Determination' (start 'When viewed under a microscope'): 22 autosome pairs + XX or XY; oocytes carry only X, sperm X or Y, so the father's gamete sets the sex; p.1195 left column top: Figure 29.25 'Sex determination' (Punnett square) — the basis of the slide's '22X + 22X or 22Y = 44XX or 44XY'.",
+    "figures": [
+     "29.25"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The ovulated secondary oocyte is wrapped in two coats: an outer cloud of granulosa cells (corona radiata) and a clear glycoprotein shell (zona pellucida). A capacitated sperm wriggles between the corona cells; binding to a zona protein (ZP3) bursts its acrosome, and the released enzymes plus tail thrust dig a channel through the zona. The first sperm to touch the oocyte's membrane fuses with it; within seconds the membrane depolarises (fast block) and calcium-triggered secretions harden the zona (slow block), so no second sperm can enter. Entry restarts the frozen meiosis II: it finishes, casting off a second polar body, and the cell is now an ovum. Sperm and egg nuclei swell into pronuclei, migrate together and fuse (syngamy), restoring 46 chromosomes: the zygote. The arithmetic at the bottom: every ovum carries 22 autosomes + X; a sperm carries 22 + X or 22 + Y; the zygote is 44 + XX (female) or 44 + XY (male).",
+  "terms": [
+   {
+    "t": "Corona radiata",
+    "d": "The layer of granulosa cells still clinging to the ovulated oocyte."
+   },
+   {
+    "t": "Zona pellucida",
+    "d": "Clear glycoprotein coat between the corona and the oocyte membrane; carries the sperm receptor ZP3."
+   },
+   {
+    "t": "Acrosomal reaction",
+    "d": "Release of the acrosome's enzymes on binding the zona, digesting a path inward."
+   },
+   {
+    "t": "Polyspermy",
+    "d": "Fertilisation by more than one sperm; prevented by the fast and slow blocks."
+   },
+   {
+    "t": "Pronucleus",
+    "d": "The haploid nucleus of the sperm or ovum just before they fuse."
+   },
+   {
+    "t": "Syngamy",
+    "d": "Fusion of the two pronuclei into one diploid nucleus."
+   },
+   {
+    "t": "Zygote",
+    "d": "The fertilised, diploid single cell."
+   },
+   {
+    "t": "Polar body",
+    "d": "Tiny cell discarded by the oocyte at each meiotic division."
+   },
+   {
+    "t": "Haploid / diploid",
+    "d": "One set (23) versus two sets (46) of chromosomes."
+   }
+  ],
+  "note": "The slide's left-hand sketch (primary oocyte → meiosis I → secondary oocyte + first polar body → meiosis II → second polar body) is a miniature of Figure 28.15 (p.1127). Slide spelling 'oozyte' = oocyte."
+ },
+ {
+  "n": 21,
+  "title": "Hormonal secretion during pregnancy",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 29,
+    "section": "29.7",
+    "section_title": "Hormones of Pregnancy",
+    "book_pages": "1183-1184",
+    "pdf_pages": "1199-1200",
+    "capture": "p.1184 top left: Figure 29.16(b) 'Blood levels of hormones during pregnancy' — the slide's graph (same week axis, 'Fertilization' and 'Birth' markers); p.1183 lower half: Figure 29.16(a) 'Sources and functions of hormones' (placenta → hCG rescues the corpus luteum, progesterone/estrogens, relaxin, hCS, CRH). p.1184 right column top: Clinical Connection 'Early Pregnancy Tests' (hCG in urine from ~day 8).",
+    "figures": [
+     "29.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.7",
+    "section_title": "Hormones of Pregnancy",
+    "book_pages": "1183-1184",
+    "pdf_pages": "1199-1200",
+    "capture": "p.1183 left column: the paragraph under the heading 'Hormones of Pregnancy' (starts 'During the first 3 to 4 months'), continuing at the top of the right column ('From the third month through the remainder'): chorion's hCG keeps the corpus luteum secreting progesterone and estrogens to prevent menstruation; hCG detectable by day 8, peaks at week 9, falls in months 4–5; the chorion secretes estrogens from week 3–4 and progesterone from week 6, rising to birth. p.1184 left column below the figure: the 'Relaxin', 'hCS' and 'CRH' paragraphs.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 28,
+    "section": "28.3",
+    "section_title": "Postovulatory Phase — Events in One Ovary",
+    "book_pages": "1141",
+    "pdf_pages": "1157",
+    "capture": "p.1141 right column: the paragraph 'If the secondary oocyte is fertilized and begins to divide' (one paragraph): the corpus luteum's 2-week lifespan and its rescue by hCG, an LH-like hormone from the chorion from about day 8 — why menstruation does not occur.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "After ovulation the corpus luteum is programmed to die in two weeks, and its death is what triggers menstruation. An embryo prevents this with a hormonal message: from about day 8 its outer cell layer (trophoblast, later the chorion) secretes human chorionic gonadotropin (hCG), a molecule that mimics LH. hCG keeps the corpus luteum alive and secreting progesterone and estrogens, so the endometrium is retained and the expected period never comes; hCG in urine is what pregnancy tests detect. On the graph hCG (red) climbs steeply to a peak around week 9 and then falls away. Meanwhile the chorion, and from about week 12 the fully formed placenta, takes over making estrogens and progesterone directly, and these (green and brown) rise steadily until birth. Progesterone keeps the uterine muscle relaxed and the cervix shut; estrogens drive uterine and breast growth. The placenta also makes relaxin, hCS and CRH, which the slide omits.",
+  "terms": [
+   {
+    "t": "Chorion",
+    "d": "Outer fetal membrane formed from the trophoblast; the fetal part of the placenta and source of hCG."
+   },
+   {
+    "t": "Trophoblast",
+    "d": "Outer cell layer of the blastocyst that invades the endometrium and becomes the chorion."
+   },
+   {
+    "t": "hCG (human chorionic gonadotropin)",
+    "d": "Embryonic hormone with LH-like action that rescues the corpus luteum."
+   },
+   {
+    "t": "Corpus luteum",
+    "d": "Post-ovulatory ovarian body that makes progesterone and estrogens for the first 3–4 months of pregnancy."
+   },
+   {
+    "t": "Placenta",
+    "d": "Organ of fetal–maternal exchange that also becomes the main hormone source after month 3."
+   },
+   {
+    "t": "Progesterone",
+    "d": "Steroid that maintains the endometrium and keeps the myometrium quiet."
+   },
+   {
+    "t": "Estrogens",
+    "d": "Steroids driving growth of the uterus, breasts and blood volume in pregnancy."
+   },
+   {
+    "t": "Relaxin",
+    "d": "Luteal/placental hormone that loosens the pubic symphysis and softens the cervix."
+   },
+   {
+    "t": "Gestation",
+    "d": "The period of carrying the embryo/fetus; the x-axis of the slide's graph."
+   }
+  ],
+  "note": "The slide's sentence matches Tortora p.1183 closely. The hCG-secreting cell layer is named on p.1166 left column ('Development of the Trophoblast': the syncytiotrophoblast secretes hCG)."
+ },
+ {
+  "n": 22,
+  "title": "From fertilization to implantation",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 29,
+    "section": "29.2",
+    "section_title": "First Week of Development",
+    "book_pages": "1166",
+    "pdf_pages": "1182",
+    "capture": "p.1166 upper half: Figure 29.5 'Summary of events associated with the first week of development' — identical to the slide (steps 1–5 with timings: fertilisation 12–24 h after ovulation in the tube, first cleavage ~30 h, morula 3–4 days, blastocyst 4½–5 days, implantation ~6 days); its Q asks in which uterine phase implantation occurs.",
+    "figures": [
+     "29.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.2",
+    "section_title": "Cleavage of the Zygote / Blastocyst Formation / Implantation",
+    "book_pages": "1162-1163",
+    "pdf_pages": "1178-1179",
+    "capture": "p.1162 right column, last paragraph 'Cleavage of the Zygote' (starts 'After fertilization, rapid mitotic'), running onto p.1163 right column (whole column): blastomeres, morula, 'Blastocyst Formation' (uterine milk, blastocyst cavity, embryoblast vs trophoblast, hatching from the zona pellucida ~day 5), and 'Implantation' (attaches ~day 6 to secretory-phase endometrium in the fundus or body, embryoblast facing inward, burrows in by day 7). p.1163 left column: Figure 29.2 (cleavage stages, day 1 to day 5).",
+    "figures": [
+     "29.2"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.2",
+    "section_title": "Clinical Connection — Ectopic Pregnancy",
+    "book_pages": "1164-1165",
+    "pdf_pages": "1180-1181",
+    "capture": "p.1165 right column, lower half: the boxed Clinical Connection 'Ectopic Pregnancy' (causes: tubal scarring, reduced tubal motility, smoking; signs: missed periods, bleeding, acute pain; risk of tubal rupture; treatment) — the slide's 'Clinical' line. p.1164 upper half: Figure 29.3 (blastocyst attaching to the endometrium at day 6).",
+    "figures": [
+     "29.3"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Once fertilised in the ampulla, the zygote is carried toward the uterus by the tube's cilia and peristalsis while dividing by mitosis without growing (cleavage): two cells at about 30 hours, four on day 2, a solid 16-cell ball (morula) by day 3–4, still inside the zona pellucida and no bigger than the original egg. Entering the uterus on day 4–5 it absorbs endometrial secretions, a fluid cavity opens inside, and it becomes a blastocyst: an inner cell mass (embryoblast) that will form the embryo and an outer shell (trophoblast) that will form the placenta and chorion. It hatches from the zona, floats for two days, and around day 6 sticks to the secretory-phase endometrium; by day 7 trophoblast enzymes have burrowed it in and it starts secreting hCG. All times count from fertilisation. An ectopic pregnancy implants outside the uterine cavity, usually in a tube narrowed by scarring; the tube cannot expand, and rupture with internal bleeding is life-threatening.",
+  "terms": [
+   {
+    "t": "Cleavage",
+    "d": "Rapid mitotic divisions of the zygote with no increase in total size."
+   },
+   {
+    "t": "Blastomere",
+    "d": "One of the progressively smaller cells produced by cleavage."
+   },
+   {
+    "t": "Morula",
+    "d": "Solid mulberry-like ball of ~16 cells reached on day 3–4."
+   },
+   {
+    "t": "Blastocyst",
+    "d": "Hollow ball of cells with a fluid cavity, formed by day 5."
+   },
+   {
+    "t": "Embryoblast (inner cell mass)",
+    "d": "Cluster inside the blastocyst that becomes the embryo proper."
+   },
+   {
+    "t": "Trophoblast",
+    "d": "Outer wall of the blastocyst that invades the uterus and forms the fetal placenta."
+   },
+   {
+    "t": "Implantation",
+    "d": "Attachment and burrowing of the blastocyst into the endometrium, ~day 6–7."
+   },
+   {
+    "t": "Zona pellucida",
+    "d": "Glycoprotein shell around the egg and early embryo, shed before implantation."
+   },
+   {
+    "t": "Ectopic",
+    "d": "Out of place; an ectopic pregnancy implants outside the uterine cavity."
+   },
+   {
+    "t": "Secretory phase",
+    "d": "Progesterone-dominated second half of the uterine cycle when the lining can accept an embryo."
+   }
+  ]
+ },
+ {
+  "n": 23,
+  "title": "Growth & Development of the Embryo & Placenta",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 8,
+    "section": "8.16",
+    "section_title": "Development of the Skeletal System",
+    "book_pages": "264-265",
+    "pdf_pages": "280-281",
+    "capture": "p.265 lower right: Figure 8.16(e) 'Eight-week embryo in which free limb buds have developed into free upper and lower limbs' — the slide's left drawing with the same labels (ear, shoulder, elbow, rib, knee, buttock, eye, wrist, liver prominence, umbilical cord, ankle); parts (b)–(d) beside it show weeks 4, 6 and 7. Text: p.264 right column, the two paragraphs starting 'The skeleton of the girdles and limbs is derived' (limb buds week 4, hand/foot plates week 6, segments week 7, shoulder/elbow/wrist by week 8).",
+    "figures": [
+     "8.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.3",
+    "section_title": "Development of the Chorionic Villi and Placenta",
+    "book_pages": "1173-1174",
+    "pdf_pages": "1189-1190",
+    "capture": "p.1174 left column, lower half: Figure 29.11(b) 'Fetal surface of placenta' (photo: umbilical cord, amnion covering fetal surface, umbilical arteries, umbilical vein) — the slide's right image; p.1174 top: Figure 29.11(a) 'Details of placenta and umbilical cord'. Text: p.1173 left column, the paragraphs 'Placentation (plas-en-TĀ-shun) is the process' and 'By the beginning of the twelfth week' (fetal portion = chorionic villi, maternal portion = basal decidua; exchange by diffusion; barrier), continuing at the foot of p.1173 right column and on p.1174 left column bottom: the paragraph 'The actual connection between the placenta and embryo' (umbilical cord: 2 arteries, 1 vein, mucous connective tissue, amnion; afterbirth).",
+    "figures": [
+     "29.11"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.1",
+    "section_title": "Overview of Development",
+    "book_pages": "1161",
+    "pdf_pages": "1177",
+    "capture": "p.1161 left column: the paragraphs under '29.1 Overview of Development' (start 'As you learned in Chapter 28'), especially the third ('Pregnancy is a sequence of events… birth about 38 weeks later, or 40 weeks after the mother's last menstrual period') and the fourth (embryonic period = fertilisation to week 8, fetal period = week 9 to birth), then the numbered trimester list.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 29,
+    "section": "29.4",
+    "section_title": "Fetal Period",
+    "book_pages": "1177",
+    "pdf_pages": "1193",
+    "capture": "p.1177 left column, bottom: the paragraph under 'Fifth Through Eighth Weeks of Development' (starts 'During the fifth week of development'), finishing at the top of the right column (digits separate, tail disappears, 'clearly human characteristics'); p.1177 right column: the first paragraph under '29.4 Fetal Period' (starts 'During the fetal period (from the ninth week'): growth and differentiation, head from ½ to ¼ of body length. p.1178: Figure 29.14 (photos of embryos and fetuses from 20 days to 26 weeks).",
+    "figures": [
+     "29.14"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The embryonic period is fertilisation to the end of week 8: every organ system is laid down, so this is when drugs, radiation and infections do most harm. By week 8 the embryo has a human face, separate fingers and toes and the limb regions named on the drawing; the liver bulges because it is then the main blood-forming organ. From week 9 to birth it is a fetus: mainly growth and maturation. Birth comes about 38 weeks after fertilisation; clinicians count 40 weeks from the last menstrual period, the slide's figure. The placenta is a disc built by both individuals: fetal chorionic villi dipping into pools of maternal blood in the endometrium. The bloodstreams never mix; oxygen and nutrients diffuse across the villus wall one way, wastes the other. The umbilical cord links them: two arteries carry low-oxygen fetal blood to the placenta, one vein brings oxygenated blood back, sheathed in shiny amnion, the surface in the photo.",
+  "terms": [
+   {
+    "t": "Embryo",
+    "d": "The developing human from fertilisation to the end of week 8."
+   },
+   {
+    "t": "Fetus",
+    "d": "The developing human from week 9 until birth."
+   },
+   {
+    "t": "Gestation",
+    "d": "Length of pregnancy; ~38 weeks from fertilisation, 40 from the last menstrual period."
+   },
+   {
+    "t": "Placenta",
+    "d": "Disc-shaped organ of fetal chorionic villi and maternal endometrium where exchange occurs."
+   },
+   {
+    "t": "Chorionic villi",
+    "d": "Finger-like fetal projections containing capillaries, bathed by maternal blood."
+   },
+   {
+    "t": "Intervillous space",
+    "d": "Maternal blood pool between the villi."
+   },
+   {
+    "t": "Umbilical cord",
+    "d": "50–60 cm stalk joining fetus and placenta: two arteries, one vein, jelly, amnion."
+   },
+   {
+    "t": "Umbilical arteries / vein",
+    "d": "Arteries carry fetal blood to the placenta (low O2); the vein returns oxygenated blood."
+   },
+   {
+    "t": "Amnion",
+    "d": "Innermost fetal membrane; forms the fluid-filled sac and coats the cord and placental surface."
+   },
+   {
+    "t": "Limb bud",
+    "d": "Small outgrowth on the week-4 embryo from which a limb develops."
+   }
+  ],
+  "note": "Two source figures: the embryo drawing is Tortora Figure 8.16(e) in the skeletal chapter (p.265), not Chapter 29; the placenta photo is Figure 29.11(b). The slide colours the umbilical arteries red and the vein blue by naming convention; physiologically the vein carries the oxygen-rich blood (p.1174). 'Term at 40th week' is the obstetric count from the last menstrual period; Tortora gives 38 weeks from fertilisation (p.1161)."
+ },
+ {
+  "n": 24,
+  "title": "The end",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ }
+]

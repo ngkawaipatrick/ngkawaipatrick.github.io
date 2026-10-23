@@ -1,0 +1,1883 @@
+[
+ {
+  "n": 1,
+  "title": "HTI5001",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 2,
+  "title": "Chronic obstructive pulmonary disease",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Chronic Obstructive Pulmonary Disease",
+    "book_pages": "936",
+    "pdf_pages": "952",
+    "capture": "p.936 left column, lower half: the single paragraph under the heading 'Chronic Obstructive Pulmonary Disease' (starts 'Chronic obstructive pulmonary disease (COPD)…', ends with the sentence about women's smoking).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Pulmonary Ventilation – Airway Resistance",
+    "book_pages": "915-916",
+    "pdf_pages": "931-932",
+    "capture": "p.915 right column, bottom: paragraph under the run-in heading 'Airway Resistance' (starts 'Like the flow of blood…'); it runs over the page break to p.916 left column, first two paragraphs, ending with the sentence naming asthma and COPD as increased airway resistance.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.5",
+    "section_title": "Lung Volumes and Capacities – FEV1",
+    "book_pages": "918",
+    "pdf_pages": "934",
+    "capture": "p.918 left column, first paragraph, last three sentences (from 'The forced expiratory volume…' to '…increases airway resistance').",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Air moves only because of a pressure difference, and the flow you get for a given pressure difference falls steeply as an airway narrows (flow = pressure difference / resistance; resistance rises with the fourth power of shrinking radius). 'Obstructive' disease therefore means the patient cannot push air OUT fast enough: airways are narrowed by mucus and inflammation, or they collapse during exhalation because the elastic tissue that normally holds them open has been destroyed. COPD is the umbrella term for two overlapping conditions with the same main cause, long-term inhaled irritants (mostly cigarette smoke): emphysema (destroyed alveolar walls, lost recoil) and chronic bronchitis (chronically inflamed, mucus-clogged bronchi). Spirometry measures the limitation as a reduced FEV1. The slide leaves unsaid that COPD is largely irreversible (unlike asthma), that it is one of the leading causes of death, and that it is mostly preventable.",
+  "terms": [
+   {
+    "t": "Airway resistance",
+    "d": "Opposition to airflow offered by the airways; depends mainly on bronchiolar diameter, which smooth muscle and swelling can change."
+   },
+   {
+    "t": "Alveolus (pulmonary alveolus)",
+    "d": "Tiny thin-walled air sac at the end of the airway tree where gas exchange with blood happens."
+   },
+   {
+    "t": "Bronchiole",
+    "d": "Small airway (under about 1 mm) with smooth muscle but no cartilage, so it can narrow or collapse."
+   },
+   {
+    "t": "Emphysema",
+    "d": "Permanent destruction of alveolar walls, giving large air spaces and loss of elastic recoil."
+   },
+   {
+    "t": "Chronic bronchitis",
+    "d": "Long-standing inflammation of the bronchi with excess mucus and a productive cough."
+   },
+   {
+    "t": "Noxious",
+    "d": "Harmful or irritating to tissue, e.g. smoke, dust, chemical fumes."
+   },
+   {
+    "t": "Spirometry",
+    "d": "Measuring the volumes of air breathed in and out with a spirometer."
+   },
+   {
+    "t": "FEV1",
+    "d": "Volume forcibly exhaled in the first second after a maximal inhalation; falls when airways are obstructed."
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "title": "Emphysema",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Emphysema",
+    "book_pages": "936",
+    "pdf_pages": "952",
+    "capture": "p.936: paragraph with the run-in heading 'Emphysema' at the bottom of the left column (starts 'Emphysema … is a disorder…'), continuing at the top of the right column through 'barrel chest'; plus the next paragraph in the right column on causes and treatment (two paragraphs in all).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Pulmonary Ventilation – Exhalation; Compliance of the Lungs",
+    "book_pages": "914-915",
+    "pdf_pages": "930-931",
+    "capture": "p.914 right column: the paragraph under the run-in heading 'Exhalation' (starts 'Breathing out, called exhalation…'), which explains elastic recoil. p.915 right column: the paragraph under the run-in heading 'Compliance of the Lungs' (one paragraph; its last sentence is about emphysema).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.5",
+    "section_title": "Lung Volumes and Capacities",
+    "book_pages": "917-918",
+    "pdf_pages": "933-934",
+    "capture": "p.917 Figure 23.16 (spirogram, whole figure). p.918 left column: first paragraph (FEV1 sentences) and second paragraph (residual volume, starts 'Even after the expiratory reserve…'); and under 'Lung Capacities' the sentence defining total lung capacity.",
+    "figures": [
+     "23.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Clinical Connection: Hypoxia",
+    "book_pages": "930",
+    "pdf_pages": "946",
+    "capture": "p.930 right column: Clinical Connection box 'Hypoxia' (definition paragraph and the numbered list of four types, especially item 1 hypoxic hypoxia).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A healthy lung behaves like a stretched elastic bag: inhalation stretches it, and it springs back by itself, which is all that drives quiet exhalation. The recoil comes from elastic fibres in the alveolar walls and from surface tension in the alveolar fluid. Emphysema destroys alveolar walls, so two things happen: the gas-exchange surface shrinks (less oxygen uptake, breathlessness on exertion, low arterial oxygen) and elastic fibres are lost, so the lung becomes floppy (high compliance) and fails to empty. Air is trapped, residual volume and total lung capacity rise, and the over-inflated chest becomes barrel-shaped. Small airways have no cartilage; they are held open by the surrounding elastic tissue, so without it they collapse when the patient forces air out, which is why FEV1 drops. Breathing out through pursed lips keeps pressure inside the airways higher and delays that collapse. The book explains the mechanism but not the acinar subtypes.",
+  "terms": [
+   {
+    "t": "Terminal bronchiole",
+    "d": "Last purely conducting airway; everything distal to it (respiratory bronchioles, ducts, alveoli) exchanges gas."
+   },
+   {
+    "t": "Acinus",
+    "d": "The unit of lung tissue supplied by one terminal bronchiole; 'centriacinar' and 'panacinar' describe which part is destroyed."
+   },
+   {
+    "t": "Elastic recoil",
+    "d": "Tendency of stretched lung tissue and chest wall to spring back, powering quiet exhalation."
+   },
+   {
+    "t": "Compliance",
+    "d": "How easily the lungs stretch for a given pressure change; high compliance = floppy, low = stiff."
+   },
+   {
+    "t": "Total lung capacity",
+    "d": "All the air the lungs can hold after a maximal inhalation (vital capacity plus residual volume)."
+   },
+   {
+    "t": "Residual volume",
+    "d": "Air left in the lungs after the most forceful exhalation; it cannot be measured by spirometry."
+   },
+   {
+    "t": "FEV1",
+    "d": "Volume exhaled in the first second of a forced exhalation; reduced when airways collapse or narrow."
+   },
+   {
+    "t": "Dyspnoea",
+    "d": "Subjective difficulty or labour in breathing; shortness of breath."
+   },
+   {
+    "t": "Hypoxemia",
+    "d": "Abnormally low partial pressure of oxygen in arterial blood."
+   },
+   {
+    "t": "Sputum",
+    "d": "Mucus and fluid coughed up from the airways."
+   }
+  ],
+  "note": "Centriacinar/panacinar classification, alpha-1 antitrypsin deficiency and the 'pink puffer' label are not in Tortora; the book only mentions 'an enzyme imbalance' as a cause (p.936 right column). Nearest physiology: elastic recoil and compliance (p.914-915) and lung volumes (p.917-918)."
+ },
+ {
+  "n": 4,
+  "title": "Emphysema",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 1,
+    "section": "1.7",
+    "section_title": "Medical Imaging – Table 1.3 Radiography",
+    "book_pages": "23",
+    "pdf_pages": "39",
+    "capture": "p.23: Table 1.3, first entry 'Radiography' (Procedure and Comments text, which explains why lungs look black and bone white) together with the normal chest radiograph pictured beside it.",
+    "figures": [],
+    "tables": [
+     "1.3"
+    ]
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "The Lower Respiratory System – Lobules, alveoli and the respiratory membrane",
+    "book_pages": "908-910",
+    "pdf_pages": "924-926",
+    "capture": "p.908 Figure 23.11 (lobule of the lung, all three parts, note the labels 'Elastic connective tissue' and 'Lymphatic vessel'). p.909 left column: the paragraph starting 'The exchange of O2 and CO2…' with the four-item list of respiratory-membrane layers. p.910 Figure 23.12 (alveolus; note 'Reticular fiber' and 'Elastic fiber' labels).",
+    "figures": [
+     "23.11",
+     "23.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Pulmonary Ventilation – Inhalation (diaphragm)",
+    "book_pages": "912-913",
+    "pdf_pages": "928-929",
+    "capture": "p.912 left column, paragraph under the run-in heading 'Inhalation' (starts 'Breathing in is called…') continuing in the right column with the sentences on the diaphragm flattening and descending. p.913 Figure 23.14 (muscles of inhalation and exhalation, part a and the diaphragm inset).",
+    "figures": [
+     "23.14"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A chest radiograph is a shadow picture: X-rays pass easily through air, so air-filled lung looks black, while bone, heart and fluid absorb them and look white. The 'interstitium' is the fine scaffolding between the air sacs, the connective tissue with elastic and reticular fibres, small blood vessels and lymphatics that Tortora draws around the alveoli in Figures 23.11 and 23.12; when it is thickened or distorted it shows as extra fine lines on the film. In emphysema the lungs are overfilled with trapped air, so the lung fields look longer and darker than normal. The diaphragm is a dome that flattens as it contracts during inhalation; a chronically over-inflated lung pushes it down so that on the film both halves (hemidiaphragms) look flat even at rest, instead of domed. Reading these signs assumes you already know what a normal chest X-ray looks like and how lung inflation is produced.",
+  "terms": [
+   {
+    "t": "Radiograph (X-ray film)",
+    "d": "Two-dimensional image made by X-rays passing through the body; dense tissue appears white, air black."
+   },
+   {
+    "t": "Interstitium",
+    "d": "Connective-tissue framework between the alveoli, carrying capillaries, lymphatics and elastic fibres."
+   },
+   {
+    "t": "Hyperinflation",
+    "d": "Lungs holding more air than normal at rest because trapped air cannot be exhaled."
+   },
+   {
+    "t": "Hemidiaphragm",
+    "d": "One half (left or right dome) of the diaphragm, the sheet of muscle separating thorax from abdomen."
+   },
+   {
+    "t": "Lung fields",
+    "d": "The areas of the radiograph occupied by the lungs."
+   },
+   {
+    "t": "Bilateral",
+    "d": "Affecting both sides."
+   }
+  ],
+  "note": "The chest radiograph on the slide is not a Tortora figure and Tortora has no emphysema radiograph; the nearest material is the normal chest radiograph in Table 1.3 (p.23) and the alveolar figures 23.11-23.12."
+ },
+ {
+  "n": 5,
+  "title": "Chronic bronchitis",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Chronic Bronchitis",
+    "book_pages": "936",
+    "pdf_pages": "952",
+    "capture": "p.936 right column, middle: the paragraph with the run-in heading 'Chronic Bronchitis' (starts 'Chronic bronchitis is a disorder…', one paragraph ending with the treatment sentence).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "The Lower Respiratory System – wall of the trachea and bronchial tree",
+    "book_pages": "903-905",
+    "pdf_pages": "919-921",
+    "capture": "p.903 left column, first paragraph (starts 'The layers of the tracheal wall…': mucosa, submucosa with seromucous glands). p.905 left column: numbered item 1 of the list of structural changes in the bronchial tree (epithelium types, goblet cells, cilia moving mucus toward the pharynx).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "The Lower Respiratory System – Blood Supply to the Lungs (hypoxic vasoconstriction)",
+    "book_pages": "909",
+    "pdf_pages": "925",
+    "capture": "p.909 right column: the paragraph under the run-in heading 'Blood Supply to the Lungs' (starts 'The lungs receive blood…'), especially the sentences on constriction of pulmonary vessels in response to hypoxia and ventilation–perfusion coupling.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.8",
+    "section_title": "Clinical Connection: Hypoxia",
+    "book_pages": "930",
+    "pdf_pages": "946",
+    "capture": "p.930 right column: Clinical Connection 'Hypoxia', definition and item 1 (hypoxic hypoxia from airway obstruction).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The airways are lined by a mucous membrane: a surface epithelium (ciliated columnar cells plus mucus-secreting goblet cells) sitting on a basement membrane, over loose connective tissue (lamina propria) and a submucosa containing mucous glands, blood vessels and, deeper, smooth muscle and cartilage. Mucus traps inhaled particles and the cilia sweep it up to the throat. Years of inhaled irritant make the glands enlarge (hypertrophy) and the goblet cells multiply (hyperplasia), so mucus is produced faster than it can be cleared: the definition of chronic bronchitis is a productive cough for at least three months in two consecutive years. Plugs of mucus block airflow, so alveoli behind them are poorly ventilated; oxygen falls and carbon dioxide rises in the blood, producing cyanosis (blue-tinged skin from de-oxygenated haemoglobin). Poorly ventilated lung regions also constrict their blood vessels, which raises pulmonary artery pressure and eventually strains the right heart. The micrograph on the slide shows exactly these layers, inflamed.",
+  "terms": [
+   {
+    "t": "Mucous membrane (mucosa)",
+    "d": "Epithelium plus underlying loose connective tissue lining a passage open to the outside, e.g. the airways."
+   },
+   {
+    "t": "Goblet cell",
+    "d": "Mucus-secreting epithelial cell shaped like a wine glass, scattered among ciliated cells."
+   },
+   {
+    "t": "Hyperplasia",
+    "d": "Increase in the number of cells in a tissue."
+   },
+   {
+    "t": "Hypertrophy",
+    "d": "Increase in the size of cells or an organ, without increase in cell number."
+   },
+   {
+    "t": "Basement membrane",
+    "d": "Thin protein layer anchoring an epithelium to the connective tissue beneath it."
+   },
+   {
+    "t": "Submucosa",
+    "d": "Connective-tissue layer beneath the mucosa; in the airways it holds the seromucous glands."
+   },
+   {
+    "t": "Lumen",
+    "d": "The open space inside a tube such as an airway or vessel."
+   },
+   {
+    "t": "Cyanosis",
+    "d": "Bluish colour of skin and mucous membranes caused by a high level of de-oxygenated haemoglobin."
+   },
+   {
+    "t": "Hyperaemia",
+    "d": "Increased blood flow and blood content in a tissue, e.g. dilated vessels in inflammation."
+   },
+   {
+    "t": "Lymphocytes and plasma cells",
+    "d": "White blood cells of adaptive immunity; plasma cells are antibody-secreting B cells; both accumulate in chronic inflammation."
+   }
+  ],
+  "note": "The 'blue bloater' label, PCO2/PO2 mechanism via mucus plugs, and the histology description are the lecturer's; Tortora lists cyanosis and pulmonary hypertension among the symptoms (p.936) without the mechanism. For the blood-gas basics see 23.6 (p.919-921)."
+ },
+ {
+  "n": 6,
+  "title": "Asthma",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Asthma",
+    "book_pages": "936-937",
+    "pdf_pages": "952-953",
+    "capture": "p.936 right column, lower half: under the heading 'Asthma', first paragraph (definition and four causes of obstruction) and second paragraph (triggers; early-phase and late-phase responses; mediator list). The second paragraph's treatment sentences run over the page break to the top of p.937 left column.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 22,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Allergic Reactions – Type I (anaphylactic)",
+    "book_pages": "885",
+    "pdf_pages": "901",
+    "capture": "p.885 left column, from the heading 'Allergic Reactions' (two paragraphs: allergens; the four types) and the 'Type I (anaphylactic) reactions' paragraph which starts at the bottom of the left column and continues at the top of the right column (IgE on mast cells, histamine, leukotrienes, bronchial smooth-muscle contraction, mucus).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 19,
+    "section": "19.4",
+    "section_title": "White Blood Cells – Functions (eosinophils, basophils, mast cells)",
+    "book_pages": "709",
+    "pdf_pages": "725",
+    "capture": "p.709 right column: the three paragraphs starting 'Eosinophils leave the capillaries…', 'At sites of inflammation, basophils…' and the sentences on mast cells that follow.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 22,
+    "section": "22.7 / 22.9",
+    "section_title": "Table 22.2 Cytokines; Table 22.3 Classes of Immunoglobulins",
+    "book_pages": "869-876",
+    "pdf_pages": "885-892",
+    "capture": "p.869 Table 22.2: only the rows 'Interleukin-4 (IL-4)' and 'Interleukin-5 (IL-5)'. p.876 Table 22.3: only the row 'IgE'.",
+    "figures": [],
+    "tables": [
+     "22.2",
+     "22.3"
+    ]
+   }
+  ],
+  "basics": "Asthma is an allergic-type (type I hypersensitivity) inflammation of the bronchi. The adaptive immune system normally reacts to foreign proteins (antigens) by presenting them to helper T cells; a T-helper-2 pattern of response makes B cells switch to producing IgE antibody, which docks on mast cells in the airway lining. The next time the allergen arrives it bridges two IgE molecules and the mast cell 'degranulates', dumping histamine, leukotrienes and other mediators. Within minutes these contract the bronchial smooth muscle (bronchioles have no cartilage, so they narrow), make capillaries leak (oedema) and drive mucus secretion; nerve reflexes through the vagus add to the constriction. Hours later, chemokines such as IL-5 recruit eosinophils and other leukocytes, whose granule proteins strip the epithelium and leave the airway hyper-reactive. Because the muscle spasm and swelling can relax, the obstruction is reversible, which distinguishes asthma from COPD. Tortora gives the two-phase picture and mediators; the cytokine cascade is the lecturer's addition.",
+  "terms": [
+   {
+    "t": "Hypersensitivity",
+    "d": "An immune response that is excessive or misdirected and damages the body's own tissues."
+   },
+   {
+    "t": "Allergen",
+    "d": "An otherwise harmless antigen (pollen, dust-mite protein) that triggers an allergic reaction in sensitised people."
+   },
+   {
+    "t": "Dendritic cell",
+    "d": "Antigen-presenting cell that captures foreign material and shows fragments of it to T cells."
+   },
+   {
+    "t": "Helper T (Th) cell",
+    "d": "CD4 lymphocyte that coordinates immune responses by secreting cytokines; Th2 cells favour antibody and allergic responses."
+   },
+   {
+    "t": "Interleukin (IL)",
+    "d": "A cytokine, a signalling protein passed between white blood cells (e.g. IL-4 drives IgE production)."
+   },
+   {
+    "t": "IgE",
+    "d": "The antibody class that binds mast cells and basophils and mediates allergic reactions."
+   },
+   {
+    "t": "Fc receptor",
+    "d": "Cell-surface protein that grips the constant 'tail' of an antibody, holding it on the cell."
+   },
+   {
+    "t": "Mast cell",
+    "d": "Connective-tissue cell packed with histamine granules; releases them when its bound IgE is cross-linked."
+   },
+   {
+    "t": "Eosinophil",
+    "d": "Granular white blood cell prominent in allergy and parasite defence; its granule proteins damage epithelium."
+   },
+   {
+    "t": "Vagal reflex",
+    "d": "Parasympathetic reflex via the vagus nerve; in the airways it causes bronchoconstriction and mucus secretion."
+   }
+  ],
+  "note": "Th2, eotaxin, major basic protein and eosinophil cationic protein are not in Tortora. Tortora's Table 22.2 says IL-4 causes plasma cells to secrete IgE; it assigns IgA (not eosinophil recruitment) to IL-5."
+ },
+ {
+  "n": 7,
+  "title": "Asthma",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Asthma – triggers",
+    "book_pages": "936",
+    "pdf_pages": "952",
+    "capture": "p.936 right column: second paragraph under 'Asthma' (starts 'Individuals with asthma typically react…'), first four sentences listing allergens, emotional upset, aspirin, sulfiting agents, exercise, cold air and smoke.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3 / 23.4",
+    "section_title": "Regulation of bronchiolar smooth muscle (sympathetic vs parasympathetic)",
+    "book_pages": "905-916",
+    "pdf_pages": "921-932",
+    "capture": "p.905 right column, top: the two paragraphs starting 'patency. However, because there is no supporting cartilage…' (asthma attack) and 'During exercise, activity in the sympathetic…' (epinephrine dilates, parasympathetic and histamine constrict). p.916 left column, first paragraph (sympathetic bronchodilation, parasympathetic bronchoconstriction).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The calibre of a bronchiole is set by its smooth muscle, which has two remote controls: the sympathetic nervous system and adrenal adrenaline relax it (bronchodilation, acting through beta-2 receptors), while the parasympathetic vagus nerve, histamine and cold or irritant stimulation contract it. Anything that tips this balance toward contraction, or that inflames an already twitchy airway, can start an attack. That is the logic of the trigger list: allergens act through IgE and mast cells; viral infections and pollutants inflame the mucosa; cold dry air and hard exercise irritate the airway directly; emotional stress works through the autonomic nerves. The drug examples follow too: beta-blockers remove the sympathetic 'relax' signal, and aspirin-type NSAIDs shift arachidonic-acid metabolism toward bronchoconstricting leukotrienes in susceptible people. Tortora names most of the triggers but explains only the autonomic mechanism; it does not mention beta-blockers or viral infections.",
+  "terms": [
+   {
+    "t": "Extrinsic vs intrinsic trigger",
+    "d": "Extrinsic = external allergen-driven; intrinsic = non-allergic causes such as infection, exercise or drugs."
+   },
+   {
+    "t": "Sympathetic division",
+    "d": "The 'fight or flight' part of the autonomic nervous system; relaxes airway smooth muscle."
+   },
+   {
+    "t": "Parasympathetic division",
+    "d": "The 'rest and digest' part; via the vagus it constricts airways and stimulates mucus."
+   },
+   {
+    "t": "Beta-2 adrenergic receptor",
+    "d": "Receptor on bronchiolar smooth muscle; adrenaline or albuterol binding to it causes bronchodilation."
+   },
+   {
+    "t": "Beta-blocker",
+    "d": "Drug that blocks adrenergic beta receptors (used for heart disease); can provoke bronchoconstriction."
+   },
+   {
+    "t": "NSAID",
+    "d": "Non-steroidal anti-inflammatory drug such as aspirin or ibuprofen; blocks prostaglandin synthesis."
+   },
+   {
+    "t": "Respiratory syncytial virus (RSV)",
+    "d": "Common virus causing bronchiolitis and colds, especially in infants."
+   },
+   {
+    "t": "Dander",
+    "d": "Tiny flakes of skin or hair shed by animals, a common airborne allergen."
+   }
+  ],
+  "note": "Beta-blockers, RSV and NSAIDs as a class are not in Tortora; the book names aspirin among triggers (p.936) and explains beta-2 agonist treatment (p.936-937)."
+ },
+ {
+  "n": 8,
+  "title": "Asthma",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Asthma – early phase and symptoms",
+    "book_pages": "936-937",
+    "pdf_pages": "952-953",
+    "capture": "p.936 right column, second paragraph under 'Asthma': the sentences from 'In the early phase (acute) response…' (mucus clogging bronchi and bronchioles) to the end of the paragraph; then the symptoms sentence 'Symptoms include difficult breathing, coughing, wheezing…' near the bottom of the column, and the treatment sentences continuing at the top of p.937 left column.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Bronchi – the bronchial tree",
+    "book_pages": "902",
+    "pdf_pages": "918",
+    "capture": "p.902 Figure 23.8 (branching of airways from the trachea, part a anterior view of the bronchial tree, whole figure) – the shape the mucus cast reproduces.",
+    "figures": [
+     "23.8"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "Medical Terminology",
+    "section_title": "Dyspnea, Wheeze, Sputum, Bronchoscopy",
+    "book_pages": "938",
+    "pdf_pages": "954",
+    "capture": "p.938 Medical Terminology box: entries 'Bronchoscopy' (left column), 'Dyspnea', 'Sputum' and 'Wheeze' (right column).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The airways branch about 23 times from the trachea to the alveolar ducts, so anything that solidifies inside them takes the shape of a tree. In a severe attack the mucus produced by the inflamed lining becomes thick, sticky and full of shed cells, and can set into a cast that plugs a whole bronchus; the spiral-shaped plugs come from mucus moulded inside narrowed, twisted bronchioles. Wheeze is the whistling sound air makes when it is forced through a narrowed tube, loudest on breathing out because airways narrow further during exhalation. Dyspnoea is the sensation of not getting enough air. 'Status asthmaticus' is an attack that does not respond to the usual bronchodilators and is life-threatening because the plugs and spasm block ventilation of large parts of the lung. Tortora describes the mucus clogging and lists the symptoms; the cast and the term status asthmaticus are the lecturer's.",
+  "terms": [
+   {
+    "t": "Bronchial tree",
+    "d": "The whole branching system of airways from trachea to terminal bronchioles."
+   },
+   {
+    "t": "Mucus cast",
+    "d": "A solid plug of dried mucus that has taken the shape of the airway it filled."
+   },
+   {
+    "t": "Bronchoscopy",
+    "d": "Looking into the trachea and bronchi with a flexible lighted tube passed through the mouth or nose."
+   },
+   {
+    "t": "Status asthmaticus",
+    "d": "A severe, prolonged asthma attack that does not respond to standard treatment."
+   },
+   {
+    "t": "Wheeze",
+    "d": "High-pitched whistling breath sound produced by air flowing through narrowed airways."
+   },
+   {
+    "t": "Dyspnoea",
+    "d": "Difficult or laboured breathing; the feeling of shortness of breath."
+   },
+   {
+    "t": "Productive cough",
+    "d": "A cough that brings up sputum, as opposed to a dry cough."
+   }
+  ],
+  "note": "'Status asthmaticus' and the mucus cast are not in Tortora; nearest text is the asthma early-phase description (p.936) and the Medical Terminology entries (p.938)."
+ },
+ {
+  "n": 9,
+  "title": "Pneumothorax",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Clinical Connection: Pneumothorax and Hemothorax",
+    "book_pages": "906",
+    "pdf_pages": "922",
+    "capture": "p.906 right column, top: the boxed Clinical Connection 'Pneumothorax and Hemothorax' (one paragraph: air/blood/pus in pleural cavity, atelectasis, chest tube).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "The Lower Respiratory System – Lungs (pleural membranes)",
+    "book_pages": "905-906",
+    "pdf_pages": "921-922",
+    "capture": "p.905 right column: paragraph under the heading 'Lungs' (starts 'A pulmonologist…'), which runs over the page break to p.906 left column, first paragraph (parietal and visceral pleura, pleural cavity, pleural fluid, surface tension, separate pleural cavities so one lung can collapse while the other stays expanded). p.905 Figure 23.9 (pleural membranes and lungs, whole figure).",
+    "figures": [
+     "23.9"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.4",
+    "section_title": "Pulmonary Ventilation – Intrapleural pressure",
+    "book_pages": "913-914",
+    "pdf_pages": "929-930",
+    "capture": "p.913 left column, bottom: the paragraph starting 'Intrapleural pressure is the pressure…' (negative pressure acts as a vacuum attaching visceral pleura to chest wall), continuing at the top of the right column. p.914 Figure 23.15 (pressure changes, whole figure).",
+    "figures": [
+     "23.15"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Each lung sits inside a double serous membrane: visceral pleura on the lung, parietal pleura on the chest wall, a thin film of fluid between. There is no air in this pleural 'cavity', and its pressure is always a few mmHg below atmospheric, so the lung, which would otherwise shrink by its own elastic recoil, is held out against the chest wall by suction, much as two wet glass slides cling together. If air gets in, from outside through a chest wound or from inside through a burst weak spot (bleb) on the lung surface, the suction is lost and the lung collapses (atelectasis). Because the two pleural sacs are separate, the other lung keeps working. Air under pressure can push the mediastinum (heart and great vessels) toward the other side. A chest tube removes the air so the lung re-expands. Tortora covers the mechanism, atelectasis and the chest tube, not the spontaneous/traumatic split or mediastinal shift.",
+  "terms": [
+   {
+    "t": "Pleura (pleural membrane)",
+    "d": "Two-layered serous membrane: visceral layer on the lung, parietal layer on the thoracic wall."
+   },
+   {
+    "t": "Pleural cavity (space)",
+    "d": "The potential space between the two pleural layers, normally containing only a film of fluid."
+   },
+   {
+    "t": "Serous membrane",
+    "d": "Thin membrane lining a closed body cavity and covering its organs; secretes lubricating fluid."
+   },
+   {
+    "t": "Intrapleural pressure",
+    "d": "Pressure inside the pleural cavity, normally about 4 mmHg below atmospheric."
+   },
+   {
+    "t": "Atelectasis",
+    "d": "Collapse of part or all of a lung so its alveoli contain no air."
+   },
+   {
+    "t": "Bleb",
+    "d": "A thin-walled air-filled blister on the lung surface, typical of emphysema; can rupture."
+   },
+   {
+    "t": "Mediastinum",
+    "d": "Central compartment of the thorax between the two lungs, containing heart, great vessels, trachea and oesophagus."
+   },
+   {
+    "t": "Chest tube (thoracostomy)",
+    "d": "Tube inserted between the ribs into the pleural space to drain air or fluid."
+   }
+  ],
+  "note": "Emphysematous blebs, spontaneous vs traumatic classification and mediastinal shift are not in Tortora; the book attributes pneumothorax to surgical openings or stab/gunshot wounds (p.906)."
+ },
+ {
+  "n": 10,
+  "title": "Pneumonia",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Pneumonia",
+    "book_pages": "936",
+    "pdf_pages": "952",
+    "capture": "p.936 left column, top: under the heading 'Pneumonia', all three paragraphs (definition and mechanism; causes and susceptible groups; treatment).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "The Lower Respiratory System – Lobes, Fissures, and Lobules",
+    "book_pages": "907-909",
+    "pdf_pages": "923-925",
+    "capture": "p.907 left column: paragraph under the run-in heading 'Lobes, Fissures, and Lobules' (starts 'One or two fissures…'); and right column, the paragraph starting 'Each bronchopulmonary segment of the lungs has many small compartments called lobules…'. p.909 left column: the paragraph starting 'The exchange of O2 and CO2…' (respiratory membrane = the 'interstitium' between air and blood).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "Medical Terminology",
+    "section_title": "Sputum",
+    "book_pages": "938",
+    "pdf_pages": "954",
+    "capture": "p.938 Medical Terminology box, right column: entry 'Sputum'.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Pneumonia is infection with inflammation of the gas-exchange part of the lung. Microbes that get past the mucus-and-cilia defences multiply in the alveoli; the immune response makes capillaries leak, and the alveoli fill with fluid, cells and pus instead of air, so gas exchange fails in that region. Fluid-filled lung absorbs X-rays, so it appears as a white shadow on a chest radiograph, which is the main diagnostic picture; identifying the organism in sputum or blood guides antibiotic choice. The classification on the slide is anatomical: 'lobar' pneumonia fills a whole lobe (each lobe has its own lobar bronchus, and the right lung has three lobes, the left two); 'bronchopneumonia' is patchy, spreading from many small bronchi into their lobules; 'interstitial' pneumonia inflames the alveolar walls and connective-tissue scaffold rather than filling the air spaces, and is typical of viruses. Tortora explains the disease and its commonest cause (Streptococcus pneumoniae) but not the three patterns.",
+  "terms": [
+   {
+    "t": "Lobe",
+    "d": "A major division of a lung marked off by a fissure; three on the right, two on the left."
+   },
+   {
+    "t": "Lobule",
+    "d": "A small compartment of lung tissue supplied by one terminal bronchiole and wrapped in elastic connective tissue."
+   },
+   {
+    "t": "Interstitium",
+    "d": "The alveolar-wall connective tissue between air and capillary blood."
+   },
+   {
+    "t": "Sputum",
+    "d": "Mucus and other fluid coughed up from the lower airways."
+   },
+   {
+    "t": "Gram stain",
+    "d": "Laboratory dye test that splits bacteria into two groups by cell-wall type, guiding antibiotic choice."
+   },
+   {
+    "t": "Culture",
+    "d": "Growing microbes from a sample on nutrient medium to identify them."
+   },
+   {
+    "t": "Consolidation",
+    "d": "Lung tissue that has become solid because its alveoli are filled with fluid and cells."
+   }
+  ],
+  "note": "Lobar/broncho/interstitial classification and the diagnostic work-up are not in Tortora; nearest text is the pneumonia disorder box (p.936) and lobe/lobule anatomy (p.907)."
+ },
+ {
+  "n": 11,
+  "title": "Tuberculosis",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Tuberculosis",
+    "book_pages": "937",
+    "pdf_pages": "953",
+    "capture": "p.937 left column: under the heading 'Tuberculosis', the first paragraph (organism, inflammation, macrophages wall off the bacteria, dormancy vs escape when immunity is impaired, symptoms) and the second paragraph (HIV and other risk factors, drug resistance, isoniazid).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 22,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Allergic Reactions – Type IV (cell-mediated)",
+    "book_pages": "885",
+    "pdf_pages": "901",
+    "capture": "p.885 right column: the 'Type IV (cell-mediated) reactions' paragraph (the sentences naming Mycobacterium tuberculosis as a trigger of delayed hypersensitivity and the TB skin test).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Blood Supply to the Lungs (ventilation–perfusion) and lung apex",
+    "book_pages": "906-909",
+    "pdf_pages": "922-925",
+    "capture": "p.906 right column, below the Clinical Connection: the paragraph starting 'The lungs extend from the diaphragm…' (base and apex of the lung). p.909 right column: paragraph under 'Blood Supply to the Lungs', the sentences on hypoxic vasoconstriction and ventilation–perfusion coupling.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Mycobacterium tuberculosis is a slow-growing bacterium that survives inside the very macrophages sent to eat it. The body's answer is cell-mediated (T-cell) immunity: T cells activate macrophages, which surround the bacteria in a nodule (granuloma) whose centre dies into a cheese-like ('caseous') mass; this heals by fibrosis and calcification, leaving a small scar in the lung plus a scarred draining lymph node, the Ghon complex of primary infection. The bacteria can stay dormant for life. If immunity later falls (age, HIV, malnutrition), they reactivate, characteristically in the upper lobes near the apex where ventilation exceeds blood flow so oxygen is plentiful and lymph drainage sluggish; cavities form and bacteria may spill into the bloodstream, seeding 'miliary' (millet-seed) foci throughout the lungs or other organs. Tortora gives the immune walling-off, dormancy and reactivation story and the symptoms, but not the granuloma histology, Ghon complex, apical preference or miliary spread.",
+  "terms": [
+   {
+    "t": "Mycobacterium",
+    "d": "Genus of slow-growing bacteria with a waxy cell wall; M. tuberculosis causes TB."
+   },
+   {
+    "t": "Caseating necrosis",
+    "d": "Tissue death producing a soft, cheese-like mass, characteristic of TB granulomas."
+   },
+   {
+    "t": "Granuloma",
+    "d": "A nodule of activated macrophages and lymphocytes that walls off something the body cannot destroy."
+   },
+   {
+    "t": "Fibrosis",
+    "d": "Replacement of damaged tissue by collagen scar."
+   },
+   {
+    "t": "Calcification",
+    "d": "Deposition of calcium salts in dead or scarred tissue, visible on X-ray."
+   },
+   {
+    "t": "Ghon complex",
+    "d": "The healed primary TB lesion in the lung together with its enlarged draining hilar lymph node."
+   },
+   {
+    "t": "Apex of lung",
+    "d": "The narrow top of the lung, above the clavicle."
+   },
+   {
+    "t": "Miliary TB",
+    "d": "Widespread tiny TB foci, like scattered millet seeds, from blood-borne spread."
+   },
+   {
+    "t": "Extrapulmonary",
+    "d": "Outside the lungs (e.g. TB of bone, kidney, meninges)."
+   }
+  ],
+  "note": "Ghon complex, caseation, apical reactivation and miliary spread are not in Tortora; the book's TB entry (p.937) covers organism, immune containment, dormancy/reactivation, risk factors and treatment."
+ },
+ {
+  "n": 12,
+  "title": "Lung cancer",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 23,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Lung Cancer",
+    "book_pages": "934",
+    "pdf_pages": "950",
+    "capture": "p.934 right column: under the heading 'Lung Cancer', all four paragraphs (statistics and causes incl. 85% smoking, asbestos, radon; bronchogenic carcinoma types adenocarcinoma / squamous / small (oat) cell; symptoms; treatment).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 3,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Cancer – Types, Growth and Spread, Carcinogens",
+    "book_pages": "105-106",
+    "pdf_pages": "121-122",
+    "capture": "p.105 left column: the paragraph under 'Cancer' (tumour, malignant, metastasis, benign); right column: 'Types of Cancer' paragraph (carcinoma = epithelial) and 'Growth and Spread of Cancer' first paragraph. p.106 left column: paragraph under the run-in heading 'Carcinogens'.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "Bronchial tree epithelium (where each carcinoma type arises)",
+    "book_pages": "905",
+    "pdf_pages": "921",
+    "capture": "p.905 left column: numbered item 1 of the structural changes list (epithelium types from main bronchi to terminal bronchioles).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A cancer is a population of cells that has acquired DNA mutations letting it divide without control, invade neighbouring tissue and seed distant sites (metastasis) via lymph and blood. Carcinogens in cigarette tar cause most of these mutations in the airway lining, which is why 85% of lung cancers occur in smokers; asbestos and silica dust add to the risk. Because the lung has few pain nerves, early tumours are silent; cough, breathlessness and weight loss appear late. Nearly all lung cancers are carcinomas (epithelial), named by the cell type they resemble: adenocarcinoma from gland-like or alveolar cells, usually peripheral; squamous-cell carcinoma from the flattened cells of larger bronchi, central; small-cell carcinoma from neuroendocrine cells near the hilum, fast-spreading; large-cell when undifferentiated. Staging uses the TNM system, scoring the tumour's size, lymph-node spread and metastases to guide treatment. Tortora covers causes, types and symptoms but not TNM staging or the percentage breakdown.",
+  "terms": [
+   {
+    "t": "Carcinogen",
+    "d": "A chemical or radiation that causes cancer by mutating DNA."
+   },
+   {
+    "t": "Carcinoma",
+    "d": "A malignant tumour arising from epithelial cells."
+   },
+   {
+    "t": "Adenocarcinoma",
+    "d": "Carcinoma of gland-forming epithelium; in the lung usually peripheral."
+   },
+   {
+    "t": "Squamous cell",
+    "d": "Flat, scale-like epithelial cell; squamous carcinoma often arises in smokers' central bronchi."
+   },
+   {
+    "t": "Small cell carcinoma",
+    "d": "Aggressive lung cancer of small neuroendocrine-type cells, strongly linked to smoking."
+   },
+   {
+    "t": "Metastasis",
+    "d": "Spread of cancer cells from the original tumour to distant organs."
+   },
+   {
+    "t": "TNM staging",
+    "d": "System grading a cancer by Tumour size, lymph Node involvement and Metastasis."
+   },
+   {
+    "t": "Asbestos / silica",
+    "d": "Mineral dusts that, when inhaled, cause lung scarring and raise cancer risk."
+   },
+   {
+    "t": "Hilum",
+    "d": "The root region where bronchi and vessels enter the lung."
+   }
+  ],
+  "note": "TNM staging, large-cell carcinoma and the percentage breakdown are not in Tortora; the book gives the 85% smoking figure and describes adenocarcinoma, squamous and small (oat) cell types (p.934)."
+ },
+ {
+  "n": 13,
+  "title": "Left-to-right shunts",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Congenital Heart Defects",
+    "book_pages": "764-765",
+    "pdf_pages": "780-781",
+    "capture": "p.764 left column: the paragraph under the heading 'Congenital Heart Defects'; right column: bullets 'Patent ductus arteriosus (PDA)' and 'Septal defect', the latter running over the page break to p.765 left column, first paragraph (ventricular septal defect). p.764 Figure 20.23 parts (b), (c) and (d).",
+    "figures": [
+     "20.23"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.22",
+    "section_title": "Circulatory Routes: The Fetal Circulation (foramen ovale, ductus arteriosus)",
+    "book_pages": "836-838",
+    "pdf_pages": "852-854",
+    "capture": "p.837 right column: the paragraph starting 'Most of the fetal blood does not pass…' (foramen ovale, ductus arteriosus) and the following paragraph on changes at birth. p.838 left column: numbered item 1 (ductus arteriosus closure, ligamentum arteriosum, patent ductus arteriosus). p.836 Figure 21.31 parts (a) and (b).",
+    "figures": [
+     "21.31"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart – Myocardial Thickness and Function",
+    "book_pages": "735",
+    "pdf_pages": "751",
+    "capture": "p.735 left column, top: the paragraph under the run-in heading 'Myocardial Thickness and Function' (left ventricle pumps at higher pressure than the right).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The heart is two pumps side by side: the left drives the high-resistance systemic circuit at about 120 mmHg, the right the low-resistance lungs at roughly a quarter of that. Any abnormal opening between the two sides therefore lets blood flow from left to right, from high pressure to low, so oxygenated blood is recirculated through the lungs. Before birth such openings are normal: the foramen ovale (between the atria) and the ductus arteriosus (pulmonary trunk to aorta) bypass the unused fetal lungs and should seal after the first breaths. An atrial septal defect is a foramen ovale (or septum) that fails to close; a ventricular septal defect is an incomplete interventricular septum; a patent ductus is the fetal vessel staying open. In each, the lungs receive extra flow; over years their vessels thicken, pulmonary pressure rises, and the right ventricle is overloaded. Tortora describes the defects and fetal shunts but only hints at the pulmonary-hypertension consequence.",
+  "terms": [
+   {
+    "t": "Shunt",
+    "d": "An abnormal passage letting blood bypass its normal route; left-to-right means oxygenated blood re-enters the pulmonary side."
+   },
+   {
+    "t": "Septum (interatrial / interventricular)",
+    "d": "The muscular wall separating the two atria or the two ventricles."
+   },
+   {
+    "t": "Foramen ovale",
+    "d": "Fetal opening in the interatrial septum; normally closes at birth leaving the fossa ovalis."
+   },
+   {
+    "t": "Ductus arteriosus",
+    "d": "Fetal vessel joining the pulmonary trunk to the aorta; becomes the ligamentum arteriosum after birth."
+   },
+   {
+    "t": "Patent",
+    "d": "Open; a 'patent' ductus is one that has failed to close."
+   },
+   {
+    "t": "Pulmonary trunk",
+    "d": "The artery leaving the right ventricle that splits into the right and left pulmonary arteries."
+   },
+   {
+    "t": "Pulmonary hypertension",
+    "d": "Abnormally high blood pressure in the pulmonary arteries."
+   },
+   {
+    "t": "Congenital",
+    "d": "Present at birth."
+   }
+  ],
+  "note": "Tortora says PDA raises pulmonary trunk pressure and overworks both ventricles (p.764) but does not describe pulmonary vascular hypertrophy or the term 'left-to-right shunt'."
+ },
+ {
+  "n": 14,
+  "title": "Right-to-left shunts",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Congenital Heart Defects – Tetralogy of Fallot",
+    "book_pages": "764-765",
+    "pdf_pages": "780-781",
+    "capture": "p.765 left column: the bullet 'Tetralogy of Fallot' (one paragraph listing the four defects, reduced lung flow, mixing, cyanosis and 'blue baby'). p.764 Figure 20.23 part (e) with its labels, and the figure Q/A.",
+    "figures": [
+     "20.23"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood – Systemic and Pulmonary Circulations",
+    "book_pages": "737-738",
+    "pdf_pages": "753-754",
+    "capture": "p.737 right column, bottom: heading 'Systemic and Pulmonary Circulations' and its first paragraph, continuing over the page break to p.738 (left column paragraph on the left side as systemic pump, right column paragraph on the right side as pulmonary pump). p.738 Figure 20.7 (whole).",
+    "figures": [
+     "20.7"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.7",
+    "section_title": "Transport of Oxygen – oxyhemoglobin and reduced hemoglobin",
+    "book_pages": "922",
+    "pdf_pages": "938",
+    "capture": "p.922 left column: the paragraph under 'Oxygen Transport' (about 98.5% of O2 bound to hemoglobin) and Figure 23.18 (labels 'Reduced hemoglobin (deoxyhemoglobin)' and 'Oxyhemoglobin').",
+    "figures": [
+     "23.18"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Blood is only oxygenated if it passes through the lungs; a right-to-left shunt sends some de-oxygenated blood straight from the right heart into the aorta, so the arterial blood carries a lot of haemoglobin without oxygen, which is dark bluish-red and shows through skin and lips as cyanosis. For blood to move right-to-left the pressure on the right must be raised above the left, and that is what the tetralogy of Fallot does: a narrowed right-ventricular outflow (pulmonary stenosis) blocks the easy route to the lungs, so the right ventricle thickens (hypertrophy) and pushes blood through the ventricular septal defect into an aorta that sits astride the defect and receives blood from both ventricles. In transposition, the aorta arises from the right ventricle and the pulmonary trunk from the left, so the two circuits run in parallel and survival depends on some mixing (e.g. a patent ductus). Tortora explains the tetralogy and cyanosis; transposition is not in the book.",
+  "terms": [
+   {
+    "t": "Stenosis",
+    "d": "Narrowing of a valve or vessel opening that restricts flow."
+   },
+   {
+    "t": "Right ventricular outflow tract",
+    "d": "The path from the right ventricle through the pulmonary valve into the pulmonary trunk."
+   },
+   {
+    "t": "Ventricular hypertrophy",
+    "d": "Thickening of a ventricle's muscular wall in response to a higher workload."
+   },
+   {
+    "t": "Overriding aorta",
+    "d": "An aorta positioned over a septal defect so it receives blood from both ventricles."
+   },
+   {
+    "t": "Great arteries",
+    "d": "The aorta and the pulmonary trunk."
+   },
+   {
+    "t": "Transposition",
+    "d": "The aorta and pulmonary trunk are swapped, each arising from the wrong ventricle."
+   },
+   {
+    "t": "Cyanosis",
+    "d": "Blue colouration from a high concentration of de-oxygenated haemoglobin in arterial blood."
+   },
+   {
+    "t": "Deoxyhaemoglobin",
+    "d": "Haemoglobin not carrying oxygen; darker in colour than oxyhaemoglobin."
+   }
+  ],
+  "note": "Dextro-transposition of the great arteries is not in Tortora; nearest is the fetal/pulmonary circulation description (p.737-738, p.837). The slide's 'right ventricular outflow tract stenosis' is Tortora's 'stenosed pulmonary valve'."
+ },
+ {
+  "n": 15,
+  "title": "Atherosclerosis",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Coronary Artery Disease – Development of Atherosclerotic Plaques",
+    "book_pages": "761-762",
+    "pdf_pages": "777-778",
+    "capture": "p.761 left column, bottom: paragraph under the run-in heading 'Development of atherosclerotic plaques' (arteriosclerosis vs atherosclerosis), continuing in the right column (lipoproteins, LDL/HDL, inflammation, LDL accumulation and oxidation in the inner layer), and running over the page break to p.762 left column, first three paragraphs (foam cells, fatty streak, smooth-muscle cap, plaque rupture and clot). p.761 Figure 20.21 (normal vs obstructed artery).",
+    "figures": [
+     "20.21"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Coronary Artery Disease – Risk Factors for CAD",
+    "book_pages": "761",
+    "pdf_pages": "777",
+    "capture": "p.761 left column: the paragraph under the run-in heading 'Risk Factors for CAD' (modifiable and unmodifiable risk factors incl. age and gender).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Structure and Function of Blood Vessels – Basic Structure (tunics)",
+    "book_pages": "772-773",
+    "pdf_pages": "788-789",
+    "capture": "p.772 right column: the paragraph under the run-in heading 'Tunica Intima' (endothelium, basement membrane, internal elastic membrane) continuing at the top of p.773; p.773 Figure 21.1 parts (a) artery and (d) transverse section.",
+    "figures": [
+     "21.1"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "An artery wall has three coats: intima (endothelial cells on a basement membrane, bounded by an elastic sheet), media (smooth muscle and elastic fibres) and externa (connective tissue). Cholesterol travels in the blood in lipoprotein particles; the low-density type (LDL) delivers it to cells. When the endothelium is injured by high pressure, smoke chemicals or excess LDL, LDL leaks into the intima and is oxidised. Oxidised LDL is treated as foreign: monocytes enter, become macrophages, gorge on it and turn into 'foam cells'; T cells amplify the inflammation. Smooth-muscle cells migrate in from the media and lay down collagen, forming a fibrous cap over a core of dead foam cells and lipid, which later calcifies. The plaque narrows the lumen; if its cap cracks, a clot forms and can block the vessel outright. Risk rises with hypertension, high cholesterol, age and male sex. Tortora gives the whole sequence, noting that most heart attacks follow cap rupture rather than gradual narrowing.",
+  "terms": [
+   {
+    "t": "Tunica intima",
+    "d": "Innermost coat of a vessel: endothelium, its basement membrane and the internal elastic membrane."
+   },
+   {
+    "t": "Endothelium",
+    "d": "The single layer of flat cells lining the inside of all blood vessels and the heart."
+   },
+   {
+    "t": "Plaque",
+    "d": "A localised thickening of the intima made of lipid, dead cells, inflammatory cells and fibrous tissue."
+   },
+   {
+    "t": "Necrotic",
+    "d": "Consisting of dead tissue."
+   },
+   {
+    "t": "Lipid",
+    "d": "Fat-like molecule, e.g. cholesterol and triglycerides, insoluble in water."
+   },
+   {
+    "t": "Oxidised LDL",
+    "d": "Low-density lipoprotein chemically altered by free radicals; provokes inflammation in the artery wall."
+   },
+   {
+    "t": "Macrophage",
+    "d": "Large phagocytic cell derived from a blood monocyte; engulfs debris, microbes and oxidised lipid."
+   },
+   {
+    "t": "Foam cell",
+    "d": "A macrophage (or smooth-muscle cell) stuffed with lipid droplets, giving a foamy look under the microscope."
+   },
+   {
+    "t": "Extracellular matrix",
+    "d": "The non-cellular material (collagen, elastin, ground substance) that cells secrete around themselves."
+   },
+   {
+    "t": "Hypercholesterolaemia",
+    "d": "Abnormally high blood cholesterol."
+   }
+  ],
+  "note": "Tortora says adult males are more likely than females to develop CAD but the risks equalise after age 70 (p.761)."
+ },
+ {
+  "n": 16,
+  "title": "Atherosclerosis",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Coronary Artery Disease – Development of Atherosclerotic Plaques",
+    "book_pages": "761-762",
+    "pdf_pages": "777-778",
+    "capture": "p.761 right column: from 'Inflammation, a defensive response…' to the bottom of the column (LDL accumulation in the inner layer, oxidation, endothelial and smooth-muscle cells attract monocytes); continuing at the top of p.762 left column, first three paragraphs (macrophages become foam cells, T cells, fatty streak; smooth-muscle cells migrate to form a cap; plaque growth and rupture).",
+    "figures": [
+     "20.21"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Structure and Function of Blood Vessels – Tunica Intima, Tunica Media",
+    "book_pages": "772-774",
+    "pdf_pages": "788-790",
+    "capture": "p.772 right column: paragraph under 'Tunica Intima', continuing on p.773 (the sentences describing the internal elastic membrane as the boundary with the media). p.773 right column / p.774: the paragraphs under 'Tunica Media' (smooth muscle cells arranged circularly; they also produce elastic fibres). p.773 Figure 21.1(a).",
+    "figures": [
+     "21.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Hypertension – Damaging Effects of Untreated Hypertension",
+    "book_pages": "840",
+    "pdf_pages": "856",
+    "capture": "p.840 right column: first paragraph (hypertension thickens the tunica media, accelerates atherosclerosis and coronary artery disease, increases afterload).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This slide retells the previous one step by step, so the key is the artery wall's anatomy. Blood touches only the endothelium; beneath it lies the thin intima, then a fenestrated sheet of elastin (the internal elastic membrane), then the thick smooth-muscle media. Endothelial cells are not a passive lining: when injured they become 'sticky', displaying adhesion molecules that catch passing monocytes and T cells, and leaky, letting LDL through. Inside the intima, LDL is oxidised by free radicals and becomes a target for macrophages, which engulf it until they are foam cells. Cytokines and growth factors from foam cells and T cells then summon smooth-muscle cells, which squeeze through the holes of the internal elastic membrane, multiply in the intima and switch from contracting to secreting collagen. That collagen cap walls the lipid pool and dead cells off from the blood: a mature plaque, which can grow outward for decades before it narrows the lumen.",
+  "terms": [
+   {
+    "t": "Hyperlipidaemia",
+    "d": "Abnormally high blood levels of lipids (cholesterol and/or triglycerides)."
+   },
+   {
+    "t": "Low-density lipoprotein (LDL)",
+    "d": "Particle that carries cholesterol from the liver to tissues; excess promotes atherosclerosis."
+   },
+   {
+    "t": "Adhesion molecule",
+    "d": "Surface protein (e.g. selectin, integrin) that lets white blood cells stick to endothelium and crawl through."
+   },
+   {
+    "t": "Monocyte",
+    "d": "Largest white blood cell; leaves the blood and matures into a macrophage in tissues."
+   },
+   {
+    "t": "T cell",
+    "d": "Lymphocyte of cell-mediated immunity; secretes cytokines that amplify inflammation."
+   },
+   {
+    "t": "Cytokine",
+    "d": "Small signalling protein released by cells to direct other cells' behaviour."
+   },
+   {
+    "t": "Growth factor",
+    "d": "Protein that stimulates cells to divide or migrate."
+   },
+   {
+    "t": "Tunica media",
+    "d": "Middle coat of a vessel wall, mostly circular smooth muscle and elastic fibres."
+   },
+   {
+    "t": "Internal elastic membrane",
+    "d": "Perforated elastin sheet at the outer edge of the intima, separating it from the media."
+   },
+   {
+    "t": "Fibrous cap",
+    "d": "Collagen-rich layer laid down by smooth-muscle cells over the lipid core of a plaque."
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "title": "Aortic aneurysm",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "Medical Terminology",
+    "section_title": "Aneurysm",
+    "book_pages": "842",
+    "pdf_pages": "858",
+    "capture": "p.842 Medical Terminology box, left column: entry 'Aneurysm' (definition, causes incl. atherosclerosis and syphilis, rupture, graft repair).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.8",
+    "section_title": "The Aorta and Its Branches",
+    "book_pages": "798-799",
+    "pdf_pages": "814-815",
+    "capture": "p.798 left column: the introductory paragraph starting 'The aorta … is the largest artery…' (four divisions: ascending aorta, aortic arch, thoracic aorta, abdominal aorta), continuing in the right column; p.799 Figure 21.18(a) overall view.",
+    "figures": [
+     "21.18"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Arteries – Elastic Arteries (pressure reservoir)",
+    "book_pages": "774",
+    "pdf_pages": "790",
+    "capture": "p.774 left column: paragraph under 'Arteries' (high compliance) and the paragraph under the run-in heading 'Elastic Arteries' (continuing in the right column: elastic lamellae, pressure reservoir). Figure 21.2 and its Q about stiffening in atherosclerosis.",
+    "figures": [
+     "21.2"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The aorta is the body's main pressure vessel: a 2–3 cm elastic tube that takes the full force of each left-ventricular beat, stretching in systole and recoiling in diastole. It is described in four segments: ascending aorta, arch, thoracic (descending, in the chest) and abdominal (below the diaphragm), so an aneurysm is classified by which segment bulges. The wall is strong because its media is layered elastin and smooth muscle; if that media degenerates (atherosclerosis, ageing, inherited connective-tissue weakness, infection such as syphilis), the wall can no longer resist the pressure and stretches into a local balloon. By Laplace's law wall tension rises with radius, so the wider the sac the faster it grows and the likelier it is to tear or burst, producing catastrophic internal bleeding. Tortora defines aneurysm only briefly in Medical Terminology; the segment-based classification and the wall-weakness mechanism are inferred from the aorta and elastic-artery anatomy.",
+  "terms": [
+   {
+    "t": "Aneurysm",
+    "d": "A local, permanent balloon-like dilation of a weakened artery or vein wall."
+   },
+   {
+    "t": "Aorta",
+    "d": "The largest artery, arising from the left ventricle and giving off all systemic arteries."
+   },
+   {
+    "t": "Thoracic vs abdominal aorta",
+    "d": "The descending aorta above the diaphragm (thoracic) and below it (abdominal)."
+   },
+   {
+    "t": "Elastic artery",
+    "d": "Large artery whose media is dominated by elastin sheets; stretches and recoils with each heartbeat."
+   },
+   {
+    "t": "Dilation",
+    "d": "Widening of a vessel or hollow organ."
+   },
+   {
+    "t": "Laplace's law",
+    "d": "For a hollow vessel, wall tension = pressure × radius; wider means more tension for the same pressure."
+   },
+   {
+    "t": "Rupture",
+    "d": "Tearing of the wall with escape of blood."
+   }
+  ],
+  "note": "Aortic aneurysm is not a full topic in Tortora; the book has only the Medical Terminology entry (p.842) and a mention of aneurysm rupture as a cause of hypovolemic shock (p.793). Nearest anatomy: 21.8 The Aorta (p.798-799) and elastic arteries (p.774)."
+ },
+ {
+  "n": 18,
+  "title": "Aortic aneurysm",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "21.8",
+    "section_title": "The Aorta and Its Branches – Figure 21.18 and Exhibit table",
+    "book_pages": "798-799",
+    "pdf_pages": "814-815",
+    "capture": "p.799 Figure 21.18 (aorta and principal branches, part a whole figure and part b detailed view with its Q 'What are the four subdivisions of the aorta?'). p.798 the Exhibit table 'Division and Branches / Region Supplied' (rows Ascending aorta, Aortic arch, Thoracic aorta, Abdominal aorta).",
+    "figures": [
+     "21.18"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "Medical Terminology",
+    "section_title": "Aneurysm; Aortography",
+    "book_pages": "842",
+    "pdf_pages": "858",
+    "capture": "p.842 Medical Terminology box, left column: entries 'Aneurysm' and 'Aortography'.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 1,
+    "section": "1.7",
+    "section_title": "Medical Imaging – Table 1.3 (Radiography incl. angiography; Computed Tomography)",
+    "book_pages": "23-24",
+    "pdf_pages": "39-40",
+    "capture": "p.23 Table 1.3 entry 'Radiography' (the sentence on contrast media used to image blood vessels, angiography); p.24 Table 1.3 entry 'Computed Tomography (CT)' with the example scan of the thorax.",
+    "figures": [],
+    "tables": [
+     "1.3"
+    ]
+   }
+  ],
+  "basics": "The slide is a picture of a dilated aorta, so the job is to recognise the normal aorta first. It leaves the top of the heart, curves over as the arch giving off the vessels to the head and arms, then descends behind the heart through the chest and passes the diaphragm into the abdomen, where it gives off the arteries to the gut, kidneys and finally splits into the two common iliac arteries at about the fourth lumbar vertebra. An aneurysm appears as a fusiform (spindle) or saccular (one-sided pouch) widening of this tube, most often in the abdominal segment below the renal arteries, and is usually imaged with contrast injected into the blood (CT angiography or aortography), which outlines the blood-filled lumen. Clot often lines the sac, so the flowing channel may look narrower than the true wall. Matching the image against Tortora's Figure 21.18 tells you which segment, and therefore which branches, are involved.",
+  "terms": [
+   {
+    "t": "Ascending aorta",
+    "d": "First part of the aorta, from the left ventricle to the arch; gives off the coronary arteries."
+   },
+   {
+    "t": "Aortic arch",
+    "d": "The curve of the aorta giving rise to the brachiocephalic, left common carotid and left subclavian arteries."
+   },
+   {
+    "t": "Renal arteries",
+    "d": "Paired branches of the abdominal aorta to the kidneys; a common landmark for abdominal aneurysms."
+   },
+   {
+    "t": "Common iliac arteries",
+    "d": "The two terminal branches of the abdominal aorta supplying pelvis and legs."
+   },
+   {
+    "t": "Fusiform / saccular",
+    "d": "Spindle-shaped, symmetrical dilation versus a one-sided pouch-like outpouching."
+   },
+   {
+    "t": "Angiography",
+    "d": "Imaging blood vessels after injecting a radiopaque contrast agent."
+   },
+   {
+    "t": "Lumen",
+    "d": "The blood-filled channel inside a vessel."
+   }
+  ],
+  "note": "The image on the slide is not a Tortora figure; Tortora has no aneurysm illustration. Use Figure 21.18 for normal aortic anatomy and the Medical Terminology entry (p.842) for the definition."
+ },
+ {
+  "n": 19,
+  "title": "Ischemic heart disease",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Clinical Connection: Myocardial Ischemia and Infarction",
+    "book_pages": "741",
+    "pdf_pages": "757",
+    "capture": "p.741 right column: the boxed Clinical Connection 'Myocardial Ischemia and Infarction' (two paragraphs: ischemia, hypoxia, angina pectoris and referred pain, silent ischemia; complete obstruction, infarction, scar tissue, ventricular fibrillation, treatment).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood – Coronary Circulation",
+    "book_pages": "738-741",
+    "pdf_pages": "754-757",
+    "capture": "p.738 right column: paragraph under the heading 'Coronary Circulation' (starts 'Nutrients are not able to diffuse…'), continuing on p.739 with the run-in heading 'Coronary Arteries' (left and right coronary arteries and their branches). p.740 Figure 20.8(a) anterior view of coronary arteries. p.741 left column, first paragraph on anastomoses and collateral circulation.",
+    "figures": [
+     "20.8"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Coronary Artery Disease",
+    "book_pages": "760-761",
+    "pdf_pages": "776-777",
+    "capture": "p.760 right column, bottom: the paragraph under the heading 'Coronary Artery Disease' (starts 'Coronary artery disease (CAD) is a serious…'), running over the page break to the top of p.761 left column (plaques reduce flow to myocardium; angina; heart attacks).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Heart muscle cannot take oxygen from the blood inside its own chambers; it is fed by the two coronary arteries that leave the aorta just above the aortic valve and run in the grooves of the heart surface. Cardiac muscle works continuously and almost entirely aerobically, so it needs a steady oxygen supply. When an atherosclerotic plaque narrows a coronary artery, supply may be adequate at rest but not during exertion: the muscle becomes hypoxic, releases pain-producing metabolites, and the patient feels a crushing chest pain (angina) that eases with rest. Coronary branches do connect with each other (anastomoses), so a slowly narrowing vessel can be partly bypassed by collateral flow. If a plaque ruptures and a clot blocks the artery completely, the muscle downstream dies within hours: myocardial infarction. Dead muscle is replaced by non-contracting scar, weakening the pump, and if the infarct involves the conduction system it can trigger fatal ventricular fibrillation.",
+  "terms": [
+   {
+    "t": "Ischaemia",
+    "d": "Inadequate blood flow to a tissue, so oxygen and nutrient delivery fall short of demand."
+   },
+   {
+    "t": "Myocardium",
+    "d": "The thick middle layer of the heart wall made of cardiac muscle."
+   },
+   {
+    "t": "Cardiac myocyte",
+    "d": "A single cardiac muscle cell (fibre), branched and joined to neighbours by intercalated discs."
+   },
+   {
+    "t": "Coronary arteries",
+    "d": "The right and left arteries from the ascending aorta that supply the heart wall."
+   },
+   {
+    "t": "Infarction",
+    "d": "Death (necrosis) of a region of tissue because its blood supply was cut off."
+   },
+   {
+    "t": "Angina pectoris",
+    "d": "Chest pain from reversible myocardial ischaemia, typically brought on by exertion."
+   },
+   {
+    "t": "Necrosis",
+    "d": "Death of cells or tissue from injury, with inflammation of the surrounding tissue."
+   },
+   {
+    "t": "Collateral circulation",
+    "d": "Alternative routes of blood flow through vessel connections (anastomoses) when a main vessel is blocked."
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "title": "Myocardial infarction",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Clinical Connection: Myocardial Ischemia and Infarction",
+    "book_pages": "741",
+    "pdf_pages": "757",
+    "capture": "p.741 right column: Clinical Connection 'Myocardial Ischemia and Infarction', second paragraph (starts 'A complete obstruction…'); plus in the left column the paragraph starting 'When blockage of a coronary artery…' on reperfusion injury and free radicals (continues into the right column above the box).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart – Layers of the Heart Wall",
+    "book_pages": "730-731",
+    "pdf_pages": "746-747",
+    "capture": "p.730 right column: paragraphs under the heading 'Layers of the Heart Wall' (epicardium, myocardium), continuing over the page break to p.731 left column, first paragraph (endocardium). p.729 Figure 20.2(c) layers of the heart wall.",
+    "figures": [
+     "20.2"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.6",
+    "section_title": "Shock and Homeostasis – definition and Types of Shock",
+    "book_pages": "793-794",
+    "pdf_pages": "809-810",
+    "capture": "p.793 right column: the two opening paragraphs of 21.6 (definition of shock; the four types), continuing on p.794 left column, second paragraph (cardiogenic shock, starts 'In cardiogenic shock, the heart fails…').",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The heart wall has three layers: the endocardium lining the chambers, the thick myocardium, and the epicardium outside. Coronary arteries run on the outer surface and send branches inward, so the innermost third of the myocardium (the subendocardium) is the last to be perfused and the first to suffer when flow drops; it is also squeezed hardest by the pressure inside the ventricle during systole. The slide sorts infarcts by which vessel problem produces which pattern. A partial or temporary block of one coronary artery, or one that is reopened early by clot-busting drugs or angioplasty, kills only the subendocardium in that artery's territory (regional subendocardial). Severe shock, meaning arterial pressure too low to perfuse any of the inner wall, kills the subendocardium all the way round the left ventricle (circumferential). Tiny scattered infarcts follow blockage of small intramural branches by emboli, vessel inflammation or spasm. Tortora covers infarction, reperfusion damage and shock, but not this pattern classification.",
+  "terms": [
+   {
+    "t": "Endocardium",
+    "d": "Innermost heart-wall layer: endothelium on thin connective tissue, lining chambers and covering valves."
+   },
+   {
+    "t": "Subendocardial",
+    "d": "The zone of myocardium just beneath the endocardium; the most vulnerable to ischaemia."
+   },
+   {
+    "t": "Transmural",
+    "d": "Through the full thickness of the wall (contrast with subendocardial)."
+   },
+   {
+    "t": "Reperfusion",
+    "d": "Restoring blood flow to an ischaemic tissue; can itself cause damage via free radicals."
+   },
+   {
+    "t": "Shock",
+    "d": "Failure of the circulation to deliver enough oxygen to tissues, usually with very low blood pressure."
+   },
+   {
+    "t": "Hypotension",
+    "d": "Abnormally low arterial blood pressure."
+   },
+   {
+    "t": "Intramural vessel",
+    "d": "A small artery running inside the heart muscle wall."
+   },
+   {
+    "t": "Embolus (microembolus)",
+    "d": "A clot or other particle carried in the blood until it lodges in a vessel too small to pass."
+   },
+   {
+    "t": "Vasculitis",
+    "d": "Inflammation of blood-vessel walls."
+   },
+   {
+    "t": "Vasospasm",
+    "d": "Sudden abnormal contraction of a vessel's smooth muscle, narrowing it."
+   }
+  ],
+  "note": "Regional subendocardial, circumferential subendocardial and microinfarct categories are not in Tortora; the book's nearest content is the MI Clinical Connection (p.741), heart-wall layers (p.730-731) and cardiogenic/hypovolemic shock (p.793-794)."
+ },
+ {
+  "n": 21,
+  "title": "Arrhythmias",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Arrhythmias",
+    "book_pages": "765-766",
+    "pdf_pages": "781-782",
+    "capture": "p.765 left column: under the heading 'Arrhythmias', the first three paragraphs (definition and causes; bradycardia/tachycardia/fibrillation; supraventricular vs ventricular) and the bullet 'Supraventricular tachycardia'; right column: bullets 'Heart block' (first-, second-, third-degree AV block) and 'Atrial fibrillation' (300–600 beats/min, stroke risk). p.766 below Figure 20.24: bullets 'Ventricular tachycardia' and 'Ventricular fibrillation' (right column continues on p.767 left column with defibrillation).",
+    "figures": [
+     "20.24"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.3",
+    "section_title": "Cardiac Muscle Tissue and the Cardiac Conduction System – Autorhythmic Fibers",
+    "book_pages": "744-745",
+    "pdf_pages": "760-761",
+    "capture": "p.744 left column: the numbered sequence 1–5 starting 'Cardiac excitation normally begins in the sinuatrial (SA) node…' (SA node, AV node, AV bundle/bundle of His, bundle branches, Purkinje fibres) and the following paragraph on the SA node setting the rhythm. p.745 Figure 20.10(a) conduction system.",
+    "figures": [
+     "20.10"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The heartbeat is an electrical event first: a cluster of self-firing cells, the SA node in the right atrium, depolarises about 70–75 times a minute, the wave spreads through the atria, is delayed at the AV node (so the atria finish contracting before the ventricles start), then races down the AV bundle (bundle of His), its branches and the Purkinje fibres to fire both ventricles together. An arrhythmia is any fault in this system. Rate faults: tachycardia (too fast) and bradycardia (too slow). Conduction faults: heart block, where the AV node or bundle delays (first-degree), drops some beats (second-degree) or transmits nothing so the ventricles fall back on their own slow escape pacemaker (complete block). Coordination faults: fibrillation, where fibres fire chaotically and the chamber only quivers. Atrial fibrillation is survivable because the ventricles still pump, but stagnant atrial blood clots and can embolise to the brain; ventricular fibrillation stops all output and is fatal within minutes unless defibrillated.",
+  "terms": [
+   {
+    "t": "SA (sinoatrial) node",
+    "d": "Natural pacemaker in the right atrial wall whose cells depolarise spontaneously to start each beat."
+   },
+   {
+    "t": "AV (atrioventricular) node",
+    "d": "Relay cluster at the base of the atria that slows conduction before passing it to the ventricles."
+   },
+   {
+    "t": "AV bundle (bundle of His)",
+    "d": "The only electrical connection from atria to ventricles, running through the fibrous skeleton into the septum."
+   },
+   {
+    "t": "Purkinje fibres",
+    "d": "Large fast-conducting fibres distributing the impulse through the ventricular muscle."
+   },
+   {
+    "t": "Tachycardia / bradycardia",
+    "d": "Resting heart rate above 100 per minute / below the normal range (50–60 per minute)."
+   },
+   {
+    "t": "Heart block",
+    "d": "Delayed or absent transmission of impulses from atria to ventricles."
+   },
+   {
+    "t": "Fibrillation",
+    "d": "Rapid, uncoordinated twitching of muscle fibres so the chamber does not contract as a unit."
+   },
+   {
+    "t": "Ectopic focus",
+    "d": "A site outside the SA node that starts firing its own impulses."
+   },
+   {
+    "t": "Cardiac arrest",
+    "d": "Cessation of an effective heartbeat, whether stopped or fibrillating."
+   },
+   {
+    "t": "Ischaemic stroke",
+    "d": "Brain damage from a blocked cerebral artery, e.g. by a clot embolised from the heart."
+   }
+  ],
+  "note": "Tortora defines bradycardia as below 50 beats/min (p.765), the slide says below 60. Tortora's ventricular tachycardia threshold is at least 120/min. The slide's 'bundle of His' is Tortora's 'atrioventricular (AV) bundle'."
+ },
+ {
+  "n": 22,
+  "title": "ECG of arrhythmias",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Figure 20.24 Representative arrhythmias",
+    "book_pages": "766",
+    "pdf_pages": "782",
+    "capture": "p.766 Figure 20.24, all five traces: (a) normal ECG with P–Q and R–R intervals marked, (b) first-degree AV block (long P–Q), (c) atrial fibrillation (no P waves, irregular R–R), (d) ventricular tachycardia, (e) ventricular fibrillation; plus the figure Q.",
+    "figures": [
+     "20.24"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.3",
+    "section_title": "Cardiac Conduction System – Electrocardiogram",
+    "book_pages": "747",
+    "pdf_pages": "763",
+    "capture": "p.747 left column: paragraphs under the heading 'Electrocardiogram'; the paragraph starting 'In a typical record, three clearly recognizable waves…' (P wave, QRS complex, T wave) and the right-column paragraphs on the P–Q interval and what lengthens it. p.747 Figure 20.12 (normal ECG).",
+    "figures": [
+     "20.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Arrhythmias – Heart block; Atrial fibrillation",
+    "book_pages": "765",
+    "pdf_pages": "781",
+    "capture": "p.765 right column: bullets 'Heart block' and 'Atrial fibrillation' (the sentences describing how each appears on the ECG).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "An ECG records, from electrodes on the skin, the tiny voltages produced as waves of depolarisation and repolarisation sweep through the heart muscle. Each normal beat gives a P wave (atria depolarising), a sharp QRS complex (ventricles depolarising, which hides atrial repolarisation) and a rounded T wave (ventricles repolarising). Rhythm diagnosis is largely pattern-reading of these landmarks. A normal trace has one P before every QRS at regular spacing. AV block stretches the P–Q interval or drops QRS complexes after some P waves; in complete block P waves and QRS complexes march independently. Bradycardia and tachycardia keep the normal shape but change the spacing between beats. Atrial fibrillation shows no true P waves, only a wobbling baseline, with irregularly spaced but normal-shaped QRS complexes. Ventricular fibrillation is a chaotic scrawl with no recognisable P, QRS or T. Tortora's Figure 20.24 shows normal, first-degree block, AF, VT and VF; it has no bradycardia or tachycardia strip.",
+  "terms": [
+   {
+    "t": "Electrocardiogram (ECG)",
+    "d": "Recording of the heart's electrical activity from surface electrodes."
+   },
+   {
+    "t": "P wave",
+    "d": "Small deflection representing atrial depolarisation."
+   },
+   {
+    "t": "QRS complex",
+    "d": "Large spiky deflection representing rapid ventricular depolarisation."
+   },
+   {
+    "t": "T wave",
+    "d": "Dome-shaped deflection representing ventricular repolarisation."
+   },
+   {
+    "t": "P–Q (P–R) interval",
+    "d": "Time from start of P to start of QRS; measures atrial-to-ventricular conduction time."
+   },
+   {
+    "t": "R–R interval",
+    "d": "Time between successive QRS peaks; its inverse is the ventricular rate."
+   },
+   {
+    "t": "Depolarisation / repolarisation",
+    "d": "The electrical switching-on of a muscle cell membrane and its reset back to resting voltage."
+   }
+  ],
+  "note": "The traces on the slide are not Tortora's figure; Tortora's Figure 20.24 lacks bradycardia and tachycardia examples and includes ventricular tachycardia instead."
+ },
+ {
+  "n": 23,
+  "title": "Congestive heart failure",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Congestive Heart Failure",
+    "book_pages": "767",
+    "pdf_pages": "783",
+    "capture": "p.767 left column, bottom: paragraph under the heading 'Congestive Heart Failure' (starts 'In congestive heart failure (CHF)…'), continuing at the top of the right column (causes; rising preload and the Frank–Starling positive-feedback loop; left-sided failure → pulmonary oedema; right-sided failure → systemic venous backup, kidneys raise blood volume, peripheral oedema). Also the Medical Terminology entry 'Cor pulmonale' in the left column of the box.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.4",
+    "section_title": "Control of Blood Pressure – Hormonal Regulation: Renin–angiotensin–aldosterone system",
+    "book_pages": "791",
+    "pdf_pages": "807",
+    "capture": "p.791 left column: numbered item 1 'Renin–angiotensin–aldosterone (RAA) system' (renin released when kidney blood flow falls; angiotensin II vasoconstricts and drives aldosterone, so sodium and water are retained).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.2",
+    "section_title": "Clinical Connection: Edema",
+    "book_pages": "783",
+    "pdf_pages": "799",
+    "capture": "p.783: the boxed Clinical Connection 'Edema' (whole box: excess filtration from raised capillary pressure or permeability; inadequate reabsorption from low plasma proteins).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Pulmonary Edema",
+    "book_pages": "937",
+    "pdf_pages": "953",
+    "capture": "p.937 left column: the paragraph under the heading 'Pulmonary Edema' (cardiac origin coinciding with congestive heart failure; symptoms; treatment).",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "'Failure' here means the heart cannot pump out all the blood it receives at a normal filling pressure. Blood then piles up behind the failing chamber, and where it piles up depends on which side fails. Behind the left ventricle are the lungs: raised pulmonary capillary pressure forces fluid into the alveoli (pulmonary oedema, breathlessness). Behind the right ventricle are the systemic veins: raised venous pressure forces fluid into tissues, giving swollen ankles and fluid in the abdomen (ascites) and a congested liver. The left side usually fails from ischaemia, infarction or years of pumping against high blood pressure; the right side fails from lung disease or a left-to-right shunt that raises pulmonary pressure (cor pulmonale), or simply because the left side failed first. A vicious circle follows: low output starves the kidneys, which respond as if to haemorrhage by releasing renin, so angiotensin and aldosterone retain salt and water, worsening congestion. Diuretics and ACE inhibitors interrupt this loop.",
+  "terms": [
+   {
+    "t": "Congestion",
+    "d": "Abnormal accumulation of blood in the vessels of an organ because outflow is impeded."
+   },
+   {
+    "t": "Preload",
+    "d": "The stretch of the ventricular wall at the end of filling, set by end-diastolic volume."
+   },
+   {
+    "t": "Afterload",
+    "d": "The pressure the ventricle must exceed to eject blood, i.e. arterial pressure."
+   },
+   {
+    "t": "Oedema",
+    "d": "Excess fluid in the interstitial spaces of a tissue, causing swelling."
+   },
+   {
+    "t": "Ascites",
+    "d": "Free fluid accumulated in the peritoneal (abdominal) cavity."
+   },
+   {
+    "t": "Pulmonary oedema",
+    "d": "Fluid leaking into the alveoli and lung interstitium, impairing gas exchange."
+   },
+   {
+    "t": "Renin",
+    "d": "Enzyme secreted by the kidney when its perfusion falls; starts the angiotensin–aldosterone cascade."
+   },
+   {
+    "t": "Aldosterone",
+    "d": "Adrenal hormone that makes the kidney retain sodium and water, raising blood volume."
+   },
+   {
+    "t": "Cor pulmonale",
+    "d": "Right-ventricular enlargement and failure caused by high pressure in the pulmonary circulation."
+   }
+  ],
+  "note": "Ascites is not in Tortora. Right-sided failure due to a left-to-right shunt is not stated explicitly; the book's 'Cor pulmonale' entry (p.767) and the PDA paragraph (p.764) supply the link via pulmonary hypertension."
+ },
+ {
+  "n": 24,
+  "title": "Effects of CHF",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "Disorders: Homeostatic Imbalances",
+    "section_title": "Congestive Heart Failure",
+    "book_pages": "767",
+    "pdf_pages": "783",
+    "capture": "p.767: paragraph under 'Congestive Heart Failure' (left column bottom, continuing right column top), especially the sentences beginning 'Often, one side of the heart starts to fail before the other…' through 'peripheral edema … feet and ankles'.",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.5",
+    "section_title": "Cardiac Output – Preload (Frank–Starling law) and Afterload",
+    "book_pages": "753",
+    "pdf_pages": "769",
+    "capture": "p.753 left column: paragraph under the run-in heading 'Preload: Effect of Stretching' (Frank–Starling law, end-diastolic volume); right column: paragraph under 'Afterload' (conditions that raise afterload).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.2 / Ch 23 Disorders",
+    "section_title": "Clinical Connection: Edema; Pulmonary Edema",
+    "book_pages": "783-937",
+    "pdf_pages": "799-953",
+    "capture": "p.783 boxed Clinical Connection 'Edema' (whole box). p.937 left column: paragraph under 'Pulmonary Edema'.",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This diagram summarises where the consequences of a failing pump show up, so read it as two chains of cause and effect. Forward (low output) effects: less blood to muscles gives fatigue and exercise intolerance; less to the kidneys triggers renin release, salt-and-water retention and a rising blood volume that the heart cannot handle. Backward (congestion) effects: left-ventricular failure raises left-atrial and pulmonary-vein pressure, pushing fluid into the lungs, so the patient is breathless, worse lying flat, and may cough frothy fluid; right-ventricular failure raises pressure in the venae cavae, so the neck veins distend, the liver swells, fluid collects in the abdomen and gravity pools it in the ankles. The heart itself dilates as end-diastolic volume climbs; stretching helps at first (Frank–Starling) but an over-stretched ventricle contracts more weakly, closing a positive-feedback loop. Tortora describes both sides of failure, the preload loop and oedema; ascites and neck-vein signs are the lecturer's additions.",
+  "terms": [
+   {
+    "t": "Frank–Starling law",
+    "d": "Within limits, the more a ventricle is stretched by filling, the harder it contracts."
+   },
+   {
+    "t": "End-diastolic volume",
+    "d": "Blood in a ventricle at the end of filling, just before it contracts."
+   },
+   {
+    "t": "Orthopnoea",
+    "d": "Breathlessness when lying flat, relieved by sitting up; typical of pulmonary congestion."
+   },
+   {
+    "t": "Peripheral oedema",
+    "d": "Swelling of dependent tissues, usually feet and ankles, from fluid leaking out of congested veins."
+   },
+   {
+    "t": "Hepatomegaly",
+    "d": "Enlargement of the liver, here from venous congestion."
+   },
+   {
+    "t": "Jugular venous distension",
+    "d": "Visible bulging of the neck veins reflecting high right-atrial pressure."
+   },
+   {
+    "t": "Positive feedback",
+    "d": "A loop in which an effect reinforces its own cause, driving the system further from normal."
+   }
+  ],
+  "note": "The slide is an image with no text; it is not a Tortora figure. Content mapped to the CHF paragraph (p.767), preload/afterload (p.753) and the oedema boxes (p.783, p.937)."
+ },
+ {
+  "n": 25,
+  "title": "Varicose veins",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Clinical Connection: Varicose Veins and Spider Veins",
+    "book_pages": "779",
+    "pdf_pages": "795",
+    "capture": "p.779: the boxed Clinical Connection 'Varicose Veins and Spider Veins' – left column first paragraph (incompetent valves, backflow from deep to superficial veins, pooling, saphenous vein) and second paragraph (pregnancy, ageing, obesity, standing); right column first paragraph (lifestyle changes, compression stockings) and the bullet 'Sclerotherapy'. The illustration at the foot of the box (normal vein vs varicose vein with incompetent valve).",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Veins – Venous valves and superficial vs deep veins",
+    "book_pages": "778-780",
+    "pdf_pages": "794-796",
+    "capture": "p.778 right column: the paragraph on venous valves (starts near 'Valves in veins allow blood to flow…') and Figure 21.5 (venous valves, whole). p.780 left column, first paragraph (superficial veins, anastomoses with deep veins, one-way valves in anastomosing vessels and the implication for varicose veins).",
+    "figures": [
+     "21.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.3 / Medical Terminology",
+    "section_title": "Venous Return – skeletal muscle pump; Deep vein thrombosis",
+    "book_pages": "786-842",
+    "pdf_pages": "802-858",
+    "capture": "p.786 left column: the paragraphs under 'Venous Return' describing the skeletal muscle pump, and Figure 21.9. p.842 Medical Terminology box, left column: entry 'Deep vein thrombosis (DVT)'.",
+    "figures": [
+     "21.9"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Venous blood pressure is low, only a few mmHg, and in the legs it must climb against gravity to the heart. Veins manage this with one-way valves, folds of the inner lining that close on any backflow, and with the skeletal-muscle pump that squeezes blood upward each time the calf contracts. The deep leg veins, wrapped in muscle, do most of the work; the thin-walled superficial veins under the skin drain into them through connecting veins with their own valves. If a valve leaks (from birth, ageing, or after stretching by a clot or long-standing high pressure), blood falls back and pools below it, distending the vein; a distended vein pulls its next valve cusps apart, so the fault spreads downward, a positive-feedback loop. The result is a swollen, tortuous varicose vein. Pregnancy, obesity and standing all raise leg venous pressure. Treatment supports the vein from outside (compression stockings), reduces the load, or destroys it (sclerotherapy scars the lining shut).",
+  "terms": [
+   {
+    "t": "Varicose",
+    "d": "Abnormally swollen and twisted (of a vein)."
+   },
+   {
+    "t": "Tortuous",
+    "d": "Having many twists and turns."
+   },
+   {
+    "t": "Intraluminal pressure",
+    "d": "Pressure inside the vessel's lumen."
+   },
+   {
+    "t": "Venous valve",
+    "d": "Paired flaps of tunica intima inside a vein that allow flow toward the heart only."
+   },
+   {
+    "t": "Incompetent valve",
+    "d": "A valve that fails to close fully, permitting backflow."
+   },
+   {
+    "t": "Superficial vs deep veins",
+    "d": "Veins just under the skin, without accompanying arteries, versus veins between the muscles that carry most leg blood."
+   },
+   {
+    "t": "Skeletal muscle pump",
+    "d": "Contracting limb muscles squeeze deep veins and, with the valves, push blood toward the heart."
+   },
+   {
+    "t": "Deep vein thrombosis",
+    "d": "A blood clot forming in a deep vein of the leg; can damage valves and embolise to the lungs."
+   },
+   {
+    "t": "Sclerotherapy",
+    "d": "Injecting an irritant solution into a vein so it scars and closes."
+   },
+   {
+    "t": "Compression stockings",
+    "d": "Elastic stockings that squeeze the leg to stop blood pooling in superficial veins."
+   }
+  ],
+  "note": "Tortora lists the same causes and treatments (p.779); DVT as a cause of varicose veins is not stated there, only defined in Medical Terminology (p.842)."
+ }
+]

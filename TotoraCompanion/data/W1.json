@@ -1,0 +1,1589 @@
+[
+  {
+    "n": 1,
+    "title": "HTI5001",
+    "kind": "admin",
+    "refs": [],
+    "basics": "",
+    "terms": []
+  },
+  {
+    "n": 2,
+    "title": "PolyU",
+    "kind": "admin",
+    "refs": [],
+    "basics": "",
+    "terms": []
+  },
+  {
+    "n": 3,
+    "title": "Intended Learning Outcomes",
+    "kind": "admin",
+    "refs": [],
+    "basics": "",
+    "terms": []
+  },
+  {
+    "n": 4,
+    "title": "Class schedule 80% attendance is required!!!",
+    "kind": "admin",
+    "refs": [],
+    "basics": "",
+    "terms": []
+  },
+  {
+    "n": 5,
+    "title": "Assessment",
+    "kind": "admin",
+    "refs": [],
+    "basics": "",
+    "terms": []
+  },
+  {
+    "n": 6,
+    "title": "What is anatomy?",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.1",
+        "section_title": "Anatomy and Physiology Defined",
+        "book_pages": "2",
+        "pdf_pages": "18",
+        "capture": "p.2 left column: the one paragraph under the heading '1.1 Anatomy and Physiology Defined' (starts 'Two branches of science—anatomy'), which continues at the top of the right column ('with structures of the body, physiology…') for one more paragraph ending with the lung alveoli example; p.2 lower two-thirds: Table 1.1 (whole table, both halves) — the 'Gross anatomy' row in the left half is the definition the slide uses.",
+        "figures": [],
+        "tables": ["1.1"]
+      },
+      {
+        "chapter": 1,
+        "section": "1.5",
+        "section_title": "Basic Anatomical Terminology",
+        "book_pages": "14",
+        "pdf_pages": "30",
+        "capture": "p.14 left column: the first paragraph under the heading '1.5 Basic Anatomical Terminology' (starts 'Scientists and health-care professionals use'), one paragraph — this is the 'communication' point of the slide.",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "Anatomy is the study of what the body is made of and how its parts are arranged in space; physiology is the study of what those parts do. The two are inseparable because shape constrains function (a rigid skull protects, thin-walled air sacs let gas diffuse quickly). 'Gross' anatomy simply means large-scale: what you can see with the naked eye during dissection or on an X-ray, CT or MRI, as opposed to histology (tissue under a microscope). The slide's other bullets are about why a radiographer learns anatomy: pathology (disease changes structure), pharmacology (drugs act on structures) and, above all, a shared vocabulary so that a description like 'lesion in the right upper quadrant' means the same thing to everyone. The slide leaves unsaid that Tortora lists many sub-branches (regional, systemic, surface, imaging, clinical anatomy) in Table 1.1.",
+    "terms": [
+      {"t": "Anatomy", "d": "Study of the body's structures and how they are arranged relative to one another."},
+      {"t": "Physiology", "d": "Study of how body parts work; the functions behind the structures."},
+      {"t": "Gross anatomy", "d": "Anatomy of structures large enough to see without a microscope."},
+      {"t": "Histology", "d": "Microscopic study of tissues."},
+      {"t": "Dissection", "d": "Cutting apart a body to study the relationships between its structures."},
+      {"t": "Pathology", "d": "Study of the structural and functional changes caused by disease."},
+      {"t": "Imaging anatomy", "d": "Internal anatomy as seen with X-ray, CT, MRI and ultrasound."}
+    ]
+  },
+  {
+    "n": 7,
+    "title": "Levels of structural organization",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.2",
+        "section_title": "Levels of Structural Organization and Body Systems",
+        "book_pages": "3-5",
+        "pdf_pages": "19-21",
+        "capture": "p.3: Figure 1.1 (the whole-page figure with the six numbered levels, chemical to organismal); p.3 right column: the paragraph under the heading '1.2 Levels of Structural Organization and Body Systems' (starts 'The levels of organization of') plus numbered item 1 'Chemical level', which runs over the page break to p.4 (both columns above Table 1.2: items 2 Cellular, 3 Tissue, 4 Organ, 5 System) and finishes on p.5 left column with item 6 'Organismal level' (one short paragraph below the Clinical Connection box).",
+        "figures": ["1.1"],
+        "tables": []
+      }
+    ],
+    "basics": "The body can be described at six nested scales, each built from the one below. Atoms and molecules (chemical level) assemble into cells, the smallest units that are alive. Cells of similar type plus the material between them form tissues; there are only four basic tissue types: epithelial (coverings and linings), connective (support, binding, transport), muscular (contracts) and nervous (signals). Two or more tissue types combined into a recognisable structure with a job is an organ (stomach, bone, skin). Organs cooperating on one task form a system (digestive, skeletal), and all systems together make the organism. The book's analogy is language: letters, words, sentences, paragraphs, chapters, book. The slide shows the picture only; the point to take away is that 'bone' is an organ (it contains several tissues), while 'bone tissue' is one tissue type — a distinction that matters in Week 1's skeletal slides.",
+    "terms": [
+      {"t": "Molecule", "d": "Two or more atoms bonded together; e.g. DNA, glucose."},
+      {"t": "Cell", "d": "Smallest living unit of the body, bounded by a membrane."},
+      {"t": "Tissue", "d": "Group of similar cells plus surrounding material that share a function."},
+      {"t": "Organ", "d": "Structure made of two or more tissue types with a specific function and shape."},
+      {"t": "Organ system", "d": "Set of related organs with a common function, e.g. the skeletal system."},
+      {"t": "Epithelial tissue", "d": "Sheets of tightly packed cells covering surfaces, lining cavities and forming glands."},
+      {"t": "Connective tissue", "d": "Tissue with cells scattered in an extracellular matrix; binds, supports and protects."}
+    ]
+  },
+  {
+    "n": 8,
+    "title": "11 organ systems",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.2",
+        "section_title": "Levels of Structural Organization and Body Systems",
+        "book_pages": "4-7",
+        "pdf_pages": "20-23",
+        "capture": "Table 1.2 'The Eleven Systems of the Human Body': p.4 lower half — Integumentary (left panel) and Skeletal (right panel); p.5 lower half — Muscular (left) and Nervous (right); p.6 whole page — Endocrine, Cardiovascular, Lymphoid (Lymphatic), Respiratory; p.7 whole page — Digestive, Urinary, Genital (Reproductive). For this slide read the Integumentary, Skeletal, Muscular, Lymphoid, Respiratory and Urinary panels (each has 'Components' and 'Functions').",
+        "figures": [],
+        "tables": ["1.2"]
+      },
+      {
+        "chapter": 1,
+        "section": "1.2",
+        "section_title": "Levels of Structural Organization and Body Systems",
+        "book_pages": "4-5",
+        "pdf_pages": "20-21",
+        "capture": "p.4 right column: numbered item 5 'System (organ-system) level' (one paragraph); p.5 left column: the paragraph starting 'In the chapters that follow' (one paragraph, just above Table 1.2's Muscular panel).",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "An organ system is a group of organs that together carry out one broad job. Tortora counts eleven and the slide lists them across two slides. Integumentary: skin, hair, nails and glands — a barrier, temperature control, sensation. Skeletal: bones, cartilages and joints — support, protection, levers for movement, a mineral store and the site of blood-cell manufacture. Muscular: skeletal muscle attached to bone — produces movement, posture and heat. Lymphatic (Tortora: lymphoid): lymph vessels, nodes, spleen, thymus — returns leaked tissue fluid to the blood and houses immune cells. Respiratory: airways and lungs — gas exchange. Urinary: kidneys, ureters, bladder, urethra — filters blood, removes nitrogenous waste, regulates water, salts and acid–base balance. The slide gives names only; the book's panels give the organs and functions, and note that one organ can belong to two systems (the pancreas is digestive and endocrine).",
+    "terms": [
+      {"t": "Integumentary system", "d": "Skin plus its hair, nails and glands."},
+      {"t": "Skeletal system", "d": "All bones, cartilages and joints of the body."},
+      {"t": "Lymphoid (lymphatic) system", "d": "Vessels that drain tissue fluid, plus lymph nodes, spleen, thymus and immune cells."},
+      {"t": "Urinary system", "d": "Kidneys, ureters, bladder and urethra; makes and removes urine."},
+      {"t": "Lymph", "d": "Tissue fluid once it has entered lymphatic vessels."},
+      {"t": "Gland", "d": "Cell or organ that makes and releases a secretion."}
+    ]
+  },
+  {
+    "n": 9,
+    "title": "11 organ systems",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.2",
+        "section_title": "Levels of Structural Organization and Body Systems",
+        "book_pages": "5-7",
+        "pdf_pages": "21-23",
+        "capture": "Table 1.2 (continued): p.5 lower half, right panel — Nervous; p.6 whole page — Endocrine (top left) and Cardiovascular (top right); p.7 whole page — Digestive (top left) and Genital (Reproductive) (bottom, both sexes). Read those five panels ('Components' and 'Functions').",
+        "figures": [],
+        "tables": ["1.2"]
+      }
+    ],
+    "basics": "The remaining five systems. Nervous: brain, spinal cord, nerves and sense organs — fast electrical signalling that detects change and commands responses. Endocrine: glands that release hormones into the blood — slower chemical signalling that regulates growth, metabolism and reproduction. Cardiovascular (circulatory): heart, blood vessels and blood — pumps blood so oxygen, nutrients, hormones and wastes reach or leave every cell. Digestive: the tube from mouth to anus plus liver, gallbladder and pancreas — breaks food into absorbable molecules. Reproductive (Tortora: genital): gonads and the organs that carry or nurture gametes; the gonads also secrete hormones. What the slide leaves unsaid: these systems are not independent; homeostasis (slide 15) depends on nervous and endocrine control acting through the others, which is why each later week of the course treats systems in pairs (thorax: respiratory then cardiovascular).",
+    "terms": [
+      {"t": "Nervous system", "d": "Brain, spinal cord, nerves and sensory receptors; signals by nerve impulses."},
+      {"t": "Endocrine system", "d": "Hormone-secreting glands and cells; signals chemically via the blood."},
+      {"t": "Hormone", "d": "Chemical messenger released into blood that acts on distant target cells."},
+      {"t": "Cardiovascular system", "d": "Heart, blood vessels and blood."},
+      {"t": "Gonad", "d": "Organ that makes gametes: testis or ovary."},
+      {"t": "Gamete", "d": "Sex cell (sperm or oocyte) carrying half the usual chromosome number."}
+    ]
+  },
+  {
+    "n": 10,
+    "title": "Anatomical position",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.5",
+        "section_title": "Basic Anatomical Terminology — Body Positions",
+        "book_pages": "14-15",
+        "pdf_pages": "30-31",
+        "capture": "p.14 left column: the one paragraph under the subheading 'Body Positions' (starts 'Descriptions of any region or part') — anatomical position, prone, supine; p.15: Figure 1.6 (whole page, anatomical position with regional names).",
+        "figures": ["1.6"],
+        "tables": []
+      },
+      {
+        "chapter": 1,
+        "section": "1.5",
+        "section_title": "Basic Anatomical Terminology — Planes and Sections",
+        "book_pages": "14-15, 18",
+        "pdf_pages": "30-31, 34",
+        "capture": "p.14 right column: the paragraph under the subheading 'Planes and Sections' (starts 'You will also study parts') — sagittal, median, paramedian, coronal planes; it runs over the page break to p.15 below Figure 1.6 (left column paragraph 'A transverse plane is a horizontal', right column paragraph on sections); p.18 top: Figure 1.8 (left, planes through the body) and Figure 1.9 (right, brain sections).",
+        "figures": ["1.8", "1.9"],
+        "tables": []
+      }
+    ],
+    "basics": "Every anatomical direction is defined relative to one agreed reference pose, so that 'above' or 'in front of' never depends on how the patient happens to be lying. In the anatomical position the person stands upright, faces the observer, feet flat and forward, arms at the sides with the palms turned forward (so the thumbs point outward). Lying face-down is prone, face-up is supine. Three mutually perpendicular reference planes then slice this posture: a sagittal plane divides left from right (the median or midsagittal plane passes exactly through the midline; a parasagittal plane is off-centre), a coronal (frontal) plane divides front (anterior) from back (posterior), and a transverse (horizontal, axial) plane divides upper (superior) from lower (inferior). A cut along any of these gives a 'section'; CT and MRI images are sections, so the plane names are used daily in imaging. The slide leaves out the oblique plane and the prone/supine terms.",
+    "terms": [
+      {"t": "Anatomical position", "d": "Standard reference pose: erect, facing forward, arms at sides, palms forward, feet forward."},
+      {"t": "Median (midsagittal) plane", "d": "Vertical plane through the midline splitting the body into equal left and right halves."},
+      {"t": "Sagittal plane", "d": "Any vertical plane parallel to the median plane."},
+      {"t": "Coronal (frontal) plane", "d": "Vertical plane dividing the body into anterior and posterior parts."},
+      {"t": "Transverse plane", "d": "Horizontal plane dividing the body into superior and inferior parts; a CT 'axial' slice."},
+      {"t": "Prone", "d": "Lying face down."},
+      {"t": "Supine", "d": "Lying face up."},
+      {"t": "Section", "d": "A cut (real or imaging) made along one of the planes."}
+    ]
+  },
+  {
+    "n": 11,
+    "title": "Body cavities",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.5",
+        "section_title": "Basic Anatomical Terminology — Body Cavities",
+        "book_pages": "16-19",
+        "pdf_pages": "32-35",
+        "capture": "p.19: Figure 1.10 (whole page: (a) right lateral view, (b) anterior view, and the CAVITY/COMMENTS table on the right) — this is the slide's figure; text: p.16 left column, the paragraph under the subheading 'Body Cavities' (starts 'Body cavities are spaces that') — it is interrupted by Exhibit 1 and continues at the bottom of p.17 below Figure 1.7 (left column: vertebral canal, thoracic cavity; right column: pericardial and pleural cavities, mediastinum) and then on p.18 left column below Figure 1.8 (paragraph starting 'structures in the mediastinum' and the paragraph 'The abdominopelvic cavity').",
+        "figures": ["1.10"],
+        "tables": []
+      },
+      {
+        "chapter": 1,
+        "section": "1.5",
+        "section_title": "Basic Anatomical Terminology — Thoracic and Abdominal Cavity Membranes",
+        "book_pages": "18-20",
+        "pdf_pages": "34-36",
+        "capture": "p.18 right column: the paragraph under the subheading 'Thoracic and Abdominal Cavity Membranes' (starts 'A membrane is a thin, pliable'), continuing on p.19 below Figure 1.10 (both columns: pleura, pericardium, peritoneum, retroperitoneal organs); p.20: Figure 1.11 (whole page, the thoracic cavity and mediastinum).",
+        "figures": ["1.11"],
+        "tables": []
+      }
+    ],
+    "basics": "The trunk is not solid: the organs sit inside hollow spaces (cavities) whose walls are bone and muscle. The skull encloses the cranial cavity (brain) and the stacked vertebrae enclose the vertebral canal (spinal cord); these two are continuous. The chest wall and diaphragm enclose the thoracic cavity, which is itself subdivided: a pleural cavity around each lung, the pericardial cavity around the heart, and the mediastinum, the central compartment between the lungs holding heart, great vessels, trachea, oesophagus and thymus. Below the dome-shaped diaphragm is the abdominopelvic cavity, split without any wall into the abdominal part (stomach, liver, intestines, spleen) and the pelvic part (bladder, rectum, reproductive organs). Each of the serous cavities is lined by a slippery double membrane (parietal layer on the wall, visceral layer on the organ) with a film of fluid between, letting organs slide as we breathe. The slide's red grouping into a 'dorsal' and a 'ventral' cavity is a convention from other textbooks.",
+    "terms": [
+      {"t": "Cranial cavity", "d": "Space inside the skull bones that holds the brain."},
+      {"t": "Vertebral canal", "d": "Tunnel formed by the stacked vertebral foramina; contains the spinal cord."},
+      {"t": "Thoracic cavity", "d": "Chest cavity bounded by ribs, sternum, thoracic vertebrae and diaphragm."},
+      {"t": "Mediastinum", "d": "Central compartment of the chest between the lungs; contains heart, great vessels, trachea, oesophagus."},
+      {"t": "Pleural cavity", "d": "Thin fluid-filled potential space between the two layers of pleura around each lung."},
+      {"t": "Pericardial cavity", "d": "Fluid-filled potential space between the layers of pericardium around the heart."},
+      {"t": "Diaphragm", "d": "Dome-shaped muscle separating the thoracic from the abdominopelvic cavity."},
+      {"t": "Abdominopelvic cavity", "d": "Space from diaphragm to groin; abdominal part above, pelvic part below."},
+      {"t": "Serous membrane", "d": "Double-layered slippery membrane (parietal and visceral layers) lining a closed body cavity."},
+      {"t": "Viscera", "d": "The internal organs inside the thoracic and abdominopelvic cavities."}
+    ],
+    "note": "Tortora 16e does not use the terms 'dorsal body cavity' and 'ventral body cavity' (they come from other textbooks and older editions); it simply lists cranial cavity, vertebral canal, thoracic and abdominopelvic cavities. The slide's drawing is an older-edition rendering of Tortora Figure 1.10 with the same labels."
+  },
+  {
+    "n": 12,
+    "title": "4 Quadrants of the abdomen",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.5",
+        "section_title": "Basic Anatomical Terminology — Abdominopelvic Regions and Quadrants",
+        "book_pages": "21-22",
+        "pdf_pages": "37-38",
+        "capture": "p.21 right column: the paragraph starting 'The second method is simpler' (one paragraph, under the subheading 'Abdominopelvic Regions and Quadrants' which begins at the bottom of the left column) — names RUQ, LUQ, RLQ, LLQ and says clinicians use quadrants for pain and tumours; p.22 top right: Figure 1.13(b) 'Anterior view showing location of abdominopelvic quadrants'.",
+        "figures": ["1.13"],
+        "tables": []
+      }
+    ],
+    "basics": "To say where something is in the abdomen quickly, clinicians draw two imaginary lines through the umbilicus (navel): a vertical median plane and a horizontal transumbilical plane. They cut the abdominopelvic region into four quadrants, named from the patient's point of view: right upper (liver, gallbladder), left upper (stomach, spleen), right lower (appendix, caecum) and left lower (sigmoid colon). This is the scheme used at the bedside — 'RLQ pain' is the classic hint for appendicitis. Remember 'right' means the patient's right, which appears on the left of an anterior-view picture or a standard radiograph. The slide shows only the picture; the nine-region grid on the next slide is the finer alternative used in anatomy texts.",
+    "terms": [
+      {"t": "Umbilicus", "d": "The navel; the scar where the umbilical cord attached."},
+      {"t": "Quadrant", "d": "One quarter of the abdominopelvic surface, delimited by a vertical and a horizontal line through the umbilicus."},
+      {"t": "Transumbilical plane", "d": "Horizontal plane passing through the navel."},
+      {"t": "RUQ / LUQ / RLQ / LLQ", "d": "Right or left, upper or lower quadrant, always from the patient's side."}
+    ]
+  },
+  {
+    "n": 13,
+    "title": "9 Regions",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.5",
+        "section_title": "Basic Anatomical Terminology — Abdominopelvic Regions and Quadrants",
+        "book_pages": "21-22",
+        "pdf_pages": "37-38",
+        "capture": "p.21 left column bottom: subheading 'Abdominopelvic Regions and Quadrants' and its first paragraph (starts 'To describe the location of'), which runs over into the top of the right column — subcostal plane, transtubercular plane, midclavicular lines and the list of the nine region names (ends '…left inguinal or iliac'); p.22 top left: Figure 1.13(a) 'Anterior view showing location of abdominopelvic regions'.",
+        "figures": ["1.13"],
+        "tables": []
+      }
+    ],
+    "basics": "The finer scheme for locating abdominal organs is a tic-tac-toe grid: two vertical lines dropped from the midpoint of each clavicle (midclavicular lines) and two horizontal planes. The result is nine regions. Top row, from the patient's right: right hypochondriac (under the ribs, liver), epigastric (stomach), left hypochondriac (spleen). Middle row: right lumbar/flank (Tortora: right lateral), umbilical, left lumbar. Bottom row: right inguinal/iliac, hypogastric/pubic (bladder), left inguinal/iliac. The slide's horizontal lines are the transpyloric plane (at L1, roughly halfway between jugular notch and pubis) and the intertubercular line (L5, through the iliac tubercles); Tortora draws the upper line instead at the subcostal plane (lowest edge of the 10th costal cartilages) and the lower one at the transtubercular plane. Either way, the grid is for anatomical description; the four quadrants are for clinical notes.",
+    "terms": [
+      {"t": "Midclavicular line", "d": "Vertical line through the midpoint of the collarbone, roughly through the nipple."},
+      {"t": "Hypochondriac region", "d": "Upper lateral abdominal region beneath the rib cartilages (hypo = under, chondro = cartilage)."},
+      {"t": "Epigastric region", "d": "Upper middle region, over the stomach."},
+      {"t": "Lumbar (lateral) region", "d": "Middle lateral region of the abdomen at the flank."},
+      {"t": "Inguinal (iliac) region", "d": "Lower lateral region near the groin and the iliac bone."},
+      {"t": "Hypogastric (pubic) region", "d": "Lower middle region above the pubic bone."},
+      {"t": "Transpyloric plane", "d": "Horizontal plane at the level of L1, passing through the pylorus of the stomach."},
+      {"t": "Intertubercular / transtubercular plane", "d": "Horizontal plane through the tubercles of the iliac crests, about L5."}
+    ],
+    "note": "Names differ slightly: the slide's 'lumbar/flank', 'inguinal/iliac' and 'pubic' regions are Tortora's 'right/left lateral', 'inguinal or iliac' and 'hypogastric (pubic)'. The slide's upper line (transpyloric, L1) is not the line Tortora uses (subcostal plane); the slide's 'intertubercular line' is Tortora's 'transtubercular plane'."
+  },
+  {
+    "n": 14,
+    "title": "Directional terms in Human Anatomy",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.5",
+        "section_title": "Basic Anatomical Terminology — Exhibit 1 Directional Terms",
+        "book_pages": "16-17",
+        "pdf_pages": "32-33",
+        "capture": "p.16: Exhibit 1 'Directional Terms' — the boxed exhibit occupying the lower three-quarters of the page: the 'Overview' paragraph (left) and the three-column table 'Directional Term / Definition / Example of Use' (superior … deep), including the footnote on anterior=ventral and posterior=dorsal; p.17: Figure 1.7 (whole page, directional terms on a body).",
+        "figures": ["1.7"],
+        "tables": []
+      },
+      {
+        "chapter": 1,
+        "section": "1.5",
+        "section_title": "Basic Anatomical Terminology — Directional Terms",
+        "book_pages": "14",
+        "pdf_pages": "30",
+        "capture": "p.14 right column: the short paragraph under the subheading 'Directional Terms' (starts 'To locate various body structures'), one paragraph.",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "Directional terms are a coordinate vocabulary; each is a comparison between two structures, not an absolute position, and all assume the anatomical position. Superior/inferior are along the vertical axis (toward the head / toward the feet); the synonyms cephalic or cranial and caudal come from 'head' and 'tail'. Anterior/posterior are along the front–back axis; in humans ventral = anterior and dorsal = posterior (in a four-legged animal they differ). Medial/lateral refer to distance from the midline. Proximal/distal are used only within limbs and mean nearer to / farther from the point where the limb joins the trunk — so the wrist is distal to the elbow whatever the arm is doing. Superficial/deep refer to distance from the skin. Tortora's table adds three the slide omits: intermediate (between two structures), ipsilateral (same side) and contralateral (opposite side), all of which appear in imaging reports.",
+    "terms": [
+      {"t": "Superior (cephalic, cranial)", "d": "Toward the head or upper part of a structure."},
+      {"t": "Inferior (caudal)", "d": "Away from the head; toward the lower part."},
+      {"t": "Anterior (ventral)", "d": "Nearer the front of the body."},
+      {"t": "Posterior (dorsal)", "d": "Nearer the back of the body."},
+      {"t": "Medial / lateral", "d": "Nearer to / farther from the midline."},
+      {"t": "Proximal / distal", "d": "Nearer to / farther from the attachment of a limb to the trunk."},
+      {"t": "Superficial / deep", "d": "Toward / away from the body surface."},
+      {"t": "Ipsilateral / contralateral", "d": "On the same side / on the opposite side of the body as another structure."},
+      {"t": "Midline", "d": "Imaginary vertical line dividing the body into equal left and right halves."}
+    ]
+  },
+  {
+    "n": 15,
+    "title": "Homeostasis",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.4",
+        "section_title": "Homeostasis",
+        "book_pages": "9",
+        "pdf_pages": "25",
+        "capture": "p.9 left column: the paragraph under the heading '1.4 Homeostasis' (starts 'Homeostasis (hō′-mē-ō-STĀ-sis; homeo- = sameness') — one paragraph with the blood-glucose example; p.9 right column: the two paragraphs under the subheading 'Control of Homeostasis' (start 'Homeostasis in the human body is continually' and 'Fortunately, the body has many') — nervous vs endocrine control.",
+        "figures": [],
+        "tables": []
+      },
+      {
+        "chapter": 1,
+        "section": "1.4",
+        "section_title": "Homeostasis — Feedback Systems",
+        "book_pages": "10-11, 13",
+        "pdf_pages": "26-27, 29",
+        "capture": "p.10 bottom (below Figure 1.2, both columns): the subheading 'Feedback Systems', its first paragraph (starts 'The body can regulate its') and numbered item 1 'A receptor…'; runs over the page break to p.11: left column items 2 'A control center' and 3 'An effector', right column paragraph 'A group of receptors and effectors', then 'Negative Feedback Systems' (one paragraph, blood pressure) and 'Positive Feedback Systems' (one paragraph); the comparison of the two finishes on p.13 left column, third paragraph (starts 'These examples suggest some important', ends '…fairly stable over long periods'); p.11 left column: Figure 1.3 (generic feedback loop).",
+        "figures": ["1.3"],
+        "tables": []
+      }
+    ],
+    "basics": "Homeostasis is the body keeping its internal variables — temperature, blood pH, oxygen, glucose, pressure — inside narrow limits even though the outside world and the body's own activity keep pushing them. It is a dynamic equilibrium: values drift within a band and are continually corrected, which costs energy. Feedback loops do the correcting, with three parts: a receptor that senses the variable, a control centre (brain or endocrine gland) that compares it with a set point, and an effector (muscle, gland, organ) that changes it. In negative feedback the response opposes the original change, so a rise is pushed back down — this is how nearly everything is regulated, and it fades as the variable returns to normal. In positive feedback the response amplifies the change until some outside event breaks the loop (birth, clot completion). Assumed by the slide: signals travel as nerve impulses (fast) or hormones (slow), and 'feedback' means the loop's output alters its input.",
+    "terms": [
+      {"t": "Homeostasis", "d": "Maintenance of relatively stable internal conditions despite changes inside and outside the body."},
+      {"t": "Controlled condition", "d": "The variable being regulated, e.g. body temperature or blood glucose."},
+      {"t": "Set point", "d": "The target value or narrow range the control centre tries to hold."},
+      {"t": "Stimulus", "d": "Any disturbance that shifts a controlled condition."},
+      {"t": "Receptor", "d": "Structure that detects a change in the controlled condition and sends input to the control centre."},
+      {"t": "Control centre", "d": "Part (often the brain) that sets the range, evaluates input and issues output commands."},
+      {"t": "Effector", "d": "Organ or tissue that carries out the response and alters the controlled condition."},
+      {"t": "Negative feedback", "d": "Loop in which the response reverses the initial change, returning the variable to its set point."},
+      {"t": "Positive feedback", "d": "Loop in which the response reinforces the initial change until an external event stops it."},
+      {"t": "Extracellular fluid", "d": "Fluid outside cells (interstitial fluid, plasma); the 'internal environment' that homeostasis stabilises."}
+    ]
+  },
+  {
+    "n": 16,
+    "title": "Homeostasis",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.4",
+        "section_title": "Homeostasis — Feedback Systems",
+        "book_pages": "11-12",
+        "pdf_pages": "27-28",
+        "capture": "p.11 left column: Figure 1.3 'Operation of a feedback system' (the generic stimulus → controlled condition → receptors → control centre → effectors → response loop); p.12 left column: Figure 1.4 (negative feedback regulation of blood pressure); text p.11 right column, paragraph 'Negative Feedback Systems' (starts 'A negative feedback system reverses').",
+        "figures": ["1.3", "1.4"],
+        "tables": []
+      }
+    ],
+    "basics": "This slide is a diagram-only continuation of the previous one. Read Figure 1.3 as the template every physiological loop follows: a stimulus disturbs a controlled condition; receptors measure it and send input (afferent path) to the control centre; the centre compares with the set point and sends output (efferent path) to effectors; the effectors produce a response that feeds back on the controlled condition. Figure 1.4 fills the template with blood pressure: stretch-sensitive baroreceptors in vessel walls, brain as centre, heart and vessels as effectors, slower heart rate and wider vessels as the response that lowers pressure again. The skin-temperature example in the text (cold receptors, brain, shivering muscles) is the other classic negative loop.",
+    "terms": [
+      {"t": "Afferent pathway", "d": "Route carrying information toward the control centre (input)."},
+      {"t": "Efferent pathway", "d": "Route carrying commands away from the control centre (output)."},
+      {"t": "Baroreceptor", "d": "Pressure-sensitive nerve ending in the wall of certain blood vessels."},
+      {"t": "Response", "d": "The effector's action that changes the controlled condition."}
+    ],
+    "note": "The slide carries no text apart from the title and no figure labels were captured, so the exact diagram could not be identified. If it shows a generic loop it is Tortora Figure 1.3; if it shows blood pressure it is Figure 1.4; a thermoregulation diagram matches the skin-temperature example on p.10–11 (items 1–3)."
+  },
+  {
+    "n": 17,
+    "title": "Child birth",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 1,
+        "section": "1.4",
+        "section_title": "Homeostasis — Positive Feedback Systems",
+        "book_pages": "11-13",
+        "pdf_pages": "27-29",
+        "capture": "p.12 right column: Figure 1.5 'Positive feedback control of labor contractions during birth of a baby' (whole right half of the page, including the 'Interruption of the cycle' box); text: p.11 right column, last paragraph (starts 'Normal childbirth provides a good'), which runs over the page break to p.13 left column, first paragraph (ends '…oxytocin is no longer released'); p.13 left column, third paragraph (starts 'These examples suggest some important') explains why a positive loop needs an external stop.",
+        "figures": ["1.5"],
+        "tables": []
+      }
+    ],
+    "basics": "Labour is the textbook example of a positive feedback loop. The first uterine contractions push the baby's head against the cervix (the neck of the uterus). Stretch receptors there send more nerve impulses to the brain the more the cervix is stretched; the brain (via the posterior pituitary) releases the hormone oxytocin into the blood; oxytocin makes the uterine muscle contract harder; harder contractions stretch the cervix more — and the cycle escalates. Nothing inside the loop turns it down; it ends only when the baby is delivered and the cervix is no longer stretched, at which point oxytocin release stops. Contrast with negative feedback, which damps itself. The book's other positive-feedback examples are blood clotting (useful) and the downward spiral after severe blood loss (harmful) — positive loops are reserved for rare, self-terminating events.",
+    "terms": [
+      {"t": "Cervix", "d": "The narrow lower part of the uterus that opens into the vagina."},
+      {"t": "Oxytocin", "d": "Hormone released from the posterior pituitary that makes the uterus contract."},
+      {"t": "Stretch receptor", "d": "Sensory nerve ending that fires when tissue is stretched."},
+      {"t": "Uterus", "d": "Muscular organ in which the fetus develops."},
+      {"t": "Pituitary gland", "d": "Small endocrine gland under the brain that releases several hormones, including oxytocin."}
+    ]
+  },
+  {
+    "n": 18,
+    "title": "HTI5001",
+    "kind": "admin",
+    "refs": [],
+    "basics": "",
+    "terms": []
+  },
+  {
+    "n": 19,
+    "title": "Learning objectives",
+    "kind": "admin",
+    "refs": [],
+    "basics": "",
+    "terms": []
+  },
+  {
+    "n": 20,
+    "title": "Functions of the skeletal system",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 6,
+        "section": "6.1",
+        "section_title": "Functions of Bone and the Skeletal System",
+        "book_pages": "178-179",
+        "pdf_pages": "194-195",
+        "capture": "p.178 left column: the paragraph under the heading '6.1 Functions of Bone and the Skeletal System' (starts 'A bone is an organ made') and the numbered list 1–6 that fills the rest of the column (Support, Protection, Assistance in movement, Mineral homeostasis, Blood cell production, Triglyceride storage); p.179 top left: the small box 'Functions of Bone Tissue' inside Figure 6.1.",
+        "figures": ["6.1"],
+        "tables": []
+      },
+      {
+        "chapter": 6,
+        "section": "6.7",
+        "section_title": "Bone's Role in Calcium Homeostasis",
+        "book_pages": "195-196",
+        "pdf_pages": "211-212",
+        "capture": "p.195 left column bottom: the paragraph under the heading '6.7 Bone's Role in Calcium Homeostasis' (starts 'Bone is the body's major calcium'), continuing in the right column (parathyroid hormone loop); p.196: Figure 6.10.",
+        "figures": ["6.10"],
+        "tables": []
+      }
+    ],
+    "basics": "A bone is an organ built from several tissues (bone tissue, cartilage, marrow, vessels, nerves), and the skeleton as a whole does more than hold us up. Support: a rigid frame for soft tissues and anchoring points for muscle tendons. Movement: bones are levers that muscles pull on across joints. Protection: skull round the brain, rib cage round heart and lungs. Blood formation: red marrow inside certain bones manufactures red cells, white cells and platelets (haemopoiesis). Mineral storage: bone holds about 99% of the body's calcium and much of its phosphate and releases them under hormonal control — this is what the slide splits into 'electrolyte balance' and 'acid–base balance' (bone can buffer acid by giving up phosphate and carbonate). Fat storage: yellow marrow is largely fat, a reserve of triglycerides. 'Detoxification' refers to bone sequestering heavy metals such as lead; Tortora does not discuss it.",
+    "terms": [
+      {"t": "Bone (osseous) tissue", "d": "Hard connective tissue with mineralised matrix; one of several tissues in a bone."},
+      {"t": "Red bone marrow", "d": "Blood-forming tissue in the spaces of spongy bone."},
+      {"t": "Yellow bone marrow", "d": "Fat-filled marrow in the shaft of adult long bones; a triglyceride store."},
+      {"t": "Haemopoiesis", "d": "Production of blood cells."},
+      {"t": "Electrolyte", "d": "Ion in body fluid, e.g. calcium, phosphate, sodium."},
+      {"t": "Triglyceride", "d": "Storage fat: three fatty acids on a glycerol backbone."},
+      {"t": "Mineral homeostasis", "d": "Keeping blood calcium and phosphate steady by depositing into or releasing from bone."},
+      {"t": "Tendon", "d": "Cord of dense connective tissue joining muscle to bone."}
+    ],
+    "note": "Tortora lists six functions; the slide's eight (adding electrolyte balance, acid–base balance and detoxification) follow Saladin's textbook. The nearest Tortora coverage of the extra three is item 4 'Mineral homeostasis' (p.178) and Section 6.7 (p.195)."
+  },
+  {
+    "n": 21,
+    "title": "Divisions of skeletal system",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.1",
+        "section_title": "Divisions of the Skeletal System",
+        "book_pages": "203-204",
+        "pdf_pages": "219-220",
+        "capture": "p.203 left column: the second and third paragraphs under the heading '7.1 Divisions of the Skeletal System' (start 'The adult human skeleton consists' and 'Bones of the adult skeleton are'), continuing at the top of the right column (one paragraph: axial vs appendicular, ends '…for convenience (see Chapter 17)'); p.203 lower half: Table 7.1 (whole table, both divisions); p.204: Figure 7.1 (whole page, axial skeleton in blue).",
+        "figures": ["7.1"],
+        "tables": ["7.1"]
+      }
+    ],
+    "basics": "The adult skeleton has 206 named bones, most of them in left–right pairs. Babies have more separate pieces because several bones (hip bone, sacrum, coccyx, parts of the skull) start as multiple ossification centres that fuse during growth. Anatomists split the skeleton in two. The axial skeleton (80 bones) lies along the body's long axis: skull, the tiny ear ossicles, hyoid, vertebral column, sternum and ribs. The appendicular skeleton (126 bones) is everything that hangs off that axis: the arms and legs plus the two girdles (shoulder and pelvic) that attach them. Week 1 covers only the axial half; Week 2 does the appendicular. The slide's '~270 at birth' is a commonly quoted figure but not in Tortora, which just says infants have 'more than 206'.",
+    "terms": [
+      {"t": "Axial skeleton", "d": "Bones along the central axis: skull, ossicles, hyoid, vertebrae, sternum, ribs (80)."},
+      {"t": "Appendicular skeleton", "d": "Bones of the limbs plus the shoulder and pelvic girdles (126)."},
+      {"t": "Girdle", "d": "Ring of bones that attaches a limb to the axial skeleton."},
+      {"t": "Fusion", "d": "Separate bony pieces uniting into one bone during growth."},
+      {"t": "Ossification", "d": "Formation of bone tissue."},
+      {"t": "Orthopaedics", "d": "Medical specialty dealing with the musculoskeletal system."}
+    ],
+    "note": "The '~270 bones at birth' figure is not given in Tortora (p.203 only says infants and children have more than 206 because some bones fuse later)."
+  },
+  {
+    "n": 22,
+    "title": "Bones of the axial skeleton",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.1",
+        "section_title": "Divisions of the Skeletal System",
+        "book_pages": "203",
+        "pdf_pages": "219",
+        "capture": "p.203 lower half: Table 7.1 'The Bones of the Adult Skeletal System', left-hand panel 'Axial skeleton' (Skull: cranial cavity bones 8, facial bones 14; hyoid 1; auditory ossicles 6; vertebral column 26; thorax: sternum 1, ribs 24; total 80).",
+        "figures": [],
+        "tables": ["7.1"]
+      },
+      {
+        "chapter": 7,
+        "section": "7.9",
+        "section_title": "Vertebral Column",
+        "book_pages": "223",
+        "pdf_pages": "239",
+        "capture": "p.223 right column: the paragraph starting 'The total number of vertebrae' and the five bullet points that follow (7 cervical, 12 thoracic, 5 lumbar, 1 sacrum, 1 coccyx) — the breakdown of the 26 vertebrae the slide spreads over neck, thorax, abdomen and pelvis.",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "The slide is a bookkeeping table: how the 80 axial bones are distributed. Head: 8 bones enclose the brain (cranium), 14 make the face, and 6 tiny ossicles (three per middle ear) are counted here for convenience. Neck: the single hyoid, which touches no other bone, and 7 cervical vertebrae. Thorax: 12 thoracic vertebrae, the sternum and 12 pairs of ribs. Abdomen: 5 lumbar vertebrae. Pelvis: the sacrum (5 vertebrae fused into one bone) and the coccyx (usually 4 fused). Adding vertebrae gives 7+12+5+1+1 = 26 — Tortora counts the vertebral column as one line of 26, whereas the slide splits it by region. Note that the hip bones, though 'pelvic', belong to the appendicular skeleton.",
+    "terms": [
+      {"t": "Cranium (cranial cavity bones)", "d": "The eight bones enclosing the brain."},
+      {"t": "Facial bones", "d": "The fourteen bones forming the front of the skull around eyes, nose and mouth."},
+      {"t": "Auditory ossicles", "d": "Malleus, incus and stapes: three tiny middle-ear bones that transmit vibration."},
+      {"t": "Hyoid bone", "d": "U-shaped bone in the neck that articulates with no other bone."},
+      {"t": "Vertebra", "d": "One of the bones stacked to form the vertebral column."},
+      {"t": "Sacrum", "d": "Triangular bone formed from five fused sacral vertebrae."},
+      {"t": "Coccyx", "d": "Tailbone, formed from about four fused coccygeal vertebrae."},
+      {"t": "Sternum", "d": "Breastbone; flat bone in the middle of the front of the chest."}
+    ]
+  },
+  {
+    "n": 23,
+    "title": "Types of bones based on shape",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.2",
+        "section_title": "Types of Bones",
+        "book_pages": "205",
+        "pdf_pages": "221",
+        "capture": "p.205 lower left: Figure 7.2 'Types of bones based on shape' (long, flat, irregular, short, sesamoid) — the slide reproduces it; text: p.205 left column, the paragraphs under the heading '7.2 Types of Bones' (start 'Almost all bones of the body' — long bones, then 'Short bones are somewhat cube-shaped'), continuing at the top of the right column with 'Flat bones', 'Irregular bones', 'Sesamoid bones' and 'An additional type… Sutural bones' (four paragraphs).",
+        "figures": ["7.2"],
+        "tables": []
+      }
+    ],
+    "basics": "Bones are classified by shape because shape predicts internal structure and job. Long bones (humerus, femur, phalanges) are longer than wide, have a shaft of compact bone and spongy ends, and are slightly curved so load is spread; they act as levers. Short bones (wrist carpals, ankle tarsals) are roughly cubes of spongy bone with a thin compact shell; they transmit force in several directions. Flat bones (skull vault, sternum, ribs, scapula) are two plates of compact bone sandwiching spongy bone — protective shields with a broad surface for muscle attachment. Irregular bones (vertebrae, hip bone, some facial bones) fit none of the above. Sesamoid bones form inside tendons where they rub over bone; the kneecap (patella) is the only constant one, and they improve the tendon's leverage. Tortora adds sutural bones — small extra bones within skull sutures — classified by location, not shape.",
+    "terms": [
+      {"t": "Long bone", "d": "Bone longer than it is wide, with a shaft (diaphysis) and two ends (epiphyses)."},
+      {"t": "Short bone", "d": "Roughly cube-shaped bone, e.g. most carpals and tarsals."},
+      {"t": "Flat bone", "d": "Thin bone of two compact plates enclosing spongy bone, e.g. sternum, cranial vault."},
+      {"t": "Irregular bone", "d": "Bone of complex shape, e.g. vertebra, hip bone."},
+      {"t": "Sesamoid bone", "d": "Bone that develops inside a tendon under friction, e.g. patella."},
+      {"t": "Sutural bone", "d": "Small extra bone found within a skull suture."},
+      {"t": "Compact bone", "d": "Dense outer bone tissue with few visible spaces."},
+      {"t": "Spongy (cancellous) bone", "d": "Lattice-like inner bone tissue with marrow-filled spaces."}
+    ]
+  },
+  {
+    "n": 24,
+    "title": "Structure of a long bone",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 6,
+        "section": "6.2",
+        "section_title": "Structure of Bone",
+        "book_pages": "178-180",
+        "pdf_pages": "194-196",
+        "capture": "p.179: Figure 6.1 'Parts of a long bone' (whole page; (a) partially sectioned humerus with all the slide's labels) — the slide reproduces it; text: p.178 right column, the paragraph under the heading '6.2 Structure of Bone' (starts 'We will now examine the structure') and numbered items 1–5 (diaphysis, epiphyses, metaphyses, articular cartilage, periosteum); item 5 runs over the page break to p.180 left column, followed by items 6 'The medullary cavity' and 7 'The endosteum' (ends '…small amount of connective tissue').",
+        "figures": ["6.1"],
+        "tables": []
+      }
+    ],
+    "basics": "Take the humerus as the model long bone. The tubular middle is the diaphysis (shaft); each end is an epiphysis; the flared zone between them is the metaphysis, which in a growing child contains the epiphyseal (growth) plate of cartilage and in an adult only a thin bony line. Where an epiphysis meets another bone it is capped with articular cartilage — smooth hyaline cartilage that cuts friction and cushions impact; it has no blood supply, so it heals poorly. Everywhere else the surface is wrapped in periosteum, a tough fibrous sheath whose inner layer holds bone-forming cells; it carries the bone's vessels and nerves, anchors tendons and ligaments, and is pinned to the bone by collagen (Sharpey's) fibres. The shaft is hollow: the medullary cavity, lined by a thin endosteum, holds yellow (fatty) marrow — a tube is nearly as strong as a rod but far lighter. Spongy bone in the epiphyses houses red marrow.",
+    "terms": [
+      {"t": "Diaphysis", "d": "The long cylindrical shaft of a long bone."},
+      {"t": "Epiphysis", "d": "Expanded proximal or distal end of a long bone."},
+      {"t": "Metaphysis", "d": "Region between shaft and end; site of the growth plate in a growing bone."},
+      {"t": "Epiphyseal plate / line", "d": "Cartilage plate that lengthens the bone; becomes a bony line when growth stops."},
+      {"t": "Articular cartilage", "d": "Thin hyaline cartilage covering the joint surface of an epiphysis."},
+      {"t": "Hyaline cartilage", "d": "Glassy, smooth cartilage found at joint surfaces and growth plates."},
+      {"t": "Periosteum", "d": "Fibrous, vascular membrane covering the outer bone surface except at joints."},
+      {"t": "Medullary cavity", "d": "Hollow space within the shaft containing yellow marrow."},
+      {"t": "Endosteum", "d": "Thin cell layer lining the medullary cavity and spongy bone spaces."},
+      {"t": "Nutrient artery", "d": "Main artery entering the shaft through a foramen to supply the bone."}
+    ]
+  },
+  {
+    "n": 25,
+    "title": "Types of cells in bone tissue",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 6,
+        "section": "6.3",
+        "section_title": "Histology of Bone Tissue",
+        "book_pages": "180-181",
+        "pdf_pages": "196-197",
+        "capture": "p.181 top: Figure 6.2 'Types of cells in bone tissue' (four SEM panels: osteoprogenitor cell, osteoblast, osteocyte, osteoclast) — the slide's figure; text: p.180 right column, the paragraph beginning 'Four types of cells are present' and numbered items 1–4 (osteoprogenitor cells, osteoblasts, osteocytes, osteoclasts); item 4 runs over the page break to p.181 left column (ends '…treat osteoporosis'), followed by the mnemonic paragraph 'osteoBlasts Build bone, while osteoClasts Carve'.",
+        "figures": ["6.2"],
+        "tables": []
+      },
+      {
+        "chapter": 6,
+        "section": "6.3",
+        "section_title": "Histology of Bone Tissue",
+        "book_pages": "180",
+        "pdf_pages": "196",
+        "capture": "p.180 left column bottom: the paragraph under the heading '6.3 Histology of Bone Tissue' (starts 'We will now examine the structure of bone at the micro-') — composition of the matrix (water, collagen, hydroxyapatite) and calcification; continues at the top of the right column for two more paragraphs (collagen gives flexibility, minerals give hardness).",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "Bone is a connective tissue: a few cells embedded in a large amount of extracellular matrix. The matrix is roughly one-third collagen fibres (tensile strength, like rebar) and over half mineral, chiefly hydroxyapatite crystals of calcium phosphate (compressive hardness, like concrete). Four cell types manage it. Osteoprogenitor cells are stem cells in the periosteum and endosteum, the only bone cells that divide; they mature into osteoblasts. Osteoblasts lay down new matrix (collagen first, then trigger mineral deposition). When an osteoblast walls itself in it becomes an osteocyte, the mature cell that sits in a small cavity (lacuna) and maintains the tissue, exchanging nutrients through tiny channels. Osteoclasts are the odd ones: huge multinucleate cells formed by fusion of up to 50 blood monocytes, which press a 'ruffled border' against bone and secrete acid and enzymes to dissolve it (resorption). The slide's 'multi-nucleus cells' are the osteoclasts. Build/dissolve balance sets bone mass.",
+    "terms": [
+      {"t": "Extracellular matrix", "d": "Non-living material (fibres plus ground substance) that a connective tissue's cells secrete and sit in."},
+      {"t": "Hydroxyapatite", "d": "Crystalline calcium phosphate mineral that makes bone hard."},
+      {"t": "Collagen", "d": "Tough fibrous protein giving bone tensile strength and some flexibility."},
+      {"t": "Osteoprogenitor cell", "d": "Bone stem cell able to divide and become an osteoblast."},
+      {"t": "Osteoblast", "d": "Bone-building cell that secretes matrix and starts its mineralisation."},
+      {"t": "Osteocyte", "d": "Mature bone cell trapped in a lacuna; maintains the surrounding tissue."},
+      {"t": "Osteoclast", "d": "Large multinucleate cell that dissolves bone matrix (resorption)."},
+      {"t": "Ruffled border", "d": "Deeply folded membrane of an osteoclast facing the bone; site of acid and enzyme release."},
+      {"t": "Calcification", "d": "Deposition of mineral salts on the collagen framework, hardening the tissue."},
+      {"t": "Monocyte", "d": "Type of white blood cell; several fuse to make one osteoclast."}
+    ],
+    "note": "The slide's labels (e.g. 'Ruffled border') come from an older-edition drawing of Figure 6.2; the 16e figure uses SEM photographs with the same four cells."
+  },
+  {
+    "n": 26,
+    "title": "Formation of blood cells",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 19,
+        "section": "19.2",
+        "section_title": "Formation of Blood Cells",
+        "book_pages": "701-702",
+        "pdf_pages": "717-718",
+        "capture": "p.701 left column: the second and third paragraphs under the heading '19.2 Formation of Blood Cells' (start 'The process by which the formed' and 'Red bone marrow is a highly') — hemopoiesis, sites before and after birth, multipotent stem cells; p.701 right column: the paragraph starting 'In order to form blood cells' (myeloid vs lymphoid stem cells); p.702: Figure 19.3 (whole page, the family tree from multipotent stem cell to the formed elements).",
+        "figures": ["19.3"],
+        "tables": []
+      },
+      {
+        "chapter": 6,
+        "section": "6.1",
+        "section_title": "Functions of Bone and the Skeletal System",
+        "book_pages": "178",
+        "pdf_pages": "194",
+        "capture": "p.178 left column: numbered item 5 'Blood cell production' (one paragraph: which bones hold red marrow, red-to-yellow change with age).",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "Blood cells wear out in hours to weeks, so the body makes them continuously — about a trillion a day. The process is haemopoiesis (Greek poiesis = making). Before birth it happens in the yolk sac, liver and spleen; from the last trimester on it is confined to red bone marrow, which in adults survives mainly in the axial skeleton (vertebrae, sternum, ribs, skull, pelvis) and the proximal ends of femur and humerus — which is where marrow biopsies are taken. A tiny fraction of marrow cells are haemopoietic stem cells (Tortora calls them multipotent, the slide pluripotent) that renew themselves and branch into two lineages: myeloid stem cells, which give red cells, platelets, granulocytes and monocytes, and lymphoid stem cells, which give lymphocytes (B, T, NK) after finishing development in lymphoid tissue. Figure 19.3 draws the full tree; the slide only names the fork.",
+    "terms": [
+      {"t": "Haemopoiesis (hematopoiesis)", "d": "Formation of blood cells, after birth only in red bone marrow."},
+      {"t": "Formed elements", "d": "The cells and platelets of blood, as opposed to the fluid plasma."},
+      {"t": "Stem cell", "d": "Cell that can both copy itself and give rise to more specialised cells."},
+      {"t": "Multipotent / pluripotent", "d": "Able to produce many (multipotent) or nearly all (pluripotent) cell types."},
+      {"t": "Myeloid stem cell", "d": "Marrow stem cell whose descendants are red cells, platelets, granulocytes and monocytes."},
+      {"t": "Lymphoid stem cell", "d": "Stem cell whose descendants are lymphocytes and natural killer cells."},
+      {"t": "Lymphocyte", "d": "White blood cell of the adaptive immune system (B and T cells)."},
+      {"t": "Platelet", "d": "Cell fragment in blood that plugs damaged vessels and starts clotting."}
+    ],
+    "note": "Tortora 16e calls the marrow stem cells 'multipotent stem cells' or hemocytoblasts, not 'pluripotent'."
+  },
+  {
+    "n": 27,
+    "title": "Development of the skull",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 8,
+        "section": "8.7",
+        "section_title": "Development of the Skeletal System",
+        "book_pages": "263-264",
+        "pdf_pages": "279-280",
+        "capture": "p.263 right column: the paragraph starting 'The skull begins development during' and numbered item 1 'The cartilaginous neurocranium'; continues on p.264 left column below Figure 8.16 with item 2 'The membranous neurocranium', the sentence 'The viscerocranium, like the neurocranium', and its items 1 'cartilaginous viscerocranium' and 2 'membranous viscerocranium'; p.264 top: Figure 8.16(a) 'Development of the skull' (colour-coded bones; also shows the ear bones and hyoid).",
+        "figures": ["8.16"],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.4",
+        "section_title": "Skull: An Overview — Components of the Skull",
+        "book_pages": "206-207",
+        "pdf_pages": "222-223",
+        "capture": "p.206 right column below Table 7.2: the subheading 'Components of the Skull' and its paragraph (starts 'The skull is the bony framework') with numbered item 1 (the 8 cranial cavity bones) and item 2 (facial bones), which runs over the page break to the top of p.207 left column (list of the 14 facial bones).",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "Embryologists divide the skull by origin rather than by adult position. The neurocranium is the part that grows around the brain and becomes the 8 cranial bones; the viscerocranium (splanchnocranium) grows around the mouth and pharynx and becomes the 14 facial bones. Each part forms bone by two different routes. Bones of the skull base (parts of occipital, sphenoid, ethmoid, temporal) start as cartilage models that are replaced by bone (endochondral ossification). The flat bones of the vault (frontal, parietal, squamous parts) and most facial bones form directly within membrane (intramembranous ossification) — which is why the vault is separated at birth by membranous fontanels. The jaw, ear ossicles and hyoid arise from cartilage of the pharyngeal (branchial) arches. The slide's counts (x1, x2) are simply the paired/unpaired tally of adult bones: e.g. frontal 1, parietal 2, temporal 2, occipital 1, sphenoid 1, ethmoid 1, and the 3 ossicles x2 = 6.",
+    "terms": [
+      {"t": "Neurocranium", "d": "Part of the developing skull that encloses the brain; becomes the cranial bones."},
+      {"t": "Viscerocranium", "d": "Part of the developing skull around mouth and pharynx; becomes the facial bones."},
+      {"t": "Mesenchyme", "d": "Embryonic connective tissue from which bone, cartilage and most connective tissues arise."},
+      {"t": "Endochondral ossification", "d": "Bone formation that replaces a pre-existing cartilage model."},
+      {"t": "Intramembranous ossification", "d": "Bone formation directly within a sheet of mesenchyme, without cartilage."},
+      {"t": "Pharyngeal arch", "d": "Embryonic bar of tissue in the neck region whose cartilage forms jaw, ear bones and hyoid."},
+      {"t": "Cranial base", "d": "The floor of the cranial cavity."}
+    ],
+    "note": "Tortora 16e covers skull development in Section 8.7 (Chapter 8, appendicular skeleton), not in Chapter 7. The neurocranium/viscerocranium terms appear only there."
+  },
+  {
+    "n": 28,
+    "title": "fonticulus → fountain",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.7",
+        "section_title": "Special Features of the Skull — Fontanels",
+        "book_pages": "222",
+        "pdf_pages": "238",
+        "capture": "p.222 left column: the paragraph under the subheading 'Fontanels' (starts 'The skull of a developing embryo'), which continues at the top of the right column, then the right-column bullet list of the six fontanels (anterior, posterior, paired anterolateral, paired posterolateral) with their closure times, and the closing paragraph 'The amount of closure in fontanels'; p.222 lower half: Figure 7.14 'Fontanels at birth' (right lateral view) — the slide's lateral-view drawing reproduces it.",
+        "figures": ["7.14"],
+        "tables": []
+      }
+    ],
+    "basics": "At birth the flat bones of the skull vault are not yet joined; between their edges are patches of tough fibrous membrane where bone has not yet formed. These are fontanels ('little fountains', because the pulse can be seen through them). They let the vault bones overlap and the head deform during passage through the birth canal, then allow the brain to grow quickly during infancy; they are also a clinical window (sunken = dehydration, bulging = raised pressure). Six are constant: the large diamond-shaped anterior fontanel at the junction of frontal and parietal bones, closing at 18–24 months; the small posterior fontanel between parietals and occipital, closing about 2 months; and paired anterolateral (sphenoid) and posterolateral (mastoid) fontanels, closing by about 3 and 12 months respectively. Once closed, the seams between bones become sutures.",
+    "terms": [
+      {"t": "Fontanel", "d": "Membrane-filled gap between incompletely ossified skull bones of an infant."},
+      {"t": "Anterior fontanel", "d": "Largest, diamond-shaped soft spot between frontal and parietal bones; closes 18–24 months."},
+      {"t": "Posterior fontanel", "d": "Small gap between parietal and occipital bones; closes about 2 months."},
+      {"t": "Sphenoid (anterolateral) fontanel", "d": "Paired gap at the junction of frontal, parietal, temporal and sphenoid bones."},
+      {"t": "Mastoid (posterolateral) fontanel", "d": "Paired gap between parietal, occipital and temporal bones."},
+      {"t": "Suture", "d": "Immovable fibrous joint between skull bones that replaces a fontanel."},
+      {"t": "Dense connective tissue", "d": "Connective tissue packed with collagen fibres; forms the fontanel membrane."}
+    ],
+    "note": "Terminology and timing differ slightly: the slide's 'sphenoid' and 'mastoid' fontanels are Tortora's 'anterolateral' and 'posterolateral' fontanels. Tortora gives closure at about 2 months (posterior), 3 months (anterolateral) and up to 12 months (posterolateral), which the slide compresses to 'most closed ~12 months'."
+  },
+  {
+    "n": 29,
+    "title": "Anterior and inferior view of the skull",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.5",
+        "section_title": "Cranial Cavity Bones",
+        "book_pages": "208, 212",
+        "pdf_pages": "224, 228",
+        "capture": "p.208: Figure 7.3 'Anterior view of the skull' (upper two-thirds of the page; carries the slide's labels: supraorbital foramen and margin, coronal and squamous sutures, middle and inferior nasal conchae, vomer, infraorbital and mental foramina); p.212: Figure 7.7 'Inferior view of the skull' (whole page; foramen magnum, occipital condyles).",
+        "figures": ["7.3", "7.7"],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.4",
+        "section_title": "Skull: An Overview — Components of the Skull",
+        "book_pages": "206-207",
+        "pdf_pages": "222-223",
+        "capture": "p.206 right column below Table 7.2: 'Components of the Skull' paragraph and numbered items 1 (the 8 cranial cavity bones, named) and 2 (facial bones), running over to the top of p.207 left column (the 14 facial bones named); p.207 left column: 'General Features and Functions of the Skull' (three paragraphs).",
+        "figures": [],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.5",
+        "section_title": "Cranial Cavity Bones — Occipital Bone",
+        "book_pages": "210-211, 220",
+        "pdf_pages": "226-227, 236",
+        "capture": "p.210 right column, below Figure 7.5: the paragraph under the subheading 'Occipital Bone' (starts 'The occipital bone (ok-SIP-i-tal; occipit-') — foramen magnum, occipital condyles, atlanto-occipital joint — running over the page break to p.211 below Figure 7.6 (left column, ends '…muscle attachment (Figure 7.7)'); p.220: Table 7.3, row 'Magnum'.",
+        "figures": [],
+        "tables": ["7.3"]
+      }
+    ],
+    "basics": "The skull is 22 bones (ear ossicles excluded) resting on the top of the spine. Eight form the box round the brain: one frontal (forehead, roof of the orbits), two parietal (sides and roof), two temporal (lower sides, ear region), one occipital (back and much of the floor), one sphenoid (the keystone of the floor, touching every other cranial bone) and one ethmoid (between the orbits, roof of the nose). From the front you mainly see the frontal bone, the orbits, the nasal opening with its scroll-like conchae and the midline vomer, the maxillae and the mandible; the foramina you can see (supraorbital, infraorbital, mental) are exits for the three divisions of the trigeminal nerve. From below the dominant feature is the foramen magnum ('great opening') in the occipital bone, through which the brainstem continues as the spinal cord, flanked by the occipital condyles that rock on the first vertebra when you nod.",
+    "terms": [
+      {"t": "Foramen (pl. foramina)", "d": "A hole in a bone through which vessels or nerves pass."},
+      {"t": "Foramen magnum", "d": "Large opening in the occipital bone where brainstem meets spinal cord."},
+      {"t": "Occipital condyle", "d": "Smooth oval bump beside the foramen magnum that articulates with the atlas."},
+      {"t": "Suture", "d": "Fibrous immovable joint between skull bones."},
+      {"t": "Orbit", "d": "Bony eye socket."},
+      {"t": "Nasal concha", "d": "Scroll-shaped bony shelf in the nasal cavity that swirls and warms air."},
+      {"t": "Vomer", "d": "Thin midline bone forming the lower part of the nasal septum."},
+      {"t": "Supraorbital / infraorbital / mental foramen", "d": "Openings above the orbit, below the orbit and on the chin for sensory nerves of the face."},
+      {"t": "Cranial base", "d": "Floor of the cranial cavity, seen from below as the inferior view."}
+    ]
+  },
+  {
+    "n": 30,
+    "title": "Lateral view of the skull 14 Facial bones",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.5",
+        "section_title": "Cranial Cavity Bones",
+        "book_pages": "209",
+        "pdf_pages": "225",
+        "capture": "p.209: Figure 7.4(a) 'Right lateral view' (lower part of the page; labels include coronal, squamous and lambdoid sutures, external acoustic meatus, temporomandibular joint) — the slide's figure.",
+        "figures": ["7.4"],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.5",
+        "section_title": "Cranial Cavity Bones — Frontal, Parietal, Temporal Bones",
+        "book_pages": "207-208",
+        "pdf_pages": "223-224",
+        "capture": "p.207 right column: subheadings 'Frontal Bone' (two paragraphs), 'Parietal Bones' (one paragraph) and 'Temporal Bones' (starts 'The paired temporal bones (tempor-'); the temporal-bone text runs over the page break to p.208 below Figure 7.3 (both columns: zygomatic arch, mandibular fossa and TMJ, mastoid process, external acoustic meatus, styloid process).",
+        "figures": [],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.6",
+        "section_title": "Facial Bones",
+        "book_pages": "216-217",
+        "pdf_pages": "232-233",
+        "capture": "p.216 left column: the paragraph under the heading '7.6 Facial Bones' (starts 'The shape of the face changes') listing the 14 facial bones, then 'Nasal Bones' and 'Lacrimal Bones'; p.216 right column: 'Palatine Bones', 'Inferior Nasal Concha Bones', 'Vomer'; p.217 left column: 'Maxillae', 'Zygomatic Bones', 'Mandible' (the mandible paragraph continues into the right column below Figure 7.10; TMJ is described there).",
+        "figures": ["7.10"],
+        "tables": []
+      }
+    ],
+    "basics": "From the side the vault shows the frontal, parietal, temporal and occipital bones meeting at three sutures: coronal (frontal–parietal), squamous (parietal–temporal, named for the scale-like overlapping edge) and lambdoid (parietal–occipital, shaped like the Greek Λ). Below, the temporal bone carries the ear canal (external acoustic meatus), the mastoid process behind it, and the socket where the mandible hinges (temporomandibular joint, the only freely movable skull joint). The 14 facial bones: paired maxillae (upper jaw, most of the hard palate, floor of orbit), paired zygomatic (cheek), nasal (bridge of nose), lacrimal (tiny, medial orbit wall, tear duct), palatine (back of the hard palate), inferior nasal conchae (lowest air-swirling shelf), the single vomer (lower nasal septum) and the single mandible (lower jaw). The slide's Latin glosses explain the names: paries = wall, tempus = time (grey hair shows at the temples), occiput = back of head, squamosus = scale-like.",
+    "terms": [
+      {"t": "Coronal suture", "d": "Joint between the frontal bone and the two parietal bones."},
+      {"t": "Squamous suture", "d": "Joint between parietal and temporal bones on the side of the skull."},
+      {"t": "Lambdoid suture", "d": "Λ-shaped joint between the parietal bones and the occipital bone."},
+      {"t": "External acoustic meatus", "d": "Ear canal; tube-like opening in the temporal bone."},
+      {"t": "Temporomandibular joint (TMJ)", "d": "Hinge-and-slide joint between the mandibular condyle and the temporal bone."},
+      {"t": "Zygomatic arch", "d": "Cheek arch formed by processes of the temporal and zygomatic bones."},
+      {"t": "Maxilla", "d": "Upper jaw bone; paired, holding the upper teeth and forming most of the hard palate."},
+      {"t": "Mandible", "d": "Lower jaw; the largest, strongest and only movable facial bone."},
+      {"t": "Lacrimal bone", "d": "Smallest facial bone, in the medial orbit wall, channelling tears to the nose."},
+      {"t": "Palatine bone", "d": "L-shaped bone forming the back of the hard palate and part of the orbit floor."}
+    ]
+  },
+  {
+    "n": 31,
+    "title": "Orbits",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.7",
+        "section_title": "Special Features of the Skull — Orbits",
+        "book_pages": "219",
+        "pdf_pages": "235",
+        "capture": "p.219 left column: the paragraph under the subheading 'Orbits' (starts 'Seven bones of the skull join') and the numbered list 1–4 (roof, lateral wall, floor, medial wall), followed by 'Associated with each orbit are five major openings' items 1–3 (left column) and 4–5 (top of right column); p.219 lower half: Figure 7.12 'Details of the orbit (eye socket)' — the slide's figure.",
+        "figures": ["7.12"],
+        "tables": []
+      }
+    ],
+    "basics": "Each orbit is a four-sided pyramid lying on its side, apex pointing back into the skull, that houses the eyeball, its six muscles, fat, vessels and the optic nerve. Seven bones contribute, and the slide sorts them by wall. Roof: frontal (orbital plate) and the lesser wing of the sphenoid. Lateral wall: zygomatic and the greater wing of the sphenoid — the thickest wall. Floor: maxilla mainly, with zygomatic and a sliver of palatine at the back — thin, and the usual site of a 'blow-out' fracture. Medial wall: maxilla, lacrimal, the paper-thin orbital plate of the ethmoid, and sphenoid at the apex. The sphenoid appears in three walls because it forms the apex. The book adds the openings the slide leaves out: the optic canal (optic nerve), superior orbital fissure (nerves to the eye muscles) and inferior orbital fissure — landmarks that matter when reading CT of the orbit.",
+    "terms": [
+      {"t": "Orbit", "d": "Pyramid-shaped bony cavity containing the eyeball and its muscles, nerves and vessels."},
+      {"t": "Sphenoid bone", "d": "Butterfly-shaped bone at the centre of the skull base; forms the orbital apex and parts of three walls."},
+      {"t": "Ethmoid bone", "d": "Light, spongy bone between the orbits; its orbital plate is the thin medial orbital wall."},
+      {"t": "Zygomatic bone", "d": "Cheekbone; forms the lateral wall and part of the floor of the orbit."},
+      {"t": "Optic canal", "d": "Opening at the orbital apex for the optic nerve and ophthalmic artery."},
+      {"t": "Superior orbital fissure", "d": "Slit between the sphenoid wings transmitting nerves to the eye muscles."},
+      {"t": "Lacrimal fossa", "d": "Depression in the lacrimal bone for the tear sac."}
+    ]
+  },
+  {
+    "n": 32,
+    "title": "Sutures of the skull",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.7",
+        "section_title": "Special Features of the Skull — Unique Features: Sutures",
+        "book_pages": "219-220",
+        "pdf_pages": "235-236",
+        "capture": "p.219 right column: subheading 'Unique Features of the Skull' and the 'Sutures' paragraph (starts 'A suture (SOO-chur = seam) is an immovable'), which runs over the page break to p.220 below Table 7.3 (both columns: examples of naming, then the numbered list 1 coronal, 2 sagittal, 3 lambdoid, 4 squamous; ends '…lateral aspects of the skull').",
+        "figures": [],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.5",
+        "section_title": "Cranial Cavity Bones",
+        "book_pages": "209, 211",
+        "pdf_pages": "225, 227",
+        "capture": "p.211: Figure 7.6 'Posterior view of the skull' (whole page; sagittal and lambdoid sutures, sutural bones, foramen magnum, horizontal plate of palatine bone, vomer, palatine process) — the slide's posterior/inferior drawing; p.209: Figure 7.4(b) superior view (top of page; coronal and sagittal sutures).",
+        "figures": ["7.6", "7.4"],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.2",
+        "section_title": "Types of Bones — Sutural bones",
+        "book_pages": "205",
+        "pdf_pages": "221",
+        "capture": "p.205 right column: the last paragraph before the Checkpoint (starts 'An additional type of bone is classified') — sutural bones.",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "A suture is a seam-like fibrous joint found only in the skull: a thin layer of dense connective tissue binds interlocking, wavy bone edges, so the joint is effectively immovable in adults (in infants the same joints still allow slight movement and growth). Four are the landmarks. Coronal: runs across the top from ear to ear between the frontal and both parietals (it lies in the coronal plane, hence the name). Sagittal: midline seam between the two parietals, running front to back like an arrow. Lambdoid: the inverted-V seam between the parietals and the occipital bone, named for the Greek capital lambda Λ. Squamous: one on each side between parietal and temporal, with overlapping scale-like edges. Small extra bones (sutural or Wormian bones) sometimes form within the sagittal and lambdoid sutures. Sutures are the reason skull fractures follow odd paths and why suture lines must not be misread as fractures on radiographs.",
+    "terms": [
+      {"t": "Suture", "d": "Immovable fibrous joint between skull bones, with interlocking edges."},
+      {"t": "Sagittal suture", "d": "Midline seam between the two parietal bones."},
+      {"t": "Coronal suture", "d": "Transverse seam between the frontal bone and the parietals."},
+      {"t": "Lambdoid suture", "d": "Λ-shaped seam between parietals and occipital bone."},
+      {"t": "Squamous suture", "d": "Lateral seam between parietal and temporal bones."},
+      {"t": "Sutural (Wormian) bone", "d": "Small accessory bone occasionally found inside a suture."},
+      {"t": "Fibrous joint", "d": "Joint whose bones are bound by dense connective tissue with no cavity."},
+      {"t": "Palatine process of maxilla", "d": "Horizontal shelf of the maxilla forming the front of the hard palate."}
+    ]
+  },
+  {
+    "n": 33,
+    "title": "Paranasal sinuses",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.7",
+        "section_title": "Special Features of the Skull — Paranasal Sinuses",
+        "book_pages": "220-221",
+        "pdf_pages": "236-237",
+        "capture": "p.220 right column: the paragraph under the subheading 'Paranasal Sinuses' (starts 'The paranasal sinuses (par′-a-NĀ-zal'), which runs over the page break to p.221 top (both columns above Figure 7.13; ends '…changing the quality of your voice'); p.221: Figure 7.13 'Paranasal sinuses projected to the surface' — (a) anterior view is the slide's figure; (c) sagittal section shows the openings.",
+        "figures": ["7.13"],
+        "tables": []
+      }
+    ],
+    "basics": "Paranasal ('beside the nose') sinuses are air-filled pockets hollowed out of four skull bones, each lined by the same mucous membrane as the nose and draining into the nasal cavity through small openings. There are four pairs: frontal (above the eyebrows), ethmoidal (a cluster of small cells between the orbits), sphenoidal (deep, under the pituitary), and maxillary (the largest, in the cheek below the orbit, draining awkwardly upward). They are tiny at birth and enlarge with tooth eruption and puberty. Functionally they lighten the skull, add mucus-secreting surface that warms and humidifies air, and act as resonating chambers for the voice — which is why a cold changes how you sound. Blocked drainage causes sinusitis; the maxillary sinus is prone to it because its outlet is near its roof. On radiographs they appear as dark air spaces; fluid levels signal infection.",
+    "terms": [
+      {"t": "Paranasal sinus", "d": "Mucosa-lined air cavity within a skull bone that opens into the nasal cavity."},
+      {"t": "Frontal sinus", "d": "Sinus in the frontal bone above each orbit."},
+      {"t": "Ethmoidal cells", "d": "Many small air cells within the ethmoid bone between the orbits."},
+      {"t": "Sphenoidal sinus", "d": "Sinus inside the body of the sphenoid, below the sella turcica."},
+      {"t": "Maxillary sinus", "d": "Largest sinus, in the body of the maxilla below the orbit."},
+      {"t": "Mucous membrane", "d": "Moist epithelial lining that secretes mucus, continuous from nose into sinuses."},
+      {"t": "Sinusitis", "d": "Inflammation of the sinus lining, often with blocked drainage."}
+    ]
+  },
+  {
+    "n": 34,
+    "title": "Hyoid bone",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.8",
+        "section_title": "Hyoid Bone",
+        "book_pages": "223",
+        "pdf_pages": "239",
+        "capture": "p.223 left column: the paragraph under the heading '7.8 Hyoid Bone' (starts 'The single hyoid bone (= U-shaped)'), which continues at the top of the right column (body, lesser and greater horns) plus the following short paragraph on strangulation; p.223 lower left: Figure 7.15 'Hyoid bone' — (a) position in the neck, (b) anterior and (c) lateral views — the slide's figure.",
+        "figures": ["7.15"],
+        "tables": []
+      }
+    ],
+    "basics": "The hyoid is a small U-shaped bone floating in the front of the neck between the lower jaw and the larynx (voice box), roughly at the level of the third cervical vertebra. It is unique in the skeleton because it touches no other bone: it hangs from the styloid processes of the temporal bones by ligaments and is held in place by muscles from the jaw, tongue, larynx and sternum. It has a central body and two pairs of backward-pointing horns (greater and lesser). Its job is to be a mobile anchor: the tongue muscles pull on it from above, the throat and neck muscles from below, so it steadies the tongue and larynx during swallowing and speech. Because it is fractured in strangulation it is examined at autopsy. On a lateral neck radiograph it is the small bone seen just above the larynx.",
+    "terms": [
+      {"t": "Hyoid bone", "d": "U-shaped neck bone that articulates with no other bone; suspended by ligaments and muscles."},
+      {"t": "Larynx", "d": "Voice box; cartilage tube at the top of the trachea, just below the hyoid."},
+      {"t": "Pharynx", "d": "Throat; muscular tube behind the nose and mouth leading to oesophagus and larynx."},
+      {"t": "Greater / lesser horn (cornu)", "d": "Paired backward projections of the hyoid for muscle and ligament attachment."},
+      {"t": "Styloid process", "d": "Slender spike of the temporal bone from which the hyoid ligaments hang."},
+      {"t": "Ligament", "d": "Band of dense connective tissue joining bone to bone."},
+      {"t": "Articulate", "d": "To form a joint with."}
+    ],
+    "note": "The slide's 'level of C3' is not stated in Tortora, which locates the hyoid only as 'between the mandible and larynx'."
+  },
+  {
+    "n": 35,
+    "title": "5 regions of the vertebral column",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.9",
+        "section_title": "Vertebral Column",
+        "book_pages": "223-224",
+        "pdf_pages": "239-240",
+        "capture": "p.224: Figure 7.16 'Vertebral column' — (a) anterior view with regions and counts, (b) right lateral view with the four curves — the slide's two drawings; text: p.223 right column, the paragraph under the heading '7.9 Vertebral Column' (starts 'The vertebral column (Figure 7.16), also called') and the next paragraph 'The total number of vertebrae' with its five bullets (ends at the bottom of p.223; the first sentence of p.225 left column finishes it: 'The cervical, thoracic, and lumbar vertebrae are movable').",
+        "figures": ["7.16"],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.9",
+        "section_title": "Vertebral Column — Normal Curves",
+        "book_pages": "225",
+        "pdf_pages": "241",
+        "capture": "p.225 left column: the two paragraphs under the subheading 'Normal Curves of the Vertebral Column' (start 'When viewed from the anterior' and 'The fetus has a single'), plus the short third paragraph 'Various conditions may exaggerate'; Figure 7.16(c) on p.224 bottom left (fetal vs adult curves).",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "The spine is a flexible rod of stacked bones, about two-fifths of your height, that carries the head, anchors ribs, pelvis and back muscles, and shields the spinal cord. An embryo has 33 separate vertebrae; in the adult the lowest nine fuse into two bones, leaving 26: 7 cervical (neck), 12 thoracic (each bearing a pair of ribs), 5 lumbar (lower back, the biggest), the sacrum (5 fused, wedged between the hip bones) and the coccyx (about 4 fused). Seen from the side the adult column is S-shaped with four curves. The thoracic and sacral curves are concave forward and are 'primary' — the fetus is curled that way. The cervical and lumbar curves bulge forward and are 'secondary', appearing when the baby lifts its head (~3 months) and stands (~1 year). The curves make the column springier and stronger than a straight rod and keep the centre of gravity over the feet.",
+    "terms": [
+      {"t": "Vertebral column", "d": "The spine: 26 adult vertebrae stacked from skull to coccyx."},
+      {"t": "Cervical vertebrae (C1–C7)", "d": "The seven neck vertebrae."},
+      {"t": "Thoracic vertebrae (T1–T12)", "d": "The twelve chest vertebrae that articulate with ribs."},
+      {"t": "Lumbar vertebrae (L1–L5)", "d": "The five large lower-back vertebrae."},
+      {"t": "Sacrum", "d": "Single triangular bone of five fused sacral vertebrae."},
+      {"t": "Coccyx", "d": "Tailbone of about four fused vertebrae."},
+      {"t": "Concave / convex", "d": "Curving inward / bulging outward, judged here from the front of the body."},
+      {"t": "Primary curve", "d": "Thoracic or sacral curve, present from fetal life."},
+      {"t": "Secondary curve", "d": "Cervical or lumbar curve, developing after birth with head control and walking."},
+      {"t": "Intervertebral foramen", "d": "Opening between adjacent vertebrae through which a spinal nerve exits."}
+    ]
+  },
+  {
+    "n": 36,
+    "title": "General features of vertebrae",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.9",
+        "section_title": "Vertebral Column — Parts of a Typical Vertebra",
+        "book_pages": "225-226",
+        "pdf_pages": "241-242",
+        "capture": "p.225 right column: subheading 'Parts of a Typical Vertebra' and its three labelled paragraphs 'Vertebral Body', 'Vertebral Arch' (pedicles, laminae, vertebral foramen, vertebral notches, intervertebral foramen) and 'Processes' (seven processes) — the whole right column; the last sentence runs over the page break to p.226 left column below the figure ('articulations formed between the vertebral bodies…intervertebral joints'); p.226 top: Figure 7.17 'Structure of a typical vertebra' — (a) superior view and (b) right posterolateral view of articulated vertebrae are the slide's two lower drawings.",
+        "figures": ["7.17"],
+        "tables": []
+      }
+    ],
+    "basics": "Whatever the region, a vertebra is built to the same plan, which the lecturer's 'temple on the rock' mnemonic captures. The rock is the vertebral body, a thick drum at the front that bears the weight; its flat top and bottom faces are glued to the intervertebral discs. From the back of the body two short pillars, the pedicles, rise and are bridged by two flat plates, the laminae; pillars plus roof form the vertebral arch. The space between body and arch is the vertebral foramen; stacked, these make the vertebral canal that houses the spinal cord. Seven projections sprout from the arch: a spinous process backward (the spire — the bumps along your back), a transverse process to each side (muscle anchors), and two superior plus two inferior articular processes whose smooth facets interlock with the vertebrae above and below. Notches in adjacent pedicles line up to form the intervertebral foramina through which spinal nerves leave.",
+    "terms": [
+      {"t": "Vertebral body", "d": "Thick anterior cylinder of a vertebra that bears weight."},
+      {"t": "Pedicle", "d": "Short thick stalk projecting back from each side of the body."},
+      {"t": "Lamina", "d": "Flat plate joining pedicle to spinous process; the pair forms the roof of the arch."},
+      {"t": "Vertebral arch", "d": "Bony ring behind the body made of pedicles and laminae."},
+      {"t": "Vertebral foramen", "d": "Hole enclosed by body and arch; contains the spinal cord."},
+      {"t": "Spinous process", "d": "Single backward projection from the junction of the laminae."},
+      {"t": "Transverse process", "d": "Sideways projection where pedicle meets lamina."},
+      {"t": "Articular process / facet", "d": "Upward or downward projection with a smooth surface that forms a joint with the next vertebra."},
+      {"t": "Intervertebral disc", "d": "Fibrocartilage pad between adjacent vertebral bodies."},
+      {"t": "Spinal nerve", "d": "Nerve leaving the spinal cord through an intervertebral foramen."}
+    ],
+    "note": "The slide's upper drawing is a McGraw-Hill figure; the two lower drawings are Tortora Figure 7.17(a) and (b). The 'temple on the rock' mnemonic is the lecturer's own."
+  },
+  {
+    "n": 37,
+    "title": "Cervical vertebrae (C1-C7)",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.10",
+        "section_title": "Vertebral Regions — Cervical Vertebrae",
+        "book_pages": "227-228",
+        "pdf_pages": "243-244",
+        "capture": "p.227 top (both columns above the figure): the paragraph under the subheading 'Cervical Vertebrae' (starts 'The bodies of the cervical vertebrae (C1–C7)') — three foramina, transverse foramen for the vertebral artery, bifid spinous processes; p.227: Figure 7.18 (a) posterior view of articulated cervical vertebrae, (b) superior view of atlas (C1), (c) superior view of a typical cervical vertebra — the slide's drawings; the figure continues on p.228 (d,e axis).",
+        "figures": ["7.18"],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.10",
+        "section_title": "Vertebral Regions — Cervical Vertebrae (C3–C7)",
+        "book_pages": "229, 232",
+        "pdf_pages": "245, 248",
+        "capture": "p.229 right column: the paragraph starting 'The third through sixth cervical vertebrae (C3–C6)' (ends '…but otherwise is typical') — C7 vertebra prominens; p.232 top: Table 7.4, 'Cervical' column.",
+        "figures": [],
+        "tables": ["7.4"]
+      }
+    ],
+    "basics": "The seven neck vertebrae are the smallest and most mobile. A typical one (C3–C6) has a small oval body, a relatively large triangular vertebral foramen (the cord is thickest here because the arm nerves branch off), and the diagnostic feature: a hole in each transverse process, the transverse foramen, through which the vertebral artery climbs to the brain. So each has three foramina in total. The spinous process is short and forked (bifid) at its tip. C7, the vertebra prominens, has a long single spine that you can feel at the base of the neck — the landmark for counting vertebrae on the skin. C1 and C2 are so different they get names (atlas and axis, next slide). Because cervical vertebrae are small and the neck is mobile, this region is the usual site of whiplash and of fractures in falls on the head.",
+    "terms": [
+      {"t": "Transverse foramen", "d": "Hole in the transverse process of a cervical vertebra for the vertebral artery and vein."},
+      {"t": "Vertebral artery", "d": "Artery that ascends through the cervical transverse foramina to supply the brain."},
+      {"t": "Bifid", "d": "Split into two at the tip."},
+      {"t": "Vertebra prominens", "d": "C7, whose long non-bifid spinous process is easily felt at the base of the neck."},
+      {"t": "Atlas (C1)", "d": "First cervical vertebra; a ring without a body that carries the skull."},
+      {"t": "Axis (C2)", "d": "Second cervical vertebra, with the upward peg (dens) on which the atlas rotates."},
+      {"t": "Lateral mass", "d": "Thickened side portion of the atlas bearing its articular facets."},
+      {"t": "Superior articular facet", "d": "Smooth upper joint surface; on the atlas it cups the occipital condyles."}
+    ]
+  },
+  {
+    "n": 38,
+    "title": "Atypical cervical vertebra: Axis (C2)",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.10",
+        "section_title": "Vertebral Regions — Cervical Vertebrae (atlas and axis)",
+        "book_pages": "228-229",
+        "pdf_pages": "244-245",
+        "capture": "p.229 left column: the first two paragraphs (start 'The first two cervical vertebrae differ' — atlas; and 'The second cervical vertebra (C2), the axis' — dens, atlanto-axial joint), the second paragraph running into the top of the right column (ends '…usual cause of death from whiplash injuries'); p.228: Figure 7.18 continued — (d) superior view of axis (C2) and (e) right lateral view of axis — the slide's drawings.",
+        "figures": ["7.18"],
+        "tables": []
+      }
+    ],
+    "basics": "The top two cervical vertebrae are specialised for moving the head. The atlas (C1) is a bony ring with no body and no spinous process, just a front and back arch joined by thick lateral masses; its concave upper facets cradle the occipital condyles of the skull, and this atlanto-occipital joint gives the nodding 'yes' movement. The axis (C2) does have a body, and from it a tooth-like peg, the dens (odontoid process), projects upward into the front of the atlas's ring, held there by a transverse ligament. The atlas — and the skull with it — pivots round the dens: the atlanto-axial joint provides the 'no' rotation. The dens is the embryological body of the atlas that fused to C2 instead. Its position just in front of the spinal cord and brainstem explains why violent flexion (whiplash, hanging) can drive it into the medulla with fatal results, and why odontoid fractures are looked for on trauma CT.",
+    "terms": [
+      {"t": "Dens (odontoid process)", "d": "Tooth-shaped peg projecting up from the body of the axis."},
+      {"t": "Atlanto-axial joint", "d": "Pivot joint between atlas and axis (dens against anterior arch) allowing head rotation."},
+      {"t": "Atlanto-occipital joint", "d": "Joint between the atlas and the occipital condyles allowing nodding."},
+      {"t": "Anterior / posterior arch", "d": "Front and back curved bars of the ring-shaped atlas."},
+      {"t": "Pivot joint", "d": "Synovial joint in which a peg rotates within a ring."},
+      {"t": "Medulla oblongata", "d": "Lowest part of the brainstem, continuous with the spinal cord at the foramen magnum."},
+      {"t": "Inferior articular facet", "d": "Smooth lower joint surface that meets the superior facet of the vertebra below."}
+    ]
+  },
+  {
+    "n": 39,
+    "title": "Thoracic vertebrae (T1-T12)",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.10",
+        "section_title": "Vertebral Regions — Thoracic Vertebrae",
+        "book_pages": "229-230",
+        "pdf_pages": "245-246",
+        "capture": "p.229 right column: the paragraph under the subheading 'Thoracic Vertebrae' (starts 'Thoracic vertebrae (T1–T12; Figure 7.19) are considerably'), which runs over the page break to p.230 left column below the figure (two paragraphs: spinous processes of T1–T10 vs T11–T12, transverse processes; then 'The feature of the thoracic vertebrae that distinguishes' — costal facets, vertebrocostal joints; ends '…attachment of the ribs to the sternum'); p.229: Figure 7.19(a) 'Right lateral view of several articulated thoracic vertebrae' — the slide's drawing (labels superior/inferior vertebral notch, costal facets, intervertebral foramen).",
+        "figures": ["7.19"],
+        "tables": []
+      }
+    ],
+    "basics": "The twelve thoracic vertebrae are intermediate in size and are the only ones that carry ribs, which is what identifies them. Their spinous processes are long, flattened and angled steeply downward, overlapping like roof tiles (T11 and T12 are shorter and point more straight back, resembling lumbar ones). On the sides of each body are small smooth costal facets — usually a half-facet ('demifacet') at the top and one at the bottom, so a rib head bridges two adjacent bodies — and most transverse processes carry another facet for the rib's tubercle. These rib–vertebra contacts are the vertebrocostal joints. Because the ribs tie the thoracic column to the sternum, this is the least mobile part of the spine, which also makes it the region where scoliosis most often shows. The slide's lateral view emphasises the vertebral notches that pair up to form the intervertebral foramina for the spinal nerves.",
+    "terms": [
+      {"t": "Costal facet", "d": "Smooth articular surface on a thoracic vertebra where a rib attaches (cost- = rib)."},
+      {"t": "Demifacet", "d": "Half-facet on the edge of a vertebral body; two adjacent demifacets receive one rib head."},
+      {"t": "Transverse costal facet", "d": "Facet on the transverse process that meets the tubercle of the rib."},
+      {"t": "Vertebrocostal joint", "d": "Joint between a rib and a thoracic vertebra."},
+      {"t": "Superior / inferior vertebral notch", "d": "Indentations above and below each pedicle; adjacent notches form an intervertebral foramen."},
+      {"t": "Intervertebral foramen", "d": "Side opening between two vertebrae through which a spinal nerve exits."},
+      {"t": "Articular process", "d": "Bony projection bearing a facet for joining neighbouring vertebrae."}
+    ],
+    "note": "The slide's labels 'superior/inferior demifacet for head' are older-edition wording; Tortora 16e labels the same surfaces 'superior costal facet' and 'inferior costal facet'."
+  },
+  {
+    "n": 40,
+    "title": "Typical features of the thoracic vertebrae",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.10",
+        "section_title": "Vertebral Regions — Thoracic Vertebrae",
+        "book_pages": "230",
+        "pdf_pages": "246",
+        "capture": "p.230 top: Figure 7.19 continued — (b) superior view and (c) right lateral view of a single thoracic vertebra (labels: spinous process, lamina, transverse costal facet, vertebral foramen, pedicle, superior costal facet, vertebral body, superior/inferior vertebral notches, inferior articular facet) — the slide's two drawings; text: p.230 left column below the figure, the two paragraphs on thoracic vertebrae (start 'spinous processes on T1 through T10' and 'The feature of the thoracic vertebrae').",
+        "figures": ["7.19"],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.10",
+        "section_title": "Vertebral Regions",
+        "book_pages": "232",
+        "pdf_pages": "248",
+        "capture": "p.232 top: Table 7.4 'Comparison of Major Structural Features of Cervical, Thoracic, and Lumbar Vertebrae', 'Thoracic' column.",
+        "figures": [],
+        "tables": ["7.4"]
+      }
+    ],
+    "basics": "This slide is the same thoracic vertebra viewed from above and from the side, with every part named. From above: a heart-shaped body; a round vertebral foramen (smaller than the cervical one because the cord is thinner here); pedicles and laminae forming the arch; long transverse processes each carrying a transverse costal facet on the front face for the rib's tubercle; superior articular facets facing backwards; and the spinous process sloping down and back. From the side: the superior and inferior costal facets (demifacets) at the upper and lower back corners of the body where the rib head sits; the superior and inferior vertebral notches above and below the pedicle; and the inferior articular facet facing forwards to lock onto the vertebra below. The facet orientation (roughly in the coronal plane) permits rotation but limits flexion — one reason the thoracic spine is stiff.",
+    "terms": [
+      {"t": "Superior / inferior costal facet", "d": "Facets at the upper and lower posterolateral corners of the body for the rib head."},
+      {"t": "Transverse costal facet", "d": "Facet on the front of the transverse process for the rib tubercle."},
+      {"t": "Superior / inferior articular facet", "d": "Smooth surfaces on the articular processes forming the facet (zygapophyseal) joints between vertebrae."},
+      {"t": "Vertebral notch", "d": "Concavity on the upper or lower edge of a pedicle."},
+      {"t": "Lamina", "d": "Flat plate of the vertebral arch between pedicle and spinous process."},
+      {"t": "Pedicle", "d": "Stalk connecting body to the arch on each side."}
+    ]
+  },
+  {
+    "n": 41,
+    "title": "Lumbar vertebrae (L1-L5)",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.10",
+        "section_title": "Vertebral Regions — Lumbar Vertebrae",
+        "book_pages": "230-231",
+        "pdf_pages": "246-247",
+        "capture": "p.230 right column: the paragraph under the subheading 'Lumbar Vertebrae' (starts 'The lumbar vertebrae (L1–L5) are the largest'), one paragraph ending '…presented in Table 7.4'; p.231: Figure 7.20 'Lumbar vertebrae' — (a) right lateral view of articulated lumbar vertebrae, (b) superior view, (c) right lateral view — the slide's drawings.",
+        "figures": ["7.20"],
+        "tables": []
+      }
+    ],
+    "basics": "The five lumbar vertebrae are the largest and strongest of the free vertebrae because the load carried increases down the column — by L5 they support most of the upper body. Their bodies are big and kidney-shaped; the vertebral foramen is triangular and relatively small (below L1–L2 the canal holds only the nerve roots of the cauda equina, not the cord). All the projections are short and stout. The spinous process is a thick, blunt, roughly rectangular plate that sticks straight backward — a broad anchor for the powerful erector spinae muscles of the back — instead of sloping downward as in the thorax. The articular facets face medially (superior) and laterally (inferior), interlocking in the sagittal plane; this allows plenty of flexion and extension but almost no rotation. Because it is both heavily loaded and very mobile, the lumbar region is where disc herniation and mechanical back pain are commonest.",
+    "terms": [
+      {"t": "Lumbar", "d": "Relating to the loin, the lower back between ribs and pelvis."},
+      {"t": "Spinous process", "d": "Backward projection; in lumbar vertebrae thick, blunt and quadrilateral."},
+      {"t": "Erector spinae", "d": "Large group of deep back muscles that straighten the spine, attached to lumbar spines."},
+      {"t": "Superior articular process", "d": "Upward projection whose facet, in the lumbar region, faces medially."},
+      {"t": "Intervertebral disc", "d": "Cartilage cushion between vertebral bodies; thickest in the lumbar region."},
+      {"t": "Cauda equina", "d": "Bundle of nerve roots filling the lumbar and sacral vertebral canal below the end of the cord."},
+      {"t": "Flexion / extension", "d": "Bending forward / straightening or bending backward."}
+    ]
+  },
+  {
+    "n": 42,
+    "title": "Differences in cervical, thoracic & lumbar vertebrae",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.10",
+        "section_title": "Vertebral Regions",
+        "book_pages": "232",
+        "pdf_pages": "248",
+        "capture": "p.232 top third: Table 7.4 'Comparison of Major Structural Features of Cervical, Thoracic, and Lumbar Vertebrae' (whole table: size, foramina, spinous processes, transverse processes, costal facets, direction of articular facets, size of intervertebral discs) — the slide's table is copied from it.",
+        "figures": [],
+        "tables": ["7.4"]
+      },
+      {
+        "chapter": 7,
+        "section": "7.10",
+        "section_title": "Vertebral Regions",
+        "book_pages": "227-231",
+        "pdf_pages": "243-247",
+        "capture": "For any row that needs explaining: cervical paragraph p.227 top; thoracic paragraphs p.229 right column and p.230 left column; lumbar paragraph p.230 right column (see slides 37–41).",
+        "figures": ["7.18", "7.19", "7.20"],
+        "tables": []
+      }
+    ],
+    "basics": "The table condenses the three previous slides into rules for telling a loose vertebra — or a vertebra on an image — apart. Size grows downward (small, larger, largest) because load grows downward. Foramina: only cervical vertebrae have transverse foramina, so a vertebra with three holes is cervical. Costal facets on the body or transverse process mean thoracic. Spinous process: slender and forked (cervical), long and sloping down (thoracic), short, thick and straight back (lumbar). Transverse processes go from small to fairly large to large and blunt. Disc thickness relative to body size is greatest in the lumbar spine and least in the thoracic, matching mobility: the neck and lower back move a lot, the rib-bound thorax little. Tortora's table also lists the direction the articular facets face (cervical postero-superior, thoracic postero-lateral, lumbar medial), which is the mechanical reason each region permits its own mix of bending and rotation — the slide leaves this row out.",
+    "terms": [
+      {"t": "Foramen", "d": "A hole in a bone; vertebrae have one vertebral foramen and cervical ones two extra transverse foramina."},
+      {"t": "Costal facet", "d": "Rib-articulating surface; present only on thoracic vertebrae."},
+      {"t": "Bifid spinous process", "d": "Spinous process forked at the tip, typical of C2–C6."},
+      {"t": "Transverse process", "d": "Lateral projection of the vertebral arch."},
+      {"t": "Intervertebral disc", "d": "Fibrocartilage pad between vertebral bodies; relative thickness varies by region."},
+      {"t": "Articular facet direction", "d": "The plane the facet surfaces face, which determines which movements a region allows."}
+    ],
+    "note": "The slide omits Table 7.4's 'Direction of articular facets' rows; otherwise it is a lightly reworded copy of the table."
+  },
+  {
+    "n": 43,
+    "title": "Sacrum and coccyx",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.10",
+        "section_title": "Vertebral Regions — Sacral and Coccygeal Vertebrae",
+        "book_pages": "230-233",
+        "pdf_pages": "246-249",
+        "capture": "p.232 lower two-thirds: Figure 7.21 'Sacrum and coccyx' — (a) anterior view and (b) posterior view, with every label on the slide (base, ala, promontory, anterior/posterior sacral foramina, transverse lines, median and lateral sacral crests, auricular surface, sacral canal, hiatus, cornua, apex, coccyx Co1–Co4); text: p.230 right column, subheading 'Sacral and Coccygeal Vertebrae' and the 'Sacrum' paragraph (starts 'The sacrum (SĀ-krum) is a triangular'), which runs over to p.231 below Figure 7.20 (both columns: anterior surface, alae, posterior crests, foramina, hiatus, cornua, apex, base) and on to p.233 left column (paragraph 'sacral promontory…sacroiliac joint…lumbosacral joint' and the 'Coccyx' paragraph, ends '…it points anteriorly').",
+        "figures": ["7.21"],
+        "tables": []
+      }
+    ],
+    "basics": "The sacrum is one triangular bone made from five vertebrae that fuse between about 16 and 30 years; the fusion lines remain as four transverse ridges on its smooth, concave front face. It is wedged between the two hip bones, joined to them by its ear-shaped (auricular) side surfaces at the sacroiliac joints — this is how weight passes from spine to pelvis and legs. The broad top is the base; its front lip, the sacral promontory, juts into the pelvic inlet and is an obstetric landmark. Four pairs of holes (anterior and posterior sacral foramina) let sacral nerves out. The rough back carries a median crest (fused spinous processes) and lateral crests; the vertebral canal continues as the sacral canal and opens below as the sacral hiatus, flanked by two horns (cornua) — the entry point for caudal anaesthesia. The coccyx, usually four fused rudimentary vertebrae, hangs from the sacral apex, pointing down in women and forward in men.",
+    "terms": [
+      {"t": "Sacrum", "d": "Triangular bone of five fused vertebrae forming the back wall of the pelvis."},
+      {"t": "Base / apex of sacrum", "d": "Broad upper surface joining L5 / narrow lower tip joining the coccyx."},
+      {"t": "Sacral promontory", "d": "Forward-projecting upper edge of the first sacral body; pelvic landmark."},
+      {"t": "Sacral ala (wing)", "d": "Smooth lateral part of the sacral base, the fused transverse processes of S1."},
+      {"t": "Auricular surface", "d": "Ear-shaped side face of the sacrum that articulates with the ilium (sacroiliac joint)."},
+      {"t": "Sacral foramina", "d": "Four pairs of holes, front and back, transmitting sacral nerves and vessels."},
+      {"t": "Median sacral crest", "d": "Midline ridge on the back of the sacrum: the fused spinous processes."},
+      {"t": "Sacral canal / hiatus", "d": "Continuation of the vertebral canal / its open lower end between the sacral cornua."},
+      {"t": "Cornu (pl. cornua)", "d": "Horn-like projection; sacral and coccygeal cornua are joined by ligaments."},
+      {"t": "Coccyx", "d": "Tailbone of about four fused vertebrae below the sacrum."}
+    ]
+  },
+  {
+    "n": 44,
+    "title": "The thoracic (rib) cage",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.11",
+        "section_title": "Thorax",
+        "book_pages": "233-235",
+        "pdf_pages": "249-251",
+        "capture": "p.233 right column: the paragraph under the heading '7.11 Thorax' (starts 'The term thorax refers to the entire'), the two 'Sternum' paragraphs (start 'The sternum, or breastbone' and 'The junction of the manubrium and body' — manubrium, body, xiphoid, sternal angle, jugular and clavicular notches), and the 'Ribs' paragraph beginning at the bottom of the column ('Twelve pairs of ribs'), which runs over the page break to p.234 left column below Figure 7.22(a) (true, false and floating ribs, costal cartilage, sternocostal joints); p.234: Figure 7.22(a) anterior view of sternum; p.235: Figure 7.22(b) anterior view of the skeleton of the thorax — the slide's drawings.",
+        "figures": ["7.22"],
+        "tables": []
+      }
+    ],
+    "basics": "The thoracic cage is a bony cone, narrower at the top, flattened front to back, that protects heart, lungs, liver and spleen, supports the shoulder girdle, and moves when we breathe. It has three components. At the back, the twelve thoracic vertebrae. On each side, twelve ribs. In front, the sternum: a dagger-shaped flat bone of three fused parts — the manubrium (handle) at the top, notched for the clavicles and first ribs, the long body, and the small xiphoid process below, cartilaginous until about 40 and easily broken during CPR. Manubrium and body meet at a slight forward angle, the sternal angle, level with the second rib — the landmark from which ribs are counted on a patient. Ribs reach the sternum through bars of hyaline costal cartilage; these cartilage–sternum contacts are the sternocostal joints named on the slide. The gaps between ribs are intercostal spaces, filled by muscle, vessels and nerves.",
+    "terms": [
+      {"t": "Thoracic cage", "d": "Sternum, ribs with costal cartilages, and thoracic vertebrae together."},
+      {"t": "Manubrium", "d": "Upper, handle-like part of the sternum."},
+      {"t": "Body of sternum", "d": "Long middle part of the sternum joined to ribs 2–10 via cartilage."},
+      {"t": "Xiphoid process", "d": "Small lowest part of the sternum, cartilaginous until middle age."},
+      {"t": "Sternal angle", "d": "Palpable ridge where manubrium meets body, at the level of the second rib."},
+      {"t": "Jugular (suprasternal) notch", "d": "Dip at the top of the manubrium between the clavicles."},
+      {"t": "Clavicular notch", "d": "Facet on the manubrium for the medial end of the clavicle."},
+      {"t": "Costal cartilage", "d": "Bar of hyaline cartilage joining a rib to the sternum."},
+      {"t": "Sternocostal joint", "d": "Joint between a costal cartilage and the sternum."},
+      {"t": "Intercostal space", "d": "Gap between two adjacent ribs."}
+    ],
+    "note": "The slide's 'suprasternal notch' is Tortora's 'jugular notch'."
+  },
+  {
+    "n": 45,
+    "title": "Structure of the 12 ribs",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.11",
+        "section_title": "Thorax — Ribs",
+        "book_pages": "234-236",
+        "pdf_pages": "250-252",
+        "capture": "p.234 right column: the paragraph starting 'Figure 7.23a shows the parts of a typical' (head with superior and inferior facets, neck, tubercle, body, costal angle, costal groove) and the following paragraph 'Spaces between ribs, called intercostal spaces' (ends at the top of p.237: '…without breaking'); p.235 bottom: Figure 7.23(a) posterior view of left rib; p.236 top: Figure 7.23(b) posterior view of left ribs articulated with thoracic vertebrae and sternum — the slide's drawings.",
+        "figures": ["7.23"],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.11",
+        "section_title": "Thorax — Ribs (true, false, floating)",
+        "book_pages": "233-234",
+        "pdf_pages": "249-250",
+        "capture": "p.233 right column bottom: 'Ribs' paragraph (starts 'Twelve pairs of ribs, numbered'), continuing on p.234 left column below Figure 7.22(a) (ribs 1–7 true/vertebrosternal, 8–10 vertebrochondral, 11–12 floating; costochondritis).",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "Ribs are curved flat bones that get longer from rib 1 to rib 7 and then shorter again. Ribs 1–7 reach the sternum by their own costal cartilage ('true' ribs); 8–10 hook onto the cartilage above them; 11–12 end free in the muscle ('floating'). A typical rib (2–9) has a wedge-shaped head at the back with two small facets, one for each of the two vertebral bodies it spans; a narrow neck; a knob, the tubercle, that meets the transverse process of its own vertebra; and a long flattened body that bends sharply at the costal angle just past the tubercle — the weak point where ribs usually fracture. Along the lower inner edge runs the costal groove, sheltering the intercostal vein, artery and nerve in that order from above (the slide's VAN mnemonic). Practical consequence: chest needles are placed just above a rib's upper edge to avoid the bundle hidden under the rib above.",
+    "terms": [
+      {"t": "Head of rib", "d": "Posterior end with articular facets that meet the vertebral bodies."},
+      {"t": "Neck of rib", "d": "Narrow part just lateral to the head."},
+      {"t": "Tubercle of rib", "d": "Knob behind the neck that articulates with the transverse process of a vertebra."},
+      {"t": "Body (shaft) of rib", "d": "Long curved main part of the rib."},
+      {"t": "Costal angle", "d": "Point of sharpest curvature of the shaft; the commonest fracture site."},
+      {"t": "Costal groove", "d": "Furrow on the inner lower border of a rib housing intercostal vessels and nerve."},
+      {"t": "Intercostal vein, artery, nerve", "d": "Neurovascular bundle running in the costal groove, vein highest, nerve lowest."},
+      {"t": "True (vertebrosternal) rib", "d": "Rib 1–7, attached directly to the sternum by its own cartilage."},
+      {"t": "False rib", "d": "Rib 8–12, whose cartilage attaches indirectly or not at all; 11–12 are 'floating'."}
+    ],
+    "note": "Tortora says only that the costal groove protects 'the intercostal blood vessels and a small nerve'; the vein–artery–nerve (VAN) ordering on the slide is not in the book. The slide's 'superior/inferior facet' of the head are Tortora's 'superior/inferior articular facet'."
+  },
+  {
+    "n": 46,
+    "title": "Articulations between vertebrae and ribs",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "7.11",
+        "section_title": "Thorax — Ribs (vertebrocostal joints)",
+        "book_pages": "234, 236-237",
+        "pdf_pages": "250, 252-253",
+        "capture": "p.236 middle: Figure 7.23(c) 'Superior view of left rib articulated with thoracic vertebra' — the slide's figure (labels: tubercle, transverse costal facet, neck, head, superior costal facet); text: p.234 right column, the paragraph starting 'Figure 7.23a shows the parts' (facet of head into costal facets of one or two bodies; articular part of tubercle onto the transverse costal facet — both are vertebrocostal joints); p.237 left column, the summary paragraph starting 'In summary, the posterior portion of the rib' (ends '…facet of the transverse costal facet').",
+        "figures": ["7.23"],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.10",
+        "section_title": "Vertebral Regions — Thoracic Vertebrae",
+        "book_pages": "230",
+        "pdf_pages": "246",
+        "capture": "p.230 left column: the second paragraph below Figure 7.19 (starts 'The feature of the thoracic vertebrae that distinguishes') — which vertebral facets receive which ribs (T1, T2–T8, T10–T12), vertebrocostal joints.",
+        "figures": ["7.19"],
+        "tables": []
+      }
+    ],
+    "basics": "Each rib is bolted to the spine at two points, which together make it a lever that swings up and out during inspiration. First, the head of the rib presses into the side of the vertebral bodies. For ribs 2–9 the head has two facets: the upper meets the small lower demifacet of the vertebra above, the lower meets the upper demifacet of its own vertebra, with the disc between — so rib 6 sits astride T5 and T6. Ribs 1, 10, 11 and 12 articulate with a single body. Second, the tubercle of the rib meets a facet on the front of the transverse process of its own vertebra (except ribs 11–12, whose transverse processes lack one). Both contacts are small synovial joints, collectively the vertebrocostal (costovertebral and costotransverse) joints, reinforced by ligaments. The neck of the rib lies between the two contacts. Rotation about the axis through these joints raises the rib and widens the chest.",
+    "terms": [
+      {"t": "Vertebrocostal joint", "d": "Any joint between a rib and a thoracic vertebra (head-to-body or tubercle-to-transverse process)."},
+      {"t": "Costovertebral joint", "d": "Joint between the rib head and the vertebral body facets."},
+      {"t": "Costotransverse joint", "d": "Joint between the rib tubercle and the transverse process facet."},
+      {"t": "Demifacet (costal facet)", "d": "Half-facet on the vertebral body; adjacent demifacets share one rib head."},
+      {"t": "Transverse costal facet", "d": "Facet on the transverse process for the rib tubercle ('facet for tubercle of rib' on the slide)."},
+      {"t": "Synovial joint", "d": "Freely movable joint with a fluid-filled cavity inside a capsule."},
+      {"t": "Inspiration", "d": "Breathing in; ribs rotate upward and outward at these joints."}
+    ],
+    "note": "The slide reproduces Tortora Figure 7.23(c) from an older edition: its labels 'facet for tubercle of rib', 'superior demifacet' and 'facet for transverse process' correspond to 16e's 'transverse costal facet', 'superior costal facet' and 'articular facet' of the tubercle."
+  },
+  {
+    "n": 47,
+    "title": "Classification of joints",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 9,
+        "section": "9.1",
+        "section_title": "Joint Classification",
+        "book_pages": "270",
+        "pdf_pages": "286",
+        "capture": "p.270 left column: the paragraph under the heading '9.1 Joint Classification' (starts 'A joint, also called an articulation') and the three following paragraphs 'Fibrous (FĪ-brus) joints', 'Cartilaginous (kar-ti-LAG-i-nus) joints', 'Synovial (si-NŌ-vē-al) joints' (ends '…described in detail later in the chapter') — each paragraph also states the degree of movement (immovable, slightly movable, freely movable).",
+        "figures": [],
+        "tables": []
+      },
+      {
+        "chapter": 9,
+        "section": "9.2-9.4",
+        "section_title": "Fibrous, Cartilaginous and Synovial Joints",
+        "book_pages": "270-273",
+        "pdf_pages": "286-289",
+        "capture": "p.270 right column: '9.2 Fibrous Joints' intro paragraph and 'Sutures' paragraph; p.272 left column: '9.3 Cartilaginous Joints' intro paragraph (starts 'Like a fibrous joint, a cartilaginous'); p.272 right column: '9.4 Synovial Joints' → 'Structure of Synovial Joints' paragraph (starts 'Synovial joints have certain characteristics'), running over to p.273 left column top (articular cavity, capsule, articular cartilage).",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "A joint (articulation) is any place where two bones — or bone and cartilage or teeth — meet, whether or not they move. Anatomists classify joints two ways, and the slide gives both. Structurally, by what fills the gap: fibrous joints are held by dense collagenous tissue (skull sutures, the tibia–fibula membrane, tooth sockets); cartilaginous joints by a solid bridge of hyaline or fibrous cartilage (growth plates, pubic symphysis, intervertebral discs); synovial joints have an actual fluid-filled cavity enclosed by a two-layer capsule whose inner synovial membrane secretes the lubricant (knee, shoulder, finger). Functionally, by how much they move: synarthroses do not move, amphiarthroses move slightly, diarthroses move freely. The two schemes roughly line up — fibrous and cartilaginous joints are synarthroses or amphiarthroses, synovial joints are diarthroses — but not perfectly (some synovial joints between carpals barely move). Tortora 16e keeps the movement descriptions but no longer uses the Greek functional names.",
+    "terms": [
+      {"t": "Joint (articulation, arthrosis)", "d": "Point of contact between bones, or bone and cartilage or teeth."},
+      {"t": "Fibrous joint", "d": "Bones united by dense irregular connective tissue; no cavity; little or no movement."},
+      {"t": "Cartilaginous joint", "d": "Bones united by a solid piece of hyaline or fibrous cartilage; no cavity."},
+      {"t": "Synovial joint", "d": "Bones separated by a fluid-filled cavity within an articular capsule; usually freely movable."},
+      {"t": "Synovial (articular) cavity", "d": "Lubricated space between the bones of a synovial joint."},
+      {"t": "Articular capsule", "d": "Sleeve of fibrous tissue plus inner synovial membrane enclosing a synovial joint."},
+      {"t": "Ligament", "d": "Thickened band of the capsule's fibrous layer binding bone to bone."},
+      {"t": "Synarthrosis", "d": "Functionally immovable joint."},
+      {"t": "Amphiarthrosis", "d": "Slightly movable joint."},
+      {"t": "Diarthrosis", "d": "Freely movable joint."}
+    ],
+    "note": "Tortora 16e classifies joints structurally only (fibrous, cartilaginous, synovial) and has dropped the functional terms synarthrosis/amphiarthrosis/diarthrosis; the same ideas appear as 'immovable', 'slightly movable' and 'freely movable' within the three structural paragraphs on p.270."
+  },
+  {
+    "n": 48,
+    "title": "Typing of different joints",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 9,
+        "section": "9.2",
+        "section_title": "Fibrous Joints — Sutures",
+        "book_pages": "270-271",
+        "pdf_pages": "286-287",
+        "capture": "p.271 top left: Figure 9.1(a) 'Suture between skull bones' (coronal suture with sutural ligament, outer and inner compact bone, spongy bone) — the slide's left drawing; text: p.270 right column, the paragraph under 'Sutures' (starts 'A suture (SOO-chur; sutur = seam) (Figure 9.1a)').",
+        "figures": ["9.1"],
+        "tables": []
+      },
+      {
+        "chapter": 9,
+        "section": "9.3",
+        "section_title": "Cartilaginous Joints — Symphyses",
+        "book_pages": "272",
+        "pdf_pages": "288",
+        "capture": "p.272 lower right: Figure 9.2(b) 'Symphysis' (hip bones, pubic symphysis) — the slide's middle drawing; text: p.272 right column, the paragraph under 'Symphyses' (starts 'A symphysis (SIM-fi-sis = growing together').",
+        "figures": ["9.2"],
+        "tables": []
+      },
+      {
+        "chapter": 9,
+        "section": "9.4",
+        "section_title": "Synovial Joints — Structure of Synovial Joints",
+        "book_pages": "272-273",
+        "pdf_pages": "288-289",
+        "capture": "p.273 lower half: Figure 9.3(a) 'Coronal section' of a typical synovial joint (periosteum, articular capsule with fibrous layer and synovial membrane, articular cartilage, articular cavity with synovial fluid) — the slide's right drawing; text: p.272 right column, 'Structure of Synovial Joints' paragraph, running over to p.273 left column top, and p.273 right column 'Articular Capsule' paragraph (starts 'A sleevelike articular capsule').",
+        "figures": ["9.3"],
+        "tables": []
+      }
+    ],
+    "basics": "One example of each structural type. Suture (fibrous): the wavy edges of two skull plates are bound by a thin sutural ligament of dense collagen; the section shows the sandwich of outer compact bone, spongy bone and inner compact bone. Immovable in adults, slightly movable in children, and the last sutures fuse to bone (synostosis) in old age. Pubic symphysis (cartilaginous): the two hip bones meet in the midline through a disc of fibrocartilage, with a film of hyaline cartilage on each bone face; it yields a few millimetres and loosens in late pregnancy. Finger joint (synovial): the bone ends are capped with smooth articular cartilage and separated by a cavity of synovial fluid; the whole is sealed by a capsule whose outer fibrous membrane is continuous with the periosteum and whose inner synovial membrane makes the fluid. This design gives near-frictionless free movement, and it is the design of nearly every limb joint you will image.",
+    "terms": [
+      {"t": "Sutural ligament", "d": "Thin layer of dense connective tissue binding the bones of a skull suture."},
+      {"t": "Symphysis", "d": "Cartilaginous joint with a fibrocartilage disc between hyaline-covered bone ends, always in the midline."},
+      {"t": "Fibrocartilage", "d": "Tough cartilage rich in collagen bundles, found in discs and symphyses."},
+      {"t": "Articular cartilage", "d": "Hyaline cartilage cap on the bone ends inside a synovial joint."},
+      {"t": "Fibrous membrane (layer)", "d": "Outer tough layer of the articular capsule, continuous with the periosteum."},
+      {"t": "Synovial membrane", "d": "Inner loose layer of the capsule that secretes synovial fluid."},
+      {"t": "Synovial fluid", "d": "Slippery lubricating fluid filling the joint cavity and nourishing the cartilage."},
+      {"t": "Periosteum", "d": "Fibrous covering of bone that the capsule's fibrous layer merges into."}
+    ],
+    "note": "The slide's labels 'synovial cavity' and 'fibrous membrane' are older-edition wording; Tortora 16e calls them 'articular cavity' and 'fibrous layer'."
+  },
+  {
+    "n": 49,
+    "title": "Abnormal Curves of the Vertebral Column",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "Disorders: Homeostatic Imbalances",
+        "section_title": "Abnormal Curves of the Vertebral Column",
+        "book_pages": "237-238",
+        "pdf_pages": "253-254",
+        "capture": "p.237 right column: the subheading 'Abnormal Curves of the Vertebral Column' and its paragraphs — intro (starts 'Various conditions may exaggerate'), 'Scoliosis' (two paragraphs: causes; signs and treatment), 'Kyphosis' (one paragraph), 'Lordosis' (one paragraph, ends at the bottom of the column); p.238 top: Figure 7.25 'Abnormal curves of the vertebral column' — (a) scoliosis, (b) kyphosis, (c) lordosis.",
+        "figures": ["7.25"],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.9",
+        "section_title": "Vertebral Column — Normal Curves",
+        "book_pages": "225",
+        "pdf_pages": "241",
+        "capture": "p.225 left column: the two paragraphs under 'Normal Curves of the Vertebral Column' (for the baseline the abnormal curves exaggerate) and the short paragraph 'Various conditions may exaggerate'.",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "The normal spine has four gentle front-to-back curves and is straight when seen from the front. Three deformities are named by which of these goes wrong. Scoliosis (Greek 'crooked') is a sideways bend, usually in the thoracic region and often with a twist; it is the commonest, appears typically in adolescent girls, and shows as uneven shoulders, a prominent shoulder blade or an uneven waist. Severe curves impair breathing. Kyphosis ('hump') is an exaggerated thoracic curve — the round-backed 'hunchback' seen in elderly osteoporotic women when vertebral bodies crush into wedges, and historically in spinal tuberculosis. Lordosis ('bent backward') is an exaggerated lumbar curve, the hollow back of late pregnancy, obesity or poor posture. All three are judged on standing radiographs: scoliosis is measured as the Cobb angle on a frontal film, kyphosis and lordosis on a lateral film. The slide gives names only; the book adds causes, signs and treatments.",
+    "terms": [
+      {"t": "Scoliosis", "d": "Abnormal lateral (sideways) curvature of the spine, usually thoracic."},
+      {"t": "Kyphosis", "d": "Exaggerated thoracic curve producing a rounded 'hunchback'."},
+      {"t": "Lordosis", "d": "Exaggerated lumbar curve, 'hollow back'."},
+      {"t": "Osteoporosis", "d": "Loss of bone mass making bones fragile; a cause of kyphosis through vertebral collapse."},
+      {"t": "Rickets", "d": "Childhood vitamin D deficiency with soft, bendable bones."},
+      {"t": "Congenital", "d": "Present at birth."},
+      {"t": "Sciatica", "d": "Pain along the sciatic nerve from lower back down the leg."}
+    ]
+  },
+  {
+    "n": 50,
+    "title": "Herniated disc",
+    "kind": "figure",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "Disorders: Homeostatic Imbalances",
+        "section_title": "Herniated (Slipped) Disc",
+        "book_pages": "237",
+        "pdf_pages": "253",
+        "capture": "p.237 left column: the subheading 'Herniated (Slipped) Disc' and its paragraph (starts 'In their function as shock absorbers'), which continues at the top of the right column for two paragraphs (why lumbar; posterior slip compressing spinal nerves, sciatica, treatments; ends '…relieve pressure on the nerves'); p.237 lower left: Figure 7.24 'Herniated (slipped) disc' (superior view: spinal cord, spinal nerve, herniated disc, nucleus pulposus, annulus fibrosus) — the slide's figure.",
+        "figures": ["7.24"],
+        "tables": []
+      },
+      {
+        "chapter": 7,
+        "section": "7.9",
+        "section_title": "Vertebral Column — Intervertebral Discs",
+        "book_pages": "225",
+        "pdf_pages": "241",
+        "capture": "p.225 left column: the paragraph under the subheading 'Intervertebral Discs' (starts 'Intervertebral discs (in′-ter-VER-te-bral; inter- = between') — annulus fibrosus, nucleus pulposus, shock absorption — and the following two paragraphs (daily compression; avascular discs).",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "Between every pair of vertebral bodies from C2 down to the sacrum is a disc: a tough outer ring of fibrocartilage (annulus fibrosus) around a soft, jelly-like, water-rich core (nucleus pulposus). Under load the core is squeezed and the ring bulges, spreading force like a water-filled cushion. Always compressed and without a blood supply, discs degenerate with age: the nucleus dries and the annulus tears. If the posterior ligaments are weak and the annulus gives way, the nucleus can squeeze out — 'herniate' — most often backward and to one side, where it presses on the spinal nerve leaving through the intervertebral foramen (or, higher up, on the cord). Pressure on a root gives pain and weakness in that nerve's territory; lumbar roots feed the sciatic nerve, so pain shoots down the leg. Herniations cluster at L4/5 and L5/S1 because the lumbar spine carries most weight and bends most. MRI shows the bulge; treatment ranges from rest to discectomy.",
+    "terms": [
+      {"t": "Intervertebral disc", "d": "Fibrocartilage cushion between adjacent vertebral bodies."},
+      {"t": "Annulus fibrosus", "d": "Outer ring of fibrocartilage of the disc."},
+      {"t": "Nucleus pulposus", "d": "Soft elastic gel core of the disc."},
+      {"t": "Herniation", "d": "Protrusion of tissue through a weakened wall; here the nucleus through the annulus."},
+      {"t": "Spinal nerve root", "d": "Bundle of nerve fibres leaving the cord to form a spinal nerve; compressed by a posterolateral herniation."},
+      {"t": "Sciatic nerve", "d": "Largest nerve of the body, formed from L4–S3 roots, running down the back of the leg."},
+      {"t": "Avascular", "d": "Without a blood supply; discs get nutrients by diffusion from the vertebral bodies."},
+      {"t": "Laminectomy / discectomy", "d": "Surgical removal of part of a lamina / of disc material to decompress a nerve."}
+    ]
+  },
+  {
+    "n": 51,
+    "title": "Spina Bifida",
+    "kind": "content",
+    "refs": [
+      {
+        "chapter": 7,
+        "section": "Disorders: Homeostatic Imbalances",
+        "section_title": "Spina Bifida",
+        "book_pages": "238",
+        "pdf_pages": "254",
+        "capture": "p.238 left column: the subheading 'Spina Bifida' and its paragraph (starts 'Spina bifida (SPĪ-na BIF-i-da) is a congenital'), which continues in the right column (spina bifida occulta; meningocele; meningomyelocele with paralysis and loss of bladder/bowel control; folic acid; prenatal diagnosis by alpha-fetoprotein and ultrasound; ends before the subheading 'Fractures of the Vertebral Column'); p.238 left column lower half: Figure 7.26 'Spina bifida with meningomyelocele'.",
+        "figures": ["7.26"],
+        "tables": []
+      },
+      {
+        "chapter": 8,
+        "section": "8.7",
+        "section_title": "Development of the Skeletal System",
+        "book_pages": "264",
+        "pdf_pages": "280",
+        "capture": "p.264 right column: the paragraph starting 'a vertebra form and the vertebral arch surrounds' (one sentence in parentheses: failure of the vertebral arch to develop properly results in spina bifida) — the developmental origin.",
+        "figures": [],
+        "tables": []
+      }
+    ],
+    "basics": "Each vertebral arch forms from two halves that grow round the spinal cord and fuse in the midline at the laminae. Spina bifida ('split spine') is the congenital failure of that fusion, most often at L5 or S1 where the neural tube closes last. Severity spans a spectrum. Spina bifida occulta: only the bone is open; the skin is intact, perhaps marked by a dimple or tuft of hair, and it is a common incidental finding on radiographs. Meningocele: the meninges (the cord's membranes) and cerebrospinal fluid bulge through the gap as a fluid-filled sac. Meningomyelocele: the cord and nerve roots are in the sac too, so the nerves below the lesion are damaged — leg paralysis, loss of bladder and bowel control, and often hydrocephalus. It is a neural-tube defect, and folic acid supplements before and during early pregnancy sharply cut its incidence; it is detected before birth by maternal blood alpha-fetoprotein and ultrasound.",
+    "terms": [
+      {"t": "Spina bifida", "d": "Congenital failure of the vertebral laminae to fuse in the midline."},
+      {"t": "Lamina", "d": "Flat plate of the vertebral arch; the two laminae normally meet at the spinous process."},
+      {"t": "Meninges", "d": "Three membranes (dura, arachnoid, pia) wrapping the brain and spinal cord."},
+      {"t": "Cerebrospinal fluid", "d": "Clear fluid surrounding brain and cord inside the meninges."},
+      {"t": "Meningocele", "d": "Sac of meninges and CSF protruding through the bony defect."},
+      {"t": "Meningomyelocele", "d": "Sac that also contains spinal cord or nerve roots; causes neurological deficit."},
+      {"t": "Spina bifida occulta", "d": "Hidden form: bony gap only, no sac, usually no symptoms."},
+      {"t": "Neural tube", "d": "Embryonic tube that becomes brain and spinal cord; its incomplete closure underlies these defects."},
+      {"t": "Folic acid", "d": "B vitamin whose supplementation in early pregnancy reduces neural-tube defects."}
+    ]
+  }
+]

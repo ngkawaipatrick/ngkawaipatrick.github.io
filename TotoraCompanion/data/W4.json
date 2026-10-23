@@ -1,0 +1,3303 @@
+[
+ {
+  "n": 1,
+  "title": "HTI5001",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 2,
+  "title": "Learning objectives",
+  "kind": "admin",
+  "refs": [],
+  "basics": "",
+  "terms": []
+ },
+ {
+  "n": 3,
+  "title": "Overview of the circulation",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood — Systemic and Pulmonary Circulations",
+    "book_pages": "737-738",
+    "pdf_pages": "753-754",
+    "capture": "p.737 right column, bottom: heading 'Systemic and Pulmonary Circulations' and its first 3 lines (start 'In postnatal (after birth) circulation'); runs over the page break to p.738 bottom, left column paragraph (start 'two circuits are arranged in series') and right column paragraph (start 'The right side of the heart'); p.738 Figure 20.7 (a) and (b) whole figure with key",
+    "figures": [
+     "20.7"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.7",
+    "section_title": "Circulatory Routes: Systemic Circulation",
+    "book_pages": "796-797",
+    "pdf_pages": "812-813",
+    "capture": "p.796 left column, under heading '21.7 Circulatory Routes: Systemic Circulation': the one paragraph beginning 'Arteries, arterioles, capillaries, venules, and veins' (continues into the right column top); p.797 Figure 21.17 whole page",
+    "figures": [
+     "21.17"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Blood is a fluid that has to be moved round a closed loop of tubes by a pump. The loop is actually two loops joined in series: the right half of the heart pushes blood through the lungs (pulmonary circulation) so it can pick up oxygen and dump carbon dioxide, and the left half pushes that oxygen-rich blood through every other organ (systemic circulation). Vessels leaving the heart are arteries, vessels returning are veins, whatever gas the blood carries; that is why the pulmonary arteries carry oxygen-poor blood. The atria are the receiving chambers, the ventricles the pumping chambers. Because the two loops are in series, the volume pumped per minute by each side must be equal on average; the slide does not say that the systemic loop runs at roughly five times the pressure of the pulmonary loop.",
+  "terms": [
+   {
+    "t": "Artery",
+    "d": "Any vessel carrying blood away from the heart, regardless of oxygen content."
+   },
+   {
+    "t": "Vein",
+    "d": "Any vessel carrying blood back toward the heart."
+   },
+   {
+    "t": "Atrium",
+    "d": "One of the two thin-walled upper chambers that receive blood from veins."
+   },
+   {
+    "t": "Ventricle",
+    "d": "One of the two thick-walled lower chambers that eject blood into arteries."
+   },
+   {
+    "t": "Pulmonary circulation",
+    "d": "The loop from right ventricle through the lungs back to the left atrium."
+   },
+   {
+    "t": "Systemic circulation",
+    "d": "The loop from left ventricle through all body tissues back to the right atrium."
+   },
+   {
+    "t": "Aorta",
+    "d": "The largest artery, leaving the left ventricle and feeding the whole systemic circuit."
+   },
+   {
+    "t": "Pulmonary trunk",
+    "d": "The single artery leaving the right ventricle that splits into right and left pulmonary arteries."
+   }
+  ],
+  "note": "The slide figure is a generic two-loop schematic; the closest Tortora figures are 20.7 (heart-centred) and 21.17 (whole-body routes)."
+ },
+ {
+  "n": 4,
+  "title": "Relationship of the heart to the sternum",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Location of the Heart",
+    "book_pages": "728-729",
+    "pdf_pages": "744-745",
+    "capture": "p.728 right column: the one long paragraph starting 'For all its might, the heart' (size, mediastinum, two-thirds left of midline, apex and base); p.728 Figure 20.1 (b) 'Anterior view of the heart in the thoracic cavity'; continues on p.729 left column, first paragraph (start 'In addition to the apex and base') describing the anterior, inferior, right and left surfaces",
+    "figures": [
+     "20.1"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Before learning what the heart does, you need to know where it sits. Anatomists describe position relative to an upright body facing you: a vertical line down the middle of the breastbone (sternum) is the midsternal line. The heart is roughly the size of your fist and lies behind the sternum, resting on the diaphragm (the dome of muscle separating chest from abdomen), with about two thirds of its mass to the left of the midline. Its pointed tip, the apex, points down, forward and to the left, near the fifth rib space; its broad base is at the top and back. This is why chest compressions on the lower sternum squeeze the heart against the spine. The slide gives no measurements; the book gives approximate dimensions and mass.",
+  "terms": [
+   {
+    "t": "Sternum",
+    "d": "The breastbone, the flat bone in the front midline of the chest to which the ribs attach."
+   },
+   {
+    "t": "Midsternal line",
+    "d": "An imaginary vertical line down the centre of the sternum, used as the body midline."
+   },
+   {
+    "t": "Diaphragm",
+    "d": "Dome-shaped sheet of skeletal muscle separating the thoracic cavity from the abdomen; the heart rests on it."
+   },
+   {
+    "t": "Apex of heart",
+    "d": "The pointed lower tip of the heart, formed by the left ventricle."
+   },
+   {
+    "t": "Base of heart",
+    "d": "The broad upper and posterior part of the heart, formed mainly by the atria."
+   },
+   {
+    "t": "Anterior / posterior",
+    "d": "Toward the front / toward the back of the body."
+   },
+   {
+    "t": "Inferior / superior",
+    "d": "Toward the feet / toward the head."
+   }
+  ],
+  "note": "The slide figure (heart outlined against sternum and ribs with the midsternal line) is Figure 20.1c of older Tortora editions; in the 16th edition only parts (a) and (b) of Figure 20.1 exist, so use Figure 20.1b and the text."
+ },
+ {
+  "n": 5,
+  "title": "The human heart and great vessels",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Location of the Heart; Chambers of the Heart",
+    "book_pages": "728-729",
+    "pdf_pages": "744-745",
+    "capture": "p.728 right column paragraph starting 'For all its might, the heart' and Figure 20.1 (b) at the bottom of the page (shows aortic arch, pulmonary trunk, lungs, pleura, apex, diaphragm); p.729 left column, first paragraph (start 'In addition to the apex and base') on the heart's surfaces",
+    "figures": [
+     "20.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — surface features",
+    "book_pages": "731-732",
+    "pdf_pages": "747-748",
+    "capture": "p.731 Figure 20.3 (a) 'Anterior external view showing surface features' (labels brachiocephalic trunk, left common carotid, left subclavian, aortic arch, superior vena cava, pulmonary trunk, fibrous pericardium cut); p.732 Figure 20.3 (b) photograph of the same view",
+    "figures": [
+     "20.3"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The great vessels are the large tubes that plug into the top of the heart. Two bring blood in (superior and inferior venae cavae into the right atrium, pulmonary veins into the left atrium) and two carry it out (pulmonary trunk from the right ventricle, aorta from the left ventricle). The aorta arches over the heart and gives off three branches to the head and arms: the brachiocephalic artery (which splits into right subclavian and right common carotid), the left common carotid and the left subclavian. In a dissection the heart is found inside its pericardial sac, flanked by the lungs which are wrapped in their own serous membrane, the pleura. The slide names structures but does not say which carry oxygenated versus deoxygenated blood, nor the order of branches from the arch.",
+  "terms": [
+   {
+    "t": "Great vessels",
+    "d": "The large arteries and veins attached directly to the heart: aorta, pulmonary trunk, venae cavae, pulmonary veins."
+   },
+   {
+    "t": "Brachiocephalic artery (trunk)",
+    "d": "First branch of the aortic arch; supplies the right arm and right side of head and neck."
+   },
+   {
+    "t": "Common carotid artery",
+    "d": "Artery running up the neck to supply the head and brain; one on each side."
+   },
+   {
+    "t": "Subclavian artery",
+    "d": "Artery passing under the clavicle to supply the upper limb."
+   },
+   {
+    "t": "Superior vena cava",
+    "d": "Large vein returning blood from the head, neck, arms and chest to the right atrium."
+   },
+   {
+    "t": "Parietal pleura",
+    "d": "Outer layer of the serous membrane around each lung, lining the chest wall."
+   },
+   {
+    "t": "Pericardial sac",
+    "d": "The fibrous and serous bag enclosing the heart."
+   }
+  ],
+  "note": "The slide photograph is not a Tortora figure; Tortora's Figure 20.3a and b carry the same labels for the vessels."
+ },
+ {
+  "n": 6,
+  "title": "Mid-sagittal section of the Mediastinum",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 1,
+    "section": "1.5",
+    "section_title": "Basic Anatomical Terminology — Body Cavities",
+    "book_pages": "17-18",
+    "pdf_pages": "33-34",
+    "capture": "p.17 right column, lower half: the paragraph starting 'The major body cavities of the trunk' that defines the thoracic cavity, pericardial and pleural cavities and the mediastinum (from sternum to vertebral column, first rib to diaphragm); it runs over the page break to p.18 left column, top 4 lines (start 'structures in the mediastinum are')",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 1,
+    "section": "1.5",
+    "section_title": "Body Cavities — thoracic cavity figures",
+    "book_pages": "19-20",
+    "pdf_pages": "35-36",
+    "capture": "p.19 Figure 1.10 table on the right: rows 'Thoracic cavity', 'Pleural cavity', 'Pericardial cavity', 'Mediastinum'; p.20 Figure 1.11 (a) anterior view and (b) inferior transverse section with the dashed mediastinum borders",
+    "figures": [
+     "1.10",
+     "1.11"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Location of the Heart",
+    "book_pages": "728",
+    "pdf_pages": "744",
+    "capture": "p.728 right column, sentences in the middle of the paragraph beginning 'The heart lies in the mediastinum' (about 4 lines) and Figure 20.1 (a) transverse section",
+    "figures": [
+     "20.1"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The chest cavity is not one open space. Each lung sits in its own bag (pleural cavity), and everything between the two lungs, from the breastbone in front to the spine behind and from the first rib down to the diaphragm, is called the mediastinum. Clinicians subdivide it: a horizontal plane through the sternal angle (the bump where the manubrium meets the sternal body, level with the second rib) separates the superior mediastinum above from the inferior mediastinum below; the inferior part is further split into anterior (in front of the pericardium), middle (the heart in its pericardium) and posterior (behind it: oesophagus, descending aorta). A mid-sagittal section is a cut in the vertical front-to-back plane through the midline. Tortora defines the mediastinum but does not subdivide it.",
+  "terms": [
+   {
+    "t": "Mediastinum",
+    "d": "The central compartment of the chest between the lungs, holding the heart, great vessels, oesophagus, trachea and thymus."
+   },
+   {
+    "t": "Sagittal plane",
+    "d": "A vertical plane dividing the body into left and right parts; mid-sagittal passes through the midline."
+   },
+   {
+    "t": "Sternal angle",
+    "d": "The palpable ridge where the upper and middle parts of the sternum meet, at the level of the second rib."
+   },
+   {
+    "t": "Thoracic cavity",
+    "d": "The chest space enclosed by ribs, sternum, thoracic spine and diaphragm."
+   },
+   {
+    "t": "Pleural cavity",
+    "d": "The thin fluid-filled space between the two layers of pleura around each lung."
+   },
+   {
+    "t": "Serous membrane",
+    "d": "A slippery double-layered lining of closed body cavities: a parietal layer on the wall, a visceral layer on the organ."
+   }
+  ],
+  "note": "The superior/anterior/middle/posterior subdivision of the mediastinum and the sternal angle landmark are not in Tortora; the nearest passages define the mediastinum as a whole (pp.17-18, Figure 1.11, p.728)."
+ },
+ {
+  "n": 7,
+  "title": "Location of the Heart and Lungs",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Location of the Heart",
+    "book_pages": "728",
+    "pdf_pages": "744",
+    "capture": "p.728 Figure 20.1 (a) 'Inferior view of transverse section of thoracic cavity showing the heart in the mediastinum' (labels sternum, heart, pericardial cavity, lungs, pleural cavities, aorta, oesophagus, sixth thoracic vertebra) plus the right-column paragraph starting 'For all its might, the heart'",
+    "figures": [
+     "20.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 1,
+    "section": "1.5",
+    "section_title": "Body Cavities — thoracic cavity",
+    "book_pages": "20",
+    "pdf_pages": "36",
+    "capture": "p.20 Figure 1.11 (b) 'Inferior view of transverse section of thoracic cavity' with the dashed mediastinum border, and the Note in the figure caption explaining why anterior appears on top in inferior views",
+    "figures": [
+     "1.11"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "This is a horizontal slice through the chest viewed from below, the convention used for CT scans: the front of the body is at the top of the picture and the patient's left is on your right. In that slice the heart sits in the middle, tilted so the right ventricle faces forward behind the sternum and the left ventricle faces back and to the left; the interventricular septum divides them. The heart is wrapped in the pericardial cavity, the lungs lie on either side in their pleural cavities, and behind the heart are the oesophagus and descending aorta in front of the vertebra. The slide's terms 'middle' and 'posterior mediastinum' are clinical subdivisions; Tortora treats the mediastinum as one region.",
+  "terms": [
+   {
+    "t": "Transverse (cross) section",
+    "d": "A horizontal cut dividing the body into upper and lower parts."
+   },
+   {
+    "t": "Interventricular septum",
+    "d": "The muscular wall separating the right and left ventricles."
+   },
+   {
+    "t": "Pericardial cavity",
+    "d": "The narrow fluid film between the two serous layers of the pericardium around the heart."
+   },
+   {
+    "t": "Thoracic vertebra",
+    "d": "One of the twelve spine bones of the chest region, to which ribs attach."
+   },
+   {
+    "t": "Oesophagus",
+    "d": "The muscular food tube running behind the heart from throat to stomach."
+   },
+   {
+    "t": "Descending aorta",
+    "d": "The part of the aorta running down the back of the chest and abdomen after the arch."
+   }
+  ],
+  "note": "The subdivision into middle and posterior mediastinum is not in Tortora (see slide 6 note)."
+ },
+ {
+  "n": 8,
+  "title": "The concept of Pericardial cavity and Pericardium",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Pericardium",
+    "book_pages": "729-730",
+    "pdf_pages": "745-746",
+    "capture": "p.729 left column, heading 'Pericardium' and the paragraph under it (start 'The membrane that surrounds and protects'), continuing at the top of the right column (fibrous pericardium: 'sufficient freedom of movement' to 'movement of blood by the heart'); p.729 Figure 20.2 (a) and (b); p.730 left column, the paragraph below the CPR box (start 'The deeper serous pericardium'), which runs over to the right column top ending at 'called the pericardial cavity'",
+    "figures": [
+     "20.2"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 1,
+    "section": "1.5",
+    "section_title": "Body Cavities — Thoracic and Abdominal Cavity Membranes",
+    "book_pages": "18-19",
+    "pdf_pages": "34-35",
+    "capture": "p.18 right column, bottom: heading 'Thoracic and Abdominal Cavity Membranes' and the paragraph defining a serous membrane with parietal and visceral layers; p.19 left column below the figure, the sentences starting 'The serous membrane of the pericardial cavity'",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Imagine pushing your fist into a partly inflated balloon: the rubber touching your fist is the visceral layer, the outer rubber is the parietal layer, and the thin space between them is the cavity. That is how every serous membrane works, and the pericardium is the one round the heart. It has two main parts: a tough outer bag of dense connective tissue, the fibrous pericardium, anchored to the diaphragm and the great vessels, and inside it a thin double-layered serous pericardium. The parietal serous layer is stuck to the inside of the fibrous bag; the visceral serous layer (also called the epicardium) is stuck to the heart. Between them a few millilitres of pericardial fluid let the beating heart slide without friction. The slide's sentence about the fibrous pericardium should be read this way: it fuses with the parietal layer, not directly with the heart surface.",
+  "terms": [
+   {
+    "t": "Pericardium",
+    "d": "The layered sac that encloses, protects and anchors the heart."
+   },
+   {
+    "t": "Fibrous pericardium",
+    "d": "The outermost tough, inelastic connective-tissue layer of the sac."
+   },
+   {
+    "t": "Serous pericardium",
+    "d": "The thin, slippery double membrane inside the fibrous layer."
+   },
+   {
+    "t": "Parietal layer",
+    "d": "The part of a serous membrane lining the wall of a cavity."
+   },
+   {
+    "t": "Visceral layer",
+    "d": "The part of a serous membrane covering the organ itself; for the heart, the epicardium."
+   },
+   {
+    "t": "Pericardial fluid",
+    "d": "Lubricating fluid secreted into the pericardial cavity to reduce friction."
+   },
+   {
+    "t": "Dense irregular connective tissue",
+    "d": "Tough tissue of collagen fibres running in many directions, resisting stretch."
+   },
+   {
+    "t": "Mesothelium",
+    "d": "The single layer of flat cells that forms serous membranes."
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "title": "Superficial dissection of the Thorax",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Location of the Heart; Pericardium",
+    "book_pages": "728-729",
+    "pdf_pages": "744-745",
+    "capture": "p.728 Figure 20.1 (b) anterior view of the heart in the thoracic cavity (aortic arch, pulmonary trunk, lungs with pleura cut, diaphragm); p.729 left column, 'Pericardium' paragraph and right column top (fibrous pericardium description, start 'sufficient freedom of movement')",
+    "figures": [
+     "20.1",
+     "20.2"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 1,
+    "section": "1.5",
+    "section_title": "Body Cavities — thoracic cavity",
+    "book_pages": "20",
+    "pdf_pages": "36",
+    "capture": "p.20 Figure 1.11 (a) 'Anterior view of thoracic cavity' showing the pericardium and pleura in place",
+    "figures": [
+     "1.11"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "This is a cadaver photograph after removing the front chest wall. Read it top to bottom: in the neck are the larynx (voice box), thyroid gland and trachea (windpipe) with the common carotid and subclavian arteries beside them and the anterior scalene muscles. Below, the arch of the aorta gives off its branches and the superior vena cava descends on the right. The heart is still hidden inside its fibrous pericardium, a whitish tough bag, flanked by the two lungs; the phrenic nerves run down over the pericardium on their way to the diaphragm, which they control. Under the diaphragm on the right is the liver. The slide only asks you to recognise the pericardial sac in situ; nothing about its layers is shown, so pair it with slide 8.",
+  "terms": [
+   {
+    "t": "Thorax",
+    "d": "The chest: the part of the trunk between neck and diaphragm."
+   },
+   {
+    "t": "Larynx",
+    "d": "The voice box at the top of the trachea."
+   },
+   {
+    "t": "Trachea",
+    "d": "The windpipe, a cartilage-ringed tube from larynx to the bronchi."
+   },
+   {
+    "t": "Thyroid gland",
+    "d": "Hormone-producing gland wrapped round the front of the trachea below the larynx."
+   },
+   {
+    "t": "Phrenic nerve",
+    "d": "Nerve from the neck (C3-C5) that runs over the pericardium to drive the diaphragm."
+   },
+   {
+    "t": "Anterior scalene muscle",
+    "d": "Neck muscle from cervical vertebrae to the first rib; the subclavian artery passes behind it."
+   },
+   {
+    "t": "Superficial",
+    "d": "Nearer the body surface."
+   }
+  ],
+  "note": "The photograph is not a Tortora figure; the cited pages show the same relationships diagrammatically."
+ },
+ {
+  "n": 10,
+  "title": "Anatomy of the Heart",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Chambers of the Heart (surface features)",
+    "book_pages": "731",
+    "pdf_pages": "747",
+    "capture": "p.731 Figure 20.3 (a) 'Anterior external view showing surface features' (lower two-thirds of page, all labels match the slide); p.731 left column, heading 'Chambers of the Heart' and its paragraph (start 'The heart has four chambers'), running into the right column top (coronary sulcus, anterior and posterior interventricular sulci)",
+    "figures": [
+     "20.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Left Ventricle (ligamentum arteriosum)",
+    "book_pages": "734",
+    "pdf_pages": "750",
+    "capture": "p.734 right column, last paragraph (start 'During fetal life, a temporary blood vessel') on the ductus arteriosus and ligamentum arteriosum",
+    "figures": [
+     "20.4"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Looking at the front of the heart, the four chambers can be found by their surface grooves (sulci), which hold the coronary vessels packed in fat. The coronary sulcus runs round the heart like a crown and separates the atria above from the ventricles below; the anterior interventricular sulcus runs down the front between right and left ventricles. Each atrium has a wrinkled ear-like pouch, the auricle, which adds a little capacity. The vessels at the top are the venae cavae and pulmonary veins (in), and the pulmonary trunk and ascending aorta (out). The ligamentum arteriosum is a short fibrous cord between pulmonary trunk and aortic arch, the leftover of the fetal ductus arteriosus that once let blood bypass the lungs.",
+  "terms": [
+   {
+    "t": "Sulcus (pl. sulci)",
+    "d": "A groove on the heart surface marking a boundary between chambers and carrying vessels and fat."
+   },
+   {
+    "t": "Coronary sulcus",
+    "d": "The groove encircling the heart between atria and ventricles."
+   },
+   {
+    "t": "Anterior interventricular sulcus",
+    "d": "The front groove between the two ventricles."
+   },
+   {
+    "t": "Auricle",
+    "d": "Ear-shaped pouch on the front of each atrium that slightly increases its volume."
+   },
+   {
+    "t": "Ligamentum arteriosum",
+    "d": "Fibrous remnant of the fetal ductus arteriosus joining pulmonary trunk to aortic arch."
+   },
+   {
+    "t": "Ascending aorta",
+    "d": "The first part of the aorta rising from the left ventricle before it arches."
+   },
+   {
+    "t": "Inferior vena cava",
+    "d": "Large vein bringing blood from the lower body into the right atrium."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "title": "Anterior external of heart",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Chambers of the Heart (surface features)",
+    "book_pages": "732",
+    "pdf_pages": "748",
+    "capture": "p.732 Figure 20.3 (b) 'Anterior external view' photograph (upper half of page); every slide label appears on it",
+    "figures": [
+     "20.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Chambers of the Heart",
+    "book_pages": "731",
+    "pdf_pages": "747",
+    "capture": "p.731 left column, paragraph under 'Chambers of the Heart' (start 'The heart has four chambers') and its continuation at the top of the right column describing the sulci",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This is the real-specimen version of the previous diagram. On a dissected heart the fat in the grooves hides the vessels, so you locate the coronary sulcus and anterior interventricular sulcus as yellowish bands. The right ventricle forms most of the front surface, the left ventricle the left border and apex, and the auricles peep out on either side of the pulmonary trunk. The three branches off the aortic arch (brachiocephalic trunk, left common carotid, left subclavian) identify which way is right and left. Practice naming each structure and stating whether it carries oxygen-rich or oxygen-poor blood; the slide does not tell you.",
+  "terms": [
+   {
+    "t": "Brachiocephalic trunk",
+    "d": "First and largest branch of the aortic arch, supplying the right arm and right head/neck."
+   },
+   {
+    "t": "Aortic arch",
+    "d": "The curved part of the aorta between its ascending and descending portions."
+   },
+   {
+    "t": "Pulmonary veins",
+    "d": "Four veins carrying oxygenated blood from the lungs into the left atrium."
+   },
+   {
+    "t": "Right atrium",
+    "d": "Upper right chamber receiving oxygen-poor blood from the venae cavae and coronary sinus."
+   },
+   {
+    "t": "Left atrium",
+    "d": "Upper left chamber receiving oxygen-rich blood from the pulmonary veins."
+   },
+   {
+    "t": "External (anatomy)",
+    "d": "Features visible on the outside surface of an organ."
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "title": "Posterior view of the heart",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Chambers of the Heart (surface features)",
+    "book_pages": "732",
+    "pdf_pages": "748",
+    "capture": "p.732 Figure 20.3 (c) 'Posterior external view showing surface features' (lower half of page: coronary sinus in the coronary sulcus, posterior interventricular sulcus, pulmonary veins, left atrium)",
+    "figures": [
+     "20.3"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — sulci; Left Atrium",
+    "book_pages": "731-734",
+    "pdf_pages": "747-750",
+    "capture": "p.731 right column, top: the sentences on the posterior interventricular sulcus (end of the paragraph continued from the left column); p.734 left column, heading 'Left Atrium' paragraph (start 'The left atrium is about the same thickness') which says it forms most of the base",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Coronary Circulation — Coronary Veins",
+    "book_pages": "741",
+    "pdf_pages": "757",
+    "capture": "p.741 left column, heading 'Coronary Veins' and its first paragraph (start 'After blood passes through the arteries') defining the coronary sinus",
+    "figures": [
+     "20.8"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Turn the heart round. From behind, the left atrium dominates because it forms most of the base, and the four pulmonary veins enter it. The right and left pulmonary arteries pass behind the aorta and superior vena cava toward the lungs. The coronary sulcus continues round the back and holds the coronary sinus, a wide thin-walled vein that collects most of the heart muscle's own venous blood and empties into the right atrium next to the inferior vena cava. The posterior interventricular sulcus marks the boundary between the ventricles on this surface. The apex still belongs to the left ventricle. The slide does not mention that the inferior surface visible here rests on the diaphragm.",
+  "terms": [
+   {
+    "t": "Posterior interventricular sulcus",
+    "d": "The back groove between the two ventricles."
+   },
+   {
+    "t": "Coronary sinus",
+    "d": "Large vein in the back part of the coronary sulcus draining heart-muscle blood into the right atrium."
+   },
+   {
+    "t": "Vascular sinus",
+    "d": "A thin-walled vein with no muscle in its wall, supported by surrounding tissue."
+   },
+   {
+    "t": "Right pulmonary artery",
+    "d": "Branch of the pulmonary trunk carrying oxygen-poor blood to the right lung."
+   },
+   {
+    "t": "Base of heart",
+    "d": "The posterior, upper aspect of the heart formed mostly by the left atrium."
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "title": "The interior of heart chambers and heart valves",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — internal anatomy",
+    "book_pages": "733",
+    "pdf_pages": "749",
+    "capture": "p.733 Figure 20.4 (a) 'Anterior view of coronal section showing internal anatomy' (upper half of page: fossa ovalis, valves, chordae tendineae, papillary muscle, trabeculae carneae, interventricular septum)",
+    "figures": [
+     "20.4"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Right Atrium, Right Ventricle, Left Atrium, Left Ventricle",
+    "book_pages": "731-734",
+    "pdf_pages": "747-750",
+    "capture": "p.731 right column, heading 'Right Atrium' paragraph (start 'The right atrium forms the right surface'; pectinate muscles, interatrial septum, fossa ovalis), which runs over the page break to p.734 left column below Figure 20.4c (first paragraph, tricuspid valve); then p.734 headings 'Right Ventricle' (left column), 'Left Atrium' (left column bottom, continues right column) and 'Left Ventricle' (right column)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Layers of the Heart Wall",
+    "book_pages": "729-731",
+    "pdf_pages": "745-747",
+    "capture": "p.729 Figure 20.2 (a) portion of pericardium and heart wall (epicardium, myocardium, endocardium); p.730 right column, heading 'Layers of the Heart Wall' and the two paragraphs under it (epicardium, myocardium); p.731 left column, first paragraph (start 'The innermost endocardium')",
+    "figures": [
+     "20.2"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Cut the heart open front-to-back and you see four chambers separated by two walls (interatrial and interventricular septa) and guarded by four one-way valves. Blood from the venae cavae enters the right atrium, passes the tricuspid (right AV) valve into the right ventricle, leaves through the pulmonary valve; returns from the lungs to the left atrium, passes the mitral (bicuspid, left AV) valve into the left ventricle and exits through the aortic valve. AV valve flaps are tethered by string-like chordae tendineae to papillary muscles so they cannot blow back into the atria. Ridges on the atrial wall are pectinate muscles; on the ventricle wall, trabeculae carneae. The fossa ovalis is the sealed fetal hole between the atria. The wall itself has three layers: epicardium outside, thick myocardium, endocardium lining.",
+  "terms": [
+   {
+    "t": "Atrioventricular (AV) valve",
+    "d": "Valve between an atrium and its ventricle: tricuspid on the right, bicuspid/mitral on the left."
+   },
+   {
+    "t": "Cusp",
+    "d": "One flap of a valve; the tricuspid has three, the mitral two."
+   },
+   {
+    "t": "Chordae tendineae",
+    "d": "Tendon-like cords tying the AV valve cusps to papillary muscles."
+   },
+   {
+    "t": "Papillary muscle",
+    "d": "Cone-shaped muscle projection in a ventricle that tenses the chordae during contraction."
+   },
+   {
+    "t": "Trabeculae carneae",
+    "d": "Muscular ridges on the inner ventricular wall."
+   },
+   {
+    "t": "Pectinate muscles",
+    "d": "Comb-like ridges on the anterior wall of the atria and inside the auricles."
+   },
+   {
+    "t": "Fossa ovalis",
+    "d": "Oval depression in the interatrial septum, remnant of the fetal foramen ovale."
+   },
+   {
+    "t": "Endocardium",
+    "d": "Smooth inner lining of the chambers and valves, continuous with vessel endothelium."
+   },
+   {
+    "t": "Myocardium",
+    "d": "The thick middle layer of cardiac muscle that does the pumping."
+   },
+   {
+    "t": "Epicardium",
+    "d": "The outer layer of the heart wall, the same thing as the visceral serous pericardium."
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "title": "Mitral valve",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood — Operation of the Atrioventricular Valves",
+    "book_pages": "736",
+    "pdf_pages": "752",
+    "capture": "p.736 left column, heading 'Operation of the Atrioventricular Valves' and its paragraph (start 'The valves located between an atrium'), continuing at the top of the right column to 'when the ventricles contract'; p.736 Figure 20.6 (a) 'Left atrioventricular valve open' and (b) 'closed' (middle of page)",
+    "figures": [
+     "20.6"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Left Atrium (naming of the mitral valve)",
+    "book_pages": "734",
+    "pdf_pages": "750",
+    "capture": "p.734 right column, first paragraph (continuation of 'Left Atrium', start 'pulmonary veins. Like the right atrium'): the sentences naming the left atrioventricular (bicuspid or mitral) valve and explaining 'mitral'",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Clinical Connection: Heart Valve Disorders",
+    "book_pages": "739",
+    "pdf_pages": "755",
+    "capture": "p.739 Clinical Connection box (top of page, both columns) on stenosis, insufficiency and mitral valve prolapse, with the three small diagrams beneath it",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The mitral valve is the two-flap door between left atrium and left ventricle, named after a bishop's two-peaked hat. Valves in the heart have no muscle of their own; they are passive flaps of connective tissue covered by endocardium that swing according to which side has higher pressure. When the ventricle relaxes and atrial pressure is higher, the cusps hang open into the ventricle. When the ventricle contracts, the rising pressure pushes the cusps up until their edges meet; simultaneously the papillary muscles contract and tighten the chordae tendineae, so the cusps cannot flip into the atrium. Because the left ventricle generates the highest pressures, this valve suffers most from wear: it can narrow (stenosis) or leak (insufficiency, prolapse).",
+  "terms": [
+   {
+    "t": "Mitral (bicuspid) valve",
+    "d": "The two-cusp valve between left atrium and left ventricle."
+   },
+   {
+    "t": "Regurgitation",
+    "d": "Backward leak of blood through a valve that fails to close fully."
+   },
+   {
+    "t": "Stenosis",
+    "d": "Narrowing of a valve opening that restricts forward flow."
+   },
+   {
+    "t": "Valve prolapse",
+    "d": "Bulging of a valve cusp backward into the atrium during ventricular contraction."
+   },
+   {
+    "t": "Dense connective tissue",
+    "d": "Strong collagen-rich tissue forming the core of each valve cusp."
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "title": "Circulation of blood through the heart",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood — Systemic and Pulmonary Circulations",
+    "book_pages": "737-738",
+    "pdf_pages": "753-754",
+    "capture": "p.738 Figure 20.7 (a) 'Path of blood flow through heart' (numbered 1-10, upper right of the figure) and (b) the schematic; text: p.737 right column bottom heading 'Systemic and Pulmonary Circulations' (3 lines) continuing on p.738 below the figure, left column (start 'two circuits are arranged in series') and right column (start 'The right side of the heart')",
+    "figures": [
+     "20.7"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — internal anatomy",
+    "book_pages": "733",
+    "pdf_pages": "749",
+    "capture": "p.733 Figure 20.4 (a) coronal section (use to trace the route through valves)",
+    "figures": [
+     "20.4"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Follow one drop of blood. Oxygen-poor blood from the body enters the right atrium via the superior and inferior venae cavae (and coronary sinus), drops through the tricuspid valve into the right ventricle, is pumped through the pulmonary valve into the pulmonary trunk and its two pulmonary arteries, loads oxygen in the lung capillaries, returns by four pulmonary veins to the left atrium, passes the mitral valve into the left ventricle, and is ejected through the aortic valve into the aorta to the body. So blood passes through the heart twice per lap. The two sides beat together, not one after the other: both atria contract at the same time and then both ventricles. The slide figure names the chambers and valves but not the sequence; number them yourself as Tortora does.",
+  "terms": [
+   {
+    "t": "Pulmonary valve",
+    "d": "Semilunar valve between the right ventricle and the pulmonary trunk."
+   },
+   {
+    "t": "Aortic valve",
+    "d": "Semilunar valve between the left ventricle and the aorta."
+   },
+   {
+    "t": "Tricuspid valve",
+    "d": "Three-cusp valve between right atrium and right ventricle."
+   },
+   {
+    "t": "Deoxygenated blood",
+    "d": "Blood that has given up much of its oxygen to tissues; drawn blue by convention."
+   },
+   {
+    "t": "Oxygenated blood",
+    "d": "Blood that has picked up oxygen in the lungs; drawn red by convention."
+   },
+   {
+    "t": "In series",
+    "d": "Arranged one after another so the output of one becomes the input of the next."
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "title": "Blood going in and out of the lungs",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "21.21",
+    "section_title": "Circulatory Routes: The Pulmonary Circulation",
+    "book_pages": "834-835",
+    "pdf_pages": "850-851",
+    "capture": "p.834 right column, heading '21.21 Circulatory Routes: The Pulmonary Circulation' and the paragraph beginning 'The pulmonary circulation carries deoxygenated blood' (bottom of page), running over the page break to p.835 below Figure 21.30 (both columns, ending 'into the systemic circulation'); p.835 Figure 21.30 (a) and (b)",
+    "figures": [
+     "21.30"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 23,
+    "section": "23.3",
+    "section_title": "The Lower Respiratory System — Blood Supply to the Lungs",
+    "book_pages": "909-911",
+    "pdf_pages": "925-927",
+    "capture": "p.909 right column, heading 'Blood Supply to the Lungs' and the two paragraphs under it (start 'The lungs receive blood via two sets'; second paragraph 'Bronchial arteries, which branch from the aorta'), which run over to p.911 left column, first 2 lines (bronchial veins, azygos system)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.7",
+    "section_title": "Circulatory Routes: Systemic Circulation",
+    "book_pages": "796",
+    "pdf_pages": "812",
+    "capture": "p.796 left column, the short paragraph starting 'Some of the subdivisions of the systemic circulation' whose last sentence says the bronchial arteries belong to the systemic circulation",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The lungs receive two separate blood supplies with different jobs. The pulmonary arteries carry the whole output of the right ventricle: this is the blood that is being treated, oxygen-poor blood spread over the alveolar capillaries to exchange gases, and it returns oxygen-rich by the four pulmonary veins to the left atrium. The lung tissue itself (bronchial walls, connective tissue) also needs feeding like any organ, so small bronchial arteries branch from the thoracic aorta carrying systemic oxygenated blood; most of that blood drains through connections into the pulmonary veins, and a little via bronchial veins into the azygos system and hence the superior vena cava and right atrium. The slide calls the pulmonary-artery blood 'venous blood supply' meaning oxygen-poor blood, not that the vessels are veins.",
+  "terms": [
+   {
+    "t": "Bronchial arteries",
+    "d": "Small branches of the aorta that nourish the airway walls and lung tissue."
+   },
+   {
+    "t": "Bronchial veins",
+    "d": "Small veins draining part of the bronchial blood into the azygos system toward the right atrium."
+   },
+   {
+    "t": "Alveolus (pl. alveoli)",
+    "d": "Microscopic air sac in the lung where gas exchange with capillary blood occurs."
+   },
+   {
+    "t": "Pulmonary capillaries",
+    "d": "The capillary network around alveoli where CO2 leaves and O2 enters blood."
+   },
+   {
+    "t": "Azygos system",
+    "d": "Veins along the back of the thorax that drain chest wall and lung tissue into the superior vena cava."
+   },
+   {
+    "t": "Perfusion",
+    "d": "Blood flow through a tissue."
+   }
+  ],
+  "note": "The bronchial vessels are described in Chapter 23 (p.909), not in the cardiovascular chapters."
+ },
+ {
+  "n": 17,
+  "title": "Differences in ventricular wall thickness",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Myocardial Thickness and Function",
+    "book_pages": "734-735",
+    "pdf_pages": "750-751",
+    "capture": "p.734 Figure 20.4 (c) 'Inferior view of transverse section showing differences in thickness of ventricular walls' (top of page; labels right ventricle, interventricular septum, lumen, left ventricle exactly as on the slide); p.735 left column, heading 'Myocardial Thickness and Function' and the single paragraph under it (start 'The thickness of the myocardium')",
+    "figures": [
+     "20.4"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Layers of the Heart Wall (myocardium bundles)",
+    "book_pages": "729-730",
+    "pdf_pages": "745-746",
+    "capture": "p.729 Figure 20.2 (c) 'Cardiac muscle bundles of the myocardium' (right side of the figure); p.730 right column, the paragraph starting 'The middle myocardium' (spiral bundles of fibres)",
+    "figures": [
+     "20.2"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Muscle thickness follows workload. Both ventricles eject the same volume per beat, but the right one pushes it only through the low-resistance lungs at roughly 25 mmHg, whereas the left must drive it round the whole body against about 120 mmHg. So the left ventricular wall is about three times thicker (10-15 mm versus 4-5 mm), its cavity is round in cross-section, and the thinner right ventricle wraps round it as a crescent. Atria, which only top up the ventricles, are thinnest of all. The muscle fibres are not simply circular: they run in spiral bundles that wrap the ventricles like a twisted towel, which is what the slide calls the myocardial vortex; when they shorten, the apex twists and the chamber is wrung out rather than squeezed.",
+  "terms": [
+   {
+    "t": "Lumen",
+    "d": "The hollow inside of a chamber or tube."
+   },
+   {
+    "t": "Myocardial vortex",
+    "d": "The spiral, swirling arrangement of muscle bundles converging at the apex."
+   },
+   {
+    "t": "Workload",
+    "d": "The pressure and volume of blood a chamber must pump per beat."
+   },
+   {
+    "t": "Resistance",
+    "d": "Opposition to blood flow, mainly from friction with vessel walls; low in lungs, high in body."
+   },
+   {
+    "t": "Crescent-shaped",
+    "d": "Moon-sliver shape of the right ventricular cavity seen in cross section."
+   }
+  ],
+  "note": "'Myocardial vortex' is not a Tortora term; the nearest is the description of swirling muscle bundles on p.730 and Figure 20.2c."
+ },
+ {
+  "n": 18,
+  "title": "The heart valves and the Fibrous skeleton",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Fibrous Skeleton of the Heart",
+    "book_pages": "735",
+    "pdf_pages": "751",
+    "capture": "p.735 left column, heading 'Fibrous Skeleton of the Heart' and its single paragraph (start 'In addition to cardiac muscle tissue'); p.735 Figure 20.5 'Fibrous skeleton of the heart' superior view (bottom of page)",
+    "figures": [
+     "20.5"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood — valves seen from above",
+    "book_pages": "737",
+    "pdf_pages": "753",
+    "capture": "p.737 Figure 20.6 (d) and (e) 'Superior view with atria removed' (top of page; shows the openings of the coronary arteries beside the aortic valve, as on the slide) and (f) photograph",
+    "figures": [
+     "20.6"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "If you slice off the atria and look down on the heart, the four valves lie almost in one plane, each set in a ring of dense connective tissue. These four rings, fused together and merging with the septum, are the fibrous skeleton. It does three things: it is the firm frame the valve cusps hang from and it stops the openings stretching; it is the anchor into which the muscle bundles insert; and, because connective tissue does not conduct electrical impulses, it insulates the atria from the ventricles so the only electrical path between them is the AV bundle. Just above the aortic valve, the two coronary arteries open from the aorta, which is why they fill mainly during relaxation when the aortic cusps fall back.",
+  "terms": [
+   {
+    "t": "Fibrous skeleton",
+    "d": "Four fused connective-tissue rings around the valve openings that support valves and insulate atria from ventricles."
+   },
+   {
+    "t": "Fibrous ring (annulus)",
+    "d": "The collagen ring surrounding one valve opening."
+   },
+   {
+    "t": "Semilunar valve",
+    "d": "Three-cusp valve at the exit of each ventricle: pulmonary and aortic."
+   },
+   {
+    "t": "Electrical insulator",
+    "d": "Tissue that does not pass action potentials from cell to cell."
+   },
+   {
+    "t": "Superior view",
+    "d": "Looking down from above."
+   },
+   {
+    "t": "Coronary artery openings",
+    "d": "The two ostia in the aortic wall just above the valve cusps where the coronary arteries begin."
+   }
+  ]
+ },
+ {
+  "n": 19,
+  "title": "Heart valves and circulation of blood",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood",
+    "book_pages": "736-737",
+    "pdf_pages": "752-753",
+    "capture": "p.736 left column, top: the introductory paragraph (start 'As each chamber of the heart contracts'), then heading 'Operation of the Atrioventricular Valves' with its paragraph running into the right column; right column heading 'Operation of the Semilunar Valves' whose paragraph runs over the page break to p.737 left column bottom (start 'project into the lumen of the artery'); p.736-737 Figure 20.6 all parts",
+    "figures": [
+     "20.6"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle — Heart Sounds",
+    "book_pages": "751-752",
+    "pdf_pages": "767-768",
+    "capture": "p.751 right column, heading 'Heart Sounds' and its two paragraphs (start 'Auscultation'; 'The first sound (S1)'), continuing at the top of p.752 right column to 'atrial systole'",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A pump needs valves so that squeezing pushes fluid forward rather than back. The heart's valves are passive: nothing pulls them open or shut except the pressure difference across them. When a ventricle fills, atrial pressure exceeds ventricular pressure and the AV valve hangs open; when the ventricle contracts, its pressure exceeds atrial pressure and the cusps are pushed together, with the chordae tendineae stopping them everting. Once ventricular pressure exceeds arterial pressure the semilunar valve is pushed open; when the ventricle relaxes, blood starting to fall back fills the cup-shaped cusps and slams them shut. That slamming, or rather the turbulence it causes, is the heart sound: AV closure gives the first sound, semilunar closure the second. Notice there are no valves where the veins enter the atria.",
+  "terms": [
+   {
+    "t": "Backflow",
+    "d": "Blood moving in the wrong direction, e.g. from ventricle back into atrium."
+   },
+   {
+    "t": "Pressure gradient",
+    "d": "A difference in pressure between two places; fluid moves down it, from high to low."
+   },
+   {
+    "t": "Systole",
+    "d": "The contraction phase of a heart chamber."
+   },
+   {
+    "t": "Diastole",
+    "d": "The relaxation and filling phase of a heart chamber."
+   },
+   {
+    "t": "Evert",
+    "d": "To turn inside out; here, a valve cusp flipping backward into the atrium."
+   },
+   {
+    "t": "Turbulence",
+    "d": "Irregular, swirling fluid flow that produces sound; smooth flow is silent."
+   },
+   {
+    "t": "Heart sounds",
+    "d": "The lub (S1) and dub (S2) produced by turbulence at AV and semilunar valve closure."
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "title": "Heart valves prevent the backflow of blood",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood — valves from above",
+    "book_pages": "737",
+    "pdf_pages": "753",
+    "capture": "p.737 Figure 20.6 (d) 'pulmonary and aortic valves closed, left and right atrioventricular valves open' and (e) 'pulmonary and aortic valves open, left and right atrioventricular valves closed' (top of page; slide labels match exactly); also (f) and (g) photographs beneath",
+    "figures": [
+     "20.6"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Operation of the Atrioventricular Valves; Operation of the Semilunar Valves",
+    "book_pages": "736-737",
+    "pdf_pages": "752-753",
+    "capture": "p.736 left column 'Operation of the Atrioventricular Valves' paragraph; p.736 right column 'Operation of the Semilunar Valves' paragraph continuing on p.737 left column bottom (start 'project into the lumen')",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "These two views from above (atria removed) show the two states of the heart. During filling (left picture) both AV valves gape open and both semilunar valves are shut, so blood can pass from atria to ventricles but not fall back from the arteries. During ejection (right picture) the reverse: AV valves closed, semilunar valves open. The valves therefore work in pairs and never all four open at once; there are two brief moments when all four are closed (isovolumetric phases). The aortic valve is bicuspid-looking here only because one cusp is hidden; all semilunar valves have three cup-shaped cusps. The left and right coronary arteries arise just above the aortic cusps.",
+  "terms": [
+   {
+    "t": "Open / closed valve",
+    "d": "Cusps apart letting blood pass, or edges pressed together blocking it."
+   },
+   {
+    "t": "Semilunar cusp",
+    "d": "One of three half-moon-shaped pockets forming a semilunar valve."
+   },
+   {
+    "t": "Bicuspid",
+    "d": "Having two cusps; another name for the mitral valve."
+   },
+   {
+    "t": "Isovolumetric",
+    "d": "Ventricular volume unchanged because all valves are closed."
+   },
+   {
+    "t": "Right coronary artery",
+    "d": "Artery from the aorta feeding the right side of the heart wall."
+   }
+  ]
+ },
+ {
+  "n": 21,
+  "title": "Atrioventricular valves",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood — Operation of the Atrioventricular Valves",
+    "book_pages": "736",
+    "pdf_pages": "752",
+    "capture": "p.736 left column, heading 'Operation of the Atrioventricular Valves' and its paragraph (start 'The valves located between an atrium'), continuing at the top of the right column to '...when the ventricles contract'; p.736 Figure 20.6 (a) valve open with chordae slack and (b) valve closed with chordae taut, and (c) photograph of the open right AV valve",
+    "figures": [
+     "20.6"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "An AV valve is like a parachute anchored by cords. In the open state (ventricle relaxed) the cusps hang loosely into the ventricle, the chordae tendineae are slack and the papillary muscles relaxed; blood flows atrium-to-ventricle down the pressure gradient. When the ventricle contracts, the rising pressure lifts the cusps until they meet; at the same instant the papillary muscles contract, pulling the cords tight, so the cusps are held exactly at the closed position and cannot billow into the atrium. If the cords or muscles are damaged the valve leaks (regurgitation). The slide shows the principle in a generic atrium-ventricle sketch; the same applies to both the tricuspid and the mitral valve.",
+  "terms": [
+   {
+    "t": "Atrioventricular valve",
+    "d": "Valve between atrium and ventricle: tricuspid (right), mitral (left)."
+   },
+   {
+    "t": "Slack / taut",
+    "d": "Loose / pulled tight, describing the chordae tendineae in open and closed states."
+   },
+   {
+    "t": "Papillary muscle",
+    "d": "Ventricular muscle projection that pulls on the chordae during systole."
+   },
+   {
+    "t": "Ventricular contraction",
+    "d": "The squeeze of ventricular muscle that raises chamber pressure."
+   },
+   {
+    "t": "Regurgitation",
+    "d": "Backward leak through an incompletely closed valve."
+   }
+  ]
+ },
+ {
+  "n": 22,
+  "title": "Semilunar valves",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood — Operation of the Semilunar Valves",
+    "book_pages": "736-737",
+    "pdf_pages": "752-753",
+    "capture": "p.736 right column, heading 'Operation of the Semilunar Valves' and its paragraph (start 'The aortic and pulmonary valves are known'), running over the page break to p.737 left column bottom (start 'project into the lumen of the artery', ending '...close the opening between the ventricle and artery'); p.737 Figure 20.6 (d), (e) and (g) 'Superior view of aortic valve'",
+    "figures": [
+     "20.6"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The two exit valves (aortic and pulmonary) have no cords or muscles. Each is three cup-shaped pockets attached to the artery wall with their openings facing away from the ventricle. During ejection the forward jet flattens the pockets against the wall and the valve is open. As the ventricle relaxes and its pressure falls below arterial pressure, blood starts to flow backward, drops into the pockets, fills them and pushes their free edges together in the middle: the valve seals itself. This is why they are called semilunar (half-moon) and why they close with a snap that gives the second heart sound. The aortic valve is the one most often replaced clinically.",
+  "terms": [
+   {
+    "t": "Semilunar valve",
+    "d": "Three pocket-shaped cusps at the root of the aorta or pulmonary trunk."
+   },
+   {
+    "t": "Pulmonary artery / trunk",
+    "d": "The vessel leaving the right ventricle; the slide's 'pulmonary artery' is Tortora's pulmonary trunk."
+   },
+   {
+    "t": "Ejection",
+    "d": "The phase when a ventricle pushes blood out through its open semilunar valve."
+   },
+   {
+    "t": "Free border",
+    "d": "The unattached edge of a cusp that meets the other cusps when closed."
+   },
+   {
+    "t": "Second heart sound (S2)",
+    "d": "The 'dub' caused by turbulence as the semilunar valves close."
+   }
+  ]
+ },
+ {
+  "n": 23,
+  "title": "Dissection of the human heart",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — internal anatomy",
+    "book_pages": "733",
+    "pdf_pages": "749",
+    "capture": "p.733 Figure 20.4 (b) 'Anterior view of partially sectioned heart' photograph (lower half of page; slide labels match exactly: auricle of right atrium cut open, pectinate muscles, cusp of right AV valve, chordae tendineae, papillary muscle, trabeculae carneae, interventricular septum)",
+    "figures": [
+     "20.4"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — Right Atrium; Right Ventricle",
+    "book_pages": "731-734",
+    "pdf_pages": "747-750",
+    "capture": "p.731 right column, 'Right Atrium' paragraph (pectinate muscles), continuing on p.734 left column top; p.734 left column, heading 'Right Ventricle' and its paragraph (trabeculae carneae, chordae tendineae, papillary muscles, interventricular septum)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This photograph shows what the diagram of slide 13 looks like in reality. The right auricle has been cut open to reveal the comb-like pectinate muscles on its inner wall; the front of the ventricles has been removed to show the rough, ridged trabeculae carneae, the cone-shaped papillary muscles and the thin white chordae tendineae running up to the cusps of the tricuspid valve. The thick interventricular septum separates the two ventricles. Note how much thicker the left ventricular wall is. Real tissue is not colour-coded: identify the vessels by position (aorta arches over, pulmonary trunk in front, venae cavae on the right).",
+  "terms": [
+   {
+    "t": "Dissection",
+    "d": "Cutting open a specimen to reveal internal structure."
+   },
+   {
+    "t": "Pectinate muscles",
+    "d": "Comb-like ridges lining the auricle and anterior atrial wall."
+   },
+   {
+    "t": "Trabeculae carneae",
+    "d": "Fleshy ridges of muscle on the inner ventricular wall."
+   },
+   {
+    "t": "Cusp",
+    "d": "A valve flap."
+   },
+   {
+    "t": "Interventricular septum",
+    "d": "The muscular partition between the ventricles."
+   },
+   {
+    "t": "Ascending aorta",
+    "d": "The first, upward segment of the aorta above the aortic valve."
+   }
+  ]
+ },
+ {
+  "n": 24,
+  "title": "Coronary circulation (Anterior)",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood — Coronary Circulation: Coronary Arteries",
+    "book_pages": "738-741",
+    "pdf_pages": "754-757",
+    "capture": "p.738 right column, bottom: heading 'Coronary Circulation' and its first 2 lines; runs over the page break to p.739 below the Heart Valve Disorders box: left column paragraph (start 'make up the heart wall') then heading 'Coronary Arteries' with the paragraph that continues in the right column (left coronary artery, anterior interventricular/LAD, circumflex, right coronary artery); ends on p.741 left column, first 4 lines (posterior interventricular and marginal branches); p.740 Figure 20.8 (a) 'Anterior view of coronary arteries'",
+    "figures": [
+     "20.8"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The heart muscle is too thick to feed itself from the blood inside its chambers, so it has its own arterial supply. Two coronary arteries leave the aorta just above the aortic valve. The left coronary artery quickly divides into the anterior interventricular branch, which runs down the front groove supplying both ventricles and the septum (clinicians call it the LAD, and its blockage is the classic 'widow-maker' infarct), and the circumflex branch, which curls round the left side in the coronary sulcus to the left ventricle and atrium. The right coronary artery runs round the right side in the coronary sulcus, giving a marginal branch to the right ventricle and continuing to the back. Flow in these arteries is greatest during diastole, because contraction squeezes them shut.",
+  "terms": [
+   {
+    "t": "Coronary circulation",
+    "d": "The heart wall's own blood supply: coronary arteries, capillaries and cardiac veins."
+   },
+   {
+    "t": "Left coronary artery (LCA)",
+    "d": "Artery from the aorta that splits into anterior interventricular and circumflex branches."
+   },
+   {
+    "t": "Anterior interventricular branch (LAD)",
+    "d": "Branch of the LCA in the front groove supplying both ventricles."
+   },
+   {
+    "t": "Circumflex branch",
+    "d": "Branch of the LCA curving round the left side to the left ventricle and atrium."
+   },
+   {
+    "t": "Right marginal branch",
+    "d": "Branch of the right coronary artery along the right border to the right ventricle."
+   },
+   {
+    "t": "Reflected",
+    "d": "Folded back (of the auricle in the picture) to reveal what is beneath."
+   }
+  ]
+ },
+ {
+  "n": 25,
+  "title": "Coronary circulation (Posterior)",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Coronary Circulation — Coronary Veins",
+    "book_pages": "741",
+    "pdf_pages": "757",
+    "capture": "p.741 left column: heading 'Coronary Veins', its paragraph (start 'After blood passes through the arteries') and the four bullet points (great, middle, small, anterior cardiac veins); p.740 Figure 20.8 (b) 'Anterior view of coronary veins' (drawn as if transparent so the coronary sinus on the back is visible)",
+    "figures": [
+     "20.8"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Coronary Circulation — anastomoses and collateral circulation",
+    "book_pages": "741",
+    "pdf_pages": "757",
+    "capture": "p.741 left column, the paragraph starting 'Most parts of the body receive blood' (anastomoses, collateral circulation)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — posterior surface",
+    "book_pages": "732",
+    "pdf_pages": "748",
+    "capture": "p.732 Figure 20.3 (c) posterior external view (coronary sinus, middle cardiac vein, posterior interventricular sulcus)",
+    "figures": [
+     "20.3"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Blood that has fed the heart muscle collects in cardiac veins that mostly run beside the arteries and drain into the coronary sinus, the wide vein on the back of the heart in the coronary sulcus, which empties into the right atrium. The great cardiac vein starts in the anterior groove (with the LAD) and sweeps round the left to become the sinus; the middle cardiac vein lies in the posterior groove; the small cardiac vein runs with the right coronary artery. The anterior cardiac veins are the exception: they open straight into the right atrium. An anastomosis is a junction between branches of different arteries; the heart has many, giving detour routes (collateral circulation) if one branch narrows slowly. The slide's list differs slightly from Tortora: see note.",
+  "terms": [
+   {
+    "t": "Cardiac veins",
+    "d": "Veins of the heart wall that return myocardial blood to the right atrium."
+   },
+   {
+    "t": "Great cardiac vein",
+    "d": "Vein in the anterior interventricular groove that curves round to form the coronary sinus."
+   },
+   {
+    "t": "Middle cardiac vein",
+    "d": "Vein in the posterior interventricular groove draining into the coronary sinus."
+   },
+   {
+    "t": "Small cardiac vein",
+    "d": "Vein in the right part of the coronary sulcus draining right atrium and ventricle."
+   },
+   {
+    "t": "Anastomosis",
+    "d": "A connection between two vessels supplying the same region."
+   },
+   {
+    "t": "Collateral circulation",
+    "d": "An alternative route for blood through anastomoses when the main vessel is blocked."
+   },
+   {
+    "t": "Posterior interventricular branch",
+    "d": "Branch of the right coronary artery running down the back groove."
+   }
+  ],
+  "note": "Tortora says the anterior cardiac veins open directly into the right atrium, not into the coronary sinus as the slide lists. The slide's 'posterior interventricular vein' is Tortora's middle cardiac vein (same vessel, same groove)."
+ },
+ {
+  "n": 26,
+  "title": "Anatomy of the Coronary arteries and Cardiac veins",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Coronary Circulation",
+    "book_pages": "740",
+    "pdf_pages": "756",
+    "capture": "p.740 Figure 20.8 (c) 'Anterior view' photograph (lower half of page; slide labels match exactly: great cardiac vein, tributary to great cardiac vein, anterior cardiac vein, marginal branch, left marginal branch, circumflex artery)",
+    "figures": [
+     "20.8"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Coronary Circulation — Coronary Arteries and Coronary Veins",
+    "book_pages": "739-741",
+    "pdf_pages": "755-757",
+    "capture": "p.739 bottom of both columns ('Coronary Arteries' paragraph) and p.741 left column ('Coronary Veins' paragraph and bullets)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "On a real heart the coronary vessels lie in the fat of the grooves, arteries and veins side by side. On this anterior view the right coronary artery emerges from behind the right auricle and runs in the coronary sulcus toward the right margin, giving the marginal branch; the left coronary artery appears from behind the pulmonary trunk and splits into the anterior interventricular branch running down toward the apex and the circumflex branch disappearing round the left with the left marginal branch. The great cardiac vein accompanies the anterior interventricular artery and receives small tributaries; anterior cardiac veins cross the right ventricle. Use slides 24-25 for the schematic version of the same vessels.",
+  "terms": [
+   {
+    "t": "Tributary",
+    "d": "A smaller vein that flows into a larger one (opposite of a branch)."
+   },
+   {
+    "t": "Branch",
+    "d": "A smaller artery arising from a larger one."
+   },
+   {
+    "t": "Marginal branch",
+    "d": "Artery running along the right or left border (margin) of the heart."
+   },
+   {
+    "t": "Anterior cardiac veins",
+    "d": "Small veins on the front of the right ventricle emptying directly into the right atrium."
+   },
+   {
+    "t": "Left auricle",
+    "d": "The ear-like pouch of the left atrium, beside the pulmonary trunk."
+   }
+  ]
+ },
+ {
+  "n": 27,
+  "title": "Arterial supply and venous drainage of the heart",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Coronary Circulation — Coronary Arteries",
+    "book_pages": "739-741",
+    "pdf_pages": "755-757",
+    "capture": "p.739 bottom of page below the clinical box: left column heading 'Coronary Arteries' and paragraph continuing in the right column (start 'Two coronary arteries, the left and right'); continues at the top of p.741 left column (4 lines ending '...wall of the right ventricle')",
+    "figures": [
+     "20.8"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Coronary Circulation — Coronary Veins",
+    "book_pages": "741",
+    "pdf_pages": "757",
+    "capture": "p.741 left column, heading 'Coronary Veins', paragraph and four bullet points",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "This slide is the tree diagram of slides 24-26. Arterial side: aorta gives right and left coronary arteries. Left coronary divides into the anterior interventricular (LAD) branch and the circumflex branch, which gives a left marginal branch. Right coronary gives a right marginal branch and ends as the posterior interventricular branch. Venous side: great cardiac vein (front), middle cardiac vein (back, which the slide calls posterior interventricular vein), small cardiac vein and left marginal vein all drain into the coronary sinus, which opens into the right atrium. Which artery supplies the back of the heart varies between people (right-dominant in most), a point the slide does not raise. Memorise these names: they are the vocabulary of every heart-attack report.",
+  "terms": [
+   {
+    "t": "Arterial supply",
+    "d": "The set of arteries delivering oxygenated blood to an organ."
+   },
+   {
+    "t": "Venous drainage",
+    "d": "The set of veins carrying blood away from an organ."
+   },
+   {
+    "t": "Left anterior descending (LAD)",
+    "d": "Clinical name for the anterior interventricular branch of the left coronary artery."
+   },
+   {
+    "t": "Left marginal branch",
+    "d": "Branch of the circumflex artery along the left border of the heart."
+   },
+   {
+    "t": "Coronary sinus",
+    "d": "The collecting vein on the posterior coronary sulcus that empties into the right atrium."
+   },
+   {
+    "t": "Myocardial infarction",
+    "d": "Death of an area of heart muscle when its coronary artery is blocked."
+   }
+  ],
+  "note": "Tortora names the vein in the posterior interventricular sulcus the middle cardiac vein; the slide calls it the posterior interventricular vein."
+ },
+ {
+  "n": 28,
+  "title": "Path of blood flow through systemic and pulmonary circulation",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.2",
+    "section_title": "Heart Valves and Circulation of Blood — Systemic and Pulmonary Circulations",
+    "book_pages": "737-738",
+    "pdf_pages": "753-754",
+    "capture": "p.738 Figure 20.7 (b) 'Path of blood flow through systemic and pulmonary circulation' (right half of the figure, numbered boxes 1-10 with the four valves labelled) and (a); text: p.737 right column bottom, heading 'Systemic and Pulmonary Circulations' continuing on p.738 below the figure in both columns",
+    "figures": [
+     "20.7"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "This flow chart is the whole circulation reduced to boxes: right atrium, tricuspid valve, right ventricle, pulmonary valve, pulmonary trunk and arteries, lung capillaries (blood loses CO2, gains O2), pulmonary veins, left atrium, mitral valve, left ventricle, aortic valve, aorta and systemic arteries, systemic capillaries (blood loses O2, gains CO2), systemic veins back to the right atrium. The two circuits are in series, so every drop must go round both. In the systemic circuit the organs are arranged in parallel: each gets a share of the cardiac output through its own arteries, and the shares can be redistributed by widening or narrowing arterioles. The slide shows only the valve names on the diagram; the numbered steps are in Tortora.",
+  "terms": [
+   {
+    "t": "Capillary",
+    "d": "The smallest vessel, one cell thick, where exchange between blood and tissue occurs."
+   },
+   {
+    "t": "Systemic arteries",
+    "d": "All arteries branching from the aorta to the body's organs."
+   },
+   {
+    "t": "Systemic veins",
+    "d": "Veins returning blood from the organs to the venae cavae."
+   },
+   {
+    "t": "Gas exchange",
+    "d": "Diffusion of O2 and CO2 between blood and air (lungs) or blood and tissue."
+   },
+   {
+    "t": "In parallel",
+    "d": "Arrangement in which several paths share the flow side by side, each getting part of it."
+   }
+  ]
+ },
+ {
+  "n": 29,
+  "title": "Embryonic development of the heart",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.8",
+    "section_title": "Development of the Heart",
+    "book_pages": "759-760",
+    "pdf_pages": "775-776",
+    "capture": "p.759 right column: the paragraph starting 'diagnostic tool. The cardiovascular system' and the one starting 'The heart begins its development from mesoderm' (cardiogenic mesenchyme, cardiogenic cords, heart primordial tubes); p.759 Figure 20.19 (a)-(f), whole lower half of page; p.760 left column: the whole column (heart tube on day 21, the five regions and their fates 1-5, looping on day 23, endocardial cushions and foramen ovale); p.760 Figure 20.20 (a) and (b) top right",
+    "figures": [
+     "20.19",
+     "20.20"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The heart is the first organ to work, beating from about day 22 after fertilisation, because the embryo grows too fast for diffusion alone. It starts as two strands of mesoderm cells at the head end that hollow out and fuse into a single straight tube by day 21. The tube develops five swellings from tail to head (sinus venosus, primitive atrium, primitive ventricle, bulbus cordis, truncus arteriosus) and then, because it grows faster than the space around it, it bends into a U and then an S shape by day 28. This looping brings the future atria up behind the ventricles, giving the adult layout. Internal partitions (septa) and the valves then form over weeks 4 to 9; the foramen ovale is deliberately left open between the atria until birth.",
+  "terms": [
+   {
+    "t": "Embryo",
+    "d": "The developing human from fertilisation to the end of week 8."
+   },
+   {
+    "t": "Mesoderm",
+    "d": "The middle of the three embryonic tissue layers; gives rise to muscle, heart and vessels."
+   },
+   {
+    "t": "Cardiogenic mesenchyme",
+    "d": "The patch of loose mesoderm cells at the head end that becomes the heart."
+   },
+   {
+    "t": "Heart tube",
+    "d": "The single straight tube formed by fusion of the two primordial tubes on day 21."
+   },
+   {
+    "t": "Sinus venosus",
+    "d": "Tail-end region of the heart tube that becomes part of the right atrium and the SA node."
+   },
+   {
+    "t": "Bulbus cordis",
+    "d": "Region of the heart tube that becomes the right ventricle."
+   },
+   {
+    "t": "Truncus arteriosus",
+    "d": "Head-end outflow region that splits into ascending aorta and pulmonary trunk."
+   },
+   {
+    "t": "Endocardial cushions",
+    "d": "Thickenings that divide the single atrioventricular canal into left and right canals."
+   },
+   {
+    "t": "Septum",
+    "d": "A dividing wall."
+   }
+  ]
+ },
+ {
+  "n": 30,
+  "title": "Foetal heart",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "21.22",
+    "section_title": "Circulatory Routes: The Fetal Circulation",
+    "book_pages": "836-838",
+    "pdf_pages": "852-854",
+    "capture": "p.836 right column, first paragraph (start 'The circulatory system of a fetus'); p.836 Figure 21.31 (a) and (b) with the gold boxes; p.837 Figure 21.30 (c) 'Scheme of fetal circulation' (top) and the text below it in both columns (right column paragraph starting 'Most of the fetal blood does not pass' explains the foramen ovale and ductus arteriosus; last paragraph 'As soon as a full-term fetus is delivered'); p.838 left column numbered items 1 (ductus arteriosus) and 3 (foramen ovale closure by the pressure reversal)",
+    "figures": [
+     "21.31"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.1",
+    "section_title": "Anatomy of the Heart — fossa ovalis and ligamentum arteriosum",
+    "book_pages": "731-734",
+    "pdf_pages": "747-750",
+    "capture": "p.731 right column, last 3 lines (fossa ovalis, remnant of the foramen ovale) continuing on p.734 left column top; p.734 right column, last paragraph (start 'During fetal life, a temporary blood vessel')",
+    "figures": [
+     "20.4"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Before birth the placenta, not the lungs, oxygenates the blood, and the collapsed fluid-filled lungs offer very high resistance. So the fetus has two shortcuts that let most blood skip the pulmonary circuit. The foramen ovale is a flap-valved hole in the interatrial septum: because right atrial pressure is higher than left in the fetus, oxygen-rich blood arriving from the placenta via the inferior vena cava is pushed straight into the left atrium and on to the brain. Blood that does reach the right ventricle is diverted from the pulmonary trunk into the aorta by the ductus arteriosus. At the first breath the lungs expand, pulmonary resistance collapses, left atrial pressure rises above right and presses the flap shut (fossa ovalis), and the ductus constricts and becomes the ligamentum arteriosum.",
+  "terms": [
+   {
+    "t": "Placenta",
+    "d": "The organ in the uterus where fetal and maternal blood exchange gases and nutrients without mixing."
+   },
+   {
+    "t": "Shunt",
+    "d": "A passage that diverts blood past its usual route."
+   },
+   {
+    "t": "Foramen ovale",
+    "d": "The fetal opening between the atria, closed at birth to leave the fossa ovalis."
+   },
+   {
+    "t": "Ductus arteriosus",
+    "d": "The fetal vessel connecting pulmonary trunk to aorta; becomes the ligamentum arteriosum."
+   },
+   {
+    "t": "Ductus venosus",
+    "d": "Fetal vessel that lets umbilical-vein blood bypass the liver into the inferior vena cava."
+   },
+   {
+    "t": "Umbilical vein",
+    "d": "The single vessel carrying oxygenated blood from the placenta to the fetus."
+   },
+   {
+    "t": "Pulmonary vascular resistance",
+    "d": "Opposition to flow through the lung vessels; very high in the unexpanded fetal lung."
+   },
+   {
+    "t": "Patent",
+    "d": "Still open (a patent ductus arteriosus is one that fails to close)."
+   }
+  ],
+  "note": "Tortora's order of events is fetal circulation (Section 21.22) rather than a 'foetal heart' topic; the pressure-reversal explanation of foramen ovale closure is item 3 on p.838."
+ },
+ {
+  "n": 31,
+  "title": "Cardiac muscle cells",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.3",
+    "section_title": "Cardiac Muscle Tissue and the Cardiac Conduction System — Histology of Cardiac Muscle Tissue",
+    "book_pages": "742-743",
+    "pdf_pages": "758-759",
+    "capture": "p.742 left column, heading 'Histology of Cardiac Muscle Tissue' and its two paragraphs (start 'Compared with skeletal muscle fibers'; second 'Mitochondria are larger and more numerous'); p.743 Figure 20.9 (a) 'Cardiac muscle fibers' (intercalated discs, desmosomes, gap junctions, mitochondrion, sarcolemma, nucleus) and (b)",
+    "figures": [
+     "20.9"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 4,
+    "section": "4.6",
+    "section_title": "Muscular Tissue — Table 4.9 B Cardiac Muscle Tissue",
+    "book_pages": "142",
+    "pdf_pages": "158",
+    "capture": "p.142 Table 4.9 part B 'Cardiac Muscle Tissue' (top half of page): description, location, function rows and the light micrograph with labels nucleus, cardiac muscle fiber, intercalated disc, striations",
+    "figures": [],
+    "tables": [
+     "4.9"
+    ]
+   }
+  ],
+  "basics": "Muscle cells contract because arrays of actin and myosin filaments slide past each other, and in skeletal and cardiac muscle these arrays are lined up so the cell looks striped (striated). Cardiac cells differ from skeletal ones in being short, branched, usually one-nucleus, and joined end to end by intercalated discs. Each disc contains desmosomes, rivet-like junctions that stop the cells tearing apart when they pull, and gap junctions, tiny channels that let ions and hence the electrical signal pass directly from cell to cell. That coupling makes all the cells of the atria (and separately of the ventricles) fire and contract as a unit, a functional syncytium. Cardiac cells are packed with mitochondria (about a quarter of the cell volume) and never rest, and their contraction is not under conscious control.",
+  "terms": [
+   {
+    "t": "Striations",
+    "d": "The stripe pattern produced by aligned contractile filaments in skeletal and cardiac muscle."
+   },
+   {
+    "t": "Intercalated disc",
+    "d": "The irregular junction between the ends of two cardiac muscle cells."
+   },
+   {
+    "t": "Desmosome",
+    "d": "A spot-weld junction that mechanically holds neighbouring cells together."
+   },
+   {
+    "t": "Gap junction",
+    "d": "Protein channels joining two cells' cytoplasm so ions and electrical signals pass directly."
+   },
+   {
+    "t": "Sarcolemma",
+    "d": "The plasma membrane of a muscle cell."
+   },
+   {
+    "t": "Transverse (T) tubule",
+    "d": "An inward fold of sarcolemma carrying the electrical signal into the cell."
+   },
+   {
+    "t": "Mitochondrion",
+    "d": "The organelle that makes ATP by aerobic respiration."
+   },
+   {
+    "t": "Involuntary",
+    "d": "Not under conscious control."
+   },
+   {
+    "t": "Nucleus",
+    "d": "The membrane-bound organelle holding the cell's DNA; cardiac cells usually have one, centrally placed."
+   }
+  ]
+ },
+ {
+  "n": 32,
+  "title": "The conducting system of the heart",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.3",
+    "section_title": "Cardiac Muscle Tissue and the Cardiac Conduction System — Autorhythmic Fibers: The Conduction System",
+    "book_pages": "742-745",
+    "pdf_pages": "758-761",
+    "capture": "p.742 left column bottom, heading 'Autorhythmic Fibers: The Conduction System' and its paragraph continuing in the right column below the clinical box, with the numbered functions 1 and 2; p.744 left column, the five numbered steps 1-5 (SA node, AV node, AV bundle/bundle of His, bundle branches, Purkinje fibers) and the paragraph after them (start 'On their own, autorhythmic fibers'); p.745 Figure 20.10 (a) 'Anterior view of coronal section' with the numbered components",
+    "figures": [
+     "20.10"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The heart does not need a nerve to tell it to beat. About 1% of its muscle cells are autorhythmic: they cannot hold a steady resting voltage and fire spontaneously. These cells are wired into a conduction system. The sinoatrial (SA) node in the right atrial wall fires fastest and so sets the pace; its impulse spreads through the atrial muscle via gap junctions, so both atria contract. The signal then funnels into the atrioventricular (AV) node, where it is deliberately delayed about 0.1 s to let the atria finish emptying. From there the AV bundle (bundle of His), the only conducting path through the insulating fibrous skeleton, carries it into the septum, splits into right and left bundle branches, and Purkinje fibres spread it rapidly from the apex up through the ventricular walls so they contract from the bottom upward.",
+  "terms": [
+   {
+    "t": "Autorhythmic (pacemaker) cells",
+    "d": "Specialised cardiac muscle cells that generate their own rhythmic action potentials."
+   },
+   {
+    "t": "Sinoatrial (SA) node",
+    "d": "Cluster of pacemaker cells in the right atrial wall near the superior vena cava; the natural pacemaker."
+   },
+   {
+    "t": "Atrioventricular (AV) node",
+    "d": "Cluster of cells in the interatrial septum that slows the impulse before it enters the ventricles."
+   },
+   {
+    "t": "AV bundle (bundle of His)",
+    "d": "The bundle of conducting fibres through the fibrous skeleton into the septum."
+   },
+   {
+    "t": "Bundle branches",
+    "d": "Right and left divisions of the AV bundle running down the septum toward the apex."
+   },
+   {
+    "t": "Purkinje fibres",
+    "d": "Large-diameter fibres under the endocardium that distribute the impulse through the ventricles."
+   },
+   {
+    "t": "Action potential",
+    "d": "A brief self-propagating reversal of membrane voltage, the electrical signal of excitable cells."
+   },
+   {
+    "t": "Contractile fibres",
+    "d": "The ordinary 'working' cardiac muscle cells that actually shorten."
+   }
+  ]
+ },
+ {
+  "n": 33,
+  "title": "Pacemaker action potentials",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.3",
+    "section_title": "Autorhythmic Fibers: The Conduction System",
+    "book_pages": "742-744",
+    "pdf_pages": "758-760",
+    "capture": "p.742 left column bottom, heading 'Autorhythmic Fibers: The Conduction System' paragraph (start 'An inherent and rhythmical electrical activity'), continuing in the right column below the clinical box through the numbered functions 1 (natural pacemaker) and 2 (conduction system); p.744 left column, step 1 (start 'Cardiac excitation normally begins in the sinuatrial') describing the pacemaker potential, and the paragraph after step 5 (start 'On their own, autorhythmic fibers')",
+    "figures": [
+     "20.10"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.3",
+    "section_title": "Figure 20.10 (b)",
+    "book_pages": "745",
+    "pdf_pages": "761",
+    "capture": "p.745 Figure 20.10 (b) 'Pacemaker potentials (green) and action potentials (black) in autorhythmic fibers of SA node' (lower part of page)",
+    "figures": [
+     "20.10"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Every cell keeps a voltage across its membrane by pumping ions and letting some leak; most excitable cells sit at a stable negative resting potential and fire only when something pushes them to threshold. Pacemaker cells have no stable rest: after each action potential their membrane voltage drifts upward on its own (the pacemaker potential) until it hits threshold and fires again, so they produce a regular train of impulses with no external trigger. Autorhythmic means self-timed. All parts of the conduction system can do this, but at different intrinsic rates; the fastest (SA node, about 100 per minute unopposed) captures the rest because it fires before they reach threshold. If the SA node fails, the AV node takes over at a slower rate. Nerves and hormones only adjust the rate; they do not create the rhythm.",
+  "terms": [
+   {
+    "t": "Membrane potential",
+    "d": "The voltage difference across a cell membrane, inside relative to outside."
+   },
+   {
+    "t": "Resting potential",
+    "d": "The stable negative voltage of a non-firing excitable cell (about -90 mV in cardiac contractile cells)."
+   },
+   {
+    "t": "Threshold",
+    "d": "The voltage at which enough channels open to trigger a full action potential."
+   },
+   {
+    "t": "Pacemaker potential",
+    "d": "The slow spontaneous depolarisation that carries a pacemaker cell to threshold."
+   },
+   {
+    "t": "Depolarisation",
+    "d": "Membrane voltage becoming less negative (moving toward zero or positive)."
+   },
+   {
+    "t": "Self-excitable",
+    "d": "Able to generate an action potential without any external stimulus."
+   },
+   {
+    "t": "Intrinsic rate",
+    "d": "The firing frequency a pacemaker region shows when left alone."
+   }
+  ]
+ },
+ {
+  "n": 34,
+  "title": "Pacemaker action potentials- SA node",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.3",
+    "section_title": "Figure 20.10 (b) and the SA node paragraph",
+    "book_pages": "744-745",
+    "pdf_pages": "760-761",
+    "capture": "p.745 Figure 20.10 (b) (lower part of page; axes -60 mV to +10 mV, threshold line, 0.8 s spacing); p.744 left column, step 1 (start 'Cardiac excitation normally begins') and the paragraph after step 5 (start 'On their own, autorhythmic fibers'; 0.6 s / 100 per minute intrinsic, 0.8 s / 75 per minute under vagal tone)",
+    "figures": [
+     "20.10"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.5",
+    "section_title": "Cardiac Output — Autonomic Regulation of Heart Rate",
+    "book_pages": "755",
+    "pdf_pages": "771",
+    "capture": "p.755 left column, the paragraph starting 'Parasympathetic nerve impulses reach the heart' and the next one (start 'A continually shifting balance'), which explain why resting rate is 75 rather than the SA node's own 100",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Read the graph as a repeating loop. From its most negative point (about -60 mV) the SA cell's voltage ramps slowly upward because special channels open at negative voltages and let a small inward sodium leak in (the 'funny' current); the slope of this ramp is the timer. When the ramp reaches threshold, voltage-gated calcium channels open and calcium rushes in, giving the sharp upstroke (unlike nerve cells, which use sodium for the spike). Then calcium channels close and potassium channels open; potassium flows out and the voltage falls back to -60 mV, which re-arms the funny channels and the loop restarts. One loop per 0.8 s gives 75 beats per minute. Anything that steepens the ramp (sympathetic nerves, adrenaline) speeds the heart; anything that flattens it (vagus nerve, acetylcholine) slows it.",
+  "terms": [
+   {
+    "t": "Funny (HCN) channels",
+    "d": "Channels that open when the membrane is hyperpolarised and pass a slow inward Na+ current."
+   },
+   {
+    "t": "Voltage-gated channel",
+    "d": "An ion channel that opens or closes depending on membrane voltage."
+   },
+   {
+    "t": "Ca2+ influx",
+    "d": "Calcium ions flowing into the cell down their concentration gradient."
+   },
+   {
+    "t": "K+ efflux",
+    "d": "Potassium ions flowing out of the cell, making the inside more negative."
+   },
+   {
+    "t": "Repolarisation",
+    "d": "Return of the membrane voltage toward its negative baseline after a spike."
+   },
+   {
+    "t": "Vagal tone",
+    "d": "The steady braking effect of the parasympathetic vagus nerve on the SA node at rest."
+   },
+   {
+    "t": "Sympathetic / parasympathetic",
+    "d": "The two autonomic nerve divisions: accelerator and brake respectively for the heart."
+   }
+  ],
+  "note": "Tortora shows the SA node trace (Figure 20.10b) and states the 0.8 s / 75 per minute rate but does not name the 'funny' channels or the sodium-leak, calcium-spike, potassium-recovery ion sequence; those details come from other physiology texts."
+ },
+ {
+  "n": 35,
+  "title": "Action potential in a ventricular contractile fiber",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.3",
+    "section_title": "Action Potential and Contraction of Contractile Fibers",
+    "book_pages": "744-746",
+    "pdf_pages": "760-762",
+    "capture": "p.744 right column, heading 'Action Potential and Contraction of Contractile Fibers' and step 1 'Depolarization' (start 'Unlike autorhythmic fibers, contractile fibers'), continuing on p.746 left column with step 2 'Plateau' and step 3 'Repolarization'; p.746 right column, the two paragraphs starting 'The mechanism of contraction is similar' and 'In muscle, the refractory period' (why tetanus cannot occur); p.746 Figure 20.11 (top of page; the slide reproduces it)",
+    "figures": [
+     "20.11"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A working ventricular cell rests at about -90 mV and fires only when a neighbour's impulse arrives through gap junctions. Its action potential has three phases. Fast sodium channels open and sodium floods in: the voltage shoots to about +20 mV in a millisecond. Then, instead of falling straight back as in a nerve, the voltage sits near 0 mV for about 0.2 s: slow calcium channels are letting calcium in while some potassium is leaving, and the two currents balance (plateau). The entering calcium releases more calcium from the sarcoplasmic reticulum and this calcium triggers the sliding of filaments, so contraction follows. Finally more potassium channels open, calcium channels close, and the cell repolarises. The whole event lasts about 0.3 s, during which the cell cannot be re-fired (refractory period), which is longer than the contraction itself, so the heart cannot go into sustained cramp (tetanus) and always relaxes to refill.",
+  "terms": [
+   {
+    "t": "Contractile fibre",
+    "d": "An ordinary cardiac muscle cell that shortens; not a pacemaker cell."
+   },
+   {
+    "t": "Fast Na+ channels",
+    "d": "Voltage-gated sodium channels that open within microseconds to produce the upstroke."
+   },
+   {
+    "t": "Slow Ca2+ channels",
+    "d": "L-type calcium channels that open slowly and keep the membrane depolarised during the plateau."
+   },
+   {
+    "t": "Plateau",
+    "d": "The prolonged phase of maintained depolarisation near 0 mV unique to cardiac muscle."
+   },
+   {
+    "t": "Sarcoplasmic reticulum",
+    "d": "The cell's internal calcium store, which releases Ca2+ to trigger contraction."
+   },
+   {
+    "t": "Refractory period",
+    "d": "The interval after firing during which the cell cannot fire again."
+   },
+   {
+    "t": "Tetanus",
+    "d": "A sustained fused contraction from rapid repeated stimulation; impossible in cardiac muscle."
+   },
+   {
+    "t": "Troponin",
+    "d": "The regulatory protein on the actin filament that binds Ca2+ to allow contraction."
+   }
+  ]
+ },
+ {
+  "n": 36,
+  "title": "Electrocardiogram (EKG or ECG)",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.3",
+    "section_title": "Cardiac Muscle Tissue and the Cardiac Conduction System — Electrocardiogram",
+    "book_pages": "747",
+    "pdf_pages": "763",
+    "capture": "p.747 left column, heading 'Electrocardiogram' and the three paragraphs under it (start 'As action potentials propagate through the heart'; 'In clinical practice, electrodes'; 'In a typical record, three clearly recognizable waves' defining P, QRS and T); p.747 right column below the figure, the paragraph starting 'Analysis of an ECG also involves' (P-Q interval, S-T segment, Q-T interval); p.747 Figure 20.12 'Normal electrocardiogram' (top right)",
+    "figures": [
+     "20.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.3",
+    "section_title": "Correlation of ECG Waves with Atrial and Ventricular Systole",
+    "book_pages": "748",
+    "pdf_pages": "764",
+    "capture": "p.748 left column, heading 'Correlation of ECG Waves with Atrial and Ventricular Systole' and steps 1-4, continuing with steps 5-6 at the top of the right column (timings at 75 beats per minute)",
+    "figures": [
+     "20.13"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "When millions of heart cells depolarise together, the moving front of charge creates a small electric field that reaches the skin; electrodes on limbs and chest record it as the ECG, a voltage-versus-time trace in millivolts. It is not a recording of contraction but of the electrical events that cause it. The P wave is atrial depolarisation; the QRS complex is ventricular depolarisation (large because the ventricles are massive), and it hides the simultaneous atrial repolarisation; the T wave is ventricular repolarisation. The gaps carry information too: the P-R (Tortora: P-Q) interval is the conduction time through the atria and the AV node delay; the flat S-T segment is the plateau when all ventricular cells are depolarised; the Q-T interval spans the whole ventricular electrical cycle. Heart rate is 60 divided by the R-R interval in seconds.",
+  "terms": [
+   {
+    "t": "Electrode / lead",
+    "d": "A skin contact, and the voltage difference measured between a pair of contacts."
+   },
+   {
+    "t": "P wave",
+    "d": "The small first bump: atria depolarising."
+   },
+   {
+    "t": "QRS complex",
+    "d": "The sharp spike: ventricles depolarising."
+   },
+   {
+    "t": "T wave",
+    "d": "The rounded bump after QRS: ventricles repolarising."
+   },
+   {
+    "t": "Interval",
+    "d": "A time span that includes at least one wave (e.g. P-R, Q-T)."
+   },
+   {
+    "t": "Segment",
+    "d": "A flat time span between waves (e.g. S-T)."
+   },
+   {
+    "t": "Millivolt (mV)",
+    "d": "One thousandth of a volt; ECG deflections are about 1 mV."
+   },
+   {
+    "t": "Masked",
+    "d": "Hidden because a larger simultaneous signal swamps it."
+   }
+  ],
+  "note": "Tortora calls the slide's P-R interval the P-Q interval (same thing) and does not give the 0.16 s value or discuss the R-R interval; those come from clinical convention."
+ },
+ {
+  "n": 37,
+  "title": "Electrical events (review ECG)",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle — Pressure and Volume Changes During the Cardiac Cycle",
+    "book_pages": "750-751",
+    "pdf_pages": "766-767",
+    "capture": "p.750 Figure 20.14 whole page, especially row (a) ECG with the labelled 0.1 s atrial systole, 0.3 s ventricular systole, 0.4 s relaxation period, and row (e) 'Phases of the cardiac cycle'; p.751 left column, 'Atrial Systole' steps 1-4 and 'Ventricular Systole' steps 5-6, right column steps 7-8 and 'Relaxation Period' steps 9-10",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.3",
+    "section_title": "Correlation of ECG Waves with Atrial and Ventricular Systole",
+    "book_pages": "748-749",
+    "pdf_pages": "764-765",
+    "capture": "p.748 left column heading 'Correlation of ECG Waves with Atrial and Ventricular Systole', steps 1-6 (across both columns); p.749 Figure 20.13 whole page (route and timing of depolarisation)",
+    "figures": [
+     "20.13"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "This slide lines up the ECG with the seven mechanical phases the lecturer labels A to G, a finer division than Tortora's three periods. The logic is simple: electrical events come first and mechanical events follow a fraction of a second later. Just after the P wave the atria contract (A). Just after the QRS the ventricles contract: first with all valves shut (B, isovolumetric contraction), then ejecting rapidly (C) and more slowly (D) as the T wave appears. After the T wave the ventricles relax with all valves shut (E, isovolumetric relaxation), then fill rapidly once the AV valves open (F), then slowly (G, diastasis) until the next P wave. Tortora lumps C and D as ventricular ejection and F and G as ventricular filling.",
+  "terms": [
+   {
+    "t": "Cardiac cycle",
+    "d": "All events of one heartbeat: systole and diastole of atria and of ventricles."
+   },
+   {
+    "t": "Atrial systole",
+    "d": "Contraction of the atria, lasting about 0.1 s, topping up the ventricles."
+   },
+   {
+    "t": "Isovolumetric contraction",
+    "d": "Ventricles squeezing with all four valves closed, so pressure rises but volume does not change."
+   },
+   {
+    "t": "Ventricular ejection",
+    "d": "The phase when semilunar valves are open and blood leaves the ventricles."
+   },
+   {
+    "t": "Isovolumetric relaxation",
+    "d": "Ventricles relaxing with all valves closed; pressure falls, volume constant."
+   },
+   {
+    "t": "Ventricular filling",
+    "d": "Blood entering the relaxed ventricles through open AV valves."
+   },
+   {
+    "t": "Diastasis",
+    "d": "The slow, late part of ventricular filling before atrial contraction."
+   }
+  ],
+  "note": "Tortora's Figure 20.14 divides the cycle into atrial contraction, isovolumetric contraction, ventricular ejection, isovolumetric relaxation and ventricular filling; the slide's rapid/reduced ejection and rapid/reduced filling subdivisions are not separately named in the book."
+ },
+ {
+  "n": 38,
+  "title": "The cardiac cycle",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle",
+    "book_pages": "748",
+    "pdf_pages": "764",
+    "capture": "p.748 right column: heading '20.4 The Cardiac Cycle', the two objectives, the introductory paragraph (start 'A single cardiac cycle includes all of the events') and the heading 'Pressure and Volume Changes During the Cardiac Cycle' with its first paragraph (bottom of column)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "Figure 20.14 Cardiac cycle",
+    "book_pages": "750-751",
+    "pdf_pages": "766-767",
+    "capture": "p.750 Figure 20.14 whole page (rows a-e: ECG, pressures, heart sounds, ventricular volume, phases); p.751 left column, first paragraph (start 'relationship between the heart's electrical signals') explaining the figure and the 0.8 s cycle at 75 beats per minute",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A cardiac cycle is one complete heartbeat, from one P wave to the next. Because the atria and ventricles are excited in sequence, the cycle is atrial systole with ventricular diastole, then ventricular systole with atrial diastole, then a period when everything is relaxed. At 75 beats per minute one cycle takes 0.8 s: roughly 0.1 s atrial contraction, 0.3 s ventricular contraction, 0.4 s total relaxation. The same 0.8 s can be described in five parallel ways, which the slide lists and Tortora stacks in one figure: the ECG (electrical), which chambers are contracting (mechanical), the pressures in atrium, ventricle and aorta, the heart sounds, and the ventricular volume. The following slides take each row in turn; the key idea linking them is that pressure differences open and close the valves.",
+  "terms": [
+   {
+    "t": "Systole",
+    "d": "Contraction phase of a heart chamber."
+   },
+   {
+    "t": "Diastole",
+    "d": "Relaxation phase of a heart chamber."
+   },
+   {
+    "t": "Phonocardiogram",
+    "d": "A recording of heart sounds against time."
+   },
+   {
+    "t": "Electrocardiogram",
+    "d": "A recording of the heart's electrical activity from the body surface."
+   },
+   {
+    "t": "mmHg",
+    "d": "Millimetres of mercury, the pressure unit used for blood pressure; 1 mmHg is about 133 Pa."
+   },
+   {
+    "t": "Relaxation period",
+    "d": "The part of the cycle when atria and ventricles are all in diastole."
+   }
+  ]
+ },
+ {
+  "n": 39,
+  "title": "Mechanical events in a cardiac cycle",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle — Ventricular Systole",
+    "book_pages": "751",
+    "pdf_pages": "767",
+    "capture": "p.751 left column, heading 'Ventricular Systole' and steps 5 (isovolumetric contraction, AV valves forced shut, 0.05 s) and 6 (SL valves open at about 80 mmHg left / 20 mmHg right, ejection 0.25 s, peak 120 mmHg), continuing at the top of the right column with step 7 (70 mL ejected, ESV about 60 mL) and step 8",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "Figure 20.14 rows (b), (c), (d)",
+    "book_pages": "750",
+    "pdf_pages": "766",
+    "capture": "p.750 Figure 20.14: the 'Ventricular systole' bracket in row (a), points 5 and 6 in row (b), S1 in row (c), and the stroke-volume drop in row (d)",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Ventricular systole has two parts. First, isovolumetric contraction: the ventricles begin to squeeze, pressure inside jumps above atrial pressure so the AV valves slam shut (first heart sound), but pressure is still below that in the aorta and pulmonary trunk so the semilunar valves stay shut too. With all four valves closed the blood is trapped and, since liquids are almost incompressible, the volume cannot change while the pressure climbs steeply; the muscle is tensing without shortening. The slide's 'Boyle's law' reference is a loose analogy, since Boyle's law is for gases. Second, ejection: once ventricular pressure exceeds arterial pressure (about 80 mmHg on the left, 20 on the right) the semilunar valves open and blood is pushed out, ventricular volume falls by about 70 mL, and ventricular and aortic pressures rise together to the systolic peak of about 120 mmHg.",
+  "terms": [
+   {
+    "t": "Isovolumetric",
+    "d": "At constant volume; here, the ventricle changing pressure while no blood enters or leaves."
+   },
+   {
+    "t": "Isometric contraction",
+    "d": "Muscle developing force without shortening."
+   },
+   {
+    "t": "Systolic pressure",
+    "d": "The peak arterial pressure reached during ventricular ejection (about 120 mmHg)."
+   },
+   {
+    "t": "First heart sound (S1)",
+    "d": "The 'lub' from turbulence when the AV valves close at the start of ventricular systole."
+   },
+   {
+    "t": "Aortic pressure",
+    "d": "The pressure in the aorta, which the left ventricle must exceed to eject blood."
+   },
+   {
+    "t": "Incompressible",
+    "d": "Not reducible in volume by pressure; true of liquids like blood."
+   },
+   {
+    "t": "Boyle's law",
+    "d": "For a fixed amount of gas at constant temperature, pressure times volume is constant; does not apply to liquids."
+   }
+  ],
+  "note": "Boyle's law is not invoked by Tortora for the heart; the book explains isovolumetric contraction simply by all four valves being closed."
+ },
+ {
+  "n": 40,
+  "title": "Mechanical events in a cardiac cycle",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle — Relaxation Period",
+    "book_pages": "751",
+    "pdf_pages": "767",
+    "capture": "p.751 right column, heading 'Relaxation Period' and its introductory paragraph (start 'During the relaxation period, which lasts about 0.4 sec'), then step 9 (SL valves close at about 100 mmHg, dicrotic wave, isovolumetric relaxation) and step 10 (AV valves open, rapid filling, ventricles three-quarters full before the next P wave)",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle — Atrial Systole",
+    "book_pages": "751",
+    "pdf_pages": "767",
+    "capture": "p.751 left column, heading 'Atrial Systole' and steps 1-4 (atrial contraction adds a final 25 mL to the 105 mL already present, giving EDV about 130 mL)",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Diastole is when the ventricles refill, and most of the cycle is spent in it (0.4 s of relaxation plus 0.1 s atrial systole out of 0.8 s). As the ventricles relax their pressure drops below arterial pressure; blood starts to fall back, catches in the semilunar cusps and closes them (second heart sound), with a small rebound bump on the aortic trace called the dicrotic wave. Briefly all four valves are shut again (isovolumetric relaxation): pressure falls fast, volume stays at the end-systolic level. When ventricular pressure falls below atrial pressure the AV valves drop open and blood that has been piling up in the atria pours in: about three quarters of filling is this passive early rush. Then the atria contract and add the last quarter, so the ventricle reaches its end-diastolic volume (about 130 mL). Faster heart rates shorten diastole more than systole, so filling suffers first.",
+  "terms": [
+   {
+    "t": "Diastole",
+    "d": "The relaxation and filling phase."
+   },
+   {
+    "t": "Dicrotic wave (notch)",
+    "d": "The small secondary rise in aortic pressure after the aortic valve snaps shut."
+   },
+   {
+    "t": "Isovolumetric relaxation",
+    "d": "Ventricles relaxing with all valves closed, pressure falling at constant volume."
+   },
+   {
+    "t": "Passive filling",
+    "d": "Blood entering the ventricle by the pressure gradient alone, before the atria contract."
+   },
+   {
+    "t": "End-diastolic volume (EDV)",
+    "d": "The volume in a ventricle at the end of filling, about 130 mL at rest."
+   },
+   {
+    "t": "End-systolic volume (ESV)",
+    "d": "The volume left in a ventricle after ejection, about 60 mL at rest."
+   },
+   {
+    "t": "Second heart sound (S2)",
+    "d": "The 'dub' from semilunar valve closure at the start of ventricular diastole."
+   }
+  ]
+ },
+ {
+  "n": 41,
+  "title": "Left atrial pressure",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "Figure 20.14 (b) pressure curves",
+    "book_pages": "750",
+    "pdf_pages": "766",
+    "capture": "p.750 Figure 20.14 row (b) 'Pressure (mmHg)': green left atrial, blue left ventricular and red aortic curves with numbered points 2, 5 (left AV valve closes), 6 (aortic valve opens), 9 (aortic valve closes, dicrotic wave), 10 (left AV valve opens); include the figure caption at the top of the page",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle — Pressure and Volume Changes",
+    "book_pages": "751",
+    "pdf_pages": "767",
+    "capture": "p.751 left column, first paragraph (start 'relationship between the heart's electrical signals'): notes that the pressures shown are for the left side and that right-side pressures are much lower; then steps 5, 6, 9 and 10 for the valve events",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Three pressure traces tell the whole story of the valves. Atrial pressure (green) stays low, 0 to 10 mmHg, with a small bump when the atrium contracts. Ventricular pressure (blue) swings from near 0 to about 120 mmHg every beat. Aortic pressure (red) never falls below about 80 mmHg because the elastic aorta stores pressure between beats. Wherever the blue line crosses the green line an AV valve event happens (crossing upward: mitral closes; downward: mitral opens); wherever blue crosses red an aortic valve event happens (upward: opens; downward: closes). Between those crossings lie the isovolumetric phases. The right side has the same shape but peaks at only about 25 mmHg, which the slide, showing left-side values, leaves unsaid.",
+  "terms": [
+   {
+    "t": "Left atrial pressure",
+    "d": "Pressure in the left atrium; low, rising slightly during atrial contraction and as it fills."
+   },
+   {
+    "t": "Left ventricular pressure",
+    "d": "Pressure inside the left ventricle, swinging from about 0 to 120 mmHg each beat."
+   },
+   {
+    "t": "Aortic pressure",
+    "d": "Pressure in the aorta, oscillating between diastolic (about 80) and systolic (about 120) mmHg."
+   },
+   {
+    "t": "Diastolic pressure",
+    "d": "The lowest arterial pressure, reached just before the next ejection."
+   },
+   {
+    "t": "Elastic recoil",
+    "d": "The springing back of stretched artery walls that keeps pressure up between beats."
+   }
+  ]
+ },
+ {
+  "n": 42,
+  "title": "Wiggers Diagram - Pressure changes within heart chambers",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle — Pressure and Volume Changes During the Cardiac Cycle",
+    "book_pages": "750-751",
+    "pdf_pages": "766-767",
+    "capture": "p.750 Figure 20.14 whole page (numbered points 1-10 correspond to the slide's 'Point 5, 6, 9, 10'); p.751 whole text: left column first paragraph, 'Atrial Systole' steps 1-4, 'Ventricular Systole' steps 5-6; right column steps 7-8, 'Relaxation Period' steps 9-10",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.5",
+    "section_title": "Cardiac Output — Afterload",
+    "book_pages": "753",
+    "pdf_pages": "769",
+    "capture": "p.753 right column, heading 'Afterload' and its paragraph (start 'Ejection of blood from the heart begins when'): the 80 mmHg and 20 mmHg opening pressures",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A Wiggers diagram is the name physiologists give to the stacked plot of ECG, pressures, sounds and volume against time for one cycle; Tortora's Figure 20.14 is one. The organising rule is that valves are pure pressure switches. Follow the left ventricle: the atrium contracts and adds its 20-25% top-up; the ventricle contracts, its pressure passes atrial pressure and the mitral valve shuts (S1, point 5); pressure climbs with all valves shut; at about 80 mmHg it passes aortic pressure and the aortic valve opens (point 6); ejection continues to a peak of about 120 mmHg; the ventricle relaxes, pressure falls below aortic and the aortic valve shuts (S2, dicrotic notch, point 9); pressure keeps falling with all valves shut; below atrial pressure the mitral valve reopens (point 10) and filling begins. Note Tortora places aortic valve closure at about 100 mmHg.",
+  "terms": [
+   {
+    "t": "Wiggers diagram",
+    "d": "A composite time plot of electrical, pressure, sound and volume events of one cardiac cycle."
+   },
+   {
+    "t": "Pressure gradient",
+    "d": "Difference in pressure across a valve; its sign decides whether the valve is open or shut."
+   },
+   {
+    "t": "Dicrotic notch",
+    "d": "The brief dip-and-rebound on the aortic trace at aortic valve closure."
+   },
+   {
+    "t": "Atrial kick",
+    "d": "The extra ventricular filling contributed by atrial contraction (about 20-25%)."
+   },
+   {
+    "t": "Ejection",
+    "d": "The interval when ventricular pressure exceeds aortic pressure and blood leaves."
+   },
+   {
+    "t": "Preload",
+    "d": "The stretch on the ventricular wall at the end of filling, set by EDV."
+   },
+   {
+    "t": "Afterload",
+    "d": "The arterial pressure the ventricle must exceed to open the semilunar valve."
+   }
+  ],
+  "note": "Tortora does not use the name 'Wiggers diagram' but Figure 20.14 is exactly that; its numbered events 5, 6, 9, 10 match the slide's points."
+ },
+ {
+  "n": 43,
+  "title": "Phonocardiogram showing heart sounds",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle — Heart Sounds",
+    "book_pages": "751-752",
+    "pdf_pages": "767-768",
+    "capture": "p.751 right column, heading 'Heart Sounds' and its two paragraphs (start 'Auscultation'; 'The first sound (S1), which can be described as a lubb'), running over the page break to the top of p.752 right column (S2, why sounds are heard away from the valves, S3 during rapid filling and S4 during atrial systole, ending 'atrial systole'); p.750 Figure 20.14 row (c) 'Heart sounds' with S1-S4 marked",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "Clinical Connection: Heart Murmurs",
+    "book_pages": "752",
+    "pdf_pages": "768",
+    "capture": "p.752 left column, the 'Clinical Connection: Heart Murmurs' box (lower half of the column)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Smooth flow is silent; sound is made by turbulence. Each valve closure abruptly stops a column of moving blood and sets it vibrating, and those vibrations are the heart sounds. S1 ('lub') comes from AV valve closure at the start of ventricular systole; it is longer and louder. S2 ('dub') comes from semilunar closure at the start of diastole. A phonocardiogram is simply a microphone trace of these. Two further sounds exist but are normally too faint to hear: S3, from blood rushing into the ventricle during rapid filling, and S4, from atrial contraction pushing into the ventricle. The slide adds the clinical meaning: an audible S3 in an adult suggests an over-filled, floppy ventricle (volume overload, heart failure), an S4 suggests the atrium fighting a stiff ventricle (pressure overload). Tortora gives only the physical causes.",
+  "terms": [
+   {
+    "t": "Phonocardiogram",
+    "d": "A graphical recording of heart sounds picked up by a microphone on the chest."
+   },
+   {
+    "t": "Auscultation",
+    "d": "Listening to sounds inside the body, usually with a stethoscope."
+   },
+   {
+    "t": "S1 / S2",
+    "d": "First and second heart sounds, from AV and semilunar valve closure respectively."
+   },
+   {
+    "t": "S3",
+    "d": "Faint early-diastolic sound from rapid ventricular filling; normal in children, abnormal in adults."
+   },
+   {
+    "t": "S4",
+    "d": "Faint late-diastolic sound from atrial contraction into a stiff ventricle."
+   },
+   {
+    "t": "Compliance",
+    "d": "How easily a chamber or vessel stretches for a given pressure; a stiff ventricle has low compliance."
+   },
+   {
+    "t": "Volume overload",
+    "d": "A ventricle chronically holding too much blood."
+   },
+   {
+    "t": "Heart murmur",
+    "d": "An abnormal whooshing sound from turbulent flow through a narrowed or leaking valve."
+   }
+  ],
+  "note": "Tortora describes S3 and S4 only as turbulence during rapid filling and atrial systole; the clinical interpretation (volume overload, diastolic dysfunction) is the lecturer's addition."
+ },
+ {
+  "n": 44,
+  "title": "Listening to heart sounds",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "Figure 20.15 Heart sounds",
+    "book_pages": "752",
+    "pdf_pages": "768",
+    "capture": "p.752 Figure 20.15 'Location of valves (purple) and auscultation sites (red) for heart sounds' (top of left column, with its caption); the slide reproduces it",
+    "figures": [
+     "20.15"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle — Heart Sounds",
+    "book_pages": "751-752",
+    "pdf_pages": "767-768",
+    "capture": "p.751 right column 'Heart Sounds' paragraphs continuing on p.752 right column top, especially the sentences on why S1 and S2 are best heard at sites slightly away from the valves (sound carried by blood flow); p.752 left column 'Clinical Connection: Heart Murmurs'",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "A stethoscope hears vibrations conducted to the chest wall. The four valves lie close together behind the sternum, so if you listened directly over them the sounds would overlap. Instead the sound travels downstream with the blood, so each valve is best heard where its outflow comes nearest the surface: aortic valve at the right second intercostal space, pulmonary at the left second space, tricuspid at the lower left sternal border, mitral at the apex in the left fifth space. Listening this way an examiner checks rhythm, the timing and splitting of S1 and S2, extra sounds (S3, S4) and murmurs, which are whooshes produced by turbulent flow through a narrowed valve (stenosis) or a leaking one (incompetence). Timing tells which valve: a murmur between S1 and S2 is systolic.",
+  "terms": [
+   {
+    "t": "Auscultation site",
+    "d": "The spot on the chest wall where a particular valve's sound is heard best."
+   },
+   {
+    "t": "Intercostal space",
+    "d": "The gap between two adjacent ribs, numbered by the rib above."
+   },
+   {
+    "t": "Stethoscope",
+    "d": "Instrument that conducts body sounds from a chest piece to the listener's ears."
+   },
+   {
+    "t": "Murmur",
+    "d": "An abnormal sound from turbulent blood flow across a valve."
+   },
+   {
+    "t": "Stenosis",
+    "d": "Narrowing of a valve that obstructs forward flow."
+   },
+   {
+    "t": "Incompetence (insufficiency)",
+    "d": "Failure of a valve to close completely, allowing backflow."
+   }
+  ]
+ },
+ {
+  "n": 45,
+  "title": "Volume changes in the ventricles",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle — steps 3, 5, 7, 9, 10",
+    "book_pages": "751",
+    "pdf_pages": "767",
+    "capture": "p.751 left column step 3 (EDV about 130 mL), step 5 (isovolumetric contraction, volume unchanged); right column step 7 (70 mL ejected, ESV about 60 mL, SV = EDV - ESV), step 9 (isovolumetric relaxation) and step 10 (rapid filling, ventricles three-quarters full at end of relaxation period)",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "Figure 20.14 (d) volume in ventricle",
+    "book_pages": "750",
+    "pdf_pages": "766",
+    "capture": "p.750 Figure 20.14 row (d) 'Volume in ventricle (mL)' with points 3 End-diastolic volume, 7 End-systolic volume and the 'Stroke volume' bracket, plus row (e) phase labels beneath",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "The volume trace is the easiest row to read because volume can only change when a valve is open. Start at the peak: after atrial contraction the ventricle holds its maximum, the end-diastolic volume (about 130 mL). It stays flat during isovolumetric contraction, then drops steeply during rapid ejection and levels off during reduced ejection to the trough, the end-systolic volume (about 60 mL). It stays flat during isovolumetric relaxation, rises steeply once the mitral valve opens (rapid filling, driven by the blood that accumulated in the atrium), then creeps up during diastasis until the atrial kick lifts it back to EDV. The difference, about 70 mL, is the stroke volume; the fraction ejected (SV/EDV, about 55%) is the ejection fraction clinicians measure with ultrasound.",
+  "terms": [
+   {
+    "t": "End-diastolic volume (EDV)",
+    "d": "Maximum ventricular volume, at the end of filling (about 130 mL)."
+   },
+   {
+    "t": "End-systolic volume (ESV)",
+    "d": "Minimum ventricular volume, left after ejection (about 60 mL)."
+   },
+   {
+    "t": "Stroke volume (SV)",
+    "d": "Volume ejected per beat, EDV minus ESV (about 70 mL)."
+   },
+   {
+    "t": "Ejection fraction",
+    "d": "SV divided by EDV, the proportion of the filled volume that is pumped out."
+   },
+   {
+    "t": "Rapid filling",
+    "d": "The steep early-diastolic inflow when the AV valve first opens."
+   },
+   {
+    "t": "Diastasis",
+    "d": "Slow late filling as atrial and ventricular pressures come close to equal."
+   }
+  ]
+ },
+ {
+  "n": 46,
+  "title": "Cardiac output and Stroke Volume",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.5",
+    "section_title": "Cardiac Output",
+    "book_pages": "752-753",
+    "pdf_pages": "768-769",
+    "capture": "p.752 right column: heading '20.5 Cardiac Output', objectives, the paragraph starting 'Although the heart has autorhythmic fibers' and the definition paragraph starting 'Cardiac output (CO) is the volume of blood' ending with the boxed equation CO = SV x HR at the foot of the column; continues on p.753 left column, first two paragraphs (worked example 70 mL x 75 = 5250 mL/min; exercise values) and the 'Cardiac reserve' paragraph",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.4",
+    "section_title": "The Cardiac Cycle — step 7 (SV = EDV - ESV)",
+    "book_pages": "751",
+    "pdf_pages": "767",
+    "capture": "p.751 right column, step 7 (start 'The left ventricle ejects about 70 mL'): definitions of ESV and stroke volume with the equation SV = EDV - ESV",
+    "figures": [
+     "20.14"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Cardiac output is the flow rate delivered by one ventricle: volume per beat times beats per minute. Stroke volume is what leaves per beat, and it equals what was in the ventricle at the end of filling minus what is left after ejection. So at rest about 70 mL times about 75 beats gives about 5 L per minute, which is roughly the whole blood volume, meaning your entire blood supply passes through each side of the heart about once a minute. Both ventricles must have the same output on average or blood would pile up in one circuit. Output can rise four- to fivefold in exercise by raising both rate and stroke volume. The slide uses 72 beats per minute (5.04 L/min); Tortora uses 75 (5.25 L/min). Either is a typical resting figure.",
+  "terms": [
+   {
+    "t": "Cardiac output (CO)",
+    "d": "Volume of blood pumped by one ventricle per minute; SV times HR."
+   },
+   {
+    "t": "Heart rate (HR)",
+    "d": "Number of beats per minute."
+   },
+   {
+    "t": "Stroke volume (SV)",
+    "d": "Volume ejected by one ventricle in one beat."
+   },
+   {
+    "t": "End-diastolic volume",
+    "d": "Ventricular volume just before contraction."
+   },
+   {
+    "t": "End-systolic volume",
+    "d": "Ventricular volume left just after contraction."
+   },
+   {
+    "t": "Cardiac reserve",
+    "d": "The difference between maximum possible cardiac output and resting output."
+   },
+   {
+    "t": "Litre per minute",
+    "d": "The unit of flow rate used for cardiac output; 1 L/min is about 17 mL/s."
+   }
+  ],
+  "note": "Slide example uses HR 72 giving 5.04 L/min; Tortora uses HR 75 giving 5.25 L/min."
+ },
+ {
+  "n": 47,
+  "title": "Regulation of the Cardiac output through control systems",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 20,
+    "section": "20.5",
+    "section_title": "Cardiac Output — Regulation of Heart Rate: Autonomic Regulation",
+    "book_pages": "754-755",
+    "pdf_pages": "770-771",
+    "capture": "p.754 left column, heading 'Regulation of Heart Rate' paragraph and heading 'Autonomic Regulation of Heart Rate' (start 'Nervous system regulation of the heart originates in the cardiovascular (CV) center'), continuing in the right column (inputs from limbic system, proprioceptors, chemoreceptors, baroreceptors); p.754 Figure 20.16 'Nervous system control of the heart' (bottom of page); p.755 left column, first three paragraphs (cardiac accelerator nerves and norepinephrine; vagus nerves and acetylcholine; the shifting balance at rest)",
+    "figures": [
+     "20.16"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.5",
+    "section_title": "Cardiac Output — Chemical Regulation of Heart Rate; Figure 20.17",
+    "book_pages": "755-756",
+    "pdf_pages": "771-772",
+    "capture": "p.755 left column, heading 'Chemical Regulation of Heart Rate' and item 1 'Hormones' (epinephrine and norepinephrine from the suprarenal medullae); p.756 Figure 20.17 'Factors that increase cardiac output' (whole upper page)",
+    "figures": [
+     "20.17"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 20,
+    "section": "20.5",
+    "section_title": "Cardiac Output — Regulation of Stroke Volume: Preload",
+    "book_pages": "753",
+    "pdf_pages": "769",
+    "capture": "p.753 left column, heading 'Regulation of Stroke Volume' paragraph and heading 'Preload: Effect of Stretching' paragraph, continuing at the top of the right column (venous return increases EDV; Frank-Starling law)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The SA node sets a default rhythm, but demand changes, so two control layers adjust output. The nervous layer is the cardiovascular centre in the medulla oblongata of the brainstem. It receives reports from higher brain areas, from movement sensors in muscles and joints, from chemoreceptors watching blood oxygen, CO2 and acidity, and from baroreceptors watching arterial stretch, and it replies through two sets of nerves: sympathetic cardiac accelerator nerves release noradrenaline, raising both rate and force; the parasympathetic vagus nerves release acetylcholine, slowing the SA node. At rest the vagal brake dominates. The hormonal layer: adrenaline and noradrenaline from the adrenal medulla mimic the sympathetic nerves. Stroke volume also responds mechanically: more venous return stretches the ventricle, and a more stretched muscle contracts harder (Frank-Starling), so output rises without any nerve.",
+  "terms": [
+   {
+    "t": "Medulla oblongata",
+    "d": "The lowest part of the brainstem, housing the cardiovascular and respiratory centres."
+   },
+   {
+    "t": "Cardiovascular (CV) centre",
+    "d": "Group of medullary neurons that adjust heart rate, contractility and vessel diameter."
+   },
+   {
+    "t": "Sympathetic division",
+    "d": "Autonomic nerves for 'fight or flight'; speed and strengthen the heart via noradrenaline."
+   },
+   {
+    "t": "Parasympathetic division",
+    "d": "Autonomic nerves for rest; the vagus slows the heart via acetylcholine."
+   },
+   {
+    "t": "Vagus (X) nerve",
+    "d": "The tenth cranial nerve carrying parasympathetic fibres to the heart and viscera."
+   },
+   {
+    "t": "Adrenaline (epinephrine)",
+    "d": "Hormone from the adrenal medulla that raises heart rate and contractility."
+   },
+   {
+    "t": "Venous return",
+    "d": "The volume of blood flowing back to the heart per minute."
+   },
+   {
+    "t": "Frank-Starling law",
+    "d": "Within limits, the more a ventricle is filled and stretched, the more forcefully it contracts."
+   },
+   {
+    "t": "Baroreceptor",
+    "d": "Stretch sensor in artery walls that reports blood pressure to the brainstem."
+   },
+   {
+    "t": "Contractility",
+    "d": "The strength of contraction at a given stretch; raised by sympathetic stimulation."
+   }
+  ]
+ },
+ {
+  "n": 48,
+  "title": "Comparative structure of blood vessels",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Structure and Function of Blood Vessels — Basic Structure of a Blood Vessel",
+    "book_pages": "772-774",
+    "pdf_pages": "788-790",
+    "capture": "p.772 right column: heading 'Basic Structure of a Blood Vessel' and its paragraph, heading 'Tunica Intima' and its paragraph (endothelium, basement membrane, internal elastic membrane), heading 'Tunica Media' and the start of its paragraph; runs over the page break (past the Figure 21.1 page) to p.774 left column: rest of tunica media (vasoconstriction, vasodilation, external elastic membrane) and heading 'Tunica Externa' with its paragraph (vasa vasorum)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Figure 21.1 Comparative structure of blood vessels",
+    "book_pages": "773",
+    "pdf_pages": "789",
+    "capture": "p.773 Figure 21.1 whole page: (a) artery, (b) vein with valve, (c) capillary, and the micrographs (d)-(g); the slide reproduces parts (a)-(c) with the same labels",
+    "figures": [
+     "21.1"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Structure and Function of Blood Vessels — Veins",
+    "book_pages": "778",
+    "pdf_pages": "794",
+    "capture": "p.778 left column, heading 'Veins' and its first two paragraphs (start 'While veins do show structural changes'; 'Although veins are composed of essentially the same three layers'): relative thickness of the tunics, no elastic membranes, larger lumen",
+    "figures": [
+     "21.5"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "A blood vessel is a tube with a three-layered wall. Innermost is the tunica intima: a single sheet of flat endothelial cells (continuous with the heart's endocardium) on a basement membrane, bounded in arteries by a fenestrated internal elastic membrane. The middle tunica media is rings of smooth muscle and elastic fibres; it is the layer that varies most and that contracts or relaxes to narrow or widen the lumen. The outer tunica externa is collagen and elastic fibres with nerves and, in big vessels, tiny nutrient vessels (vasa vasorum). Arteries have a thick media because they take pulsatile high pressure; veins have a thin media, no elastic membranes, a thick externa, a wider lumen and, in the limbs, one-way valves. Capillaries are just endothelium and basement membrane, one cell thick, for exchange.",
+  "terms": [
+   {
+    "t": "Tunica intima (interna)",
+    "d": "Innermost vessel layer: endothelium, basement membrane and internal elastic membrane."
+   },
+   {
+    "t": "Endothelium",
+    "d": "The single layer of flat cells lining the whole cardiovascular system."
+   },
+   {
+    "t": "Basement membrane",
+    "d": "Thin collagen-rich sheet anchoring the endothelium to the tissue beneath."
+   },
+   {
+    "t": "Internal / external elastic lamina (membrane)",
+    "d": "Sheets of elastic fibres bounding the tunica media on its inner and outer sides in arteries."
+   },
+   {
+    "t": "Tunica media",
+    "d": "Middle layer of circular smooth muscle and elastic fibres controlling vessel diameter."
+   },
+   {
+    "t": "Tunica externa (adventitia)",
+    "d": "Outer connective-tissue coat with nerves and vasa vasorum, anchoring the vessel."
+   },
+   {
+    "t": "Smooth muscle",
+    "d": "Involuntary, non-striated muscle found in vessel and organ walls."
+   },
+   {
+    "t": "Venous valve",
+    "d": "Flap of tunica intima in a vein that prevents backflow toward the capillaries."
+   }
+  ],
+  "note": "The slide uses the older terms 'tunica interna' and 'elastic lamina'; the 16th edition says 'tunica intima' and 'elastic membrane'."
+ },
+ {
+  "n": 49,
+  "title": "Why do arteries branching",
+  "kind": "figure",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Structure and Function of Blood Vessels — introduction; Arteries",
+    "book_pages": "772-775",
+    "pdf_pages": "788-791",
+    "capture": "p.772 left column, the paragraph starting 'The five main types of blood vessels' (the branching sequence from elastic arteries to capillaries and back through venules and veins); p.774 left column bottom, headings 'Arteries' and 'Elastic Arteries' with their paragraphs continuing in the right column (pressure reservoir, conducting arteries) and Figure 21.2; p.775 left column, heading 'Muscular Arteries' and its three paragraphs (distributing arteries, vascular tone)",
+    "figures": [
+     "21.2"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Table 21.1 Distinguishing Features of Blood Vessels",
+    "book_pages": "780",
+    "pdf_pages": "796",
+    "capture": "p.780 Table 21.1 (lower two-thirds of page): rows for elastic arteries, muscular arteries, arterioles, capillaries, postcapillary venules, muscular venules, veins, with columns size / tunica intima / tunica media / tunica externa / function",
+    "figures": [],
+    "tables": [
+     "21.1"
+    ]
+   },
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Structure and Function of Blood Vessels — Tunica Externa (vasa vasorum); Veins",
+    "book_pages": "774-778",
+    "pdf_pages": "790-794",
+    "capture": "p.774 left column, 'Tunica Externa' paragraph (vasa vasorum defined); p.778 left column 'Veins' paragraphs and right column paragraph starting 'A vascular (venous) sinus'",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "The answer to the slide's question is that vessels are a branching tree in both directions: the aorta divides into a few large elastic arteries, these into many medium muscular (distributing) arteries, these into hundreds of millions of arterioles and billions of capillaries; on the way back capillaries merge into venules, then medium veins, then the two venae cavae. Each generation of branch is narrower but there are far more of them, so the total cross-sectional area grows toward the capillaries. The wall changes with the job: elastic arteries have a media dominated by elastic sheets to smooth the pulse; muscular arteries have up to 40 layers of smooth muscle to direct flow; veins have thin walls, a big lumen and often valves. Very large vessels need their own small nutrient vessels, the vasa vasorum, and nerves in the externa.",
+  "terms": [
+   {
+    "t": "Elastic (conducting) artery",
+    "d": "The largest arteries (aorta, pulmonary trunk, their first branches) with elastic-fibre-rich walls that store pressure."
+   },
+   {
+    "t": "Muscular (distributing) artery",
+    "d": "Medium artery with a thick smooth-muscle media that routes blood to organs."
+   },
+   {
+    "t": "Arteriole",
+    "d": "Microscopic artery whose muscle ring controls flow into capillaries and sets resistance."
+   },
+   {
+    "t": "Venule",
+    "d": "Tiny vein collecting blood from capillaries."
+   },
+   {
+    "t": "Vasa vasorum",
+    "d": "Small vessels in the wall of a large vessel that nourish the wall itself."
+   },
+   {
+    "t": "Cross-sectional area",
+    "d": "The area of the lumen seen in a cut across the vessel; summed over all parallel vessels at that level."
+   },
+   {
+    "t": "Vascular tone",
+    "d": "The steady partial contraction of smooth muscle in artery walls."
+   },
+   {
+    "t": "Compliance",
+    "d": "How much a vessel stretches per unit rise in pressure; high in elastic arteries and veins."
+   }
+  ],
+  "note": "The slide figure (aorta, distributing artery, medium vein, inferior vena cava, venule, capillary side by side) is not from Tortora; Figure 21.1 and Table 21.1 carry the same content."
+ },
+ {
+  "n": 50,
+  "title": "Vessel types and blood flow",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "21.3",
+    "section_title": "Hemodynamics: Factors Affecting Blood Flow — Blood Pressure",
+    "book_pages": "784",
+    "pdf_pages": "800",
+    "capture": "p.784 left column, heading 'Blood Pressure' paragraph, continuing at the top of the right column (110/70 mmHg in the aorta, falling to about 35 mmHg entering capillaries, 16 mmHg at their venous end, 0 mmHg in the right ventricle); p.784 Figure 21.8 'Blood pressures in various parts of the cardiovascular system' (lower right)",
+    "figures": [
+     "21.8"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.3",
+    "section_title": "Hemodynamics — Velocity of Blood Flow",
+    "book_pages": "786-787",
+    "pdf_pages": "802-803",
+    "capture": "p.786 left column bottom, heading 'Velocity of Blood Flow' and its paragraph, continuing in the right column below the Syncope box (start 'the total cross-sectional area is greatest'; aorta 3-5 cm2 at 40 cm/s, capillaries 4500-6000 cm2 at under 0.1 cm/s, venae cavae 14 cm2 at 15 cm/s); p.787 Figure 21.11 'Relationship between velocity of blood flow and total cross-sectional area' (left, lower half)",
+    "figures": [
+     "21.11"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Structure and Function of Blood Vessels — Arterioles; Capillaries; Veins",
+    "book_pages": "775-778",
+    "pdf_pages": "791-794",
+    "capture": "p.775 right column, heading 'Arterioles' paragraphs (precapillary sphincter, resistance vessels) and heading 'Capillaries' (start of paragraph, continuing on p.776 below Figure 21.3); p.776 Figure 21.3 'Arterioles, capillaries, and venules' (precapillary sphincters relaxed and contracted); p.778 left column, 'Veins' paragraphs and right column paragraph on valves",
+    "figures": [
+     "21.3"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Think of the circulation as a river system that splits into countless streams and then rejoins. Three curves describe it. Pressure: highest and pulsing in the aorta (about 120/80 mmHg), falling gently through arteries, dropping steeply across the arterioles because their narrow muscular lumens are the main site of resistance, and smoothing to a steady few mmHg in capillaries and veins, reaching zero at the right atrium. Total cross-sectional area: small in the aorta, enormous in the capillary bed because billions of tiny tubes run in parallel, small again in the venae cavae. Velocity: by conservation of flow (flow = area times velocity, and the flow through every level is the same cardiac output), blood is fast in the aorta, crawls at under a millimetre per second in capillaries, giving time for exchange, and speeds up again in the veins.",
+  "terms": [
+   {
+    "t": "Blood pressure",
+    "d": "The force blood exerts on the vessel wall per unit area, in mmHg."
+   },
+   {
+    "t": "Precapillary sphincter",
+    "d": "A ring of smooth muscle at the entrance to a capillary that opens or closes it."
+   },
+   {
+    "t": "Capillary bed",
+    "d": "A network of 10-100 capillaries fed by one arteriole/metarteriole."
+   },
+   {
+    "t": "Resistance vessels",
+    "d": "Arterioles, whose diameter changes set most of the resistance to flow."
+   },
+   {
+    "t": "Exchange vessels",
+    "d": "Capillaries (and postcapillary venules), where substances cross to tissues."
+   },
+   {
+    "t": "Velocity of flow",
+    "d": "Speed of blood in cm/s; inversely related to total cross-sectional area."
+   },
+   {
+    "t": "Continuity (conservation of flow)",
+    "d": "In a closed system the same volume per second passes every level, so area times velocity is constant."
+   },
+   {
+    "t": "Pulse pressure",
+    "d": "The difference between systolic and diastolic pressure; disappears by the capillaries."
+   }
+  ]
+ },
+ {
+  "n": 51,
+  "title": "Distribution of blood flow",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "21.3",
+    "section_title": "Hemodynamics: Factors Affecting Blood Flow",
+    "book_pages": "784",
+    "pdf_pages": "800",
+    "capture": "p.784 left column: heading '21.3 Hemodynamics: Factors Affecting Blood Flow', objectives, and the paragraph starting 'Hemodynamics ... refers to the forces' (blood flow, total flow = cardiac output, distribution depends on pressure difference and resistance)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.3",
+    "section_title": "Hemodynamics — Vascular Resistance",
+    "book_pages": "785",
+    "pdf_pages": "801",
+    "capture": "p.785 left column, heading 'Vascular Resistance' and numbered items 1 'Size of the lumen' (R proportional to 1/d^4), 2 'Blood viscosity' and 3 'Total blood vessel length' (item 3 runs over into the right column top); right column paragraph starting 'Systemic vascular resistance (SVR)' (arterioles contribute most, vasomotor centre)",
+    "figures": [],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.4",
+    "section_title": "Control of Blood Pressure and Blood Flow — Autoregulation of Blood Flow",
+    "book_pages": "791",
+    "pdf_pages": "807",
+    "capture": "p.791 left column, heading 'Autoregulation of Blood Flow' and its paragraph (tissues adjust their own flow to metabolic demand), continuing in the right column below Table 21.2 with the two types of stimuli (physical changes; vasodilating and vasoconstricting chemicals)",
+    "figures": [],
+    "tables": []
+   }
+  ],
+  "basics": "Flow through any tube obeys the same rule as current through a resistor: flow equals pressure difference divided by resistance. The heart provides one pressure head for the whole systemic circuit (mean arterial pressure minus roughly zero at the right atrium), and the organs are plumbed in parallel, so each organ's share is set by its own resistance. Resistance depends on three things: vessel length (fixed in the short term), blood viscosity (set mainly by the red-cell fraction), and above all lumen radius, since resistance rises with the fourth power of narrowing: halving the diameter multiplies resistance sixteen-fold. Arterioles therefore act as taps. Sympathetic nerves set their general tone, while local chemicals from active tissue (CO2, H+, K+, adenosine, nitric oxide) dilate the arterioles of exactly the tissues that are working, a process called autoregulation.",
+  "terms": [
+   {
+    "t": "Haemodynamics",
+    "d": "The physics of blood flow: pressures, flows and resistances."
+   },
+   {
+    "t": "Blood flow",
+    "d": "Volume of blood passing through a tissue per unit time (mL/min)."
+   },
+   {
+    "t": "Pressure difference (gradient)",
+    "d": "The drop in pressure between the start and end of a vessel path that drives flow."
+   },
+   {
+    "t": "Vascular resistance",
+    "d": "Opposition to flow from friction between blood and vessel wall."
+   },
+   {
+    "t": "Viscosity",
+    "d": "A fluid's internal friction or 'thickness'; blood's rises with red-cell count."
+   },
+   {
+    "t": "Lumen",
+    "d": "The channel inside a vessel; its radius dominates resistance."
+   },
+   {
+    "t": "Systemic vascular resistance (SVR)",
+    "d": "Total resistance of all systemic vessels; also called total peripheral resistance."
+   },
+   {
+    "t": "Autoregulation",
+    "d": "A tissue's ability to adjust its own blood flow to match its metabolic needs."
+   },
+   {
+    "t": "Poiseuille relation",
+    "d": "For steady flow in a tube, resistance is proportional to length times viscosity divided by radius to the fourth power."
+   }
+  ]
+ },
+ {
+  "n": 52,
+  "title": "Action of the skeletal muscle pump in returning",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "21.3",
+    "section_title": "Hemodynamics — Venous Return",
+    "book_pages": "785-786",
+    "pdf_pages": "801-802",
+    "capture": "p.785 right column, heading 'Venous Return' and its two paragraphs (pressure from venules 16 mmHg to right ventricle 0 mmHg; standing up), then 'The skeletal muscle pump operates as follows' with steps 1 and 2 at the foot of the column; step 3 and the 'respiratory pump' paragraph are on p.786 left column below the figure; p.786 Figure 21.9 'Action of the skeletal muscle pump in returning blood to the heart' (top left; the slide reproduces it)",
+    "figures": [
+     "21.9"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.1",
+    "section_title": "Structure and Function of Blood Vessels — Veins (valves)",
+    "book_pages": "778",
+    "pdf_pages": "794",
+    "capture": "p.778 left column, last paragraph (start 'Many veins, especially those in the limbs, also contain valves') continuing into the right column top; p.778 Figure 21.5 'Venous valves' (right, lower half)",
+    "figures": [
+     "21.5"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "By the time blood reaches the veins almost all the heart's pressure has been spent: about 16 mmHg in venules versus 0 at the right atrium. When you stand, the column of blood in your leg veins weighs enough to nearly cancel that small push. Two extra pumps help, both relying on the one-way valves in limb veins. In the skeletal muscle pump, contracting calf and thigh muscles squeeze the deep veins between them; blood can only go toward the heart because the valve above (proximal) opens and the valve below (distal) closes. When the muscle relaxes the compressed segment refills from below: the proximal valve closes, the distal one opens. Each step milks blood upward. The respiratory pump does the same using breathing-driven pressure changes in the abdomen and chest. Standing still for a long time defeats the pump and blood pools.",
+  "terms": [
+   {
+    "t": "Venous return",
+    "d": "The volume of blood flowing back to the heart through the veins per minute."
+   },
+   {
+    "t": "Skeletal muscle pump",
+    "d": "Rhythmic muscle contraction squeezing deep veins to push blood toward the heart."
+   },
+   {
+    "t": "Respiratory pump",
+    "d": "Breathing movements that alternately compress abdominal veins and expand thoracic veins."
+   },
+   {
+    "t": "Proximal / distal",
+    "d": "Closer to / farther from the trunk or point of origin; here, nearer to / farther from the heart."
+   },
+   {
+    "t": "Deep vein",
+    "d": "A vein running between the muscles, as opposed to superficial veins under the skin."
+   },
+   {
+    "t": "Milking",
+    "d": "Sequential squeezing of a vein segment that drives blood forward past a valve."
+   },
+   {
+    "t": "Venous pooling",
+    "d": "Accumulation of blood in dependent veins when the pumps are inactive."
+   }
+  ]
+ },
+ {
+  "n": 53,
+  "title": "Neural Regulation of Blood Pressure",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "21.4",
+    "section_title": "Control of Blood Pressure and Blood Flow — Role of the Cardiovascular Center",
+    "book_pages": "787-788",
+    "pdf_pages": "803-804",
+    "capture": "p.787 right column: heading '21.4 Control of Blood Pressure and Blood Flow', the introductory paragraph and heading 'Role of the Cardiovascular Center' with its first lines; continues on p.788 top, left column (cardiostimulatory, cardioinhibitory and vasomotor centres; inputs from higher brain and from proprioceptors, baroreceptors, chemoreceptors) and right column (outputs via cardiac accelerator nerves, vagus nerves, vasomotor nerves, vasomotor tone); p.788 Figure 21.12 'Location and function of the cardiovascular (CV) center' (lower half of page)",
+    "figures": [
+     "21.12"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.4",
+    "section_title": "Control of Blood Pressure — Neural Regulation of Blood Pressure: Baroreceptor Reflexes",
+    "book_pages": "789-790",
+    "pdf_pages": "805-806",
+    "capture": "p.789 top: left column heading 'Neural Regulation of Blood Pressure', heading 'Baroreceptor Reflexes' and its paragraphs (carotid sinus reflex via glossopharyngeal nerve, aortic reflex via vagus), continuing in the right column ('When blood pressure falls, the baroreceptors are stretched less'); p.789 Figure 21.13 (lower half); p.790 Figure 21.14 'Negative feedback regulation of blood pressure via baroreceptor reflexes' (left column) and right column first paragraph (start 'Conversely, when an increase in pressure is detected') and heading 'Chemoreceptor reflexes' paragraph",
+    "figures": [
+     "21.13",
+     "21.14"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Blood pressure is held steady by a negative-feedback loop like a thermostat. The sensors are baroreceptors, stretch-sensitive nerve endings in the wall of the carotid sinus (in the neck, feeding the brain) and the aortic arch. They fire faster when pressure stretches them more. Their signals travel in cranial nerves IX and X to the cardiovascular centre in the medulla, which compares them with the set point and adjusts three effectors: sympathetic accelerator nerves to the heart (rate and force up), vagus nerves to the heart (rate down), and sympathetic vasomotor nerves to arterioles and veins (constriction up or down). Pressure falls when you stand: baroreceptors fire less, the centre cuts vagal braking and raises sympathetic drive, so cardiac output and resistance rise and pressure recovers within seconds. Chemoreceptors add a second input, raising pressure when oxygen is low or CO2 and acid are high.",
+  "terms": [
+   {
+    "t": "Baroreceptor",
+    "d": "Stretch receptor in the wall of the carotid sinus or aortic arch that senses blood pressure."
+   },
+   {
+    "t": "Carotid sinus",
+    "d": "A slight swelling at the start of the internal carotid artery rich in baroreceptors."
+   },
+   {
+    "t": "Glossopharyngeal (IX) nerve",
+    "d": "Cranial nerve carrying carotid sinus signals to the medulla."
+   },
+   {
+    "t": "Negative feedback",
+    "d": "A control loop in which the response opposes the original change, restoring the set point."
+   },
+   {
+    "t": "Vasomotor centre / nerves",
+    "d": "Medullary neurons and sympathetic fibres that set arteriole and vein constriction."
+   },
+   {
+    "t": "Vasomotor tone",
+    "d": "The steady partial constriction of arterioles maintained by ongoing sympathetic impulses."
+   },
+   {
+    "t": "Chemoreceptor",
+    "d": "Sensor in carotid and aortic bodies detecting blood O2, CO2 and H+."
+   },
+   {
+    "t": "Effector",
+    "d": "The organ that carries out a control system's response: here heart and vessels."
+   },
+   {
+    "t": "Orthostatic hypotension",
+    "d": "A fall in blood pressure on standing when the reflex is too slow."
+   }
+  ]
+ },
+ {
+  "n": 54,
+  "title": "Hormonal regulation of Blood Pressure",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 21,
+    "section": "21.4",
+    "section_title": "Control of Blood Pressure and Blood Flow — Hormonal Regulation of Blood Pressure",
+    "book_pages": "790-791",
+    "pdf_pages": "806-807",
+    "capture": "p.790 right column, bottom: heading 'Hormonal Regulation of Blood Pressure' and its first 2 lines; runs over the page break to p.791 left column, numbered items 1 'Renin-angiotensin-aldosterone (RAA) system', 2 'Epinephrine and norepinephrine', 3 'Antidiuretic hormone (ADH)', 4 'Atrial natriuretic peptide (ANP)' (the slide's four bullets in the same order); p.791 Table 21.2 'Blood pressure regulation by hormones' (top of right column)",
+    "figures": [],
+    "tables": [
+     "21.2"
+    ]
+   },
+   {
+    "chapter": 18,
+    "section": "18.9",
+    "section_title": "The Suprarenal Glands — Control of Aldosterone Secretion",
+    "book_pages": "674",
+    "pdf_pages": "690",
+    "capture": "p.674 left column, heading 'Control of Aldosterone Secretion' and the bullet list under it; p.674 Figure 18.15 'Regulation of aldosterone secretion by the renin-angiotensin-aldosterone pathway' (right column)",
+    "figures": [
+     "18.15"
+    ],
+    "tables": []
+   }
+  ],
+  "basics": "Nerves fix pressure within seconds; hormones act over minutes to days, mainly by changing blood volume and vessel diameter. Four matter. When the kidneys sense low pressure or volume they release renin, an enzyme that starts a chain ending in angiotensin II, a powerful arteriole constrictor that also makes the adrenal cortex release aldosterone, which tells the kidneys to keep sodium and hence water: volume and pressure rise. Adrenaline and noradrenaline from the adrenal medulla raise heart rate and contractility and constrict skin and gut arterioles while dilating those in muscle. Antidiuretic hormone (vasopressin) from the posterior pituitary constricts vessels and makes the kidney retain water. Working the other way, atrial natriuretic peptide, released when the atria are over-stretched, dilates vessels and makes the kidney dump salt and water, lowering pressure.",
+  "terms": [
+   {
+    "t": "Hormone",
+    "d": "A chemical messenger released into the blood that acts on distant target cells."
+   },
+   {
+    "t": "Renin",
+    "d": "Enzyme secreted by kidney juxtaglomerular cells when blood pressure or volume falls."
+   },
+   {
+    "t": "Juxtaglomerular cells",
+    "d": "Modified muscle cells in the wall of the kidney's afferent arteriole that make renin."
+   },
+   {
+    "t": "Angiotensin II",
+    "d": "Active hormone that constricts arterioles and stimulates aldosterone release."
+   },
+   {
+    "t": "Aldosterone",
+    "d": "Adrenal cortex hormone that makes kidney tubules reabsorb Na+ and water and secrete K+."
+   },
+   {
+    "t": "Antidiuretic hormone (ADH, vasopressin)",
+    "d": "Posterior pituitary hormone that retains water in the kidney and constricts vessels."
+   },
+   {
+    "t": "Atrial natriuretic peptide (ANP)",
+    "d": "Hormone from stretched atria that promotes salt and water loss and vasodilation."
+   },
+   {
+    "t": "Vasoconstriction / vasodilation",
+    "d": "Narrowing / widening of a vessel by contraction / relaxation of its smooth muscle."
+   },
+   {
+    "t": "Reabsorption",
+    "d": "Movement of water or solutes from kidney tubule fluid back into the blood."
+   }
+  ]
+ },
+ {
+  "n": 55,
+  "title": "Renin-angiotensin-aldosterone system",
+  "kind": "content",
+  "refs": [
+   {
+    "chapter": 18,
+    "section": "18.9",
+    "section_title": "The Suprarenal Glands — Control of Aldosterone Secretion (RAA pathway)",
+    "book_pages": "674",
+    "pdf_pages": "690",
+    "capture": "p.674 left column: heading 'Control of Aldosterone Secretion' and the whole bullet list (from 'Stimuli that initiate the renin-angiotensin-aldosterone pathway include dehydration' through the last bullet on K+ concentration); p.674 Figure 18.15 (right column, whole feedback diagram from STIMULUS to RESPONSE)",
+    "figures": [
+     "18.15"
+    ],
+    "tables": []
+   },
+   {
+    "chapter": 21,
+    "section": "21.4",
+    "section_title": "Control of Blood Pressure and Blood Flow — Hormonal Regulation, item 1",
+    "book_pages": "791",
+    "pdf_pages": "807",
+    "capture": "p.791 left column, numbered item 1 'Renin-angiotensin-aldosterone (RAA) system' (about 12 lines)",
+    "figures": [],
+    "tables": [
+     "21.2"
+    ]
+   }
+  ],
+  "basics": "This is a multi-organ feedback loop for defending blood volume. Trigger: dehydration, salt loss or bleeding lowers blood volume and pressure. Sensor: juxtaglomerular cells in the kidney feel the lower pressure and secrete renin into the blood. Cascade: renin is an enzyme that clips angiotensinogen, a protein the liver constantly makes, into angiotensin I; as blood passes through the lungs, angiotensin-converting enzyme (ACE) on the capillary lining clips that into angiotensin II, the active hormone. Two responses restore pressure: angiotensin II constricts arterioles directly, raising resistance, and it makes the adrenal cortex secrete aldosterone, which acts on kidney tubules to reclaim sodium and with it water (while dumping potassium and hydrogen ions) so blood volume rises. A separate trigger, high blood potassium, also releases aldosterone. ACE inhibitors, common blood-pressure drugs, block the lung step.",
+  "terms": [
+   {
+    "t": "Angiotensinogen",
+    "d": "Inactive plasma protein made by the liver; the starting substrate of the RAA cascade."
+   },
+   {
+    "t": "Angiotensin I",
+    "d": "Inactive intermediate produced when renin cleaves angiotensinogen."
+   },
+   {
+    "t": "Angiotensin-converting enzyme (ACE)",
+    "d": "Enzyme on lung capillary endothelium that converts angiotensin I to angiotensin II."
+   },
+   {
+    "t": "Adrenal (suprarenal) cortex",
+    "d": "Outer part of the gland on top of each kidney; secretes aldosterone."
+   },
+   {
+    "t": "Enzyme",
+    "d": "A protein that speeds a specific chemical reaction, such as cutting another protein."
+   },
+   {
+    "t": "Extracellular fluid",
+    "d": "All body fluid outside cells: blood plasma plus the interstitial fluid around cells."
+   },
+   {
+    "t": "Sodium reabsorption",
+    "d": "Return of Na+ from kidney tubule fluid to blood; water follows by osmosis."
+   },
+   {
+    "t": "Osmosis",
+    "d": "Net movement of water across a membrane toward the side with more dissolved particles."
+   },
+   {
+    "t": "Hypovolaemia",
+    "d": "Abnormally low blood volume."
+   }
+  ],
+  "note": "The slide's numbered steps 1-16 follow the bullet sequence of Tortora's Figure 18.15 / p.674 list (older editions numbered them); the chapter 21 treatment on p.791 is a shorter summary."
+ }
+]
