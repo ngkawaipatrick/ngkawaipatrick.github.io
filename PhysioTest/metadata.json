@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "38c44a32d1fb43239037fe90def96bd1",
+  "slug": "physiology-process-tester-38c44a32",
+  "createdAt": "2026-10-24T14:15:36+00:00",
+  "updatedAt": "2026-10-25T00:19:04+00:00",
+  "name": "Physiology Process Tester",
+  "description": "Offline fill-in-the-blank drill for the 67 HTI5001 multistage processes (Weeks 1–8): study view, assessment mode with 3 or 5 random blanks per process, check/retry/reveal, per-process scores saved on device. iPad-sized controls.",
+  "type": "html-app",
+  "primary": "Physiology-Tester.html",
+  "port": null,
+  "datasources": [],
+  "files": [],
+  "provenance": [
+    {
+      "conversation": "629ecb4a-b56c-4b19-9b2a-cd7ac62d5ddf",
+      "title": null,
+      "turns": [
+        {
+          "index": 5,
+          "timestamp": "2026-10-24T14:15:36+00:00",
+          "summary": "Created artifact: Physiology Process Tester",
+          "files_touched": []
+        },
+        {
+          "index": 3,
+          "timestamp": "2026-10-25T00:19:04+00:00",
+          "summary": "Edited via scratchpad",
+          "files_touched": []
+        }
+      ]
+    }
+  ]
+}
