@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HKCWCC MC Sheet Marker</title>
+<meta name="description" content="Mark scanned HKCWCC M.C. answer sheets in the browser and download an Excel mark sheet.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#f4f5f2;
+  --surface:#ffffff;
+  --surface-2:#eef0ec;
+  --ink:#1c232b;
+  --muted:#5a6470;
+  --line:#d9ddd6;
+  --line-strong:#b9bfb6;
+  --accent:#23506e;
+  --accent-ink:#ffffff;
+  --accent-soft:#dfe9f0;
+  --graphite:#3b4048;
+  --wrong-bg:#ffd7d4;
+  --wrong-ink:#8f1a14;
+  --key-bg:#fff06a;
+  --key-ink:#3d3500;
+  --flag:#d9780f;
+  --beat-bg:#f7c9a4;
+  --ok:#2d7a3e;
+  --shadow:0 1px 2px rgba(20,30,40,.06),0 4px 16px rgba(20,30,40,.05);
+  --sans:"IBM Plex Sans","Segoe UI",system-ui,-apple-system,"Microsoft JhengHei","PingFang TC",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,"Cascadia Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#15181b; --surface:#1d2125; --surface-2:#252a2f; --ink:#e7eae6; --muted:#a3abb3;
+    --line:#30363c; --line-strong:#454c53; --accent:#8cbfe0; --accent-ink:#10212d; --accent-soft:#1f3342;
+    --graphite:#c9ced4; --wrong-bg:#5b2320; --wrong-ink:#ffc9c3; --key-bg:#6e6100; --key-ink:#fff7b8;
+    --flag:#f0a040; --beat-bg:#6b4020; --ok:#7fcf8e;
+    --shadow:0 1px 2px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#15181b; --surface:#1d2125; --surface-2:#252a2f; --ink:#e7eae6; --muted:#a3abb3;
+  --line:#30363c; --line-strong:#454c53; --accent:#8cbfe0; --accent-ink:#10212d; --accent-soft:#1f3342;
+  --graphite:#c9ced4; --wrong-bg:#5b2320; --wrong-ink:#ffc9c3; --key-bg:#6e6100; --key-ink:#fff7b8;
+  --flag:#f0a040; --beat-bg:#6b4020; --ok:#7fcf8e;
+  --shadow:0 1px 2px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:28px 64px}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* header */
+.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:22px}
+.brand{display:flex;align-items:center;gap:14px}
+.mark{display:grid;grid-template-columns:repeat(4,16px);gap:5px;flex:none}
+.mark i{height:7px;border:1.5px solid var(--ink);border-radius:1px}
+.mark i.on{background:var(--graphite);border-color:var(--graphite)}
+h1{font-size:26px;line-height:1.15;margin:0;font-weight:700;letter-spacing:-.01em;text-wrap:balance}
+.tagline{margin:2px 0 0;color:var(--muted)}
+.privacy{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:13.5px;max-width:420px}
+.privacy svg{flex:none}
+
+/* panels */
+.inputs{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:16px;align-items:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px;box-shadow:var(--shadow);min-width:0}
+.panel h2{display:flex;align-items:center;gap:10px;font-size:16px;margin:0 0 12px;font-weight:600}
+.step{width:24px;height:24px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font:600 13px var(--mono);flex:none}
+.hint{color:var(--muted);font-size:13.5px;margin:6px 0 0}
+
+.drop{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;
+  border:1.5px dashed var(--line-strong);border-radius:8px;padding:26px 16px;cursor:pointer;background:var(--surface-2);transition:border-color .15s,background .15s}
+.drop:hover,.drop.over{border-color:var(--accent);background:var(--accent-soft)}
+.drop strong{font-size:15px}
+.drop span{color:var(--muted);font-size:13.5px}
+.progress{margin-top:12px}
+.bar{height:6px;border-radius:3px;background:var(--surface-2);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+.status{display:flex;justify-content:space-between;gap:12px;font-size:13.5px;color:var(--muted);margin-top:6px;font-variant-numeric:tabular-nums}
+.files{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:6px}
+.files li{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;padding:7px 10px;border-radius:6px;background:var(--surface-2)}
+.files li span:last-child{color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.linkbtn{background:none;border:0;padding:0;color:var(--accent);cursor:pointer;text-decoration:underline;font-size:13.5px}
+
+/* key */
+.keyrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+#key{flex:1 1 260px;min-width:0;font:500 16px/1.2 var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:10px 12px;border:1px solid var(--line-strong);border-radius:6px;background:var(--surface)}
+#key::placeholder{letter-spacing:.02em;text-transform:none;color:var(--muted);font-weight:400}
+.count{font:500 13.5px var(--mono);color:var(--muted);white-space:nowrap}
+.count.bad{color:var(--wrong-ink)}
+.sheet{margin-top:14px;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px 18px}
+.group{display:grid;gap:3px}
+.q{display:grid;grid-template-columns:26px repeat(4,1fr);align-items:center;gap:6px;font:12.5px var(--mono);color:var(--muted)}
+.q.next{opacity:.45}
+.q b{font-weight:500;text-align:right;color:var(--ink)}
+.bub{position:relative;height:18px;border:0;background:none;padding:0;cursor:pointer;display:grid;place-items:center}
+.bub::before{content:"";width:100%;max-width:26px;height:8px;border:1.5px solid var(--muted);border-radius:1px}
+.bub.on::before{background:var(--graphite);border-color:var(--graphite)}
+.bub:hover::before{border-color:var(--accent)}
+.bub span{position:absolute;inset:auto 0 -9px;font-size:9px;line-height:1;color:var(--muted);opacity:0}
+.q:first-child .bub span{opacity:1;inset:-11px 0 auto}
+.group .q:first-child{margin-top:10px}
+
+/* results */
+.results{margin-top:16px}
+.rhead{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;margin-bottom:12px}
+.rhead h2{margin:0}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);border-radius:6px;padding:8px 14px;font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px;padding:0;list-style:none}
+.stats li{background:var(--surface-2);border-radius:6px;padding:6px 12px;font-size:13.5px;color:var(--muted)}
+.stats b{font:600 16px var(--mono);color:var(--ink);margin-right:6px;font-variant-numeric:tabular-nums}
+.stats li.warn b{color:var(--flag)}
+.example-note{font-size:13px;color:var(--muted);margin:0 0 8px}
+.example-note b{display:inline-block;font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;background:var(--surface-2);border:1px solid var(--line);border-radius:4px;padding:1px 6px;margin-right:6px;color:var(--ink)}
+.tablebox{overflow:auto;max-height:70vh;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+table.grid{border-collapse:separate;border-spacing:0;font:13px var(--mono);font-variant-numeric:tabular-nums;width:max-content;min-width:100%}
+.grid th,.grid td{padding:5px 6px;text-align:center;border-right:1px solid var(--line);border-bottom:1px solid var(--line);white-space:nowrap;background:var(--surface)}
+.grid thead th{position:sticky;top:0;z-index:2;background:var(--surface-2);font-weight:600;font-family:var(--sans);font-size:12.5px}
+.grid .c1{position:sticky;left:0;z-index:1;width:64px;min-width:64px;max-width:64px}
+.grid .c2{position:sticky;left:64px;z-index:1;width:44px;min-width:44px;border-right:1px solid var(--line-strong)}
+.grid thead .c1,.grid thead .c2{z-index:3}
+.grid tr.keyline td{background:var(--accent-soft);font-weight:600}
+.grid tbody tr.stu{cursor:pointer}
+.grid tbody tr.stu:hover td{background:var(--surface-2)}
+.grid td.wrong{background:var(--wrong-bg)!important;color:var(--wrong-ink);font-weight:600}
+.grid td.flag{box-shadow:inset 0 0 0 2px var(--flag)}
+.grid td.score{font-weight:600}
+.grid tfoot td{background:var(--surface-2);font-size:12px}
+.grid tfoot tr:first-child td{border-top:2px solid var(--ink)}
+.grid tfoot td.wide{max-width:none;width:108px}
+.grid tfoot td.lab{text-align:left;font-family:var(--sans);font-weight:600}
+.grid tfoot td.key{background:var(--key-bg);color:var(--key-ink);font-weight:600}
+.grid tfoot td.beat{background:var(--beat-bg)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:10px;font-size:13px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:14px;height:14px;border-radius:3px;display:inline-block}
+.flags{margin-top:14px}
+.flags h3{font-size:14px;margin:0 0 6px}
+.flags ul{margin:0;padding-left:18px;font-size:13.5px}
+.flags li{margin:3px 0}
+
+/* review dialog */
+dialog{border:0;border-radius:10px;padding:0;width:min(920px,calc(100vw - 32px));max-height:calc(100vh - 32px);background:var(--surface);color:var(--ink);box-shadow:0 12px 48px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(10,15,20,.55)}
+.dhead{position:sticky;top:0;z-index:1;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--surface)}
+.dhead h3{margin:0;font-size:16px;font-variant-numeric:tabular-nums}
+.dnav{display:flex;gap:6px}
+.dbody{padding:12px 16px 16px}
+.dbody ul{margin:0 0 10px;padding-left:18px;font-size:13.5px}
+.dbody canvas{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:4px;background:#fff}
+.dbody canvas.zoom{width:200%;max-width:none}
+.canvasbox{overflow:auto}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:6px;font-size:14px;box-shadow:var(--shadow);max-width:calc(100vw - 32px)}
+
+@media (max-width:820px){ .inputs{grid-template-columns:minmax(0,1fr)} }
+@media (prefers-reduced-motion:reduce){ *{transition:none!important} }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <div class="mark" aria-hidden="true"><i></i><i class="on"></i><i></i><i></i></div>
+      <div>
+        <h1>HKCWCC MC Sheet Marker</h1>
+        <p class="tagline">Hong Kong Chinese Women&#39;s Club College M.C. Answer Sheet · scans in, Excel mark sheet out</p>
+      </div>
+    </div>
+    <p class="privacy">
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="7" width="10" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+      Scans are read on this device. Nothing is uploaded.
+    </p>
+  </header>
+
+  <div class="inputs">
+    <section class="panel" aria-labelledby="h-scans">
+      <h2 id="h-scans"><span class="step">1</span>Scanned sheets</h2>
+      <label class="drop" id="drop" for="file">
+        <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect x="7" y="3" width="20" height="28" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="11" y="10" width="5" height="2.4" fill="currentColor"/><rect x="18" y="10" width="5" height="2.4" fill="none" stroke="currentColor" stroke-width="1"/><rect x="11" y="15" width="5" height="2.4" fill="none" stroke="currentColor" stroke-width="1"/><rect x="18" y="15" width="5" height="2.4" fill="currentColor"/><rect x="11" y="20" width="5" height="2.4" fill="none" stroke="currentColor" stroke-width="1"/><rect x="18" y="20" width="5" height="2.4" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+        <strong>Choose the scanned PDF</strong>
+        <span>or drop it here · PDF, JPG or PNG · several files are fine</span>
+      </label>
+      <input class="sr" type="file" id="file" accept=".pdf,application/pdf,image/*" multiple>
+      <div class="progress" id="progress" hidden>
+        <div class="bar"><i id="barfill"></i></div>
+        <div class="status"><span id="status-text">Reading…</span><span id="status-count"></span></div>
+      </div>
+      <ul class="files" id="files"></ul>
+      <p class="hint" id="clear-row" hidden><button type="button" class="linkbtn" id="clear">Remove all scans</button></p>
+      <p class="hint">Scan at 300 dpi, colour or greyscale. Keep the three black corner triangles on the page; sheets may be scanned upside-down or sideways.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="h-key">
+      <h2 id="h-key"><span class="step">2</span>Model answers</h2>
+      <div class="keyrow">
+        <label class="sr" for="key">Model answers</label>
+        <input id="key" type="text" autocomplete="off" spellcheck="false" placeholder="Type e.g. ABCDD ABACC DCADA …">
+        <span class="count" id="count">0 questions</span>
+      </div>
+      <p class="hint">Spaces and question numbers are ignored. The number of letters sets the number of questions (up to 100). You can also click the boxes below to change an answer.</p>
+      <div class="sheet" id="sheet" aria-label="Model answers as an answer sheet"></div>
+    </section>
+  </div>
+
+  <section class="panel results" aria-labelledby="h-res">
+    <div class="rhead">
+      <h2 id="h-res"><span class="step">3</span>Results</h2>
+      <div class="actions">
+        <button type="button" class="btn" id="dl-xlsx" disabled>
+          <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m-3.5-3.5L8 10l3.5-3.5M3 13h10" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          Excel mark sheet
+        </button>
+        <button type="button" class="btn ghost" id="dl-pdf" disabled>Check PDF</button>
+      </div>
+    </div>
+    <ul class="stats" id="stats" hidden></ul>
+    <p class="example-note" id="example-note"><b>Example</b>Your class appears here once you add scans and model answers. Click a student to see what was read on their sheet.</p>
+    <div class="tablebox"><table class="grid" id="table"></table></div>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--wrong-bg)"></i>Wrong answer</span>
+      <span><i class="sw" style="box-shadow:inset 0 0 0 2px var(--flag)"></i>Check this reading</span>
+      <span><i class="sw" style="background:var(--key-bg)"></i>Correct option</span>
+      <span><i class="sw" style="background:var(--beat-bg)"></i>Distractor chosen more than the correct answer</span>
+      <span><code>-</code> blank · <code>A/C</code> two boxes filled</span>
+    </div>
+    <div class="flags" id="flags" hidden></div>
+  </section>
+</div>
+
+<dialog id="review" aria-labelledby="rv-title">
+  <div class="dhead">
+    <h3 id="rv-title">Sheet</h3>
+    <div class="dnav">
+      <button type="button" class="btn ghost" id="rv-prev" aria-label="Previous student">←</button>
+      <button type="button" class="btn ghost" id="rv-next" aria-label="Next student">→</button>
+      <button type="button" class="btn ghost" id="rv-zoom">Zoom</button>
+      <button type="button" class="btn" id="rv-close">Close</button>
+    </div>
+  </div>
+  <div class="dbody">
+    <ul id="rv-notes"></ul>
+    <div class="canvasbox"><canvas id="rv-canvas" width="1240" height="1754"></canvas></div>
+  </div>
+</dialog>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"></script>
+<script>
+"use strict";
+
+/* =====================================================================
+   HKCWCC sheet geometry: pixel coordinates of the blank template at 300 dpi
+   (A4, 2481 x 3507).  Bubbles are 40 x 17 px rounded boxes; centres below.
+   ===================================================================== */
+const W = 2481, H = 3507, DPI = 300, MAXQ = 100, S = 2;   // S: template px per 150 dpi review px
+const TRI = [[92.0, 172.0], [2278.0, 160.5], [113.0, 3354.5]];          // TL, TR, BL triangle centres
+const BW = 40, BH = 17;
+const QX = [778.5, 843.5, 907.5, 972.0, 1199.5, 1263.0, 1327.0, 1390.5,
+            1618.0, 1682.5, 1748.5, 1812.5, 2039.0, 2102.0, 2167.5, 2231.5];   // A-D for the 4 question columns
+const QY = [1397.0, 1472.0, 1547.0, 1621.5, 1696.5, 1809.5, 1884.5, 1959.0, 2034.0, 2109.0,
+            2221.5, 2296.5, 2371.0, 2446.0, 2521.0, 2633.5, 2708.0, 2782.5, 2857.0, 2931.5,
+            3044.0, 3118.5, 3193.0, 3267.5, 3342.0];                           // 25 rows per column
+const LEVEL = [1251.0, [686.5, 739.0, 791.5, 844.5, 897.0, 950.0, 1002.5, 1055.5, 1108.5, 1160.5]];  // 0-9
+const CLASS = [1535.0, [684.5, 737.5, 791.0, 844.0, 897.0]];                                         // A-E
+const TENS  = [1748.5, [683.5, 736.5, 789.5, 842.0, 894.5, 947.5, 1000.5, 1053.0, 1105.5, 1158.5]];  // 0-9
+const UNITS = [1845.0, [683.5, 736.0, 788.5, 841.5, 894.0, 947.0, 999.5, 1052.5, 1105.5, 1157.5]];   // 0-9
+const DIGITS = "0123456789".split(""), LETTERS = "ABCDE".split("");
+
+const box = (cx, cy) => [cx - BW / 2, cy - BH / 2, BW, BH];
+function qBoxes(q) { const col = Math.floor(q / 25), r = q % 25; return QX.slice(col * 4, col * 4 + 4).map(x => box(x, QY[r])); }
+const colBoxes = ([x, ys]) => ys.map(y => box(x, y));
+
+/* ---------------- image helpers ---------------- */
+function toGray(data, n) {
+  const g = new Uint8Array(n);
+  for (let i = 0, j = 0; i < n; i++, j += 4) g[i] = (data[j] * 4899 + data[j + 1] * 9617 + data[j + 2] * 1868 + 8192) >> 14;
+  return g;
+}
+function rot90cw(g, w, h) {           // returns image of size h x w
+  const out = new Uint8Array(w * h), nw = h;
+  for (let y = 0; y < h; y++) { const row = y * w, nx = h - 1 - y; for (let x = 0; x < w; x++) out[x * nw + nx] = g[row + x]; }
+  return out;
+}
+function rot90ccw(g, w, h) {          // returns image of size h x w
+  const out = new Uint8Array(w * h), nw = h;
+  for (let y = 0; y < h; y++) { const row = y * w; for (let x = 0; x < w; x++) out[(w - 1 - x) * nw + y] = g[row + x]; }
+  return out;
+}
+function rot180(g) { const n = g.length, out = new Uint8Array(n); for (let i = 0; i < n; i++) out[i] = g[n - 1 - i]; return out; }
+
+/* ---------------- corner triangles ---------------- */
+function otsu(v) {
+  const hist = new Float64Array(256); for (let i = 0; i < v.length; i++) hist[v[i]]++;
+  let sum = 0; for (let i = 0; i < 256; i++) sum += i * hist[i];
+  let sumB = 0, wB = 0, best = 0, t = 0; const tot = v.length;
+  for (let i = 0; i < 256; i++) {
+    wB += hist[i]; if (!wB) continue; const wF = tot - wB; if (!wF) break;
+    sumB += i * hist[i]; const mB = sumB / wB, mF = (sum - sumB) / wF, between = wB * wF * (mB - mF) * (mB - mF);
+    if (between > best) { best = between; t = i; }
+  }
+  return t;
+}
+/* Centres of the black corner triangles (any number found).  Works on a
+   downsampled, blurred, Otsu-thresholded copy; a triangle is a dark blob of
+   the right size that fills roughly half its bounding box and sits in a corner. */
+function findTriangles(g, w, h) {
+  const f = Math.max(1, Math.round(w / 1240)), dw = Math.floor(w / f), dh = Math.floor(h / f);
+  const ds = new Uint8Array(dw * dh);
+  for (let y = 0; y < dh; y++) for (let x = 0; x < dw; x++) {
+    let s = 0; for (let yy = 0; yy < f; yy++) { const r = (y * f + yy) * w + x * f; for (let xx = 0; xx < f; xx++) s += g[r + xx]; }
+    ds[y * dw + x] = s / (f * f);
+  }
+  const bl = new Uint8Array(dw * dh);                 // 3x3 box blur
+  for (let y = 1; y < dh - 1; y++) for (let x = 1; x < dw - 1; x++) {
+    const i = y * dw + x;
+    bl[i] = (ds[i - dw - 1] + ds[i - dw] + ds[i - dw + 1] + ds[i - 1] + ds[i] + ds[i + 1] + ds[i + dw - 1] + ds[i + dw] + ds[i + dw + 1]) / 9;
+  }
+  for (let x = 0; x < dw; x++) { bl[x] = 255; bl[(dh - 1) * dw + x] = 255; }
+  for (let y = 0; y < dh; y++) { bl[y * dw] = 255; bl[y * dw + dw - 1] = 255; }
+  const t = otsu(bl), mask = new Uint8Array(dw * dh);
+  for (let i = 0; i < mask.length; i++) mask[i] = bl[i] <= t ? 1 : 0;
+  const s = dw / 2481, cand = [], stack = new Int32Array(dw * dh);
+  for (let i0 = 0; i0 < mask.length; i0++) {
+    if (mask[i0] !== 1) continue;
+    let sp = 0, n = 0, minx = 1e9, maxx = -1, miny = 1e9, maxy = -1;
+    stack[sp++] = i0; mask[i0] = 2;
+    while (sp) {
+      const i = stack[--sp], x = i % dw, y = (i - x) / dw; n++;
+      if (x < minx) minx = x; if (x > maxx) maxx = x; if (y < miny) miny = y; if (y > maxy) maxy = y;
+      for (let dy = -1; dy <= 1; dy++) { const yy = y + dy; if (yy < 0 || yy >= dh) continue;
+        for (let dx = -1; dx <= 1; dx++) { const xx = x + dx; if (xx < 0 || xx >= dw) continue;
+          const j = yy * dw + xx; if (mask[j] === 1) { mask[j] = 2; stack[sp++] = j; } } }
+    }
+    const bw = maxx - minx + 1, bh = maxy - miny + 1;
+    if (!(25 * s < bw && bw < 70 * s && 25 * s < bh && bh < 70 * s)) continue;
+    if (!(0.3 * bw * bh < n && n < 0.7 * bw * bh)) continue;
+    const cx = (minx + bw / 2) * f, cy = (miny + bh / 2) * f;
+    if (Math.min(cx, w - cx) > 0.12 * w || Math.min(cy, h - cy) > 0.12 * h) continue;
+    const err = triangleScore(mask, dw, minx, miny, bw, bh);
+    if (err > 0.19) continue;
+    cand.push([cx, cy, err]);
+  }
+  // keep the most triangle-like blob in each corner, then at most the best three corners
+  const byCorner = {};
+  for (const c of cand) {
+    const k = (c[0] < w / 2 ? "L" : "R") + (c[1] < h / 2 ? "T" : "B");
+    if (!byCorner[k] || c[2] < byCorner[k][2]) byCorner[k] = c;
+  }
+  return Object.values(byCorner).sort((a, b) => a[2] - b[2]).slice(0, 3).map(c => [c[0], c[1]]);
+}
+/* A solid triangle (pointing any of the 4 ways) has a row or column fill
+   profile that ramps linearly from 0 to the full width. Letters and boxes do not. */
+function triangleScore(mask, dw, x0, y0, bw, bh) {
+  const rows = new Float64Array(bh), cols = new Float64Array(bw);
+  for (let y = 0; y < bh; y++) for (let x = 0; x < bw; x++) if (mask[(y0 + y) * dw + x0 + x] === 2) { rows[y]++; cols[x]++; }
+  const ramp = (p, full, rev) => {
+    const n = p.length; let err = 0;
+    for (let i = 0; i < n; i++) { const k = rev ? n - 1 - i : i; err += Math.abs(p[k] - full * (i + 0.5) / n); }
+    return err / n / full;
+  };
+  return Math.min(ramp(rows, bw, false), ramp(rows, bw, true), ramp(cols, bh, false), ramp(cols, bh, true));
+}
+function nearestCorners(pts, w, h) {   // for each page corner: [distance, index of nearest point]
+  const out = {};
+  for (const [name, cx, cy] of [["TL", 0, 0], ["TR", w, 0], ["BR", w, h], ["BL", 0, h]]) {
+    let bd = Infinity, bi = -1;
+    pts.forEach((p, i) => { const d = Math.hypot(p[0] - cx, p[1] - cy); if (d < bd) { bd = d; bi = i; } });
+    out[name] = [bd, bi];
+  }
+  return out;
+}
+
+/* ---------------- affine transform & warp ---------------- */
+function solve3(A, b) {
+  const M = A.map((r, i) => [...r, b[i]]);
+  for (let c = 0; c < 3; c++) {
+    let p = c; for (let r = c + 1; r < 3; r++) if (Math.abs(M[r][c]) > Math.abs(M[p][c])) p = r;
+    [M[c], M[p]] = [M[p], M[c]];
+    for (let r = 0; r < 3; r++) { if (r === c) continue; const k = M[r][c] / M[c][c]; for (let j = c; j < 4; j++) M[r][j] -= k * M[c][j]; }
+  }
+  return M.map((r, i) => r[3] / r[i]);
+}
+function affine(src, dst) {              // maps src -> dst, as a 3x3 row-major [a b c d e f 0 0 1]
+  const A = src.map(([x, y]) => [x, y, 1]);
+  const [a, b, c] = solve3(A, dst.map(p => p[0])), [d, e, f] = solve3(A, dst.map(p => p[1]));
+  return [a, b, c, d, e, f, 0, 0, 1];
+}
+function warp(g, w, h, M) {              // M maps template -> image; output is the template frame
+  const out = new Uint8Array(W * H);
+  for (let y = 0; y < H; y++) {
+    const bx = M[1] * y + M[2], by = M[4] * y + M[5];
+    for (let x = 0; x < W; x++) {
+      const sx = M[0] * x + bx, sy = M[3] * x + by;
+      const x0 = Math.floor(sx), y0 = Math.floor(sy);
+      let v = 255;
+      if (x0 >= 0 && y0 >= 0 && x0 < w - 1 && y0 < h - 1) {
+        const fx = sx - x0, fy = sy - y0, i = y0 * w + x0;
+        const a = g[i] + (g[i + 1] - g[i]) * fx, c = g[i + w] + (g[i + w + 1] - g[i + w]) * fx;
+        v = a + (c - a) * fy;
+      }
+      out[y * W + x] = v + 0.5;
+    }
+  }
+  return out;
+}
+/* Straighten a page onto the template using the 3 triangles.  The corner
+   with no triangle is bottom-right; that fixes the orientation whichever
+   way the page went through the scanner. */
+function normalise(g, w, h) {
+  if (w > h) { g = rot90cw(g, w, h); [w, h] = [h, w]; }
+  let tri = findTriangles(g, w, h);
+  if (tri.length !== 3) throw new Error(`found ${tri.length} corner triangle${tri.length === 1 ? "" : "s"}, need 3`);
+  let asg = nearestCorners(tri, w, h);
+  const missing = Object.keys(asg).reduce((a, k) => asg[k][0] > asg[a][0] ? k : a);
+  if (missing !== "BR") {
+    if (missing === "TL") g = rot180(g);
+    else if (missing === "TR") { g = rot90ccw(g, w, h); [w, h] = [h, w]; }
+    else { g = rot90cw(g, w, h); [w, h] = [h, w]; }
+    tri = findTriangles(g, w, h);
+    if (tri.length !== 3) throw new Error("lost the corner triangles after rotating");
+    asg = nearestCorners(tri, w, h);
+  }
+  const src = ["TL", "TR", "BL"].map(k => tri[asg[k][1]]);
+  if (new Set(src).size < 3) throw new Error("corner triangles are not in three different corners");
+  return warp(g, w, h, affine(TRI, src));
+}
+
+/* ---------------- reading boxes ---------------- */
+function alignRow(inv, boxes, search) {   // small shift that puts the printed box outlines on the ink
+  const idx = [];
+  for (const [x, y, w, h] of boxes) {
+    const a = Math.round(x), b = Math.round(y), c = Math.round(x + w), d = Math.round(y + h);
+    for (let yy = b - 1; yy <= d + 1; yy++) for (let xx = a - 1; xx <= c + 1; xx++) {
+      if (xx >= a + 2 && xx <= c - 2 && yy >= b + 2 && yy <= d - 2) continue;
+      idx.push(yy * W + xx);
+    }
+  }
+  const I = Int32Array.from(idx), n = I.length;
+  let best = -Infinity, bdx = 0, bdy = 0;
+  for (let dy = -search; dy <= search; dy++) for (let dx = -search; dx <= search; dx++) {
+    const off = dy * W + dx; let s = 0;
+    for (let k = 0; k < n; k++) s += inv[I[k] + off];
+    s *= 1 - 0.002 * Math.hypot(dx, dy);
+    if (s > best) { best = s; bdx = dx; bdy = dy; }
+  }
+  return [bdx, bdy];
+}
+function readRow(inv, boxes, inset = 6, vinset = 5, search = 20) {
+  const [dx, dy] = alignRow(inv, boxes, search);
+  const vals = [], rects = [];
+  for (const [x, y, w, h] of boxes) {
+    const xa = Math.round(x + dx + inset), xb = Math.round(x + dx + w - inset);
+    const ya = Math.round(y + dy + vinset), yb = Math.round(y + dy + h - vinset);
+    let s = 0, n = 0;
+    for (let yy = ya; yy <= yb; yy++) for (let xx = xa; xx <= xb; xx++) { s += inv[yy * W + xx]; n++; }
+    vals.push(s / n);
+    rects.push([Math.trunc(x + dx), Math.trunc(y + dy), Math.trunc(w), Math.trunc(h)]);
+  }
+  return { vals, rects };
+}
+const median = a => { const s = [...a].sort((p, q) => p - q), m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; };
+const argsortDesc = a => a.map((v, i) => i).sort((i, j) => a[j] - a[i]);
+
+function decideAnswers(rows, minD = 35) {
+  const d = rows.map(r => { const m = Math.min(...r); return r.map(v => v - m); });
+  const strong = d.map(x => Math.max(...x)).filter(v => v > minD);
+  const ref = strong.length ? median(strong) : 100;
+  const th = Math.max(minD, 0.45 * ref);
+  return d.map(x => {
+    const order = argsortDesc(x), top = x[order[0]];
+    if (top < th) return { ans: "", note: top >= 0.7 * th ? "faint mark? left blank" : "" };
+    const picked = order.filter(i => x[i] >= th && x[i] >= 0.6 * top).sort((a, b) => a - b);
+    const ans = picked.map(i => "ABCD"[i]).join("/");
+    let note = "";
+    if (picked.length > 1) note = "more than one answer marked";
+    else if (top < 0.6 * ref) note = "faint mark";
+    else { const second = x[order[1]]; if (second >= th * 0.8 && second >= 0.4 * top) note = "possible erased mark on " + "ABCD"[order[1]]; }
+    return { ans, note };
+  });
+}
+function decideOne(vals, labels, minD = 20, sureD = 40) {
+  const base = median(vals), d = vals.map(v => v - base), order = argsortDesc(d), top = d[order[0]];
+  if (top < minD) return { val: "", note: "nothing marked" };
+  const picked = order.filter(i => d[i] >= minD && d[i] >= 0.6 * top).sort((a, b) => a - b);
+  const val = picked.map(i => labels[i]).join("/");
+  if (picked.length > 1) return { val, note: "more than one box marked" };
+  return { val, note: top < sureD ? "faint mark" : "" };
+}
+const joinNotes = pairs => pairs.filter(p => p[1]).map(p => p[0] + ": " + p[1]).join("; ");
+
+/* Read one page image (grayscale).  Returns everything needed later, for any key. */
+function readSheetCore(g, w, h) {
+  const img = normalise(g, w, h);
+  const inv = new Uint8Array(img.length);
+  for (let i = 0; i < img.length; i++) inv[i] = 255 - img[i];
+  const qVals = [], qRects = [];
+  for (let q = 0; q < MAXQ; q++) { const r = readRow(inv, qBoxes(q)); qVals.push(r.vals); qRects.push(r.rects); }
+  const idRects = [], pick = {};
+  for (const [name, spec, labels] of [["level", LEVEL, DIGITS], ["class", CLASS, LETTERS], ["tens", TENS, DIGITS], ["units", UNITS, DIGITS]]) {
+    const r = readRow(inv, colBoxes(spec), 6, 4);
+    pick[name] = decideOne(r.vals, labels);
+    idRects.push([r.rects, labels, name]);
+  }
+  let tens = pick.tens, units = pick.units;
+  if (tens.val === "" && units.val !== "") tens = { val: "0", note: "" };     // single-digit class no, tens left blank
+  let cno = tens.val + units.val;
+  if (!cno.includes("/")) cno = cno.replace(/^0+/, "") || (cno ? "0" : "");
+  const picks = { level: pick.level.val, class: pick.class.val, tens: tens.val, units: units.val };
+  idRects.forEach(r => r[2] = picks[r[2]]);
+  return { img, qVals, qRects, idRects,
+           cls: pick.level.val + pick.class.val, clsNote: joinNotes([["level", pick.level.note], ["class", pick.class.note]]),
+           cno, cnoNote: joinNotes([["tens", tens.note], ["units", units.note]]) };
+}
+
+
+async function readSheet(g, w, h) {
+  const r = readSheetCore(g, w, h), img = r.img;
+  // keep a 150 dpi copy of the straightened page for review / check PDF
+  const half = document.createElement("canvas"); half.width = 1240; half.height = 1754;
+  const hctx = half.getContext("2d"), id = hctx.createImageData(1240, 1754), d = id.data;
+  for (let y = 0; y < 1754; y++) for (let x = 0; x < 1240; x++) {
+    const i = 2 * y * W + 2 * x, v = (img[i] + img[i + 1] + img[i + W] + img[i + W + 1] + 2) >> 2, o = (y * 1240 + x) * 4;
+    d[o] = d[o + 1] = d[o + 2] = v; d[o + 3] = 255;
+  }
+  hctx.putImageData(id, 0, 0);
+  const jpeg = await new Promise(r => half.toBlob(r, "image/jpeg", 0.82));
+  delete r.img;
+  return { ...r, jpeg };
+}
+
+/* =====================================================================
+   Loading files: PDF (pdf.js, or embedded JPEG fallback) and images
+   ===================================================================== */
+async function* pagesOf(file) {
+  const isPdf = /\.pdf$/i.test(file.name) || file.type === "application/pdf";
+  if (!isPdf) {
+    const bmp = await createImageBitmap(file);
+    const c = document.createElement("canvas"); c.width = bmp.width; c.height = bmp.height;
+    const ctx = c.getContext("2d", { willReadFrequently: true }); ctx.drawImage(bmp, 0, 0);
+    yield { total: 1, index: 1, gray: toGray(ctx.getImageData(0, 0, c.width, c.height).data, c.width * c.height), w: c.width, h: c.height };
+    return;
+  }
+  const buf = new Uint8Array(await file.arrayBuffer());
+  let pdf = null;
+  if (window.pdfjsLib) {
+    try { pdf = await pdfjsLib.getDocument({ data: buf.slice(0), isEvalSupported: false }).promise; }
+    catch (e) { console.warn("pdf.js could not open the file", e); pdf = null; }
+  }
+  if (pdf) {
+    const c = document.createElement("canvas"), ctx = c.getContext("2d", { willReadFrequently: true });
+    for (let i = 1; i <= pdf.numPages; i++) {
+      const page = await pdf.getPage(i), vp = page.getViewport({ scale: DPI / 72 });
+      c.width = Math.round(vp.width); c.height = Math.round(vp.height);
+      ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, c.width, c.height);
+      await page.render({ canvasContext: ctx, viewport: vp }).promise;
+      yield { total: pdf.numPages, index: i, gray: toGray(ctx.getImageData(0, 0, c.width, c.height).data, c.width * c.height), w: c.width, h: c.height };
+      page.cleanup();
+    }
+    pdf.destroy();
+    return;
+  }
+  // Fallback: pull the scanned JPEG straight out of each page (works for most copier scans)
+  const jpegs = extractPdfJpegs(buf);
+  if (!jpegs.length) throw new Error("this PDF could not be opened here. Try again with an internet connection, or scan to JPG instead.");
+  for (let i = 0; i < jpegs.length; i++) {
+    const bmp = await createImageBitmap(new Blob([jpegs[i]], { type: "image/jpeg" }));
+    const c = document.createElement("canvas"); c.width = bmp.width; c.height = bmp.height;
+    const ctx = c.getContext("2d", { willReadFrequently: true }); ctx.drawImage(bmp, 0, 0);
+    yield { total: jpegs.length, index: i + 1, gray: toGray(ctx.getImageData(0, 0, c.width, c.height).data, c.width * c.height), w: c.width, h: c.height };
+  }
+}
+function extractPdfJpegs(bytes) {
+  const txt = new TextDecoder("latin1").decode(bytes), objs = new Map();
+  const re = /(\d+)\s+(\d+)\s+obj\b/g; let m;
+  while ((m = re.exec(txt))) {
+    const start = m.index + m[0].length, end = txt.indexOf("endobj", start);
+    if (end < 0) break;
+    const body = txt.slice(start, end), si = body.search(/\bstream\r?\n/);
+    objs.set(+m[1], { dict: si >= 0 ? body.slice(0, si) : body, start, streamAt: si });
+    re.lastIndex = end;
+  }
+  const isImg = o => o && /\/Subtype\s*\/Image/.test(o.dict) && /\/DCTDecode/.test(o.dict) && o.streamAt >= 0;
+  const size = o => { const w = /\/Width\s+(\d+)/.exec(o.dict), h = /\/Height\s+(\d+)/.exec(o.dict); return w && h ? +w[1] * +h[1] : 0; };
+  const data = o => {
+    const s0 = o.start + o.streamAt, nl = txt.slice(s0, s0 + 10).match(/stream\r?\n/)[0].length, from = s0 + nl;
+    let len = /\/Length\s+(\d+)(\s+\d+\s+R)?/.exec(o.dict), n = -1;
+    if (len && !len[2]) n = +len[1];
+    else if (len) { const ref = objs.get(+len[1]); if (ref) { const v = /^\s*(\d+)/.exec(ref.dict); if (v) n = +v[1]; } }
+    if (n < 0) { n = txt.indexOf("endstream", from) - from; while (n > 0 && (txt[from + n - 1] === "\n" || txt[from + n - 1] === "\r")) n--; }
+    return bytes.slice(from, from + n);
+  };
+  // pages in order, via the page tree
+  const refs = s => [...s.matchAll(/(\d+)\s+\d+\s+R/g)].map(r => +r[1]);
+  const rootRef = /\/Root\s+(\d+)\s+\d+\s+R/.exec(txt), out = [];
+  const cat = rootRef && objs.get(+rootRef[1]);
+  const pagesRef = cat && /\/Pages\s+(\d+)\s+\d+\s+R/.exec(cat.dict);
+  const walk = (n, depth) => {
+    const o = objs.get(n); if (!o || depth > 20) return;
+    if (/\/Type\s*\/Pages\b/.test(o.dict)) { const k = /\/Kids\s*\[([^\]]*)\]/.exec(o.dict); if (k) refs(k[1]).forEach(r => walk(r, depth + 1)); return; }
+    if (/\/Type\s*\/Page\b/.test(o.dict)) {
+      const seen = new Set([n]); let frontier = refs(o.dict.replace(/\/Parent\s+\d+\s+\d+\s+R/, "")), best = null;
+      for (let lvl = 0; lvl < 4 && frontier.length; lvl++) {
+        const next = [];
+        for (const r of frontier) { if (seen.has(r)) continue; seen.add(r); const ob = objs.get(r); if (!ob) continue;
+          if (isImg(ob)) { if (!best || size(ob) > size(best)) best = ob; } else if (ob.streamAt < 0) next.push(...refs(ob.dict)); }
+        frontier = next;
+      }
+      if (best) out.push(data(best));
+    }
+  };
+  if (pagesRef) walk(+pagesRef[1], 0);
+  if (out.length) return out;
+  return [...objs.values()].filter(o => isImg(o) && size(o) > 1e6).map(data);   // last resort: file order
+}
+
+/* =====================================================================
+   App state
+   ===================================================================== */
+const state = { pages: [], key: "", busy: false, files: [] };
+const $ = id => document.getElementById(id);
+const parseKey = t => t.toUpperCase().replace(/\d+/g, " ").replace(/[^ABCD]/g, "");
+const fmtKey = k => k.replace(/(.{5})(?=.)/g, "$1 ");
+
+function sheetsFor(key) {        // decide every page for this key length
+  const nq = key.length;
+  return state.pages.map(p => {
+    if (p.error) return { ...p, answers: Array.from({ length: nq }, () => ({ ans: "", note: "" })), score: 0 };
+    const answers = decideAnswers(p.qVals.slice(0, nq));
+    return { ...p, answers, score: answers.reduce((s, a, i) => s + (a.ans === key[i]), 0) };
+  });
+}
+function sortKey(s) { let n = parseInt(s.cno, 10); if (isNaN(n) || String(n) !== s.cno) n = 99; return [s.cls || "~", n]; }
+function sorted(list) {
+  return [...list].sort((a, b) => { const x = sortKey(a), y = sortKey(b); return x[0] < y[0] ? -1 : x[0] > y[0] ? 1 : x[1] - y[1]; });
+}
+function flagsOf(s) {
+  const f = [];
+  if (s.error) f.push("Could not read this page: " + s.error);
+  else {
+    if (s.clsNote || !s.cls) f.push("Class: " + (s.clsNote || "unclear"));
+    if (s.cnoNote) f.push("Class no: " + s.cnoNote);
+    s.answers.forEach((a, i) => { if (a.note) f.push(`Q${i + 1}: ${a.note}`); });
+  }
+  return f;
+}
+
+/* ---------------- files ---------------- */
+async function addFiles(list) {
+  const files = [...list].filter(f => /\.(pdf|png|jpe?g|tiff?|bmp|webp)$/i.test(f.name) || /^image\//.test(f.type) || f.type === "application/pdf");
+  if (!files.length) { toast("Choose a PDF, JPG or PNG scan."); return; }
+  state.files.push(...files);
+  if (state.busy) return;
+  state.busy = true; $("progress").hidden = false;
+  while (state.files.length) {
+    const file = state.files.shift();
+    const li = document.createElement("li"); li.innerHTML = `<span></span><span>reading…</span>`;
+    li.firstChild.textContent = file.name; $("files").appendChild(li);
+    let count = 0, bad = 0;
+    try {
+      for await (const pg of pagesOf(file)) {
+        $("status-text").textContent = `Reading ${file.name}`;
+        $("status-count").textContent = `page ${pg.index} of ${pg.total}`;
+        $("barfill").style.width = (100 * pg.index / pg.total) + "%";
+        await new Promise(r => setTimeout(r, 0));
+        const label = { file: file.name, page: pg.index };
+        try { state.pages.push({ ...label, ...(await readSheet(pg.gray, pg.w, pg.h)) }); }
+        catch (e) { bad++; state.pages.push({ ...label, error: e.message, cls: "", cno: "", clsNote: "", cnoNote: "" }); }
+        count++;
+        render();
+      }
+      li.lastChild.textContent = `${count} page${count === 1 ? "" : "s"}` + (bad ? ` · ${bad} unreadable` : "");
+    } catch (e) {
+      li.lastChild.textContent = "could not open";
+      toast(`${file.name}: ${e.message}`);
+    }
+  }
+  state.busy = false;
+  $("status-text").textContent = `Done: ${state.pages.length} sheet${state.pages.length === 1 ? "" : "s"} read`;
+  $("status-count").textContent = "";
+  $("clear-row").hidden = !state.pages.length;
+  render();
+}
+function pageLabel(s) {
+  const names = new Set(state.pages.map(p => p.file));
+  return names.size > 1 ? `${s.file} p${s.page}` : s.page;
+}
+
+/* ---------------- key grid ---------------- */
+function renderSheet() {
+  const key = state.key, box = $("sheet"); box.innerHTML = "";
+  const n = Math.min(MAXQ, key.length < MAXQ ? key.length + 1 : key.length);
+  const shown = Math.max(5, Math.ceil(n / 5) * 5);
+  for (let g = 0; g < shown / 5; g++) {
+    const grp = document.createElement("div"); grp.className = "group";
+    for (let r = 0; r < 5; r++) {
+      const q = g * 5 + r; if (q >= MAXQ) break;
+      const row = document.createElement("div"); row.className = "q" + (q >= key.length ? " next" : "");
+      row.innerHTML = `<b>${q + 1}.</b>`;
+      for (const L of "ABCD") {
+        const b = document.createElement("button"); b.type = "button"; b.className = "bub" + (key[q] === L ? " on" : "");
+        b.setAttribute("aria-label", `Question ${q + 1}: ${L}`); b.innerHTML = `<span>${L}</span>`;
+        b.disabled = q > key.length;
+        b.onclick = () => { let k = state.key.split(""); if (q < k.length) k[q] = L; else k.push(L); setKey(k.join(""), true); };
+        row.appendChild(b);
+      }
+      grp.appendChild(row);
+    }
+    box.appendChild(grp);
+  }
+}
+function setKey(k, rewrite) {
+  state.key = k.slice(0, 500);
+  if (rewrite) $("key").value = fmtKey(state.key);
+  const c = $("count"), n = state.key.length;
+  c.textContent = n > MAXQ ? `${n} letters · max ${MAXQ}` : `${n} question${n === 1 ? "" : "s"}`;
+  c.classList.toggle("bad", n > MAXQ);
+  renderSheet(); render();
+}
+
+/* ---------------- results table ---------------- */
+const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+function questionStats(list, key) {
+  const n = list.length;
+  return [...key].map((k, i) => {
+    const pct = {}; for (const L of "ABCD") pct[L] = n ? list.filter(s => s.answers[i].ans === L).length / n : 0;
+    const correct = pct[k];
+    let m = -1; for (const L of "ABCD") if (L !== k) m = Math.max(m, pct[L]);
+    const dis = m <= 0 ? "-" : [..."ABCD"].filter(L => L !== k && pct[L] === m).join("/");
+    return { pct, correct, dis, beat: m > correct };
+  });
+}
+let current = [];
+function render() {
+  const key = state.key.length <= MAXQ ? state.key : "";
+  const ready = key.length > 0 && state.pages.length > 0;
+  $("dl-xlsx").disabled = $("dl-pdf").disabled = !ready || state.busy;
+  $("example-note").hidden = ready;
+  $("stats").hidden = !ready;
+  if (!ready) { renderExample(); $("flags").hidden = true; current = []; return; }
+  const list = sorted(sheetsFor(key)); current = list;
+  const nq = key.length, qs = questionStats(list, key), ok = list.filter(s => !s.error);
+  const scores = ok.map(s => s.score), mean = scores.length ? scores.reduce((a, b) => a + b, 0) / scores.length : 0;
+  const flagged = list.filter(s => flagsOf(s).length);
+  $("stats").innerHTML =
+    `<li><b>${list.length}</b>sheets</li>` +
+    `<li><b>${mean.toFixed(1)}</b>mean / ${nq}</li>` +
+    `<li><b>${scores.length ? Math.max(...scores) : "–"}</b>highest</li>` +
+    `<li><b>${scores.length ? Math.min(...scores) : "–"}</b>lowest</li>` +
+    `<li class="${flagged.length ? "warn" : ""}"><b>${flagged.length}</b>to check</li>`;
+  let h = `<thead><tr><th class="c1">Class</th><th class="c2">No</th>`;
+  for (let i = 1; i <= nq; i++) h += `<th>Q${i}</th>`;
+  h += `<th>Score</th><th>Page</th></tr></thead><tbody>`;
+  h += `<tr class="keyline"><td class="c1">Key</td><td class="c2"></td>${[...key].map(k => `<td>${k}</td>`).join("")}<td>${nq}</td><td></td></tr>`;
+  list.forEach((s, r) => {
+    const cnoTxt = s.cno && /^\d+$/.test(s.cno) ? s.cno.padStart(2, "0") : (s.cno || "?");
+    const idFlag = !s.error && (s.clsNote || !s.cls), noFlag = !s.error && s.cnoNote;
+    h += `<tr class="stu" data-r="${r}" tabindex="0"><td class="c1${idFlag || s.error ? " flag" : ""}" title="${esc(s.error ? "Could not read: " + s.error : s.clsNote)}">${esc(s.cls || "?")}</td>`;
+    h += `<td class="c2${noFlag ? " flag" : ""}" title="${esc(s.cnoNote || "")}">${esc(cnoTxt)}</td>`;
+    s.answers.forEach((a, i) => {
+      const v = a.ans || "-", cls = [(a.ans !== key[i]) ? "wrong" : "", a.note ? "flag" : ""].filter(Boolean).join(" ");
+      h += `<td class="${cls}"${a.note ? ` title="${esc(a.note)}"` : ""}>${esc(v)}</td>`;
+    });
+    h += `<td class="score">${s.error ? "–" : s.score}</td><td>${esc(pageLabel(s))}</td></tr>`;
+  });
+  h += `</tbody><tfoot><tr><td class="c1 lab wide" colspan="2">% correct</td>${qs.map(q => `<td>${Math.round(q.correct * 100)}%</td>`).join("")}<td>${nq ? Math.round(100 * mean / nq) : 0}%</td><td></td></tr>`;
+  for (const L of "ABCD") h += `<tr><td class="c1 lab">% chose</td><td class="c2">${L}</td>${qs.map((q, i) => `<td class="${key[i] === L ? "key" : ""}">${Math.round(q.pct[L] * 100)}%</td>`).join("")}<td></td><td></td></tr>`;
+  h += `<tr><td class="c1 lab wide" colspan="2">Distractor</td>${qs.map(q => `<td class="${q.beat ? "beat" : ""}">${q.dis}</td>`).join("")}<td></td><td></td></tr></tfoot>`;
+  $("table").innerHTML = h;
+  const fl = $("flags");
+  if (flagged.length) {
+    fl.hidden = false;
+    fl.innerHTML = `<h3>Worth a look (${flagged.length})</h3><ul>` + flagged.map(s => {
+      const r = list.indexOf(s);
+      return `<li><button type="button" class="linkbtn" data-r="${r}">${esc(s.cls || "?")} ${esc(s.cno || "?")} · page ${esc(pageLabel(s))}</button>: ${esc(flagsOf(s).join("; "))}</li>`;
+    }).join("") + `</ul>`;
+  } else fl.hidden = true;
+}
+function renderExample() {
+  const ex = "ABCDDABACC", rows = [["5A", "01", "ABBACADCAD", 3], ["5A", "02", "ABCDDABACC", 10], ["5B", "04", "AD-CCABCCC", 6]];
+  let h = `<thead><tr><th class="c1">Class</th><th class="c2">No</th>${[...ex].map((_, i) => `<th>Q${i + 1}</th>`).join("")}<th>Score</th></tr></thead><tbody>`;
+  h += `<tr class="keyline"><td class="c1">Key</td><td class="c2"></td>${[...ex].map(k => `<td>${k}</td>`).join("")}<td>10</td></tr>`;
+  for (const [c, n, a, sc] of rows) h += `<tr><td class="c1">${c}</td><td class="c2">${n}</td>${[...a].map((v, i) => `<td class="${v !== ex[i] ? "wrong" : ""}">${v}</td>`).join("")}<td class="score">${sc}</td></tr>`;
+  $("table").innerHTML = h + `</tbody>`;
+}
+
+/* ---------------- review dialog ---------------- */
+let rvIndex = 0;
+async function drawAnnotated(canvas, s, key) {
+  const ctx = canvas.getContext("2d"); canvas.width = 1240; canvas.height = 1754;
+  ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, 1240, 1754);
+  if (s.error) {
+    ctx.fillStyle = "#000"; ctx.font = "28px sans-serif"; ctx.fillText("Could not read this page:", 80, 200); ctx.fillText(s.error, 80, 245); return;
+  }
+  const bmp = await createImageBitmap(s.jpeg); ctx.drawImage(bmp, 0, 0);
+  ctx.save(); ctx.scale(0.5, 0.5);
+  const G = "rgb(0,160,0)", R = "rgb(230,0,0)", O = "rgb(255,140,0)", B = "rgb(0,80,200)", pad = 4 * S;
+  const box = (x, y, w, h, c, lw) => { ctx.strokeStyle = c; ctx.lineWidth = lw; ctx.strokeRect(x - pad, y - pad, w + 2 * pad, h + 2 * pad); };
+  s.answers.forEach((a, q) => {
+    const k = key[q], rects = s.qRects[q], chosen = a.ans.split("/");
+    rects.forEach(([x, y, w, h], i) => {
+      const L = "ABCD"[i];
+      if (chosen.includes(L)) box(x, y, w, h, a.ans === k ? G : R, 3);
+      else if (L === k && a.ans !== k) box(x, y, w, h, B, 2);
+    });
+    if (a.note) { const [x, y, w, h] = rects[3]; ctx.fillStyle = O; ctx.font = "bold 30px sans-serif"; ctx.fillText("?", x + w + 8 * S, y + h + 6); }
+  });
+  for (const [rects, labels, pick] of s.idRects) rects.forEach((r, i) => { if ((pick || "").split("/").includes(labels[i])) box(...r, G, 3); });
+  ctx.restore();
+  ctx.fillStyle = "#000"; ctx.font = "16px sans-serif";
+  ctx.fillText(`Page ${pageLabel(s)}  |  Class ${s.cls || "?"}  No. ${s.cno || "?"}  |  Score ${s.score}/${key.length}`, 60, 1745);
+}
+async function openReview(r) {
+  if (!current.length) return;
+  rvIndex = (r + current.length) % current.length;
+  const s = current[rvIndex], key = state.key;
+  $("rv-title").textContent = `${s.cls || "?"} ${s.cno ? "No. " + s.cno : ""} · ${s.error ? "unreadable" : s.score + " / " + key.length} · page ${pageLabel(s)}`;
+  const f = flagsOf(s); $("rv-notes").innerHTML = f.map(x => `<li>${esc(x)}</li>`).join("");
+  if (!$("review").open) $("review").showModal();
+  await drawAnnotated($("rv-canvas"), s, key);
+}
+
+/* =====================================================================
+   Excel writer (SpreadsheetML in a zip, no library)
+   ===================================================================== */
+const colName = n => { let s = ""; while (n > 0) { const m = (n - 1) % 26; s = String.fromCharCode(65 + m) + s; n = Math.floor((n - 1) / 26); } return s; };
+const xesc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+function buildXlsx(list, key) {
+  const nq = key.length, q1 = 3, qn = 2 + nq, cScore = qn + 1, cFull = qn + 2, cPage = qn + 3;
+  const QA = colName(q1), QZ = colName(qn), SC = colName(cScore), FU = colName(cFull);
+  const cells = new Map(), comments = [], merges = [], rowHt = {};
+  const put = (r, c, v, st) => { const k = r + ":" + c; const cur = cells.get(k) || { r, c, v: undefined, st: {} }; if (v !== undefined) cur.v = v; if (st) Object.assign(cur.st, st); cells.set(k, cur); };
+  const note = (r, c, t) => comments.push({ ref: colName(c) + r, r, c, t });
+  const F = f => ({ f });
+  const header = ["Class", "Class No", ...Array.from({ length: nq }, (_, i) => "Q" + (i + 1)), "Score", "Full Mark", "Page"];
+  header.forEach((h, i) => put(1, i + 1, h));
+  put(2, 1, "Model Ans"); [...key].forEach((k, i) => put(2, q1 + i, k));
+  put(2, cScore, F(`COUNTA($${QA}$2:$${QZ}$2)`)); put(2, cFull, F(`COUNTA($${QA}$2:$${QZ}$2)`));
+  note(2, 1, "Model answers typed in on the marking page. Change a letter here and every score, colour and statistic updates.");
+  const first = 3, last = first + list.length - 1;
+  list.forEach((s, j) => {
+    const row = first + j;
+    put(row, 1, s.cls || "?");
+    if (s.error) note(row, 1, "Could not read this page: " + s.error);
+    else if (s.clsNote || !s.cls) note(row, 1, "Check class bubbles: " + (s.clsNote || "unclear"));
+    const n = /^\d+$/.test(s.cno || "") ? parseInt(s.cno, 10) : null;
+    put(row, 2, n !== null ? n : (s.cno || "?"));
+    if (s.cnoNote) note(row, 2, "Check class-no bubbles: " + s.cnoNote);
+    s.answers.forEach((a, i) => { put(row, q1 + i, a.ans || "-"); if (a.note) note(row, q1 + i, `Check Q${i + 1}: ${a.note}`); });
+    put(row, cScore, F(`SUMPRODUCT(--(${QA}${row}:${QZ}${row}=$${QA}$2:$${QZ}$2))`));
+    put(row, cFull, F(`$${FU}$2`));
+    const pl = pageLabel(s); put(row, cPage, typeof pl === "number" ? pl : String(pl));
+  });
+  const rng = `$${QA}$${first}:$${QZ}$${last}`, nStu = `ROWS(${rng})`;
+  const pr = last + 1;
+  put(pr, 1, "% correct");
+  for (let i = 0; i < nq; i++) { const c = colName(q1 + i); put(pr, q1 + i, F(`COUNTIF(${c}$${first}:${c}$${last},${c}$2)/${nStu}`)); }
+  put(pr, cScore, F(`AVERAGE(${SC}${first}:${SC}${last})/$${FU}$2`));
+  note(pr, cScore, "Class average score as a percentage of full mark.");
+  const optRow = {};
+  [..."ABCD"].forEach((L, k) => {
+    const rr = pr + 1 + k; optRow[L] = rr; put(rr, 1, "% chose"); put(rr, 2, L);
+    for (let i = 0; i < nq; i++) { const c = colName(q1 + i); put(rr, q1 + i, F(`COUNTIF(${c}$${first}:${c}$${last},"${L}")/${nStu}`)); }
+  });
+  const fr = pr + 5;
+  put(fr, 1, "Favourable distractor");
+  note(fr, 1, "The wrong option picked by the most students (ties shown as B/C; '-' = nobody chose a wrong option). Orange = this distractor beat the correct answer.");
+  for (let i = 0; i < nq; i++) {
+    const c = colName(q1 + i), parts = {};
+    for (const L of "ABCD") parts[L] = `IF(${c}$2="${L}",-1,${c}${optRow[L]})`;
+    const m = `MAX(${Object.values(parts).join(",")})`;
+    const letters = [..."ABCD"].map(L => `IF(${parts[L]}=${m},"/${L}","")`).join("&");
+    put(fr, q1 + i, F(`IF(${m}<=0,"-",MID(${letters},2,9))`));
+  }
+  // ---- formatting (mirrors the Python version) ----
+  const maxc = cPage;
+  for (let r = 1; r <= fr; r++) for (let c = 1; c <= maxc; c++) put(r, c, undefined, { font: 0, fill: 0, border: 1, num: 0, align: "center" });
+  for (let c = 1; c <= maxc; c++) { put(1, c, undefined, { font: 1, fill: 2 }); put(2, c, undefined, { font: 1, fill: 3 }); }
+  for (let r = pr; r <= fr; r++) {
+    put(r, 1, undefined, { font: 1, align: "left" });
+    if (r < fr) for (let c = q1; c <= qn; c++) put(r, c, undefined, { num: 9 });
+  }
+  put(pr, cScore, undefined, { num: 9 });
+  for (let c = 1; c <= maxc; c++) put(pr, c, undefined, { border: 2 });
+  merges.push(`A${pr}:B${pr}`, `A${fr}:B${fr}`);
+  put(fr, 1, undefined, { wrap: 1 }); rowHt[fr] = 30;
+  for (let r = first; r <= last; r++) { put(r, 2, undefined, { num: 164 }); put(r, cScore, undefined, { font: 1 }); }
+
+  // ---- styles ----
+  const xfs = [], xfKey = new Map();
+  const xfOf = st => {
+    const k = [st.font || 0, st.fill || 0, st.border || 0, st.num || 0, st.align || "", st.wrap || 0].join("|");
+    if (!xfKey.has(k)) { xfKey.set(k, xfs.length + 1); xfs.push(st); }
+    return xfKey.get(k);
+  };
+  const rows = new Map();
+  for (const cell of cells.values()) { if (!rows.has(cell.r)) rows.set(cell.r, []); rows.get(cell.r).push(cell); }
+  let sd = "";
+  for (const r of [...rows.keys()].sort((a, b) => a - b)) {
+    sd += `<row r="${r}"${rowHt[r] ? ` ht="${rowHt[r]}" customHeight="1"` : ""}>`;
+    for (const cell of rows.get(r).sort((a, b) => a.c - b.c)) {
+      const ref = colName(cell.c) + r, s = xfOf(cell.st), v = cell.v;
+      if (v === undefined || v === null) sd += `<c r="${ref}" s="${s}"/>`;
+      else if (typeof v === "number") sd += `<c r="${ref}" s="${s}"><v>${v}</v></c>`;
+      else if (typeof v === "object") sd += `<c r="${ref}" s="${s}"><f>${xesc(v.f)}</f></c>`;
+      else sd += `<c r="${ref}" s="${s}" t="inlineStr"><is><t>${xesc(v)}</t></is></c>`;
+    }
+    sd += `</row>`;
+  }
+  const colsXml = [[1, 10], [2, 9], ...Array.from({ length: nq }, (_, i) => [q1 + i, 5.5]), [cScore, 7], [cFull, 9], [cPage, 8]]
+    .map(([c, w]) => `<col min="${c}" max="${c}" width="${w}" customWidth="1"/>`).join("");
+  const cf =
+    `<conditionalFormatting sqref="${QA}${first}:${QZ}${last}"><cfRule type="expression" dxfId="0" priority="1"><formula>${xesc(`${QA}${first}<>${QA}$2`)}</formula></cfRule></conditionalFormatting>` +
+    `<conditionalFormatting sqref="${QA}${pr + 1}:${QZ}${pr + 4}"><cfRule type="expression" dxfId="1" priority="2"><formula>${xesc(`$B${pr + 1}=${QA}$2`)}</formula></cfRule></conditionalFormatting>` +
+    `<conditionalFormatting sqref="${QA}${fr}:${QZ}${fr}"><cfRule type="expression" dxfId="2" priority="3"><formula>${xesc(`MAX(${[..."ABCD"].map(L => `IF(${QA}$2="${L}",0,${QA}${optRow[L]})`).join(",")})>${QA}${pr}`)}</formula></cfRule></conditionalFormatting>`;
+  const sheet =
+    `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n` +
+    `<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">` +
+    `<sheetPr><pageSetUpPr fitToPage="1"/></sheetPr><dimension ref="A1:${colName(maxc)}${fr}"/>` +
+    `<sheetViews><sheetView workbookViewId="0"><pane xSplit="2" ySplit="2" topLeftCell="C3" activePane="bottomRight" state="frozen"/><selection pane="topRight"/><selection pane="bottomLeft"/><selection pane="bottomRight" activeCell="C3" sqref="C3"/></sheetView></sheetViews>` +
+    `<sheetFormatPr defaultRowHeight="15"/><cols>${colsXml}</cols><sheetData>${sd}</sheetData>` +
+    `<mergeCells count="${merges.length}">${merges.map(m => `<mergeCell ref="${m}"/>`).join("")}</mergeCells>${cf}` +
+    `<pageMargins left="0.5" right="0.5" top="0.75" bottom="0.75" header="0.3" footer="0.3"/><pageSetup orientation="landscape" fitToWidth="1" fitToHeight="0"/>` +
+    `<legacyDrawing r:id="rId2"/></worksheet>`;
+  const fillXml = c => `<fill><patternFill patternType="solid"><fgColor rgb="FF${c}"/><bgColor indexed="64"/></patternFill></fill>`;
+  const thin = `<color rgb="FF999999"/>`;
+  const styles =
+    `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">` +
+    `<numFmts count="1"><numFmt numFmtId="164" formatCode="00"/></numFmts>` +
+    `<fonts count="2"><font><sz val="11"/><name val="Arial"/><family val="2"/></font><font><b/><sz val="11"/><name val="Arial"/><family val="2"/></font></fonts>` +
+    `<fills count="4"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill>${fillXml("D9D9D9")}${fillXml("DDEBF7")}</fills>` +
+    `<borders count="3"><border><left/><right/><top/><bottom/><diagonal/></border>` +
+    `<border><left style="thin">${thin}</left><right style="thin">${thin}</right><top style="thin">${thin}</top><bottom style="thin">${thin}</bottom><diagonal/></border>` +
+    `<border><left style="thin">${thin}</left><right style="thin">${thin}</right><top style="medium"><color rgb="FF000000"/></top><bottom style="thin">${thin}</bottom><diagonal/></border></borders>` +
+    `<cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>` +
+    `<cellXfs count="${xfs.length + 1}"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/>` +
+    xfs.map(st => `<xf numFmtId="${st.num || 0}" fontId="${st.font || 0}" fillId="${st.fill || 0}" borderId="${st.border || 0}" xfId="0" applyNumberFormat="1" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="${st.align || "center"}" vertical="center"${st.wrap ? ` wrapText="1"` : ""}/></xf>`).join("") +
+    `</cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles>` +
+    `<dxfs count="3">` +
+    `<dxf><font><b/><color rgb="FF9C0006"/></font><fill><patternFill patternType="solid"><fgColor rgb="FFFF9999"/><bgColor rgb="FFFF9999"/></patternFill></fill></dxf>` +
+    `<dxf><font><b/></font><fill><patternFill patternType="solid"><fgColor rgb="FFFFFF00"/><bgColor rgb="FFFFFF00"/></patternFill></fill></dxf>` +
+    `<dxf><fill><patternFill patternType="solid"><fgColor rgb="FFF4B084"/><bgColor rgb="FFF4B084"/></patternFill></fill></dxf>` +
+    `</dxfs></styleSheet>`;
+  const commentsXml =
+    `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<comments xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><authors><author>MC marker</author></authors><commentList>` +
+    comments.map(c => `<comment ref="${c.ref}" authorId="0"><text><r><rPr><sz val="9"/><rFont val="Arial"/></rPr><t xml:space="preserve">${xesc(c.t)}</t></r></text></comment>`).join("") +
+    `</commentList></comments>`;
+  const vml =
+    `<xml xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel">` +
+    `<o:shapelayout v:ext="edit"><o:idmap v:ext="edit" data="1"/></o:shapelayout>` +
+    `<v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe"><v:stroke joinstyle="miter"/><v:path gradientshapeok="t" o:connecttype="rect"/></v:shapetype>` +
+    comments.map((c, i) => `<v:shape id="_x0000_s${1025 + i}" type="#_x0000_t202" style="position:absolute;margin-left:59.25pt;margin-top:1.5pt;width:160px;height:70px;z-index:${i + 1};visibility:hidden" fillcolor="#ffffe1" o:insetmode="auto"><v:fill color2="#ffffe1"/><v:shadow on="t" color="black" obscured="t"/><v:path o:connecttype="none"/><v:textbox style="mso-direction-alt:auto"><div style="text-align:left"></div></v:textbox><x:ClientData ObjectType="Note"><x:MoveWithCells/><x:SizeWithCells/><x:AutoFill>False</x:AutoFill><x:Row>${c.r - 1}</x:Row><x:Column>${c.c - 1}</x:Column></x:ClientData></v:shape>`).join("") +
+    `</xml>`;
+  const files = {
+    "[Content_Types].xml": `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Default Extension="vml" ContentType="application/vnd.openxmlformats-officedocument.vmlDrawing"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/><Override PartName="/xl/comments1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml"/></Types>`,
+    "_rels/.rels": `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>`,
+    "xl/workbook.xml": `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><bookViews><workbookView/></bookViews><sheets><sheet name="Marks" sheetId="1" r:id="rId1"/></sheets><calcPr calcId="191029" fullCalcOnLoad="1"/></workbook>`,
+    "xl/_rels/workbook.xml.rels": `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>`,
+    "xl/styles.xml": styles,
+    "xl/worksheets/sheet1.xml": sheet,
+    "xl/worksheets/_rels/sheet1.xml.rels": `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments" Target="../comments1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/vmlDrawing" Target="../drawings/vmlDrawing1.vml"/></Relationships>`,
+    "xl/comments1.xml": commentsXml,
+    "xl/drawings/vmlDrawing1.vml": vml,
+  };
+  const enc = new TextEncoder();
+  return makeZip(Object.entries(files).map(([name, text]) => ({ name, data: enc.encode(text) })));
+}
+const CRC_TABLE = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+function crc32(d) { let c = 0xFFFFFFFF; for (let i = 0; i < d.length; i++) c = CRC_TABLE[(c ^ d[i]) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; }
+function makeZip(files) {
+  const enc = new TextEncoder(), parts = [], central = []; let off = 0;
+  for (const f of files) {
+    const name = enc.encode(f.name), crc = crc32(f.data), n = f.data.length;
+    const lh = new DataView(new ArrayBuffer(30));
+    lh.setUint32(0, 0x04034b50, true); lh.setUint16(4, 20, true); lh.setUint16(6, 0, true); lh.setUint16(8, 0, true);
+    lh.setUint16(10, 0, true); lh.setUint16(12, 33, true); lh.setUint32(14, crc, true); lh.setUint32(18, n, true); lh.setUint32(22, n, true);
+    lh.setUint16(26, name.length, true); lh.setUint16(28, 0, true);
+    parts.push(new Uint8Array(lh.buffer), name, f.data);
+    const ch = new DataView(new ArrayBuffer(46));
+    ch.setUint32(0, 0x02014b50, true); ch.setUint16(4, 20, true); ch.setUint16(6, 20, true); ch.setUint16(8, 0, true); ch.setUint16(10, 0, true);
+    ch.setUint16(12, 0, true); ch.setUint16(14, 33, true); ch.setUint32(16, crc, true); ch.setUint32(20, n, true); ch.setUint32(24, n, true);
+    ch.setUint16(28, name.length, true); ch.setUint32(42, off, true);
+    central.push(new Uint8Array(ch.buffer), name);
+    off += 30 + name.length + n;
+  }
+  const cdSize = central.reduce((s, p) => s + p.length, 0), end = new DataView(new ArrayBuffer(22));
+  end.setUint32(0, 0x06054b50, true); end.setUint16(8, files.length, true); end.setUint16(10, files.length, true);
+  end.setUint32(12, cdSize, true); end.setUint32(16, off, true);
+  return new Blob([...parts, ...central, new Uint8Array(end.buffer)], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+}
+
+/* =====================================================================
+   Check PDF writer (one annotated JPEG per page, no library)
+   ===================================================================== */
+async function buildCheckPdf(list, key) {
+  const canvas = document.createElement("canvas"), enc = new TextEncoder();
+  const chunks = [], offsets = []; let pos = 0;
+  const push = b => { const u = typeof b === "string" ? enc.encode(b) : b; chunks.push(u); pos += u.length; };
+  push("%PDF-1.4\n"); push(new Uint8Array([37, 226, 227, 207, 211, 10]));
+  const n = list.length, pageIds = list.map((_, i) => 3 + i * 3);
+  const obj = (id, body) => { offsets[id] = pos; push(`${id} 0 obj\n${body}\nendobj\n`); };
+  obj(1, `<< /Type /Catalog /Pages 2 0 R >>`);
+  obj(2, `<< /Type /Pages /Kids [${pageIds.map(i => i + " 0 R").join(" ")}] /Count ${n} >>`);
+  for (let i = 0; i < n; i++) {
+    await drawAnnotated(canvas, list[i], key);
+    const jpg = new Uint8Array(await (await new Promise(r => canvas.toBlob(r, "image/jpeg", 0.8))).arrayBuffer());
+    const p = pageIds[i], c = p + 1, im = p + 2, content = `q 595.28 0 0 841.89 0 0 cm /Im0 Do Q`;
+    obj(p, `<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /XObject << /Im0 ${im} 0 R >> >> /Contents ${c} 0 R >>`);
+    obj(c, `<< /Length ${content.length} >>\nstream\n${content}\nendstream`);
+    offsets[im] = pos;
+    push(`${im} 0 obj\n<< /Type /XObject /Subtype /Image /Width ${canvas.width} /Height ${canvas.height} /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length ${jpg.length} >>\nstream\n`);
+    push(jpg); push(`\nendstream\nendobj\n`);
+    $("status-text").textContent = `Building check PDF: page ${i + 1} of ${n}`;
+    await new Promise(r => setTimeout(r, 0));
+  }
+  const total = 3 + n * 3, xref = pos;
+  let x = `xref\n0 ${total}\n0000000000 65535 f \n`;
+  for (let i = 1; i < total; i++) x += String(offsets[i]).padStart(10, "0") + " 00000 n \n";
+  push(x + `trailer\n<< /Size ${total} /Root 1 0 R >>\nstartxref\n${xref}\n%%EOF\n`);
+  $("status-text").textContent = `Done: ${state.pages.length} sheets read`;
+  return new Blob(chunks, { type: "application/pdf" });
+}
+
+/* =====================================================================
+   Downloads: the claude.ai viewer's save dialog, or a plain download
+   when the page is opened as a file on your computer
+   ===================================================================== */
+const dlCap = window.claude && typeof window.claude.use === "function" ? window.claude.use("downloads") : null;
+async function offerFile(filename, blob) {
+  const dl = dlCap ? await dlCap : null;
+  if (dl) {
+    try { await dl.save({ filename, data: blob }); toast(`Saved ${filename}`); }
+    catch (e) {
+      const code = e && e.code;
+      if (code === "declined") return;
+      if (code === "rate_limited") toast("A save is already waiting for your answer.");
+      else toast(`Couldn't save the file here (${code || "unavailable"}).`);
+    }
+    return;
+  }
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = filename;
+  document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 5000);
+}
+const baseName = () => { const f = state.pages[0] ? state.pages[0].file : "MC"; return f.replace(/\.[^.]+$/, ""); };
+let toastTimer;
+function toast(msg) { const t = $("toast"); t.textContent = msg; t.hidden = false; clearTimeout(toastTimer); toastTimer = setTimeout(() => t.hidden = true, 3200); }
+
+/* =====================================================================
+   Wiring
+   ===================================================================== */
+$("file").addEventListener("change", e => { addFiles(e.target.files); e.target.value = ""; });
+const drop = $("drop");
+["dragenter", "dragover"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add("over"); }));
+["dragleave", "drop"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove("over"); }));
+drop.addEventListener("drop", e => { if (e.dataTransfer && e.dataTransfer.files.length) addFiles(e.dataTransfer.files); });
+let keyTimer;
+$("key").addEventListener("input", e => { clearTimeout(keyTimer); keyTimer = setTimeout(() => setKey(parseKey(e.target.value), false), 120); });
+$("key").addEventListener("blur", e => { const k = parseKey(e.target.value); if (k.length <= MAXQ) e.target.value = fmtKey(k); });
+$("clear").addEventListener("click", () => {
+  if (state.busy) return;
+  state.pages = []; $("files").innerHTML = ""; $("progress").hidden = true; $("clear-row").hidden = true; render();
+});
+$("table").addEventListener("click", e => { const tr = e.target.closest("tr.stu"); if (tr) openReview(+tr.dataset.r); });
+$("table").addEventListener("keydown", e => { const tr = e.target.closest("tr.stu"); if (tr && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); openReview(+tr.dataset.r); } });
+$("flags").addEventListener("click", e => { const b = e.target.closest("button[data-r]"); if (b) openReview(+b.dataset.r); });
+$("rv-prev").onclick = () => openReview(rvIndex - 1);
+$("rv-next").onclick = () => openReview(rvIndex + 1);
+$("rv-close").onclick = () => $("review").close();
+$("rv-zoom").onclick = () => { const c = $("rv-canvas"); c.classList.toggle("zoom"); $("rv-zoom").textContent = c.classList.contains("zoom") ? "Fit" : "Zoom"; };
+$("review").addEventListener("keydown", e => { if (e.key === "ArrowLeft") openReview(rvIndex - 1); if (e.key === "ArrowRight") openReview(rvIndex + 1); });
+$("review").addEventListener("click", e => { if (e.target === $("review")) $("review").close(); });
+$("dl-xlsx").onclick = () => {
+  if (!current.length) return;
+  offerFile(`${baseName()}_marked.xlsx`, buildXlsx(current, state.key));
+};
+$("dl-pdf").onclick = async () => {
+  if (!current.length) return;
+  const b = $("dl-pdf"); b.disabled = true; $("progress").hidden = false;
+  try { offerFile(`${baseName()}_check.pdf`, await buildCheckPdf(current, state.key)); }
+  finally { b.disabled = false; }
+};
+setKey("", false);
+if (!window.pdfjsLib) console.warn("pdf.js did not load; PDFs will be read with the built-in JPEG reader.");
+</script>
+
+</body>
+</html>
