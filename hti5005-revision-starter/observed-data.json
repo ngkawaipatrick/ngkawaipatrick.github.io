@@ -1,0 +1,1388 @@
+{
+ "meta": {
+  "course": "HTI5005 Ethical Issues in Medicine and Research",
+  "lecturer_on_slides": "Liang-Ting Lin",
+  "semester": "2026-27",
+  "scope": "Week 1-3 lecture slides (2026) and the Subject Assessment guideline; complete per-page text, no filtering",
+  "units": "chars = characters of extracted text per page; page = PDF page index (not the printed slide number)",
+  "extraction": "PDF text layer extracted earlier in scratchpad 'ethics' to _work/*.txt with '=== PAGE n ===' markers",
+  "fact_rule": "Only slide content counts as course fact; anything else must be labelled as not from the slides",
+  "generated": "2026-11-17T06:14:16"
+ },
+ "documents": {
+  "assessment": {
+   "pdf": "HTI5005_Subject Assessment (2026).pdf",
+   "text_file": "_work/HTI5005_Subject_Assessment_(2026).txt",
+   "page_count": 3,
+   "total_chars": 2158,
+   "pages_without_text": [],
+   "pages_title_only_under_60_chars": [],
+   "pages": [
+    {
+     "page": 1,
+     "text": "HTI5005 Ethical Issues in Medicine and Research\nSubject Assessment Guidelines\n2026-27 Semester\n\n\n(I)\nGroup Written Report (40%)\n\nAccording to the given cases (find the appendix), you are requested to organize a role-\nplaying group discussion, including the following parts:\na) Your role and duty in the group work\nb) In terms of Pragmatism, how do you assess your contribution to group work?\nc) During the group discussion, do you find any Moral Diversity? If yes, give examples\nand tell the reasons; if no, please discuss why a mutual agreement is easily made in\nyour group.\nd) A summary of the discussion that should include:\n1) The role of each group member\n2) The virtue of the decision-making\n\nSubmission Deadline: 29th November 2026 midnight (24:00, aka 30/11 0:00).\n\n\n(II)\nFinal written Test (60%)\n\nThe one-hour on-campus written test contains 60 multiple-choice questions to examine\nthe student’s comprehension of the ethical and legal knowledge covered by this subject.\n\n\n\nRemark:\nl The format of the submission works must be:\nFont size: 12\nLine spacing: Single\nCover page: Clearly state the group number and the name of group members\nMargin: 2.54 cm on each side, normal A4 portrait orientation",
+     "chars": 1204
+    },
+    {
+     "page": 2,
+     "text": "Assessment 1- Grading criteria (group)\n\n\nMarking range\n1\n2\n3\n4\nWeighting\nMarks\nUse of the terms properly\n\n\n\n5\n\nMain assessment areas\n\n\n\n\n\nComprehension and\napplication of ethico-legal\nconcept/theory\n\n\n\n10\n\nThe flow of logical thinking and\nelaborations of decision-\nmaking processes\n\n\n\n10\n\nSufficient supplemental\nreferences and information\n\n\n\n5\n\nThe organization and skills in\nwriting\n\n\n\n5\n\nTotal score\n\n\n\n35\n\n\n\n\nGrade point conversion:\nTotal marks / 35 =\nFinal grade:\nAssessor's Comments:\nSignature: ………………………………\nDate: ………………………..",
+     "chars": 531
+    },
+    {
+     "page": 3,
+     "text": "Appendix 1 – List of Bioethical Issues\n\n1. The Health Care Provider-patient Relationship\n2. Medical Genetic and Genomics\n3. Reproduction\nl Prenatal Life – Abortion\nl Infants and Children\n4. End of Life\nl Cardiopulmonary Resuscitation\nl Euthanasia and Physician-assisted Suicide\n5. Organ Transplantation\n6. Biomedical Research and Bioscience\n7. Justice and Health\n8. Dignity of Degenerative Disease Patients\n9. Public Health",
+     "chars": 423
+    }
+   ]
+  },
+  "week1": {
+   "pdf": "Week 1 Basic Concepts and theories (2026).pdf",
+   "text_file": "_work/Week_1_Basic_Concepts_and_theories_(2026.txt",
+   "page_count": 51,
+   "total_chars": 15839,
+   "pages_without_text": [
+    14
+   ],
+   "pages_title_only_under_60_chars": [
+    5,
+    6,
+    8,
+    12,
+    13,
+    20,
+    22,
+    30,
+    38,
+    42,
+    49
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "text": "Ethical Issues in Medicine and Research\nIntroduction to Bioethics\nHTI5005\nMP + MDS\nLiang-Ting Lin",
+     "chars": 97
+    },
+    {
+     "page": 2,
+     "text": "Why should we learn this subject, Ethical issues in Medicine and\nResearch?\nTo kick start this subject… one question",
+     "chars": 115
+    },
+    {
+     "page": 3,
+     "text": "• As healthcare professionals, we will deal with life-and-death\nsituations as well as ethical dilemmas.\n• It’s crucial to respect patients’ right and to safe-guard your own interests.\n• This subject provides an overview of healthcare ethics.\n• The principles and theories introduced in this subject underlie our\nethical thinking and decision making.\nBackgrounds – a formal reason studying Ethics",
+     "chars": 395
+    },
+    {
+     "page": 4,
+     "text": "• This subject introduce philosophical approaches including ethical\nprinciples/theories and legal rules.\n• When discussing real world ethical challenges in medicine, you may\ncome across “grey area”\nSo basically speaking, we deliver…",
+     "chars": 232
+    },
+    {
+     "page": 5,
+     "text": "Quick Example – Moral or Ethical?",
+     "chars": 33
+    },
+    {
+     "page": 6,
+     "text": "Now, here we go",
+     "chars": 15
+    },
+    {
+     "page": 7,
+     "text": "Philosophy to the Ethics in Healthcare Profession\nPhilosophy\nTheoretical\nPhilosophy\nPractical\nPhilosophy\nEthics/Moral\nPhilosophy\nNormative Ethics\nDeontology\nUtilitarianism\nVirtue Ethics\nApplied Ethics\nBioethics\nMedical Ethics\nClinical Ethics\nResearch Ethics\nPublic Health\nEthics\nOther Ethics (AI,\nBusiness)\nMeta-ethics\nPolitical/Legal\nPhilosophy\nTheory of Justice",
+     "chars": 363
+    },
+    {
+     "page": 8,
+     "text": "Philosophy…",
+     "chars": 11
+    },
+    {
+     "page": 9,
+     "text": "Ethical philosophy started with the ancient Greeks.\n• The ancient virtues included:\n1. Wisdom\n2. Justice\n3. Courage\n4. Moderation\n5. Piety\n11\nEthics/Moral Philosophy – the Western viewpoint",
+     "chars": 189
+    },
+    {
+     "page": 10,
+     "text": "• Ancient Greek physician\n• The “Father” of western medicine\n• Hippocratic medicine was notable for its strict professionalism,\ndiscipline, and rigorous practice.\n12\nHippocrates (460-370 BC)",
+     "chars": 190
+    },
+    {
+     "page": 11,
+     "text": "Confucius (551 to 497 BC) 孔丘，字仲尼\n• Central Dogma of Confucianism (儒家思想): 仁 Ren\n• 子貢問仁。子曰：「何事於仁，必也聖乎！堯舜其猶病\n諸！夫仁者，己欲立而立人，己欲達而達人。能近取譬，\n可謂仁之方也。」\n• 仲弓問仁。子曰：「出門如見大賓，使民如承大祭。己\n所不欲，勿施於人。」\n• 顏淵問仁。子曰：「克己復禮為仁，一日克己復禮，天\n下歸仁焉。為仁由己，而由人乎哉？」\n• Prone to Communitarianism, rather than\nLiberalism – less individualism\n13\nEthics/Moral Philosophy – the Chinese viewpoint",
+     "chars": 347
+    },
+    {
+     "page": 12,
+     "text": "14\nThe Normative Ethics",
+     "chars": 23
+    },
+    {
+     "page": 13,
+     "text": "First thing first – Ethics vs. Morals",
+     "chars": 37
+    },
+    {
+     "page": 14,
+     "text": "",
+     "chars": 0
+    },
+    {
+     "page": 15,
+     "text": "• Bioethics is the interdisciplinary study of ethical issues arising in the life sciences,\nhealth care, and health/science policy.\n• Modern bioethics is widely held to have arisen in the late 1960s.\n• Since then, it has helped transform the practice of medicine and inform policy-\nmaking about accumulating issues concerning the life sciences, from public\nhealth to the delivery of medical care.\nBioethics, Medical ethics and Healthcare ethics",
+     "chars": 443
+    },
+    {
+     "page": 16,
+     "text": "• Respect for autonomy 自主原則\n• Principle protecting one’s right to make his/her own decisions\n• Beneficence 行善原則\n• Principle of “doing good”\n• Nonmaleficence 不傷害原則\n• Principle of avoiding harm\n• Justice 正義原則\n• Principle describing the obligation to be fair in the distribution of\nbenefits and risk\n22\nFour Principles of Ethics (East or West?)\nTom Beauchamp and James Childress, 1994\nIt is important to note that no one value is weighted as greater than the other.\nThe lack of hierarchy means that different providers or systems may come to different ethical conclusions or decisions\nwhen faced with a decision to be made.",
+     "chars": 620
+    },
+    {
+     "page": 17,
+     "text": "• Respect for autonomy 自主原則\n• Autonomy is Latin for \"self-rule”\n• Patient autonomy refers to the patient’s right to make decisions\nfor themselves according to their own system of morals and\nbeliefs.\n• We have an obligation to respect the autonomy of other persons,\nwhich is to respect the decisions made by other people concerning\ntheir own lives.\n• This is also called the principle of human dignity.\n23\nFour Principles of Ethics (1)",
+     "chars": 434
+    },
+    {
+     "page": 18,
+     "text": "• Incompetence- patient is legally deemed unable to make rational\ndecision for themselves. Often due to permanent conditions such as\ndementia. Assigned a surrogate by the court.\n• Incapacity- patient is clinically determined to be unable to make\nrational decision for themselves. May be due to transient conditions\nsuch as lack of conciseness, delirium, psychosis, etc.\n• Threat to self or others—usually in psychiatric settings.\n24\nWhen is autonomy compromised?",
+     "chars": 462
+    },
+    {
+     "page": 19,
+     "text": "• Two appellants had been baptised as one of Jehovah’s Witnesses and\nconscientiously rejects blood transfusions as an article of faith.\n• Appellant E (16y 8m) was scheduled for appendectomy and declared\nrefusal of blood transfusion.\n• Herself and her parents refused blood transfusion in a written format\n• Plymouth Hospital filed a hearing seeking legal permission for blood\ntransfusion to avoid any intraoperative bleeding\n• The right of blood transfusion for her was granted for the surgery\n• What’s next?\n26\nCase Study – Blood Transfusion",
+     "chars": 542
+    },
+    {
+     "page": 20,
+     "text": "Court order – Case E",
+     "chars": 20
+    },
+    {
+     "page": 21,
+     "text": "• Two appellants had been baptised as one of Jehovah’s Witnesses and\nconscientiously rejects blood transfusions as an article of faith.\n• Appellant F (17y 5m) was hospitalized from a traffic accident and is\ndiagnosed with spleen laceration and internal bleeding, not instant\nlife-threatening.\n• Appellant F refused blood transfusion.\n28\nCase Study – Blood Transfusion",
+     "chars": 367
+    },
+    {
+     "page": 22,
+     "text": "Court Order – Case F",
+     "chars": 20
+    },
+    {
+     "page": 23,
+     "text": "• By s. 8 Family Law Reform Act 1969, Parliament has provided that a person aged\n16 and 17 has the right to consent to any recommended medical treatment, and\nthe House of Lords has held in Gillick that even individuals under 16 can make\ntheir own decisions in certain circumstances.\n• Risk is an inherent part of daily life and young persons are exposed to many\nrisks – riding bikes, dangerous sports, viruses – but the law does not intervene in\nsuch matters.\n• The starting point is a strong presumption in favour of a young person’s capacious\ndecision. The decision should be respected unless there are very strong reasons\nfor rejecting it.\nOK, now we have some arguments",
+     "chars": 673
+    },
+    {
+     "page": 24,
+     "text": "• Is age a matter of decision-making?\n• When do you think you’re old enough to make decisions?\n• What is the “best interest” in the two cases?\n• Do you agree with the court order for E?\n• Do you agree with the court order for F?\n• If you were the doctor, what will you do?\n• If you were the judge, what order will you follow to make decisions?\nOK, in plain English",
+     "chars": 364
+    },
+    {
+     "page": 25,
+     "text": "• Beneficence 行善原則\n• Principle of “doing good”\n• Beneficence is a value in which  the provider take actions or\nrecommends courses that are in the patients’ best interest\n• Keep the individual patient in mind – beneficence is not the same\nin all situations\n• We have an obligation to bring about good in all our actions.\n• When patient autonomy is compromised (e.g. incapacity),\nbeneficence must be the guiding ethic\n32\nFour Principles of Ethics (2)",
+     "chars": 448
+    },
+    {
+     "page": 26,
+     "text": "• Nonmaleficence 不傷害原則\n• We have an obligation not to harm others: \"First, do no harm.\"\n• Where harm cannot be avoided, we are obligated to minimize the harm we do.\n• Don't increase the risk of harm to others.\n• Combining beneficence and nonmaleficence: Each action must produce more\ngood than harm.\n• The principle of double effect: Unintended medical consequences are acceptable if\nthe intended consequences are legitimate and the harm is proportionately smaller\nthan the benefit\n1) Removing an organ or limb that is causing disease\n2) Providing high-dose analgesics to a hospice patient even though it may\nunintentionally shorten life\n3) Controversial: Performing an unrequested abortion to save the mother’s life.\n33\nFour Principles of Ethics (3)",
+     "chars": 750
+    },
+    {
+     "page": 27,
+     "text": "• Justice 正義原則\n• It refers to respect for human rights and social justice.\n• It describes the obligation to be fair in the distribution of benefits\nand risk.\n• In public life, we have an obligation to treat all people equally,\nfairly, and impartially.\n35\nFour Principles of Ethics (4)",
+     "chars": 284
+    },
+    {
+     "page": 28,
+     "text": "• Distributive justice is the proper allocation of resources in a manner that is fair\nand just\n• It is not necessarily equal allocation of resources\n• Triage is a common example of distributive justice: The first person through the\ndoors of the emergency room is not necessarily attended to first (ankle sprain vs.\nmyocardial infarction)\n36\nDistributive justice",
+     "chars": 361
+    },
+    {
+     "page": 29,
+     "text": "• Although the four principles appear straightforward and somewhat obvious, they\nare frequently in conflict with one another.\n• Ethical dilemmas arise when one principle directs a physician towards a certain\ncourse of action, while another principle directs to a different one.\n• When dealing with difficult scenarios, other frameworks of analysis are required.\n37\nSummary of Four Principles",
+     "chars": 391
+    },
+    {
+     "page": 30,
+     "text": "Wait… Justice? What’s that?",
+     "chars": 27
+    },
+    {
+     "page": 31,
+     "text": "A Theory of Justice – John Rawls\nJohn Rawls (1921 – 2002)\n“Justice is the first virtue of social institutions, as truth is of\nsystems of thought.” – A Theory of Justice: Definition\n“My aim is to present a conception of justice which generalizes\nand carries to a higher level of abstraction the familiar theory\nof the social contract.” – A Theory of Justice: Justice as Fairness\n“No one knows his place in society, his class position or social\nstatus; nor does he know his fortune in the distribution of natural\nassets and abilities.” – A Theory of Justice: Veil of Ignorance",
+     "chars": 574
+    },
+    {
+     "page": 32,
+     "text": "1. “Each person is to have an equal right to the most extensive basic\nliberty compatible with a similar liberty for others.”\n2. “Social and economic inequalities are to be arranged so that they\nare to the greatest benefit of the least advantaged.”\n3. “A society is well-ordered when it is regulated by a public\nconception of justice that everyone can reasonably accept.”\nRawls Theory – Justice",
+     "chars": 393
+    },
+    {
+     "page": 33,
+     "text": "• Cake-cutting Parable (procedural justice):\n• A group of people needs to divide a cake, and everyone naturally wants to get\nthe largest possible slice\n• The person who cuts the cake must take the last slice\n• Pure Procedural Justice: Because the cutter knows they will receive whatever\nslice is left, their only rational strategy to maximize their share is to slice every\npiece as equally as possible.\n• A Microcosm of the Veil of Ignorance: In effect, the cutter operates without\nknowing which specific slice they will ultimately possess, compelling them to\nchoose the most equitable distribution.\nWait…What are you talking about…",
+     "chars": 632
+    },
+    {
+     "page": 34,
+     "text": "• The Scenario: When allocating limited medical resources, should\nhealthcare operate entirely as an unregulated market (capitalism, pay\nmore, get more), or should the state enforce a pooled system that\nprioritizes the critically ill and economically disadvantaged?\n• Behind the Veil of Ignorance: Before knowing your position in society,\nyou do not know whether you will be born with robust genetic health\nor a debilitating chronic illness, nor can you guarantee you won't\nsuffer a catastrophic accident tomorrow.\n• The Difference Principle: Socioeconomic inequalities are justifiable\nonly if they work to the maximum benefit of the least advantaged\nmembers of society. In HK, higher earners and healthy contributors\nsubsidize (via Tax) the extensive medical costs of the severely ill and\nimpoverished, guaranteeing that the baseline standard of well-being\nfor the worst-off is preserved.\nHealthcare System and Difference Principles",
+     "chars": 932
+    },
+    {
+     "page": 35,
+     "text": "• Morals are our own principles.\n• In most cases, when any one of us does something, we try to act\naccording to what society believes is right.\n• Moreover, we listen closely to what our own believes about right or\nwrong are telling us, even if they’re different from society’s views.\nWhat are “morals”",
+     "chars": 301
+    },
+    {
+     "page": 36,
+     "text": "• A dilemma is a situation where a person is\nforced to choose between two or more\nconflicting options, neither of which is\nacceptable\nWhat is a DILEMMA?",
+     "chars": 152
+    },
+    {
+     "page": 37,
+     "text": "• Moral dilemmas are situations where persons, who are called moral\nagents in ethics, are forced to choose between two or more\nconflicting options, neither of which resolves the situation in a\nmorally acceptable manner.\n• Moral dilemmas challenge our principles and decision-making.\n• They often involve conflicting values and responsibilities.\n• Analyzing moral dilemmas helps develop critical thinking skills.\nMoral/Ethical Dilemmas",
+     "chars": 434
+    },
+    {
+     "page": 38,
+     "text": "The Trolley Problem",
+     "chars": 19
+    },
+    {
+     "page": 39,
+     "text": "Situation 1:\n• There is a trolley coming down the tracks and ahead,\nthere are five people tied to the tracks and are unable\nto move. The trolley will continue coming and will kill\nthe five people.\n• There is nothing you can do to rescue the five people\nEXCEPT that there is a lever. If you pull the lever, the\ntrain will be directed to another track, which has ONE\nperson tied to it.\n• You have two choices:\na) Do nothing, and the five people will die\nb) Or pull the lever and save the five people, but that\none person will die.\nThe Trolley Problem",
+     "chars": 548
+    },
+    {
+     "page": 40,
+     "text": "Situation 2:\n• There is a trolley coming down the tracks and ahead,\nthere are five people tied to the tracks and are unable to\nmove. The trolley will continue coming and will kill the\nfive people.\n• However, in this situation, you are standing on a bridge\nabove the track, and you can see the train coming. There\nis a man standing next to you, who is so enormous and\nheavy that if he places himself in front of the oncoming\ntrain, it will hit and kill him, but the train will stop.\n• You have two choices:\na) Do nothing and the five people will die.\nb) Push the big guy down the bridge. He will be killed but will\nstop the trolley and save the five people.\nc) You can’t move big guy, and he’s pissed and throw you\ndown the track. Six people die.\nThe Trolley Problem",
+     "chars": 765
+    },
+    {
+     "page": 41,
+     "text": "1.The person or the agent of a moral action is obliged to make a\ndecision about which course of action is best.\n2.There must be different courses of action to choose from.\n3.No matter what course of action is taken, some moral principles are\nalways compromised.\nThree conditions present in moral dilemmas?",
+     "chars": 305
+    },
+    {
+     "page": 42,
+     "text": "Second thing second – Ethics vs. Morals",
+     "chars": 39
+    },
+    {
+     "page": 43,
+     "text": "• The word \"ethics\" is derived from the Greek word ethos (character)\n• right and wrong; good and bad, and values in general\n• Ethics can be defined as the framework to evaluate right versus wrong\ndecision\n• A branch of philosophy formerly regarded by ancient Greeks as the “the\nscience of morals”\nWhat is “ethics”?",
+     "chars": 314
+    },
+    {
+     "page": 44,
+     "text": "• Ethics aims to figure out what the right thing is to do or what the\nbest course of action is.\n• Understanding determinations and motivations based on conceptions of\nright and wrong.\n• No rigid guidelines or strict rules\n• Relatively stable but can change over time as people's conception\nchange.\n• It helps people decide how to behave and how to treat one\nanother and what values should prevail.\nThe purpose of Ethics",
+     "chars": 419
+    },
+    {
+     "page": 45,
+     "text": "• Ethics can be defined as the framework to evaluate right versus\nwrong decision.\n• A system or code of conduct and morals advocated by a particular\nindividual or group.\n• Laws related to healthcare\n54\nHow to make a (right or wrong) decision?",
+     "chars": 242
+    },
+    {
+     "page": 46,
+     "text": "Philosophy to the Ethics in Healthcare Profession\nPhilosophy\nTheoretical\nPhilosophy\nPractical\nPhilosophy\nEthics/Moral\nPhilosophy\nNormative Ethics\nDeontology\nUtilitarianism\nVirtue Ethics\nApplied Ethics\nBioethics\nMedical Ethics\nClinical Ethics\nResearch Ethics\nPublic Health\nEthics\nOther Ethics (AI,\nBusiness)\nMeta-ethics\nPolitical/Legal\nPhilosophy\nTheory of Justice",
+     "chars": 363
+    },
+    {
+     "page": 47,
+     "text": "Healthcare ethics provides basic principles and theories in solving\nspecific controversial issues:\n1) Breach of confidentiality\n2) Informed consent and patient competence\n3) Rationing of scarce medical resources\n4) End-of-life care\n56\nThose basic principles of Healthcare Ethics",
+     "chars": 278
+    },
+    {
+     "page": 48,
+     "text": "• Ethics ≠Moral values (feelings)\n• Ethics ≠Religious believes\n• Healthcare ethics ≠ Social standards\n• Ethics ≠ Law\n57\nHealthcare Ethics",
+     "chars": 137
+    },
+    {
+     "page": 49,
+     "text": "59\nThe paradigm of physician-patient relationship",
+     "chars": 49
+    },
+    {
+     "page": 50,
+     "text": "Google can’t treat you\n• Patients deliberately want to know more\nabout their symptoms and options\n• Despite proper discussion, some\npatients question or confront physicians\nfor their decisions\n• How about your professions?\n• Medical Physics?\n• Medical Data Science?",
+     "chars": 265
+    },
+    {
+     "page": 51,
+     "text": "• The patients, their families and the general public have increased\nrequirements and expectations on healthcare professionals.\n• As healthcare professionals, in addition to profession-related knowledge\nand skills, legal and ethical issues become core curricula\n• As healthcare professionals, we should know how to respect patients’ right\nand how to safeguard your own interests.\n62\nHealthcare ethics in contemporary medicine",
+     "chars": 425
+    }
+   ]
+  },
+  "week2": {
+   "pdf": "Week 2 Patient Confidentiality and Code pf Practice (2026)-1.pdf",
+   "text_file": "_work/Week_2_Patient_Confidentiality_and_Code_.txt",
+   "page_count": 75,
+   "total_chars": 24835,
+   "pages_without_text": [
+    14,
+    17,
+    18,
+    19,
+    22,
+    27,
+    35,
+    56
+   ],
+   "pages_title_only_under_60_chars": [
+    2,
+    7,
+    8,
+    10,
+    11,
+    13,
+    16,
+    32,
+    37,
+    50,
+    58,
+    72
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "text": "Ethical Issues in\nMedicine and Research\nPatient Confidentiality and Code of Practice\nHTI5005\nMP + MDS\nLiang-Ting Lin",
+     "chars": 116
+    },
+    {
+     "page": 2,
+     "text": "Code of Practice",
+     "chars": 16
+    },
+    {
+     "page": 3,
+     "text": "ὄμνυμι Ἀπόλλωνα ἰητρὸν καὶἈσκληπιὸν καὶὙγείαν καὶΠανάκειαν καὶθεοὺς πάντας τε καὶπάσας, ἵστορας ποιεύμενος, ἐπιτελέα ποιήσειν\nκατὰδύναμιν καὶκρίσιν ἐμὴν ὅρκον τόνδε καὶσυγγραφὴν τήνδε:\nἡγήσεσθαι μὲν τὸν διδάξαντά με τὴν τέχνην ταύτην ἴσα γενέτῃσιν ἐμοῖς, καὶβίου κοινώσεσθαι, καὶχρεῶν χρηΐζοντι μετάδοσιν ποιήσεσθαι,\nκαὶγένος τὸἐξ αὐτοῦἀδελφοῖς ἴσον ἐπικρινεῖν ἄρρεσι, καὶδιδάξειν τὴν τέχνην ταύτην, ἢν χρηΐζωσι μανθάνειν, ἄνευ μισθοῦκαὶσυγγραφῆς,\nπαραγγελίης τε καὶἀκροήσιος καὶτῆς λοίπης ἁπάσης μαθήσιος μετάδοσιν ποιήσεσθαι υἱοῖς τε ἐμοῖς καὶτοῖς τοῦἐμὲδιδάξαντος, καὶ\nμαθητῇσι συγγεγραμμένοις τε καὶὡρκισμένοις νόμῳἰητρικῷ, ἄλλῳδὲοὐδενί.\nδιαιτήμασί τε χρήσομαι ἐπ᾽ ὠφελείῃκαμνόντων κατὰδύναμιν καὶκρίσιν ἐμήν, ἐπὶδηλήσει δὲκαὶἀδικίῃεἴρξειν.\nοὐδώσω δὲοὐδὲφάρμακον οὐδενὶαἰτηθεὶς θανάσιμον, οὐδὲὑφηγήσομαι συμβουλίην τοιήνδε: ὁμοίως δὲοὐδὲγυναικὶπεσσὸν φθόριον\nδώσω.\nἁγνῶς δὲκαὶὁσίως διατηρήσω βίον τὸν ἐμὸν καὶτέχνην τὴν ἐμήν.\nοὐτεμέω δὲοὐδὲμὴν λιθιῶντας, ἐκχωρήσω δὲἐργάτῃσιν ἀνδράσι πρήξιος τῆσδε.\nἐς οἰκίας δὲὁκόσας ἂν ἐσίω, ἐσελεύσομαι ἐπ᾽ ὠφελείῃκαμνόντων, ἐκτὸς ἐὼν πάσης ἀδικίης ἑκουσίης καὶφθορίης, τῆς τε ἄλλης καὶ\nἀφροδισίων ἔργων ἐπί τε γυναικείων σωμάτων καὶἀνδρῴων, ἐλευθέρων τε καὶδούλων.\nἃδ᾽ ἂν ἐνθεραπείῃἴδω ἢἀκούσω, ἢκαὶἄνευ θεραπείης κατὰβίον ἀνθρώπων, ἃμὴχρή ποτε ἐκλαλεῖσθαι ἔξω, σιγήσομαι, ἄρρητα\nἡγεύμενος εἶναι τὰτοιαῦτα.\nὅρκον μὲν οὖν μοι τόνδε ἐπιτελέα ποιέοντι, καὶμὴσυγχέοντι, εἴη ἐπαύρασθαι καὶβίου καὶτέχνης δοξαζομένῳπαρὰπᾶσιν ἀνθρώποις ἐς τὸν\nαἰεὶχρόνον: παραβαίνοντι δὲκαὶἐπιορκέοντι, τἀναντία τούτων.\nHippocratic Oath",
+     "chars": 1553
+    },
+    {
+     "page": 4,
+     "text": "I swear by Apollo Healer, by Asclepius, by Hygieia, by Panacea, and by all the gods and goddesses, making them\nmy witnesses, that I will carry out, according to my ability and judgment, this oath and this indenture.\nTo hold my teacher in this art equal to my own parents; to make him partner in my livelihood; when he is in\nneed of money to share mine with him; to consider his family as my own brothers, and to teach them this art, if\nthey want to learn it, without fee or indenture; to impart precept, oral instruction, and all other instruction to\nmy own sons, the sons of my teacher, and to indentured pupils who have taken the Healer's oath, but to\nnobody else.\nI will use those dietary regimens which will benefit my patients according to my greatest ability and judgment,\nand I will do no harm or injustice to them. Neither will I administer a poison to anybody when asked to do so,\nnor will I suggest such a course. Similarly I will not give to a woman a pessary to cause abortion. But I will keep\npure and holy both my life and my art. I will not use the knife, not even, verily, on sufferers from stone, but I will\ngive place to such as are craftsmen therein.\nInto whatsoever houses I enter, I will enter to help the sick, and I will abstain from all intentional wrong-doing\nand harm, especially from abusing the bodies of man or woman, bond or free. And whatsoever I shall see or\nhear in the course of my profession, as well as outside my profession in my intercourse with men, if it be what\nshould not be published abroad, I will never divulge, holding such things to be holy secrets.\nNow if I carry out this oath, and break it not, may I gain for ever reputation among all men for my life and for\nmy art; but if I break it and forswear myself, may the opposite befall me.\nHippocratic Oath (Translated to English)",
+     "chars": 1825
+    },
+    {
+     "page": 5,
+     "text": "AS A MEMBER OF THE MEDICAL PROFESSION:\n• I SOLEMNLY PLEDGE to dedicate my life to the service of humanity;\n• THE HEALTH AND WELL-BEING OF MY PATIENT will be my first consideration;\n• I WILL RESPECT the autonomy and dignity of my patient;\n• I WILL MAINTAIN the utmost respect for human life;\n• I WILL NOT PERMIT considerations of age, disease or disability, creed, ethnic origin, gender, nationality, political\naffiliation, race, sexual orientation, social standing or any other factor to intervene between my duty and my patient;\n• I WILL RESPECT the secrets that are confided in me, even after the patient has died;\n• I WILL PRACTICE my profession with conscience and dignity and in accordance with good medical practice;\n• I WILL FOSTER the honour and noble traditions of the medical profession;\n• I WILL GIVE to my teachers, colleagues, and students the respect and gratitude that is their due;\n• I WILL SHARE my medical knowledge for the benefit of the patient and the advancement of healthcare;\n• I WILL ATTEND TO my own health, well-being, and abilities in order to provide care of the highest standard;\n• I WILL NOT USE my medical knowledge to violate human rights and civil liberties, even under threat;\n• I MAKE THESE PROMISES solemnly, freely and upon my honour.\nDeclaration of Geneva (v.2017)",
+     "chars": 1303
+    },
+    {
+     "page": 6,
+     "text": "• Increasing legislation worldwide\nThe reasons for legislation in healthcare:\n1) Increasing litigation worldwide raised by new medical advances, such\nas human genome project\n2) Increasing number of patient complaints due to rapidly changing\npublic values\n3) Increasing number of medical blunders due to public awareness of\ntheir legal and human rights as well as the rules of law.\n8\nLegalization in healthcare professions",
+     "chars": 421
+    },
+    {
+     "page": 7,
+     "text": "Medical Physicist – Code of Practice",
+     "chars": 36
+    },
+    {
+     "page": 8,
+     "text": "Medical Physicist – Code of Practice",
+     "chars": 36
+    },
+    {
+     "page": 9,
+     "text": "Medical Physicist – Code of Practice\nClinically Qualified Medical Physicists (CQMPs)",
+     "chars": 84
+    },
+    {
+     "page": 10,
+     "text": "HMRF Code of Practice (Medical Research)",
+     "chars": 40
+    },
+    {
+     "page": 11,
+     "text": "Patients’ Right and Confidentiality",
+     "chars": 35
+    },
+    {
+     "page": 12,
+     "text": "1. Patients’ Rights and Responsibilities\n2. Privacy and Confidentiality\n3. Data protection in Hong Kong\nPersonal Data (Privacy) Ordinance\n4. Medical Record\nElectronic Health Record Sharing System\n5. Disclosure of Confidentiality\nOutline",
+     "chars": 236
+    },
+    {
+     "page": 13,
+     "text": "1.\n2.\n3.\n4.\n5.",
+     "chars": 14
+    },
+    {
+     "page": 14,
+     "text": "",
+     "chars": 0
+    },
+    {
+     "page": 15,
+     "text": "1. Patients’ Rights and Responsibilities\n2. Privacy and Confidentiality\n3. Data protection in Hong Kong\nPersonal Data (Privacy) Ordinance\n4. Medical Record\nElectronic Health Record Sharing System\n5. Disclosure of Confidentiality\nOutline",
+     "chars": 236
+    },
+    {
+     "page": 16,
+     "text": "Use of photos",
+     "chars": 13
+    },
+    {
+     "page": 17,
+     "text": "",
+     "chars": 0
+    },
+    {
+     "page": 18,
+     "text": "",
+     "chars": 0
+    },
+    {
+     "page": 19,
+     "text": "",
+     "chars": 0
+    },
+    {
+     "page": 20,
+     "text": "A radiographer described on his Facebook:\n“Do you believe I had to transfer a 200-kg guy from bed to CT table and transfer\nhim back? The guy was so smelly. I felt sick! ”\nDo you think it is proper to post this message in this way?\n• A. Yes\n• B. No\nCase 1 – Social Media Post",
+     "chars": 274
+    },
+    {
+     "page": 21,
+     "text": "• Privacy setting on your account does not guarantee that some relevant people\nwill not see your post.\n• Before posting, ask if the information you are sharing could possibly reveal the\nidentity of the patient.\nCase 1 – Social Media Post",
+     "chars": 237
+    },
+    {
+     "page": 22,
+     "text": "",
+     "chars": 0
+    },
+    {
+     "page": 23,
+     "text": "• You are preparing for a presentation poster for a local conference.\n• You included photos of one patient to show varying stages of clinical\ninterventions in the poster.\n• What factors do you need to consider?\nCase 2 – Use of Pictures/Medical Records",
+     "chars": 251
+    },
+    {
+     "page": 24,
+     "text": "• Photos can provide information that links to identification of patients\n• The conference attendees are not in this patient’ circle or care, so\nthey should not be receiving this information about the patient.\n• Consider if the patient has given you consent to share the photo.\n• The medical professionals are accountable for obtaining consent.\nCase 2 – Use of Pictures/Medical Records",
+     "chars": 385
+    },
+    {
+     "page": 25,
+     "text": "1. What is “Privacy”?\n2. What is “Confidentiality”?\n28\nSomething to clarify",
+     "chars": 75
+    },
+    {
+     "page": 26,
+     "text": "“Privacy” is the ability of an individual or group to seclude themselves, or\ninformation about themselves, and thereby express themselves selectively.\nIt also refers to a person’s desire to control the access of others to themselves.\nControl or Limit Access\nControl or Limit Information\nExample: Persons may not want to be seen entering a place that might\nstigmatize them, such as a pregnancy counseling center that is clearly\nidentified as such by signs on the front of the building.\n29\nPrivacy (Nature)",
+     "chars": 504
+    },
+    {
+     "page": 27,
+     "text": "",
+     "chars": 0
+    },
+    {
+     "page": 28,
+     "text": "• Cardi B was pregnant at the time but had not publicly disclosed it.\n• The medical office (Ellis, the Plaintiff) was reportedly closed to other\npatients for her privacy.\n• Cardi B claimed Ellis followed her, said her name aloud, and possibly\nrecorded her.\n• Cardi B admitted a verbal confrontation, denied any physical assault.\n• Ellis later filed a civil case against Cardi B for assault, battery, and\nconsequential job loss.\n• Cardi B was found NOT liable to the accusations.\nCardi B Case",
+     "chars": 491
+    },
+    {
+     "page": 29,
+     "text": "“Confidentiality” involves a set of rules, or a promise usually executed through\nconfidentiality agreements that limits access or places restrictions on certain types\nof information.\nIt also refers to certain agreements with anyone involved, about how the\nidentifiable private information will be handled, managed, and disseminated.\nProtect Information\nDisclose only in accordance with Permission, Rules or Laws\nConfidentiality (Law)",
+     "chars": 433
+    },
+    {
+     "page": 30,
+     "text": "In the field of healthcare,\n• Healthcare professionals have an ethical duty to keep patient\ninformation confidential.\n• Medical records can only be shared with the patient’s permission.\n• The confidentiality can only be breached in a few exceptions.\nConfidentiality & Medical records",
+     "chars": 283
+    },
+    {
+     "page": 31,
+     "text": "1)\nIt benefits patient by providing a secure environment\nPatients often must share private, intimate and potentially embarrassing\npersonal details.\n2)\nIt expresses respect for patients’ autonomy\nPeople have a right to choose who will have access to information about them.\n3)\nIt supports public trust confidence and trust in healthcare services more\ngenerally.\nThree Reasons for Confidentiality:",
+     "chars": 395
+    },
+    {
+     "page": 32,
+     "text": "Privacy & Confidentiality",
+     "chars": 25
+    },
+    {
+     "page": 33,
+     "text": "1. Patients’ Rights and Responsibilities\n2. Privacy and Confidentiality\n3. Data protection in Hong Kong\nPersonal Data (Privacy) Ordinance\n4. Medical Record\nElectronic Health Record Sharing System\n5. Disclosure of Confidentiality\nOutline",
+     "chars": 236
+    },
+    {
+     "page": 34,
+     "text": "Personal data means any data \"relating directly or indirectly to a living individual,\nfrom which it is possible and practical to ascertain the identity of the individual\nfrom the said data, in a form in which access to or processing of the data is\npracticable”\nInclude but not limit to:\n1)\nName\n2)\nIdentity card number\n3)\nContact details\n4)\nPractically any information about the data subject's behavior, preferences or activities which\nare stored with or can be cross-referenced to the data subject's identity.\n* Photographs or video footage of an identifiable individual as well\nPersonal data – by legal terms",
+     "chars": 610
+    },
+    {
+     "page": 35,
+     "text": "",
+     "chars": 0
+    },
+    {
+     "page": 36,
+     "text": "https://www.elegislation.gov.hk/hk/cap486?xpid=ID_1438403263096_003\nPersonal Data Ordinance Cap. 486",
+     "chars": 100
+    },
+    {
+     "page": 37,
+     "text": "The Six Data Protection Principles",
+     "chars": 34
+    },
+    {
+     "page": 38,
+     "text": "Offences for disclosing personal data without consent\n(Amended 32 of 2021 s. 6)\n(1) A person commits an offence if the person discloses any personal\ndata of a data subject which was obtained from a data user without the\ndata user’s consent, with an intent—\na) to obtain gain in money or other property, whether for the benefit f\nthe person or another person; or\nb) to cause loss in money or other property to the data subject.\n(2) (Repealed 32 of 2021 s. 6)\n(3) A person who commits an offence under subsection (1) is liable on\nconviction to a fine of $1,000,000 and to imprisonment for 5 years.\nOffences and Compensation\nhttps://www.elegislation.gov.hk/hk/cap486?xpid=ID_1438403263096_003",
+     "chars": 689
+    },
+    {
+     "page": 39,
+     "text": "We should reflect on why that information is being collected and whether it can be\nshared with others.\n1) Is the information necessary to guide the delivery of care?\n2) Is the information important to share with another health care provider in order\n to assist with informing care decisions?\n3) Is there a possible risk to the patient if the information is withheld?\n4) Is there an existing legal requirement to share the information with authorities?\n5) Have you talked about privacy and confidentiality with the patient and\n addressed any of their questions or concerns?\nWhen accessing health information…",
+     "chars": 607
+    },
+    {
+     "page": 40,
+     "text": "• Anonymisation:\n• all identifying characteristics of a data set are permanently and irrevocably\nremoved\n• Pseudonymisation:\n• The information is “code” so as to make it unidentifiable for the time being\n• someone holding the key could decode the information when necessary\nData sharing or use",
+     "chars": 293
+    },
+    {
+     "page": 41,
+     "text": "1. Patients’ Rights and Responsibilities\n2. Privacy and Confidentiality\n3. Data protection in Hong Kong\nPersonal Data (Privacy) Ordinance\n4. Medical Record\nElectronic Health Record Sharing System\n5. Disclosure of Confidentiality\nOutline",
+     "chars": 236
+    },
+    {
+     "page": 42,
+     "text": "• Objective evidence of medical practice\n• Legal documents\n• Patient’s right and privacy\n• “Confidentiality” issues\nMedical records",
+     "chars": 131
+    },
+    {
+     "page": 43,
+     "text": "1)\nDoctor’s clinical notes\no Recording of Discussion with patient /next of kin (NOK) regards disease/ management (with witness) /\nPossible use of tape recording for such discussions\no Referral Notes to other specialist(s) for consultation/management\n2)\nLaboratory & Histopathological reports\n3)\nImaging records and reports\n4)\nDrug Prescriptions\n5)\nNurses’ Reports\n6)\nConsent Forms, At-Own-Risk Discharge Forms\n7)\nOperation Notes Notes\n8)\nClinical Photographs/Video Recordings\n9)\nPrintouts from monitoring equipment (e.g. Electro-cardiogram, Electro-encephalogram)\n10) Letters to and from other health professionals\n11) Computerized/electronic records\n12) Recordings of telephone consultations/instructions relevant to the care of the patient.\nContents of a Patient’s Medical Record",
+     "chars": 781
+    },
+    {
+     "page": 44,
+     "text": "It is generally accepted that the patient should:\n• have access to records containing information about his/her medical\ncondition for legitimate purpose and in good faith;\n• know what personal information is recorded\n• expect the records are accurate, and\n• know who has access to his/her personal information.\nPatient’s Expectations and Rights to Medical Records",
+     "chars": 363
+    },
+    {
+     "page": 45,
+     "text": "Patients’ medical report system\n1) Separate record for each patient with a unique registration number\n2) Safeguard the information on the medical records against loss, tramping\nor unauthorized use\n3) Corrections to notes – neatly crossed-out. Corrections should then be\nentered in space available next to the deleted statement, signed clearly\nby the person making the correction\n4) Entry in a patient’s medical record: Dated & Signed and chop\nLegal requirements",
+     "chars": 461
+    },
+    {
+     "page": 46,
+     "text": "Developed by the government, the Electronic Health Record Sharing System\n(eHealth) provides an electronic platform that aims to build up free and lifelong\nelectronic health records for all members of the public:\n1) Enable two-way sharing among public and private healthcare providers\n2) Voluntary participation, territory-wide and patient-oriented\n3) Participants' health records are stored in encrypted electronic format\n4) An information technology platform for implementing healthcare public-private\npartnership programmes\nThe Electronic Health Record Sharing System (eHealth)",
+     "chars": 579
+    },
+    {
+     "page": 47,
+     "text": "Patients:\n• Maintain comprehensive online record for healthcare providers\n• Provide timely and accurate information for care\n• Reduce duplication of tests and treatment\nHealthcare professionals:\n• Enable efficient and quality assured clinical practice\n• Reduce errors associated with paper records\nSociety:\n• Improve disease surveillance and monitoring of public health\n• Help gather more comprehensive statistics for formulation public health policy\n• Bring efficiency gain in total health expenditure\nThe benefits of eHealth",
+     "chars": 526
+    },
+    {
+     "page": 48,
+     "text": "Role-based access control\n1) A privacy protection mechanism based on a healthcare professional’s role in an\n organisation.\n2) Different authorised healthcare professionals have different levels of access to\n data and functions.\n3) Pre-defined differentiated access rights are set in accordance with the clinical\n needs or functions of different healthcare professionals.\n4) Access the parts of the electronic health record (eHR) only relevant to their\n professional service under the \"need-to-know\" principle.\n5) All access activities will be logged properly and are subject to audit and\n inspection.\nAccess control to the eHealth data",
+     "chars": 635
+    },
+    {
+     "page": 49,
+     "text": "1. Patients’ Rights and Responsibilities\n2. Privacy and Confidentiality\n3. Data protection in Hong Kong\nPersonal Data (Privacy) Ordinance\n4. Medical Record\nElectronic Health Record Sharing System\n5. Disclosure of Confidentiality\nOutline",
+     "chars": 236
+    },
+    {
+     "page": 50,
+     "text": "Disclosing Patients Conditions to Others",
+     "chars": 40
+    },
+    {
+     "page": 51,
+     "text": "If maintaining patient confidentiality could theoretically cause an\nindividual or group harm unless breached, then in that case the\ninformation may be allowable.\n• When a patient is mentally ill and suicidal, which may lead to a threat\nof self-harm or harm to others and justify their involuntary\ncommitment to a psychiatric hospital.\nExceptions to Confidentiality (1)",
+     "chars": 368
+    },
+    {
+     "page": 52,
+     "text": "Reportable Conditions: Diseases that a health provider must report to\npublic health authorities when diagnosed.\n➢In Hong Kong, there are currently a total of 53 statutory notifiable\ninfectious diseases.\n➢Top reported infectious diseases:\n1. Tuberculosis (2,354 cases)\n2. Scarlet fever (1,289 cases)\n3. Chickenpox (1,206 cases)\n4. COVID-19 (904 cases)\n5. Food poisoning (562 cases)\nExceptions to Confidentiality (2)",
+     "chars": 414
+    },
+    {
+     "page": 53,
+     "text": "Reportable/Communicable disease\nSexually transmitted disease\n• HIV infection\nExceptions to Confidentiality (2)",
+     "chars": 110
+    },
+    {
+     "page": 54,
+     "text": "I.\nPhysicians must report medical conditions that may impair one’s\nability to be a commercial driver:\nE.g. epilepsy, syncope, sleep apnea, dementia\nII. Cases of child abuses\nIII. When health care practitioners notify law enforcement when they\nare treating stab or gunshot wounds\nExceptions to Confidentiality (3)",
+     "chars": 312
+    },
+    {
+     "page": 55,
+     "text": "What if the infectious disease is on the healthcare providers?",
+     "chars": 62
+    },
+    {
+     "page": 56,
+     "text": "",
+     "chars": 0
+    },
+    {
+     "page": 57,
+     "text": "• Respect for autonomy 自主原則\n• Principle protecting one’s right to make his/her own decisions\n• Beneficence 行善原則\n• Principle of “doing good”\n• Nonmaleficence 不傷害原則\n• Principle of avoiding harm\n• Justice 正義原則\n• Principle describing the obligation to be fair in the distribution of\nbenefits and risk\n67\nFour Principles of Ethics\nTom Beauchamp and James Childress, 1994",
+     "chars": 365
+    },
+    {
+     "page": 58,
+     "text": "Philosophy…",
+     "chars": 11
+    },
+    {
+     "page": 59,
+     "text": "• Normative Ethics\n• What should we do as a human being\n• What are the correct ways\n• Meta-Ethics\n• The meaning of ethical decision-making\n• The meaning of morality\n• Applied Ethics\n• Application of ethical concerns to real scenario, e.g., medical, environmental,\nand technological circumstances\nTo learn Ethics…",
+     "chars": 312
+    },
+    {
+     "page": 60,
+     "text": "70\nNormative Ethics (規範倫理學)\n• What should I do?\n• What are behaviors right or wrong?\n• What are the moral standards of actions?\n• Establishment of principles or regulations for decisions\n• Address the model of duties, responsibilities, and correctness\n• Provide theoretical framework in evaluation of actions",
+     "chars": 308
+    },
+    {
+     "page": 61,
+     "text": "71\nThree Normative Ethics\nUtilitarianism (功利主義)\nDeontology (義務倫理)\nVirtue Ethics (德性倫理)\nCore Question\nDoes the consequence maximize\noverall happiness?\nDoes the action conform to moral\nduty or rules\nDoes the agent possess good\ncharacter and virtues?\nMoral Criterion\nThe Consequences (Consequentialism)\nMoral duty and rule (Deontology)\nCharacter and Virtue\nIconic Model\nJeremy Bentham, John Stuart Mill\n(19th Century)\nImmanuel Kant\n(18th century)\nPlato, Aristotle\n(4th century BC)\nCentral Dogma\nThe Greatest Happiness Principle —\nmoral actions should promote the\ngreatest happiness for the greatest\nnumber.\nThe Categorical Imperative —\nactions must be done from duty and\nbe universally applicable.\nThe Doctrine of the Mean — virtue is\ncultivated through habituation and\npractical wisdom.\nFocus\nOutcome and utility of actions\nMoral law, obligation, and intention\nMoral agent’s disposition and moral\nexcellence\nMotivation\nDesire to maximize pleasure and\nminimize pain\nRespect for moral law and duty\nStriving to be a good and virtuous\nperson\nTypical\nChallenge\nMay sacrifice the few for the many;\nignores individual rights\nCan be rigid and insensitive to real-\nworld consequences.\nLacks clear action-guiding rules; may\nbe culturally relative.\nApplications\nPublic policy, cost–benefit analysis,\nmedical resource allocation\nHuman rights, legal obligations,\nprofessional codes of ethics\nMoral education, leadership ethics,\nprofessional character formation",
+     "chars": 1445
+    },
+    {
+     "page": 62,
+     "text": "Plato (428-348 BC) and Aristotle (384-322 BC):\n1) your character is developed through habituation – if you do a virtuous thing\nrepeatedly, it will become part of your character eventually\n2) you were responsible for the degree to which they implemented them.\n➢The right thing to do in each dilemma is that which a “virtuous” person would do.\n• Act in the way a person with practical wisdom would act\n72\nVirtue Ethics (narrative ethics)",
+     "chars": 435
+    },
+    {
+     "page": 63,
+     "text": "• No clear “definitions” for virtue\n• Example: are they virtuous? Are the levels of restraint the same?\n• John Doe found a lost item which is a bag of cash. John is very poor and has\nno food for two days. He tremendously wants to occupy the money. But he\neventually overcomes the feeling and sends the lost money to the police.\n• Jane Doe found a lost item which is a bag of cash. Jane is rich and thinking of\noccupying the money. But she later decides to send the lost money to the\npolice.\n• We have an intuition that people with strong self-control are worthy\nof praise because they can restrain their emotions and desires and do\nwhat is morally right. However, we also have an apparently opposite\nintuition: people whose inner desires and emotions are too strong\nbut are forcibly controlled by reason are NOT virtuous\nVirtue Ethics seems to be too old-fashioned",
+     "chars": 864
+    },
+    {
+     "page": 64,
+     "text": "74\nGolden Mean – the perfection of human beings\nHonesty\nGenerous",
+     "chars": 64
+    },
+    {
+     "page": 65,
+     "text": "Situation 1:\n• There is a trolley coming down the tracks and ahead,\nthere are five people tied to the tracks and are unable\nto move. The trolley will continue coming and will kill\nthe five people.\n• There is nothing you can do to rescue the five people\nEXCEPT that there is a lever. If you pull the lever, the\ntrain will be directed to another track, which has ONE\nperson tied to it.\n• What is the decision based on Virtue Ethics\nThe Trolley Problem",
+     "chars": 449
+    },
+    {
+     "page": 66,
+     "text": "• 義務倫理學(義務論)\nImmanuel Kant (1724-1804)\n➢Deontology covers those theories that emphasize moral duties and rules rather\nthan consequences (from the Greek deon, meaning “duty”)\n➢A rule-based ethical theory— absolute moral rules\n➢Emphasis on treating individuals as an “end” not just a “means”\n76\nDeontology (duties and rules)",
+     "chars": 322
+    },
+    {
+     "page": 67,
+     "text": "Situation 1:\n• There is a trolley coming down the tracks and ahead,\nthere are five people tied to the tracks and are unable\nto move. The trolley will continue coming and will kill\nthe five people.\n• There is nothing you can do to rescue the five people\nEXCEPT that there is a lever. If you pull the lever, the\ntrain will be directed to another track, which has ONE\nperson tied to it.\n• What is the decision based on Deontology\nThe Trolley Problem",
+     "chars": 446
+    },
+    {
+     "page": 68,
+     "text": "• 效益論 (功利主義，或稱結果論)\nJeremy Bentham (1748-1832) and John Stuart Mill (1806-1873)\n➢The principle of “utility”--Doing “the greatest good for the greatest number”\n➢It is a consequentialism as it holds the outcomes/consequences of an action the\nmost morally important component of the action.\n78\nUtilitarianism (consequentialism)",
+     "chars": 323
+    },
+    {
+     "page": 69,
+     "text": "Situation 1:\n• There is a trolley coming down the tracks and ahead,\nthere are five people tied to the tracks and are unable\nto move. The trolley will continue coming and will kill\nthe five people.\n• There is nothing you can do to rescue the five people\nEXCEPT that there is a lever. If you pull the lever, the\ntrain will be directed to another track, which has ONE\nperson tied to it.\n• What is the decision based on Utilitarianism\nThe Trolley Problem",
+     "chars": 450
+    },
+    {
+     "page": 70,
+     "text": "• We should help someone who is in need, like giving a hand to\nsomeone who fell.\n• (Deontology) we must help weak ones to act morally\n• (Utilitarianism) give a helping hand is beneficial to the world\n• (Virtue ethics) any kind person would help whoever needs it\nExample 1",
+     "chars": 271
+    },
+    {
+     "page": 71,
+     "text": "Example 2 – Saving Private Ryan\nSaving Private Ryan is a war film about a group of\nU.S. soldiers led by Captain John Miller who are\nordered to find and bring home Private James\nRyan, the last surviving brother of four, after his\nbrothers were killed in action during World War II.\nThe story begins with a graphic depiction of the\nD-Day Normandy landings on Omaha Beach and\nfollows the soldiers as they go behind enemy\nlines on a dangerous mission, facing heavy\ncombat and questioning the purpose of their task.\nThe film is known for its realistic portrayal of\nwarfare and is loosely based on the story of the\nNiland brothers\n“Is it morally justified to risk many lives to save one?”",
+     "chars": 682
+    },
+    {
+     "page": 72,
+     "text": "Example 3",
+     "chars": 9
+    },
+    {
+     "page": 73,
+     "text": "Example 3\n• If you were the elder man, what will you do?\n• (deontology)?\n• (utilitarianism)?\n• (virtue ethics)?",
+     "chars": 111
+    },
+    {
+     "page": 74,
+     "text": "86\nThose Ethical theories:\nPragmatism\n(實用主義)\nCharles Sanders Pierce (1839-1914) and John Deway (1859 – 1952)\nMorality has its own progressive pattern following the advancement of science\nNeither Idealism (唯心論) nor Materialism (唯物論) is correct. Decisions must be\nmade according to experiences and scientific facts.",
+     "chars": 313
+    },
+    {
+     "page": 75,
+     "text": "• Parenting\n• Parents may start with an idealized education to the child, setting clear\nboundaries and severe consequences for disobedience.\n• It may make the child resentful and becoming defiant.\n• (Pragmatism) The parents then adopt flexible strategies and certain leniencies\n• Carbon neutrality\n• Green energy seems to be the most sustainable choice for all mankind\n• The cost can be challenging for developing countries\n• (Pragmatism) We should have a buffer period to allow gradual changes\nExample – Pragmatism",
+     "chars": 515
+    }
+   ]
+  },
+  "week3": {
+   "pdf": "Week 3 Ethics in Research and Clinical Trials (2026)-1.pdf",
+   "text_file": "_work/Week_3_Ethics_in_Research_and_Clinical_T.txt",
+   "page_count": 75,
+   "total_chars": 24298,
+   "pages_without_text": [],
+   "pages_title_only_under_60_chars": [
+    19,
+    22,
+    32,
+    45,
+    49,
+    51,
+    52,
+    53,
+    61,
+    62,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "text": "Ethical Issues in\nMedicine and Research\nEthics in Research and Clinical Trials\nHTI5005\nMP + MDS\nLiang-Ting Lin",
+     "chars": 110
+    },
+    {
+     "page": 2,
+     "text": "• Normative Ethics\n• What should we do as a human being\n• What are the correct ways\n• Meta-Ethics\n• The meaning of ethical decision-making\n• The meaning of morality\n• Applied Ethics\n• Application of ethical concerns to real scenario, e.g., medical, environmental,\nand technological circumstances\nTo learn Ethics…",
+     "chars": 312
+    },
+    {
+     "page": 3,
+     "text": "3\nNormative Ethics (規範倫理學)\n• What should I do?\n• What are behaviors right or wrong?\n• What are the moral standards of actions?\n• Establishment of principles or regulations for decisions\n• Address the model of duties, responsibilities, and correctness\n• Provide theoretical framework in evaluation of actions",
+     "chars": 307
+    },
+    {
+     "page": 4,
+     "text": "4\nThree Normative Ethics\n功利主義(Utilitarianism)\n義務倫理(Deontology)\n德性倫理(Virtue Ethics)\nCore Question\nDoes the consequence maximize\noverall happiness?\nDoes the action conform to moral\nduty or rules\nDoes the agent possess good\ncharacter and virtues?\nMoral Criterion\nThe Consequences\n(Consequentialism)\nMoral duty and rule (Deontology)\nCharacter and Virtue\nIconic Model\nJeremy Bentham, John Stuart Mill\n(19th Century)\nImmanuel Kant\n(18th century)\nPlato and Aristotle\n(4th century BC)\nCentral Dogma\nThe Greatest Happiness Principle —\nmoral actions should promote the\ngreatest happiness for the greatest\nnumber.\nThe Categorical Imperative — actions\nmust be done from duty and be\nuniversally applicable.\nThe Doctrine of the Mean — virtue\nis cultivated through habituation\nand practical wisdom.\nFocus\nOutcome and utility of actions\nMoral law, obligation, and intention\nMoral agent’s disposition and moral\nexcellence\nMotivation\nDesire to maximize pleasure and\nminimize pain\nRespect for moral law and duty\nStriving to be a good and virtuous\nperson\nTypical Challenge\nMay sacrifice the few for the many;\nignores individual rights\nCan be rigid and insensitive to real-\nworld consequences.\nLacks clear action-guiding rules;\nmay be culturally relative.\nApplications\n公共政策、成本效益分析、醫療資\n源分配\n人權保障、法律義務、專業倫理規\n範\n教育倫理、領導倫理、品格教育",
+     "chars": 1300
+    },
+    {
+     "page": 5,
+     "text": "Plato (428-348 BC) and Aristotle (384-322 BC):\n1) your character is developed through habituation – if you do a virtuous thing over\nand over again, eventually it will become part of your character\n2) you were responsible for the degree to which they implemented them.\n➢The right thing to do in a given dilemma is that which a “virtuous” person would do.\n• Act in the way a person with practical wisdom would act\n5\nVirtue Ethics (narrative ethics)",
+     "chars": 446
+    },
+    {
+     "page": 6,
+     "text": "• No clear “definitions” for virtue\n• Example: are they virtuous? Are the levels of restraint the same?\n• John Doe found a lost item which is a bag of cash. John is very poor and has\nno food for two days. He tremendously wants to occupy the money. But he\neventually overcomes the feeling and sends the lost money to the police.\n• Jane Doe found a lost item which is a bag of cash. Jane is rich and thinking of\noccupying the money. But she later decides to send the lost money to the\npolice.\n• We have an intuition that people with strong self-control are worthy\nof praise because they can restrain their emotions and desires and do\nwhat is morally right. However, we also have an apparently opposite\nintuition: people whose inner desires and emotions are too strong\nbut are forcibly controlled by reason are NOT virtuous\nVirtue Ethics seems to be too old-fashioned",
+     "chars": 864
+    },
+    {
+     "page": 7,
+     "text": "• 義務倫理學(義務論)\nImmanuel Kant (1724-1804)\n➢Deontology covers those theories that emphasize moral duties and rules rather\nthan consequences (from the Greek deon, meaning “duty”)\n➢A rule-based ethical theory— absolute moral rules\n➢Emphasis on treating individuals as an “end” not just a “means”\n7\nDeontology (duties and rules)",
+     "chars": 321
+    },
+    {
+     "page": 8,
+     "text": "• 效益論 (功利主義，或稱結果論)\nJeremy Bentham (1748-1832) and John Stuart Mill (1806-1873)\n➢The principle of “utility”--Doing “the greatest good for the greatest number”\n➢It is a consequentialist theory as it holds the outcomes/consequences of an action\nare the most morally important component of that action.\n8\nUtilitarianism (consequentialism)",
+     "chars": 334
+    },
+    {
+     "page": 9,
+     "text": "Situation 1:\n• There is a trolley coming down the tracks and ahead,\nthere are five people tied to the tracks and are unable\nto move. The trolley will continue coming and will kill\nthe five people.\n• There is nothing you can do to rescue the five people\nEXCEPT that there is a lever. If you pull the lever, the\ntrain will be directed to another track, which has ONE\nperson tied to it.\n• What can be the decision(s) based on\n• Utilitarianism\n• Deontology\n• Virtue ethics\nThe Trolley Problem",
+     "chars": 488
+    },
+    {
+     "page": 10,
+     "text": "• The aim of learning ethical theories is to help us to think more clearly about\nethical problems.\n• No single theory can solve all ethical problems. (WHAT?)\n• In fact, we should not expect them to.\n• Therefore, ethical dilemmas still exist partly because no theory is perfect.\n• We must try to make reasonable decisions by applying proper ethical theories or\nprinciples.\n11\nNormative Ethics in summary",
+     "chars": 402
+    },
+    {
+     "page": 11,
+     "text": "• Would it be different in some situations?\n• Organ donation dilemma – introduction of a new “endpoint” evaluation\n• Organ donors are usually terminally ill or nearly died. An early ”donation”\nallows more transplantable organs, so a new criterion was introduced.\n• However, some patients meeting the new criterion may be reanimated.\n• (Deontology) We should never do anything harm to patients (early death)\n• (Utilitarianism) The more transplantable organs can save more people\n• If you were the legislative member, would you issue the new criterion?\nExample 2",
+     "chars": 560
+    },
+    {
+     "page": 12,
+     "text": "16\nThose Ethical theories:\nPragmatism\n(實用主義)\nCharles Sanders Pierce (1839-1914) and John Deway (1859 – 1952)\nMorality has its own progressive pattern following the advancement of science\nNeither Idealism (唯心論) nor Materialism (唯物論) is correct. Decisions must be\nmade according to experiences and scientific facts.",
+     "chars": 313
+    },
+    {
+     "page": 13,
+     "text": "• Parenting\n• Parents may start with an idealized education to the child, setting clear\nboundaries and severe consequences for disobedience.\n• It may make the child resentful and becoming defiant.\n• (Pragmatism) The parents then adopt flexible strategies and certain leniencies\n• Carbon neutrality\n• Green energy seems to be the most sustainable choice for all mankind\n• The cost can be challenging for developing countries\n• (Pragmatism) We should have a buffer period to allow gradual changes\nExample – Pragmatism",
+     "chars": 515
+    },
+    {
+     "page": 14,
+     "text": "• Research Ethics\n• Why Research?\n• What is Research?\n• When do Ethical issues arise?\n• The Darkside of Science\n• The Doctor’s Trial – Nazi Concentration Camp\n• Experimental Misconduct\n• Legal and Ethical Principles in Research\n• Animal Welfare\n• Biosafety vs. Public Benefits\n• Utilitarianism or Deontology?\nOutlines",
+     "chars": 317
+    },
+    {
+     "page": 15,
+     "text": "• The object of research is to extend human Knowledge beyond\nwhat is already known – Good Practice in Research (GMC, 2010).\n• According to the General Medical Council: Research refers to an\nattempt to derive generalized knowledge by addressing clearly\ndefined questions with systematic and rigorous methods. It\nincludes studies that aim to generate hypotheses and test them.\n• In Layman’s Terms:\nResearch drives improvement and evolution\nto the human society\nWhy Research?",
+     "chars": 472
+    },
+    {
+     "page": 16,
+     "text": "• To determine the safety and effectiveness of drugs, vaccines, devices,\nsurgical procedures, diagnostic measures, and treatment regimens\nintended for human use for the prevention, treatment, diagnosis, or\nrelief of symptoms of a disease.\n• Prospective vs. Retrospective\n• Case-controlled study and Randomized Controlled Trial\nWhat is Clinical Research?",
+     "chars": 353
+    },
+    {
+     "page": 17,
+     "text": "• Conducted at medical centers and/or research institutes\n• Involves a complex network of sites, pharmaceutical companies,\nand academic research institutions\n• Research does not, or does not intend to, benefit the individual\nresearch participant\n• Other Clinical/Medical Research:\n• Human service research:\nTo explore the best practices or efficacy of individual treatments, a large\nsample group of data is required.\n• Research using human tissue/gametes or zygotes.\nWhat is Clinical Research?",
+     "chars": 493
+    },
+    {
+     "page": 18,
+     "text": "Clinical studies/observational study gather information, group\nvolunteers according to broad characteristics, and compare\nchanges over time.\n➢For example, researchers may collect data through medical exams, tests, or\nquestionnaires about a group of older adults over time to learn more about\nthe effects of different lifestyles on cognitive health.\n➢Clinical studies may help identify new possibilities for clinical trials.\n• Usually in a format of Cohort Study\nWhat is Clinical Research?",
+     "chars": 488
+    },
+    {
+     "page": 19,
+     "text": "Cohort Study: Prospective vs. Retrospective",
+     "chars": 43
+    },
+    {
+     "page": 20,
+     "text": "Evidence-Based Dentistry (2003) 7, 51-52. doi:10.1038/sj.ebd.6400407\nThe advantage of retrospective cohort studies is\nthat the information is available immediately. A\ndisadvantage is the reliance on the subjects’\nmemories and/or the quality of the recorded data.\nCohort Study: Prospective vs. Retrospective\nProspective cohort study design is more commonly\nused because accurate and complete data,\nnecessary for historical cohort studies, are rarely\navailable. Cost is one of the most concerning issues.",
+     "chars": 502
+    },
+    {
+     "page": 21,
+     "text": "•\nA clinical trial of investigational medical products is a\nparticular type of trial\n•\nRandomized controlled clinical trial\n•\nTarget Subjects: Gender? Race? Disease? Age?\n•\nA clinical trial is governed by legislation/authority bodies\n•\nLong Journey:\n•\nPre-clinical Discovery\n•\nInvestigational New Drug (IND) Submission\n•\nClinical Trials\n•\nNew Drug Application (NDA)\n•\nFood and Drug Administration (FDA) review\n•\nPost-approval Surveillance\nWhat are clinical trials?",
+     "chars": 464
+    },
+    {
+     "page": 22,
+     "text": "Like, how long will it be?",
+     "chars": 26
+    },
+    {
+     "page": 23,
+     "text": "• The goal of clinical research is to generate useful knowledge about human\nhealth and illness, as well as ways to prevent, diagnose, and treat diseases,\nnot to benefit any individual subjects.\n• People are the means of developing useful knowledge and are thus at risk of\nexploitation.\nWhen do ethical issues arise?\nPromote benefits to\nthe society and\nfuture patients\nProtect and respect\nthe rights and welfare\nof participants",
+     "chars": 426
+    },
+    {
+     "page": 24,
+     "text": "• Between 1932 and 1972, an infamous and unethical clinical study was\nconducted on African American males by the U.S. Public Health Service.\n• This study observes the natural history of untreated syphilis.\n• The African-American men in the study were told they were receiving free\nhealth care from the US government.\n• 6 months extended 40 years\n• No treatment was given even after penicillin had become the standard\ntreatment for syphilis in 1947.\nDark Science 1 – Tuskegee Syphilis case\nThe Belmont Report in 1979",
+     "chars": 515
+    },
+    {
+     "page": 25,
+     "text": "Nuremberg, Germany\nGerman physicians conducted unethical medical\nprocedures on humans in concentration camps—\n▪Over 3,500,000 sterilizations of German citizens\n▪These experiments often resulted in severe injury or death\n▪Known as “Nazi Human Experiments”\nDark Science 2 – Doctor’s Trial in 1945\nThe terrible experiments inspired the\nformulation of the Nuremberg Code.",
+     "chars": 367
+    },
+    {
+     "page": 26,
+     "text": "• Nazi Human Experiments\n• Blood coagulation experiments\n• A new substance that helps blood coagulation\n• Test for gunshot wounds or amputations\n• Nazi treated victims with the tablets and then shoot/amputated to test the effects\n• Transplantations\n• Experiments of Twins\n• Cruelly treated one of the twins and compared the responses\n• Blood transfusion between twins of different genders\n• Hypothermia test (low temperature)\n• Decompression test (high altitude)\nThose Dark History of Science",
+     "chars": 492
+    },
+    {
+     "page": 27,
+     "text": "• Utilitarianism emphasizes benefit to society, inclusion of\nvulnerable groups\n• Rules and Regulations: Protection of Human Subjects?\n• Participation in research as a benefit?\nLessons from the history",
+     "chars": 200
+    },
+    {
+     "page": 28,
+     "text": "• From previous examples of clinical research, it is crucial to adhere\nto ethical principles in order to maintain research integrity.\n1) Autonomy\n2) Beneficence\n3) Non-maleficence\n4) Justice\n• Breaching research ethics, also known as research misconduct,\ncan result in severe consequences.\nLessons from the history",
+     "chars": 314
+    },
+    {
+     "page": 29,
+     "text": "1. Nuremberg Code\n2. The Belmont Report\n3. Declaration of Helsinki\n4. CIOMS (The Council for International Organizations of Medical\nSciences) / WHO International Guidelines\n5. ICH/GCP (International Conference on Harmonization – Good\nClinical Practice)\nCodes and Guidelines for Research Ethics",
+     "chars": 293
+    },
+    {
+     "page": 30,
+     "text": "1.\nVoluntary Consent: Participants must give informed and voluntary consent.\n2.\nFruitful Results: Experiments should aim to produce beneficial results for society.\n3.\nPrior Research: Experiments must be based on prior knowledge or animal tests\n4.\nAvoid Unnecessary Harm: Avoid unnecessary physical and mental suffering.\n5.\nNo Risk of Death: Experiments should not be conducted if there’s a risk of death or\nsevere injury, unless the researchers themselves participate.\n6.\nProportional Risk: Risk should not exceed the potential humanitarian benefits.\n7.\nAdequate Preparation: Proper precautions and facilities must be in place to\nminimize risk.\n8.\nQualified Personnel: Only qualified individuals should conduct the experiments.\n9.\nRight to Withdraw: Participants can end their involvement at any time.\n10. Stop if Dangerous: The experiment must be terminated if it risks causing harm.\nTen Points of the Nuremberg Code",
+     "chars": 917
+    },
+    {
+     "page": 31,
+     "text": "• Respect for Persons:\n• Individuals are autonomous and must be treated with dignity.\n• Additional protections for those with limited autonomy, e.g., children, prisoners\n• Beneficence:\n• Maximize benefits while minimizing potential harm.\n• Assess risks and benefits to ensure adherence to ethical research practices.\n• Justice:\n• Fair distribution of the benefits and burdens of research.\n• Avoid exploiting vulnerable populations for research purposes\nThe Belmont Report",
+     "chars": 471
+    },
+    {
+     "page": 32,
+     "text": "The Declaration of Helsinki",
+     "chars": 27
+    },
+    {
+     "page": 33,
+     "text": "The Declaration of Helsinki\n• General Principles\n• Risks, Burdens, and Benefits\n• Vulnerability\n• Scientific Requirements and Protocols\n• Research Ethics Committees\n• Privacy and Confidentiality\n• Informed Consent\n• Use of Placebo\n• Post-trial Provisions",
+     "chars": 254
+    },
+    {
+     "page": 34,
+     "text": "• Research ethics govern the standards of conduct for scientific\nresearchers.\n• An ethics committee should review all research involving human\nsubjects to ensure that the appropriate ethical standards are\nbeing adhered to.\n• Discussion of the ethical principles of beneficence, justice, and\nautonomy is central to ethical review.\nEthical standards for human research",
+     "chars": 366
+    },
+    {
+     "page": 35,
+     "text": "1. Valuable scientific question\n2. Valid scientific methodology\n3. Fair subject selection\n4. Favorable risk-benefit evaluation\n5. Independent review\n6. Informed consent\n7. Respect for enrolled subjects\nSeven Principles of Research Ethics\nOxford textbook of clinical research. 2008.",
+     "chars": 281
+    },
+    {
+     "page": 36,
+     "text": "• Ethical clinical research should answer a valuable question, i.e.,\none that will generate new knowledge or understanding about\nhuman health or illness, including a socially, clinically, or\nscientifically useful question\n1. Valuable Scientific Question\n?",
+     "chars": 255
+    },
+    {
+     "page": 37,
+     "text": "Ethical clinical research should be designed in a methodologically\nrigorous manner:\n• Design: RCT or not, blinded or not? Choice of control?\n• Methods: primary or secondary endpoint?\n• Statistical power and sample size\n• Data analysis\n2. Valid Scientific Methodology\nTo show the feasibility;\nTo yield valid, reliable, generalized, and interpretable data.",
+     "chars": 354
+    },
+    {
+     "page": 38,
+     "text": "• Scientific objectives should guide inclusion criteria, recruitment\nstrategies, and selection (not privilege or easy availability or\nvulnerability)\n• No exclusion without justification!\n3. Fair subject selection\nResearch as “burden”\nSubjects need protection\nResearch as “benefit”\nSubjects need access",
+     "chars": 301
+    },
+    {
+     "page": 39,
+     "text": "• Are risks to subjects necessary and minimized?\n• Are the risks justified by the benefit to individual subjects and/or\nthe importance of the knowledge to society?\n• Are benefits enhanced?\nNon-maleficence and Beneficence\n4. Favorable risk-benefit",
+     "chars": 246
+    },
+    {
+     "page": 40,
+     "text": "• To ensure ethical requirements have been fulfilled\n• To check investigator biases and conflicts\n• To assure the public that research is not exploiting any individuals\nor groups\n5. Independent review",
+     "chars": 200
+    },
+    {
+     "page": 41,
+     "text": "• The goal of informed consent is to ensure that individuals have the\nopportunity to decide whether they want to participate in research\nor continue participating, and whether it is compatible with their\ngoals, values, and interests.\n• The voluntary consent of the human subject is essential.\n• For all human research, the investigator must obtain informed\nconsent from the prospective study participants or an authorized\nrepresentative.\n6. Informed Consent\nCIOMS guidelines.",
+     "chars": 475
+    },
+    {
+     "page": 42,
+     "text": "IRB review of consent:\nDoes the plan for informing participants about the study’s objectives,\nrisks, benefits, and alternatives, assessing their understanding, and\nseeking their voluntary agreement seem adequate?\n• Disclosure of information\n• Understanding\n• Voluntary decision making\n• Authorization\nThe review of Informed consent",
+     "chars": 331
+    },
+    {
+     "page": 43,
+     "text": "Ethical research requires continued respect for the rights and welfare of\nparticipants throughout research, including:\n• Protecting confidentiality\n• Monitoring welfare\n• Recognizing the right to withdraw\n• Providing new information\n• Informing participants of findings\n• Post-trial planning\n7. Respect for enrolled subjects",
+     "chars": 324
+    },
+    {
+     "page": 44,
+     "text": "1) Informed consent\n2) Voluntary participation\n3) Participants can leave at any time\n4) Anonymity/confidentiality\n5) Honesty\n6) Debrief after study\nSubject recruitment and caring:\nDo no harm!",
+     "chars": 191
+    },
+    {
+     "page": 45,
+     "text": "Really? Always do no harm?",
+     "chars": 26
+    },
+    {
+     "page": 46,
+     "text": "Barry Marshall\n•\nBarry Marshall and Robin Warren suspected the connection between\nHelicobacter pylori and gastric ulcer and gastritis.\n•\nNo one believed that bacteria could survive in the extreme conditions.\n•\nThere is no way to prove it by human research (Do no harm huh?)\n•\nBarry drank a bacterial shot and got infected => verified\n•\nKnock knock! Who’s there? Oh, your Nobel Prize just arrived",
+     "chars": 395
+    },
+    {
+     "page": 47,
+     "text": "• A particular concern is to protect incapable adults and minors.\n• The law takes a protective, deontological position with respect to\nsuch participants.\n• The requirement that they can only participate if there is a chance\nof their benefiting is absolute.\nLaw – Adults who lack capacity and Minors",
+     "chars": 298
+    },
+    {
+     "page": 48,
+     "text": "➢Clinical trials involving human participants---\nThe Medicines for Human Using (Clinical Trials) Regulations\n➢The regulations seek to impose upon researchers a set of procedures that\ncould ensure the clinical trials are carried out in a way that is both safe for\ntrial subjects and encouraging of good science.\n➢Pharmacology studies: manufacturing license; investigational medicinal\nproducts with good manufacturing practice standards\nThe Legal Regulation of clinical trials",
+     "chars": 474
+    },
+    {
+     "page": 49,
+     "text": "Ethics committee in Hong Kong",
+     "chars": 29
+    },
+    {
+     "page": 50,
+     "text": "Institutional Review Board (IRB)\n• Risks must be minimized\n• Risks must be justified by anticipated benefits, if any, to the\nsubjects or the importance of the knowledge to be gained\n• Subjects will be selected and treated fairly\n• Informed consent is adequate\nThe IRB Review",
+     "chars": 274
+    },
+    {
+     "page": 51,
+     "text": "IRB is watching you",
+     "chars": 19
+    },
+    {
+     "page": 52,
+     "text": "Wait a second, is it all about humans?",
+     "chars": 38
+    },
+    {
+     "page": 53,
+     "text": "Something I did before…",
+     "chars": 23
+    },
+    {
+     "page": 54,
+     "text": "• Replacement\n• Any measures that can replace animal research\n• Limitations?\n• Reduction\n• Minimize the use of animal\n• Statistical meaning?\n• Refinement\n• If an animal study is unavoidable, can we minimize the suffer of the\nexperimental animals?\nThe 3R policy in Animal Research",
+     "chars": 279
+    },
+    {
+     "page": 55,
+     "text": "• Animals (Control of Experiments) Ordinance (Cap. 340)\nAuthority: Department of Health\n• The Ordinance provides for the control of experiments on living\nvertebrate animals. Under the Ordinance, \"animal\" means a living\nvertebrate animal and \"experiment\" means any experiment performed\non an animal and calculated to give pain to the animal. Before\nperforming an animal experiment, a person shall apply for a licence for\nthat particular experiment. Please refer to the sections below for\ndetails.\n• Type of Licenses\n• Licence to Conduct Experiment\n• Endorsement to Authorize Experiments to Attain Manual Skills\n• Teaching Permit\n• Endorsement to Authorize Experiments without Anaesthetics or without\nDestroying the Animal\nAnimal Ethics Review Committees",
+     "chars": 752
+    },
+    {
+     "page": 56,
+     "text": "• The Ordinance provides for the control of experiments on living\nvertebrate animals.\n• Who are the vertebrate animals?\n• Do we need ethical approval for Zebrafish?\n• Do we need ethical approval for the Cockroach?\n• Why is animal study essential for research?\n• Thalidomide case (1957)\n• PK/PD\n• BA/BE\n• Toxicological Tests\nSome extended discussion\nAm I a joke to you?",
+     "chars": 368
+    },
+    {
+     "page": 57,
+     "text": "Other types of research\n• Research using human tissue: Human Tissue Act\n• Research using gametes or zygotes: Human Fertilization and Embryology Act\n• Human service research: taking information about individual treatments to\nexplore the best practice or the efficacy of certain treatments, which requires\na large sample group of data, without consent, by using anonymous data.\nThe Legal Regulation of clinical research",
+     "chars": 417
+    },
+    {
+     "page": 58,
+     "text": "The law has to perform a balancing act:\n• For medicine to progress for the interests of society\n• People who lack capacity and vulnerable groups are not\nexploited or used as means to an end.\n• The legal regulations of research aim to protect research\nparticipants through balancing individual and social\nbenefit/risk.\nRoles of law in human research",
+     "chars": 348
+    },
+    {
+     "page": 59,
+     "text": "• Clinical research is a team effort, involving the principal\ninvestigator, co-investigators, research nurses or assistants,\nresearch students, the Institutional Review Board (IRB),\nstatisticians, ethicists, and any other relevant personnel.\n• Proper education in medical knowledge and ethical principles.\nEthical framework",
+     "chars": 323
+    },
+    {
+     "page": 60,
+     "text": "• During the conduct of a large clinical trial of an investigational drug,\npreliminary analysis of results shows that there were three times as many\nparticipants in the experimental group who experienced severe nausea and\nvomiting compared to the control group.\n• Two of the cases were severe enough to require hospitalization for the\nparticipants. This is despite preliminary analysis indicating a potential\nmoderate benefit from the drug.\nQ: What should we do?\nCase 1 – Severe Adverse Effect (SAE)\nETHICS IN MEDICINE. University of Washington School of Medicine\nhttps://depts.washington.edu/bioethx/topics/resrch.html",
+     "chars": 619
+    },
+    {
+     "page": 61,
+     "text": "How much does it cost for a new drug?",
+     "chars": 37
+    },
+    {
+     "page": 62,
+     "text": "There is a job making living with it",
+     "chars": 36
+    },
+    {
+     "page": 63,
+     "text": "• Jesse Gelsinger Case\n• Delivery of genes\n• Viral vectors\n• Lentivirus\n• Retrovirus\n• Adenovirus\n• Adeno-associate virus (AAV)\n• Other viral vectors?\n• Non-viral vectors\n• Nanoparticles: Lipids, Silica\n• Electroporation\n• Transposon\n• S/MAR\nCase 2 – Gene therapy\nJesse Gelsinger (1981-1999)",
+     "chars": 291
+    },
+    {
+     "page": 64,
+     "text": "• Treatment of ornithine transcarbamylase (OTC) deficiency through\nadenoviral-based gene therapy.\n• Directed by James M. Wilson, the principal investigator of the\nclinical trial, who was also the consultant for the company.\n• Jesse Gelsinger received the highest dose of adenovirus that\nUPenn had already killed a primate in the preclinical experiment.\n• All clinical trials of gene therapy\nwere all suspended after the incident.\n80\nJesse Gelsinger Case",
+     "chars": 453
+    },
+    {
+     "page": 65,
+     "text": "• After completing a study that involved collecting tissue from subjects, an\ninvestigator wishes to perform additional analysis on the archived tissue\nsamples.\n• The nature of this analysis was not explicitly stated in the original consent\nform.\nQ: Should the investigator be required to obtain explicit consent for the\nnew research?\nCase 3 – Sample Collection\nETHICS IN MEDICINE. University of Washington School of Medicine\nhttps://depts.washington.edu/bioethx/topics/resrch.html",
+     "chars": 480
+    },
+    {
+     "page": 66,
+     "text": "• The proposal aims to compare the relationship between a locus\nmutation for Gene A and the prognosis of a disease.\n• Scientists accidentally find a disease-causing mutation when\nanalyzing the sequence.\n• What should we do?\n• Inform the patient?\n• Deontology?\n• Utilitarianism?\nOne more case – Genomic/Genetic Testing",
+     "chars": 317
+    },
+    {
+     "page": 67,
+     "text": "Case X – The Mad Scientist\nHWANG Woo-Suk (黃禹錫)",
+     "chars": 46
+    },
+    {
+     "page": 68,
+     "text": "Somatic Cell Nuclear Transfer (SCNT)",
+     "chars": 36
+    },
+    {
+     "page": 69,
+     "text": "The world first cloned Dog – Snuppy (2006 – 2015)",
+     "chars": 49
+    },
+    {
+     "page": 70,
+     "text": "Aftermath – Imprisonment and Woolly Mammoth\n2008\n2014",
+     "chars": 53
+    },
+    {
+     "page": 71,
+     "text": "Case X – The Mad Scientist\nHE Jiankui (賀建奎)",
+     "chars": 43
+    },
+    {
+     "page": 72,
+     "text": "What happened to Lulu and Nana then?",
+     "chars": 36
+    },
+    {
+     "page": 73,
+     "text": "The authorities can be the game changer",
+     "chars": 39
+    },
+    {
+     "page": 74,
+     "text": "1. Multi-site / Multi-center and international studies\n2. Research using databases or samples\n3. Clinical innovations:\na) Genomic data and sharing\nb) Artificial Intelligence\nChallenges in Research Ethics",
+     "chars": 203
+    },
+    {
+     "page": 75,
+     "text": "1. Clinical research aims to promote medical development by using human\nparticipants or human tissue\na) Research on human subjects is very rarely risk-free;\nb) Balance the benefit/ risk of research to society and individual\nparticipants;\nc) The balance of rights and power skewed in favor of participants is both\nright and necessary!\n2. A valuable scientific question and informed consent are important in\ndesigning and performing clinical research.\nTake Home Message",
+     "chars": 467
+    }
+   ]
+  }
+ },
+ "image_only_slide_notes": [
+  {
+   "week": 1,
+   "pages": [
+    12
+   ],
+   "topic": "Normative ethics table",
+   "content": "Utilitarianism = general interest for society, greatest happiness for greatest number; Deontology = duty and respect, no person should be used, everyone respected equally; Virtue ethics = individual moral character, cultivate virtues (courage, honesty, benevolence).",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 1,
+   "pages": [
+    13,
+    14
+   ],
+   "topic": "Ethics vs Morals",
+   "content": "Ethics = rules a social system provides (external sources); Morals = our own principles (individual's perception of right and wrong).",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 1,
+   "pages": [
+    20,
+    22
+   ],
+   "topic": "Court orders, Jehovah's Witness cases E and F",
+   "content": "Court granted the declaration allowing transfusion for both E (16y8m) and F (17y5m); best interests / preservation of life took precedence.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 1,
+   "pages": [
+    49
+   ],
+   "topic": "Physician-patient relationship models",
+   "content": "Paternalistic: 'I decide for you'; Informative: 'I give you facts'; Deliberative: 'in addition, I tell you my preferences'; Interpretative: 'I give you facts and help you find your preferences'.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 2,
+   "pages": [
+    7,
+    8,
+    9
+   ],
+   "topic": "Medical physicist codes",
+   "content": "IAEA Guidelines on Professional Ethics for Medical Physicists; CQMP code of conduct 4.1.3 (lead by example, optimise patient outcomes, stewardship of resources).",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 2,
+   "pages": [
+    10
+   ],
+   "topic": "HMRF Code of Practice",
+   "content": "HMRF Code of Practice on data confidentiality in medical research.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 2,
+   "pages": [
+    13,
+    14
+   ],
+   "topic": "Patients' Charter",
+   "content": "Patient rights: medical treatment, information, choices, privacy, complaint; plus patient responsibilities.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 2,
+   "pages": [
+    37
+   ],
+   "topic": "Six Data Protection Principles (Cap. 486)",
+   "content": "1 collection purpose and means; 2 accuracy and retention; 3 use; 4 security; 5 openness; 6 data access and correction.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 2,
+   "pages": [
+    50
+   ],
+   "topic": "HK Medical Council code on disclosure",
+   "content": "1.4.1 obtain consent before disclosing to a third party; 1.4.2 exceptions: public interest / risk of death or serious harm, or required by law.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 2,
+   "pages": [
+    55
+   ],
+   "topic": "Infected healthcare provider (code 4.3.3)",
+   "content": "An infected doctor is generally not required to tell patients but must inform the Department of Health if the disease is notifiable.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 2,
+   "pages": [
+    64
+   ],
+   "topic": "Golden mean",
+   "content": "Cowardice (deficiency) - courage - recklessness (excess).",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 3,
+   "pages": [
+    22
+   ],
+   "topic": "Drug development timeline",
+   "content": "Discovery/preclinical 3-6 years; Phase 1 20-100, Phase 2 100-500, Phase 3 1,000-5,000 volunteers over 6-7 years; FDA review 0.5-2 years; then post-marketing surveillance.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 3,
+   "pages": [
+    61
+   ],
+   "topic": "Second drug development chart",
+   "content": "Shows different volunteer figures: Phase 2 100-200, Phase 3 1,000-6,000.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 3,
+   "pages": [
+    32
+   ],
+   "topic": "Declaration of Helsinki",
+   "content": "World Medical Association (WMA); adopted June 1964; latest amendment October 2024.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 3,
+   "pages": [
+    49
+   ],
+   "topic": "HA research ethics structure",
+   "content": "Two-tier structure: Head Office Steering Committee + Cluster RECs.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  },
+  {
+   "week": 3,
+   "pages": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73
+   ],
+   "topic": "Research misconduct cases",
+   "content": "Hwang Woo-Suk: SCNT stem-cell papers retracted from Science, fabricated data; Snuppy the cloned dog. He Jiankui: gene-edited babies Lulu and Nana, 2018.",
+   "verified_by": "read by eye by the calling agent from the rendered slide images (passed in as known data); not present in the extracted text"
+  }
+ ],
+ "logistics": {
+  "announcement": {
+   "source": "lecturer announcement quoted by the user",
+   "test_date": "2026-11-19",
+   "weekday": "Thursday",
+   "room": "Z504",
+   "arrive_before": "18:40",
+   "format": "MCQ",
+   "expected_duration_minutes": 40,
+   "after_test": "worksheet distributed to each group for discussion",
+   "group_size": "maximum 10 members; 4-6 suggested; if the group is larger than the number of roles, no more than 2 students per role",
+   "individual_participation_form": {
+    "how": "online form via QR code on the worksheet",
+    "deadline": "2026-11-19T21:30"
+   },
+   "group_report": {
+    "how": "sign the worksheet, scan it as the cover page, answer the given questions, submit by email",
+    "deadline": "2026-11-22T23:59",
+    "weekday": "Sunday"
+   }
+  },
+  "assessment_pdf": {
+   "source": "HTI5005_Subject Assessment (2026).pdf",
+   "group_written_report_weight_pct": 40,
+   "final_written_test_weight_pct": 60,
+   "test": "one-hour on-campus written test, 60 multiple-choice questions",
+   "test_duration_minutes": 60,
+   "mcq_count": 60,
+   "group_report_deadline_as_written": "29th November 2026 midnight (24:00, aka 30/11 0:00)",
+   "deadline_weekday": "Sunday",
+   "report_parts": [
+    "a) Your role and duty in the group work",
+    "b) In terms of Pragmatism, how do you assess your contribution to group work?",
+    "c) During the group discussion, do you find any Moral Diversity? If yes, give examples and tell the reasons; if no, discuss why a mutual agreement is easily made in your group.",
+    "d) Summary of the discussion: 1) the role of each group member, 2) the virtue of the decision-making"
+   ],
+   "format": {
+    "font_size": 12,
+    "line_spacing": "Single",
+    "cover_page": "group number and names of group members",
+    "margin_cm": 2.54,
+    "paper": "A4 portrait"
+   },
+   "marking": [
+    {
+     "criterion": "Use of the terms properly",
+     "weight": 5
+    },
+    {
+     "criterion": "Comprehension and application of ethico-legal concept/theory",
+     "weight": 10
+    },
+    {
+     "criterion": "The flow of logical thinking and elaborations of decision-making processes",
+     "weight": 10
+    },
+    {
+     "criterion": "Sufficient supplemental references and information",
+     "weight": 5
+    },
+    {
+     "criterion": "The organization and skills in writing",
+     "weight": 5
+    }
+   ],
+   "marking_range_per_criterion": "1-4",
+   "marking_total": 35
+  },
+  "user_statement": "Teacher says that besides the MC test there will be a 'lifeboat debate': students play different roles and debate their stances within groups."
+ },
+ "conflicts": [
+  {
+   "topic": "Test length",
+   "announcement": "MCQ, expected to last 40 minutes (number of questions not stated)",
+   "assessment_pdf": "one hour, 60 multiple-choice questions"
+  },
+  {
+   "topic": "Group report deadline",
+   "announcement": "22 Nov 2026 (Sun) 23:59",
+   "assessment_pdf": "29 Nov 2026 midnight (24:00, i.e. 30 Nov 0:00)"
+  },
+  {
+   "topic": "Drug-trial volunteer numbers (Week 3)",
+   "slide_p22": "Phase 2 100-500; Phase 3 1,000-5,000",
+   "slide_p61": "Phase 2 100-200; Phase 3 1,000-6,000"
+  }
+ ],
+ "term_presence_in_week1_3_slide_text": {
+  "lifeboat": false,
+  "moral diversity": false,
+  "pragmatism": true,
+  "virtue": true,
+  "veil of ignorance": true,
+  "distributive justice": true,
+  "triage": true
+ },
+ "gaps": [
+  "The slides do not describe the lifeboat debate (the word 'lifeboat' appears in the slide text: False).",
+  "The slides do not define 'Moral Diversity' (phrase appears in the slide text: False); it appears only in the assessment guideline.",
+  "The actual worksheet scenario and roles are unknown until the night of 19 Nov 2026.",
+  "The number of MCQs in the 40-minute test is not stated in the announcement.",
+  "Slides beyond Week 3 were not supplied; no sample or past MCQs from the lecturer were supplied."
+ ]
+}

@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTI5005 Revision Starter</title>
+<style>
+:root{--bg:#f6f4ee;--card:#fff;--ink:#1d2730;--muted:#55626e;--line:#d8d3c6;--accent:#0f5c63;--soft:#e1efef;--out:#5b2f91;--out-bg:#f1e8fb;--pic:#0a5587;--pic-bg:#e2f0fa;--dis:#8a3d00;--dis-bg:#fff0d2;--ok:#1b6e38;--ok-bg:#e5f4e9;--bad:#a3241d;--bad-bg:#fcebea}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;overflow-x:hidden}
+[hidden]{display:none!important}
+h1,h2,h3,h4,p,ul{margin:0}
+a{color:var(--accent);overflow-wrap:anywhere}
+#masthead,#topbar-inner,#main{max-width:1000px;margin:0 auto;padding-left:16px;padding-right:16px}
+#masthead{padding-top:18px;padding-bottom:10px}
+#masthead h1{font-size:1.55rem;line-height:1.2}
+#topbar{position:sticky;top:0;z-index:50;background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);box-shadow:0 2px 6px rgba(0,0,0,.06)}
+#topbar-inner{padding-top:10px;padding-bottom:8px}
+#search-row{display:flex;gap:8px}
+#search{flex:1;min-width:0;min-height:46px;padding:8px 14px;font:inherit;color:var(--ink);background:#fbfaf7;border:1.5px solid var(--line);border-radius:10px;-webkit-appearance:none;appearance:none}
+#search:focus{outline:3px solid var(--soft);border-color:var(--accent)}
+.btn{min-height:46px;padding:8px 16px;font:inherit;font-weight:600;color:var(--accent);background:#fff;border:1.5px solid var(--accent);border-radius:10px;cursor:pointer}
+.btn:active{background:var(--soft)}
+#jump-nav{display:flex;gap:8px;margin-top:8px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+#jump-nav a,.fchip{flex:0 0 auto;display:inline-flex;align-items:center;min-height:44px;padding:0 15px;border-radius:22px;background:var(--soft);color:var(--accent);font:inherit;font-weight:600;text-decoration:none;white-space:nowrap;border:1.5px solid transparent;cursor:pointer}
+.fchip[aria-pressed="true"]{background:var(--accent);color:#fff}
+#main{padding-top:4px;padding-bottom:60px}
+#no-matches{margin:26px 0;padding:22px;text-align:center;font-size:1.15rem;font-weight:600;color:var(--muted);background:var(--card);border:1.5px dashed var(--line);border-radius:12px}
+.part{padding-top:26px;scroll-margin-top:128px}
+.part>h2{font-size:1.4rem;line-height:1.25;margin-bottom:14px;padding-bottom:8px;border-bottom:3px solid var(--accent)}
+.week{margin-bottom:18px;scroll-margin-top:128px}
+.week>summary{list-style:none;cursor:pointer;display:flex;align-items:center;flex-wrap:wrap;gap:2px 12px;min-height:52px;padding:10px 16px;background:var(--accent);color:#fff;border-radius:12px;font-weight:700;font-size:1.15rem}
+.week>summary::-webkit-details-marker{display:none}
+.week>summary::after{content:"\25BE";margin-left:auto}
+.week:not([open])>summary::after{content:"\25B8"}
+.sum-sub{font-weight:400;font-size:.9rem}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(420px,100%),1fr));margin-top:12px;align-items:start}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+.card>h3{font-size:1.05rem;line-height:1.3;margin-bottom:8px;color:var(--accent)}
+.card ul{list-style:none;padding:0}
+.card li{padding:7px 0 7px 16px;border-top:1px solid #eeeae0;position:relative}
+.card li:first-child{border-top:0}
+.card li::before{content:"";position:absolute;left:0;top:18px;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.card p+p,.card p+ul,.card ul+p{margin-top:8px}
+.chip{display:inline-block;margin-left:4px;padding:1px 8px;border-radius:10px;background:#ece8dc;color:#4a4436;font-size:.78rem;font-weight:600;white-space:nowrap;vertical-align:middle}
+.badge{display:inline-block;margin:0 4px 0 0;padding:2px 9px;border-radius:6px;font-size:.78rem;font-weight:700;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap;vertical-align:middle;border:1.5px solid currentColor}
+.badge.out{color:var(--out);background:var(--out-bg)}
+.badge.pic{color:var(--pic);background:var(--pic-bg)}
+.badge.dis{color:var(--dis);background:var(--dis-bg)}
+.badge.lec{color:#1b6e38;background:#e5f4e9}
+.card.is-out{border:1.5px dashed var(--out);background:#faf6fe}
+.card.is-dis{border:1.5px solid #e0a341;border-left-width:6px;background:#fffaf0}
+.card.is-info{border-left:6px solid var(--accent)}
+.label{font-weight:700;color:var(--muted);font-size:.85rem;text-transform:uppercase;letter-spacing:.04em}
+.lead{color:var(--muted);margin-bottom:6px}
+.q-stem{font-weight:600;margin-bottom:10px}
+.q-num{color:var(--accent);margin-right:6px;white-space:nowrap}
+.opts{display:grid;gap:8px}
+.opt{display:flex;gap:10px;align-items:flex-start;width:100%;min-height:48px;padding:10px 12px;text-align:left;font:inherit;color:var(--ink);background:#fbfaf7;border:1.5px solid var(--line);border-radius:10px;cursor:pointer}
+.opt b{flex:0 0 auto;color:var(--accent)}
+.opt.right{background:var(--ok-bg);border-color:var(--ok)}
+.opt.wrong{background:var(--bad-bg);border-color:var(--bad)}
+.q-actions{margin-top:10px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.q-result{font-weight:700}
+.q-result.ok{color:var(--ok)}
+.q-result.no{color:var(--bad)}
+.q-exp{margin-top:10px;padding:12px 14px;background:var(--soft);border-radius:10px}
+.q-hint{margin-top:10px;padding:8px 12px;border-radius:8px;background:var(--dis-bg);color:var(--dis);font-weight:600}
+#q-tools{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.tbl-wrap{overflow-x:auto;margin-top:8px}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#efece3}
+td.num{white-space:nowrap;text-align:right}
+td.blank{height:44px}
+mark.hit{background:#ffe066;color:inherit;border-radius:3px;padding:0 1px}
+</style>
+</head><body>
+<header id="masthead"><h1>HTI5005 Revision Starter</h1></header>
+<div id="topbar">
+  <div id="topbar-inner">
+    <div id="search-row">
+      <input id="search" type="search" placeholder="Search notes and questions" aria-label="Search notes and questions" autocomplete="off">
+      <button id="search-clear" class="btn" type="button">Clear</button>
+    </div>
+    <nav id="jump-nav" aria-label="Jump to">
+      <a href="#logistics">Logistics</a>
+      <a href="#week-1">Week 1</a>
+      <a href="#week-2">Week 2</a>
+      <a href="#week-3">Week 3</a>
+      <a href="#questions">Questions</a>
+      <a href="#debate">Debate</a>
+      <a href="#report">Report</a>
+    </nav>
+  </div>
+</div>
+<main id="main">
+  <div id="no-matches" hidden>No matches</div>
+  <section id="logistics" class="part" data-group><h2>Test logistics</h2><div id="logistics-body" class="grid"></div></section>
+  <section id="notes" class="part" data-group><h2>Revision notes by week</h2><div id="notes-body"></div></section>
+  <section id="questions" class="part" data-group><h2>Sample questions</h2><div id="questions-body"></div></section>
+  <section id="debate" class="part" data-group><h2>Lifeboat debate preparation</h2><div id="debate-body" class="grid"></div></section>
+  <section id="report" class="part" data-group><h2>Group report preparation</h2><div id="report-body" class="grid"></div></section>
+</main>
+
+<script>
+const viewSetups = new Map(); function defineView(name, setup) { viewSetups.set(name, viewSetups.has(name) ? () => { throw new Error('two scripts defined this view'); } : setup); } function runView(name, el) { const fail = (err) => { const why = err && err.message ? err.message : String(err); if (el) { el.setAttribute('data-view-failed', name); el.textContent = name + ' could not load.'; } console.error(name + ' failed: ' + why); if (typeof reportError === 'function') reportError(new Error(name + ': ' + why)); }; const setup = viewSetups.get(name); if (typeof setup !== 'function') { fail(new Error('no script defined this view')); return; } try { const done = setup(el); if (done && typeof done.then === 'function') done.catch(fail); } catch (err) { fail(err); } }
+</script>
+
+<script>
+/* Shared: content arrays, text formatter, card builder, search. */
+const LOGISTICS = [], NOTES = [], QUESTIONS = [], DEBATE = [], REPORT = [];
+const BADGES = { out: 'Not from the slides', pic: 'Read from the slide picture', dis: 'Sources disagree', lec: 'From the lecture recording' };
+const searchState = { q: '' };
+
+/* Mini markup used in the content: **bold**, {slide chip}, [out] [pic] [dis] badges, [[link]]. */
+function fmt(s) {
+  return String(s)
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\[\[(https:[^\]]+)\]\]/g, '<a href="$1" target="_blank" rel="noopener">$1</a>')
+    .replace(/\{([^}]+)\}/g, '<span class="chip">$1</span>')
+    .replace(/\[(out|pic|dis|lec)\]/g, function (m, k) { return '<span class="badge ' + k + '">' + BADGES[k] + '</span>'; });
+}
+
+function cardEl(c, id) {
+  const d = document.createElement('article');
+  d.className = 'card' + (c.cls ? ' ' + c.cls : '');
+  d.id = id;
+  let h = '';
+  if (c.t) h += '<h3>' + fmt(c.t) + '</h3>';
+  (c.p || []).forEach(function (x) { h += '<p>' + fmt(x) + '</p>'; });
+  if (c.items) h += '<ul>' + c.items.map(function (x) { return '<li>' + fmt(x) + '</li>'; }).join('') + '</ul>';
+  if (c.html) h += c.html;
+  (c.after || []).forEach(function (x) { h += '<p>' + fmt(x) + '</p>'; });
+  d.innerHTML = h;
+  return d;
+}
+
+function clearMarks(root) {
+  root.querySelectorAll('mark.hit').forEach(function (m) {
+    const p = m.parentNode;
+    p.replaceChild(document.createTextNode(m.textContent), m);
+    p.normalize();
+  });
+}
+
+function markText(root, q) {
+  const lq = q.toLowerCase();
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  nodes.forEach(function (n) {
+    const text = n.nodeValue, low = text.toLowerCase();
+    let i = low.indexOf(lq);
+    if (i < 0 || low.length !== text.length) return;
+    const frag = document.createDocumentFragment();
+    let pos = 0;
+    while (i >= 0) {
+      frag.appendChild(document.createTextNode(text.slice(pos, i)));
+      const m = document.createElement('mark');
+      m.className = 'hit';
+      m.textContent = text.slice(i, i + q.length);
+      frag.appendChild(m);
+      pos = i + q.length;
+      i = low.indexOf(lq, pos);
+    }
+    frag.appendChild(document.createTextNode(text.slice(pos)));
+    n.parentNode.replaceChild(frag, n);
+  });
+}
+
+/* Hides cards that do not match, marks the matches, and never reveals an answer. */
+function applySearch() {
+  const main = document.getElementById('main');
+  const q = searchState.q.trim(), lq = q.toLowerCase();
+  clearMarks(main);
+  let matches = 0;
+  main.querySelectorAll('.card').forEach(function (card) {
+    const front = card.querySelector('.q-front'), exp = card.querySelector('.q-exp'), hint = card.querySelector('.q-hint');
+    let ok = true, targets = [card];
+    if (hint) hint.hidden = true;
+    if (front && exp) {
+      targets = exp.hidden ? [front] : [front, exp];
+      if (q) {
+        const inFront = front.textContent.toLowerCase().indexOf(lq) >= 0;
+        const inBack = exp.textContent.toLowerCase().indexOf(lq) >= 0;
+        ok = inFront || inBack;
+        if (!inFront && inBack && exp.hidden) hint.hidden = false;
+      }
+    } else if (q) {
+      ok = card.textContent.toLowerCase().indexOf(lq) >= 0;
+    }
+    card.dataset.s = ok ? '' : '1';
+    card.hidden = !ok || card.dataset.f === '1';
+    if (ok) { matches++; if (q) targets.forEach(function (t) { markText(t, q); }); }
+  });
+  main.querySelectorAll('[data-group]').forEach(function (g) {
+    const cards = Array.prototype.slice.call(g.querySelectorAll('.card'));
+    g.hidden = !!q && cards.length > 0 && !cards.some(function (c) { return c.dataset.s !== '1'; });
+  });
+  document.getElementById('no-matches').hidden = !(q && matches === 0);
+}
+</script>
+<script>
+LOGISTICS.push(
+  { t: `On the night (announcement)`, cls: 'is-info', items: [
+    `**Thu 19 Nov 2026**, classroom **Z504**. Arrive **before 6:40 pm** so the test starts on time.`,
+    `Written test first: **multiple-choice (MCQ)**.`,
+    `After the test, each group gets a **worksheet** for discussion. The teacher says this is a **lifeboat debate**: you play roles and debate your stances within the group.`,
+    `Group size: **maximum 10** members, **4-6 suggested**. If the group is larger than the number of roles, **at most 2 students per role**.`
+  ] },
+  { t: `[dis] Test format`, cls: 'is-dis', p: [
+    `Announcement: MCQ, about 40 minutes, number of questions not stated. Assessment guidelines: 60 MCQs in one hour. Neither is confirmed.`
+  ], items: [
+    `Plan for either length. The number of questions stays open until the lecturer says.`,
+    `[lec] In the Week 12 recording the lecturer said: MCQ only, **no short questions**, **one correct answer out of five options**, marked by an **answer card**, so **bring a pencil and eraser**; he expects everyone to finish within 40 minutes, starting 6:40 pm, and the questions will only be about things mentioned in the slides.`,
+    `Assessment guidelines: the test is **60%** of the grade.`
+  ] },
+  { t: `What to submit`, cls: 'is-info', items: [
+    `**Individual participation (online form)**: scan the **QR code on the worksheet**. Due **9:30 pm the same day** (19 Nov 2026).`,
+    `**Group report**: sign the worksheet and **scan it as the cover page**, answer the given questions, and send it to the lecturer **by email**.`,
+    `Assessment guidelines: the report is **40%** of the grade.`
+  ] },
+  { t: `[dis] Group report deadline`, cls: 'is-dis', p: [
+    `Announcement: Sun 22 Nov 2026, 23:59. Assessment guidelines: 29 Nov 2026, 24:00. Treat 22 Nov as the safe deadline until the lecturer confirms.`
+  ] },
+  { t: `Coverage of this page`, p: [
+    `Covers Weeks 1–3 only. The nine appendix topics are covered only as far as these slides go.`,
+    `Notes are written as connected explanations. Each paragraph carries a slide reference such as {W2 p37}. Details that come from the lecturer's spoken explanation (the Week 10-12 caption files) rather than the slide text are marked [lec]; outside sources are marked [out].`
+  ] }
+);
+</script>
+
+<script>
+defineView('Test logistics', (el) => {
+  LOGISTICS.forEach((c, i) => { el.appendChild(cardEl(c, 'logistics-card-' + (i + 1))); });
+});
+</script>
+
+<script>
+NOTES.push(
+  { w: 1, t: `Why this subject exists, and what the test will cover`, p: [
+    `Everything we do in medical physics or medical data science eventually lands on a patient, even when we never meet one. The lecturer's own examples: if a physicist adjusts or quality-assures an X-ray unit wrongly, the output can be too strong and the patient is put at risk; if a data scientist misreads a genetic sequence, a patient may believe they are at high risk of cancer and take an unnecessary preventive measure that itself carries risk. That is why the subject exists: to help you **think ethically** and **make decisions ethically**. [lec] {W1 p2-4}`,
+    `The lecturer said the written test will only ask about **things mentioned in the slides**, and that it should be "relatively easy", because most real ethical dilemmas have no single answer and cannot be tested. He also said the four principles of bioethics "will probably repeat in the MCQ like ten times". [lec]`
+  ] },
+  { w: 1, t: `Ethics versus morals`, p: [
+    `**Morals** are the standards that come from **inside** you: the sense of right and wrong you were born with and that your family and upbringing trained into you. You do not steal, pirate, torture or kill, and nobody had to write that in a rule book for you to know it. **Ethics** comes from **outside**: it is the set of rules that a society, a profession or a code of practice imposes on you, and you follow it even where it does not match your own feelings. {W1 p13, p35, p42}`,
+    `The lecturer's illustration: imagine identical twins raised on opposite sides of the world. They are genetically the same, so their inborn morality is similar, but because their societies taught them different rules they end up with different **ethical** standards. Ethics therefore changes from place to place and over time; the code of conduct in Hong Kong differs from the mainland, Europe or the United States, not because the underlying moral ideas differ but because each society's idea of justice and its structure differ. [lec] {W1 p13}`,
+    `The word "ethics" comes from the Greek **ethos**, meaning character. Ethics has no rigid guidelines; it is relatively stable but can change over time. It is **not** moral values, **not** religious beliefs and **not** law, and healthcare ethics is not the same as social standards. The religion example from the lecture: Jehovah's Witnesses refuse blood transfusion even knowing it may be life-threatening; that is a religious belief, which is a separate thing from ethics. [lec] {W1 p43-44, p48}`
+  ] },
+  { w: 1, t: `The "tree" of philosophy, and where bioethics sits`, p: [
+    `The slide shows a branching diagram that the lecturer only skimmed, so here is what it means. **Philosophy** splits into **theoretical** philosophy (debates that never settle; not covered) and **practical** philosophy. Practical philosophy splits again into **ethics / moral philosophy** and **political and legal philosophy**. Ethics then has three layers: **normative ethics** (the "ruler" we measure decisions with: utilitarianism, deontology, virtue ethics), **applied ethics** (using that ruler in real scenarios, which is where **bioethics** lives), and **meta-ethics** (a "QA system" that debates whether the ethical concepts themselves are correct; not covered). [lec] {W1 p7, W2 p59}`,
+    `**Bioethics** itself has four areas: **medical ethics**, **clinical ethics** (front-line hospital work), **research ethics** (any use of patient data needs ethics approval) and **public health ethics** (if you find a new pathogen or a new genetic mutation you must tell everybody). [lec] {W1 p7}`,
+    `One oddity to remember: **justice** is one of the four bioethics principles, yet the **Theory of Justice** sits under **political and legal philosophy**, not under bioethics. The reason is that justice is what eventually becomes law and policy, for example how a country designs its health-insurance system. The lecturer flagged this as a likely test point. [lec] {W1 p7, p30-34}`
+  ] },
+  { w: 1, t: `A little history: Greek virtues, Hippocrates, Confucius`, p: [
+    `The ancient Greeks reasoned about ethics by looking at a **role model**. If Socrates or Plato was so good and upright that he was "always correct", you simply copied his virtues: **wisdom, justice, courage, moderation and piety**. In medicine the role model was **Hippocrates** (460-370 BC), the "father of western medicine"; the Hippocratic Oath that doctors still swear comes from him. [lec] {W1 p9-10}`,
+    `Ethics was not a Western monopoly. At about the same era (around 500 BC) **Confucius** built a system whose central idea is **Ren (仁)**, and the saying "do not do to others what you would not want done to yourself" belongs to it. Confucianism leans towards **communitarianism** (people farm, earn and are rewarded together, as in ancient Chinese villages) rather than the modern Western **liberalism / individualism**. [lec] {W1 p11}`,
+    `Modern bioethics as a discipline only arose in the **late 1960s**. {W1 p15}`
+  ] },
+  { w: 1, t: `The three normative theories, explained through the trolley`, p: [
+    `The slide lists three "pillars" in a row. The lecturer explained them with one story, the **trolley problem**: a runaway trolley will run over five people on the track; you can pull a lever to divert it onto a side track where it kills one person instead. {W1 p12, p36-41}`,
+    `**Utilitarianism** judges an act by its **results**: the greatest good for the greatest number. One death is better than five, so a utilitarian **pulls the lever**. {W1 p12}`,
+    `**Deontology** (also called **Kantian** ethics, after Immanuel Kant) judges the act by **duty** and by the moral rules in your mind, not by the outcome. If you do nothing, the five were already doomed and their deaths are not your doing; if you pull the lever, you have actively killed one person. So a deontologist **does not pull** the lever: kill nobody beats kill one. [lec] {W1 p12}`,
+    `**Virtue ethics** asks what a person of ideal character would do: "if I were that nearly perfect person, what would I decide?" The lecturer admitted it is the oldest of the three and gives the vaguest guidance, because it depends on which role model you admire. If your admired figure says "always divert the trolley", you divert it regardless of the numbers. [lec] {W1 p12}`,
+    `Week 2 gives the names and dates: Bentham and Mill for utilitarianism, Kant for deontology, Plato and Aristotle for virtue ethics. See the Week 2 cards.`
+  ] },
+  { w: 1, t: `The fourth model: Pragmatism`, p: [
+    `The slide only names three theories, but the lecturer insisted there is a **fourth** that people actually use today: **pragmatism**. The idea is that the right answer is **not fixed**; it changes with the situation and with technology, on a rolling basis. His joke: today you pull the lever because one death beats five, but if tomorrow the trolley can fly, you switch to the "third gear" and nobody dies. Pragmatism asks "at this moment, what can I do to reach the best outcome?" [lec] {W2 p74-75}`,
+    `His parenting example: in the 1980s parents disciplined children by hitting them, and that was normal; in 2026 parents calm a child on a plane with an iPad. Neither is declared "the" correct method; the method shifts as circumstances change. He was careful to add that handing over an iPad is not being endorsed as best; the point is only that morality **progresses with the advancement of science**. [lec] {W2 p74-75}`,
+    `The lecturer listed "utilitarianism, deontology, virtue ethics and pragmatism" together as the four models to know for the written test. [lec]`
+  ] },
+  { w: 1, t: `The four principles of bioethics (Beauchamp and Childress, 1994)`, p: [
+    `This is the slide the lecturer called "the most important", with "every single word" mattering. Two authors, **Tom Beauchamp and James Childress**, set out four principles in 1994 (the year is not important) that are the stem of all bioethics decisions. {W1 p16}`,
+    `**Respect for autonomy**: "autonomy" is Latin-derived for **self-rule**. The patient has the right to say what they want and need and to make their own decision, and we must listen and respect it even when we disagree. Some people call this the principle of **human dignity**. Example from the lecture: a patient with an open wound refuses sutures. You try to persuade, but if they still refuse, you treat them without suturing. {W1 p16-17}`,
+    `**Beneficence** means **doing good**, actively seeking the patient's best interest. **Nonmaleficence** means **not doing harm** ("first, do no harm"), and where harm is unavoidable, minimising it. The lecturer described these two as "crossing over": the same idea viewed from two ends, and both resemble utilitarianism because they look at which decision gives the best outcome. {W1 p16}`,
+    `**Justice** is about **fairness** in distributing benefits and risks, treating people equally and impartially. It is the odd one out because it is really about policy-making, and the lecturer said even he cannot define it without a situation. {W1 p16}`,
+    `Two rules about how the principles relate. First, **no principle outweighs another**, so two providers can reach different conclusions on the same case. Second, the principles **frequently conflict**, and that conflict is exactly what produces an ethical dilemma. {W1 p16, p29}`
+  ] },
+  { w: 1, t: `The opening case: the husband who asked the doctor not to tell`, p: [
+    `The lecturer opened with a story from a doctor's Facebook page. A woman under 50 came to A&E short of breath; the X-ray showed a large lung tumour with many metastases. Her husband asked the doctor not to tell her. The code of conduct does not allow a doctor to keep secrets from the patient, so the doctor must disclose the diagnosis and let her decide how to be treated: **respect for autonomy**. The lecturer's point was that this is easy to say from the outside and hard to do when a grieving husband is standing in front of you. [lec] {W1 p5}`,
+    `He returned to the same theme with the film **The Farewell**: a Chinese family hides a grandmother's terminal diagnosis from her. The doctor is bound by the code of conduct and must disclose; the family is **not** bound by any code and may decide for the whole family's happiness. But nobody asked the grandmother what she wanted, so her autonomy was never tested. There is no answer, only a choice. [lec] {W1 p42}`
+  ] },
+  { w: 1, t: `When autonomy is compromised: incompetence, incapacity, threat`, p: [
+    `Autonomy only works if the patient can actually exercise it. The lecturer's example: an unconscious crash victim is bleeding out with an arm trapped under a vehicle; without amputation he dies. You amputate, because consent and competence are "no longer an issue" when the patient cannot reach their autonomy at all. [lec] {W1 p18}`,
+    `Three situations compromise autonomy. **Incompetence** is **legally** determined, is often **permanent** (for example dementia), and the **court assigns a surrogate** to decide; the under-aged also count here. **Incapacity** is **clinically** determined and may be **transient** (delirium, psychosis, loss of consciousness). **Threat to self or others**: a mentally unstable person holding a knife is not asked "what would you like to do?"; you act first. {W1 p18}`,
+    `When autonomy is compromised, **beneficence** becomes the guiding ethic: you choose what is best for the patient on their behalf. {W1 p25}`
+  ] },
+  { w: 1, t: `Cases E and F: Jehovah's Witnesses and blood transfusion (UK, 2021)`, p: [
+    `Both appellants were baptised **Jehovah's Witnesses**, whose religion forbids blood transfusion. The slides for these two cases are mostly court text, so here is the story. {W1 p19-22}`,
+    `**E**, aged **16 years 8 months**, needed an **appendectomy**. She refused any transfusion, and her parents refused too, in writing. Legally the hospital was covered by that written refusal, but the doctors did not want a patient dying on their hands, so they asked the court to override the refusal. The court **granted the declaration**. E's later complaint was that the persuasion felt "threatening" ("you have a big future ahead of you"), that her religion mattered more to her than her life, and that "my opinion wasn't taken into account". [lec] {W1 p19-20}`,
+    `**F**, aged **17 years 5 months**, was in a traffic accident with a **spleen laceration and internal bleeding**: not instantly life-threatening, but the bleeding could not be located or guaranteed to stop. The court again ruled that it was in his **best interests** to be transfused **should the need arise**. In the end, as the lecturer recalled, F did not actually need the transfusion, but the appeal still went ahead because the hospital had overridden his autonomy. [lec] {W1 p21-22}`,
+    `The court's reasoning in both: "**the preservation of life should take precedence**"; the doctors know the anatomy and the outcome better than the patient. The counter-arguments on the slide: section 8 of the **Family Law Reform Act 1969** lets 16-17-year-olds consent to treatment; the **Gillick** case (a Christian mother of five daughters sued to stop doctors offering contraception/abortion advice to under-16s and lost, narrowly) established that **under-16s can decide for themselves** in certain circumstances, so why could these two, who were *older* than 16, not? Also: young people are expected to manage risk every day (cycling, dangerous sports, hiking), and no law forbids that. The starting point should be a **strong presumption in favour of the young person's capacious decision**. [lec] {W1 p23}`,
+    `The lecturer's questions for you: is age really the measure of decision-making capacity? When are you old enough to decide? Was the doctor right? Was the court right? The doctor also protected himself: with a court order, the transfusion carries no legal risk for him either way. [lec] {W1 p24}`
+  ] },
+  { w: 1, t: `The principle of double effect, and end-of-life debates`, p: [
+    `Under **double effect**, a harmful side-effect is acceptable provided it was **not intended**, the intended effect is legitimate, and the harm is **proportionately smaller** than the benefit. Removing a diseased organ or limb is harm you would never do to a healthy person, but you do it because the patient is otherwise at risk; the lecturer's film example was **127 Hours**, the hiker who cut off his own trapped arm. Giving **high-dose analgesics** to a hospice patient to keep their quality of life is another: the intended effect is pain relief even though the dose carries risk. The slide's controversial example is an unrequested abortion to save the mother's life. [lec] {W1 p26}`,
+    `The same tension appears in **end-of-life (EOL)** debates: **euthanasia** (is assisted suicide killing? legal in a few countries, illegal in most) and, as a non-medical parallel, the death penalty. The lecturer's story: a Taiwanese sports anchor with pancreatic cancer and bone metastases, in great pain, could get no legal help to die at home, so he bought a one-way ticket to a European country that accepted his application and recorded himself drinking the drug. Also the Hong Kong case of an elderly husband who killed his dementia-stricken wife in an MTR toilet and tried to kill himself; he was saved, and the lecturer asked whether saving him was the better outcome. These are dilemmas with no answer, but a decision still has to be made. [lec] {W1 p26-27}`
+  ] },
+  { w: 1, t: `Distributive justice, triage and the lifeboat`, p: [
+    `**Distributive justice** matters whenever resources are **limited**. A hospital has finite X-ray machines, staff and beds, so it cannot give everyone identical immediate care; it needs a **triage** system. The slide example: the **myocardial infarction** is seen before the **ankle sprain**. The lecturer's Hong Kong version: in A&E you may wait four to five hours "unless you are dying"; if you can still shout and cry, you are fine, and the unconscious patient goes first. Distribution is therefore **fair, not necessarily equal**. [lec] {W1 p28}`,
+    `The **lifeboat** scenario is the classroom version of distributive justice, and it is the group exercise after the test. On the slide: a 60-year-old preacher, a pregnant woman, a physician, a politician, an army veteran, an infant, a 27-year-old teacher, a 25-year-old married couple, 11-year-old twin sisters and a 58-year-old nurse. The boat cannot carry everyone, so the group must **democratically** decide, by debate, who is least needed and goes into the water first, then rank everyone from 1 to 10. Each student plays one role and argues for their own survival. The lecturer modelled it: the teacher says "I am young, I can labour and sail, and I can teach the children so the group survives long-term"; the physician says "I keep everyone healthy until rescue". The 10th-ranked person is not penalised, but you must be able to explain why you were first to go. [lec] {W1 p28}`
+  ] },
+  { w: 1, t: `John Rawls, A Theory of Justice (1921-2002)`, p: [
+    `The slide quotes Rawls's dense prose; the lecturer admitted he has read it a hundred times and still finds it hard, so here is the meaning. "**Justice is the first virtue of social institutions, as truth is of systems of thought**" means that if an arrangement is just, everyone in the society should be able to agree with it; justice is the search for a **common fairness** that everyone shares. {W1 p31-34}`,
+    `The **veil of ignorance** is a thought experiment for removing bias. Imagine deciding a rule while knowing nothing about who you will be: rich or poor, old or young, male or female. The lecturer's illustration: a healthy 27-year-old man falls in the street and you tell him to get up; an 80-year-old granny falls in the same posture and you rush to help; a poor man and a rich man in a suit sit in the same waiting room with the same symptoms, and you are tempted to serve the rich one first. The veil strips away all those cues (social status, gender, age) so the decision can be called **fair**. Being born rich is a "lucky draw", not something you earned, so it should not count. [lec] {W1 p31-34}`,
+    `Rawls's principles: each person has an **equal right** to basic liberties, and social and economic inequalities are acceptable only if they work to the **greatest benefit of the least advantaged** (the **difference principle**). Hong Kong's public hospitals are his example: everyone gets the same treatment, but the funding comes from tax, so the rich pay more and the poor pay less for the same service; that is inequality that benefits the least advantaged, hence justice. Similar logic underlies the UK NHS and mainland China's national insurance. The contrast is **unregulated market capitalism** ("pay more, get more"), as in the United States where the uninsured pay heavily. Behind the veil, since everyone faces the same risk of an accident tomorrow, the shared-pool system is what people would choose. [lec] {W1 p31-34}`,
+    `**Cake-cutting** illustrates **pure procedural justice**: you cut the cake and everyone else picks before you, so you take the **last slice**. Your only way to protect yourself is to cut every slice equal. Fairness comes from the procedure, not from any judge, and the lecturer called it a "microcosm of the veil of ignorance". [lec] {W1 p31-34}`
+  ] },
+  { w: 1, t: `Dilemmas and the two trolley problems`, p: [
+    `A **moral dilemma** is a **forced choice** between conflicting options, none of which is fully acceptable. Three conditions must hold: the agent **must decide** (if you can simply let things play out, it is not a dilemma); there are **different courses of action**; and whichever you choose, **some moral principle is compromised**. {W1 p36-41}`,
+    `**Trolley 1**: pull the lever and five live while one dies (utilitarian: pull; deontologist: do not pull, because pulling makes the death yours). **Trolley 2**: the only way to stop the trolley is to **push a heavy man off a bridge** into its path. Most people who would pull the lever will not push the man, even though the arithmetic is identical, because pushing feels like killing directly. The lecturer added a twist: you might fail to push him and fall yourself, so six die. [lec] {W1 p36-41}`
+  ] },
+  { w: 1, t: `Four controversial issues, and the physician-patient models`, p: [
+    `The slide names four recurring controversies in healthcare ethics: **breach of confidentiality** (in what circumstances, with what consequences); **informed consent and patient competence** (have you disclosed enough for the patient to decide? you cannot withhold a cancer diagnosis and then ask whether they want radiotherapy); **rationing of scarce medical resources** (the lecturer described the UK's "miserable cycle": overloaded staff quit, so the rest are more overloaded, so more quit); and **end-of-life care**. {W1 p47}`,
+    `The physician-patient relationship diagram is a 2x2 grid of four models. **Paternalistic**: "I decide for you" (the doctor overrides the patient, as in the transfusion cases). **Informative**: "I give you the facts" and leave the choice to you; the lecturer noted that today's patient then Googles or asks an AI instead of listening. **Deliberative**: "in addition, I tell you my preferences", listing the options (surgery, radiotherapy, chemotherapy, immunotherapy) and which he would choose. **Interpretative**: "I give you the facts and help you find *your* preferences". Most people consider the interpretative model best, but in practice doctors sometimes stop at an earlier model. [lec] {W1 p49}`,
+    `Contemporary healthcare ethics therefore asks you to communicate properly with patients, families and the public who increasingly rely on AI, to use your professional knowledge to help rather than to override, and to respect patients' rights while also **safeguarding your own interests** (as the doctor in case E did by getting a court order rather than acting alone). [lec] {W1 p50-51}`
+  ] }
+);
+</script>
+<script>
+NOTES.push(
+  { w: 2, t: `From the Hippocratic Oath to the Declaration of Geneva`, p: [
+    `Slide 3 is the Oath in ancient Greek (the lecturer could not read it either). The English version on slide 4 shows how old some of our ideas are and how much others have changed. Still with us: treat patients "according to my greatest ability and judgment", **do no harm or injustice**, never administer a poison even when asked (which, read today, also rules out euthanasia), and keep as "holy secrets" whatever is seen or heard in practice: **confidentiality** dates back to the BC era. Out of date: "I will not give a woman a pessary to cause abortion" (abortion after a prenatal genetic diagnosis is now sometimes the kinder option) and "I will not use the knife" (surgeons cut patients open every day). [lec] {W2 p3-4}`,
+    `The modern replacement is the **Declaration of Geneva (2017 version)**, which graduates recite at white-coat or congregation ceremonies. Its key lines: the **health and well-being of the patient is the first consideration**, and secrets are respected "**even after the patient has died**". {W2 p5}`
+  ] },
+  { w: 2, t: `Why healthcare needs legislation and not just good intentions`, p: [
+    `Even if every professional is personally ethical, laws are needed to draw clear borderlines, and the slide gives three reasons. First, **new medical advances** such as the **Human Genome Project** (completed 2003-04): before it, no law contemplated what whole-genome or RNA sequencing can reveal (cancer risk, Alzheimer's risk, ancestry; the lecturer did a Circle DNA test himself during COVID) or what should happen when a fetal test accidentally reveals a parent's hidden disease. Second, **more patient complaints**, driven by **rapidly changing public values**. The lecturer contrasted the pager and payphone era, when information moved slowly, with social media today, where a confidentiality breach spreads instantly and cannot be recalled, and where patients collect second and third opinions (often wrong) that ignite disputes. Third, more **blunders** and greater public awareness of rights. Legislation therefore has to be updated on a rolling basis. [lec] {W2 p6}`
+  ] },
+  { w: 2, t: `Professional codes: IAEA for physicists, HMRF for data researchers`, p: [
+    `Radiographers and MLTs in Hong Kong have a registration board with a gazetted code of practice; medical physicists and data scientists do not, because their jobs vary. So the lecture used two general documents. For physicists, the **IAEA Guidelines on Professional Ethics for Medical Physicists**, which describe the profession and include a value system built on the four bioethics principles. Its workplace code is short: enhance the effectiveness of workplace operations and embody a public role; the detailed do's and don'ts are left to each country, because a mainland physicist may do planning and dosimetry while a Hong Kong physicist mainly does machine QA/QC. The **CQMP** (Clinically Qualified Medical Physicist) code **4.1.3** says: lead by example, optimise outcomes for patients, and be a steward of resources. [lec] {W2 p7-9}`,
+    `For anyone using medical data in Hong Kong research, the relevant document is the **HMRF Code of Practice on data confidentiality and the use of data for medical research**, under the Department of Health. It is a thick book; the lecture concentrated on the local law it rests on, the **Personal Data (Privacy) Ordinance**, because breaking that law can mean jail. [lec] {W2 p10}`
+  ] },
+  { w: 2, t: `Patients' rights and responsibilities (HA Patients' Charter)`, p: [
+    `Slide 13 is just the numbers 1 to 5 beside a leaflet picture. The five rights are: the right to **medical treatment** (that is why hospitals exist); the right to **information** (how your data are used, what the test results mean, whether this treatment is the best option); the right to **choices** (accept or refuse: respect for autonomy); the right to **privacy** (nobody discloses your condition to anyone irrelevant, not even a guardian); and the right to **complain**. The lecturer added that providers also have rights, and having the right to complain does not mean the patient is always right. [lec] [pic] {W2 p13}`,
+    `Rights come with **responsibilities**: tell the doctor the whole truth, because a diagnosis built on hidden or false information will be wrong; follow the agreed treatment plan and the instructions you are given; **keep appointments** and be punctual, since medical resources are scheduled and cannot easily be rebooked; respect other patients and staff; and do not ask for incorrect information, receipts or certificates. [lec] {W2 p14}`
+  ] },
+  { w: 2, t: `Photos, social media and the "sharenting" survey`, p: [
+    `Slides 16-19 are mostly pictures. The first is a **Chinese YMCA of Hong Kong** survey (reported January 2024) on parents sharing their children online: about **82%** of parents share, mostly photos, many without understanding the privacy settings, and nearly **30% never asked the child** whether they minded. The lecturer's point: even your own child is an individual whose autonomy deserves respect. [lec] [pic] {W2 p16-19}`,
+    `**The radiographer's Facebook post**: "I had to transfer a 200 kg man from bed to CT table and back, and he stank." No name was given, but everyone in the radiographer's network knows where he works, so "a 200 kg man in that hospital on that day" is enough to identify the patient. Lesson: **privacy settings do not guarantee privacy**, and the test is whether the post *could* identify someone. The HA now bans photo and video taking anywhere in its premises except closed, patient-free offices. A Taiwanese nurse was prosecuted in 2018 for filming an injection: no name or face, but uniform and procedure identified the hospital and then the patient. [lec] {W2 p20-21}`,
+    `**Conference posters**: a photo of a dose-measurement set-up or a medical image may carry the patient's ID, face, gender, the hospital, the diagnosis or the age. Photos can identify, so **consent** is needed and the **professional is accountable** for obtaining it. Anonymise completely; do not involve the patient's circle of care. [lec] {W2 p22-24}`,
+    `The lecturer's own cautionary tale: he once posted an Instagram story quoting a funny wrong answer from a student script ("the slope of the curve is slope"), handwriting covered. Years later an exit survey called it potential **bullying**. He had meant no harm, but the student could still have recognised it and been hurt; he no longer posts such things. Intent does not protect you. [lec] {W2 p22-24}`
+  ] },
+  { w: 2, t: `Privacy versus confidentiality`, p: [
+    `People use the two words interchangeably, and loosely they overlap, but legally they differ. **Privacy** is a person's ability to **control access** to themselves and their information: the desire to seclude yourself, keep your dignity, not be seen entering a sensitive place (a hotel, a pregnancy counselling centre). It is a **grey area**. A tourist's video that catches you walking past Victoria Harbour is not a breach; the same clip posted online with a caption mocking your looks starts to become one. The slide's case is **Cardi B** (2025): she went to a Los Angeles clinic while pregnant, a security guard recognised her and shouted her name, a confrontation followed, and the guard sued. The court sided with Cardi B, because the guard had breached her privacy first. [lec] {W2 p26-28}`,
+    `**Confidentiality** is a **rule or promise that restricts access** to information, and in healthcare it is written into law: information is disclosed only by the patient's **permission**, by **rules**, or by **law**, and breaching it brings graded punishment. Every healthcare worker has an ethical duty to keep confidential not just name, ID and date of birth but diagnosis, prescriptions and everything else. Records are shared only with the patient's permission unless the public interest overrides. {W2 p26, p29}`,
+    `**Three reasons** for confidentiality: it gives the patient a **secure environment** to tell the truth (a psychiatric patient will not disclose abuse unless they trust you); it **respects autonomy**; and it maintains **public trust** in healthcare generally. Its sources run from the Hippocratic Oath through the **Nightingale Pledge** and **Sun Simiao** (孫思邈, Chinese medicine) to modern codes of conduct and **Cap. 486**. [lec] {W2 p31-32}`
+  ] },
+  { w: 2, t: `Personal Data (Privacy) Ordinance, Cap. 486`, p: [
+    `**Personal data** is any data that relates to a **living individual**, from which the person's identity can **practicably be ascertained**, in a form where access or processing is practicable. It is not just name and ID number: photos and video of an identifiable person count, and so does a chain of hints ("a male student, 5'7", 150 lb, who is bad at talking") that narrows down to one person. [lec] {W2 p34}`,
+    `The **six Data Protection Principles** (the numbering was read from the slide picture) and what each means in a research or clinical setting: **1 Collection purpose and means**: lawful, fair and **not excessive** (if you need genetic codes, collect genetic codes only). **2 Accuracy and retention**: keep data accurate and **no longer than necessary**; an IRB will ask why you want to keep GPS tracks of elderly participants for ten years, and "until the paper is published or the patent is granted" is an acceptable answer. **3 Use**: only for the purpose the subject was told about. **4 Security**: authorised persons only, with passwords, encryption or a locked drawer, and you must say who can open it. **5 Openness**: people must be able to find out your data policy, including which team members can see the data. **6 Data access and correction**: the subject may see and amend their own data. [lec] [pic] {W2 p37}`,
+    `The **offence**: disclosing personal data obtained from a data user **without the data user's consent**, with intent to gain or to cause loss (or causing psychological harm). Penalty on conviction: a fine of **$1,000,000** and **5 years' imprisonment**. {W2 p38}`,
+    `**Anonymisation** versus **pseudonymisation**. In an open-access database the pool is mixed from many unnamed hospitals and countries, so even with age, sex and diagnosis nobody can be traced: identifiers are **permanently and irrevocably removed**. In a study using 100 cases from a partner hospital, replacing names with codes 1-100 is only pseudonymisation: the **key holder can decode** it, which is useful for long-term follow-up but means the data are still personal. [lec] {W2 p40}`
+  ] },
+  { w: 2, t: `Medical records and the eHealth system (醫健通)`, p: [
+    `A medical record covers the medical history, clinical notes, laboratory and radiology reports and prescriptions. Rules for paper records: a **unique registration number** per patient (in Hong Kong usually the HKID); corrections are **neatly crossed out and signed**, never erased; entries are **dated, signed and chopped**. The old paper system had problems: records could only be secured by locking a cabinet, there was no unified format, cross-checking between hospitals was hard, and patients had to carry CD-ROMs or bags of films from hospital A to hospital B. Patients want records that are comprehensive, easily accessible to themselves and portable for second opinions. [lec] {W2 p42-45}`,
+    `**eHealth** is the Hong Kong government's **electronic health record sharing system**, launched around 2018-2020. It allows **two-way sharing** between public and private providers, joining is **voluntary** (you tick consent boxes most people never read), and data are **encrypted**. Access uses **role-based access control** on a "**need-to-know**" basis, and every access is **logged and audited**. Benefits: no duplicate prescriptions across HA clusters (the lecturer's example of paying $150 twice for the same drug bag), no duplicate scans, efficiency, and population-level public health surveillance, which proved its value during COVID in spotting district clusters. The risk side is cybersecurity. [lec] {W2 p46-48}`
+  ] },
+  { w: 2, t: `Disclosure to others: the rule and its exceptions`, p: [
+    `The Hong Kong Medical Council's Code of Professional Conduct, section **1.4.1**: medical information must not be disclosed to a **third party not involved in the referral** without the patient's **consent**. Section **1.4.2** allows two exceptions: (i) there is a risk of **death or serious harm** to the patient or to someone else, and (ii) disclosure is **required by law**. {W2 p50}`,
+    `Examples of (i): a mentally ill patient who voices suicidal thoughts or a plan to hurt others, or a psychiatric patient who reveals sexual abuse (a crime that must reach law enforcement, even if you must first find the right way to tell the patient). Examples of (ii): **53 statutory notifiable infectious diseases** in Hong Kong; the slide's 2025 counts put **tuberculosis (2,354)** top, then **scarlet fever (1,289)**, **chickenpox (1,206)**, **COVID-19 (904)** and **food poisoning (562)**. Food poisoning counts because one contaminated source can poison many and the restaurant must be stopped. **HIV** is notifiable too; the lecturer described high-risk people who use blood donation as a secret HIV test, because the donor centre tells only the donor. Also: conditions that disqualify **commercial drivers** (epilepsy, syncope, sleep apnoea, dementia), **child abuse**, and **stab or gunshot wounds**. [lec] {W2 p51-54}`,
+    `What if the **doctor** is infected? Code **4.3.3**: an infected doctor is **generally not required to tell patients**, but must inform the **Department of Health** if the disease is notifiable; a doctor treating another doctor keeps confidentiality; but a **breach may be warranted** if the infected doctor ignores restrictions and puts patients or colleagues at risk (a surgeon who could cut themselves mid-operation). The slide's real case: a surgeon who was HIV-positive operated on patients until the day before his death (by suicide, 2012); records then showed about 140 operations. [lec] {W2 p55-56}`
+  ] },
+  { w: 2, t: `Branches of ethics, and the three-theory comparison table`, p: [
+    `**Normative ethics** asks "what should I do, and what makes an action right or wrong?"; it establishes the principles we judge decisions by. **Meta-ethics** asks what morality itself means. **Applied ethics** takes the principles into real medical, environmental or technological scenarios. {W2 p59-60}`,
+    `Slide 61 is a comparison table. Reading it row by row: the **core question** for utilitarianism is "does the consequence maximise overall happiness?", for deontology "does the action conform to moral duty or rules?", and for virtue ethics "does the agent possess good character and virtues?". The **moral criterion** is, respectively, the **consequences**, **duty and rules**, and **character**. The **iconic figures** are **Jeremy Bentham and John Stuart Mill** (19th century), **Immanuel Kant** (18th century), and **Plato and Aristotle** (4th century BC). The **central dogma** is the **Greatest Happiness Principle**, the **Categorical Imperative** (act from duty, in a way that could be universal law), and the **Doctrine of the Mean** (virtue is cultivated through habituation and practical wisdom). The **focus** is outcome and utility; moral law, obligation and intention; and the agent's disposition. Each has a **challenge**: utilitarianism may **sacrifice the few for the many**; deontology is **rigid** and insensitive to consequences; virtue ethics **lacks clear action-guiding rules** and may be culturally relative. **Applications**: public policy, cost-benefit analysis and resource allocation; human rights, legal obligations and professional codes; and character education. {W2 p61}`,
+    `The lecturer's time-line view: virtue ethics is the oldest (ancient Greece), deontology came with Kant in the 1700s-1800s, utilitarianism is the most modern development, and pragmatism is what most people actually do today. They are not rivals used one at a time; the same person is a utilitarian in one decision and a deontologist in another, case by case. [lec] {W2 p61}`
+  ] },
+  { w: 2, t: `Virtue ethics in detail: habituation, John Doe and Jane Doe, the golden mean`, p: [
+    `For **Plato** (428-348 BC) and **Aristotle** (384-322 BC), character is built by **habituation**: do a virtuous thing repeatedly and it becomes part of who you are, and you are responsible for how far you cultivate it. The right act in any dilemma is what a **virtuous person** with **practical wisdom** would do. It is also called **narrative ethics**. {W2 p62}`,
+    `The problem is that virtue has **no clear definition**. The slide's test: **John Doe**, very poor and unfed for two days, finds a bag of cash, desperately wants it, but overcomes the urge and hands it to the police. **Jane Doe**, rich, finds the same bag, briefly considers keeping it, then hands it in. Same action, same outcome; is John more virtuous because his temptation was greater? We admire strong self-control, yet we also feel that someone whose desires are bad and only forcibly reined in by reason is *not* truly virtuous. Because people sit on different balances, no single rule can be published for all; that is why the slide says virtue ethics "seems too old-fashioned". [lec] {W2 p63}`,
+    `The **golden mean**: every virtue sits between a deficiency and an excess. The slide's example is **courage**, between **cowardice** (deficiency) and **recklessness** (excess); it also names **honesty** and **generosity** as virtues. The lecturer linked virtue ethics to religious role models ("what would Jesus do?") and, in China, to Confucius. [lec] {W2 p64}`
+  ] },
+  { w: 2, t: `Deontology and utilitarianism in detail`, p: [
+    `**Deontology** (義務倫理, Immanuel **Kant**, 1724-1804) takes its name from the Greek **deon**, "duty". It is a **rule-based** theory with **absolute moral rules**, judged by duty and intention rather than consequences, and it insists on treating every individual as an **end** in themselves and never merely as a **means**. Hence a deontologist will not pull the trolley lever: using the one person's death as a means to save five is forbidden. {W2 p66-67}`,
+    `**Utilitarianism** (功利主義 / 效益論, Jeremy **Bentham** 1748-1832 and John Stuart **Mill** 1806-1873) rests on the principle of **utility**: do the **greatest good for the greatest number**. It is a **consequentialist** theory because the outcome is the morally decisive part of an action. Hence a utilitarian pulls the lever. The lecturer's student example: a consequentialist chases the best GPA by any means that are not actually illegal (hunting past papers, pestering the lecturer for hints), while a deontologist just studies and accepts the result. [lec] {W2 p68-69}`
+  ] },
+  { w: 2, t: `Three worked examples: helping someone, Saving Private Ryan, the elderly man`, p: [
+    `**Example 1**: someone falls in the street. All three theories say help, but for different reasons: **deontology** says we *must* help the weak to act morally (duty); **utilitarianism** says a helping hand is beneficial to the world (outcome); **virtue ethics** says any kind person would help (character). {W2 p70}`,
+    `**Example 2, Saving Private Ryan**: a squad led by Captain Miller is sent behind enemy lines after D-Day to bring home Private Ryan, the last surviving of four brothers (loosely based on the Niland brothers). The question is "**is it morally justified to risk many lives to save one?**" A utilitarian says no (more lives lost than saved); a deontologist can say yes (a duty to the family, and the soldiers are not merely means); a virtue ethicist asks what a courageous, loyal soldier would do. {W2 p71}`,
+    `**Example 3** is a picture-only slide with the prompt "if you were the elder man, what would you do?" under each theory. In the lecture the lecturer told the Hong Kong case of an elderly husband whose wife had been bedridden with dementia for years; he killed her in a public MTR toilet (not at home, to protect the flat's value for his son) and then attempted suicide, but was rescued. Apply the three lenses: a **deontologist** says killing is forbidden whatever the suffering; a **utilitarian** weighs her suffering, his exhaustion and the family's burden against the loss of life; a **virtue ethicist** asks whether this was the act of a compassionate or a desperate man. The lecturer also raised whether rescuing him was itself the right choice. [lec] {W2 p72-73}`
+  ] },
+  { w: 2, t: `Pragmatism (實用主義)`, p: [
+    `Attributed on the slide to **Charles Sanders Peirce** (1839-1914) and **John Dewey** (1859-1952), spelt "Pierce" and "Deway" there. Its claims: morality has its own **progressive pattern that follows the advancement of science**; **neither Idealism (唯心論) nor Materialism (唯物論)** is correct on its own; decisions must be made from **experience and scientific facts**, and they may legitimately change as the facts change. {W2 p74}`,
+    `**Parenting**: parents start with an idealised plan of clear boundaries and severe consequences; the child becomes resentful and defiant; the pragmatic parent then adopts **flexible strategies and certain leniencies**. **Carbon neutrality**: green energy looks like the most sustainable choice for mankind, but the cost is crushing for developing countries, so pragmatism allows a **buffer period for gradual change**. The lecturer added today's tension between AI (which needs vast electricity) and emissions: burn more now to develop faster, or go green and wait fifty years? {W2 p75}`,
+    `Pragmatism matters for the group report: part (b) asks you to assess your own contribution in terms of pragmatism, so note any moment you changed position because the facts changed.`
+  ] }
+);
+</script>
+<script>
+NOTES.push(
+  { w: 3, t: `Recap: using the theories together, and the organ-donation dilemma`, p: [
+    `Week 3 opens by repeating the normative-ethics slides from Week 2 (same table, same trolley), then adds the summary: the aim of learning the theories is to **think more clearly**, **no single theory can solve all ethical problems** and we should not expect one to; dilemmas persist partly because no theory is perfect, so we make **reasonable decisions by applying the proper theory or principle** to each case. {W3 p3-10}`,
+    `The new example is **organ donation**. Donors are usually terminally ill or nearly dead, and the longer a brain-damaged patient stays on life support with poor circulation, the more the organs deteriorate until they cannot be transplanted. So a new, earlier "endpoint" criterion for donation was introduced; the catch is that some patients meeting it might still have been revived. **Deontology**: never harm the patient, so never hasten death. **Utilitarianism**: pulling the plug earlier yields organs (heart, liver, kidneys, corneas, skin) that could save five people and benefit five families. **Pragmatism**, the lecturer added, changes the answer as technology changes: if a new treatment gave the patient a real chance of waking within weeks, you would not pull the plug. [lec] {W3 p11-13}`
+  ] },
+  { w: 3, t: `Why research, and what clinical research is`, p: [
+    `Research's object is to **extend human knowledge beyond what is already known** (GMC, Good Practice in Research, 2010): a systematic attempt to derive generalised knowledge by answering clearly defined questions, including generating and testing hypotheses. In lay terms, research drives improvement and evolution of society. The lecturer's thirty-year sweep: car phones to foldable phones; CAR-T cells and monoclonal antibody drugs that did not exist twenty years ago; radiotherapy moving from cobalt-60 to linacs to VMAT; and the Human Genome Project (finished 2003) without which no gene could be targeted. [lec] {W3 p15}`,
+    `**Clinical research** determines the **safety and effectiveness** of drugs, vaccines, devices, surgical procedures, diagnostic measures and treatment regimens for human use. It is conducted at medical centres and research institutes through a network of sites, pharmaceutical companies and academic institutions. Two things to remember: research **does not, and does not intend to, benefit the individual participant**, and because **people are the means of producing knowledge, they are at risk of exploitation**. The ethical task is to balance **promoting benefit to society and future patients** against **protecting the rights and welfare of participants**. {W3 p16-17, p23}`,
+    `It is wider than new drugs. **Repurposing**: sildenafil (Viagra) was developed as a vasodilator for cardiovascular disease, and the trial revealed another effect; because its safety profile was already known, it could be re-indicated. **Public health**: the lecturer's story of a student project that found higher mortality in Hong Kong East because residents had to cross the island for emergency care, which contributed to building Pamela Youde Nethersole Eastern Hospital. **Observational studies** gather information, group volunteers by broad characteristics and compare changes over time (e.g. lifestyles and cognitive health in older adults), usually as a **cohort study**; his non-medical analogy was the investigators who sat outside Luckin Coffee counting customers to expose faked receipts. [lec] {W3 p16-18, p34-35}`
+  ] },
+  { w: 3, t: `Cohort designs, randomisation and the drug-development pipeline`, p: [
+    `A cohort must be defined so that like is compared with like (you do not compare a healthy 10-year-old, a 20-year-old and a 70-year-old stroke patient; you do not measure a left-hander's right hand). A **retrospective** cohort uses data that are **available immediately**, but it **relies on memory and record quality**, and all you can do is set filters on an existing pool; it suits public-health questions such as whether a disease shortened lifespans in a village. A **prospective** cohort is **more commonly used** because complete historical data are rarely available; you design it, choose who to include and exclude, and it is the only option for testing a new drug. Its main concern is **cost**. [lec] {W3 p19-20}`,
+    `A **randomised controlled trial (RCT)** removes selection bias: you may not put the healthier-looking patients in the treatment arm and the sickest in the placebo arm to flatter the result; allocation must be random under controlled conditions. [lec] {W3 p16, p21}`,
+    `The **long journey** of a new drug: **pre-clinical discovery**, **Investigational New Drug (IND) submission**, **clinical trials (Phases 1-3)**, **New Drug Application (NDA)**, **FDA review**, **post-approval surveillance** (sometimes called Phase 4). {W3 p21}`,
+    `What the phases do, from the lecture: **Phase 1** is a **safety** study on a small group (**20-100**) using **dose escalation** from a very low dose upward until severe adverse effects appear; it tells you the dose and shows **no therapeutic outcome**. So "we passed Phase 1" in a company's press release means almost nothing; Phases 2 and 3 are what matter. **Phase 2 and 3** differ mainly in **size**: Phase 3 is large and **multi-centre**. [lec] {W3 p22}`
+  ] },
+  { w: 3, t: `[dis] Drug development: two charts, different figures`, cls: 'is-dis', p: [
+    `Two slides give the participant numbers per phase and they do not agree. Both are shown; neither is chosen here.`
+  ], html: `<div class="tbl-wrap" id="drug-table-wrap"><table id="drug-table"><thead><tr><th>Stage</th><th>Chart on W3 p22</th><th>Chart on W3 p61</th></tr></thead><tbody><tr><td>Phase 1</td><td class="num">20-100</td><td class="num">20-100</td></tr><tr><td>Phase 2</td><td class="num">100-500</td><td class="num">100-200</td></tr><tr><td>Phase 3</td><td class="num">1,000-5,000</td><td class="num">1,000-6,000</td></tr></tbody></table></div>`, after: [
+    `The p22 chart also gives clinical trials **6-7 years** and FDA review **0.5-2 years**; the pre-clinical stage of **3-6 years** was read from the picture [pic]. Slide 61 asks "how much does it cost for a new drug?"; the lecturer's rough figures were about **US$2 million** to reach IND, **US$10 million** more for Phase 2 and another **US$10 million** for Phase 3, which is why a sponsor is tempted to hide bad news. [lec] {W3 p22, p61}`
+  ] },
+  { w: 3, t: `The dark side of science: Tuskegee and the Nazi doctors`, p: [
+    `**Tuskegee syphilis study** (1932-1972): the **U.S. Public Health Service** followed African American men in Tuskegee, Alabama, with **untreated syphilis** just to see what happened. The men were told they were getting **free health care**; the study was planned for **6 months** and ran for **40 years**; the men were **not treated even after penicillin** became standard in 1947. This happened in the segregation era, and the betrayal led to the **Belmont Report (1979)**. [lec] {W3 p24}`,
+    `**The Doctors' Trial at Nuremberg** (slide says 1945; the trial ran 1946-47) prosecuted Nazi doctors for experiments on concentration-camp prisoners: blood-**coagulation** experiments to develop battlefield clotting agents, transplantation experiments, and twin studies including cross-sex transfusions between twins. These crimes inspired the **Nuremberg Code**. The lecturer's uncomfortable point: much of our fastest-won knowledge of anatomy and physiology, and even chemotherapy (derived from mustard gas), came out of wartime cruelty. A pure utilitarian might accept that; a deontologist or virtue ethicist wants a peaceful world and accepts slower progress. [lec] {W3 p25-26}`
+  ] },
+  { w: 3, t: `Codes and guidelines for research ethics`, p: [
+    `Each scandal produced a code: Nazi experiments gave the **Nuremberg Code**; Tuskegee gave the **Belmont Report**; the **World Medical Association** gave the **Declaration of Helsinki**; plus the **CIOMS** guidelines and **ICH/GCP**. They say much the same things, and the lecturer said you need not memorise the ten Nuremberg points, but you should know they exist. {W3 p29}`,
+    `**Nuremberg Code**, ten points in brief: **voluntary consent** is essential; the experiment must yield **fruitful results** for society; it must be **based on prior** animal research and knowledge; it must **avoid unnecessary** physical and mental suffering; there must be **no risk of death** unless the researchers themselves take part; the risk must be **proportional** to the humanitarian importance; **adequate preparation** must protect subjects; only **qualified** people may conduct it; the subject may **withdraw** at any time; and the scientist must **stop** if continuing is likely to injure or kill. {W3 p30}`,
+    `**Belmont Report (1979)**: three principles, **respect for persons** (the lesson of Tuskegee: tell people the truth), **beneficence** and **justice** (selection must not depend on race or ethnicity). {W3 p31}`,
+    `**Declaration of Helsinki**: WMA, adopted **June 1964**, latest amendment **October 2024**; it keeps evolving, which the lecturer called pragmatism in action. {W3 p32-33}`
+  ] },
+  { w: 3, t: `Seven principles of research ethics (Oxford Textbook of Clinical Research, 2008)`, p: [
+    `This is the framework the lecturer said he would actually test on. **1 Valuable scientific question**: the study must generate new knowledge that is socially, clinically or scientifically useful. His bad example: "do people who sit for 30 minutes have different blood flow from people who stand for an hour?" Of course they do; why ask? {W3 p35-36}`,
+    `**2 Valid scientific methodology**: RCT or not, blinded or not, choice of control, primary and secondary endpoints, **statistical power and sample size**, data analysis; the design must be feasible and yield valid, reliable, generalisable data. His example: students who wanted to ultrasound students' wrists after 30 minutes of handwriting to argue the DSE is unethical. With 100 participants that is 3,000 minutes of writing, plus controls, plus one operator to avoid inter-operator variation, plus screening out anyone who wrote 10,000 words last night. Trivial-looking details sink a method. [lec] {W3 p37}`,
+    `**3 Fair subject selection**: choose subjects by the **scientific objectives**, not by **privilege, easy availability or vulnerability**. A professional volleyball player's wrist and a frail person's wrist cannot both represent "the average student". {W3 p38}`,
+    `**4 Favourable risk-benefit**: are risks necessary and minimised; are they justified by benefit to the subject or by the knowledge gained; are benefits enhanced? This is nonmaleficence and beneficence applied to research. His example: a proposal to make stroke patients, two months after their stroke, walk wired up to gait sensors; the fall risk outweighed the benefit until the design was changed. [lec] {W3 p39}`,
+    `**5 Independent review**: an **IRB** (Institutional Review Board) checks that ethical requirements are met, screens investigator **bias and conflicts of interest**, and assures the public that nobody is being exploited. The reviewer must be independent with no conflict with the team; the lecturer does this himself and had five applications on his desk. {W3 p40}`,
+    `**6 Informed consent**: the subject must be able to decide whether to take part or continue, in line with their own goals and values; consent must be **voluntary** and obtained from the participant or an **authorised representative** (CIOMS). The consent review checks four things: **disclosure, understanding, voluntary decision, authorisation**. A live debate: escalating payments ($100, $200, $300, then a bonus at the last visit) keep subjects from dropping out, but do they punish the person who exercises the right to withdraw? Also, pressuring a reluctant patient into a drug trial "because you have no other chance" is not consent. [lec] {W3 p41-42}`,
+    `**7 Respect for enrolled subjects**: continuing duties throughout the study: protecting **confidentiality**, monitoring **welfare**, recognising the **right to withdraw**, providing **new information**, informing participants of **findings**, and **post-trial planning**. {W3 p43}`,
+    `Recruitment and care in six words from slide 44: informed consent; voluntary participation; leave at any time; anonymity/confidentiality; honesty; debrief after the study. **Do no harm!** {W3 p44}`
+  ] },
+  { w: 3, t: `"Really? Always do no harm?" Barry Marshall, and the law on incapable subjects`, p: [
+    `Slide 45-46 is the exception that proves the rule. **Barry Marshall** (with Robin Warren) claimed that gastric ulcers are caused by the bacterium **Helicobacter pylori**, not by stress. Nobody believed him and he could not prove it in animals, so he **drank a culture of H. pylori**, developed gastritis a few days later, and had colleagues cure him with antibiotics. He won the **Nobel Prize** (2005). Done to anyone else this would be illegal; done to **yourself**, it falls outside IRB rules, a loophole the lecturer noted with some amusement. [lec] {W3 p45-46}`,
+    `For everyone else, "do no harm" is absolute, and the law is most protective of **adults who lack capacity and minors**. It takes a **protective, deontological position**: such people may take part **only if there is a chance of their benefiting**, and that requirement is absolute; consent comes from a guardian, relative or spouse. {W3 p47}`,
+    `Clinical trials of medicines are governed by regulations such as the **Medicines for Human Use (Clinical Trials) Regulations**, which impose procedures that keep trials safe for subjects while encouraging good science, and require a manufacturing licence and GMP-standard investigational products. {W3 p48}`
+  ] },
+  { w: 3, t: `Who reviews you: HA, IRB, and the "two approvals" trap`, p: [
+    `The Hospital Authority runs a **two-tier structure**: a **Head Office Steering Committee on Research Ethics** plus **Cluster Research Ethics Committees**. Universities have their own IRBs (PolyU, CUHK, HKU). The trap: if you are a PolyU student collecting HA data, you need **both** approvals, HA's because they hold the data and PolyU's because you conduct the research there. [lec] {W3 p49}`,
+    `What an IRB checks: risks are **minimised and justified**; subject **selection is fair**; **consent is adequate**. "IRB is watching you" (slide 51) is the lecturer's reminder that this applies to capstone projects, dissertations and PhDs alike. {W3 p50-51}`
+  ] },
+  { w: 3, t: `Animal research: the 3Rs, Cap. 340, and the beagles`, p: [
+    `Before a drug reaches Phase 1 it must be shown safe in animals, moving up from **small** (mice, rats) to **medium** (rabbits, dogs: by convention only **beagles**) to **large** (pigs) to **primates** (monkeys). Slides 52-53 are the lecturer's own photos: a mouse with a facial tumour under radiotherapy, a rabbit being prepared for retinal-implant surgery, mice with brain tumours. In 2014 his team in Taiwan was targeted by PETA for using beagles in a nuclear-medicine drug study; it was entirely legal but the protests delayed the trial by 6-10 months. His argument: if you remove animal testing without a replacement, the risk simply migrates to the Phase 1 volunteers or the cosmetics customer. The real question is whether a replacement exists, and increasingly it does (microfluidic chips, micro-organs). [lec] {W3 p52-53}`,
+    `The **3Rs**: **Replacement** (use something other than animals where possible), **Reduction** (use the fewest animals the statistics allow), **Refinement** (if animals must be used, minimise suffering, e.g. proper anaesthesia). {W3 p54}`,
+    `**Animals (Control of Experiments) Ordinance, Cap. 340**, administered by the **Department of Health**: it covers **living vertebrate animals** in experiments "calculated to give pain", and a **licence is needed for each experiment**, in addition to the institution's animal ethics committee approval. Insects (cockroaches) need no licence; zebrafish are borderline (vertebrate) and still need committee review. [lec] {W3 p55}`,
+    `**Thalidomide (1957)** is the slide's reason animal testing matters. Marketed for morning sickness in pregnancy, it was an unrecognised **teratogen/mutagen** and caused thousands of babies with limb malformations before being withdrawn. Today a new chemical drug must pass genetic-toxicity and carcinogenicity tests before IND. [lec] {W3 p56}`
+  ] },
+  { w: 3, t: `Other legal regulation, and the law's balancing act`, p: [
+    `Research on **human tissue** falls under a Human Tissue Act; research on **gametes or zygotes** under a Human Fertilisation and Embryology Act. **Human service research** (mining large pools of treatment records to find best practice) may proceed **without consent** only if the data are **anonymous**, as with open databases such as NCBI's Gene Expression Omnibus. {W3 p57}`,
+    `The law performs a **balancing act**: medicine must progress for society, yet people who lack capacity and vulnerable groups must not be exploited or used as **means to an end**. Research is a **team effort** (PI, co-investigators, research nurses, students, the IRB, statisticians, ethicists) and everyone needs education in both medicine and ethics. {W3 p58-59}`
+  ] },
+  { w: 3, t: `Three cases to argue through`, p: [
+    `**Case 1, Severe Adverse Effect**: in a large trial, preliminary analysis shows **three times as many** participants in the experimental arm with severe nausea and vomiting, **two hospitalised**, though the drug shows moderate benefit. Report it, and the whole trial (and the tens of millions already spent) may be suspended; hide it, and the risk stays hidden until the drug is on the market. Ethically you report; the lecturer's point was that the financial pressure is what makes people fail. He mentioned the **CRA** (clinical research associate) job, the person who liaises between sponsor, hospitals and IRBs and who carries this responsibility. [lec] {W3 p60-62}`,
+    `**Case 2, Jesse Gelsinger (1981-1999)**: an 18-year-old with a mild, managed form of **ornithine transcarbamylase (OTC) deficiency** joined a UPenn **adenoviral gene-therapy** trial led by **James M. Wilson**, who was also a **consultant for the company** (conflict of interest). Jesse received the **highest dose**, a dose that had **already killed a primate** in pre-clinical work; this was not disclosed. He had prior adenovirus exposure, suffered an immune storm and died within days. **All gene-therapy trials were suspended** afterwards. The slide also lists the gene-delivery toolbox: viral vectors (lentivirus, retrovirus, adenovirus, AAV) and non-viral ones (lipid or silica nanoparticles, electroporation, transposons, S/MAR). [lec] {W3 p63-64}`,
+    `**Case 3, archived samples**: after a tissue-collection study, the investigator wants to run a new analysis that **was not in the original consent**. Must they re-consent? Today's IRB forms ask how long data will be kept and for what purpose; a second paper is fine if it stays within the stated purpose, otherwise new consent is needed. **The incidental genetic finding**: while studying gene A, you accidentally spot a disease-causing mutation. A **utilitarian** informs the patient so they can take precautions; a strict **deontologist** says it is outside your duty and scope, so you stay within what was consented. [lec] {W3 p65-66}`
+  ] },
+  { w: 3, t: `Two "mad scientists": Hwang Woo-Suk and He Jiankui`, p: [
+    `**Hwang Woo-Suk (黃禹錫)**, South Korea, made the world's first cloned dog, **Snuppy** (2006-2015), by **somatic cell nuclear transfer (SCNT)**: take an egg, remove its nucleus, insert the nucleus of a body cell from the animal to be cloned, and let it develop (the same technique as Dolly the sheep; the lecturer's joke was "put a dinosaur nucleus in, sit a chicken on it, get a dinosaur"). He then published two **Science** papers claiming patient-specific embryonic stem cells from cloned human blastocysts, which would be ethically forbidden, but the papers were **retracted on 12 January 2006** for **fabricated data**: the oocyte donors had not properly consented and the cloned lines never existed. He was convicted in 2008 (imprisonment on the slide's timeline); since release he has worked on resurrecting the **woolly mammoth** by SCNT with elephant cells (2014 on the slide). [lec] {W3 p67-70}`,
+    `**He Jiankui (賀建奎)** announced at the Second International Summit on Human Genome Editing (held at CUHK, November 2018) that he had used CRISPR to create the twins **Lulu and Nana**, with the CCR5 gene disabled so they would be "HIV-resistant". He had told no one, obtained no proper approval, and nobody knows what else switching that gene off does. The promised follow-up (growth to age 5, IQ at 10, HIV tests) has vanished from view; nobody knows where the girls are. China had **no genome-editing law** at the time, so he was jailed on other charges while a new law was drafted ("the authorities can be the game changer"); he was released and is working again. The lecturer's reflection on both men: they broke ethics, but they were not purely evil, and they really did have the technical ability. [lec] {W3 p71-73}`
+  ] },
+  { w: 3, t: `Challenges ahead, and the take-home message`, p: [
+    `Current challenges in research ethics: **multi-site / international studies**; research using **databases or samples**; and clinical innovations in **genomic data sharing** and **artificial intelligence**. {W3 p74}`,
+    `Take-home: clinical research promotes medical development by using human participants or tissue; such research is **very rarely risk-free**; the **benefit and risk** to society and to individual participants must be balanced; and the balance of rights and power being **skewed in favour of participants** is "both right and necessary". A **valuable scientific question** and **informed consent** are the two most important things in designing and performing clinical research. {W3 p75}`
+  ] }
+);
+</script>
+
+<script>
+defineView('Revision notes by week', (el) => {
+  const subs = { 1: 'Principles, justice, dilemmas', 2: 'Privacy, confidentiality, ethical theories', 3: 'Research ethics' };
+  [1, 2, 3].forEach((w) => {
+    const d = document.createElement('details');
+    d.className = 'week';
+    d.id = 'week-' + w;
+    d.open = true;
+    d.setAttribute('data-group', '');
+    const s = document.createElement('summary');
+    s.innerHTML = 'Week ' + w + ' <span class="sum-sub">' + subs[w] + '</span>';
+    d.appendChild(s);
+    const g = document.createElement('div');
+    g.className = 'grid';
+    g.id = 'week-' + w + '-cards';
+    NOTES.filter((n) => n.w === w).forEach((n, i) => { g.appendChild(cardEl(n, 'note-w' + w + '-' + (i + 1))); });
+    d.appendChild(g);
+    el.appendChild(d);
+  });
+});
+</script>
+<script>
+QUESTIONS.push(
+  { w: 1, q: `A competent adult hears the facts, refuses the recommended treatment, and the team respects that decision. Which principle is being honoured?`,
+    o: [`Beneficence`, `Justice`, `Autonomy`, `Nonmaleficence`], a: 2,
+    e: `Respecting a person's own decision is **autonomy**, the right to make one's own decisions, which the slides also call the principle of **human dignity**. Beneficence is doing good, nonmaleficence is avoiding harm, and justice is fairness in distributing benefits and risk. {W1 p16-17}` },
+  { w: 1, q: `How do the four principles rank against each other, according to the slides?`,
+    o: [`Autonomy always comes first`, `Nonmaleficence always comes first`, `Justice comes first when resources are scarce`, `No principle outweighs another`], a: 3,
+    e: `The slides state that **no principle outweighs another**. That is why **different providers may reach different conclusions** on the same case, and why the principles frequently conflict. {W1 p16, p29}` },
+  { w: 1, q: `A patient with delirium is clinically judged unable to decide today, but may recover. Which term fits?`,
+    o: [`Incompetence`, `Incapacity`, `Paternalism`, `Double effect`], a: 1,
+    e: `**Incapacity** is **clinically determined** and may be **transient**, as in delirium or psychosis. **Incompetence** is a legal finding, often permanent as in dementia, and the court assigns a surrogate. {W1 p18}` },
+  { w: 1, q: `A hospice patient is given high-dose analgesics to relieve pain, although an unintended harm may follow. Which idea makes this acceptable?`,
+    o: [`Double effect`, `Veil of ignorance`, `Difference principle`, `Pure procedural justice`], a: 0,
+    e: `Under **double effect**, an **unintended consequence** is acceptable when the intended one is legitimate and the harm is **proportionately smaller** than the benefit. High-dose analgesics for a hospice patient is one of the slide's own examples. {W1 p26}` },
+  { w: 1, q: `In an emergency department, a patient with a myocardial infarction is seen before a patient with an ankle sprain. What does this illustrate?`,
+    o: [`Equal allocation: everyone gets the same`, `Distributive justice: fair, not necessarily equal`, `Autonomy: the patient chooses the order`, `Double effect: a harm that was not intended`], a: 1,
+    e: `This is **triage**, the slide's example of **distributive justice**. Resources are allocated in a way that is **fair, not necessarily equal**, so the sicker patient goes first. {W1 p28}` },
+  { w: 1, q: `Under Rawls's difference principle, inequalities are justified only if they:`,
+    o: [`benefit the majority of society`, `are approved by a court`, `reward those who earn the most`, `give the greatest benefit to the least advantaged`], a: 3,
+    e: `The **difference principle** accepts an inequality only when it gives the **greatest benefit to the least advantaged**. The slides' Hong Kong example is tax from higher earners subsidising the severely ill and poor. {W1 p31-34}` },
+  { w: 1, q: `In Rawls's cake-cutting example, what makes the division fair?`,
+    o: [`A judge divides the cake`, `The hungriest person gets the biggest slice`, `The person who cuts takes the last slice`, `Everyone votes on the slices`], a: 2,
+    e: `The **cutter takes the last slice**, so the cutter has every reason to cut evenly. The slides use this to show **pure procedural justice**: the fairness comes from the procedure itself. {W1 p31-34}` },
+  { w: 1, q: `Which of these is NOT one of the three conditions of a dilemma?`,
+    o: [`The agent must decide`, `There are different courses of action`, `One of the options is fully acceptable`, `Some moral principle is always compromised`], a: 2,
+    e: `A **dilemma** is a forced choice between conflicting options, **none acceptable**. Its three conditions are that the agent **must decide**, that there are **different courses of action**, and that **some moral principle is always compromised**. {W1 p36-41}` },
+  { w: 1, q: `"I give you facts and help you to find your preferences." Which physician-patient model is this?`,
+    o: [`Paternalistic`, `Informative`, `Deliberative`, `Interpretative`], a: 3,
+    e: `That quote is the **interpretative** model. The others are **paternalistic** ("I decide for you"), **informative** ("I give you facts") and **deliberative** ("In addition, I tell you my preferences"). {W1 p49}` },
+  { w: 1, q: `F, aged 17 years 5 months, had a spleen laceration with internal bleeding and refused a blood transfusion. What did the court do?`,
+    o: [`Granted the declaration: preservation of life took precedence`, `Refused it, because 16-17-year-olds can consent to treatment`, `Left the decision to the parents`, `Ruled that Gillick made the refusal final`], a: 0,
+    e: `The court **granted the declaration** for F, as it did for E, on the basis of **best interests**: "the preservation of life should take precedence". The Family Law Reform Act 1969 and Gillick appear on the slides as **counter-arguments**, not as the outcome. {W1 p22-23}` },
+
+  { w: 2, q: `Which statement matches the slides' meaning of privacy?`,
+    o: [`Rules or a promise restricting access to information`, `A person's ability to control access to themselves and their information`, `Permanent removal of identifiers from data`, `Logging and auditing every access to a record`], a: 1,
+    e: `**Privacy** is a person's ability to **control access** to themselves and their information. **Confidentiality** is the rules or promise that **restrict access** to information, which is disclosed only by permission, rules or law. {W2 p26, p29}` },
+  { w: 2, q: `Which of these is NOT one of the three reasons for confidentiality?`,
+    o: [`A secure environment for the patient`, `Respect for autonomy`, `Public trust`, `Lower cost of care`], a: 3,
+    e: `The slides give three reasons: a **secure environment** for the patient, respect for **autonomy**, and **public trust**. Cost is not among them. {W2 p31}` },
+  { w: 2, q: `Which of these is NOT part of the Cap. 486 definition of personal data?`,
+    o: [`It must be stored in the eHealth system`, `It relates to a living individual`, `The person's identity can practicably be ascertained from it`, `It is in a form where access or processing is practicable`], a: 0,
+    e: `Personal data relates to a **living individual**, lets the identity be **practicably ascertained**, and is in a form where **access or processing is practicable**. Where it is stored is not part of the definition; photos or video of an identifiable person count too. {W2 p34}` },
+  { w: 2, q: `A clinic's registration form collects far more personal details than it needs for care. Which data protection principle is most directly at issue?`,
+    o: [`Security`, `Openness`, `Collection purpose and means`, `Data access and correction`], a: 2,
+    e: `The **collection purpose and means** principle requires collection to be **lawful, fair and not excessive**. Collecting more than the purpose needs is excessive collection. {W2 p37}` },
+  { w: 2, q: `Research data are coded, and the key holder can decode them to find the person. What is this called?`,
+    o: [`Anonymisation`, `Pseudonymisation`, `Role-based access control`, `Openness`], a: 1,
+    e: `**Pseudonymisation** means the data are **coded** and the **key holder can decode** them. In **anonymisation** the identifiers are **permanently and irrevocably removed**. {W2 p40}` },
+  { w: 2, q: `Under HK Medical Council code 1.4.2, when may a doctor disclose medical information without the patient's consent?`,
+    o: [`Whenever a family member asks`, `Whenever the patient's employer asks`, `Whenever the doctor thinks it would help`, `When there is a risk of death or serious harm, or when the law requires it`], a: 3,
+    e: `Code 1.4.1 sets the rule: **obtain consent** before disclosing to a third party. Code 1.4.2 gives two exceptions: a risk of **death or serious harm** to the patient or someone else, and disclosure **required by law**. {W2 p50}` },
+  { w: 2, q: `Under code 4.3.3, what must a doctor infected with a notifiable disease do?`,
+    o: [`Inform the Department of Health`, `Tell every patient personally`, `Stop practising permanently`, `Publish the diagnosis in the clinic`], a: 0,
+    e: `An infected doctor is **generally not required to tell patients**, but must inform the **Department of Health** if the disease is **notifiable**. A breach of the doctor's confidentiality may be warranted if the doctor ignores restrictions and puts others at risk. {W2 p55}` },
+  { w: 2, q: `In eHealth, which principle limits what a healthcare provider may see in a record?`,
+    o: [`Greatest Happiness Principle`, `Doctrine of the Mean`, `Need-to-know`, `Difference principle`], a: 2,
+    e: `eHealth uses **role-based access control** and the "**need-to-know**" principle, and all access is **logged and audited**. The system is voluntary, encrypted and shares records two ways between public and private providers. {W2 p46-48}` },
+  { w: 2, q: `Kant, duty and the Categorical Imperative belong to which theory?`,
+    o: [`Utilitarianism`, `Deontology`, `Virtue ethics`, `Pragmatism`], a: 1,
+    e: `**Deontology** comes from **deon**, duty, and is tied to **Kant** and the **Categorical Imperative**: treat people as an "end", not just a "means". Utilitarianism belongs to Bentham and Mill, and virtue ethics to Plato and Aristotle. {W2 p61}` },
+  { w: 2, q: `Which statement matches Pragmatism as the slides present it?`,
+    o: [`Follow duty whatever the consequences`, `Seek the greatest happiness for the greatest number`, `Find the mean between deficiency and excess`, `Decide according to experiences and scientific facts`], a: 3,
+    e: `**Pragmatism** holds that neither Idealism nor Materialism is correct, so we decide according to **experiences and scientific facts**, and morality **progresses with the advancement of science**. The slide examples are flexible parenting and a buffer period for carbon neutrality. {W2 p74-75}` }
+);
+</script>
+<script>
+QUESTIONS.push(
+  { w: 3, q: `In the Tuskegee study, what happened after penicillin became the standard treatment in 1947?`,
+    o: [`The men were treated at once`, `The men still received no treatment`, `The study ended within six months`, `The men were asked for fresh consent`], a: 1,
+    e: `The men were given **no treatment even after penicillin** became standard in 1947. The study of **untreated syphilis** was planned for 6 months and ran for **40 years** (1932-1972), and it led to the **Belmont Report** of 1979. {W3 p24}` },
+  { w: 3, q: `Which of these is one of the ten points of the Nuremberg Code?`,
+    o: [`A participant has the right to withdraw`, `A licence is needed for each experiment`, `Every access to a record is logged and audited`, `Entries are dated, signed and chopped`], a: 0,
+    e: `The **Nuremberg Code** includes **voluntary consent** and the **right to withdraw**, and it requires the experiment to stop if it becomes dangerous. The other options come from the animal experiments ordinance, eHealth and medical records. {W3 p30}` },
+  { w: 3, q: `What are the three principles of the Belmont Report?`,
+    o: [`Replacement, reduction, refinement`, `Disclosure, understanding, authorization`, `Respect for persons, beneficence, justice`, `Wisdom, courage, moderation`], a: 2,
+    e: `The **Belmont Report** names **respect for persons, beneficence and justice**. Replacement, reduction and refinement are the 3R of animal research, and disclosure, understanding and authorization belong to the consent review. {W3 p31}` },
+  { w: 3, q: `Which body adopted the Declaration of Helsinki, and when?`,
+    o: [`The U.S. Public Health Service, in 1932`, `The court at Nuremberg, in 1945`, `The Hospital Authority, in 1979`, `The WMA, in June 1964`], a: 3,
+    e: `The **Declaration of Helsinki** belongs to the **WMA** and was adopted in **June 1964**. The slides give its latest amendment as October 2024. {W3 p32-33}` },
+  { w: 3, q: `A research team recruits only from one care home because the residents are easy to reach. Which of the seven principles is most at risk?`,
+    o: [`Valuable scientific question`, `Fair subject selection`, `Independent review`, `Valid methodology`], a: 1,
+    e: `**Fair subject selection** means choosing subjects by **scientific objectives**, not by privilege, **easy availability** or vulnerability. Recruiting people only because they are convenient breaks that principle. {W3 p35, p38}` },
+  { w: 3, q: `Which statement is true of a retrospective cohort study?`,
+    o: [`Its data are available immediately, but it relies on memory and record quality`, `It is the more commonly used design, and cost is its main concern`, `It is intended to benefit each individual participant`, `It needs a licence for each experiment`], a: 0,
+    e: `A **retrospective** cohort study has its **data available immediately** but **relies on memory and record quality**. The **prospective** design is the more commonly used one, and its concern is cost. {W3 p20}` },
+  { w: 3, q: `What do the 3R of animal research stand for?`,
+    o: [`Review, Risk, Respect`, `Recruitment, Randomisation, Reporting`, `Replacement, Reduction, Refinement`, `Rights, Responsibilities, Records`], a: 2,
+    e: `The **3R** are **Replacement, Reduction and Refinement**. They sit beside the animal experiments ordinance on the slides about animal welfare. {W3 p54}` },
+  { w: 3, q: `Which animals does the Animals (Control of Experiments) Ordinance (Cap. 340) cover?`,
+    o: [`All animals, living or dead`, `Mammals only`, `Only animals bred for research`, `Living vertebrate animals`], a: 3,
+    e: `Cap. 340 covers **living vertebrate animals** in experiments "**calculated to give pain**". A **licence is needed per experiment**, and the authority is the Department of Health. {W3 p55}` },
+  { w: 3, q: `What conflict of interest do the slides point to in the Jesse Gelsinger case?`,
+    o: [`The hospital owned the journal that published the trial`, `The principal investigator was also a consultant for the company`, `The participant was related to the investigator`, `The review body was paid by the participant's family`], a: 1,
+    e: `In the Gelsinger gene therapy trial, the **principal investigator was also a consultant for the company**. Jesse Gelsinger had OTC deficiency and received the **highest dose**; gene therapy trials were suspended afterwards. {W3 p63-64}` },
+  { w: 3, q: `Which pairing of researcher and misconduct is correct?`,
+    o: [`Hwang Woo-Suk: fabricated data in stem cell papers. He Jiankui: gene-edited babies`, `Hwang Woo-Suk: gene-edited babies. He Jiankui: fabricated data in stem cell papers`, `Hwang Woo-Suk: untreated syphilis study. He Jiankui: cloned dog`, `Hwang Woo-Suk: highest-dose gene therapy. He Jiankui: thalidomide`], a: 0,
+    e: `**Hwang Woo-Suk** had two Science papers on human SCNT stem cells retracted for **fabricated data**. **He Jiankui** is the researcher behind the **gene-edited babies** Lulu and Nana in 2018. {W3 p67-73}` }
+);
+</script>
+
+<script>
+defineView('Sample questions', (el) => {
+  const L = ['A', 'B', 'C', 'D'];
+  const note = cardEl({ cls: 'is-info', p: [`Practice questions written from the Week 1–3 slides. They are not official or past-paper questions.`, `Tap an option to check it, or use Show answer. Each question reveals only its own answer.`] }, 'questions-note');
+  el.appendChild(note);
+
+  const tools = document.createElement('div');
+  tools.id = 'q-tools';
+  const filters = [['all', 'All'], ['1', 'Week 1'], ['2', 'Week 2'], ['3', 'Week 3']];
+  tools.innerHTML = filters.map((f) => '<button type="button" class="fchip" data-filter="' + f[0] + '" aria-pressed="' + (f[0] === 'all') + '">' + f[1] + '</button>').join('') +
+    '<button type="button" class="btn" id="q-reset">Reset questions</button>';
+  el.appendChild(tools);
+
+  const list = document.createElement('div');
+  list.id = 'q-list';
+  list.className = 'grid';
+  el.appendChild(list);
+
+  const reveal = (card, item, picked) => {
+    if (card.dataset.done === '1') return;
+    card.dataset.done = '1';
+    const opts = card.querySelectorAll('.opt');
+    opts[item.a].classList.add('right');
+    const res = card.querySelector('.q-result');
+    if (picked === null) { res.textContent = 'Answer: ' + L[item.a]; res.className = 'q-result'; }
+    else if (picked === item.a) { res.textContent = 'Correct'; res.className = 'q-result ok'; }
+    else { opts[picked].classList.add('wrong'); res.textContent = 'Not quite. The answer is ' + L[item.a] + '.'; res.className = 'q-result no'; }
+    card.querySelector('.q-show').hidden = true;
+    card.querySelector('.q-exp').hidden = false;
+    applySearch();
+  };
+
+  QUESTIONS.forEach((item, i) => {
+    const n = i + 1;
+    const card = document.createElement('article');
+    card.className = 'card q-card';
+    card.id = 'question-' + n;
+    card.dataset.w = String(item.w);
+    card.innerHTML =
+      '<div class="q-front" id="question-' + n + '-front"><p class="q-stem"><span class="q-num">Q' + n + '</span>' + fmt(item.q) + ' <span class="chip">Week ' + item.w + '</span></p>' +
+      '<div class="opts" id="question-' + n + '-options">' + item.o.map((o, k) => '<button type="button" class="opt" data-k="' + k + '"><b>' + L[k] + '</b><span>' + fmt(o) + '</span></button>').join('') + '</div></div>' +
+      '<div class="q-actions" id="question-' + n + '-actions"><button type="button" class="btn q-show">Show answer</button><span class="q-result"></span></div>' +
+      '<p class="q-hint" hidden>Match is in the answer: reveal to see it</p>' +
+      '<div class="q-exp" id="question-' + n + '-answer" hidden><p>' + fmt(item.e) + '</p></div>';
+    card.querySelectorAll('.opt').forEach((b) => { b.addEventListener('click', () => reveal(card, item, Number(b.dataset.k))); });
+    card.querySelector('.q-show').addEventListener('click', () => reveal(card, item, null));
+    list.appendChild(card);
+  });
+
+  tools.querySelectorAll('.fchip').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      const f = chip.dataset.filter;
+      tools.querySelectorAll('.fchip').forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+      list.querySelectorAll('.q-card').forEach((c) => { c.dataset.f = (f === 'all' || c.dataset.w === f) ? '' : '1'; });
+      applySearch();
+    });
+  });
+
+  tools.querySelector('#q-reset').addEventListener('click', () => {
+    list.querySelectorAll('.q-card').forEach((c) => {
+      c.dataset.done = '';
+      c.querySelectorAll('.opt').forEach((o) => o.classList.remove('right', 'wrong'));
+      const res = c.querySelector('.q-result');
+      res.textContent = '';
+      res.className = 'q-result';
+      c.querySelector('.q-show').hidden = false;
+      c.querySelector('.q-exp').hidden = true;
+    });
+    applySearch();
+  });
+});
+</script>
+<script>
+DEBATE.push(
+  { t: `Before you prepare`, cls: 'is-info', p: [
+    `The slides do not describe the lifeboat debate. The scenario and roles are unknown until the night.`,
+    `So the cards below are general: each one is a way of arguing that works from **any role**. Pick the two or three that suit the role you are given.`
+  ] },
+  { t: `[out] Background: lifeboat ethics`, cls: 'is-out', p: [
+    `Lifeboat ethics is a metaphor for resource distribution proposed by the ecologist Garrett Hardin in 1974: a lifeboat with 50 people aboard and room for 10 more, surrounded by 100 swimmers.`,
+    `Source: [[https://en.wikipedia.org/wiki/Lifeboat_ethics]]`,
+    `The class scenario may differ.`
+  ] },
+  { t: `Utilitarian lens {W2 p61}`, items: [
+    `**Idea**: judge by **consequences**; choose what saves the most lives or brings the most benefit (**Greatest Happiness Principle**).`,
+    `**Starter**: "Our choice should bring the greatest benefit to the greatest number, so..."`,
+    `**Weakness to expect**: it may **sacrifice the few for the many**. Be ready to say why that is still defensible here.`
+  ] },
+  { t: `Deontology lens {W2 p61, p66}`, items: [
+    `**Idea**: act from **duty**; nobody is merely a **means**; everyone is owed **equal respect**.`,
+    `**Starter**: "Whatever the outcome, we have a duty not to use any person as a means, so..."`,
+    `**Weakness to expect**: **rigid** and insensitive to consequences. Be ready for "but then more people are lost".`
+  ] },
+  { t: `Virtue lens {W2 p62-64}`, items: [
+    `**Idea**: ask what a person of **practical wisdom** would do; aim for **courage**, the mean between cowardice and recklessness.`,
+    `**Starter**: "A person of good character in my role would..., because that is courage and not recklessness."`,
+    `**Weakness to expect**: it lacks clear action-guiding rules and may be culturally relative.`
+  ] },
+  { t: `Justice and triage lens {W1 p28}`, items: [
+    `**Idea**: **distributive justice** is **fair, not necessarily equal**. Triage puts the myocardial infarction before the ankle sprain.`,
+    `**Starter**: "Fair does not mean equal. The criterion we should use is..., because..."`,
+    `**Weakness to expect**: the group may reject your criterion. State it openly and defend it.`
+  ] },
+  { t: `Rawls lens {W1 p31-34}`, items: [
+    `**Idea**: behind the **veil of ignorance**, pick the rule you would accept without knowing your own seat; protect the **least advantaged**.`,
+    `**Starter**: "If none of us knew which role we would get, the rule we would all accept is..."`,
+    `**Tool**: the **cake-cutting** procedure. Whoever proposes the rule takes the last pick.`
+  ] },
+  { t: `Four principles lens {W1 p16, p29}`, items: [
+    `**Idea**: name which of **autonomy, beneficence, nonmaleficence and justice** are in conflict in the scenario.`,
+    `**Starter**: "This is a conflict between ... and ...; no principle outweighs another, so we must justify the choice."`,
+    `**Weakness to expect**: the principles do not rank themselves, so another member can reach a different conclusion from the same four.`
+  ] },
+  { t: `Pragmatism lens {W2 p74-75}`, items: [
+    `**Idea**: decide from **experiences and scientific facts**; accept a flexible, staged compromise, like the **buffer period** in the carbon neutrality example.`,
+    `**Starter**: "Given the facts we actually have, a workable step is..., and we adjust it as things change."`,
+    `**Why it matters**: part (b) of the group report assesses your contribution in terms of Pragmatism. Note where you changed position.`
+  ] },
+  { t: `Trolley problem as a comparison {W1 p36-41}`, items: [
+    `**Trolley 1**: pull the lever; 5 saved and 1 dies. **Trolley 2**: push the heavy man off the bridge.`,
+    `**Use**: ask the group whether the proposed choice is more like pulling the lever or more like pushing the man, and why that difference matters to them.`,
+    `It links straight to the utilitarian and deontology lenses above.`
+  ] },
+  { t: `Closing tip`, cls: 'is-info', items: [
+    `A **dilemma always compromises some moral principle**, so admit what your position gives up. {W1 p41}`,
+    `**No single theory** solves all ethical problems; combining two lenses is a strength, not a contradiction. {W3 p10}`
+  ] }
+);
+</script>
+
+<script>
+defineView('Lifeboat debate preparation', (el) => {
+  DEBATE.forEach((c, i) => { el.appendChild(cardEl(c, 'debate-card-' + (i + 1))); });
+});
+</script>
+<script>
+REPORT.push(
+  { t: `What the report asks`, cls: 'is-info', p: [
+    `Four parts, (a) to (d), set out in the assessment guidelines. The worksheet questions are only seen on the night, so the prompts below are things to **write down during the discussion** while you still remember them.`
+  ] },
+  { t: `(a) Role and duty`, items: [
+    `Write the **role** you were given and the **duty** that comes with it, in one or two sentences.`,
+    `Note what the role **obliged you to argue**, even where you personally disagreed.`,
+    `Name the principles your duty touched: autonomy, beneficence, nonmaleficence or justice. {W1 p16}`
+  ] },
+  { t: `(b) Contribution assessed in terms of Pragmatism`, items: [
+    `Record **what worked in practice**: which of your points moved the group towards a decision.`,
+    `Record where you **changed position** because of facts or experience, not because of a fixed rule. {W2 p74-75}`,
+    `Note any flexible or staged compromise the group accepted, like the **buffer period** in the slide's carbon neutrality example. {W2 p74-75}`
+  ] },
+  { t: `(c) Moral Diversity: found or not, and why`, items: [
+    `The slides **do not define** the term "Moral Diversity".`,
+    `[out] In general use, "moral diversity" means that people and cultures hold differing moral values and disagree morally. Source: [[https://plato.stanford.edu/entries/moral-relativism/]]`,
+    `Slide hooks you can cite: **no principle outweighs another**, so different providers may reach different conclusions {W1 p16}; **no single theory** solves all ethical problems {W3 p10}.`,
+    `If you found it: record **who disagreed** and **which theory each side used**.`,
+    `If you did not: explain **why agreement came easily**, for example everyone argued from the same lens.`
+  ] },
+  { t: `(d) Summary: each member's role and the virtue of the decision-making`, p: [
+    `Fill in a table like this on paper during the discussion, one row per member.`
+  ], html: `<div class="tbl-wrap" id="member-table-wrap"><table id="member-table"><thead><tr><th>Member</th><th>Role</th><th>Virtue shown</th></tr></thead><tbody><tr><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr><tr><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr><tr><td class="blank"></td><td class="blank"></td><td class="blank"></td></tr></tbody></table></div>`, after: [
+    `Name the **virtue** the group's decision-making showed and place it on the **golden mean**: cowardice (deficiency), **courage** (mean), recklessness (excess). {W2 p64}`,
+    `Other virtues named on the slides: wisdom, justice, moderation, piety {W1 p9}; honesty, benevolence {W1 p12}.`
+  ] },
+  { t: `Marking grid (assessment guidelines)`, html: `<div class="tbl-wrap" id="marking-table-wrap"><table id="marking-table"><thead><tr><th>Criterion</th><th>Marks</th><th>Tip</th></tr></thead><tbody><tr><td>Proper use of terms</td><td class="num">5</td><td>Use the slide terms exactly: distributive justice, difference principle, Categorical Imperative, golden mean.</td></tr><tr><td>Comprehension and application of concept/theory</td><td class="num">10</td><td>Apply a named theory to a real moment in your debate, and state its challenge too.</td></tr><tr><td>Logical flow of decision-making</td><td class="num">10</td><td>Follow one line: which principles conflicted, the criterion chosen, the decision, and what was compromised.</td></tr><tr><td>References</td><td class="num">5</td><td>Give a reference for each concept or theory you rely on.</td></tr><tr><td>Writing</td><td class="num">5</td><td>Keep sentences short and follow the format rules.</td></tr><tr><th>Total</th><th class="num">35</th><th></th></tr></tbody></table></div>`, after: [
+    `The report is **40%** of the grade.`
+  ] },
+  { t: `Format rules (assessment guidelines)`, items: [
+    `Font size **12**; **single** line spacing; margins **2.54 cm**; **A4 portrait**.`,
+    `The cover page states the **group number** and **member names**.`,
+    `The **signed worksheet** is scanned as the cover page, and the report goes to the lecturer by email (announcement).`
+  ] },
+  { t: `[dis] Deadline`, cls: 'is-dis', p: [
+    `Announcement: Sun 22 Nov 2026, 23:59. Assessment guidelines: 29 Nov 2026, 24:00. Treat 22 Nov as the safe deadline until the lecturer confirms.`
+  ] }
+);
+</script>
+
+<script>
+defineView('Group report preparation', (el) => {
+  REPORT.forEach((c, i) => { el.appendChild(cardEl(c, 'report-card-' + (i + 1))); });
+});
+</script>
+
+<script>
+addEventListener('DOMContentLoaded', () => {
+  runView('Test logistics', document.getElementById('logistics-body'));
+  runView('Revision notes by week', document.getElementById('notes-body'));
+  runView('Sample questions', document.getElementById('questions-body'));
+  runView('Lifeboat debate preparation', document.getElementById('debate-body'));
+  runView('Group report preparation', document.getElementById('report-body'));
+
+  const input = document.getElementById('search');
+  let timer = null;
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { searchState.q = input.value; applySearch(); }, 150);
+  });
+  document.getElementById('search-clear').addEventListener('click', () => {
+    clearTimeout(timer);
+    input.value = '';
+    searchState.q = '';
+    applySearch();
+  });
+
+  document.querySelectorAll('#jump-nav a').forEach((a) => {
+    a.addEventListener('click', (ev) => {
+      ev.preventDefault();
+      const target = document.getElementById(a.getAttribute('href').slice(1));
+      if (!target || target.hidden) return;
+      if (target.tagName === 'DETAILS') target.open = true;
+      target.scrollIntoView({ block: 'start' });
+    });
+  });
+});
+</script>
+</body>
+</html>

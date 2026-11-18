@@ -1,0 +1,228 @@
+## Implementation notes
+
+### Build constraints
+- Offline page: one `index.html`, hand-written CSS, vanilla JS, no CDN or network requests, no charts.
+- No storage of any kind; all state is in memory and resets on reload.
+- Content lives in JS arrays in the page: `NOTES`, `QUESTIONS`, `DEBATE`, `REPORT`, `LOGISTICS`.
+- Every note and every answer explanation carries a slide reference chip, e.g. `W2 p37`.
+- The fact sheet below is the only source of course facts. Do not add facts from general knowledge.
+
+### Components and behaviour
+- Sticky top bar: search input plus jump links `Logistics`, `Week 1`, `Week 2`, `Week 3`, `Questions`, `Debate`, `Report`.
+- Notes: one collapsible block per week, open by default, short bullet cards grouped by topic.
+- Question card: stem, four options (A–D), `Show answer` button.
+  - Tapping an option marks it right or wrong and reveals that card's explanation only.
+  - `Show answer` reveals without choosing. No "reveal all" control.
+  - Explanation is 2–3 prose sentences, keywords in `<strong>`, ending with the slide chip.
+  - Filter chips above the list: `All`, `Week 1`, `Week 2`, `Week 3`. `Reset questions` hides all answers again.
+- Search: case-insensitive substring match, debounced 150 ms, over notes, stems, options, debate and report text.
+  - Non-matching cards are hidden; matches are wrapped in `<mark>` without breaking `<strong>`.
+  - A match found only in an unrevealed explanation shows the card with `Match is in the answer: reveal to see it`, and does not reveal it.
+  - Empty result: `No matches`. Clearing the box restores everything.
+- Touch targets at least 44 px; single column in iPad portrait; no hover-only interactions.
+
+### Exact UI strings
+- Search placeholder: `Search notes and questions`
+- Badges: `Not from the slides`, `Read from the slide picture`, `Sources disagree`
+- Questions header note: `Practice questions written from the Week 1–3 slides. They are not official or past-paper questions.`
+- Coverage note: `Covers Weeks 1–3 only. The nine appendix topics are covered only as far as these slides go.`
+- Test conflict: `Announcement: MCQ, about 40 minutes, number of questions not stated. Assessment guidelines: 60 MCQs in one hour. Neither is confirmed.`
+- Deadline conflict: `Announcement: Sun 22 Nov 2026, 23:59. Assessment guidelines: 29 Nov 2026, 24:00. Treat 22 Nov as the safe deadline until the lecturer confirms.`
+- Debate caveat: `The slides do not describe the lifeboat debate. The scenario and roles are unknown until the night.`
+
+### Fact sheet: Week 1
+- p12 Normative table.
+  - Utilitarianism: general interest for society; greatest happiness for the greatest number.
+  - Deontology: duty and respect; no person should be used; everyone respected equally.
+  - Virtue ethics: individual moral character; cultivate virtues (courage, honesty, benevolence).
+- p13, p35 Ethics = rules a social system provides (external). Morals = our own principles.
+- p43–44 "Ethics" comes from Greek *ethos* (character). No rigid guidelines; relatively stable but can change over time.
+- p48 Ethics ≠ moral values (feelings), ≠ religious beliefs, ≠ law. Healthcare ethics ≠ social standards.
+- p9 Ancient Greek virtues: wisdom, justice, courage, moderation, piety.
+- p10 Hippocrates (460–370 BC), "Father" of western medicine.
+- p11 Confucius: central idea Ren (仁); prone to communitarianism rather than liberalism.
+- p15 Modern bioethics arose in the late 1960s.
+- p16 Four principles, Beauchamp and Childress, 1994. No principle outweighs another, so different providers may reach different conclusions.
+  - Autonomy: the right to make one's own decisions. p17: also called the principle of human dignity.
+  - Beneficence: doing good. p25: when autonomy is compromised (e.g. incapacity), beneficence must be the guiding ethic.
+  - Nonmaleficence: avoiding harm, "First, do no harm". Where harm is unavoidable, minimise it.
+  - Justice: fairness in distributing benefits and risk.
+- p18 When autonomy is compromised:
+  - Incompetence: legally deemed unable; often permanent (dementia); court assigns a surrogate.
+  - Incapacity: clinically determined; may be transient (delirium, psychosis).
+  - Threat to self or others.
+- p26 Double effect: an unintended consequence is acceptable if the intended one is legitimate and the harm is proportionately smaller than the benefit.
+  - Examples: removing a diseased organ or limb; high-dose analgesics for a hospice patient.
+  - Controversial example: unrequested abortion to save the mother's life.
+- p28 Distributive justice: fair, not necessarily equal, allocation. Triage example: ankle sprain vs myocardial infarction.
+- p29 The four principles frequently conflict; that is how dilemmas arise.
+- p19–23 Blood transfusion cases (Jehovah's Witnesses).
+  - E: 16y 8m, appendectomy; she and her parents refused in writing; the hospital sought permission.
+  - F: 17y 5m, traffic accident, spleen laceration, internal bleeding, not instantly life-threatening.
+  - Court granted the declaration in both; "the preservation of life should take precedence"; best interests.
+  - Counter-arguments (p23): s. 8 Family Law Reform Act 1969 lets 16–17-year-olds consent to treatment.
+  - Gillick: under-16s can decide in certain circumstances. Strong presumption in favour of the young person's decision.
+- p31–34 John Rawls (1921–2002), *A Theory of Justice*.
+  - "Justice is the first virtue of social institutions".
+  - Veil of ignorance: no one knows their place in society.
+  - Difference principle: inequalities are justified only if they give the greatest benefit to the least advantaged.
+  - Cake-cutting: the cutter takes the last slice (pure procedural justice).
+  - HK example: tax from higher earners subsidises the severely ill and poor.
+- p36–41 Dilemma: forced choice between conflicting options, none acceptable.
+  - Three conditions: the agent must decide; there are different courses of action; some moral principle is always compromised.
+  - Trolley 1: pull the lever, 5 saved and 1 dies. Trolley 2: push the heavy man off the bridge.
+- p47 Four controversial issues: breach of confidentiality; informed consent and competence; rationing scarce resources; end-of-life care.
+- p49 Physician–patient models.
+  - Paternalistic: "I decide for you".
+  - Informative: "I give you facts".
+  - Deliberative: "In addition, I tell you my preferences".
+  - Interpretative: "I give you facts and help you to find your preferences".
+
+### Fact sheet: Week 2
+- p4–5 Hippocratic Oath: do no harm; keep secrets.
+  - Declaration of Geneva (v.2017): patient's health and well-being is the first consideration.
+  - It also says to respect secrets "even after the patient has died".
+- p6 Reasons for healthcare legislation: more litigation from new advances (e.g. human genome project); more complaints; more blunders and public awareness of rights.
+- p7–9 IAEA Guidelines on Professional Ethics for Medical Physicists.
+  - CQMP code 4.1.3: lead by example; optimise outcomes for patients; stewardship of resources.
+- p10 HMRF Code of Practice on data confidentiality and the use of data for medical research.
+- p13–14 Patients' Charter.
+  - Rights: medical treatment*, information, choices*, privacy, complaint. (* `Read from the slide picture`.)
+  - Responsibilities: give full health information; follow the agreed treatment plan; keep appointments.
+  - Also: respect other patients and staff; do not ask for incorrect information, receipts or certificates.
+- p20–24 Cases.
+  - Radiographer's Facebook post: privacy settings do not guarantee privacy; ask whether a post could identify the patient.
+  - Conference poster photos: photos can identify; consent is needed; the professional is accountable for obtaining it.
+- p26, p29 Privacy = a person's ability to control access to themselves and their information.
+  - Confidentiality = rules or a promise restricting access to information; disclose only by permission, rules or law.
+- p31 Three reasons for confidentiality: secure environment for the patient; respect for autonomy; public trust.
+- p32 Sources: Hippocratic Oath, Nightingale Pledge, Sun Simiao, codes of conduct, Cap. 486.
+- p34 Personal data (Cap. 486): relates to a living individual; identity can practicably be ascertained; in a form where access or processing is practicable.
+  - Includes photos or video of an identifiable person.
+- p37 Six Data Protection Principles; the 1–6 numbering is `Read from the slide picture`.
+  - 1 Collection purpose and means (lawful, fair, not excessive). 2 Accuracy and retention.
+  - 3 Use. 4 Security. 5 Openness. 6 Data access and correction.
+- p38 Offence: disclosing personal data without the data user's consent, with intent to gain or to cause loss.
+  - Penalty: fine of $1,000,000 and 5 years' imprisonment.
+- p40 Anonymisation: identifiers permanently and irrevocably removed. Pseudonymisation: coded; the key holder can decode.
+- p45 Medical records: unique registration number; corrections neatly crossed out and signed; entries dated, signed and chopped.
+- p46–48 eHealth: government-developed; two-way sharing between public and private providers; voluntary; encrypted.
+  - Role-based access control; "need-to-know" principle; all access is logged and audited.
+- p50 HK Medical Council code.
+  - 1.4.1: obtain consent before disclosing to a third party not involved in the referral.
+  - 1.4.2 exceptions: (i) risk of death or serious harm to the patient or someone else; (ii) required by law.
+- p51–54 Exceptions to confidentiality.
+  - Suicidal or dangerous mentally ill patient.
+  - Reportable diseases: 53 statutory notifiable infectious diseases in HK.
+  - Top reported: tuberculosis 2,354; scarlet fever 1,289; chickenpox 1,206; COVID-19 904; food poisoning 562.
+  - Conditions impairing commercial drivers (epilepsy, syncope, sleep apnea, dementia); child abuse; stab or gunshot wounds.
+- p55 Code 4.3.3: an infected doctor is generally not required to tell patients.
+  - The doctor must inform the Department of Health if the disease is notifiable.
+  - Breach may be warranted if the doctor ignores restrictions and puts others at risk.
+- p59 Normative ethics (what should we do), meta-ethics (meaning of morality), applied ethics (real scenarios).
+- p61 Three theories table.
+  - Utilitarianism: Bentham (1748–1832), Mill (1806–1873); consequences; Greatest Happiness Principle.
+    - Challenge: may sacrifice the few for the many. Applications: public policy, cost–benefit, resource allocation.
+  - Deontology: Kant (1724–1804); *deon* = duty; Categorical Imperative; treat people as an "end", not just a "means".
+    - Challenge: rigid, insensitive to consequences. Applications: human rights, legal obligations, professional codes.
+  - Virtue ethics: Plato (428–348 BC), Aristotle (384–322 BC); Doctrine of the Mean; habituation and practical wisdom.
+    - Challenge: lacks clear action-guiding rules; may be culturally relative.
+- p64 Golden mean: cowardice (deficiency), courage (mean), recklessness (excess).
+- p70 Helping someone who fell: deontology "we must"; utilitarianism "beneficial to the world"; virtue "any kind person would".
+- p74–75 Pragmatism (實用主義). Show names as on the slide: "Charles Sanders Pierce (1839-1914) and John Deway (1859 – 1952)".
+  - Morality progresses with the advancement of science.
+  - Neither Idealism nor Materialism is correct; decide according to experiences and scientific facts.
+  - Parenting example: strict rules, then flexible strategies. Carbon neutrality example: allow a buffer period for gradual change.
+
+### Fact sheet: Week 3
+- p10 No single theory solves all ethical problems; apply proper theories to reach reasonable decisions.
+- p11 Organ donation criterion: deontology says never harm the patient; utilitarianism says more organs save more people.
+- p15–18 Research extends knowledge beyond what is known (GMC, 2010).
+  - Clinical research does not intend to benefit the individual participant.
+- p20 Cohort studies.
+  - Retrospective: data available immediately; relies on memory and record quality.
+  - Prospective: more commonly used; cost is a concern.
+- p21 Drug journey: pre-clinical, IND submission, clinical trials, NDA, FDA review, post-approval surveillance.
+- p22 vs p61 (`Sources disagree`): Phase 1 is 20–100 on both charts.
+  - p22: Phase 2 100–500; Phase 3 1,000–5,000; clinical trials 6–7 years; FDA review 0.5–2 years.
+  - p22: pre-clinical 3–6 years (`Read from the slide picture`).
+  - p61: Phase 2 100–200; Phase 3 1,000–6,000.
+- p23 Participants are the means of producing knowledge, so they are at risk of exploitation.
+- p24 Tuskegee: 1932–1972, U.S. Public Health Service, African American men, untreated syphilis.
+  - Told they were receiving free health care; planned 6 months, ran 40 years.
+  - No treatment even after penicillin became standard in 1947. Led to the Belmont Report, 1979.
+- p25–26 Nazi human experiments; Doctors' Trial at Nuremberg (slide: 1945); inspired the Nuremberg Code.
+- p29 Codes: Nuremberg Code, Belmont Report, Declaration of Helsinki, CIOMS, ICH/GCP.
+- p30 Nuremberg Code, ten points.
+  - Voluntary consent; fruitful results; based on prior research; avoid unnecessary harm.
+  - No risk of death unless the researchers themselves take part; proportional risk.
+  - Adequate preparation; qualified personnel; right to withdraw; stop if dangerous.
+- p31 Belmont Report: respect for persons, beneficence, justice.
+- p32–33 Declaration of Helsinki: WMA; adopted June 1964; latest amendment October 2024.
+- p35 Seven principles of research ethics.
+  - Valuable scientific question; valid methodology; fair subject selection; favourable risk–benefit.
+  - Independent review; informed consent; respect for enrolled subjects.
+- p38 Fair subject selection: by scientific objectives, not privilege, easy availability or vulnerability.
+- p42 Consent review: disclosure, understanding, voluntary decision, authorization.
+- p46 Barry Marshall and Robin Warren: *H. pylori*; Marshall drank the bacteria; Nobel Prize.
+- p47 Law is protective and deontological for incapable adults and minors.
+  - They may take part only if there is a chance of benefit; this is absolute.
+- p49 HA two-tier structure: Head Office Steering Committee on Research Ethics plus Cluster RECs.
+- p50 IRB checks: risks minimised and justified; fair selection; adequate consent.
+- p54 3R: Replacement, Reduction, Refinement.
+- p55 Animals (Control of Experiments) Ordinance (Cap. 340); authority: Department of Health.
+  - Covers living vertebrate animals; experiments "calculated to give pain"; a licence is needed per experiment.
+- p56 Thalidomide case (1957) as a reason animal studies matter.
+- p60 SAE case: three times as many severe nausea and vomiting cases in the experimental group; two hospitalised.
+- p63–64 Jesse Gelsinger (1981–1999): OTC deficiency, adenoviral gene therapy, highest dose.
+  - The principal investigator was also a consultant for the company. Gene therapy trials were suspended afterwards.
+- p65 Archived tissue: the new analysis was not in the original consent. p66 Incidental genetic finding: inform the patient?
+- p67–70 Hwang Woo-Suk: two *Science* papers on human SCNT stem cells retracted for fabricated data.
+  - Retraction dated 12 January 2006. Also Snuppy, the first cloned dog.
+- p71–73 He Jiankui: gene-edited babies Lulu and Nana, 2018.
+- p75 Take-home: research is rarely risk-free; balance benefit and risk; a valuable question and informed consent are key.
+
+### Question plan (30 questions, 4 options, one correct)
+- Mix recall with short scenario stems. Distractors come from neighbouring slide concepts.
+- Do not write a question on either disputed drug-chart figure or on a detail marked `Read from the slide picture`.
+- Week 1 (10):
+  - identify a principle from a scenario; no hierarchy among principles; incompetence vs incapacity; double effect;
+  - triage as distributive justice; difference principle; cake-cutting; three conditions of a dilemma;
+  - physician–patient model from its quote; court outcome for case F.
+- Week 2 (10):
+  - privacy vs confidentiality; three reasons for confidentiality; definition of personal data;
+  - a data protection principle from a scenario; anonymisation vs pseudonymisation;
+  - HKMC 1.4.2 exceptions; infected doctor (4.3.3); eHealth "need-to-know";
+  - theory to philosopher or central idea; Pragmatism.
+- Week 3 (10):
+  - Tuskegee; Nuremberg Code point; Belmont's three principles; Helsinki body and year;
+  - seven principles (fair subject selection); retrospective vs prospective cohort; 3R;
+  - Cap. 340 scope; Gelsinger conflict of interest; Hwang vs He (which misconduct).
+
+### Debate section
+- Show the debate caveat string first.
+- One `Not from the slides` background card:
+  - "Lifeboat ethics is a metaphor for resource distribution proposed by the ecologist Garrett Hardin in 1974: a lifeboat with 50 people aboard and room for 10 more, surrounded by 100 swimmers."
+  - Source link text: `https://en.wikipedia.org/wiki/Lifeboat_ethics`. Add: `The class scenario may differ.`
+- "Argue from any role" cards, one lens each, with a sentence starter and its weakness to expect in rebuttal:
+  - Utilitarian (W2 p61): save the most lives or the most benefit. Weakness: sacrifices the few.
+  - Deontology (W2 p61, p66): nobody is merely a means; equal respect. Weakness: rigid about consequences.
+  - Virtue (W2 p62–64): what a person of practical wisdom would do; courage between cowardice and recklessness.
+  - Justice and triage (W1 p28): fair is not necessarily equal; state the criterion.
+  - Rawls (W1 p31–34): pick the rule you would accept without knowing your seat; protect the least advantaged.
+  - Four principles (W1 p16, p29): name which principles conflict.
+  - Pragmatism (W2 p74–75): decide from experience and facts; accept a flexible, staged compromise.
+- Closing tip card: a dilemma always compromises some principle (W1 p41), and no theory is perfect (W3 p10).
+
+### Report section
+- Four cards for parts a–d, each with 2–3 note-taking prompts for the night.
+  - (a) Role, duty, and what the role obliged you to argue.
+  - (b) What worked in practice; where you changed position on facts or experience (W2 p74–75).
+  - (c) `Not from the slides`: "moral diversity" generally means people hold differing moral values and disagree morally.
+    - Source link text: `https://plato.stanford.edu/entries/moral-relativism/`. State that the slides do not define the term.
+    - Slide hooks: no hierarchy of principles (W1 p16); no single theory fits all (W3 p10).
+    - Prompt: record who disagreed and which theory each side used; or explain why agreement came easily.
+  - (d) A role-per-member table to fill in on paper; name the virtue shown and place it on the golden mean (W2 p64).
+- Marking grid as a small table, one tip per criterion drawn from the lenses above.
+- Format rules: font size 12; single line spacing; margins 2.54 cm; A4 portrait.
+  - Cover page states the group number and member names; the signed worksheet is scanned as the cover page.
