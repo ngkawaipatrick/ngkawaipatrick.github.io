@@ -128,6 +128,15 @@ body.tmrunning #tmlearn{display:none}
   #stagecard{order:-1;display:flex;flex-direction:column}
   #stagecard .stage{order:-1;position:sticky;top:0;z-index:7;margin:0 auto 6px!important;align-self:center}
   body.tmrunning #timedbar{position:static;border-bottom:0;padding:0}
+  body.tmrunning #stagecard #tbcard, body.tmrunning #stagecard #dweek, body.tmrunning #stagecard #dtitle{display:none}
+  #timedbar #lnstat:empty,#timedbar #tmcount:empty,#timedbar #tmclock:empty{display:none}
+  body.tmphoneentry #lnstat{order:1}
+  body.tmphoneentry #tmrun{gap:6px}
+  body.tmphoneentry #tmtrack{height:5px}
+  body.tmphoneentry #tmin{flex:1 1 125px;min-width:0;min-height:44px;border-color:var(--accent)}
+  body.tmphoneentry #tmin:focus{outline:2px solid var(--accent);outline-offset:-2px}
+  body.tmphoneentry #tmmsg{order:1}
+
   #timedbar{margin-top:4px;gap:6px}
   .toolbar{gap:6px} .toolbar button,.toolbar select{padding:9px 10px}
   .score{margin-left:0;flex:1 1 100%}
@@ -199,7 +208,7 @@ html{-webkit-text-size-adjust:100%} body{-webkit-tap-highlight-color:transparent
         <div id="lnrun"><div id="lntrack"><div id="lnfill"></div></div><button id="lnready" type="button" class="primary">I'm ready — quiz me now</button></div>
         <div id="tmrun">
           <div id="tmtrack"><div id="tmfill"></div></div>
-          <input id="tmin" type="text" placeholder="Name the flashing box, then Enter" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+          <input id="tmin" type="text" aria-label="Answer" inputmode="text" enterkeyhint="done" placeholder="Name the flashing box, then Enter" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
           <button id="tmcheck" type="button" class="primary">Check</button>
           <button id="tmshow" type="button" class="primary">Show answer</button>
           <button id="tmknew" type="button">1 · Knew it</button>
@@ -488,7 +497,7 @@ document.addEventListener("keydown",e=>{ if(e.target.tagName==="INPUT"&&e.target
 let TR={}; try{ TR=JSON.parse(localStorage.getItem("labeldrill.timed")||"{}"); }catch(e){}
 function tmSave(){ try{ localStorage.setItem("labeldrill.timed",JSON.stringify(TR)); }catch(e){} }
 function tmRec(id,k){ return (TR[id]||{})[k]; }
-const TM={on:false,q:[],pos:0,phase:"",res:[],timer:null,end:0,dur:0,t0:0,lastReds:[]};
+const TM={on:false,q:[],pos:0,phase:"",res:[],timer:null,end:0,dur:0,t0:0,lastReds:[],phoneEntry:false};
 function tmStrict(typed,label){ const t=norm(typed); if(!t) return false; const parts=label.split("/").map(norm).filter(Boolean); parts.push(norm(label)); return parts.includes(t)||t===label.toLowerCase().replace(/[^a-z0-9]+/g," ").trim(); }
 function tmQueue(scope){
   const q=[], wk=D[cur].week;
@@ -517,25 +526,50 @@ function tmRender(){
   });
   if(TM.on) $("#score").textContent=`${TM.res.filter(x=>x===true).length} blue · ${TM.res.filter(x=>x===false).length} red this run`; else tmScore();
 }
+function tmStartLabel(){
+  const typ=$("#tmstyle").value==="type";
+  $("#tmgo").textContent=PH()?(typ?"▶ Start typing test":"▶ Start say-it test"):"▶ Start test";
+}
 function tmUI(){
+  if(!TM.on&&!LN.on) tmStartLabel();
   const typ=$("#tmstyle").value==="type", p=TM.phase, sh=(id,on)=>{ $(id).style.display=on?"":"none"; };
-  sh("#tmin",typ&&p==="ask"); sh("#tmcheck",typ&&p==="ask"); sh("#tmshow",!typ&&p==="ask");
+  sh("#tmin",typ&&(p==="ask"||(TM.phoneEntry&&p==="fb"))); sh("#tmcheck",typ&&p==="ask"); sh("#tmshow",!typ&&p==="ask");
   sh("#tmknew",p==="judge"); sh("#tmdidnt",p==="judge"); sh("#tmnext",p==="fb"); sh("#tmover",p==="fb"&&TM.res[TM.pos]===false);
   $("#tmcount").textContent=TM.on?((TM.pos+1)+" / "+TM.q.length):""; if(!TM.on) $("#tmclock").textContent="";
 }
-function tmStart(q){
+function tmStart(q,fromTap=false){
   if(TM.on) return;
   if(!q.length){ $("#tmmsg").textContent=$("#tmscope").value==="r"?"The red list is empty — nothing missed on record.":"Everything here is already blue. Untick 'skip blue' to run it all again."; return; }
   TM.on=true; TM.q=q; TM.pos=0; TM.res=[]; TM.t0=Date.now(); TM.dur=(+$("#tmsec").value)*1000;
   document.body.classList.add("tmrunning"); $("#tmrun").style.display="flex"; $("#tmgo").textContent="■ Stop"; $("#tmretry").style.display="none"; $("#tmmsg").textContent="";
-  tmAsk();
+  TM.phoneEntry=PH()&&$("#tmstyle").value==="type";
+  document.body.classList.toggle("tmphoneentry",TM.phoneEntry);
+  tmAsk(fromTap);
 }
-function tmAsk(){
-  const it=TM.q[TM.pos]; TM.phase="ask";
+function tmAsk(fromTap=false){
+  const it=TM.q[TM.pos], input=$("#tmin");
+  clearInterval(TM.timer); TM.end=0; TM.phase="ask";
   if(it.i!==cur) show(it.i); else tmRender();
-  tmUI(); $("#tmin").value=""; if($("#tmstyle").value==="type") $("#tmin").focus({preventScroll:true});
-  const t=document.querySelector(".box.tgt"); if(PH()){ if($("#stagecard").getBoundingClientRect().top<-4) phTop(); } else if(t) t.scrollIntoView({block:"center"});
-  TM.end=Date.now()+TM.dur; clearInterval(TM.timer); TM.timer=setInterval(tmTick,100); tmTick();
+  tmUI(); input.value="";
+  const t=document.querySelector(".box.tgt");
+  if(TM.phoneEntry){
+    $("#tmclock").textContent="Waiting to type"; $("#tmfill").style.width="100%";
+    $("#tmmsg").textContent="If the keyboard doesn't open, tap the answer box. The timer waits for the keyboard or your first keystroke.";
+    // Focus inside the actual tap. Learn timers and auto-advance aren't taps.
+    if(fromTap&&document.activeElement!==input) input.focus({preventScroll:true});
+    phFit();
+    phSeeType();
+    return;
+  }
+  if($("#tmstyle").value==="type") input.focus({preventScroll:true});
+  if(PH()){ if($("#stagecard").getBoundingClientRect().top<-4) phTop(); } else if(t) t.scrollIntoView({block:"center"});
+  if(PH()&&$("#tmstyle").value==="say") $("#tmmsg").textContent="Say the name, then tap Show answer.";
+  tmArmClock();
+}
+function tmArmClock(){
+  if(!TM.on||TM.phase!=="ask"||TM.end) return;
+  if(TM.phoneEntry) $("#tmmsg").textContent="";
+  TM.end=Date.now()+TM.dur; TM.timer=setInterval(tmTick,100); tmTick();
 }
 function tmTick(){
   const left=Math.max(0,TM.end-Date.now()); $("#tmfill").style.width=(100*left/TM.dur)+"%"; $("#tmclock").textContent=(left/1000).toFixed(1)+" s";
@@ -554,16 +588,16 @@ function tmResolve(ok,msg,auto){
   clearInterval(TM.timer); const it=TM.q[TM.pos], lab=D[it.i].labels[it.k].t;
   tmMark(TM.pos,ok); TM.phase="fb"; tmRender(); tmUI(); refreshSide(); tmList();
   $("#tmmsg").textContent=(ok?"✓ blue — ":"✗ red — "+(msg?msg+" — ":""))+lab;
-  if(auto) setTimeout(()=>{ if(TM.on&&TM.phase==="fb") tmNext(); },ok?600:0);
+  if(auto){ const q=TM.q, pos=TM.pos; setTimeout(()=>{ if(TM.on&&TM.q===q&&TM.pos===pos&&TM.phase==="fb") tmNext(); },ok?600:0); }
 }
 function tmReveal(){ if(TM.phase!=="ask") return; clearInterval(TM.timer); TM.phase="judge"; tmRender(); tmUI(); const it=TM.q[TM.pos]; $("#tmmsg").textContent="→ "+D[it.i].labels[it.k].t+" — did you have it?"; }
 function tmCheck(){ if(TM.phase!=="ask") return; const v=$("#tmin").value; if(!norm(v)) return; const it=TM.q[TM.pos], lab=D[it.i].labels[it.k].t; if(tmStrict(v,lab)) tmResolve(true,"",true); else tmResolve(false,accept(v,lab)?"check the spelling":"not it",false); }
-function tmOver(){ if(TM.phase!=="fb"||TM.res[TM.pos]!==false) return; tmMark(TM.pos,true); tmRender(); refreshSide(); tmList(); tmNext(); }
-function tmNext(){ if(!TM.on) return; TM.pos++; if(TM.pos>=TM.q.length) tmFinish(); else tmAsk(); }
+function tmOver(){ if(TM.phase!=="fb"||TM.res[TM.pos]!==false) return; tmMark(TM.pos,true); tmRender(); refreshSide(); tmList(); tmNext(true); }
+function tmNext(fromTap=false){ if(!TM.on||TM.phase!=="fb") return; TM.pos++; if(TM.pos>=TM.q.length) tmFinish(); else tmAsk(fromTap); }
 function tmFinish(quiet){
   if(!TM.on) return; clearInterval(TM.timer); const n=TM.res.length, b=TM.res.filter(x=>x).length, secs=(Date.now()-TM.t0)/1000;
   TM.lastReds=TM.q.filter((_,j)=>TM.res[j]===false); TM.on=false; TM.phase="";
-  document.body.classList.remove("tmrunning"); $("#tmrun").style.display="none"; $("#tmgo").textContent="▶ Start test";
+  TM.phoneEntry=false; document.body.classList.remove("tmrunning","tmphoneentry"); $("#tmrun").style.display="none"; tmStartLabel(); phFit();
   $("#tmretry").style.display=TM.lastReds.length?"":"none"; tmUI();
   if(!quiet){ $("#tmmsg").textContent=n?`Run over: ${b} blue, ${n-b} red out of ${n} · ${(secs/n).toFixed(1)} s per label. The reds are on the list below.`:"Stopped."; tmRender(); }
   tmList(); refreshSide();
@@ -589,14 +623,17 @@ function tmList(){
   $("#tmdrill").disabled=!red; $("#tmcopy").disabled=!red;
 }
 function tmText(){ let out=[],lw=null; D.forEach(d=>{ const ts=[]; d.labels.forEach((l,k)=>{ const r=tmRec(d.id,k); if(r&&r.s==="r") ts.push(l.t); }); if(!ts.length) return; if(d.week!==lw){ out.push("",d.week.toUpperCase()); lw=d.week; } out.push(d.title+": "+ts.join("; ")); }); return out.join("\n").trim(); }
-$("#tmgo").addEventListener("click",()=>{ if(LN.on) lnStop(); else if(TM.on) tmFinish(); else tmStart(tmQueue($("#tmscope").value)); });
-$("#tmretry").addEventListener("click",()=>tmStart(shuffle(TM.lastReds.slice())));
-$("#tmdrill").addEventListener("click",()=>{ $("#tmscope").value="r"; tmStart(tmQueue("r")); });
-$("#tmshow").addEventListener("click",tmReveal); $("#tmcheck").addEventListener("click",tmCheck); $("#tmnext").addEventListener("click",tmNext); $("#tmover").addEventListener("click",tmOver);
+$("#tmgo").addEventListener("click",()=>{ if(LN.on) lnStop(); else if(TM.on) tmFinish(); else tmStart(tmQueue($("#tmscope").value),true); });
+$("#tmretry").addEventListener("click",()=>tmStart(shuffle(TM.lastReds.slice()),true));
+$("#tmdrill").addEventListener("click",()=>{ $("#tmscope").value="r"; tmStart(tmQueue("r"),true); });
+$("#tmshow").addEventListener("click",tmReveal); $("#tmcheck").addEventListener("click",tmCheck); $("#tmnext").addEventListener("click",()=>tmNext(true)); $("#tmover").addEventListener("click",tmOver);
 $("#tmknew").addEventListener("click",()=>tmResolve(true,"",true)); $("#tmdidnt").addEventListener("click",()=>tmResolve(false,"",true));
-$("#tmin").addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); tmCheck(); } });
+$("#tmin").addEventListener("input",()=>{ if(TM.phoneEntry) tmArmClock(); });
+$("#tmin").addEventListener("beforeinput",e=>{ if(TM.phoneEntry&&TM.phase!=="ask") e.preventDefault(); });
+$("#tmin").addEventListener("keydown",e=>{ if(e.key==="Enter"&&!e.isComposing){ e.preventDefault(); if(TM.phoneEntry&&TM.phase==="fb"&&!e.repeat) tmNext(true); else tmCheck(); } });
+$("#tmcheck").addEventListener("mousedown",e=>{ if(TM.phoneEntry&&document.activeElement===$("#tmin")) e.preventDefault(); });
 $("#tmblue").addEventListener("change",tmList);
-$("#tmstyle").addEventListener("change",()=>{ $("#tmsec").value=$("#tmstyle").value==="type"?"12":"5"; });
+$("#tmstyle").addEventListener("change",()=>{ $("#tmsec").value=$("#tmstyle").value==="type"?"12":"5"; tmStartLabel(); });
 $("#tmclear").addEventListener("click",()=>{ if(TM.on) return; if(confirm("Clear the whole red/blue timed record on this device?")){ TR={}; tmSave(); TM.lastReds=[]; $("#tmretry").style.display="none"; tmList(); tmRender(); } });
 $("#tmcopy").addEventListener("click",()=>{ const t=tmText(); const done=()=>{ $("#tmsum").textContent="Red list copied — paste it into Notes or a message."; }; if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(done,()=>{}); else { const a=document.createElement("textarea"); a.value=t; document.body.appendChild(a); a.select(); try{ document.execCommand("copy"); done(); }catch(e){} a.remove(); } });
 document.addEventListener("keydown",e=>{ if(mode!=="timed"||!TM.on) return; if(e.target.tagName==="INPUT"&&e.target.type==="text") return;
@@ -635,7 +672,7 @@ function lnStart(){
 function lnStudy(set){
   LN.phase="study"; LN.set=set.slice(); LN.dur=Math.max(8,4*set.length)*1000; LN.end=Date.now()+LN.dur;
   document.body.classList.add("tmrunning"); $("#tmrun").style.display="none"; $("#lnrun").style.display="flex"; $("#tmgo").textContent="■ Stop"; $("#tmretry").style.display="none"; $("#tmcount").textContent="";
-  lnRender(); lnStat(); $("#tmmsg").textContent="Look at these "+set.length+" names (bold yellow), say each once, notice what sits next to what."+(LN.ncp?" The pale boxes are the same "+set.length+" names written again elsewhere on the slide, not extra ones.":"")+" The quiz starts by itself when the bar runs out.";
+  lnRender(); lnStat(); $("#tmmsg").textContent="Look at these "+set.length+" names (bold yellow), say each once, notice what sits next to what."+(LN.ncp?" The pale boxes are the same "+set.length+" names written again elsewhere on the slide, not extra ones.":"")+" The quiz opens when the bar runs out.";
   const f=document.querySelector(".box.ls"); if(f&&!PH()) f.scrollIntoView({block:"center"});
   clearInterval(LN.timer); LN.timer=setInterval(lnTick,100); lnTick();
 }
@@ -644,7 +681,7 @@ function lnTick(){
   const left=Math.max(0,LN.end-Date.now()); $("#lnfill").style.width=(100*left/LN.dur)+"%"; $("#tmclock").textContent=(left/1000).toFixed(0)+" s to study";
   if(left<=0) lnQuiz(LN.set);
 }
-function lnQuiz(set){ clearInterval(LN.timer); LN.phase="quiz"; $("#lnrun").style.display="none"; lnStat(); tmStart(shuffle(set.map(k=>({i:cur,k})))); }
+function lnQuiz(set,fromTap=false){ clearInterval(LN.timer); LN.phase="quiz"; $("#lnrun").style.display="none"; lnStat(); tmStart(shuffle(set.map(k=>({i:cur,k}))),fromTap); }
 function lnAfterQuiz(){
   if(mode!=="timed"){ lnStop(); return; }
   const reds=TM.lastReds.map(it=>it.k);
@@ -658,17 +695,25 @@ function lnAfterQuiz(){
 function lnOpts(){ const d=D[cur], b=lnBatches(d), s=$("#lngrp"), keep=s.dataset.id===d.id?s.value:"auto"; s.innerHTML=""; s.dataset.id=d.id;
   const add=(v,t)=>{ const e=document.createElement("option"); e.value=v; e.textContent=t; s.appendChild(e); }; add("auto","Learn from: first group not yet blue");
   b.forEach((g,i)=>add(i,`Learn from group ${i+1} of ${b.length}`+(g.every(k=>{ const r=tmRec(d.id,k); return r&&r.s==="b"; })?" ✓":"")+": "+g.slice(0,2).map(k=>d.labels[k].t).join(", ")+"…")); s.value=keep; if(s.selectedIndex<0) s.value="auto"; }
-function lnOff(){ LN.on=false; LN.phase=""; clearInterval(LN.timer); $("#lnrun").style.display="none"; $("#lnstat").textContent=""; $("#tmclock").textContent=""; document.body.classList.remove("tmrunning"); $("#tmgo").textContent="▶ Start test"; }
+function lnOff(){ LN.on=false; LN.phase=""; clearInterval(LN.timer); $("#lnrun").style.display="none"; $("#lnstat").textContent=""; $("#tmclock").textContent=""; document.body.classList.remove("tmrunning"); tmStartLabel(); phFit(); }
 function lnDone(){ lnOff(); $("#lngrp").value="auto"; lnOpts(); const d=D[cur]; let r=0,bl=0; d.labels.forEach((_,k)=>{ const x=tmRec(d.id,k); if(x){ if(x.s==="r") r++; else bl++; } }); const nt=d.labels.length-r-bl; tmRender(); tmList(); refreshSide();
   $("#tmmsg").textContent=`Last group done. This diagram: ${bl} blue, ${r} red`+(nt?`, ${nt} not yet done`:"")+` out of ${d.labels.length}.`+(nt?" Press Learn again for the groups you have not done.":(r?" The reds are on the list below; drill them tomorrow.":" Run it once more tomorrow to make it stick.")); }
 function lnStop(){ const q=TM.on; lnOff(); if(q) tmFinish(true); if(mode==="timed"){ tmRender(); tmList(); refreshSide(); lnOpts(); $("#tmmsg").textContent="Stopped. Anything missed so far is on the red list. Press Learn again to carry on from the first group that is not blue."; } }
-$("#tmlearn").addEventListener("click",lnStart); $("#lnready").addEventListener("click",()=>{ if(LN.on&&LN.phase==="study") lnQuiz(LN.set); });
+$("#tmlearn").addEventListener("click",lnStart); $("#lnready").addEventListener("click",()=>{ if(LN.on&&LN.phase==="study") lnQuiz(LN.set,true); });
 // ---- end learn-in-fives ----
 const PH=()=>window.matchMedia("(max-width:700px)").matches;
+if(PH()){ $("#tmstyle").value="type"; $("#tmsec").value="12"; }
 let PHB=0, PHW=0;
 function phFit(){ const st=$("#stage"); if(!PH()){ st.style.maxWidth=""; document.body.classList.remove("kb"); return; } const vv=window.visualViewport, h=(vv?vv.height:window.innerHeight); if(window.innerWidth!==PHW){ PHW=window.innerWidth; PHB=0; } PHB=Math.max(PHB,h);
-  const a=document.activeElement, kb=!!(a&&a.matches&&a.matches("input[type=text]"))&&h<PHB-100; document.body.classList.toggle("kb",kb);
-  const room=Math.max(120,h-(kb?112:210)), ar=+D[cur].ar||1.33; st.style.maxWidth=Math.floor(room*ar)+"px"; st.style.width="100%"; }
+  const a=document.activeElement, kb=!!(a&&a.matches&&a.matches("input[type=text]"))&&h<PHB-100&&(!vv||!vv.scale||Math.abs(vv.scale-1)<.05); document.body.classList.toggle("kb",kb);
+  const reserve=TM.phoneEntry?(kb?152:184):(kb?112:210);
+  const room=Math.max(TM.phoneEntry?60:120,h-reserve), ar=+D[cur].ar||1.33; st.style.maxWidth=Math.floor(room*ar)+"px"; st.style.width="100%";
+  if(kb&&TM.phoneEntry&&a===$("#tmin")) tmArmClock(); }
+function phSeeType(){
+  const vv=window.visualViewport, top=vv?vv.offsetTop:0, bottom=top+(vv?vv.height:window.innerHeight);
+  const st=$("#stage").getBoundingClientRect(), ans=$("#tmin").getBoundingClientRect();
+  if(st.top<top-3||st.bottom>bottom||ans.bottom>bottom-3) phTop();
+}
 function phTop(){ if(!PH()) return; const c=$("#stagecard"); window.scrollTo(0,Math.max(0,c.getBoundingClientRect().top+window.scrollY-2)); }
 $("#stage").closest(".card").id="stagecard";
 const TBC=$("#mode").closest(".card"), MAIN=$(".main"); TBC.id="tbcard";
@@ -676,9 +721,9 @@ function phPlace(){ if(PH()){ if(TBC.parentNode!==$("#stagecard")) $("#stage").a
 phPlace(); window.addEventListener("resize",phPlace);
 $("#phlist").addEventListener("click",()=>{ const on=document.body.classList.toggle("phside"); if(on){ const b=document.querySelector('#side button[aria-current="true"]'), s=$("#side"); s.scrollIntoView({block:"start"}); if(b) s.scrollTop=b.offsetTop-s.offsetTop-40; } });
 $("#side").addEventListener("click",e=>{ if(e.target.closest("button")&&PH()){ document.body.classList.remove("phside"); setTimeout(phTop,0); } });
-document.addEventListener("focusin",e=>{ if(e.target.matches&&e.target.matches("#stagecard input[type=text]")&&PH()){ phFit(); setTimeout(()=>{ phFit(); phTop(); },350); } });
+document.addEventListener("focusin",e=>{ if(e.target.matches&&e.target.matches("#stagecard input[type=text]")&&PH()){ phFit(); setTimeout(()=>{ if(document.activeElement!==e.target) return; phFit(); if(TM.phoneEntry&&e.target===$("#tmin")) phSeeType(); else phTop(); },350); } });
 document.addEventListener("focusout",()=>setTimeout(()=>{ const a=document.activeElement; phFit(); },250));
-if(window.visualViewport) window.visualViewport.addEventListener("resize",()=>{ phFit(); if(document.activeElement&&document.activeElement.matches&&document.activeElement.matches("#stagecard input[type=text]")) phTop(); });
+if(window.visualViewport) window.visualViewport.addEventListener("resize",()=>{ phFit(); if(document.activeElement&&document.activeElement.matches&&document.activeElement.matches("#stagecard input[type=text]")){ if(TM.phoneEntry&&document.activeElement===$("#tmin")) phSeeType(); else phTop(); } });
 window.addEventListener("resize",phFit);
 function fitBoxes(){ const st=$("#stage"), s=st.getBoundingClientRect(); st.querySelectorAll(".box").forEach(b=>{ if(b.style.transform) b.style.transform=""; if(!b.classList.contains("done")) return; const q=b.getBoundingClientRect(); let dx=0,dy=0;
   if(q.right>s.right-2) dx=s.right-2-q.right; if(q.left+dx<s.left+2) dx=s.left+2-q.left; if(q.bottom>s.bottom-2) dy=s.bottom-2-q.bottom; if(q.top+dy<s.top+2) dy=s.top+2-q.top;
