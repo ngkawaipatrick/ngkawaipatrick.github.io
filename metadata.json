@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "0c7a8cc949c34b47b09d5be17efd180e",
+  "slug": "radbio-ch4-protein-mnemonics-0c7a8cc9",
+  "createdAt": "2026-11-24T23:08:04+00:00",
+  "updatedAt": "2026-11-24T23:10:08+00:00",
+  "name": "RadBio Ch4 Protein Mnemonics",
+  "description": "A single self-contained, shareable HTML page presenting the Chapter 4 protein-name decoding table and the mnemonic devices I wrote for the user (DEAB cyclin order, 4-6-2-2-1 CDK partners, five CDK switches, SQ1 chain story and S-S-S-E-A, G2/M checkpoint, checkpoint-protein hooks, apoptosis route, CKIs, SNoW DRoP blots, gene-delivery words, silencing, vectors) plus the short \"how to make these stick\" study tips. Content is exactly the material in known_data; the page should read well on an iPad and print to roughly one or two pages.",
+  "type": "html-app",
+  "primary": "index.html",
+  "port": null,
+  "datasources": [],
+  "files": [],
+  "provenance": [
+    {
+      "conversation": "7125c793-b6e5-49bc-94f5-3f0f6a1f5070",
+      "title": null,
+      "turns": [
+        {
+          "index": 2,
+          "timestamp": "2026-11-24T23:08:04+00:00",
+          "summary": "Created artifact: RadBio Ch4 Protein Mnemonics",
+          "files_touched": []
+        },
+        {
+          "index": 2,
+          "timestamp": "2026-11-24T23:10:08+00:00",
+          "summary": "Generated artifact files",
+          "files_touched": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,105 @@
-:0)
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" data-cowork-observed><script id="cowork-observed-json" type="application/json" data-cowork-observed>{"data-e5e9ec3a38e2":{"source":"Known data passed in by the calling agent (derived from RadBio_Revision_Notes.pdf, Ch 4 pp. 93–125 and Ch 8 summary pp. 288–291); no external fetch","title":"HTI5007 Radiation Biology — Chapter 4 Protein Names: Decoder & Mnemonics","subtitle":"Source: RadBio_Revision_Notes.pdf, Ch 4 pp. 93–125 and Ch 8 summary pp. 288–291","section1":{"heading":"Decode the names (what biologists actually use)","rule_of_thumb":["-ase = enzyme; kinase adds a phosphate, phosphatase removes one","\"p\" = protein","Cdc / RAD / wee = yeast mutant names","ATM / NBS / Rb = named after a human disease"],"columns":["Name","What it really means","Hook"],"rows":[{"name":"p53, p21, p27, p16","meaning":"\"p\" = protein, number = size in kDa","hook":"Big number = big boss (p53). Small numbers (16, 21, 27) are the little wedges (CKIs) that jam a CDK"},{"name":"CDK","meaning":"Cyclin-Dependent Kinase; numbers = order of discovery, not order in the cycle","hook":"That's why the cycle goes 4/6 → 2 → 2 → 1, not 1-2-3-4"},{"name":"Cyclin","meaning":"Named because its level cycles up and down","hook":"Letters D, E, A, B = discovery order too"},{"name":"CKI, CAK","meaning":"CDK Inhibitor; CDK-Activating Kinase","hook":"\"CAK Can Activate Kinase\""},{"name":"Cdc25, Cdc2","meaning":"Cell Division Cycle mutant no. 25 / no. 2 (yeast)","hook":"Cdc2 = CDK1 in old papers"},{"name":"Wee1","meaning":"Yeast mutants lacking it divide too early → tiny \"wee\" cells","hook":"\"Wee1 says Wait\" (puts the tired-phosphate on Tyr)"},{"name":"ATM / ATR","meaning":"Ataxia-Telangiectasia Mutated / ATM-and-Rad3-Related","hook":"Named after the disease of patients who lack it"},{"name":"CHK1, CHK2","meaning":"CHecKpoint Kinase","hook":"Two broken strands (DSB) → ATM → CHK2; one strand (replication stress) → ATR → CHK1"},{"name":"MRN = MRE11 + RAD50 + NBS1","meaning":"Meiotic REcombination 11, RADiation-sensitive 50, Nijmegen Breakage Syndrome 1","hook":"\"Mr N\" — the night-watchman who finds the break"},{"name":"H2AX → γH2AX","meaning":"Histone H2A variant X; γ = the phosphorylated form","hook":"γ-rays leave γ-flags (foci) at each break"},{"name":"MDM2","meaning":"Mouse Double Minute 2 (a gene amplified in mouse cells)","hook":"\"Marks p53 for DeMolition\""},{"name":"CDKN1A (= p21)","meaning":"CDK iNhibitor 1A","hook":"The gene name of the bouncer"},{"name":"Rb","meaning":"RetinoBlastoma (childhood eye tumour when it's lost)","hook":"\"Road Block\" / the brake"},{"name":"E2F","meaning":"adenovirus E2-promoter-binding Factor","hook":"\"Entry-to-S Factor\" — the ignition key Rb holds"},{"name":"Bax","meaning":"Bcl-2-Associated X protein","hook":"\"p53 swings the axe\" at the mitochondrion"},{"name":"Caspase-3","meaning":"Cysteine-ASPartate protease","hook":"The executioner's cleaver"},{"name":"Ubiquitin / proteasome","meaning":"\"ubiquitous\" tag / protein-body shredder","hook":"Kiss-of-death tag → shredder"},{"name":"Luciferase, GFP, Cas9, HSV1-tk, OTC","meaning":"light-bearer (Lucifer) enzyme; Green Fluorescent Protein; CRISPR-ASsociated 9; Herpes simplex virus 1 thymidine kinase; Ornithine TransCarbamylase","hook":"All plain acronyms once expanded"}]},"section2":{"heading":"Invented devices","devices":[{"id":"A","title":"Cyclin order through the cycle — \"DEAB\": Decide, Enter, Advance, Burst","items":["Cyclin D – CDK4/6: G1, the cell Decides to divide","Cyclin E – CDK2: Enter S (G1/S border)","Cyclin A – CDK2: Advance through S and into G2 (the 2024 Q35 answer: CDK2 at S/G2)","Cyclin B – CDK1: Burst into mitosis (G2/M)"],"extra":"CDK partners: \"4-6-2-2-1, like a countdown — the cycle counts down to 1 = mitosis (CDK1).\" D takes the pair (4/6), E and A share 2, B gets 1."},{"id":"B","title":"The five switches on a CDK — \"B-CAK, Wee, Cdc, CKI\"","items":["Bind cyclin (on)","CAK on Thr (on)","Wee1 on Tyr (off)","Cdc25 strips Tyr-phosphate (on again)","CKI p21/p27/p16 (off)"],"extra":"Notes' own line (p. 101): Thr = thrive, Tyr = tired; add \"Wee1 makes it Weary, Cdc25 is the Cure.\""},{"id":"C","title":"The SQ1 chain (DSB → G1 arrest)","story":"Mr N calls ATM, ATM checks (CHK2) and flags (γH2AX); p53 escapes the MDM2 bodyguard, hires the p21 bouncer, who blocks cyclin E–CDK2; Rb keeps the key (E2F); no entry to S.","acronym":{"letters":"M-A-C-P-P-C-R-E","phrase":"My ATM Card Pays Pocket Cash, Really Easy","expansion":"MRN, ATM, CHK2, p53, p21, CDK2 blocked, Rb, E2F"},"five_steps_label":"Sense – Signal – Stabilise – Effector – Arrest (S-S-S-E-A), as in Problem 4.4","five_steps":[{"n":1,"name":"Sense","text":"MRN senses the DSB"},{"n":2,"name":"Signal","text":"ATM phosphorylates CHK2, H2AX, p53"},{"n":3,"name":"Stabilise","text":"p53 escapes MDM2 and builds up"},{"n":4,"name":"Effector","text":"p53 switches on p21, p21 blocks cyclin E–CDK2 and cyclin D–CDK4/6"},{"n":5,"name":"Arrest","text":"Rb stays hypophosphorylated, holds E2F, cell stops at G1/S; outcome = repair / apoptosis / senescence"}]},{"id":"D","title":"The G2/M checkpoint (no p53) — \"ATM/ATR → CHK1/2 ⊣ Cdc25 ⊣ CDK1\"","items":["\"Checks Cancel the Cure\" (CHK cancels Cdc25, so CDK1 stays weary)","Exam contrast: G1 arrest needs p53, G2 arrest does not — \"G1 has 1 guardian; G2 goes without.\"","About half of human cancers have broken TP53."]},{"id":"E","title":"Checkpoint proteins (notes p. 96 table)","items":["\"G1 is a PERP\" (p53, E2F, Rb, p21)","\"Intra-S has 2 A's and 2 C's\" (ATM, ATR, CHK1, CHK2)","\"G2/M: CHK1 Cuts Cdc25, Cyclin B–CDK1\""]},{"id":"F","title":"Apoptosis route — \"p53 → Bax → cyt c → caspase-3\"","items":["\"Bax Cracks the Cell\" (Bax, Cytochrome c, Caspase)"]},{"id":"G","title":"CKIs p16, p21, p27","items":["\"16-21-27: teenager, adult, late-twenties — all three refuse to let the CDK party start\"","p21 is the one p53 orders (gene CDKN1A)"]},{"id":"H","title":"Blots — standard SNoW DRoP","items":["Southern–DNA, Northern–RNA, Western–Protein","Add: \"Southern is the only person (Edwin Southern, 1975); the others are compass jokes.\""]},{"id":"I","title":"Gene delivery","items":["\"Trans-FORM-ation for bacteria (heat shock), trans-FECT-ion for eukaryote cells without virus (electroporation, sonoporation, calcium phosphate, Lipofectamine), trans-DUCT-ion needs a viral conDUCTor.\"","2024 Q2: heat-shock transformation cannot transfer genes into mammalian cells."]},{"id":"J","title":"Silencing (2024 Q29)","items":["\"si, sh, mi, CRISPR silence; mRNA is the Messenger — you don't silence a message by sending more of it.\"","siRNA transient; shRNA stable via vector; miRNA natural, blocks translation; CRISPR/Cas9 cuts the gene, permanent knockout."]},{"id":"K","title":"Vectors","items":["Lentivirus = Long-term, Lazy cells (integrates, infects non-dividing, ~9 kb)","Adeno = Alarm (strong immune response, Jesse Gelsinger 1999)","AAV = Almost no Alarm but small","HSV = Huge capacity"]}]},"section3":{"heading":"How to make these stick","tips":["Draw the SQ1 chain from memory every day (blank page, 2 minutes), then compare with Fig 4.2 / p. 102. The 11-step list collapses to the 5-step S-S-S-E-A answer that earns the marks.","Use the \"tag\" trick when reading: every time a name appears, say its expansion out loud (\"checkpoint kinase 2\"). After three readings the expansion is the memory, not the letters.","Group by role, not alphabet — sensors (MRN), transducers (ATM/ATR, CHK1/2), effectors (p53, p21, Cdc25), targets (cyclin–CDK, Rb, E2F). This matches how examiners phrase SQ1.","Put the DEAB and 4-6-2-2-1 lines on the same card as the Q35 fact (CDK2 at S/G2) — that's the one MC question drawn from this list."]},"standard_mnemonics_from_notes":[{"mnemonic":"Pure As Gold","meaning":"purines (A, G)","ref":"notes p. 111"},{"mnemonic":"Thr = thrive, Tyr = tired","meaning":"phosphate on Thr activates a CDK, on Tyr inhibits it","ref":"notes p. 101"},{"mnemonic":"SNoW DRoP","meaning":"Southern–DNA, Northern–RNA, Western–Protein","ref":"notes p. 117"}]}}</script><script data-cowork-observed>window.ARTIFACT_DATA=JSON.parse(document.getElementById("cowork-observed-json").textContent);</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HTI5007 Ch 4 — Protein Name Decoder & Mnemonics</title>
+<style>
+:root{--ink:#1f2933;--mute:#5b6572;--line:#d9e2ec;--bg:#fbfcfd;--card:#fff;--acc:#1d6fa5;--acc2:#e8f1f8;--gold:#fff7e0}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+main{max-width:980px;margin:0 auto;padding:20px 16px 48px}
+header h1{font-size:1.5rem;margin:0 0 4px;color:var(--acc)}
+header p{margin:0;color:var(--mute);font-size:.9rem}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0;align-items:center}
+.bar input{flex:1;min-width:180px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font-size:1rem}
+.bar button{padding:8px 12px;border:1px solid var(--acc);background:#fff;color:var(--acc);border-radius:8px;font-size:.95rem;cursor:pointer}
+.bar button.on{background:var(--acc);color:#fff}
+h2{font-size:1.2rem;margin:26px 0 8px;padding-bottom:4px;border-bottom:2px solid var(--acc)}
+h2 small{color:var(--mute);font-weight:normal;font-size:.8rem;margin-left:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 12px}
+.chips span{background:var(--acc2);border-radius:999px;padding:3px 10px;font-size:.85rem}
+table{width:100%;border-collapse:collapse;background:var(--card);font-size:.92rem}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+th{background:var(--acc2)}
+td:first-child{font-weight:700;white-space:nowrap}
+tr.hid{display:none}
+.quiz td.hook{color:transparent;background:repeating-linear-gradient(45deg,#f1f4f7,#f1f4f7 6px,#e6eaef 6px,#e6eaef 12px);cursor:pointer}
+.quiz td.hook.show{color:inherit;background:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;break-inside:avoid}
+.card h3{margin:0 0 6px;font-size:1rem}
+.card h3 i{display:inline-block;background:var(--acc);color:#fff;border-radius:6px;padding:0 7px;margin-right:6px;font-style:normal}
+.card ul,.card ol{margin:4px 0 6px;padding-left:20px}
+.card p{margin:6px 0}
+.card .story{background:var(--gold);border-left:3px solid #e0b64a;padding:6px 10px;border-radius:4px}
+.card dl{margin:4px 0}.card dt{font-weight:700}.card dd{margin:0 0 4px 12px}
+.lab{font-size:.8rem;text-transform:uppercase;letter-spacing:.04em;color:var(--mute);margin-top:8px}
+ol.tips li{margin-bottom:8px}
+.std{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}
+.std div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:.92rem}
+.std em{color:var(--mute);font-style:normal;font-size:.8rem;display:block}
+.err{background:#fde8e8;border:1px solid #f5b5b5;padding:10px;border-radius:8px}
+footer{margin-top:28px;color:var(--mute);font-size:.8rem}
+@media (max-width:640px){
+ table,thead,tbody,tr,td,th{display:block}
+ thead{display:none}
+ tr{border:1px solid var(--line);margin-bottom:8px;border-radius:8px;overflow:hidden}
+ td{border:0;border-bottom:1px solid var(--line)}
+ td:first-child{white-space:normal;background:var(--acc2)}
+ td[data-l]:before{content:attr(data-l) ": ";font-weight:600;color:var(--mute)}
+ td:first-child:before{content:none}
+}
+@media print{
+ body{font-size:10.5px;line-height:1.3;background:#fff}
+ main{max-width:none;padding:0}
+ .bar,footer .np{display:none}
+ h2{margin:10px 0 4px;font-size:12px}
+ .grid{grid-template-columns:1fr 1fr;gap:6px}
+ .card{padding:6px 8px;border-radius:4px}
+ th,td{padding:3px 5px}
+ .quiz td.hook{color:inherit;background:none}
+}
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script>
+(function(){
+const app=document.getElementById('app');
+const D=(window.ARTIFACT_DATA||{})["data-e5e9ec3a38e2"];
+if(!D){app.innerHTML='<p class="err">The study content could not be loaded (data missing).</p>';return;}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const KW=/\b(p53|p21|p27|p16|CDK\d(?:\/6)?|CDK|cyclin [A-E]|Cyclin [A-E]|CKI|CAK|Cdc25|Cdc2|Wee1|ATM|ATR|CHK[12]|MRN|MRE11|RAD50|NBS1|γH2AX|H2AX|MDM2|CDKN1A|Rb|E2F|Bax|caspase-3|Caspase-3|Cas9|CRISPR|siRNA|shRNA|miRNA|mRNA|TP53|Lentivirus|AAV|HSV|Adeno|DEAB|S-S-S-E-A|SNoW DRoP|4-6-2-2-1)\b/g;
+// bold quoted phrases and key protein names
+const fmt=s=>{if(s==null)return'';let h=esc(s).replace(/&quot;([^&]*?)&quot;/g,'<b>“$1”</b>');return h.replace(/(<b>[^<]*<\/b>)|[^<]+/g,m=>m.startsWith('<b>')?m:m.replace(KW,'<b>$1</b>'));};
+const val=v=>v==null?'':Array.isArray(v)?'<ol>'+v.map(x=>'<li>'+val(x)+'</li>').join('')+'</ol>':typeof v==='object'?'<dl>'+Object.entries(v).map(([k,x])=>'<dt>'+fmt(k)+'</dt><dd>'+val(x)+'</dd>').join('')+'</dl>':'<span>'+fmt(v)+'</span>';
+const s1=D.section1||{},s2=D.section2||{},s3=D.section3||{},std=D.standard_mnemonics_from_notes||[];
+const cols=s1.columns||['Name','What it really means','Hook'],rows=s1.rows||[];
+let h='<header><h1>'+esc(D.title||'')+'</h1><p>'+esc(D.subtitle||'')+'</p></header>';
+h+='<div class="bar"><input id="q" type="search" placeholder="Filter the decoder table (e.g. ATM, bouncer)…" aria-label="Filter table"><button id="quiz">Test yourself: hide hooks</button><button onclick="window.print()">Print</button></div>';
+h+='<h2>1. '+esc(s1.heading||'Decode the names')+'<small>'+rows.length+' names</small></h2>';
+if(s1.rule_of_thumb)h+='<p><b>Rule of thumb:</b></p><div class="chips">'+s1.rule_of_thumb.map(r=>'<span>'+fmt(r)+'</span>').join('')+'</div>';
+h+='<table id="tbl"><thead><tr>'+cols.map(c=>'<th>'+esc(c)+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr><td>'+esc(r.name??'—')+'</td><td data-l="'+esc(cols[1])+'">'+(r.meaning!=null?fmt(r.meaning):'<i>not given</i>')+'</td><td class="hook" data-l="'+esc(cols[2])+'">'+(r.hook!=null?fmt(r.hook):'<i>not given</i>')+'</td></tr>').join('')+'</tbody></table><p id="none" style="display:none;color:var(--mute)">No rows match.</p>';
+const dev=s2.devices||[];
+h+='<h2>2. '+esc(s2.heading||'Invented devices')+'<small>'+dev.length+' devices</small></h2><div class="grid">'+dev.map(d=>{let c='<div class="card"><h3><i>'+esc(d.id||'')+'</i>'+fmt(d.title)+'</h3>';
+ if(d.story)c+='<p class="story">'+fmt(d.story)+'</p>';
+ if(d.items)c+='<ul>'+d.items.map(i=>'<li>'+fmt(i)+'</li>').join('')+'</ul>';
+ if(d.acronym!=null)c+='<div class="lab">Acronym for the order</div>'+val(d.acronym);
+ if(d.five_steps_label||d.five_steps)c+='<div class="lab">Five mark-earning steps</div>'+(d.five_steps_label?'<p>'+fmt(d.five_steps_label)+'</p>':'')+(d.five_steps?val(d.five_steps):'');
+ if(d.extra)c+='<p>'+fmt(d.extra)+'</p>';
+ return c+'</div>';}).join('')+'</div>';
+const tips=s3.tips||[];
+h+='<h2>3. '+esc(s3.heading||'How to make these stick')+'</h2><ol class="tips">'+tips.map(t=>'<li>'+fmt(t)+'</li>').join('')+'</ol>';
+if(std.length)h+='<h2>Standard mnemonics already in the notes</h2><div class="std">'+std.map(m=>'<div><b>'+esc(m.mnemonic??'—')+'</b> — '+fmt(m.meaning)+'<em>'+esc(m.ref||'')+'</em></div>').join('')+'</div>';
+h+='<footer>'+esc(D.source||'')+'<br><span class="np">Tap a shaded hook in “Test yourself” mode to reveal it.</span></footer>';
+app.innerHTML=h;
+const tbl=document.getElementById('tbl'),q=document.getElementById('q'),none=document.getElementById('none');
+q.addEventListener('input',()=>{const t=q.value.trim().toLowerCase();let n=0;tbl.querySelectorAll('tbody tr').forEach(tr=>{const ok=!t||tr.textContent.toLowerCase().includes(t);tr.classList.toggle('hid',!ok);if(ok)n++;});none.style.display=n?'none':'block';});
+const qb=document.getElementById('quiz');
+qb.addEventListener('click',()=>{const on=tbl.classList.toggle('quiz');qb.classList.toggle('on',on);qb.textContent=on?'Show hooks':'Test yourself: hide hooks';tbl.querySelectorAll('td.hook').forEach(td=>td.classList.remove('show'));});
+tbl.addEventListener('click',e=>{const td=e.target.closest('td.hook');if(td&&tbl.classList.contains('quiz'))td.classList.toggle('show');});
+})();
+</script>
+</body>
+</html>
