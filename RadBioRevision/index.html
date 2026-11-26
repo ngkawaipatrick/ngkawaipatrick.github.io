@@ -1,0 +1,393 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HTI5007 RadBio - Full Last-Minute Cheatsheet</title>
+<style>
+body{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;background:#fafaf7;color:#1e2430;margin:0;padding:14px;font-size:14px;line-height:1.38}
+h1{font-size:20px;margin:0 0 4px}
+h2{font-size:16px;margin:18px 0 6px;padding:4px 8px;background:#1f4e79;color:#fff;border-radius:5px}
+h3{font-size:14px;margin:12px 0 3px;color:#1f4e79;border-bottom:1px solid #c9d6e3}
+p{margin:3px 0}
+ul{margin:2px 0 4px 18px;padding:0}
+li{margin:1px 0}
+table{border-collapse:collapse;margin:4px 0;width:100%}
+th,td{border:1px solid #c9d6e3;padding:2px 6px;text-align:left;vertical-align:top}
+th{background:#e8eff6}
+.k{font-weight:700}
+.n{color:#b32d2d;font-weight:700}
+.f{font-family:"Times New Roman",serif;font-size:15px;background:#fff8e1;padding:1px 5px;border-radius:3px}
+.tip{background:#eaf4ea;border-left:4px solid #3b8b3b;padding:4px 8px;margin:4px 0;border-radius:3px}
+.warn{background:#fdecea;border-left:4px solid #c0392b;padding:4px 8px;margin:4px 0;border-radius:3px}
+.q{color:#666;font-size:12px}
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:8px;margin:6px 0}
+.figs figure{margin:0;background:#fff;border:1px solid #d8dee6;border-radius:6px;padding:4px}
+.figs img{width:100%;height:auto;display:block}
+.figs figcaption{font-size:11px;color:#444;padding:2px 2px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:8px}
+.box{background:#fff;border:1px solid #d8dee6;border-radius:6px;padding:6px 9px}
+.small{font-size:12px;color:#555}
+@media print{body{font-size:11px}h2{break-after:avoid}.box{break-inside:avoid}}
+</style></head><body>
+<h1>HTI5007 Radiation Biology - Full Last-Minute Cheatsheet</h1>
+<p class="small">Keyword style, from RadBio_Revision_Notes.pdf (Ch 1-8). = 2024 question that tested it. Rankings are written most &rarr; least unless stated. &dagger; = textbook fact not on slides.</p>
+
+<div class="warn"><span class="k">Exam technique:</span> 45 MCQ x 2 + 2 SQ x 5, 60 min, no negative marking &rarr; never leave blank. Expect several <span class="k">NOT questions</span>: circle "NOT", four options are TRUE. Trap words: "famous answer" (DSB vs rarest; late S vs G1), D0 vs D10, ring vs dicentric.</div>
+
+<h2>Ch 1 - Physics, DNA, cell cycle</h2>
+<div class="grid">
+<div class="box"><h3>Numbers</h3>
+<ul>
+<li>Ionisation in water <span class="n">~33 eV</span>; C=C bond <span class="n">4.9 eV</span>. 1 MeV e- &rarr; ~30,000 ion pairs.</li>
+<li>Lethal 4 Gy x 70 kg = 280 J = 67 cal &rarr; +0.001 &deg;C. Kills by DNA damage, not heat.</li>
+<li><span class="f">&lambda;(&Aring;) = 12.4 / E(keV)</span></li>
+<li>DNA helix <span class="n">2 nm</span> wide; A-T 2 H-bonds, G-C 3; purines A,G ("Pure As Gold"); phosphate on <span class="n">5'</span> carbon, links to 3' of next. Base on 1'.</li>
+<li>Indirect action ~<span class="n">2/3</span> of X-ray damage; radicals must form within <span class="n">4 nm</span> of DNA. Cells 70-80% water &rarr; water = main radiolysis target.</li>
+</ul></div>
+<div class="box"><h3>Photon interactions (3)</h3>
+<table><tr><th>Process</th><th>Dominates</th><th>Z, E</th></tr>
+<tr><td>Photoelectric</td><td>&lt; ~0.5 MeV</td><td>Z&sup3;/E&sup3;&dagger;</td></tr>
+<tr><td>Compton</td><td>~100 keV - 10 MeV; <span class="k">1 MeV = Compton</span></td><td>electron density, ~indep. of Z</td></tr>
+<tr><td>Pair production</td><td>&gt; 1.022 MeV threshold</td><td>Z&sup2;&dagger;</td></tr></table>
+<p>Water crossovers: PE = Compton at ~30 keV; Compton = pair at ~24 MeV.</p>
+</div>
+<div class="box"><h3>Timescale (rank: fast &rarr; slow)</h3>
+<p>10<sup>-15</sup> s ionisation &rarr; 10<sup>-10</sup> ion radicals &rarr; 10<sup>-9</sup> free radicals (OH&bull;) &rarr; 10<sup>-5</sup> DNA radical fixed by O&#8322; or restored by -SH &rarr; 10<sup>-3</sup> chemistry over &rarr; hours-months cell death / early-late effects &rarr; years cancer &rarr; generations heritable.</p>
+</div>
+<div class="box"><h3>Cell cycle</h3>
+<ul>
+<li>G1 &rarr; S &rarr; G2 &rarr; M; G0 = resting (neurons for life). Interphase = G1+S+G2.</li>
+<li><span class="k">G1 varies most</span> &rarr; sets doubling time; S, G2, M ~constant (~10 h together). Typical cancer line CDT ~24 h.</li>
+<li>Mitosis P-M-A-T; <span class="k">metaphase</span> = line up on equatorial plate.</li>
+<li>Cyclin-CDK pairs (4): D-CDK4/6 (early/mid G1); E-CDK2 (G1/S); A-CDK2 (S/G2); B-CDK1 (G2/M). <span class="k">CDK2</span> = G1&rarr;S and S/G2.</li>
+<li>Checkpoints: G1/S "safe to copy?"; G2/M "copied correctly?".</li>
+<li>Telomerase &rarr; immortal cancer cells; 2009 Nobel. Watson-Crick 1953, Nobel 1962, Photo 51 (Franklin).</li>
+<li>History: Rontgen 1895; Becquerel 1896; Curies 1898 (Po, Ra).</li>
+</ul></div>
+<div class="box"><h3>1.1-1.3, 1.6 basics</h3>
+<ul>
+<li>Levels of effect (4): molecule (radicals, DNA/protein) &rarr; cell (aberration, mutation, death, immortalisation) &rarr; tissue (cancer, necrosis, organ failure) &rarr; whole body (death). "Game theory - it's gambling": all events probabilistic.</li>
+<li>Misconceptions: microwave, mobile RF = non-ionising; Fukushima food monitored; chest X-ray ~0.1 mGy&dagger; &rarr; 0.004 DSB/cell = 1 cell in 250, repaired.</li>
+<li>Sources: natural (cosmic, radon, rocks, food/body); artificial ~15% of exposure, &gt;90% of that medical. Protection (4): <span class="k">time, decay, distance (1/r&sup2;), shielding</span>.</li>
+<li>X-ray = outside nucleus (bremsstrahlung/shells); &gamma; = inside nucleus; same E behaves the same. 1 eV = 1.6x10<sup>-19</sup> J. Particles: e-, e+, p (1840 m<sub>e</sub>), &alpha; (2p2n), n, heavy ions (C).</li>
+<li><span class="k">Directly ionising</span> = charged (e, p, &alpha;, C); <span class="k">indirectly ionising</span> = photons, neutrons (n &rarr; recoil p = high LET). &ne; "indirect action".</li>
+</ul></div>
+</div>
+
+<h3 style="border:0">Key diagrams</h3><div class="figs"><figure><img src="fig/f1_1.jpg" alt="Fig 1.1" loading="lazy"><figcaption>Fig 1.1: Photon interactions vs energy: photoelectric / Compton / pair, 1.022 MeV threshold</figcaption></figure><figure><img src="fig/f1_6.jpg" alt="Fig 1.6" loading="lazy"><figcaption>Fig 1.6: Time-scale of radiation effects</figcaption></figure><figure><img src="fig/f1_9.jpg" alt="Fig 1.9" loading="lazy"><figcaption>Fig 1.9: Cell cycle, cyclin-CDK pairs, checkpoints</figcaption></figure></div>
+<h2>Ch 2 - DNA damage, repair, chromosome aberrations</h2>
+<div class="grid">
+<div class="box"><h3>Lesions per cell per 1-2 Gy (ranked most &rarr; rarest)</h3>
+<table><tr><th>Lesion</th><th>No.</th><th>Repair</th></tr>
+<tr><td>Base damage</td><td class="n">&gt;1000</td><td>BER</td></tr>
+<tr><td>Sugar damage</td><td class="n">800-1000</td><td>BER</td></tr>
+<tr><td>SSB</td><td class="n">~1000</td><td>BER / NER</td></tr>
+<tr><td>DNA-protein crosslink (DPC)</td><td class="n">~150</td><td>DPC-PR (protease)</td></tr>
+<tr><td>DSB (most lethal)</td><td class="n">~40</td><td>NHEJ / HRR</td></tr>
+<tr><td>DNA-DNA crosslink (ICL) - <span class="k">rarest</span></td><td class="n">~30</td><td>Fanconi anaemia (FA) pathway</td></tr></table>
+<p>DSB = 2 SSB on opposite strands within ~10 bp; DSB/SSB = 4%; linear with dose (3 Gy &rarr; 3000 SSB, 120 DSB). Marker &gamma;-H2AX&dagger;. FA patients &rarr; sensitive to <span class="k">alkylating agents</span> (cisplatin, mitomycin C, nitrogen mustards). NER removes 24-32 nt (mammal) / 12-16 (E. coli); UV pyrimidine dimers.</p>
+</div>
+<div class="box"><h3>Radiolysis &amp; scavengers</h3>
+<p class="f">H&#8322;O &rarr; H&#8322;O<sup>+</sup> + e<sup>-</sup><sub>aq</sub>; H&#8322;O<sup>+</sup> &rarr; H<sup>+</sup> + OH&bull;; e<sup>-</sup><sub>aq</sub> + H&#8323;O<sup>+</sup> &rarr; H&bull; + H&#8322;O</p>
+<p>OH&bull; = most damaging. OH&bull;+OH&bull; &rarr; H&#8322;O&#8322;; H&bull;+H&bull; &rarr; H&#8322;. Scavengers: GSH / -SH, vit C, vit E. High-LET = mostly direct action.</p>
+<p>LD50/60 human <span class="n">~4 Gy</span> (6-7 Gy with care&dagger;); mouse LD50/30 <span class="n">~7 Gy</span>.</p>
+</div>
+<div class="box"><h3>NHEJ vs HRR</h3>
+<table><tr><th></th><th>NHEJ</th><th>HRR</th></tr>
+<tr><td>Proteins</td><td>Ku70/Ku80, DNA-PKcs, XRCC4, ligase IV (Artemis&dagger;)</td><td>Rad51, Rad52, BRCA1, BRCA2 (CtIP&dagger;)</td></tr>
+<tr><td>Shared</td><td colspan="2"><span class="k">MRN = MRE11-RAD50-NBS1</span> (both); BRCA1 NOT in NHEJ</td></tr>
+<tr><td>Phase</td><td>all; dominant G0/G1</td><td>S, G2 only (sister chromatid)</td></tr>
+<tr><td>Template / speed / accuracy</td><td>none / fast / error-prone; &gt;80% of DSBs</td><td>sister / slow / error-free</td></tr></table>
+<p>PARP inhibitor (olaparib&dagger;) + BRCA loss = synthetic lethality. ATM loss = A-T; NBS1 loss = Nijmegen. CRISPR-Cas9: NHEJ &rarr; indel knockout; HDR + donor &rarr; precise edit.</p>
+</div>
+<div class="box"><h3>Chromosome aberrations</h3>
+<ul>
+<li>Break fates (3): restitution, deletion, exchange.</li>
+<li>Before replication (G1/early S) &rarr; <span class="k">chromosome-type</span> (both chromatids); after (late S/G2) &rarr; <span class="k">chromatid-type</span>.</li>
+<li><span class="k">Lethal (3):</span> dicentric, centric ring, anaphase bridge. <span class="k">Non-lethal (mutation):</span> reciprocal/symmetric translocation (stable, oncogene), small deletion (terminal/interstitial), interphase rearrangement&dagger;.</li>
+<li>Acrocentric: 13, 14, 15, 21, 22. Robertsonian 13/21 or 14/21 &rarr; carrier healthy, child Down = <span class="k">genetic effect</span>.</li>
+<li>Dicentric = biodosimetry marker: 2 centromeres, easy to see, specific (background ~1/1000 cells), yield rises with dose, lymphocytes in G0. Translocations (FISH&dagger;) for old exposures.</li>
+<li>Mitotic catastrophe = main death mode after RT; NOT programmed; micronuclei, giant cells.</li>
+<li>Sensitivity: <span class="k">M &asymp; G2 &gt; G1 &gt; early S &gt; late S</span> (most resistant). G2/M "too short to repair"; late S has sister chromatid for HRR.</li>
+<li>Damage classes (4): non-lethal, sublethal (SLD), potentially lethal (PLD), lethal.</li>
+</ul></div>
+<div class="box"><h3>2.1-2.4, 2.7 extras</h3>
+<ul>
+<li>Macroscopic damage sources (3): weapons, disasters, accidents; acute vs chronic. Microscopic (3): DNA damage, aberrations, cell damage. "Lucky draw".</li>
+<li>Ballistic-gel picture: low-LET sparse (X, &gamma;, e-); high-LET dense (&alpha;, C ions, n via recoil p).</li>
+<li>4 stages: physical 10<sup>-15</sup> s &rarr; physico-chemical 10<sup>-12</sup> &rarr; chemical 10<sup>-5</sup>-1 s &rarr; biological s-years. Chain: IR &rarr; excitation (heat) / ionisation &rarr; radicals &rarr; chemical repair or DNA damage &rarr; enzymatic repair or death / mutation (germline &rarr; heritable; somatic &rarr; cancer).</li>
+<li>Hereditary myth: radiation makes no new kinds of mutation, only raises frequency &rarr; stochastic.</li>
+<li>BER 4 steps: glycosylase &rarr; AP endonuclease &rarr; polymerase &rarr; ligase. NER: recognise &rarr; dual incision &rarr; remove oligo &rarr; fill/seal.</li>
+<li>Karyotype at metaphase shows acentric fragment, centric ring, dicentric.</li>
+</ul></div>
+</div>
+
+<h3 style="border:0">Key diagrams</h3><div class="figs"><figure><img src="fig/f2_5.jpg" alt="Fig 2.5" loading="lazy"><figcaption>Fig 2.5: NHEJ (G1, no template) vs HRR (S/G2, sister chromatid)</figcaption></figure><figure><img src="fig/f2_6.jpg" alt="Fig 2.6" loading="lazy"><figcaption>Fig 2.6: NHEJ (A) and HRR (B) protein steps</figcaption></figure><figure><img src="fig/f2_7.jpg" alt="Fig 2.7" loading="lazy"><figcaption>Fig 2.7: Dicentric (A), ring (B), chromatid exchange (C)</figcaption></figure></div>
+<h2>Ch 3 - Effects on humans, history, ARS</h2>
+<div class="grid">
+<div class="box"><h3>History &amp; data sources</h3>
+<ul>
+<li>Fleischman (burns 1897, d.1905), Dally, Geyser (Tricho hair-removal X-ray ~1924). Radithor: Eben Byers ~1400 bottles 1927-30 &rarr; <span class="k">radiation hormesis</span> belief.</li>
+<li>Ra-223 Xofigo (FDA 2013): mCRPC bone mets; t&frac12; <span class="n">11.43 d</span>; 95.3% energy as &alpha;, 1.1% photons (81-84 keV); &lt;0.1 mm range; faeces. <span class="f">fraction = (&frac12;)<sup>t/t&frac12;</sup></span> (28 d &rarr; 18%; 30 d &rarr; 16.2%).</li>
+<li>Mega Mouse (Russells, Oak Ridge, ~7 million mice, 7 loci): conclusions (4) = mutation rate &prop; DNA amount/nucleus size; loci differ ~35x; <span class="k">males</span> more sensitive; time gap before conception reduces effect; + dose-rate/fractionation matter. NOT: "aged mice more sensitive". Selby-Russell dispute &rarr; LNT evidence.</li>
+<li>Human data: dial painters (jaw, bone sarcoma), miners (radon, lung), X-ray pioneers, A-bomb (Hiroshima 6 Aug 1945 U-235; Nagasaki 9 Aug Pu-239; ~120,000 followed, 60,000 cancer deaths by 1990 but only ~5% attributable). Doubling dose ~1 Gy&dagger;; children of survivors: no measurable excess.</li>
+<li>INES: TMI 1979 = 5; Chernobyl 1986 = 7; Tokaimura 1999 = 5 on slide (4 official); Fukushima 2011 = 7.</li>
+</ul></div>
+<div class="box"><h3>Classification</h3>
+<p>Genetic (always stochastic) vs somatic; early (always deterministic: desquamation, nausea, mucositis, erythema) vs late (stochastic = cancer; deterministic = telangiectasia, pigmentation, cataract, fibrosis).</p>
+<table><tr><th></th><th>Stochastic</th><th>Deterministic</th></tr>
+<tr><td>Level</td><td>single cell transformed</td><td>organ, many cells killed</td></tr>
+<tr><td>Threshold</td><td>none; baseline F&#8320; (happens with no radiation)</td><td>D<sub>Th</sub>; D&#8325;&#8320;</td></tr>
+<tr><td>Dose &uarr;</td><td>probability</td><td>severity</td></tr>
+<tr><td>Where</td><td>diagnostics; ALARA</td><td>RT; ICRP thresholds</td></tr></table>
+<p>Fatal cancer ~5%/Sv&dagger;; worker limit 20 mSv/y (max 50)&dagger;; cataract threshold 0.5 Gy&dagger;. Stochastic curve peaks ~2.5 Gy then dips (cell killing). Radiation events are probabilistic.</p>
+</div>
+<div class="box"><h3>Dosimetry &amp; biodosimetry</h3>
+<ul>
+<li>TLD: 0.05 mSv - 10 Sv; not for accident victims (no badge).</li>
+<li>Dicentric assay: blood &rarr; PHA&dagger; stimulates G0 lymphocytes &rarr; colcemid&dagger; at metaphase &rarr; stain, count. <span class="n">~500 cells</span>, limit <span class="n">0.25 Gy</span>, in vivo = in vitro yield. Lymphocytes: long-lived, sensitive, well distributed, G0.</li>
+<li><span class="f">Y = c + &alpha;D + &beta;D&sup2;</span> &rarr; <span class="f">D = [-&alpha; + &radic;(&alpha;&sup2; + 4&beta;Y)] / 2&beta;</span>. Slide fit &alpha;=0.03, &beta;=0.06: Y=0.1 &rarr; 1.06 Gy; Y=0.3 &rarr; 2.0 Gy. Uncertainty &radic;N (Poisson). Data: 1 Gy 0.109; 2 Gy 0.316; 5 Gy 1.69.</li>
+</ul>
+<div class="tip">Technique: yield = dicentrics &divide; cells scored, then quadratic formula, take + root.</div>
+</div>
+<div class="box"><h3>Skin &amp; ARS</h3>
+<p>Skin: mild <span class="n">6-8 Gy</span> (epilation, erythema); moderate <span class="n">8-20</span> (2nd-degree burn); severe <span class="n">&gt;20</span> (desquamation, necrosis). All deterministic. Chronic &rarr; ulceration.</p>
+<p>ARS phases (3): prodromal &rarr; latent &rarr; manifest illness. Time-to-vomit: 1-2 Gy &ge;2 h (10-50%); 2-4 Gy 1-2 h; 4-6 Gy &lt;1 h (100%); 6-8 Gy &lt;30 min; &gt;8 Gy &lt;10 min.</p>
+<table><tr><th>Syndrome</th><th>Dose</th><th>Cells lost</th><th>Death</th></tr>
+<tr><td>Haematopoietic</td><td class="n">1-6 Gy</td><td>HSC</td><td>weeks; BMT possible; marrow lost permanently ~7 Gy</td></tr>
+<tr><td>GI</td><td class="n">6-15 Gy</td><td><span class="k">crypt stem cells</span>; villi bare in 3-5 d</td><td>&lt;10 d; none survive &gt;10 Gy</td></tr>
+<tr><td>Neurovascular/CNS</td><td class="n">&gt;15 Gy</td><td>brain vessels</td><td>&lt;48 h, no latent</td></tr></table>
+<p>Blood-count fall order (= sensitivity): <span class="k">lymphocytes &gt; granulocytes &gt; platelets &gt; erythrocytes</span>. Lymphocytes die by interphase apoptosis (nadir day ~6); granulocytes nadir d 8-10 (live ~1 d&dagger;); platelets d 16-18 (8-10 d&dagger;); RBC d 18-20 (120 d&dagger;). Normal lymph 1-5 G/L, gran 3-7 G/L.</p>
+<p>Care: LD50/60 4 Gy; 4-5 Gy antibiotics; &gt;5 Gy isolation + barrier nursing; BMT only in dose window (high enough to ablate immunity, low enough to avoid GI). Stem cells: totipotent (zygote) &gt; pluripotent (ESC, iPS - Yamanaka 2006) &gt; multipotent (HSC) &gt; unipotent &gt; differentiated.</p>
+</div>
+<div class="box"><h3>3.3 genetic effects extras</h3>
+<ul>
+<li>Germ cells by meiosis; synapsis (pairing) &rarr; crossover; radiation &rarr; mis-alignment.</li>
+<li>Mutations not always bad: Tsien mutated GFP into colours (2008 Nobel).</li>
+<li>Human: no measurable excess in A-bomb children; wait ~6 months before conceiving&dagger;.</li>
+</ul></div>
+</div>
+
+<h3 style="border:0">Key diagrams</h3><div class="figs"><figure><img src="fig/f3_1.jpg" alt="Fig 3.1" loading="lazy"><figcaption>Fig 3.1: Classification tree: genetic / somatic, early / late, stochastic / deterministic</figcaption></figure><figure><img src="fig/f3_2.jpg" alt="Fig 3.2" loading="lazy"><figcaption>Fig 3.2: Stochastic dose-response: no threshold, baseline F0</figcaption></figure><figure><img src="fig/f3_3.jpg" alt="Fig 3.3" loading="lazy"><figcaption>Fig 3.3: Deterministic dose-response: threshold, sigmoid, D50</figcaption></figure><figure><img src="fig/f3_5.jpg" alt="Fig 3.5" loading="lazy"><figcaption>Fig 3.5: Dicentric calibration curve (LQ)</figcaption></figure><figure><img src="fig/f3_8.jpg" alt="Fig 3.8" loading="lazy"><figcaption>Fig 3.8: ARS time course by dose band</figcaption></figure><figure><img src="fig/f3_9.jpg" alt="Fig 3.9" loading="lazy"><figcaption>Fig 3.9: Blood counts after TBI: lymphocytes fall first</figcaption></figure></div>
+<h2>Ch 4 - Cell cycle measurement, checkpoints, molecular tools</h2>
+<div class="grid">
+<div class="box"><h3>Cycle times &amp; PLM</h3>
+<table><tr><th>Line</th><th>T<sub>C</sub></th><th>G1</th><th>S</th><th>G2</th><th>M</th></tr>
+<tr><td>CHO</td><td>11</td><td>1</td><td>6</td><td>3</td><td>1</td></tr>
+<tr><td>HeLa</td><td>24</td><td>11</td><td>8</td><td>4</td><td>1</td></tr></table>
+<p><span class="f">T<sub>C</sub> = T<sub>G1</sub> + T<sub>S</sub> + T<sub>G2</sub> + T<sub>M</sub></span>. PLM (&sup3;H-thymidine pulse, labelled mitoses %): first rise crosses 50% at <span class="k">T<sub>G2</sub> + &frac12;T<sub>M</sub></span>; width of 1st peak at 50% = <span class="k">T<sub>S</sub></span>; peak-to-peak = <span class="k">T<sub>C</sub></span>; G1 by subtraction.</p>
+<div class="tip">CHO check: 50% at 3.5 h, back down 9.5 h (S=6), 2nd rise 14.5 h (T<sub>C</sub>=11).</div>
+<p>Synchronise (2): mitotic shake-off; hydroxyurea (blocks at G1/S).</p>
+<p>Age response: Sinclair CHO 6.6 Gy &rarr; G1 13% vs late S 42% survive (3.2x). Terasima &amp; Tolmach 1963 HeLa (early-G1 resistant period too).</p>
+</div>
+<div class="box"><h3>G1 arrest chain (short-answer chain)</h3>
+<p><span class="k">DSB &rarr; MRN &rarr; ATM (&amp; CHK2) &rarr; p53 phosphorylated, freed from MDM2 &rarr; p21 (CDKN1A) &rarr; &#8869; cyclin E-CDK2 &rarr; Rb hypophosphorylated holds E2F &rarr; S genes off &rarr; G1/S arrest; else apoptosis (Bax, PUMA) / senescence.</span></p>
+<p class="small">Lose marks by: p53 "stops cycle" without p21; ATR instead of ATM; p21 on cyclin B-CDK1; no outcome.</p>
+<h3>Redistribution evidence (short-answer chain)</h3>
+<p>Terasima-Tolmach shake-off &rarr; age-response curve &rarr; M/G2 sensitive, late S resistant (Sinclair) &rarr; Elkind split dose 37 &deg;C: rise (~2 h, SLDR) &rarr; dip (~6 h, reassortment) &rarr; rise (repopulation) &rarr; 24 &deg;C control: dip vanishes (repair yes, cycling no).</p>
+</div>
+<div class="box"><h3>Molecular biology</h3>
+<ul>
+<li>Central dogma; 64 codons; start <span class="k">AUG = Met</span>; stop UAA, UAG, UGA; codons read from mRNA.</li>
+<li>Blots "SNoW DRoP": Southern-DNA (1975, agarose, horizontal, capillary, EtBr), Northern-RNA, Western-protein (acrylamide, vertical, electro-transfer, SDS, antibody).</li>
+<li>Expression: qRT-PCR (few genes), microarray (thousands known), RNA-seq (all).</li>
+<li>Silencing (4): siRNA (transient), shRNA (stable, lentivirus), miRNA (natural), CRISPR/Cas9 (DNA knockout). <span class="k">mRNA cannot silence</span>.</li>
+<li>Gene delivery (3 words): <span class="k">transformation</span> = bacteria (heat shock 42 &deg;C) - NOT mammalian; <span class="k">transfection</span> = non-viral into eukaryote (electroporation, sonoporation, Ca-phosphate, Lipofectamine); <span class="k">transduction</span> = viral.</li>
+<li>Vectors: plasmid, cosmid, BAC, &lambda; phage, adenovirus (strong immune), AAV (small, mild), HSV (large capacity), lentivirus (ssRNA, ~9 kb, integrates, non-dividing cells). EcoRI GAATTC&dagger;.</li>
+<li>Jesse Gelsinger 1999: OTC deficiency, adenovirus, UPenn, J. Wilson conflict of interest.</li>
+<li>Reporters (3): GFP (2008 Nobel Shimomura/Chalfie/Tsien; RFP), luciferase (IVIS), HSV1-tk + &sup1;&sup2;&sup3;I-FIAU (SPECT/CT); HSV1-tk also suicide gene (ganciclovir). Models: subcutaneous vs orthotopic (Lin 2014 JNM).</li>
+</ul></div>
+<div class="box"><h3>4.1-4.3, 4.8 extras</h3>
+<ul>
+<li>Howard &amp; Pelc 1953 named phases (&sup3;&sup2;P, Vicia faba, autoradiography). Typical: G1 1 h-days (variable), S 6-8 h, G2 3-4 h, M 1 h. Jejunum crypt ~9-10 h; skin basal &gt;200 h.</li>
+<li>Checkpoints (4): G1/S (p53, p21, Rb, E2F); intra-S (ATM, ATR, CHK1/2); G2/M (CHK1, Cdc25, CDK1-cyclin B); spindle. G2/M arrest: ATM/ATR &rarr; CHK1/2 &#8869; Cdc25 &rarr; CDK1 stays Tyr-phosphorylated; <span class="k">p53-independent</span> (half of cancers lack p53 &rarr; rely on G2/M).</li>
+<li>PLM damping: variable cycle (mostly G1), uneven label. Modern: BrdU + antibody; flow cytometry (propidium iodide; 2N = G1, 4N = G2/M, between = S).</li>
+<li>CDK control (5): cyclin binds (on); CAK Thr-P (on, "thrive"); Wee1 Tyr-P (off, "tired"); Cdc25 removes (on); CKIs p21/p27/p16 (off). Cyclin destroyed by ubiquitin-proteasome. CDK1 = Cdc2.</li>
+<li>Late S resistant: sister template for HR + more thiols&dagger;. G2/M sensitive: no time, condensed chromatin, acentric fragments lost. Age response also in crypts; OER ~same across phases; high-LET flattens phase differences.</li>
+<li>DNA vs RNA: deoxyribose/ribose (2'-OH), T/U, ds/ss. Purines A,G (2 rings); pyrimidines C,T,U. Phosphodiester 3'&rarr;5'; antiparallel; 5' end phosphate, 3' end -OH.</li>
+<li>RNA types: mRNA, rRNA, tRNA (anticodon). Exons/introns, splicing; reverse transcriptase &rarr; cDNA (no introns). Genomic vs cDNA library. Restriction site 4-8 nt, palindromic; name = genus+species+strain+number.</li>
+<li>Gene therapy routes: viral (lenti, retro, adeno, AAV), nanoparticles, gene gun, in vivo electroporation, transposon&dagger;, S/MAR&dagger;.</li>
+</ul></div>
+</div>
+
+<h3 style="border:0">Key diagrams</h3><div class="figs"><figure><img src="fig/f4_1.jpg" alt="Fig 4.1" loading="lazy"><figcaption>Fig 4.1: PLM curve: TG2+TM/2, width = TS, peak-to-peak = TC</figcaption></figure><figure><img src="fig/f4_2.jpg" alt="Fig 4.2" loading="lazy"><figcaption>Fig 4.2: p53-p21 G1/S arrest (normal vs DSB)</figcaption></figure></div>
+<h2>Ch 5 - Survival curves (heaviest chapter)</h2>
+<div class="grid">
+<div class="box"><h3>Clonogenic assay</h3>
+<p>Survival = can form colony &ge; <span class="n">50 cells</span> (5-6 divisions), 1-2 weeks; gold standard; cancer cells ignore contact inhibition. Log SF vs linear dose.</p>
+<p class="f">PE = colonies / seeded (0 Gy) &nbsp;&nbsp; SF = colonies / (seeded x PE)</p>
+<div class="tip">80/100 &rarr; PE 0.8; 120/(1000x0.8) = 0.15. Seed more cells at high dose to get countable colonies.</div>
+</div>
+<div class="box"><h3>Single-target single-hit (STSH)</h3>
+<p class="f">SF = e<sup>-D/D&#8320;</sup></p>
+<p>Poisson: P(0 hits) = e<sup>-m</sup>. D&#8320; = mean 1 hit/cell = 37% dose. Straight line, no shoulder (Dq = 0). <span class="k">Lower D&#8320; = steeper = more sensitive</span>.</p>
+<table><tr><th>D / D&#8320;</th><td>1</td><td>2</td><td><span class="k">2.3</span></td><td><span class="k">3.3</span></td><td><span class="k">4.6</span></td><td>6.9</td></tr>
+<tr><th>SF</th><td>0.37</td><td>0.135</td><td>0.10</td><td>0.037</td><td>0.01</td><td>0.001</td></tr></table>
+<p>D&#8321;&#8320; = D&#8320; ln10 = 2.3 D&#8320;; 3.7% at 3.3 D&#8320;; 10<sup>8</sup> cells x 2 D&#8320; &rarr; 1.35x10<sup>7</sup>. Memorise ln2 = 0.693, ln10 = 2.303, e<sup>-1</sup> = 0.37.</p>
+</div>
+<div class="box"><h3>Multi-target (MTSH) &amp; two-component</h3>
+<p class="f">SF = 1 - (1 - e<sup>-D/D&#8320;</sup>)<sup>n</sup> &nbsp;&nbsp; Dq = D&#8320; ln n &nbsp;&nbsp; high dose: SF &asymp; n e<sup>-D/D&#8320;</sup></p>
+<p>n = extrapolation number (back-extrapolate straight part to SF axis); D&#8320; = final slope; Dq = shoulder width (quasi-threshold). Two-component: <span class="f">SF = e<sup>-D/D&#8321;</sup>[1-(1-e<sup>-D/D&#8320;</sup>)<sup>n</sup>]</span>, D&#8321; = initial slope.</p>
+<div class="tip">n=4, D&#8320;=1.5: Dq = 1.5 ln4 = 2.08 Gy; SF(6 Gy) = 1-(1-e<sup>-4</sup>)<sup>4</sup> = 0.0713; SF(1 Gy)=0.944.</div>
+<div class="warn">Dq: belongs to MTSH (not STSH), not a DNA-damage threshold, not no. of targets (that is n), fixed property of the curve; <span class="k">hypoxia multiplies D&#8320; and Dq by OER, n unchanged</span>. Wider shoulder / larger Dq, n, D&#8321; = more repair = more <span class="k">resistant</span>.</div>
+</div>
+<div class="box"><h3>Linear-quadratic (LQ)</h3>
+<p class="f">SF = e<sup>-(&alpha;D + &beta;D&sup2;)</sup></p>
+<p>&alpha; (Gy<sup>-1</sup>) single-track; &beta; (Gy<sup>-2</sup>) two-track. <span class="k">&alpha;/&beta; unit = Gy</span> = dose where &alpha;D = &beta;D&sup2;. Late tissue (cord, lung, kidney) <span class="n">2-4 Gy</span> (~3); early tissue &amp; tumours <span class="n">~10 Gy</span>; prostate 2-3 (low). <span class="k">Smaller &alpha;/&beta; = wider shoulder = more curved</span> = more fraction-size sensitive.</p>
+<div class="tip">&alpha;=0.3, &beta;=0.03: SF(2) = e<sup>-0.72</sup> = 0.487; &alpha;/&beta; = 10.</div>
+<p>LQ vs MTSH: both are <span class="k">mathematical fits, not biological</span>; LQ has no terminal slope (bends forever), more low-dose curvature; MTSH has terminal slope; both straight for high-LET.</p>
+</div>
+<div class="box"><h3>Finding &alpha;/&beta;</h3>
+<p>Fe plot (Douglas-Fowler): <span class="f">1/D = &alpha;/E + (&beta;/E) d</span> &rarr; &alpha;/&beta; = intercept &divide; slope; x-intercept at d = -&alpha;/&beta;. (0.020/0.0067 = 3 Gy.)</p>
+<p>Two isoeffective schedules: <span class="f">&alpha;/&beta; = (D&#8322;d&#8322; - D&#8321;d&#8321;) / (D&#8321; - D&#8322;)</span>. 60 Gy@2 vs 40 Gy@4 &rarr; (160-120)/(60-40) = 2 Gy.</p>
+</div>
+<div class="box"><h3>TCP / NTCP</h3>
+<p class="f">TCP = e<sup>-N&middot;SF</sup> &nbsp;&nbsp; P = 1 / [1 + (D&#8325;&#8320;/D)<sup>k</sup>]</p>
+<p>N clonogens; Poisson zero survivors. Therapeutic window: TCP &ge; 0.5 &amp; NTCP &le; 0.05. k = steepness.</p>
+<div class="tip">N=10<sup>9</sup>, D&#8320;=3, TCP 0.9 &rarr; N&middot;SF = -ln0.9 = 0.105 &rarr; SF = 1.05x10<sup>-10</sup> &rarr; D = -3 ln(SF) = 68.9 Gy. 40 Gy, D&#8320; 2.2 &rarr; 12.7 survivors &rarr; TCP ~0. Fractionated effective D&#8320; ~3 Gy; ~7 Gy per decade.</div>
+</div>
+<div class="box"><h3>5.1-5.4, 5.7e, 5.11 extras</h3>
+<ul>
+<li>Survival = reproductive integrity; reproductive (mitotic/clonogenic) death; non-dividing cells (nerve, muscle): death = loss of function&dagger;.</li>
+<li><span class="k">Radiosensitivity</span> (killing) &ne; <span class="k">responsiveness</span> (speed of shrinkage, depends on turnover).</li>
+<li>Survival depends on (7): dose, LET, dose rate, cycle phase, differentiation, sensitisers/-SH, oxygen.</li>
+<li>Assay steps (8): monolayer &rarr; trypsin &rarr; single-cell suspension &rarr; count &rarr; seed (more cells at higher dose; aim 50-150 colonies&dagger;) &rarr; irradiate &rarr; incubate 1-2 wk 37 &deg;C &rarr; fix, stain, count &ge;50. Slide: 100/400/1000/10000 seeded &rarr; 90/72/36/45 colonies &rarr; PE 0.9, SF 0.2/0.04/0.005. Uses: therapeutic ratio, W<sub>R</sub>, RBE, OER.</li>
+<li>Semi-log plot: log SF never reaches zero; exponential = straight line. Shapes (2): straight (high-LET, very sensitive cells) vs shoulder (X-rays, SLD repair; wider shoulder = more repair).</li>
+<li>Slide LQ fit: &alpha; 0.091, &beta; 0.074 &rarr; &alpha;/&beta; 1.23 Gy (broad shoulder, late-like). Animal &alpha;/&beta;: skin 9-12, jejunum 6-10, colon 10-11, testis 12-13; cord 1.7-4.9, kidney 1-2.4, lung 2-6.3, bladder 3.1-7.</li>
+<li>Widen therapeutic window (3): fractionation; dose shaping (IMRT, protons) shifts NTCP right; sensitisers shift TCP left.</li>
+</ul></div>
+</div>
+
+<h3 style="border:0">Key diagrams</h3><div class="figs"><figure><img src="fig/f5_4.jpg" alt="Fig 5.4" loading="lazy"><figcaption>Fig 5.4: Two survival-curve shapes: straight (high LET) vs shoulder</figcaption></figure><figure><img src="fig/f5_6.jpg" alt="Fig 5.6" loading="lazy"><figcaption>Fig 5.6: Reading n, Dq, D1, D0 from a survival curve</figcaption></figure><figure><img src="fig/f5_7.jpg" alt="Fig 5.7" loading="lazy"><figcaption>Fig 5.7: LQ alpha and beta components</figcaption></figure><figure><img src="fig/f5_8.jpg" alt="Fig 5.8" loading="lazy"><figcaption>Fig 5.8: alpha/beta = 2 Gy (late, broad shoulder) vs 10 Gy (early)</figcaption></figure><figure><img src="fig/f5_10.jpg" alt="Fig 5.10" loading="lazy"><figcaption>Fig 5.10: Fe plot: 1/D vs d, intercept/slope = alpha/beta</figcaption></figure><figure><img src="fig/f5_11.jpg" alt="Fig 5.11" loading="lazy"><figcaption>Fig 5.11: TCP and NTCP sigmoid curves; therapeutic window</figcaption></figure></div>
+<h2>Ch 6 - 4 Rs, dose rate, fractionation, cell death</h2>
+<div class="grid">
+<div class="box"><h3>4 Rs (Withers 1975&dagger;) + 5th</h3>
+<table><tr><th>R</th><th>Time</th><th>Helps</th></tr>
+<tr><td>Repair (SLD)</td><td>t&frac12; ~1 h, done ~6 h</td><td>normal tissue (resistant)</td></tr>
+<tr><td>Reassortment / redistribution</td><td>~6 h</td><td>tumour (sensitive)</td></tr>
+<tr><td>Repopulation</td><td>accelerates ~4 wk human, ~2 wk mouse</td><td>tissue (resistant)</td></tr>
+<tr><td>Reoxygenation</td><td>hours-days; only in real tumour</td><td>tumour (sensitive)</td></tr>
+<tr><td>Radiosensitivity (5th, Steel 1989&dagger;)</td><td colspan="2">intrinsic</td></tr></table>
+</div>
+<div class="box"><h3>SLDR vs PLDR</h3>
+<table><tr><th></th><th>SLDR</th><th>PLDR</th></tr>
+<tr><td>Shown by</td><td>split dose (Elkind-Sutton 1960: 15.58 vs 7.63+7.95 Gy, 24 &deg;C)</td><td>one dose + poor conditions (delayed plating, plateau phase, crowding)</td></tr>
+<tr><td>Time</td><td>~2 h</td><td>2-8 h+</td></tr>
+<tr><td>Curve</td><td>restores shoulder (Dq)</td><td>shallower (D&#8320; &uarr;), Dq same</td></tr>
+<tr><td>Neutrons</td><td>small/absent</td><td>absent</td></tr>
+<tr><td>Patients</td><td>yes (fractionation, dose rate)</td><td><span class="k">cannot be detected in vivo</span></td></tr></table>
+<p>Split dose: 0.005 &rarr; 0.02 (x4); PLDR 0.01 &rarr; 0.04. <span class="f">SF<sub>split</sub> = [SF(D/2)]&sup2;</span>. 24 &deg;C between doses: repair yes, cycling no &rarr; better survival, no dip.</p>
+</div>
+<div class="box"><h3>Dose rate</h3>
+<ul>
+<li>Lower rate &rarr; less effect (SLDR during exposure); effect range <span class="n">0.01-1 Gy/min</span>; &gt;1 Gy/min = acute; killing falls clearly below ~30 cGy/h.</li>
+<li>Broad-shoulder cells show largest dose-rate effect.</li>
+<li><span class="k">Inverse dose-rate effect</span>: HeLa 0.37 Gy/h kills more than 1.54 Gy/h (cells pile up at G2 block). Order as rate falls: acute &rarr; repair &rarr; redistribution &rarr; proliferation; &alpha; component never removed.</li>
+<li>LDR brachytherapy Ir-192 (was Ra-226): 50-70 Gy over 5-9 d (~0.4 Gy/h = 0.007 Gy/min); effective D&#8320; ~3 Gy. Intracavitary vs interstitial.</li>
+</ul></div>
+<div class="box"><h3>Fractionation maths</h3>
+<p class="f">SF<sub>total</sub> = (SF<sub>d</sub>)<sup>n</sup> &nbsp; D<sub>0,eff</sub> = -d / ln SF<sub>d</sub> &nbsp; D<sub>10,eff</sub> = 2.303 D<sub>0,eff</sub></p>
+<div class="tip">SF(2 Gy)=0.5 &rarr; D<sub>0,eff</sub> = 2/0.693 = 2.885 Gy; 30 fx &rarr; 0.5<sup>30</sup> = 9.3x10<sup>-10</sup>.: D<sub>10,eff</sub> 2.3 Gy &rarr; D<sub>0,eff</sub> 1 Gy; 0.25x4 = 1 Gy = 1 D&#8320; &rarr; 37%.</div>
+<p class="f">BED = D(1 + d/(&alpha;/&beta;)) = nd&middot;RE &nbsp; RE = 1 + d/(&alpha;/&beta;) &nbsp; EQD2 = BED / (1 + 2/(&alpha;/&beta;)) &nbsp; D&#8322; = D&#8321;(&alpha;/&beta; + d&#8321;)/(&alpha;/&beta; + d&#8322;)</p>
+<div class="tip">60 Gy/30: BED&#8323; = 60(1+2/3) = 100; BED&#8321;&#8320; = 72. 55/20 (d=2.75): BED&#8323; = 105.4, EQD2&#8323; = 105.4/1.667 = 63.25. 60@2 &rarr; 3 Gy/fx with &alpha;/&beta;=3: 60x5/6 = 50 Gy. 20x3 Gy &alpha;/&beta;=3: BED = 120, EQD2 = 72. BED unit = Gy. Always state which &alpha;/&beta; (subscript).</div>
+<p>History: Strandqvist 1944 log-log slope 0.33 (double time &rarr; 1.257x dose); Ellis NSD <span class="f">D = NSD&middot;T<sup>0.11</sup>&middot;N<sup>0.24</sup></span> (historical).</p>
+<p>Gaps: H&amp;N <span class="n">-1.4%</span> control/day; cervix -0.5%/day; breast/prostate none; compensate <span class="n">~0.6 Gy/day</span> (3 d &rarr; 4.2%, 1.8 Gy).</p>
+</div>
+<div class="box"><h3>Schedules</h3>
+<ul>
+<li>Conventional 1.8-2 Gy/d, 5/wk, 6-7 wk. Hyperfractionation: &ge;2/day, &ge;6 h apart, spares late tissue. Hypofractionation: fewer, larger; suits low &alpha;/&beta; (prostate). Accelerated: shorter overall time vs repopulation. Radiosurgery: one large dose.</li>
+<li>EORTC: 72 Gy / 45 fx x 1.6 Gy tid / 5 wk &rarr; more acute + consequential late effects.</li>
+<li>CHART: 36 fx / 12 consecutive days, tid 6 h apart, 50.4-54 Gy; spinal cord concern.</li>
+<li>ARCON = accelerated + carbogen (95% O&#8322; / 5% CO&#8322;) + nicotinamide.</li>
+</ul></div>
+<div class="box"><h3>Cell death (5 modes)</h3>
+<ul>
+<li><span class="k">Mitotic catastrophe</span>: main RT death; NOT programmed.</li>
+<li><span class="k">Apoptosis</span>: programmed, ATP; cytochrome c, Bax, caspase 3, FasL; Bcl-2 blocks. Caspase-8 extrinsic / -9 intrinsic / -3 executioner.</li>
+<li><span class="k">Necrosis</span>: swell, burst, inflammation, not programmed.</li>
+<li><span class="k">Senescence</span>: alive, never divides. <span class="k">Autophagy</span>: self-digestion (Ohsumi 2016 Nobel).</li>
+<li>Telomerase; wrong options: alkaline phosphatase, tyrosine kinase, DNA polymerase, cytochrome c.</li>
+</ul></div>
+<div class="box"><h3>6.2d, 6.3, 6.6, 6.10 extras</h3>
+<ul>
+<li>Dose "recovered" by split &asymp; Dq; SF<sub>split</sub>/SF<sub>single</sub> = n (0.02/0.005 = 4 &rarr; n = 4, Dq = 2.08 Gy). No shoulder &rarr; no split-dose recovery (high LET).</li>
+<li>PLDR conditions (4): PBS, plateau phase, delayed plating, delayed tumour explant (Little 1973&dagger;). Slide: small tumour 15 Gy rel. survival 1.6 at 6-8 h; large (&gt;1 cm&sup3;) 20 Gy 3.8 at 8 h. "Dq: same capacity of SLDR" &rarr; slope changes only. Melanoma link (controversial).</li>
+<li>Fractionation sparing example: D&#8320; 1.5, n 4: SF(2 Gy) 0.706 &rarr; D<sub>0,eff</sub> 5.7 Gy; 30x2 Gy 3x10<sup>-5</sup> vs single 60 Gy 2x10<sup>-17</sup>. 10<sup>9</sup> clonogens, 60 Gy, D<sub>0,eff</sub> 3 &rarr; TCP 0.13; D<sub>0,eff</sub> 2.5 &rarr; 0.96.</li>
+<li>Isoeffect history: Paris ram testes (Regaud&dagger;, 1920s) &rarr; fractionation sterilises, spares skin; Strandqvist; Ellis NSD (unit ret&dagger;; fails for late/large fractions). Isoeffect curve: late tissues steep ("intensive repair"); dog heart 50% effusion: 17 Gy single, 46 @4, 59 @3, 72 @2.</li>
+<li>Apoptosis pathways (2): extrinsic (FasL &rarr; caspase-8) and intrinsic (Bax &rarr; cytochrome c &rarr; caspase-9) &rarr; caspase-3; PS exposed; blebs, apoptotic bodies; secondary necrosis if not phagocytosed. High dose &rarr; necrosis; lower &rarr; apoptosis. Senescence = short telomeres; autophagosome + lysosome.</li>
+</ul></div>
+</div>
+
+<h3 style="border:0">Key diagrams</h3><div class="figs"><figure><img src="fig/f6_2.jpg" alt="Fig 6.2" loading="lazy"><figcaption>Fig 6.2: Split dose at 37 C: repair, reassortment dip, repopulation</figcaption></figure><figure><img src="fig/f6_4.jpg" alt="Fig 6.4" loading="lazy"><figcaption>Fig 6.4: Dose-rate effect on survival curve</figcaption></figure><figure><img src="fig/f6_7.jpg" alt="Fig 6.7" loading="lazy"><figcaption>Fig 6.7: Processes as dose rate falls: acute, repair, redistribution, proliferation</figcaption></figure><figure><img src="fig/f6_9.jpg" alt="Fig 6.9" loading="lazy"><figcaption>Fig 6.9: Effective survival curve of a fractionated course</figcaption></figure><figure><img src="fig/f6_11.jpg" alt="Fig 6.11" loading="lazy"><figcaption>Fig 6.11: Isoeffect curves: late tissues steep, early shallow</figcaption></figure></div>
+<h2>Ch 7 - LET, RBE, OER, hypoxia, tissue sensitivity</h2>
+<div class="grid">
+<div class="box"><h3>LET (keV/&mu;m), ranked low &rarr; high</h3>
+<table><tr><th>Radiation</th><th>LET</th></tr>
+<tr><td>Co-60 &gamma;</td><td>0.2</td></tr><tr><td>150 MeV p</td><td>0.5</td></tr><tr><td>250 kV X (reference)</td><td>2.0</td></tr>
+<tr><td>10 MeV p</td><td>4.7</td></tr><tr><td>14 MeV n</td><td>12 track-avg / <span class="k">100 energy-avg</span></td></tr>
+<tr><td>2.5 MeV &alpha;</td><td>166</td></tr><tr><td>Fe ions (2 GeV)</td><td>1000</td></tr></table>
+<p>LET &prop; z&sup2;/v&sup2;&dagger;: same particle, <span class="k">higher energy = faster = lower LET</span>. &alpha; = 4x proton at same speed. Photons/neutrons: LET of secondary e-/recoil p. Clinical proton RBE 1.1&dagger;. Energy average over-estimates neutrons; averages agree for photons/mono-energetic.</p>
+<p>Low vs high LET: 2/3 indirect vs direct; shoulder vs straight; much SLDR/dose-rate effect vs little; OER 2.5-3 vs ~1; cycle variation large vs small. At 100 keV/&mu;m ionisations ~2 nm apart = DNA width.</p>
+</div>
+<div class="box"><h3>RBE</h3>
+<p class="f">RBE = D<sub>250 kV</sub> / D<sub>test</sub> (same effect) &nbsp; RBE<sub>max</sub> = &alpha;<sub>test</sub>/&alpha;<sub>X</sub></p>
+<p>Rises slowly &lt;10, <span class="k">steeply 10-100</span>, <span class="k">peak ~100 keV/&mu;m</span>, falls above (overkill). RBE larger at: low dose/fraction (X-ray shoulder), fractionation, low dose rate; depends on endpoint, tissue, O&#8322;. Slide: RBE 3.0 at SF 0.6 &rarr; 1.5 at SF 0.01; fractionated 2.6. Slide 10 at 1%: &alpha; 280 rad, n 470, X 950 &rarr; RBE 3.4 / 2.</p>
+<div class="tip">Technique: X-ray LQ e<sup>-(0.15D+0.05D&sup2;)</sup>, neutron e<sup>-0.842D</sup>. Set -lnSF; D<sub>n</sub> = -lnSF/0.842; D<sub>X</sub> = [-0.15+&radic;(0.0225+0.2(-lnSF))]/0.1; RBE = D<sub>X</sub>/D<sub>n</sub>: 3.3 (SF 0.6), 2.0 (0.1); max 0.842/0.15 = 5.6.</div>
+</div>
+<div class="box"><h3>W<sub>R</sub> &amp; equivalent dose</h3>
+<p class="f">H = &Sigma; W<sub>R</sub> D (Sv) &nbsp; 1 Gy = 1 J/kg</p>
+<p>Photons, electrons, muons <span class="n">1</span>; protons, pions <span class="n">2</span>; &alpha;, fission fragments, heavy ions <span class="n">20</span>; <span class="k">neutrons energy-dependent</span>: thermal ~2.5, peak ~20.7 at 1 MeV, 8.81 at 10 MeV, 5.5 at 50 MeV. ICRP 103 (2007)&dagger;.</p>
+<div class="tip">2 mGy &gamma; + 0.5 mGy 1-MeV n + 0.1 mGy &alpha; = 2 + 10.35 + 2 = 14.35 mSv (neutrons 19% of Gy, 72% of Sv). 3 mGy &gamma; + 1 mGy 10-MeV n = 11.81 mSv.</div>
+</div>
+<div class="box"><h3>OER &amp; oxygen fixation</h3>
+<p class="f">OER = D<sub>hypoxic</sub> / D<sub>oxic</sub> (same effect) &ge; 1</p>
+<p>X/&gamma; <span class="n">2.5-3</span> (slightly lower ~2 at &lt;2 Gy&dagger;); 15 MeV n <span class="n">1.6</span>; &alpha; <span class="n">1.0</span>. OER falls as LET rises; ~1 at 100 keV/&mu;m. Ranking OER: 1 MV X &gt; 10 MeV p &gt; 3 MeV &alpha;; 8.3 MeV &alpha; has lower LET, higher OER than 4 MeV &alpha;.</p>
+<p>Fixation: R&bull; (lives 10<sup>-5</sup> s) + O&#8322; &rarr; RO&#8322;&bull; (permanent) vs -SH (GSH &rarr; GSSG) restores. O&#8322; must be present at/within ms of irradiation. Hypoxia: <span class="k">D&#8320; x OER, Dq x OER, n same</span> (oxic D&#8320; 1.2, hypoxic 3.0 &rarr; OER 2.5 = ratio of D&#8320; = ratio of Dq).</p>
+<p class="f">S(p) = (mp + K)/(p + K), m = 3, K = 3 mmHg; mmHg &asymp; %O&#8322; x 7.6</p>
+<p>Air 21% = 155-160 mmHg, S = 2.96; <span class="k">half effect at ~0.5% / 3 mmHg</span>; no change 5%-100%; venous 40 mmHg. Dose factor = 2.96/S: 0.1% 2.11; 0.4% (3 mmHg) 1.48; 1% 1.22; 2% 1.11 (S 2.67 = 90%); 40 mmHg 1.04. 70 Gy at 3 mmHg &rarr; 104 Gy.</p>
+</div>
+<div class="box"><h3>Tumour hypoxia</h3>
+<ul>
+<li>Thomlinson &amp; Gray 1955: O&#8322; diffuses <span class="n">~150 &mu;m</span>; cords &lt;160 &mu;m no necrosis; &gt;200 &mu;m always necrotic; living rim 100-180 &mu;m.</li>
+<li>Hypoxic fraction <span class="n">10-20%</span> (~15%), <span class="k">up to 50%</span>. Chronic = diffusion-limited (carbogen, HBOT); acute = perfusion-limited, vessels close (Brown 1979; nicotinamide).</li>
+<li>HIF-1&alpha; (VHL degrades in normoxia; 2019 Nobel Kaelin/Ratcliffe/Semenza) &rarr; VEGF, GLUT1, angiogenic switch; CAIX, LOX, MMPs; hypoxia &rarr; G1 arrest.</li>
+<li>Reoxygenation: 14% anoxic &rarr; ~100% after 10 Gy &rarr; 32% at 1 h &rarr; ~20% by 6-12 h. Survivors dominated by hypoxic cells (15% hypoxic &rarr; 85% of survivors).</li>
+<li>Detect: Eppendorf pO&#8322; electrode&dagger; (invasive, points); biopsy CD31 (vessels), HIF-1&alpha;, pimonidazole (&lt;10 mmHg); PET: FMISO (2-4 h, low contrast), FAZA, HX4 (faster clearance), Cu-ATSM (not nitroimidazole); FDG &ne; hypoxia. DCE-MRI, BOLD-MRI. Cut-offs <span class="n">TMR &gt; 1.5</span>, <span class="n">TBR &gt; 1.3</span>. Nitroimidazole: 1e- &rarr; radical anion; O&#8322; reverses (futile cycle); no O&#8322; &rarr; R-NHOH trapped.</li>
+<li>Overcome (4 groups): more O&#8322; (quit smoking - CO binds Hb 200x, HBOT ~6.6% gain + fire/vasoconstriction, carbogen, nicotinamide, ARCON); O&#8322; mimic (misonidazole, nimorazole - DAHANCA 5); kill hypoxic (tirapazamine - TROG 98.02); change radiation (high-LET, boost). Hyperthermia. <span class="k">Glutaraldehyde = fixative, NOT sensitiser</span>.</li>
+<li>HIGRT / dose painting: DPBC (contour) vs DPBN (voxel). Thorwarth 2007: +20% boost &rarr; TCP +14.3%. Chang 2013: TCP 73% std, 94% uniform (parotid NTCP +22%), 93% hypoxia-directed (flat).</li>
+</ul></div>
+<div class="box"><h3>Tissue sensitivity</h3>
+<ul>
+<li>Bergonie-Tribondeau 1906 (3): mitotically active, high potency / long dividing future, undifferentiated. Vogin 2013 "first approximation". Also suggested carcinogenesis.</li>
+<li>Rank (slide 50): <span class="k">embryonic &gt; lymphocytes &gt; erythrocytes(precursors) &gt; sperm &gt; epithelial &gt; endothelial &gt; connective &gt; bone &gt; nerve &gt; brain &gt; muscle</span>. Lymphocyte = exception (interphase apoptosis). Sensitive curve = steeper = smaller D&#8320;.</li>
+<li>Embryo: pre-implantation (human d 1-9) all-or-none death ~80%; organogenesis (d 9-41) malformations ~100%, neonatal death 70%; fetus resistant. A-bomb severe mental retardation: window <span class="n">8-15 wk</span>, &gt;0.5 Gy (0.5-0.99 Gy 25%; &ge;1 Gy 75%; 16-25 wk 39%; &gt;26 wk none).</li>
+<li>Testis: 0.15 Gy oligospermia; 0.5 Gy azoospermia (temp); 2 Gy ~1 y recovery; permanent <span class="n">6 Gy single or 2.5-3 Gy fractionated</span> (fractionation worsens!); Leydig resistant &rarr; hormones unaffected (17/24 Gy scrotum failed to castrate). Table: 10-30 cGy oligo; 30-50 azoo 4-12 mo; 50-100 all azoo 3-17 mo; 100-200 2-9+ mo; 200-300 may be permanent; 1200/2400 permanent.</li>
+<li>Ovary: no latent, age-dependent: <span class="n">12 Gy</span> pre-puberty &rarr; <span class="n">2 Gy</span> near menopause; menopause-like. RT-OA (Asiri 2016): 15 Gy/4-5, 16/4, 20/10; non-invasive, adjustable (RT-OS), 6-8 wk, MRI.</li>
+</ul></div>
+<div class="box"><h3>7.6a, 7.8d-e, 7.9 extras</h3>
+<ul>
+<li>Words: normoxia (~21%), hypoxia (low), anoxia (none). Hypoxic cells up to ~3x more resistant.</li>
+<li>Group 4 change radiation: high-LET beams (OER &rarr; 1), fractionation (reoxygenation), boost to hypoxic region.</li>
+<li>HIGRT 4 steps: hypoxia imaging (PET/MRI) &rarr; quantification/segmentation &rarr; dose prescription + IMRT plan &rarr; evaluation (TCP/NTCP). Slide plan: standard 66.5/57/50/40 Gy; HIGRT adds 76/74/72 Gy.</li>
+<li>Preclinical: Christian - PET (2.7 mm) vs autoradiography (0.1 mm) volumes matched only 39%; Schutze - FaDu, 25 vs 35 Gy, FMISO-hypoxic tumours worse control, extra dose helped.</li>
+<li>Planning studies 2001-2015 (13, nearly all HNSCC; Even 2015 NSCLC): Chao 2001 Cu-ATSM TMR&gt;2, 80 Gy; Thorwarth 2007 DPBN; Hendrickson 2011 TCP +17%; Toma-Dasu 2012 121 Gy; Henriques 2014 TCP +18.1%, parotid +4.6%; Even 2015 HX4 129 Gy. 7 trials registered.</li>
+<li>HIGRT challenges (4): PET resolution; hypoxia changes (acute cycling, reoxygenation); normal-tissue tolerance; full compensation needs 100-150 Gy (boosts limited to ~80-90 Gy).</li>
+</ul></div>
+</div>
+
+<h3 style="border:0">Key diagrams</h3><div class="figs"><figure><img src="fig/f7_3.jpg" alt="Fig 7.3" loading="lazy"><figcaption>Fig 7.3: RBE depends on survival level and fractionation</figcaption></figure><figure><img src="fig/f7_5.jpg" alt="Fig 7.5" loading="lazy"><figcaption>Fig 7.5: RBE vs LET: peak ~100 keV/um, overkill above</figcaption></figure><figure><img src="fig/f7_8.jpg" alt="Fig 7.8" loading="lazy"><figcaption>Fig 7.8: OER and RBE vs LET on one graph</figcaption></figure><figure><img src="fig/f7_10.jpg" alt="Fig 7.10" loading="lazy"><figcaption>Fig 7.10: Oxygen fixation hypothesis: R* + O2 vs -SH repair</figcaption></figure><figure><img src="fig/f7_12.jpg" alt="Fig 7.12" loading="lazy"><figcaption>Fig 7.12: Relative radiosensitivity vs pO2: half effect at 3 mmHg / 0.5%</figcaption></figure><figure><img src="fig/f7_13.jpg" alt="Fig 7.13" loading="lazy"><figcaption>Fig 7.13: Thomlinson-Gray tumour cords, 150-200 um</figcaption></figure><figure><img src="fig/f7_16.jpg" alt="Fig 7.16" loading="lazy"><figcaption>Fig 7.16: Reoxygenation after a dose</figcaption></figure><figure><img src="fig/f7_17.jpg" alt="Fig 7.17" loading="lazy"><figcaption>Fig 7.17: Nitroimidazole trapping and oxygen-mimic fixing</figcaption></figure><figure><img src="fig/f7_25.jpg" alt="Fig 7.25" loading="lazy"><figcaption>Fig 7.25: Cell types ranked by radiosensitivity</figcaption></figure><figure><img src="fig/f7_26.jpg" alt="Fig 7.26" loading="lazy"><figcaption>Fig 7.26: Embryo/fetus effects by stage</figcaption></figure><figure><img src="fig/f7_28.jpg" alt="Fig 7.28" loading="lazy"><figcaption>Fig 7.28: Male vs female sterility doses</figcaption></figure></div>
+<h2>Formula picker + unit checks</h2>
+<table><tr><th>Given</th><th>Use</th></tr>
+<tr><td>colonies, seeded</td><td>PE, SF = col/(seeded x PE)</td></tr>
+<tr><td>dose in D&#8320; units / asks D&#8320;, D&#8321;&#8320;</td><td>SF = e<sup>-D/D&#8320;</sup>; D&#8321;&#8320; = 2.303 D&#8320;</td></tr>
+<tr><td>n, D&#8320; / shoulder</td><td>Dq = D&#8320; ln n</td></tr>
+<tr><td>&alpha;, &beta;, D</td><td>SF = e<sup>-&alpha;D-&beta;D&sup2;</sup></td></tr>
+<tr><td>compare schedules</td><td>BED, EQD2, D&#8322; = D&#8321;(&alpha;/&beta;+d&#8321;)/(&alpha;/&beta;+d&#8322;)</td></tr>
+<tr><td>N clonogens + SF</td><td>TCP = e<sup>-N&middot;SF</sup></td></tr>
+<tr><td>dicentric yield</td><td>Y = c + &alpha;D + &beta;D&sup2; &rarr; quadratic</td></tr>
+<tr><td>Gy + radiation type</td><td>H = W<sub>R</sub> D</td></tr>
+<tr><td>O&#8322; doses / pressure</td><td>OER; S(p) = (3p+3)/(p+3)</td></tr>
+<tr><td>two radiations same effect</td><td>RBE = D<sub>250</sub>/D<sub>test</sub></td></tr>
+<tr><td>gap days</td><td>0.6 Gy/day; 1.4%/day (H&amp;N)</td></tr></table>
+<p>Units: Gy = J/kg; Sv = W<sub>R</sub> x Gy; LET keV/&mu;m; &alpha; Gy<sup>-1</sup>; &beta; Gy<sup>-2</sup>; &alpha;/&beta; Gy; BED Gy; Dq, D&#8320; Gy; n dimensionless; 100 rad = 1 Gy; 1 cGy = 0.01 Gy.</p>
+
+<p class="small">Built from RadBio_Revision_Notes.pdf Ch 1-9 (key-points boxes, Ch 8 formula sheet, Ch 9 walkthrough). Numbers checked against the notes' worked examples; recompute before relying on them in a new context.</p>
+</body></html>
